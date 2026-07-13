@@ -55,6 +55,7 @@
             <!-- Middle: Main Content -->
             <div class="row flex-grow-1 align-items-center mt-5 mb-5">
                 <div class="col-lg-8">
+                  <h2>3D surface comparision</h2>
                     <h1 class="sti-hero-title">
                         <span class="text-dark">Validate Manufacturing Parts Against CAD Models with</span>
                         <span class="sti-orange-text">Full Surface Inspection</span>

@@ -745,40 +745,67 @@ $dev_step = 1;
                             <h3 class="design-req-title mt-4 mb-3">Summary</h3>
                             <div class="summary-container">
                                 <div class="summary-row">
-                                    <div class="summary-label">Contact Information</div>
-                                    <a class="summary-edit-link" onclick="showStep(1)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Contact Information</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-contact">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(1)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Uploaded Files</div>
-                                    <a class="summary-edit-link" onclick="showStep(2)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Uploaded Files</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-files">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(2)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Part Application</div>
-                                    <a class="summary-edit-link" onclick="showStep(3)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Part Application</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-application">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(3)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Part Size</div>
-                                    <a class="summary-edit-link" onclick="showStep(3)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Part Size</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-size">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(3)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Quantity</div>
-                                    <a class="summary-edit-link" onclick="showStep(3)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Quantity</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-quantity">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(3)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Material Priorities</div>
-                                    <a class="summary-edit-link" onclick="showStep(4)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Material Priorities</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-material">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(4)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Timeline</div>
-                                    <a class="summary-edit-link" onclick="showStep(5)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Timeline</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-timeline">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(5)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Budget</div>
-                                    <a class="summary-edit-link" onclick="showStep(5)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Budget</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-budget">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(5)">Edit</a>
                                 </div>
                                 <div class="summary-row">
-                                    <div class="summary-label">Shipping</div>
-                                    <a class="summary-edit-link" onclick="showStep(5)">Edit</a>
+                                    <div class="summary-left">
+                                        <div class="summary-label">Shipping & NDA</div>
+                                        <div class="summary-value text-muted small mt-1 fw-medium" id="sum-shipping">-</div>
+                                    </div>
+                                    <a class="summary-edit-link" onclick="editStep(5)">Edit</a>
                                 </div>
                             </div>
 
@@ -934,6 +961,14 @@ $dev_step = 1;
         // Global array to store uploaded files for Step 2
         let uploadedPrintFiles = [];
 
+        // Flag to return to review step after editing
+        let returnToReview = false;
+
+        function editStep(stepNumber) {
+            returnToReview = true;
+            showStep(stepNumber);
+        }
+
         // Update Country Code & Flag in Mobile Input Group
         function updateCountryCode(select) {
             const selectedOption = select.options[select.selectedIndex];
@@ -1042,7 +1077,12 @@ $dev_step = 1;
 
         // Validate Step 2 & Proceed to Step 3
         function validateStep2AndContinue() {
-            showStep(3);
+            if (returnToReview) {
+                returnToReview = false;
+                showStep(7);
+            } else {
+                showStep(3);
+            }
         }
 
         // Check form validity for Step 3
@@ -1077,7 +1117,12 @@ $dev_step = 1;
         }
 
         function validateStep3AndContinue() {
-            showStep(4);
+            if (returnToReview) {
+                returnToReview = false;
+                showStep(7);
+            } else {
+                showStep(4);
+            }
         }
 
         // Check form validity for Step 4
@@ -1111,7 +1156,12 @@ $dev_step = 1;
         }
 
         function validateStep4AndContinue() {
-            showStep(5);
+            if (returnToReview) {
+                returnToReview = false;
+                showStep(7);
+            } else {
+                showStep(5);
+            }
         }
 
         // Check form validity for Step 5
@@ -1135,7 +1185,12 @@ $dev_step = 1;
         }
 
         function validateStep5AndContinue() {
-            showStep(6);
+            if (returnToReview) {
+                returnToReview = false;
+                showStep(7);
+            } else {
+                showStep(6);
+            }
         }
 
         // Check form validity for Step 6
@@ -1156,6 +1211,9 @@ $dev_step = 1;
         }
 
         function validateStep6AndContinue() {
+            if (returnToReview) {
+                returnToReview = false;
+            }
             showStep(7);
         }
 
@@ -1175,9 +1233,61 @@ $dev_step = 1;
             if (targetStep) targetStep.style.display = 'block';
             window.scrollTo(0, 0);
 
+            if (stepNumber === 7) populateSummary();
+            
             if (stepNumber === 8 && typeof triggerConfetti === 'function') {
                 setTimeout(triggerConfetti, 100);
             }
+        }
+
+        function populateSummary() {
+            // Contact Information (Step 1)
+            let contactInfo = [];
+            let name = $('#fullName').val();
+            if (name) contactInfo.push(name);
+            let company = $('#companyName').val();
+            if (company) contactInfo.push(company);
+            let email = $('#emailAddress').val();
+            if (email) contactInfo.push(email);
+            $('#sum-contact').text(contactInfo.join(', ') || '-');
+
+            // Uploaded Files (Step 2)
+            let filesCount = uploadedPrintFiles.length;
+            $('#sum-files').text(filesCount > 0 ? filesCount + ' file(s) uploaded' : 'None');
+
+            // Part Application (Step 3)
+            let partApps = [];
+            $('input[name="partApplication[]"]:checked').each(function() {
+                partApps.push($(this).val());
+            });
+            $('#sum-application').text(partApps.join(', ') || '-');
+
+            // Part Size (Step 3)
+            $('#sum-size').text($('#selectedPartSize').val() || '-');
+
+            // Quantity (Step 3)
+            $('#sum-quantity').text($('#selectedQuantityRequired').val() || '-');
+
+            // Material Priorities (Step 4)
+            let matReqs = [];
+            $('input[name="materialRequirements[]"]:checked').each(function() {
+                matReqs.push($(this).val());
+            });
+            $('#sum-material').text(matReqs.join(', ') || '-');
+
+            // Timeline (Step 5)
+            $('#sum-timeline').text($('#selectedRequiredTimeline').val() || '-');
+
+            // Budget (Step 5)
+            $('#sum-budget').text($('#selectedBudgetExpectation').val() || '-');
+
+            // Shipping & NDA (Step 5)
+            let nda = $('input[name="needNDA"]:checked').val();
+            let shipping = $('input[name="needShipping"]:checked').val();
+            let shipText = [];
+            if (shipping) shipText.push('Shipping: ' + shipping);
+            if (nda) shipText.push('NDA: ' + nda);
+            $('#sum-shipping').text(shipText.join(' | ') || '-');
         }
 
         // Submit Form Data & Attachments via SMTP
@@ -1346,7 +1456,46 @@ $dev_step = 1;
             // Handle Step 1 Form Submission
             $('#printStep1Form').on('submit', function(e) {
                 e.preventDefault();
-                showStep(2);
+                
+                const btn = $('#btnStep1Continue');
+                const origText = btn.html();
+                btn.prop('disabled', true).html('Sending... <i class="fa-solid fa-spinner fa-spin"></i>');
+
+                const payload = {
+                    name: $('#fullName').val() || '',
+                    company: $('#companyName').val() || '',
+                    designation: $('#designation').val() || '',
+                    email: $('#emailAddress').val() || '',
+                    mobile: ($('#mobileCountrySelect').val() || '') + ' ' + ($('#mobileNumber').val() || ''),
+                    location: ($('#citySelect').val() || '') + ', ' + ($('#countrySelect').val() || ''),
+                    industry: $('#industrySelect').val() || ''
+                };
+
+                fetch('process-3d-printing-service-step1.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                })
+                .then(res => res.json())
+                .then(data => {
+                    btn.html(origText).prop('disabled', false);
+                    if (returnToReview) {
+                        returnToReview = false;
+                        showStep(7);
+                    } else {
+                        showStep(2);
+                    }
+                })
+                .catch(err => {
+                    console.error('Step 1 submit error:', err);
+                    btn.html(origText).prop('disabled', false);
+                    if (returnToReview) {
+                        returnToReview = false;
+                        showStep(7);
+                    } else {
+                        showStep(2);
+                    }
+                });
             });
         });
     </script>

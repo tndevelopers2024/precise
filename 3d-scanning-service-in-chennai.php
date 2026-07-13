@@ -896,7 +896,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-7">
                     <div class="precise-chennai-map">
                         <a href="https://goo.gl/maps/UWb9ZCSAkWsVuaxAA" target="_blank">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.542626217597!2d80.17991991435339!3d12.937091519136008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e9ea2925a9f%3A0x40634932298feafa!2sPrecise%203D%20Metrology%20%26%20Design%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1622315917181!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" target="_blank"></iframe>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4004.996310162207!2d80.17951892515266!3d12.93709566563367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e8152fa7e0f%3A0x2e182c875996c4e4!2sPrecise3DM!5e1!3m2!1sen!2sin!4v1783683173147!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" target="_blank"></iframe>
                         </a>
                     </div>
                 </div>

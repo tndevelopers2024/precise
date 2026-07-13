@@ -159,6 +159,63 @@
   ]
 }
 </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Geomagic Software used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Geomagic Software is used for reverse engineering, 3D inspection, Scan-to-CAD workflows, mesh processing, and converting 3D scan data into accurate, editable CAD models for engineering and manufacturing applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Geomagic software products are available through Precise3DM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Precise3DM offers the complete Geomagic software suite, including Geomagic Design X, Geomagic Control X, Geomagic for SOLIDWORKS, Geomagic Wrap, and Geomagic Freeform to support reverse engineering, metrology, inspection, and product design workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Geomagic Software work with different 3D scanners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Geomagic Software is compatible with most major metrology-grade 3D scanners, including structured light scanners, handheld laser scanners, LiDAR scanners, portable CMMs, and point cloud data from various manufacturers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries use Geomagic Software?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Geomagic Software is widely used in automotive, aerospace, manufacturing, medical, tooling, consumer products, education, and industrial engineering for reverse engineering, quality inspection, product development, and digital manufacturing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Precise3DM for Geomagic Software in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Precise3DM is India's Platinum Geomagic Partner, offering the complete Geomagic software portfolio along with live demonstrations, software installation, training, implementation, and dedicated technical support to help businesses streamline their Scan-to-CAD and inspection workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Precise3DM provide a free demo of Geomagic Software?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Precise3DM offers live online and onsite demonstrations using your own scan data, enabling you to evaluate Geomagic Software before purchase. The company also provides consultation, training, and ongoing after-sales support."
+      }
+    }
+  ]
+}
+</script>
+
     
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

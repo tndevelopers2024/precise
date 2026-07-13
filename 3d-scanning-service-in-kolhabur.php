@@ -804,7 +804,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </p>
                     <p>You can also courier the part to us for 3D Scanning on below address</p>
                     <p><strong>PRECISE3DM Kolhapur </strong><br>
-                   R.S No. 199B/1-3, Gokul Shirgaon, Kolhapur , <br/> Maharashtra, India. - 416234.</p>
+                   Neo Tech Industries, D16/1, MIDC Gokul Shirgaon, Kolhapur 416234</p>
                         
                 </div>
                 <div class="col-md-6">

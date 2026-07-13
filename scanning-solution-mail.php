@@ -105,7 +105,7 @@ if($_POST)
     try {
         $mail->send();
         $_SESSION['status'] = "success";
-        header("Location: success-page.php");
+        header("Location: thankyou-page.php");
         exit;
     } catch (Exception $e) {
         $_SESSION['status'] = "failure";

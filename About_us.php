@@ -6,9 +6,9 @@
    <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <title>About us</title>
+   <title>About Precise3DM | Leading 3D Scanning & Digital Manufacturing Company</title>
    <meta name="description"
-      content="Precise3DM Provides complete digital manufacturing solution that includes 3D scanning services, 3D reverse engineering, 3D Printing services & 3d Inspection for all industries">
+      content="Learn about Precise3DM, India’s trusted provider of 3D scanners, reverse engineering, 3D printing, inspection software, and digital manufacturing solutions.">
    <meta name="keywords"
       content="3D scanning services,best 3d scanning services in india, best 3d printing services in india, cmm inspection, 3d laser scanner, 3d reverse engineering software">
    <meta name="robots" content="index, follow" />
@@ -18,17 +18,17 @@
    <meta name="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta name="twitter:card" content="Precise3dm" />
    <meta name="twitter:site" content="@precise3d_m" />
-   <meta property="twitter:title" content="About us" />
+   <meta property="twitter:title" content="About Precise3DM | Leading 3D Scanning & Digital Manufacturing Company" />
    <meta name="twitter:description"
-      content="Precise3DM Provides complete digital manufacturing solution that includes 3D scanning services, 3D reverse engineering, 3D Printing services & 3d Inspection for all industries" />
+      content="Learn about Precise3DM, India’s trusted provider of 3D scanners, reverse engineering, 3D printing, inspection software, and digital manufacturing solutions." />
    <meta property="og:type" content="3D Scanning" />
-   <meta property="og:title" content="3D scanning services | 3D Printing Services | 3D software | 3D Printer" />
+   <meta property="og:title" content="About Precise3DM | Leading 3D Scanning & Digital Manufacturing Company" />
    <meta property="og:url" content="https://www.precise3dm.com/About_us.php" />
    <meta property="twitter:url" content="https://www.precise3dm.com/About_us.php" />
    <link rel="canonical" href="https://www.precise3dm.com/About_us.php"/>
    <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta property="og:description"
-      content="Precise3DM Provides complete digital manufacturing solution that includes 3D scanning services, 3D reverse engineering, 3D Printing services & 3d Inspection for all industries" />
+      content="Learn about Precise3DM, India’s trusted provider of 3D scanners, reverse engineering, 3D printing, inspection software, and digital manufacturing solutions." />
 
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">

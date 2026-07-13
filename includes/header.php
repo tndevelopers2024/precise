@@ -1635,6 +1635,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="dropdown-submenu">
                               <a class="dropdown-item text-left py-2" href="einscan-rigil.php">EinScan Rigil</a>
                             </li>
+                            <li class="dropdown-submenu">
+                              <a class="dropdown-item text-left py-2" href="tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
+                            </li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
@@ -2328,11 +2331,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <a class="nav-link" href="freescan-track-nova.php">FreeScan Trak Nova</a>
                         </div>
                       </li>
-                      <!-- <li class="nav-item">
+                      <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
                           <a class="nav-link" href="freescan-trak-pro-w.php">FreeScan Trak Pro W</a>
                         </div>
-                      </li> -->
+                      </li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -2366,8 +2369,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="mob-down-list sub-down-list">
                   <a class="nav-link" href="professional-3d-scanners.php">Professional 3D Scanners</a>
                   <div class="down-icon">
+                    <i class="fa-solid fa-sort-down"></i>
                   </div>
                 </div>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="einscan-rigil.php">EinScan Rigil</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <div class="mob-down-list sub-down-list">
+                  <a class="nav-link" href="entry-level-3d-scanners.php">Entry Level 3D Scanners</a>
+                  <div class="down-icon">
+                    <i class="fa-solid fa-sort-down"></i>
+                  </div>
+                </div>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="einstar-2.php">Einstar 2</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="einstar-vega.php">Einstar Vega</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="einstar-rockit-product.php">Einstar Rockit</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="einscan-rigil.php">Einscan Rigil</a>
+                    </div>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
@@ -2486,22 +2532,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="mob-down-list sub-down-list">
                       <a class="nav-link" href="https://www.precise3dm.com/laser-tracker-3d-scanner.php">Optical Dynamic Tracker 3D Scanners</a>
                       <div class="down-icon">
+                        <i class="fa-solid fa-sort-down"></i>
                       </div>
                     </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/freescan-track-pro2.php">Freescan Trak Pro</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/freescan-track-nova.php">Freescan Trak Nova</a>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
                       <a class="nav-link" href="https://www.precise3dm.com/hybird-technology-3d-scanners.php">Hybrid Technology 3D Scanners</a>
                       <div class="down-icon">
+                        <i class="fa-solid fa-sort-down"></i>
                       </div>
                     </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/FreeScan-Combo.php">Freescan Combo</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/einscan-hx.php">Einscan HX</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
                       <a class="nav-link" href="https://www.precise3dm.com/lidar-scanners.php">Lidar scanner</a>
                       <div class="down-icon">
+                        <i class="fa-solid fa-sort-down"></i>
                       </div>
                     </div>
+                    <ul class="sub-menu">
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/leica-rtc360.php">Lecia RTC360</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="https://www.precise3dm.com/leica-blk360.php">Lecia BLK360</a>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
@@ -2768,7 +2858,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
+                        <a class="nav-link" href="https://www.precise3dm.com/3d-scanners-by-application.php#v-pills-18">Multifunctional 3D Scanners</a>
+                        <div class="down-icon">
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="mob-down-list sub-down-list">
                         <a class="nav-link" href="https://www.precise3dm.com/3d-scanners-by-application.php#v-pills-19">Desktop 3D Scanners</a>
+                        <div class="down-icon">
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="mob-down-list sub-down-list">
+                        <a class="nav-link" href="https://www.precise3dm.com/3d-scanners-by-application.php#v-pills-20">AICTE IDEA Lab</a>
                         <div class="down-icon">
                         </div>
                       </div>
@@ -3570,12 +3674,31 @@ const downArrows = document.querySelectorAll('.down-icon');
 downArrows.forEach(arrow => {
   /* Add click event listener to each down arrow */
   arrow.addEventListener('click', function() {
-    /* Find the closest sub-menu to the clicked down-arrow */
     const subMenu = this.closest('.mob-down-list').nextElementSibling;
+    const parentLi = this.closest('.nav-item');
 
-    /* Toggle the 'open' class on the sub-menu */
     if (subMenu) {
-      subMenu.classList.toggle('open');
+      const isOpen = subMenu.classList.contains('open');
+
+      if (!isOpen) {
+        // Close sibling sub-menus and their open children
+        if (parentLi && parentLi.parentElement) {
+          const siblingLis = parentLi.parentElement.children;
+          for (let i = 0; i < siblingLis.length; i++) {
+            const li = siblingLis[i];
+            if (li !== parentLi && li.classList.contains('nav-item')) {
+              const openMenus = li.querySelectorAll('.sub-menu.open');
+              openMenus.forEach(menu => menu.classList.remove('open'));
+            }
+          }
+        }
+        subMenu.classList.add('open');
+      } else {
+        // Close this submenu and all its open children
+        subMenu.classList.remove('open');
+        const openMenus = subMenu.querySelectorAll('.sub-menu.open');
+        openMenus.forEach(menu => menu.classList.remove('open'));
+      }
     }
   });
 });

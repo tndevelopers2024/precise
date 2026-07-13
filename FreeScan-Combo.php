@@ -1034,6 +1034,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2 class="head pt-5">Blog / Case Study</h2>
         <div id="imageGallery" class="py-50" >
                 <div class="owl-carousel owl-theme chennai-carousel-box owl-prev-set">
+                  <div class="item chennai-car-item">
+            <a herf="how-3d-scanning-service-providers-save-cost-increase-profit-freescan-combo-india.php">
+              <div class="printing-service-car">
+                <div class="car-holder2  text-center"
+                  style=" background-image: url(assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png) ;">
+                  <h2><a class="case-head"
+                      href="right-metorology-grade-scanner.php">How
+                      Industrial 3D Scanner Buying Guide 2026</a></h2>
+                  <p class='text-center mb-3'>Find the ideal SHINING 3D scanner for reverse engineering, quality inspection, and large-scale industrial measurement.</p>
+                  <a style="position: relative;"
+                    href="right-metorology-grade-scanner.php"><button
+                      class="btn">Read More</button></a>
+                </div>
+              </div>
+            </a>
+          </div>
                 <div class="item chennai-car-item">
                     <a herf="how-3d-scanning-service-providers-save-cost-increase-profit-freescan-combo-india.php">
                         <div class="printing-service-car">

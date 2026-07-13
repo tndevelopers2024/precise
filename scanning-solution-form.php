@@ -16,7 +16,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/scanning-solution-form.css">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
+
+    <style>
+        .lp-stats-box{
+            gap:20px;
+        }
+    </style>
 </head>
+
 <body>
    <?php include('includes/header.php'); ?>
     <div class="form-layout-wrapper">
@@ -961,8 +968,47 @@
                     }
                 }
                 if (!isValid) return;
+
+                const btn = document.querySelector('#step1 .btn-continue-main');
+                const origText = btn.innerHTML;
+                btn.disabled = true;
+                btn.innerHTML = 'Sending... <i class="fa-solid fa-spinner fa-spin"></i>';
+
+                const payload = {
+                    name: document.getElementById('full_name') ? document.getElementById('full_name').value : '',
+                    company: document.getElementById('company_name') ? document.getElementById('company_name').value : '',
+                    designation: document.getElementById('designation') ? document.getElementById('designation').value : '',
+                    email: document.getElementById('business_email') ? document.getElementById('business_email').value : '',
+                    mobile: (document.getElementById('phoneCodeSelect') ? document.getElementById('phoneCodeSelect').value : '') + ' ' + (document.getElementById('mobile_number') ? document.getElementById('mobile_number').value : ''),
+                    location: (document.getElementById('citySelect') ? document.getElementById('citySelect').value : '') + ', ' + (document.getElementById('stateSelect') ? document.getElementById('stateSelect').value : '') + ', ' + (document.getElementById('countrySelect') ? document.getElementById('countrySelect').value : ''),
+                    industry: document.getElementById('industrySelect') ? document.getElementById('industrySelect').value : ''
+                };
+
+                fetch('process-scanning-solution-step1.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                })
+                .then(res => res.json())
+                .then(data => {
+                    btn.innerHTML = origText;
+                    btn.disabled = false;
+                    proceedToStep(2);
+                })
+                .catch(err => {
+                    console.error('Step 1 submit error:', err);
+                    btn.innerHTML = origText;
+                    btn.disabled = false;
+                    proceedToStep(2);
+                });
+                
+                return;
             }
 
+            proceedToStep(stepNumber);
+        }
+
+        function proceedToStep(stepNumber) {
             if(stepNumber === 5) populateReview();
             
             document.querySelectorAll('.step-container').forEach(step => step.classList.remove('active'));

@@ -965,8 +965,8 @@ Engineering and 3D inspection in Bangalore.</p>
                     <!--<div class="precise-chennai-map">-->
                     <!--    <a href="https://goo.gl/maps/UWb9ZCSAkWsVuaxAA" target="_blank">-->
                     <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.867803456393!2d77.5643719!3d12.9419447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x219297201a6bc65!2sAkuva%20Infotech%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1647585242498!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>--.                    <!--    </a>-->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5446454193784!2d77.5454015!3d12.936962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6e5509abaeb96d9!2sPRECISE3DM%20-%203D%20Scanning%20service%20%7C%203D%20Scanners%20%7C%20Reverse%20Engineering%20%7C%20Automotive%20Benchmarking%20Service!5e0!3m2!1sen!2sin!4v1650356141383!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <!--</div>-->
+                  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4003.62272029368!2d77.5112090751537!3d13.022364313763145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ce2f9a28197%3A0x67c998ac3e9c77b!2s2nd%20Floor%20IV%20Phase%2C%20No.%20315%2F1%2C%208th%20Cross%20Rd%2C%20Ganapathy%20Nagar%2C%20Phase%203%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560058!5e1!3m2!1sen!2sin!4v1783682418450!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+                  <!--</div>-->
                 </div>
             </div>
         </div>

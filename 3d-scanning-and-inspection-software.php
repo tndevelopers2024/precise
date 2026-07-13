@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Scanning and Inspection Software | 3D Metrology Software India</title>
@@ -663,7 +663,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <a href="assets/images/industrial-3d/Geomagic-Cx_Essential_Connect Comparision.pdf" download class="btn-download">
                         <i class="fa-solid fa-download"></i> Geomagic Control X and essential comparisons
                     </a>
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-download">
+                   <a href="assets/images/industrial-3d/Truprop-Brochure.pdf" class="btn-download">
                         <i class="fa-solid fa-download"></i> Trueprop Brochure
                     </a>
                 </div>

@@ -703,6 +703,14 @@ In addition to its primary 98-laser-line mode, the FreeScan Trio offers versatil
       <div class="container">
          <div class="blog-slider mt-5">
             <div class="blogs-img px-3">
+               <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+               <h5>
+                  Industrial 3D Scanner Buying Guide 2026
+               </h5>
+               <p>JUne 14, 2026</p>
+               <a href="right-metorology-grade-scanner.php" class="btn">Read More</a>
+            </div>
+            <div class="blogs-img px-3">
                <img src="assets/images/blog20/img1.png" alt="">
                <h5>
                   Best 3D Scanners for Small Parts and Their Costs
@@ -711,7 +719,7 @@ In addition to its primary 98-laser-line mode, the FreeScan Trio offers versatil
                <a href="best-3d-scanners-for-small-parts-and-their-costs.php" class="btn">Read More</a>
             </div>
             <div class="blogs-img px-3">
-               <img src="assets/images/new-page/img20.png" alt="">
+               <img src="assets/images/blog53/hero-right.png" alt="">
                <h5>
                  Three Types of Reverse Engineering Technic
                </h5>

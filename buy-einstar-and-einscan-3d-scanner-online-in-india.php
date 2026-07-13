@@ -3,7 +3,7 @@ ob_start();
 include('sql_folder/connect.php');
 
 $title = "Buy Einstar & Einscan 3D Scanner Online in India";
-$description = "Buy SHINING 3D entry-level scanners directly from Precise3DM with Free Delivery Across The Country.";
+$description = "Buy EinScan 3D Scanner online in India from Precise3DM. Explore high-accuracy 3D scanners for reverse engineering, inspection, design, and manufacturing.";
 $keywords = "Buy Einstar, Einscan 3D Scanner, Online in India, SHINING 3D, Precise3DM";
 
 // ======================== PREPARE CHECKOUT HANDLER ========================

@@ -1040,15 +1040,12 @@ Engineering and 3D inspection in Mumbai.</p>
                         and easily accessible for industrial locations
                     </p>
                     <p>You can also courier the part to us for 3D Scanning on below address</p>
-                    <p><strong>PRECISE3DM Mumbai</strong> <br>
-                           A 117, Amargian Industrial Complex, 
-LBS Marg, Khopat, Thane-Mumbai,
-Maharashtra 400601</p>
+                    <p><strong>PRECISE3DM Mumbai</strong> <br>203, Shri Krishna Commercial Center, 6, Udyog nagar, Off. S.V Road, Goregaon(W),Mumbai - 400062</p>
                 </div>
                 <div class="col-md-7">
                     <div class="precise-chennai-map">
                         <a href="https://goo.gl/maps/UWb9ZCSAkWsVuaxAA" target="_blank">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.9700940345165!2d72.8409032149037!3d19.24013508699398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b122f879dc6b%3A0x487f00443eca0fd5!2sTechno%20Park%20-%20The%20Wadhwa%20Group!5e0!3m2!1sen!2sin!4v1625482749864!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" target="_blank"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8151803126743!2d72.83623827525501!3d19.15396414952019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6558eee567f%3A0x3e99fb25fd985f00!2sShree%20Krishna%20Commercial%20Centre!5e1!3m2!1sen!2sin!4v1783681858932!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" target="_blank"></iframe>
                         </a>
                     </div>
                     

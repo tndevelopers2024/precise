@@ -460,6 +460,13 @@
             <div class="sec-head text-center">Blogs & Resources</div>
             <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
             data-md-slide-show="1">
+             <div class="blog-item">
+               <div class="blog">
+                  <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+                  <p>Industrial 3D Scanner Buying Guide 2026</p>
+                  <a href="right-metorology-grade-scanner.php" class="btn">Read More</a>
+               </div>
+            </div>
             <div class="blog-item">
                <div class="blog">
                   <img src="assets/images/blog20/img1.png" alt="">

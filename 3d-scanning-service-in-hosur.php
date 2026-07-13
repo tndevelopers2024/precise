@@ -976,7 +976,8 @@ Hosur 635109</p>
                 <div class="col-md-7">
                     <div class="precise-chennai-map">
                         <a href="https://goo.gl/maps/UWb9ZCSAkWsVuaxAA" target="_blank">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.8232953533325!2d77.8181235!3d12.724948000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa161e0d629bf195b!2sPRECISE3DM%20-%203D%20Scanning%20service%20%7C%203D%20Printing%20Service%20%7C%20Reverse%20Engineering%20%7C%20Automotive%20Benchmarking%20Service!5e0!3m2!1sen!2sin!4v1650541246444!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </a>
+                      	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8016.752242638728!2d77.80871169357914!3d12.7248957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae715a36c54769%3A0xa161e0d629bf195b!2sPrecise3DM%20Hosur%20%7C%203D%20Scanning%20Service%20%7C%20Reverse%20Engineering%20Service%20%7C%203D%20Printing%20Service!5e1!3m2!1sen!2sin!4v1783684521628!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </a>
                     </div>
                 </div>
             </div>

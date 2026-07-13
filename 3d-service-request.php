@@ -2109,9 +2109,41 @@ $dev_step = 1;
 
                 step1ContinueBtn.addEventListener('click', function() {
                     if (!this.disabled) {
-                        document.getElementById('step1-container').style.display = 'none';
-                        document.getElementById('step2-container').style.display = 'block';
-                        window.scrollTo(0, 0);
+                        const origText = this.innerHTML;
+                        this.disabled = true;
+                        this.innerHTML = 'Sending... <i class="fa-solid fa-spinner fa-spin"></i>';
+
+                        const payload = {
+                            name: document.getElementById('fullName') ? document.getElementById('fullName').value : '',
+                            company: document.getElementById('companyName') ? document.getElementById('companyName').value : '',
+                            mobile: (document.getElementById('dialCodeSelect') ? document.getElementById('dialCodeSelect').value : '') + ' ' + (document.getElementById('phoneNumber') ? document.getElementById('phoneNumber').value : ''),
+                            email: document.getElementById('emailAddress') ? document.getElementById('emailAddress').value : '',
+                            location: (document.getElementById('citySelect') ? document.getElementById('citySelect').value : '') + ', ' + 
+                                      (document.getElementById('stateSelect') ? document.getElementById('stateSelect').value : '') + ', ' + 
+                                      (document.getElementById('countrySelect') ? document.getElementById('countrySelect').value : '')
+                        };
+
+                        fetch('process-3d-service-step1.php', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(payload)
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            this.innerHTML = origText;
+                            this.disabled = false;
+                            document.getElementById('step1-container').style.display = 'none';
+                            document.getElementById('step2-container').style.display = 'block';
+                            window.scrollTo(0, 0);
+                        })
+                        .catch(err => {
+                            console.error('Step 1 submit error:', err);
+                            this.innerHTML = origText;
+                            this.disabled = false;
+                            document.getElementById('step1-container').style.display = 'none';
+                            document.getElementById('step2-container').style.display = 'block';
+                            window.scrollTo(0, 0);
+                        });
                     }
                 });
             }

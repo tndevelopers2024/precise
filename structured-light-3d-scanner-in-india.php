@@ -512,6 +512,19 @@ ini_set('max_execution_time', '-1');
             <div class="blog-item">
                <div class="blog">
                   <img
+                     src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png"
+                     alt="">
+                  <h5>
+                     Industrial 3D Scanner Buying Guide 2026
+                  </h5>
+                  <p>Jun 14, 2026 </p>
+                  <a href="right-metorology-grade-scanner.php" class="btn">Read
+                     More</a>
+               </div>
+            </div>
+            <div class="blog-item">
+               <div class="blog">
+                  <img
                      src="assets/images/blog-eight/img1.png"
                      alt="">
                   <h5>

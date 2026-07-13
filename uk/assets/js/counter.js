@@ -317,23 +317,26 @@
             constructor(triggerEl, counterEl) {
             const counter = document.querySelector(counterEl)
             const trigger = document.querySelector(triggerEl)
-            let num = 0
-          
-            const countUp = () => {
-              if (num <= counter.dataset.stop)
-                ++num
-                counter.textContent = num
-            }
             
-            const observer = new IntersectionObserver((el) => {
-              if (el[0].isIntersecting) {
-                const interval = setInterval(() => {
-                  (num < counter.dataset.stop) ? countUp() : clearInterval(interval)
-                }, counter.dataset.speed)
+            if (counter && trigger) {
+              let num = 0
+            
+              const countUp = () => {
+                if (num <= counter.dataset.stop)
+                  ++num
+                  counter.textContent = num
               }
-            }, { threshold: [0] })
-          
-            observer.observe(trigger)
+              
+              const observer = new IntersectionObserver((el) => {
+                if (el[0].isIntersecting) {
+                  const interval = setInterval(() => {
+                    (num < counter.dataset.stop) ? countUp() : clearInterval(interval)
+                  }, counter.dataset.speed)
+                }
+              }, { threshold: [0] })
+            
+              observer.observe(trigger)
+            }
             }
           }
           

@@ -918,6 +918,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <h2 class="blogs-heading text-center">Related Blogs</h2>
             <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
             data-md-slide-show="1">
+              <div class="blog-item">
+               <div class="blog">
+                  <img
+                     src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png"
+                     alt="">
+                  <p>Industrial 3D Scanner Buying Guide 2026</p>
+                  <a href="right-metorology-grade-scanner.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+               </div>
+            </div>
             <div class="blog-item">
                <div class="blog">
                   <img

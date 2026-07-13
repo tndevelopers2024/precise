@@ -842,9 +842,7 @@ Engineering and 3D inspection in Vadodara.</p>
                     </p>
                     <p>You can also courier the part to us for 3D Scanning on below address</p>
                     <p>
-                        <strong>  @⁨Precise 3D metrology private limited</strong><br>
-                     ⁩  
-5,FF ,Tower B, Signet Plaza, <br> Krunal char rasta,<br> Gotri 390021
+                        <strong>  @⁨Precise 3D metrology private limited</strong><br>215, Pancham Icon, Vasna Road, near D-Mart, Vadodara, Gujarat 390007
                     </p>
                     
                 </div>

@@ -1176,15 +1176,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </li>
                      <li>
                         <i class="fa-solid fa-location-arrow"></i> <b>PRECISE3DM Coimbatore</b><br>
-                        <p style="line-height:24px; margin-left:30px;">Precise3DM Coimbatore - 60/61, Vivekanandha Street, Ramakrishnapuram, Gopalakrishnapuram, Ganapathy, Coimbatore, Tamil Nadu 641006</p>
+                        <p style="line-height:24px; margin-left:30px;">First floor 60/61, Vivekananda Street, Ramakrishnapuram, Gopalakrishnapuram, Ganapathy, Coimbatore, Tamil Nadu 641006</p>
                      </li>
                   </ul>
                </div>
             </div>
             <div class="col-lg-7">
                <div class="repta">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.844354066987!2d76.9900847!3d11.050293799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8599a23edd6ed%3A0xf180528d598d5d56!2sPrecise3DM%20Coimbatore%20-%20Reverse%20Engineering%20%7C%203D%20Scanning%20service%20%7C%203D%20Printing%20Service!5e0!3m2!1sen!2sin!4v1744091778105!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4033.119068653243!2d76.98702607513124!3d11.050051254086855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859e3d1421571%3A0x4015236e13a899db!2sTrymywebsites%E2%84%A2!5e1!3m2!1sen!2sin!4v1783682348363!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
             </div>
          </div>

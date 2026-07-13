@@ -841,11 +841,7 @@ Engineering and 3D inspection in Pune.</p>
                     </p>
                     <p>You can also courier the part to us for 3D Scanning on below address</p>
                     <p>
-                        <strong>PRECISE3DM Pune</strong><br>
-                        Sai Laxmi Galaxy Kalas SR no 123<br>
-B N A Flat no 403 Vishrantwadi
-Kalas,<br> Pune.
-Pincode: 411015
+                        <strong>PRECISE3DM Pune</strong><br>Unit No-4,Sri Sai Aangan, Vishveshwar Bank Lane, Near Balewadi Phata Metro, Baner,pune-411045
                     </p>
                     <!--<p>
                         <strong>Precise 3DM Pune</strong><br>

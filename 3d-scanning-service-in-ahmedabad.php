@@ -1162,15 +1162,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </li>
                      <li>
                         <i class="fa-solid fa-location-arrow"></i> <b>PRECISE3DM Ahmedabad</b><br>
-                        <p style="line-height:24px; margin-left:30px; font-size:14px !important;">Survey No. 63 & 64, B/H GEETA BHARATI ASHRAM, TaDaskroi, Pasunj, Ahmedabad, Gujarat, 382430</p>
+                        <p style="line-height:24px; margin-left:30px; font-size:14px !important;">Shop-9,Sadguru complex,Shree Ram Chowk, Express High Way,New Maninagar Ahmedabad-382445</p>
                      </li>
                   </ul>
                </div>
             </div>
             <div class="col-lg-6">
                <div class="repta">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.4141417709156!2d72.49500817531224!3d22.971793679209483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b9f385c4837%3A0x692832318e684a57!2sPrecise3DM%20Gujarat%20-%203DMAS%20-%203D%20Scanning%20%26%203D%20Reverse%20Engineering%20%26%203D%20Inspection%20(Products%20%26%20Services)!5e0!3m2!1sen!2sin!4v1743658022817!5m2!1sen!2sin" width="650" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60531.200865447056!2d72.61169089270926!3d22.979837347251024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87005fd6381f%3A0x5cba65a889c48f11!2sSHREE%20RAM%20CHOWK!5e1!3m2!1sen!2sin!4v1783682046949!5m2!1sen!2sin" width="650" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
             </div>
          </div>

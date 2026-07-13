@@ -488,7 +488,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <section style="margin-top:80px" id="video">
          <div class="container">
-            <h2 class="main-head text-center">FreeScan UE Nova Product , Case Study & Demo Videos </h2>
+            <h2 class="main-head text-center">Optimscan Q12 Product , Case Study & Demo Videos </h2>
             <div class="row mt-5">
                <div class="col-lg-8">
                   <div class="main-video h-100">
@@ -529,6 +529,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Slider with Responsive Settings -->
             <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
                data-md-slide-show="1">
+              <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+                     <h5>
+                        Industrial 3D Scanner Buying Guide 2026
+                     </h5>
+                     <p>June 14, 2026</p>
+                     <a href="right-metorology-grade-scanner.php" class="btn">Read
+                        More</a>
+                  </div>
+               </div>
               <div class="blog-item">
                   <div class="blog">
                      <img src="assets/images/blog20/img1.png" alt="">

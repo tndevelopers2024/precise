@@ -11,7 +11,7 @@
     <meta name="keywords" content="3D scanning services UK, UK 3D scanner supplier, 3D scanning technology UK, buy 3D scanner UK, high-accuracy 3D scanners, best 3D scanner UK, industrial 3D scanners">
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https:www.precise3dm.com/uk/index.php" />
+    <meta property="og:url" content="https:www.precise3dm.com/uk/" />
     <meta property="og:title" content="Precise3DM UK | 3D Scanners and 3D Scanning Services" />
     <meta property="og:description" content="Precise3DM offers 3D scanners, Geomagic software, and professional 3D scanning services in the UK for reverse engineering and inspection. Get More info here." />
     <meta property="og:image" content="https:www.precise3dm.com/assets/images/about-logo.png" />
@@ -19,12 +19,12 @@
     <meta property="og:image:height" content="630"/>
     
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https:www.precise3dm.com/uk/index.php" />
+    <meta property="twitter:url" content="https:www.precise3dm.com/uk/" />
     <meta property="twitter:title" content="Precise3DM UK | 3D Scanners and 3D Scanning Services" />
     <meta property="twitter:description" content="Precise3DM offers 3D scanners, Geomagic software, and professional 3D scanning services in the UK for reverse engineering and inspection. Get More info here." />
     <meta property="twitter:image" content="https:www.precise3dm.com/assets/images/about-logo.png"/>
     
-    <meta property="og:url" content="https:www.precise3dm.com/uk/index.php" />
+    <link rel="canonical" href="https:www.precise3dm.com/uk/"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
 
    <!--bootstrap css-->
@@ -50,8 +50,7 @@
    <link rel="stylesheet" href="assets/css/uk.css">
    <link rel="stylesheet" href="assets/css/index.css">
    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-   <link rel="canonical" href="https:www.precise3dm.com/uk/index.php"/>
-
+   <link rel="canonical" href="https:www.precise3dm.co.uk/" />
    
     <script type="application/ld+json">
     {
@@ -61,7 +60,7 @@
         "@type": "WebPage",
         "@id": "https:www.precise3dm.com/geomagic-software.php"
       },
-      "headline": "Geomagic Software Suite – Reverse Engineering & QA",
+      "headline": "Geomagic Software Suite â€“ Reverse Engineering & QA",
       "description": "Buy Geomagic software for professional 3D scanning workflows. Ideal for reverse engineering, surface reconstruction, and CAD model creation from scan data.",
       "image": "https:www.precise3dm.com/assets/images/about-logo.png",  
       "author": {
@@ -119,7 +118,7 @@
           "name": "How does 3D reverse engineering software help product development?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "3D reverse engineering software helps convert physical objects into digital CAD models. It’s useful for re-designing existing parts, replicating legacy components, or improving products where original design files are unavailable or outdated."
+            "text": "3D reverse engineering software helps convert physical objects into digital CAD models. Itâ€™s useful for re-designing existing parts, replicating legacy components, or improving products where original design files are unavailable or outdated."
           }
         },
         {
@@ -477,9 +476,9 @@
    </div>
 
    <script>
-      Simulate content loading delay
+      
       window.onload = function () {
-         Hide preloader when the page is fully loaded
+         
          var preloader = document.querySelector('.preloader');
          preloader.style.display = 'none';
       };
@@ -665,7 +664,7 @@
       class="products-section pad-60">
       <div class="container">
          <div class="head-group">
-            <h2>Capex Equipment sales </h2>
+            <h2>Capex Equipment salesÂ </h2>
             <p>Buy 3D Scanners in the UK </p>
          </div>
          <div class="row row-cols-1 row-cols-lg-3">
@@ -682,7 +681,7 @@
                <div class="product-item">
                   <img id="scanner2" src="assets/images/uk/scanner2.png" alt="">
                   <h2>Einstar</h2>
-                  <p>Einstar- Cost-effective Multipurpose 3D Scanner for Business & Individual </p>
+                  <p>Einstar- Cost-effective Multipurpose 3D Scanner for Business & IndividualÂ </p>
                   <a href="https:www.precise3dm.com/Einstar.php" class="btn">Buy Now</a>
 
                </div>
@@ -784,7 +783,7 @@
                   <h2>Prompt Support</h2>
                   <p>When you need support, we're just a call or email away. Our dedicated support team is committed to
                      ensuring you have a smooth and hassle-free experience pre and post-purchasing a 3D scanner. With
-                     Precise3DM UK, you're not just buying a product – you're gaining a trusted partner in your journey
+                     Precise3DM UK, you're not just buying a product â€“ you're gaining a trusted partner in your journey
                      towards innovative 3D solutions.</p>
                </div>
             </div>
@@ -1042,7 +1041,7 @@
                <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                     We offer a variety of output formats including  CAD dump, solid formats such as IGS, STEP, and
+                     We offer a variety of output formats includingÂ  CAD dump, solid formats such as IGS, STEP, and
                      Parasolid. Additionally, we can provide history-based editable output compatible with your
                      preferred CAD software."
                   </div>
@@ -1059,8 +1058,8 @@
                <div id="collapseeleven" class="accordion-collapse collapse" aria-labelledby="headingeleven"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                     3D scanners are useful  for both professional and personal users, as well as companies seeking to
-                     integrate advanced 3D scan technology for their  product development,R&D , Quality control, and 3D
+                     3D scanners are usefulÂ  for both professional and personal users, as well as companies seeking to
+                     integrate advanced 3D scan technology for theirÂ  product development,R&D , Quality control, and 3D
                      printing."
                   </div>
                </div>
@@ -1076,31 +1075,23 @@
    <?php include ('includes/footer.php'); ?>
    <!-- footer end -->
 
-   <!-- bootstrap links-->
+   <!-- jQuery must be loaded first -->
+   <script src="https:code.jquery.com/jquery-3.7.1.min.js"></script>
+
    <!-- bootstrap links-->
    <script src="https:cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+
+   <!-- Plugins -->
    <script src="https:cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <script src="https:ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-   <script type="text/javascript" src="assets/js/slim.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-
-   <!-- bootstrap links-->
-
    <script src="https:cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   <!-- Add jQuery (required by Slick Slider) -->
-   <script src="https:code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script type="text/javascript" src="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-   <!-- Add Slick Slider JavaScript -->
-   <script type="text/javascript"
-      src="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-   <script src="assets/js/custom-owl.js" type="text/javascript"></script>
-   <script src="https:code.jquery.com/jquery-3.6.4.min.js"></script>
-   <script src="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-   <script src="assets/js/counter.js"></script>
+   <!-- Custom Scripts -->
+   <script src="assets/js/custom-owl.js?v=2" type="text/javascript"></script>
+   <script src="assets/js/counter.js?v=2"></script>
    <script>
       let counted = 0;
 
@@ -1192,14 +1183,14 @@
    </script>
 
    <script>
-      Function to initialize the slider
+      
       function initializeSlider(selector, options) {
          const defaultOptions = {
             autoplay: true,
             autoplaySpeed: 2000,
             dots: true,
             arrows: true
-            Add other default options as needed
+            
          };
 
          const mergedOptions = { ...defaultOptions, ...options };
@@ -1207,12 +1198,10 @@
          $(document).ready(function () {
             $(selector).slick(mergedOptions);
          });
-      }
-
-      Function to fetch slide data and initialize the slider
+       
       function initializeDynamicSlider(selector) {
-         Make an API request or fetch data dynamically
-         Here, we are using dummy data for demonstration
+         /* Make an API request or fetch data dynamically */
+         /* Here, we are using dummy data for demonstration */
          const fetchData = {
             slideShow: 3,
             mlSlideShow: 2,
@@ -1220,13 +1209,13 @@
             mdSlideShow: 1
          };
 
-         Set the fetched data to the corresponding data attributes
+         /* Set the fetched data to the corresponding data attributes */
          $(selector).attr('data-slide-show', fetchData.slideShow);
          $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
          $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
          $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
 
-         Initialize the slider with the fetched data
+         
          initializeSlider(selector, {
             slidesToShow: fetchData.slideShow,
             slidesToScroll: 1,
@@ -1253,19 +1242,19 @@
          });
       }
 
-      Initialize the dynamic slider
+      /* Initialize the dynamic slider */
       initializeDynamicSlider('#dynamicSlider');
       initializeDynamicSlider('#dynamicSlider1');
    </script>
    <script>
-      Function to initialize the slider
+      
       function initializeSlider(selector, options) {
          const defaultOptions = {
             autoplay: true,
             autoplaySpeed: 2000,
             dots: true,
             arrows: true
-            Add other default options as needed
+            
          };
 
          const mergedOptions = { ...defaultOptions, ...options };
@@ -1275,10 +1264,10 @@
          });
       }
 
-      Function to fetch slide data and initialize the slider
+      
       function initializeDynamicSlider(selector) {
-         Make an API request or fetch data dynamically
-         Here, we are using dummy data for demonstration
+         /* Make an API request or fetch data dynamically */
+         /* Here, we are using dummy data for demonstration */
          const fetchData = {
             slideShow: 5,
             mlSlideShow: 2,
@@ -1286,13 +1275,13 @@
             mdSlideShow: 2
          };
 
-         Set the fetched data to the corresponding data attributes
+         /* Set the fetched data to the corresponding data attributes */
          $(selector).attr('data-slide-show', fetchData.slideShow);
          $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
          $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
          $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
 
-         Initialize the slider with the fetched data
+         
          initializeSlider(selector, {
             slidesToShow: fetchData.slideShow,
             slidesToScroll: 1,
@@ -1319,7 +1308,7 @@
          });
       }
 
-      Initialize the dynamic slider
+      /* Initialize the dynamic slider */
       initializeDynamicSlider('#dynamicSlider2');
    </script>
    <script>
@@ -1367,10 +1356,10 @@
          }
       }
 
-      Initial setup
+      /* Initial setup */
       toggleStyles();
 
-      Event listener for the custom switch
+      /* Event listener for the custom switch */
       customToggleSwitch.addEventListener('change', function () {
          toggleStyles();
       });

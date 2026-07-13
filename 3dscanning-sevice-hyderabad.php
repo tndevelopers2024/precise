@@ -1094,7 +1094,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </li>
                      <li>
                         <i class="fa-solid fa-location-arrow"></i> <b>PRECISE3DM Hyderabad</b><br>
-                        <p style="line-height:24px; margin-left:30px;">Precise3DM Hyderabad -S&U Mek, 27,IDA ,Balanagar Hyderabad-500037 ,AP,India</p>
+                        <p style="line-height:24px; margin-left:30px;">27. IDA Balanagar Hyderabad - 500037 AP .India</p>
                      </li>
                   </ul>
                </div>
@@ -1102,7 +1102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-lg-7">
                <div class="repta">
                   <iframe
-                     src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.7537868719064!2d78.43921277516688!3d17.471494683430013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI4JzE3LjQiTiA3OMKwMjYnMzAuNCJF!5e0!3m2!1sen!2sin!4v1713421696672!5m2!1sen!2sin"
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15678.305471510259!2d78.43268150138142!3d17.478543751877517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9100014fc153%3A0x7c880ee0f35f84eb!2sBalanagar%20Township!5e1!3m2!1sen!2sin!4v1783681735710!5m2!1sen!2sin"
                      width="100%" height="460" style="border:0;" allowfullscreen="" loading="lazy"
                      referrerpolicy="no-referrer-when-downgrade"></iframe>
 

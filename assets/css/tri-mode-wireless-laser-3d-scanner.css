@@ -1,0 +1,1400 @@
+h1,h2,h3,h4,h5,h6,p,span,b,strong,small,td,th,div,a {
+    font-family: 'Inter', sans-serif !important;
+}
+/* Einscan Rigil Hero Section CSS */
+.rigil-hero-section {
+    background-image: url('../images/tri-mode-wireless-laser-3d-scanner/newesr-bg-img.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 100px; /* space for fixed header to push bg down */
+    /* padding-top: 0px; */
+    padding-bottom: 70px;
+    min-height: 700px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Header Contact Widget Positioned Top Right */
+.header-contact-widget {
+    position: absolute;
+    top: 45px; 
+    right: 40px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    z-index: 20;
+}
+
+.hc-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #ff931e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    box-shadow: 0 4px 15px rgba(255,147,30,0.3);
+}
+
+.hc-icon i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.hc-info p {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.hc-info .hc-title {
+    font-size: 18px;
+    color: #111;
+    font-weight: 700;
+}
+
+.hc-info .hc-detail {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Left Content */
+.rigil-hero-left {
+    padding-left: 5%;
+    z-index: 5;
+}
+
+.rh-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.text-orange {
+    color: #ff931e;
+}
+
+.rh-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Features Grid */
+.rh-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.rh-feature-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rh-feature-item img {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.rh-feature-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.rh-ft-top {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.rh-ft-bottom {
+    font-size: 14.5px;
+    color: #111;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Buttons */
+.rh-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    max-width: 480px;
+    margin-bottom: 30px;
+}
+
+.rh-btn {
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rh-btn-solid {
+    background: linear-gradient(90deg, #ff9b2e, #ff8400);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 15px rgba(255,147,30,0.3);
+}
+
+.rh-btn-solid:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #ff8400, #ff9b2e);
+    box-shadow: 0 6px 20px rgba(255,147,30,0.5);
+}
+
+.rh-btn-outline {
+    background: #fff;
+    color: #ff931e;
+    border: 2px solid #ff931e;
+}
+
+.rh-btn-outline:hover {
+    background: #ff931e;
+    color: #fff;
+}
+
+.rh-btn-outline i {
+    margin-right: 8px;
+}
+
+/* Email Widget Bottom */
+.rh-email-widget {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Right Content - Scanners & Card */
+.rh-right-content {
+    position: relative;
+    height: 100%;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Scanners Images */
+.scanner-img-top {
+    position: absolute;
+    top: -20px;
+    right: 25%;
+    width: 65%;
+    max-width: 500px;
+    z-index: 10;
+    object-fit: contain;
+}
+
+.scanner-img-bottom {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 70%;
+    max-width: 500px;
+    z-index: 5;
+    object-fit: contain;
+}
+
+/* Floating Tri-Mode Card */
+.tri-mode-card {
+    position: absolute;
+    right: 2%;
+    top: 75%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 35px 25px;
+    width: 250px;
+    z-index: 15;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.tri-mode-card h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #222;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.tm-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tm-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tm-item img {
+    height: 25px;
+    object-fit: contain;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.tm-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.tm-top {
+    font-size: 10px;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.tm-bottom {
+    font-size: 13px;
+    color: #111;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+/* Responsive Overrides */
+@media (max-width: 1400px) {
+    .scanner-img-top {
+        right: 15%;
+        width: 60%;
+    }
+    .scanner-img-bottom {
+        left: -10%;
+        width: 65%;
+    }
+    .tri-mode-card {
+        right: 0%;
+        transform: translateY(-50%) scale(0.9);
+    }
+}
+
+@media (max-width: 1199px) {
+    .rigil-hero-left {
+        padding-left: 20px;
+    }
+    .rh-title {
+        font-size: 40px;
+    }
+    .rh-subtitle {
+        font-size: 20px;
+    }
+    .scanner-img-top {
+        top: 20px;
+        right: 25%;
+    }
+    .scanner-img-bottom {
+        bottom: 50px;
+        left: -5%;
+    }
+    .tri-mode-card {
+        right: 0;
+        transform: translateY(-50%) scale(0.85);
+        transform-origin: right center;
+    }
+}
+
+@media (max-width: 991px) {
+    .rigil-hero-section {
+        min-height: auto;
+        padding-top: 100px;
+        background-image: url('../images/tri-mode-wireless-laser-3d-scanner/esr-bg-img.png');
+        background-size: cover;
+        background-position: left center;
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+
+    .header-contact-widget {
+        display: none !important; /* Hide floating phone on tablet/mobile */
+    }
+
+    .rh-right-content {
+        min-height: auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .scanner-img-top,
+    .scanner-img-bottom {
+        display: none !important; /* The individual images have text baked in, hiding them */
+    }
+    
+    .tri-mode-card {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 350px;
+         /* Restoring visibility */
+    }
+}
+
+@media (max-width: 767px) {
+    .rigil-hero-left {
+        padding: 20px;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+    }
+    
+    .rh-title {
+        font-size: 32px;
+    }
+    
+    .rh-subtitle {
+        font-size: 18px;
+    }
+    
+    .rh-features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .rh-buttons {
+        grid-template-columns: 1fr;
+    }
+    
+    .tri-mode-card {
+        width: 95%;
+        backdrop-filter: blur(5px);
+    }
+}
+
+/* Stats Banner */
+.rigil-stats-banner {
+    background-color: #f5f5f5;
+    padding: 35px 5%; /* added horizontal padding instead of max-width */
+    width: 100%;
+}
+
+.rsb-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.rsb-item {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.rsb-top {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.rsb-bottom {
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .rsb-container {
+        justify-content: center;
+        gap: 20px;
+    }
+    .rsb-item {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .rsb-item {
+        width: 45%;
+    }
+}
+
+/* Why Choose Einscan Rigil Section */
+.why-choose-rigil {
+    background-color: #f6f8fb;
+}
+
+.wcr-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+.wcr-img-box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.wcr-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 40px;
+    height: 100%;
+}
+
+.wcr-feature {
+    display: flex;
+    align-items: flex-start;
+}
+
+.wcr-icon {
+    width: 32px;
+    min-width: 32px;
+    margin-right: 18px;
+    margin-top: 3px;
+}
+
+.wcr-icon img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.wcr-text h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 6px;
+    line-height: 1.2;
+}
+
+.wcr-text p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 0;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .why-choose-rigil {
+        padding: 40px 0;
+    }
+    .wcr-features-grid {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        margin-top: 20px;
+    }
+    .wcr-title {
+        font-size: 28px;
+        text-align: center;
+    }
+    .wcr-img-box {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+/* Rigil VS Rigil Lite Section */
+.rigil-vs-section {
+    background-color: #f6f8fb; /* Same light gray as the section above */
+}
+
+.vs-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+}
+
+.rounded-table-wrap {
+    border-radius: 8px;
+    overflow: hidden; /* To ensure the headers rounded corners show cleanly */
+}
+
+.vs-table {
+    margin-bottom: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.vs-table th, .vs-table td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 18px 20px;
+    border-color: #dee2e6;
+}
+
+/* Feature column (First Column) */
+.vs-table td:first-child {
+    font-weight: 700;
+    color: #111;
+    font-size: 15px;
+}
+
+/* Other columns */
+.vs-table td:not(:first-child) {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Header colors */
+.vs-table thead th {
+    border-bottom: none;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.th-feature {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-weight: 700;
+    width: 25%;
+}
+
+.th-rigil {
+    background-color: #f68923 !important;
+    color: #fff !important;
+    font-weight: 700;
+    width: 37.5%;
+}
+
+.th-rigil-lite {
+    background-color: #f68923 !important;
+    color: #fff !important;
+    font-weight: 700;
+    width: 37.5%;
+}
+
+/* Exact typography classes used in table */
+.vs-table .text-orange {
+    color: #f68923 !important;
+}
+
+.vs-table .text-bold {
+    font-weight: 700 !important;
+    color: #222 !important;
+}
+
+/* Keep top radius on th since wrapper has overflow hidden */
+.vs-table thead th:first-child {
+    border-top-left-radius: 8px;
+}
+.vs-table thead th:last-child {
+    border-top-right-radius: 8px;
+}
+
+/* Complete Solution Packages Section */
+.csp-section {
+    background-color: #f6f8fb;
+}
+
+.csp-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+}
+
+.csp-card {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.csp-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08) !important;
+}
+
+.csp-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #f0f0f0;
+    transition: transform 0.6s ease;
+}
+
+.csp-card:hover .csp-img {
+    transform: scale(1.05);
+}
+
+.csp-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.csp-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.csp-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.csp-list li {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.csp-list li::before {
+    content: "•";
+    color: #555;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.csp-app-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.csp-app-desc {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.csp-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #f68923;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s;
+    margin-top: auto;
+}
+
+.csp-link:hover {
+    color: #d97014;
+    text-decoration: none;
+}
+
+/* Software Ecosystem Section */
+.software-ecosystem-section {
+    background-color: #f6f8fb;
+}
+
+.se-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+}
+
+.se-card {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    padding: 30px 20px;
+    border-top: 4px solid transparent; 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.se-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.se-header {
+    gap: 10px;
+    min-height: 75px;
+    display: flex;
+}
+
+.se-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.se-icon-wide {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    object-fit: contain;
+}
+
+.se-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.3;
+}
+
+.se-desc {
+    font-size: 13px;
+    color: #666;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.se-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #f68923;
+    text-decoration: none;
+    margin-top: auto;
+    display: inline-block;
+    transition: color 0.15s ease-in-out;
+}
+
+.se-link:hover {
+    color: #d97014;
+    text-decoration: none;
+}
+
+/* Video Gallery Section */
+.video-gallery-section {
+    background-color: #f6f8fb;
+}
+
+.vg-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+}
+
+.vg-video-card {
+    display: block;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.vg-video-card:hover {
+    transform: translateY(-5px);
+}
+
+.vg-thumb-wrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.vg-thumb-wrapper img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.vg-video-card:hover .vg-thumb-wrapper img {
+    transform: scale(1.05);
+}
+
+.vg-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+}
+
+.vg-play-btn svg {
+    fill: #fff;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));
+    transition: fill 0.3s ease;
+}
+
+.vg-video-card:hover .vg-play-btn svg {
+    fill: #f68923; 
+}
+
+.vg-duration {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    z-index: 10;
+}
+
+.vg-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.4;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.vg-video-card:hover .vg-title {
+    color: #f68923;
+}
+
+.vg-btn-wrapper {
+    margin-top: 50px;
+}
+
+.vg-btn {
+    background: linear-gradient(180deg, #ffb347 0%, #ff7b00 100%);
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 15px rgba(246, 137, 35, 0.4);
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.vg-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(246, 137, 35, 0.6);
+}
+
+/* Reverse Engineering Workflow Section */
+.rewf-section {
+    background-color: #fff;
+    font-family: inherit;
+}
+
+.rewf-main-title {
+    background-color: #f68923;
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.rewf-workflow {
+    gap: 30px; 
+}
+
+.text-orange {
+    color: #f68923 !important;
+}
+
+.rewf-step-title {
+    color: #f68923;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.rewf-step-subtitle {
+    font-size: 14px;
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.rewf-down-arrow {
+    color: #f68923;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rewf-box {
+    border: 2px solid #ffcd9e;
+    border-radius: 12px;
+    padding: 20px;
+    background: #fff;
+    height: 100%;
+}
+
+.rewf-item-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.rewf-step-subtitle-top {
+    font-size: 15px;
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.rewf-process-box {
+    padding: 25px 20px;
+}
+
+.rewf-process-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1; 
+    text-align: center;
+}
+
+.rewf-process-item img {
+    max-width: 140px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.rewf-download-pill {
+    border: 1px solid #f68923;
+    color: #f68923;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 6px 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.rewf-process-arrow {
+    color: #f68923;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 5px;
+    transform: translateY(-35px);
+}
+
+.rewf-process-or {
+    font-size: 15px;
+    margin: 0 5px;
+    transform: translateY(-35px);
+}
+
+.rewf-major-arrow {
+    color: #f68923;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.rewf-col-output .rewf-box {
+    padding: 25px 20px;
+}
+
+.rewf-col-output img {
+    margin-bottom: 0;
+}
+
+.rewf-inner-del-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    background-color: #fcfcfc;
+}
+
+.rewf-del-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: #111;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Bottom Banner */
+.rewf-bottom-banner {
+    border: 2px solid #ffcd9e;
+    border-radius: 12px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rewf-bulb-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #f68923;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.rewf-bulb-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.rewf-banner-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Responsive Overrides */
+@media (max-width: 991px) {
+    .rewf-workflow {
+        flex-direction: column;
+    }
+    .rewf-col-input, .rewf-col-process, .rewf-col-output {
+        width: 100%;
+    }
+    .rewf-process-box {
+        flex-direction: column !important;
+    }
+    .rewf-process-arrow, .rewf-process-or {
+        transform: translateY(0);
+        margin: 15px 0;
+    }
+}
+
+
+/* Why Buy from Precise3DM Section */
+.wb3d-section {
+    background-color: #f7f9fb;
+    border-top: 1px solid #eef1f5;
+    font-family: inherit;
+}
+
+.wb3d-title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #111;
+}
+
+.wb3d-list li {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.wb3d-check {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #1ab046;
+}
+
+.wb3d-map-img {
+    border: 8px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.06);
+    max-width: 100%;
+}
+
+.wb3d-sub-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #f68923;
+    text-transform: uppercase;
+}
+
+.wb3d-loc-list li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+/* Custom column dividers for desktop */
+@media (min-width: 992px) {
+    .wb-border-right {
+        position: relative;
+    }
+    .wb-border-right::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 5%;
+        height: 90%;
+        width: 1px;
+        background-color: #cfd4d8;
+    }
+}
+
+/* Trusted By Section */
+.tblc-section {
+    background-color: #fff;
+    border-top: 1px solid #eef1f5;
+}
+
+.tblc-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #6d7a8c;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.tblc-logo {
+    width: 100%;
+    padding: 5px 15px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.tblc-logo:hover {
+    transform: scale(1.05);
+}
+
+/* FAQ Section */
+.faq-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    font-family: inherit;
+}
+
+.faq-heading {
+    font-size: 38px;
+    font-weight: 800;
+    color: #111;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.custom-faq-accordion .accordion-item {
+    background-color: #fff;
+    border: none;
+    border-left: 4px solid transparent; 
+    border-radius: 30px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: all 0.3s ease;
+}
+
+.custom-faq-accordion .accordion-item.active-faq {
+    border-radius: 12px;
+    border-left: 4px solid #ff931e;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.custom-faq-accordion .accordion-header {
+    margin: 0;
+}
+
+.custom-faq-accordion .accordion-button {
+    background: transparent;
+    border: none;
+    padding: 18px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    box-shadow: none !important;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.custom-faq-accordion .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-faq-accordion .accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: transparent;
+}
+
+.custom-faq-accordion .accordion-button::after {
+    display: none;
+}
+
+.custom-faq-accordion .accordion-button .faq-icon {
+    color: #ff931e;
+    font-size: 18px;
+    margin-right: 15px;
+    font-family: "Font Awesome 6 Free", "Font Awesome 5 Free", sans-serif;
+    font-weight: 900;
+    width: 20px;
+    text-align: center;
+}
+
+.custom-faq-accordion .accordion-button.collapsed .faq-icon::before {
+    content: "\f067"; /* fa-plus */
+}
+
+.custom-faq-accordion .accordion-button:not(.collapsed) .faq-icon::before {
+    content: "\f068"; /* fa-minus */
+}
+
+.custom-faq-accordion .accordion-body {
+    padding: 0 25px 25px 60px;
+    font-size: 15px;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.rigil-cta-section {
+    background-color: #faede0;
+    padding: 45px 0;
+    font-family: inherit;
+}
+
+.rcta-heading {
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+    line-height: 1.3;
+}
+
+.rcta-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ffbc58, #fa8e1b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 6px rgba(250, 142, 27, 0.25);
+}
+
+.rcta-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 2px 0;
+}
+
+.rcta-info {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+
+.rcta-info a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rcta-info a:hover {
+    color: #f68923;
+}
+
+.rcta-divider {
+    color: #fa8e1b;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+/* Right Buttons */
+.rcta-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 280px;
+}
+
+.rcta-btn-solid, .rcta-btn-outline {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+}
+
+.rcta-btn-solid {
+    background: linear-gradient(to bottom, #ffbe60 0%, #fa8f1c 100%) !important;
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: none;
+    box-shadow: 0 3px 8px rgba(250, 143, 28, 0.25) !important;
+}
+
+.rcta-btn-solid:hover {
+    background: linear-gradient(to bottom, #ffca7a 0%, #fc9a32 100%) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 12px rgba(250, 143, 28, 0.35) !important;
+}
+
+.rcta-btn-outline {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #fa8f1c !important;
+    border: 1px solid #fa8f1c !important;
+    box-shadow: none !important;
+}
+
+.rcta-btn-outline:hover {
+    background: rgba(250, 143, 28, 0.06) !important;
+    background-color: rgba(250, 143, 28, 0.06) !important;
+    transform: translateY(-1px);
+}

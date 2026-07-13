@@ -845,14 +845,7 @@ Engineering and 3D inspection in Jaipur.</p>
                     </p>
                     <p>You can also courier the part to us for 3D Scanning on below address</p>
                     <p><strong>PRECISE3DM Jaipur </strong><br>
-                    Precise 3DM Mumbai LLP, <br>
-                            403 4th floor,
-                            Techno Park,<br>
-                            New Link Rd, 
-                            opposite metro station, 
-                            Eksar,<br> Borivali West, 
-                            Mumbai, Maharashtra 
-                            400066</p>
+                    Indian Institute Of Technology–Jodhpur (IIT–Jodhpur) Address NH 62, Surpura Bypass Rd, Karwar, Rajasthan 342030.</p>
                 </div>
                 </div>
                 <div class="col-md-7">

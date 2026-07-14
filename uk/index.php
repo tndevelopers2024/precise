@@ -159,6 +159,9 @@
    </noscript>
    <!--<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="2359ccbe-145f-4105-8390-511c84f986c0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
    <style>
+   p{
+       font-size:16px !important;
+   }
       .banner,
       .banner1 {
          /* background: url(assets/images/new-home/banner.png) no-repeat center center; */
@@ -1076,17 +1079,15 @@
    <!-- footer end -->
 
    <!-- jQuery must be loaded first -->
-   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="assets/js/jquery-3.6.0.min.js"></script>
 
    <!-- bootstrap links-->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
+   <script src="assets/js/bootstrap.bundle.js"></script>
 
    <!-- Plugins -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script src="assets/js/owl.carousel.min.js"></script>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
    <!-- Custom Scripts -->

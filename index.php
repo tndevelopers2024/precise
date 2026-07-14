@@ -18,30 +18,34 @@
    <meta name="twitter:image" content="https:www.precise3dm.com/assets/images/about-logo.png" />
    <meta name="twitter:card" content="Precise3dm" />
    <meta name="twitter:site" content="@precise3d_m" />
-   <meta property="twitter:title" content="Precise3DM - Global Leading 3D Scan Based Solution Providers"/>
+   <meta property="twitter:title" content="Precise3DM - Global Leading 3D Scan Based Solution Providers" />
    <meta name="twitter:description"
       content="Precise3DM Offers 3D Scanners and 3D Software for manufacturing companies' Capex investments. We also Offer 3D Scanning Services to assess the technology before investing." />
    <meta property="og:type" content="3D Scanning" />
    <meta property="og:title" content="Precise3DM - Global Leading 3D Scan Based Solution Providers" />
    <meta property="og:url" content="https:www.precise3dm.com/" />
    <meta property="og:image" content="https:www.precise3dm.com/assets/images/about-logo.png" />
-   <meta property="og:description" content="Precise3DM Offers 3D Scanners and 3D Software for manufacturing companies' Capex investments. We also Offer 3D Scanning Services to assess the technology before investing." />
+   <meta property="og:description"
+      content="Precise3DM Offers 3D Scanners and 3D Software for manufacturing companies' Capex investments. We also Offer 3D Scanning Services to assess the technology before investing." />
    <meta property="twitter:url" content="https:www.precise3dm.com/" />
-  
+
    <!--bootstrap css-->
    <link rel="stylesheet" href="assets/css/bootstrap.css">
    <!--owl css-->
    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
    <link rel="stylesheet" type="text/css" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-   <link rel="stylesheet" type="text/css" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" type="text/css"
+      href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+   <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
    <!--custom css-->
    <link rel="stylesheet" href="assets/css/styles.css">
    <link rel="stylesheet" href="assets/css/index.css">
    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-    <link rel="canonical" href="https:www.precise3dm.com/index.php"/>
+   <link rel="canonical" href="https:www.precise3dm.com/index.php" />
 
-    <script type="application/ld+json">
+   <script type="application/ld+json">
 {
   "@context": "https:schema.org",
   "@type": "Article",
@@ -71,14 +75,17 @@
 </script>
 
 
-    
-     <!--Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https:www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
-     <!--End Google Tag Manager -->
+
+   <!--Google Tag Manager -->
+   <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+               new Date().getTime(), event: 'gtm.js'
+         }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+               'https:www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-5FX95R9');</script>
+   <!--End Google Tag Manager -->
 
 
 
@@ -131,86 +138,103 @@
          height: 750px;
          position: relative;
       }
-      .bg-4{
-         background-color:var(--light-bg);
+
+      .bg-4 {
+         background-color: var(--light-bg);
       }
-      .bg-4 h2{
-         color:var(--black);
-         font-size:50px;
-         font-weight:bold;
+
+      .bg-4 h2 {
+         color: var(--black);
+         font-size: 50px;
+         font-weight: bold;
       }
-      .bg-4 h2 span{
-         color:var(--maincolor);
+
+      .bg-4 h2 span {
+         color: var(--maincolor);
       }
-      .bg-4-left ul{
-         margin-left:30px;
+
+      .bg-4-left ul {
+         margin-left: 30px;
       }
-      .bg-4-left ul li p{
+
+      .bg-4-left ul li p {
          position: relative;
-         margin-bottom:0 !important;
+         margin-bottom: 0 !important;
       }
-      .bg-4-left ul li p::before{
-         content:"";
+
+      .bg-4-left ul li p::before {
+         content: "";
          position: absolute;
-         left:-20px;
-         top:50%;
-         transform:translate(0,-50%);
-         height:10px;
+         left: -20px;
+         top: 50%;
+         transform: translate(0, -50%);
+         height: 10px;
          width: 10px;
-         background-color:var(--maincolor);
-         border-radius:50%;
+         background-color: var(--maincolor);
+         border-radius: 50%;
       }
-      .bg-4 .bg-4-left h5{
-         border:1px solid var(--maincolor);
-         padding:5px 10px;
-         border-radius:20px;
+
+      .bg-4 .bg-4-left h5 {
+         border: 1px solid var(--maincolor);
+         padding: 5px 10px;
+         border-radius: 20px;
       }
-      .bg-4 h5 img{
+
+      .bg-4 h5 img {
          width: 200px;
       }
-      .bg-4-right .right-img img{
+
+      .bg-4-right .right-img img {
          width: 200px;
-         object-fit:contain;
+         object-fit: contain;
       }
-      @media screen and (max-width:700px){
-         .bg-4{
-            padding:70px 0;
+
+      @media screen and (max-width:700px) {
+         .bg-4 {
+            padding: 70px 0;
          }
-         .bg-4 h2{
-            font-size:25px;
+
+         .bg-4 h2 {
+            font-size: 25px;
          }
-         .bg-4 h2 img{
+
+         .bg-4 h2 img {
             width: 100px;
          }
-         .bg-4-left h3{
-            font-size:22px;
+
+         .bg-4-left h3 {
+            font-size: 22px;
          }
-         .bg-4 h5 img{
-         width: 100px;
+
+         .bg-4 h5 img {
+            width: 100px;
          }
-         .bg-4-right img{
+
+         .bg-4-right img {
             width: 220px;
-            object-fit:contain;
+            object-fit: contain;
          }
       }
-      .logo-img{
+
+      .logo-img {
          width: 100%;
-         justify-content:space-between;
+         justify-content: space-between;
       }
-      .logo-img div{
-         flex:1;
+
+      .logo-img div {
+         flex: 1;
       }
    </style>
-   
-   
+
+
 </head>
 
 <body>
-    
-     <!--Google Tag Manager (noscript) -->
-   <noscript><iframe src="https:www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
- <!--End Google Tag Manager (noscript) -->
+
+   <!--Google Tag Manager (noscript) -->
+   <noscript><iframe src="https:www.googletagmanager.com/ns.html?id=GTM-5FX95R9" height="0" width="0"
+         style="display:none;visibility:hidden"></iframe></noscript>
+   <!--End Google Tag Manager (noscript) -->
 
    <!-- header start -->
    <?php include('includes/header.php'); ?>
@@ -227,7 +251,7 @@
          --subbackground: #0A0A0A;
          --subcotent: #bbb;
          --list: #DFEEFF;
-         --light-bg:#FFE1C3;
+         --light-bg: #FFE1C3;
       }
 
       body {
@@ -537,51 +561,66 @@
          padding: 10px;
          display: inline-block;
       }
-      .mobile-banner{
-         display:none;
+
+      .mobile-banner {
+         display: none;
       }
-      .h2-center h2{
-          font-size:40px !important;
+
+      .h2-center h2 {
+         font-size: 40px !important;
       }
-      @media(max-width:600px){         
+
+      @media(max-width:600px) {
          .desktop-banner {
             display: none;
          }
-         .mobile-banner{
-            display:block;
+
+         .mobile-banner {
+            display: block;
          }
-         .banner-mob{
-            background-color:#FFE9D2;
+
+         .banner-mob {
+            background-color: #FFE9D2;
          }
-         .banner1-mob{
-            background-color:#FFE9D2;
+
+         .banner1-mob {
+            background-color: #FFE9D2;
          }
-         .bg-banner-mob{
-            background-color:#FFE9D2;
+
+         .bg-banner-mob {
+            background-color: #FFE9D2;
          }
-         .carousel-control-prev, .carousel-control-next{
-            width:auto;
+
+         .carousel-control-prev,
+         .carousel-control-next {
+            width: auto;
          }
-         .h2-center h2{
-             font-size:22px !important;
+
+         .h2-center h2 {
+            font-size: 22px !important;
          }
-         .bg-4-right.text-center{
-            margin-top:0px;
+
+         .bg-4-right.text-center {
+            margin-top: 0px;
          }
-         
+
       }
-      .ban-img{
-         text-align:center;
+
+      .ban-img {
+         text-align: center;
       }
-      .ban-img img{
+
+      .ban-img img {
          width: 100%;
       }
-      .omni-banner{
+
+      .omni-banner {
          padding-bottom: 80px;
-         background:url('assets/images/new-home/omni-bg.png');
-         background-size:cover;
+         background: url('assets/images/new-home/omni-bg.png');
+         background-size: cover;
       }
-      b{
+
+      b {
          font-family: 'Inter', sans-serif;
       }
    </style>
@@ -634,10 +673,18 @@
                         <div class="bg-4-left">
                            <h3><b>World’s First Standalone</b> Inspection-Ready Metrology 3D Scanner</h3>
                            <ul>
-                              <li><p>On-Scanner Scan-To-Inspect</p></li>
-                              <li><p>Certified Accuracy (VDI/VDE 2634 & ISO 10360) of 0.02 mm</p></li>
-                              <li><p>Multi-Mode & High-Performance</p></li>
-                              <li><p>Scalable Platform with Modular Expansion</p></li>
+                              <li>
+                                 <p>On-Scanner Scan-To-Inspect</p>
+                              </li>
+                              <li>
+                                 <p>Certified Accuracy (VDI/VDE 2634 & ISO 10360) of 0.02 mm</p>
+                              </li>
+                              <li>
+                                 <p>Multi-Mode & High-Performance</p>
+                              </li>
+                              <li>
+                                 <p>Scalable Platform with Modular Expansion</p>
+                              </li>
                            </ul>
                            <div>
                               <a href="freescan-omni.php" class="btn rounded-3xl">Know More</a>
@@ -653,7 +700,7 @@
                      </div>
                      <div class="col-lg-4">
                         <div class="bg-4-right ">
-                          
+
                         </div>
                      </div>
                   </div>
@@ -675,11 +722,11 @@
                               <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
                            </div>
                            <div class="mid-banner">
-                              <h2 style="font-size:50px !important; color:var(--maincolor);" id="midbanner">Welcome to Precise3DM
+                              <h2 style="font-size:50px !important; color:var(--maincolor);" id="midbanner">Welcome to
+                                 Precise3DM
                               </h2>
                               <p>Discover our exciting Campaigns, Products & Offerings below.</p>
-                              <a href="https:www.precise3dm.com/geomagicsoftware.php"
-                                 class="btn">Geomagic Products</a>
+                              <a href="https:www.precise3dm.com/geomagicsoftware.php" class="btn">Geomagic Products</a>
                               <a href="https:www.precise3dm.com/FreeScan-Combo.php" class="btn">Freescan Combo</a>
                               <a href="https:www.precise3dm.com/3d-services.php" class="btn">3D services</a>
                               <br>
@@ -716,7 +763,8 @@
                               <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
                            </div>
                            <div class="mid-banner">
-                              <h2 style="font-size:50px !important;" id="midbanner">End to End Digital <br> Manufacturing Solution
+                              <h2 style="font-size:50px !important;" id="midbanner">End to End Digital <br>
+                                 Manufacturing Solution
                               </h2>
                               <p style="font-weight:700;">“Capex Investment Products For Manufacturing Companies”</p>
                               <a href="https:www.precise3dm.com/3d-scanners-in-india.php" class="btn">3D
@@ -797,13 +845,23 @@
                         <div class="bg-4-left">
                            <h3>Automatic Desktop Scanner</h3>
                            <ul>
-                              <li><p>One-Click Scan</p></li>
-                              <li><p>0.01 mm Accuracy</p></li>
-                              <li><p>Full Color Scanning</p></li>
-                              <li><p>Compact & Lightweight</p></li>
+                              <li>
+                                 <p>One-Click Scan</p>
+                              </li>
+                              <li>
+                                 <p>0.01 mm Accuracy</p>
+                              </li>
+                              <li>
+                                 <p>Full Color Scanning</p>
+                              </li>
+                              <li>
+                                 <p>Compact & Lightweight</p>
+                              </li>
                            </ul>
                            <div>
-                              <h5>Experience the Future of Metrology with <img src="assets/images/new-home/precise-logo.png" alt=""> & <img src="assets/images/new-home/shining-logo.png" alt=""></h5>
+                              <h5>Experience the Future of Metrology with <img
+                                    src="assets/images/new-home/precise-logo.png" alt=""> & <img
+                                    src="assets/images/new-home/shining-logo.png" alt=""></h5>
                               <a href="automatic-desktop-3d-scanner.php" class="btn rounded-3xl">Know More</a>
                               <div class="email">
                                  <a href="mailto:sm@precise3dm.com" class=" mail-btn">
@@ -829,20 +887,22 @@
             </section>
          </div>
       </div>
-      <button class="carousel-control-prev desktop-banner" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <button class="carousel-control-prev desktop-banner" type="button" data-target="#carouselExampleIndicators"
+         data-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
          <span class="sr-only">Previous</span>
       </button>
-      <button class="carousel-control-next desktop-banner" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <button class="carousel-control-next desktop-banner" type="button" data-target="#carouselExampleIndicators"
+         data-slide="next">
          <span class="carousel-control-next-icon" aria-hidden="true"></span>
          <span class="sr-only">Next</span>
       </button>
 
 
-      
+
    </div>
 
-      <!-- Mobile view -->
+   <!-- Mobile view -->
 
    <div id="carouselExampleIndicators2" data-interval="4000" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators2">
@@ -871,10 +931,18 @@
                         <div class="bg-4-left">
                            <h3><b>World’s First Standalone</b> Inspection-Ready Metrology 3D Scanner</h3>
                            <ul>
-                              <li><p>On-Scanner Scan-To-Inspect</p></li>
-                              <li><p>Certified Accuracy (VDI/VDE 2634 & ISO 10360) of 0.02 mm</p></li>
-                              <li><p>Multi-Mode & High-Performance</p></li>
-                              <li><p>Scalable Platform with Modular Expansion</p></li>
+                              <li>
+                                 <p>On-Scanner Scan-To-Inspect</p>
+                              </li>
+                              <li>
+                                 <p>Certified Accuracy (VDI/VDE 2634 & ISO 10360) of 0.02 mm</p>
+                              </li>
+                              <li>
+                                 <p>Multi-Mode & High-Performance</p>
+                              </li>
+                              <li>
+                                 <p>Scalable Platform with Modular Expansion</p>
+                              </li>
                            </ul>
                            <div>
                               <a href="freescan-omni.php" class="btn rounded-3xl">Know More</a>
@@ -891,7 +959,7 @@
                      <div class="col-lg-4">
                         <div class="bg-4-right text-right">
                            <img src="assets/images/new-home/mob-omni-bg.png" alt="">
-                           
+
                         </div>
                      </div>
                   </div>
@@ -916,8 +984,7 @@
                               <h1 id="midbanner">Welcome to Precise3DM
                               </h1>
                               <p>Discover our exciting Campaigns, Products & Offerings below.</p>
-                              <a href="https:www.precise3dm.com/geomagicsoftware.php"
-                                 class="btn">Geomagic Products</a>
+                              <a href="https:www.precise3dm.com/geomagicsoftware.php" class="btn">Geomagic Products</a>
                               <a href="https:www.precise3dm.com/FreeScan-Combo.php" class="btn">Freescan Combo</a>
                               <a href="https:www.precise3dm.com/3d-services.php" class="btn">3D services</a>
                               <br>
@@ -954,7 +1021,8 @@
                               <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
                            </div>
                            <div class="mid-banner">
-                              <h2 style="font-size:20px !important;" id="midbanner">End to End Digital <br> Manufacturing Solution
+                              <h2 style="font-size:20px !important;" id="midbanner">End to End Digital <br>
+                                 Manufacturing Solution
                               </h2>
                               <p style="font-weight:700;">“Capex Investment Products For Manufacturing Companies”</p>
                               <a href="https:www.precise3dm.com/3d-scanners-in-india.php" class="btn">3D
@@ -1038,13 +1106,23 @@
                         <div class="bg-4-left">
                            <h3>Automatic Desktop Scanner</h3>
                            <ul>
-                              <li><p>One-Click Scan</p></li>
-                              <li><p>0.01 mm Accuracy</p></li>
-                              <li><p>Full Color Scanning</p></li>
-                              <li><p>Compact & Lightweight</p></li>
+                              <li>
+                                 <p>One-Click Scan</p>
+                              </li>
+                              <li>
+                                 <p>0.01 mm Accuracy</p>
+                              </li>
+                              <li>
+                                 <p>Full Color Scanning</p>
+                              </li>
+                              <li>
+                                 <p>Compact & Lightweight</p>
+                              </li>
                            </ul>
                            <div>
-                              <h5>Experience the Future of Metrology with <img src="assets/images/new-home/precise-logo.png" alt=""> & <img src="assets/images/new-home/shining-logo.png" alt=""></h5>
+                              <h5>Experience the Future of Metrology with <img
+                                    src="assets/images/new-home/precise-logo.png" alt=""> & <img
+                                    src="assets/images/new-home/shining-logo.png" alt=""></h5>
                               <a href="automatic-desktop-3d-scanner.php" class="btn rounded-3xl">Know More</a>
                               <div class="email">
                                  <a href="mailto:sm@precise3dm.com" class=" mail-btn">
@@ -1071,21 +1149,23 @@
          </div>
 
       </div>
-      <button class="carousel-control-prev mobile-banner" type="button" data-target="#carouselExampleIndicators2" data-slide="prev">
+      <button class="carousel-control-prev mobile-banner" type="button" data-target="#carouselExampleIndicators2"
+         data-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
          <span class="sr-only">Previous</span>
       </button>
-      <button class="carousel-control-next mobile-banner" type="button" data-target="#carouselExampleIndicators2" data-slide="next">
+      <button class="carousel-control-next mobile-banner" type="button" data-target="#carouselExampleIndicators2"
+         data-slide="next">
          <span class="carousel-control-next-icon" aria-hidden="true"></span>
          <span class="sr-only">Next</span>
       </button>
 
 
-      
+
    </div>
 
 
-   
+
 
 
    <!-- ==========================
@@ -1195,8 +1275,8 @@
                   <img src="assets/images/optimscan-plus/img1.png" alt="">
                   <a href="structured-light-3d-scanner-in-india.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn"
-                     href="https:www.precise3dm.com/optical-blue-light-3d-scanning-service-in-india.php">3D Scanning
+                  <a class="btn" href="https:www.precise3dm.com/optical-blue-light-3d-scanning-service-in-india.php">3D
+                     Scanning
                      Service</a>
                </div>
             </div>
@@ -1970,8 +2050,7 @@
                      Exploring Four Different 3D Scanning Modes in Freescan Combo
                   </h5>
                   <p> April 14, 2026 • </p>
-                  <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php"
-                     class="btn">Read More</a>
+                  <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php" class="btn">Read More</a>
                </div>
             </div>
             <div class="blog-item">
@@ -2011,18 +2090,18 @@
    <!-- footer start -->
    <?php include('includes/footer.php'); ?>
    <!-- footer end -->
-   
-    <!-- bootstrap links-->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <!-- bootstrap links-->
 
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/custom-owl.js" type="text/javascript"></script>
-    <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="assets/js/counter.js"></script>
+   <!-- bootstrap links-->
+   <script src="assets/js/jquery-3.6.0.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.js"></script>
+   <script src="cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+   <script src="cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+   <!-- bootstrap links-->
+
+   <script src="assets/js/owl.carousel.min.js"></script>
+   <script src="assets/js/custom-owl.js" type="text/javascript"></script>
+   <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <script src="assets/js/counter.js"></script>
    <script>
       let counted = 0;
 
@@ -2275,7 +2354,7 @@
             root.style.setProperty('--list-black', '#0a0a0a');
             root.style.setProperty('--whitecolor', '#fff');
             root.style.setProperty('--maincolor', '#ff931e');
-            root.style.setProperty('--light-bg','#1E1E1E');
+            root.style.setProperty('--light-bg', '#1E1E1E');
             body.style.background = 'var(--backgroundcolor)';
             banner.style.background = 'url(assets/images/new-home/hero-banner-1-dark.png)';
             /* heroImg.setAttribute("src","assets/images/new-home/hero-banner-img-dark.png"); */
@@ -2294,7 +2373,7 @@
             bannerMob1.style.background = "#000";
             bannerMob2.style.background = "#000";
             bannerMob3.style.background = "#000";
-            banImg2.setAttribute("src","assets/images/new-home/hero-banner-img-dark.png")
+            banImg2.setAttribute("src", "assets/images/new-home/hero-banner-img-dark.png")
 
             for (var i = 0; i < listsecc.length; i++) {
                listsecc[i].style.padding = '80px 0 0';
@@ -2332,8 +2411,8 @@
             bannerMob1.style.background = "#FFE9D2";
             bannerMob2.style.background = "#FFE9D2";
             bannerMob3.style.background = "#FFE9D2";
-            banImg2.setAttribute("src","assets/images/new-home/mobile-banner-2.png");
-            root.style.setProperty('--light-bg','#FFE1C3');
+            banImg2.setAttribute("src", "assets/images/new-home/mobile-banner-2.png");
+            root.style.setProperty('--light-bg', '#FFE1C3');
 
             for (var i = 0; i < listsecc.length; i++) {
                listsecc[i].style.padding = '150px 0';

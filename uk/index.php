@@ -11,69 +11,69 @@
     <meta name="keywords" content="3D scanning services UK, UK 3D scanner supplier, 3D scanning technology UK, buy 3D scanner UK, high-accuracy 3D scanners, best 3D scanner UK, industrial 3D scanners">
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https:www.precise3dm.com/uk/" />
+    <meta property="og:url" content="https://www.precise3dm.com/uk/" />
     <meta property="og:title" content="Precise3DM UK | 3D Scanners and 3D Scanning Services" />
     <meta property="og:description" content="Precise3DM offers 3D scanners, Geomagic software, and professional 3D scanning services in the UK for reverse engineering and inspection. Get More info here." />
-    <meta property="og:image" content="https:www.precise3dm.com/assets/images/about-logo.png" />
+    <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
     
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https:www.precise3dm.com/uk/" />
+    <meta property="twitter:url" content="https://www.precise3dm.com/uk/" />
     <meta property="twitter:title" content="Precise3DM UK | 3D Scanners and 3D Scanning Services" />
     <meta property="twitter:description" content="Precise3DM offers 3D scanners, Geomagic software, and professional 3D scanning services in the UK for reverse engineering and inspection. Get More info here." />
-    <meta property="twitter:image" content="https:www.precise3dm.com/assets/images/about-logo.png"/>
+    <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     
-    <link rel="canonical" href="https:www.precise3dm.com/uk/"/>
+    <link rel="canonical" href="https://www.precise3dm.com/uk/"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
 
    <!--bootstrap css-->
    <link rel="stylesheet" href="assets/css/bootstrap.css">
-   <link href="https:cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <!--owl css-->
-   <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
    <link rel="stylesheet" type="text/css"
-      href="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
    <link rel="stylesheet" type="text/css"
-      href="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    <link rel="stylesheet" type="text/css"
-      href="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
    <link rel="stylesheet" type="text/css"
-      href="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
    <!--custom css-->
    <link rel="stylesheet" href="assets/css/styles.css">
    <link rel="stylesheet" href="assets/css/uk.css">
    <link rel="stylesheet" href="assets/css/index.css">
    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-   <link rel="canonical" href="https:www.precise3dm.co.uk/" />
+   <link rel="canonical" href="https://www.precise3dm.co.uk/" />
    
     <script type="application/ld+json">
     {
-      "@context": "https:schema.org",
+      "@context": "https://schema.org",
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https:www.precise3dm.com/geomagic-software.php"
+        "@id": "https://www.precise3dm.com/geomagic-software.php"
       },
       "headline": "Geomagic Software Suite â€“ Reverse Engineering & QA",
       "description": "Buy Geomagic software for professional 3D scanning workflows. Ideal for reverse engineering, surface reconstruction, and CAD model creation from scan data.",
-      "image": "https:www.precise3dm.com/assets/images/about-logo.png",  
+      "image": "https://www.precise3dm.com/assets/images/about-logo.png",  
       "author": {
         "@type": "Organization",
         "name": "Precise3DM",
-        "url": "https:www.precise3dm.com/"
+        "url": "https://www.precise3dm.com/"
       },  
       "publisher": {
         "@type": "Organization",
         "name": "Precise3DM",
         "logo": {
           "@type": "ImageObject",
-          "url": "https:www.precise3dm.com/assets/images/Precise%20Logos-08.png"
+          "url": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png"
         }
       },
       "datePublished": "2025-07-01",
@@ -84,25 +84,25 @@
     
     <script type="application/ld+json">
     {
-      "@context": "https:schema.org/", 
+      "@context": "https://schema.org/", 
       "@type": "BreadcrumbList", 
       "itemListElement": [{
         "@type": "ListItem", 
         "position": 1, 
         "name": "Precise3DM",
-        "item": "https:www.precise3dm.com/"  
+        "item": "https://www.precise3dm.com/"  
       },{
         "@type": "ListItem", 
         "position": 2, 
         "name": "Geomagic Software",
-        "item": "https:www.precise3dm.com/geomagic-software.php"  
+        "item": "https://www.precise3dm.com/geomagic-software.php"  
       }]
     }
     </script>
     
     <script type="application/ld+json">
     {
-      "@context": "https:schema.org",
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -155,9 +155,9 @@
 
    <noscript>
       <img height="1" width="1" style="display:none;" alt=""
-         src="https:px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
+         src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
    </noscript>
-   <!--<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="2359ccbe-145f-4105-8390-511c84f986c0";(function(){d=document;s=d.createElement("script");s.src="https:client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
+   <!--<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="2359ccbe-145f-4105-8390-511c84f986c0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
    <style>
       .banner,
       .banner1 {
@@ -498,7 +498,7 @@
             <i class="fa-solid fa-envelope"></i>
             <p><span style="color:#ff931e">Email us at</span> <br><a style="color:var(--whitecolor);"
                   href="mailto:sm@precise3dm.com">sm@precise3dm.com</a><br><a style="color:var(--whitecolor);"
-                  href="mailto:ls@precise3dm.com">ls@precise3dm.com</a> </p>
+                  href="mailto:Lpsm@precise3dm.com">Lpsm@precise3dm.com</a> </p>
             </div>
             <div class="d-flex gap-1 align-items-center justify-content-center ">
             <i class="fa-solid fa-phone"></i>
@@ -542,7 +542,7 @@
                      <h3>3D Scanners & 3D Scanning-based services in the UK</h3>
                      <p>Bridging the gap between Capex and Opex using 3D products.</p>
                      <div class="banner-btn">
-                        <a href="https:www.precise3dm.com/About_us.php" class="btn">Learn More</a>
+                        <a href="https://www.precise3dm.com/About_us.php" class="btn">Learn More</a>
                      </div>
                   </div>
                </div>
@@ -653,7 +653,7 @@
          </div>
       </div>
       <div class="a">
-         <a href="https:www.precise3dm.com/About_us.php" class="btn">Know More</a>
+         <a href="https://www.precise3dm.com/About_us.php" class="btn">Know More</a>
       </div>
    </section>
    <!-- ==========================
@@ -673,7 +673,7 @@
                   <img id="scanner1" src="assets/images/uk/scanner1.png" alt="">
                   <h2>Einscan H2</h2>
                   <p>Handheld Colour 3D Scanner for Small & Large Objects(Human body & Texture )</p>
-                  <a href=" https:www.precise3dm.com/Einscanh2.php" class="btn">Buy Now</a>
+                  <a href=" https://www.precise3dm.com/Einscanh2.php" class="btn">Buy Now</a>
 
                </div>
             </div>
@@ -682,7 +682,7 @@
                   <img id="scanner2" src="assets/images/uk/scanner2.png" alt="">
                   <h2>Einstar</h2>
                   <p>Einstar- Cost-effective Multipurpose 3D Scanner for Business & IndividualÂ </p>
-                  <a href="https:www.precise3dm.com/Einstar.php" class="btn">Buy Now</a>
+                  <a href="https://www.precise3dm.com/Einstar.php" class="btn">Buy Now</a>
 
                </div>
             </div>
@@ -691,7 +691,7 @@
                   <img id="scanner3" src="assets/images/uk/scanner3.png" alt="">
                   <h2>FreeScan Combo</h2>
                   <p>Industrial Handheld Metrology 3D Scanning(Metrology Grade)</p>
-                  <a href="https:www.precise3dm.com/FreeScan-Combo.php" class="btn">Buy Now</a>
+                  <a href="https://www.precise3dm.com/FreeScan-Combo.php" class="btn">Buy Now</a>
                </div>
             </div>
          </div>
@@ -706,28 +706,28 @@
       <div class="container mt-5">
          <div class="row">
             <div class="col-lg-4">
-               <a href="https:www.precise3dm.com/reverse-engineering-geomagic-design-x.php"><img
+               <a href="https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php"><img
                      src="assets/images/uk/btn1.png" alt=""></a>
                <p><b>Geomagic</b> Design X</p>
             </div>
             <div class="col-lg-4">
-               <a href="https:www.precise3dm.com/geomagic-control-x-3d-inspection-software.php"><img
+               <a href="https://www.precise3dm.com/geomagic-control-x-3d-inspection-software.php"><img
                      src="assets/images/uk/btn2.png" alt=""></a>
                <p><b>Geomagic</b> Control X</p>
             </div>
             <div class="col-lg-4">
-               <a href="https:www.precise3dm.com/geomagic-wrap-3d-scanning-software.php"><img
+               <a href="https://www.precise3dm.com/geomagic-wrap-3d-scanning-software.php"><img
                      src="assets/images/uk/btn3.png" alt=""></a>
                <p><b>Geomagic</b> Warp</p>
             </div>
             <div class="col-lg-2"></div>
             <div class="col-lg-4 pt-5">
-               <a href="https:www.precise3dm.com/geomagic-freeform-3d-modelling-design-software.php"><img
+               <a href="https://www.precise3dm.com/geomagic-freeform-3d-modelling-design-software.php"><img
                      src="assets/images/uk/btn4.png" alt=""></a>
                <p><b>Geomagic</b> Freeform</p>
             </div>
             <div class="col-lg-4 pt-5">
-               <a href="https:www.precise3dm.com/geomagic-for-solidworks-reverse-engineering-software.php"><img
+               <a href="https://www.precise3dm.com/geomagic-for-solidworks-reverse-engineering-software.php"><img
                      src="assets/images/uk/btn5.png" alt=""></a>
                <p><b>Geomagic</b> for SOLIDWORKS</p>
             </div>
@@ -736,8 +736,8 @@
       </div>
       <div class="geometic">
          <h2><span style="color:#FF931E;">Opex Advanced</span> 3D services</h2>
-         <a href="https:www.precise3dm.com/uk/buy3d-scanners-uk.php" class="btn mb-3">3D scanning service in the UK</a><br>
-         <a href="https:convertscantocad.com/" class="btn">Convert Scan to CAD</a>
+         <a href="https://www.precise3dm.com/uk/buy3d-scanners-uk.php" class="btn mb-3">3D scanning service in the UK</a><br>
+         <a href="https://convertscantocad.com/" class="btn">Convert Scan to CAD</a>
       </div>
    </section>
 
@@ -830,7 +830,7 @@
             </div>
             <div class="col-lg-6">
                <div class="repta">
-                  <iframe src="https:www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.8773541327582!2d0.07217307565919483!3d51.533809308774885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a614f30d7e35%3A0x24b01b42fd8d2418!2s6%20Town%20Quay%2C%20Wharf%2C%20Barking%20IG11%207BZ%2C%20UK!5e0!3m2!1sen!2sin!4v1761290964114!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.8773541327582!2d0.07217307565919483!3d51.533809308774885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a614f30d7e35%3A0x24b01b42fd8d2418!2s6%20Town%20Quay%2C%20Wharf%2C%20Barking%20IG11%207BZ%2C%20UK!5e0!3m2!1sen!2sin!4v1761290964114!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
             </div>
          </div>
@@ -855,14 +855,14 @@
                <div class='sk-ww-google-reviews' data-embed-id='25377093'></div>
             </div>
          </div>
-         <script src='https:widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+         <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
 
          <div class="review-btn">
             <a
-               href="https:www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,3">
+               href="https://www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,3">
                <button class="btn">Review Us</button></a>
             <a
-               href="https:www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,1"><button
+               href="https://www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,1"><button
                   class="btn">View our Google reviews</button></a>
 
          </div>
@@ -1076,18 +1076,18 @@
    <!-- footer end -->
 
    <!-- jQuery must be loaded first -->
-   <script src="https:code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
    <!-- bootstrap links-->
-   <script src="https:cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
 
    <!-- Plugins -->
-   <script src="https:cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="https:cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <script src="https:cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   <script type="text/javascript" src="https:cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
    <!-- Custom Scripts -->
    <script src="assets/js/custom-owl.js?v=2" type="text/javascript"></script>
@@ -1198,6 +1198,7 @@
          $(document).ready(function () {
             $(selector).slick(mergedOptions);
          });
+      }
        
       function initializeDynamicSlider(selector) {
          /* Make an API request or fetch data dynamically */

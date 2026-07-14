@@ -31,55 +31,28 @@
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="og:description" content="Get 3D inspection software, Reseller of geomagic control X " />
     <meta property="twitter:url" content="https://www.precise3dm.com/3d-inspection-software-in-india.php" />
-    <link rel="canonical" href="https://www.precise3dm.com/3d-inspection-software-in-india.php"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-    <link rel="stylesheet" href="assets/css/styles.css">
-   <link rel="stylesheet" href="assets/css/optical-blue-light.css">
-   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-   <link rel="stylesheet" href="assets/css/scanner-styles.css">
-   <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="canonical" href="https://www.precise3dm.com/3d-scanning-and-inspection-software.php"/>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
 
+   <!--bootstrap css-->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <!--owl css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+   <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--custom css-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <link rel="stylesheet" href="assets/css/index.css">
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
+   <link rel="canonical" href="https://www.precise3dm.com/" />
    
-
-    <script type="text/javascript">
-        $('input[type="text"]').on('blur',function(){
-                var val = $(this).val();
-                $(this).val($.trim(val));
-        });
-    
-        function disablebutton()
-        {
-            $('#loader').show();
-            //$('#submit').attr('disabled',true);
-        }
-        $(document).ready(function() {
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: false,
-            autoplayTimeout: 3000,
-            margin: 40,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                960: {
-                    items: 3
-                },
-                1200: {
-                    items: 3
-                }
-            }
-        });
-    })
-        
-    </script>
+   <link rel="stylesheet" href="assets/css/industrial-3d-inspection.css">
+  
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -187,562 +160,687 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-    <!-- header start -->
+    <!-- Header Include -->
     <?php include('includes/header.php'); ?>
-    <!-- header end -->
 
-    <!-- section start-->
-    <!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/precise3dm?primary_color=fd8c1e', text: 'Book a Demo', color: '#fd8c1e', textColor: '#ffffff', branding: false }); }</script>
-<!-- Calendly badge widget end -->
-    <section id="software2-landing-3D-banner" class="pt-4">
-        <!-- <div class="container-fluid heading m-320 software3d-headhide">
-            <div class="row ">
-                <div class="col-md-12 text-md-left text-center px-2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 software-mobile software-3d-headcont">
-                                <h1 class="title text-white ">3D software</h1>
-                                <h2 class="text-white text-uppercase">A complete set of engineering and reverse engineering
-                                    software from a single vendor
-                                </h2>
-                                <p class="software-landing-para2">We supply software for Computer Aided Design, Computer Aided Manufacturing, Computer Aided Verification, Computer Aided Engineering, 3D Sanning, </p>
+    <!-- Main Hero Section -->
+    <section class="ind-hero-section">
+        <div class="container">
+            <!-- Top-right Phone Contact block -->
+                        <div class="ind-contact-block ind-top-right-call">
+                            <div class="ind-contact-icon">
+                                <i class="fa-solid fa-phone"></i>
                             </div>
+                            <div class="ind-contact-text">
+                                <span class="label">Call us now</span>
+                                <span class="info">
+                                    <a href="tel:+919840478347">+91 98404 78347</a> | 
+                                    <a href="tel:+916374406179">+91 63744 06179</a>
+                                </span>
+                            </div>
+                        </div>
+            <div class="row align-items-center">
+                
+                <!-- Left Side: Content, Icons, and CTA -->
+                <div class="col-lg-7 col-md-12">
+                    <div class="ind-hero-content">
+                        <h1 class="ind-hero-title">
+                            Industrial 3D<br>
+                            Inspection Software<br>
+                            <span class="highlight">Solutions</span>
+                        </h1>
+                        <p class="ind-hero-subtitle">
+                            Choose the right inspection software for your application. 
+                            Bundle with your 3D Scanner for powerful, accurate and cost-effective quality control.
+                        </p>
+                        
+                        <!-- Leftside icons: hero-icon1 to hero-icon6 -->
+                        <div class="ind-features-row">
+                            <div class="ind-feature-item">
+                                <div class="ind-feature-img-wrap">
+                                    <img src="assets/images/industrial-3d/hero-icon1.png" alt="Scan-to-CAD Inspection">
+                                </div>
+                                <span class="ind-feature-text">Scan-to-CAD<br>Inspection</span>
+                            </div>
+                            <div class="ind-feature-item">
+                                <div class="ind-feature-img-wrap">
+                                    <img src="assets/images/industrial-3d/hero-icon2.png" alt="GD&T Analysis">
+                                </div>
+                                <span class="ind-feature-text">GD&T<br>Analysis</span>
+                            </div>
+                            <div class="ind-feature-item">
+                                <div class="ind-feature-img-wrap">
+                                    <img src="assets/images/industrial-3d/hero-icon3.png" alt="Deviation Analysis">
+                                </div>
+                                <span class="ind-feature-text">Deviation<br>Analysis</span>
+                            </div>
+                            <div class="ind-feature-item">
+                                <div class="ind-feature-img-wrap">
+                                    <img src="assets/images/industrial-3d/hero-icon4.png" alt="On-Scanner Inspection">
+                                </div>
+                                <span class="ind-feature-text">On-Scanner<br>Inspection</span>
+                            </div>
+                            <div class="ind-feature-item">
+                                <div class="ind-feature-img-wrap">
+                                    <img src="assets/images/industrial-3d/hero-icon5.png" alt="Propeller Inspection">
+                                </div>
+                                <span class="ind-feature-text">Propeller<br>Inspection</span>
+                            </div>
+                            <div class="ind-feature-item">
+                                <div class="ind-feature-img-wrap">
+                                    <img src="assets/images/industrial-3d/hero-icon6.png" alt="Automated Reporting">
+                                </div>
+                                <span class="ind-feature-text">Automated<br>Reporting</span>
+                            </div>
+                        </div>
 
+                        <!-- CTA Buttons -->
+                        <div class="ind-hero-btns">
+                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-ind btn-ind-primary">Talk to Our Experts</a>
+                            <a href="#" class="btn-ind btn-ind-secondary">Download Brochure</a>
+                        </div>
+
+                        <!-- Bottom-left Email Info -->
+                        <div class="mail-cont ind-contact-block">
+                            <div class="ind-contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="ind-contact-text">
+                                <span class="label">Email Us</span>
+                                <span class="info">
+                                    <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | 
+                                    <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Side: Contact overlay and tags -->
+                <div class="col-lg-5 col-md-12">
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="ind-right-column">
+                        
+                        
+
+                        <!-- Rightside brand tags: hero-logo1 to hero-logo3 -->
+                        <div class="ind-logo-stack">
+                            <a href="geomagic-control-x-3d-inspection-software.php" class="ind-logo-card">
+                                <img src="assets/images/industrial-3d/hero-logo1.png" alt="Geomagic Control X">
+                            </a>
+                            <a href="shining-3d-inspect-software.php" class="ind-logo-card">
+                                <img src="assets/images/industrial-3d/hero-logo4.png" alt="SHINING 3D Inspect">
+                            </a>
+                            <a href="trueprop-software.php" class="ind-logo-card">
+                                <img src="assets/images/industrial-3d/hero-logo3.png" alt="TRUEPROP SOFTWARE">
+                            </a>
+                        </div>
+
+                    </div>
+    </section>
+
+     <!-- Software Solutions Comparison Section -->
+    <section class="ind-solutions-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
+                <h2 class="ind-section-title">THREE POWERFUL SOFTWARE SOLUTIONS. ONE COMPLETE ECOSYSTEM</h2>
+                <p class="ind-section-subtitle">From advanced GD&T to on-scanner inspection and marine propeller analysis - we've got you covered.</p>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1: Geomagic Control X (Green) -->
+                <div class="col-xl-4 col-lg-6 col-md-12">
+                    <div class="ind-solution-card ind-card-green">
+                        <div class="ind-card-header">
+                            <div class="ind-card-logo">
+                                <img src="assets/images/industrial-3d/card-top1.png" alt="Geomagic Control X">
+                            </div>
+                            <div class="ind-card-badge-img">
+                                <img src="assets/images/industrial-3d/platinum.png" alt="Platinum Partner">
+                            </div>
+                        </div>
+                        <div class="ind-card-body">
+                            <p class="ind-card-desc">Advanced 3D metrology and GD&T inspection software for complex industrial applications.</p>
                             
-                            <div class="col-md-4 software-landing-modal">
-                                <button type="button" class="btn software-landing-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                    REQUEST TRIAL
-                                </button>
+                            <div class="ind-card-main-img">
+                                <img src="assets/images/industrial-3d/card-img1.png" alt="Geomagic Control X Workflow">
                             </div>
-                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modal-contain">
-                                        <div class="modal-header">
-                                            <div class="container">
-                                                <div class="row ">
-                                                    <div class="col-12 col-md-12">
-                                                        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/dx.png" alt="Geomagic Design X">
-                                                            </div>
-                                                            <div class="modal-card-body">
 
-                                                                <p class="text-white card-title text-center">Geomagic Design X</p>
+                            <ul class="ind-feature-list green-bullets">
+                                <li><i class="fa-solid fa-circle-check"></i> Advanced GD&T & PMI</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Scan-to-CAD Inspection</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Deviation & Trend Analysis</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Automation & Custom Reporting</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Multi-device Compatibility</li>
+                            </ul>
 
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Gw.png" alt="Geomagic Wrap">
-                                                            </div>
-                                                            <div class="modal-card-body">
+                            <div class="ind-card-best-for">
+                                <strong>Best for</strong>
+                                <p>Aerospace | Automotive | Tooling | Precision | Foundry</p>
+                            </div>
+                        </div>
+                        <div class="ind-card-footer">
+                            <a href="geomagic-control-x-3d-inspection-software.php" class="btn-solution btn-green-solid">Explore Geomagic Control X</a>
+                        </div>
+                    </div>
+                </div>
 
-                                                                <p class="text-white card-title text-center">Geomagic Wrap</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/gs.png" alt="Geomagic for SolidWorks">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic for SolidWorks</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/cx.png" alt="Geomagic Control X">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Control X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Ff.png" alt="Geomagic Freeform">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Freeform</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
+                <!-- Card 2: SHINING 3D Inspect (Blue) -->
+                <div class="col-xl-4 col-lg-6 col-md-12">
+                    <div class="ind-solution-card ind-card-blue">
+                        <div class="ind-card-header">
+                            <div class="ind-card-logo">
+                                <img src="assets/images/industrial-3d/card-top4.png" alt="SHINING 3D Inspect">
+                            </div>
+                            <div class="ind-card-badge-pill pill-blue">
+                                Authorized Partner
+                            </div>
+                        </div>
+                        <div class="ind-card-body">
+                            <p class="ind-card-desc">Cost-effective and powerful inspection solution for SHINING 3D Scanners. Available in two modes.</p>
+                            
+                            <!-- Dual Modes Columns -->
+                            <div class="ind-dual-modes">
+                                <div class="ind-mode-col">
+                                    <div class="ind-mode-title">On-Scanner<br>Inspection<br><span class="mode-sub">(Standalone)</span></div>
+                                    <div class="ind-mode-img">
+                                        <img src="assets/images/industrial-3d/scan-inspection.png" alt="On-Scanner Standalone">
                                     </div>
+                                    <ul class="ind-mode-bullets blue-bullets">
+                                        <li><i class="fa-solid fa-circle-check"></i> Real-time inspection</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> No laptop required</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Wireless workflow</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Instant PDF report</li>
+                                    </ul>
+                                </div>
+                                <div class="ind-mode-col">
+                                    <div class="ind-mode-title">PC Software<br>Inspection<br><span class="mode-sub">(Full Version)</span></div>
+                                    <div class="ind-mode-img">
+                                        <img src="assets/images/industrial-3d/software-inspection.png" alt="PC Software Inspection">
+                                    </div>
+                                    <ul class="ind-mode-bullets blue-bullets">
+                                        <li><i class="fa-solid fa-circle-check"></i> Advanced analysis</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> GD&T & dimensioning</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Custom templates</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Professional reports</li>
+                                    </ul>
                                 </div>
                             </div>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
+                            <div class="ind-card-best-for">
+                                <strong>Best for</strong>
+                                <p>Field Inspection | On-the-Go | Manufacturing | Education | Research Labs</p>
+                            </div>
+                        </div>
+                        <div class="ind-card-footer">
+                            <div class="ind-trial-banner">
+                                <span class="trial-title">2 MONTHS FREE TRIAL</span>
+                                <span class="trial-subtitle">With every SHINING 3D Scanner Purchase</span>
+                            </div>
+                            <a href="shining-3d-inspect-software.php" class="btn-solution btn-blue-solid">Explore SHINING 3D Inspect</a>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="container-fluid">
-            <div class="row software-landing-topitems">
-                <<!--div class="col-6 col-sm-4 col-md-4 col-lg-2 software-headtop-containers">
-                    <div class="software-3d-head-padd">
-                        <img src="assets/images/3D-software-landing/head-img-1.jpg" alt="Geomagic-Design-X" class="img-fluid">
-                        <h6 class="text-center">Geomagic Design X</h6>
-                        <p class="text-center">3D Scanning and <br>
-                            Reverse Engineering Software</p>
-                        <div class="text-center">
-                            <a class="btn software-headtop-button " href="reverse-engineering-geomagic-design-x.php">KNOW MORE</a>
+                <!-- Card 3: TrueProp Software (Orange) -->
+                <div class="col-xl-4 col-lg-6 col-md-12">
+                    <div class="ind-solution-card ind-card-orange">
+                        <div class="ind-card-header">
+                            <div class="ind-card-logo">
+                                <img src="assets/images/industrial-3d/card-top3.png" alt="TRUEPROP SOFTWARE">
+                            </div>
+                            <div class="ind-card-badge-pill pill-orange">
+                                Official Partner
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2 software-headtop-containers">
-                    <div class="software-3d-head-padd">
-                        <img src="assets/images/3D-software-landing/head-img-2.jpg" alt="Geomagic-Wrap" class="img-fluid">
-                        <h6 class="text-center">Geomagic Wrap</h6>
-                        <p class="text-center">3D Scanning <br>
-                            and Mesh Modelling</p>
-                        <div class="text-center">
-                            <a class="btn software-headtop-button " href="geomagic-wrap-3d-scanning-software.php">KNOW MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2 software-headtop-containers">
-                    <div class="software-3d-head-padd">
-                        <img src="assets/images/3D-software-landing/head-img-3.jpg" alt="Geomagic-solidworks" class="img-fluid">
-                        <h6 class="text-center">Geomagic for SW</h6>
-                        <p class="text-center">Reverse Engineering plugins <br>
-                            for solid works</p>
-                        <div class="text-center">
-                            <a class="btn software-headtop-button " href="geomagic-for-solidworks-reverse-engineering-software.php">KNOW MORE</a>
-                        </div>
-                    </div>
-                </div>-->
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2 software-headtop-containers">
-                    <div class="software-3d-head-padd" style="height: 16.5rem;">
-                        <img src="assets/images/3D-software-landing/head-img-4.jpg" alt="3d-scanning-services-Geomagic-Control-X" class="img-fluid">
-                        <h6 class="text-center">Geomagic Control X</h6>
-                        <p class="text-center">3D Scanning <br>
-                            and Digital Inspection</p>
-                        <div class="text-center">
-                            <a class="btn software-headtop-button " href="geomagic-control-x-3d-inspection-software.php">KNOW MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="col-6 col-sm-4 col-md-4 col-lg-2 software-headtop-containers">
-                    <div class="software-3d-head-padd">
-                        <img src="assets/images/3D-software-landing/head-img-5.jpg" alt="3d-scanning-services-Geomagic-Free-Form" class="img-fluid">
-                        <h6 class="text-center">Geomagic Free Form</h6>
-                        <p class="text-center">Digital Sculpting <br>
-                            and CAD Modelling</p>
-                        <div class="text-center">
-                            <a class="btn software-headtop-button " href="geomagic-freeform-3d-modelling-design-software.php">KNOW MORE</a>
-                        </div>
-                    </div>
-                </div>-->
-
-            </div>
-        </div>
-        <div class="container-fluid heading m-320 software3d-headhide">
-            <div class="row ">
-                <div class="col-md-12 text-md-left text-center px-2">
-                    <div class="container ">
-                        <div class="row ">
-                            <div class="col-md-8 software-mobile software-3d-headcont">
-                                <h1 class="title text-white " style="
-    font-size: 39px;
-">3D Inspection software</h1>
-                                <!--<h2 class="text-white text-uppercase">3D reverse engineering is the term used to define that the user uses 3d files as a reference to revere engineer the object. The 3D file indicates the output put from the 3d scanner, and reverse engineering defines the process of CAD modeling from the scan. Software used for reverse engineering after 3d scanning is based on your applications. We PRECISE3DM have been an authorized reseller and distributor of  3d reverse engineering software for a long time. We have collaborated with the global OEM Geomagic inc, which was later acquired by 3d systems, to use 3d reverse engineering and 3D inspection software as pre print, post-print, engineering applications.
-                                </h2>-->
-                                <p class="software-landing-para2" style=" font-size: 18px;text-align: justify;">3D inspection is an advanced measurement technique for industrial parts in which the shape and dimensional analysis are performed in a three-dimensional way.3D inspection is an appropriate application for a complicated part with challenging profiles or many features that conventionally take time, such as CMM and tactile measurement system.
-In order to use 3D inspection software, the user should have a 3D scanner or 3D scan files as a reference.
-</p>
+                        <div class="ind-card-body">
+                            <p class="ind-card-desc">Specialized marine propeller inspection software for ISO compliant propeller analysis.</p>
+                            
+                            <div class="ind-card-main-img">
+                                <img src="assets/images/industrial-3d/card-img3.png" alt="TrueProp Software Layout">
                             </div>
 
-                            <!-- Modal starts-->
-                            <div class="col-md-4 software-landing-modal">
-                                <button type="button" class="btn software-landing-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                    REQUEST TRIAL
-                                </button>
+                            <ul class="ind-feature-list green-bullets">
+                                <li><i class="fa-solid fa-circle-check"></i> ISO 484 & Class Compliant</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Blade & Pitch Analysis</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Propeller Deformation</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Twist & Section Analysis</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Marine Industry Reports</li>
+                            </ul>
+
+                            <div class="ind-card-best-for">
+                                <strong>Best for</strong>
+                                <p>Shipbuilding | Repair & Overhaul | Propeller | Marine | Naval</p>
                             </div>
-                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-xs">
-                                    <div class="modal-content modal-contain">
-                                        <div class="modal-header">
-                                            <div class="container">
-                                                <div class="row ">
-                                                    <div class="col-12 col-md-12">
-                                                        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <!--<div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/dx.png" alt="reverse-engneering-software">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Design X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="reverse-engineering-geomagic-design-x.php#geoform">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Gw.png" alt="3d-scanning-services-Geomagic-Wrap">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Wrap</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="geomagic-wrap-3d-scanning-software.php#geoform">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>-->
-                                                    <div class="col-3 col-md-3 modal-card-bgcolor">
-                                                        <!--<div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/gs.png" alt="3d-scanning-services-Geomagic-for-SolidWorks">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic for SolidWorks</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="geomagic-for-solidworks-reverse-engineering-software.php#geoform">Download Trial</a>
-                                                            </div>
-                                                        </div>-->
-                                                    </div>
-                                                    <div class="col-6 col-md-6 modal-card-bgcolor ">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/cx.png" alt="3d-scanning-services-Geomagic-Control-X">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Control X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="https://www.precise3dm.com/software-sales-form.php">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!--<div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Ff.png" alt="3d-scanning-services-Geomagic-Freeform">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Freeform</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="geomagic-freeform-3d-modelling-design-software.php#geoform">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>-->
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal ends-->
+                        </div>
+                        <div class="ind-card-footer">
+                            <a href="trueprop-software.php" class="btn-solution btn-orange-solid">Explore TrurProp Inspection</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- section end-->
 
-    <!-- DRES section starts-->
-    <section id="digi-reverse-contain" class="sofware-yellow-sector" style="background-color:#212121;">
 
+    <!-- Software Comparison Table Section -->
+    <section class="ind-table-section">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-8 digi-reve-cont">
-                    <h3>Geomagic Control X 
-                    </h3>
-                    <p style="text-align: justify;">We bring the best 3D inspection software from 3Dsystems Geomagic Control X. You can empower more people throughout your organization to measure more parts, more often, and in more places with a 3D scanner and Geomagic Control X software.
-You can also measure more reliably no matter who is taking the measurements, and anyone can go back to any part and take additional measurements even after the part has left your facility.
-Control X lets you empower more people to improve quality at every step.
-</p>
-
+            <div class="ind-table-card">
+                <div class="text-center mb-4">
+                    <h3 class="ind-table-title">WHICH INSPECTION SOFTWARE IS RIGHT FOR YOU?</h3>
                 </div>
-            
+                
+                <div class="table-responsive">
+                    <table class="table table-bordered align-middle ind-compare-table">
+                        <thead>
+                            <tr>
+                                <th class="text-start header-req">Application / Requirement</th>
+                                <th class="text-center header-logo"><img src="assets/images/industrial-3d/table-img1.png" alt="Geomagic Control X"></th>
+                                <th class="text-center header-logo"><img src="assets/images/industrial-3d/table-img4.png" alt="SHINING 3D Inspect"></th>
+                                <th class="text-center header-logo"><img src="assets/images/industrial-3d/table-img3.png" alt="TrueProp Software"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-start spec-name">General Industrial Inspection</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-dash">-</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">GD&T & PMI Workflows</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-dash">-</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">On-Scanner Inspection</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-dash">-</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">Cost-Effective Solution</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-dash">-</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">Marine Propeller Inspection</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">ISO Compliance (Marine)</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">Portable Field Inspection</td>
+                                <td class="text-center val-dash">-</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-dash">-</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start spec-name">Large Part Metrology</td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-check"><i class="fa-solid fa-circle-check"></i></td>
+                                <td class="text-center val-dash">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-
-
     </section>
-    <!-- DRES section ends-->
 
-    <!-- content section starts-->
-    <section id="software-landing-bg-3d" class="section-padding software-land-section-padd">
+    <!-- 3D Inspection Workflow Section -->
+    <section class="ind-workflow-section">
         <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="ind-workflow-title">Complete <span class="highlight-orange">3D Inspection</span> Workflow</h2>
+            </div>
 
-            <div id="features">
-                <section class="section-padding section-padding-edit">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-8 zoom-out" onclick="location.href='#';" style="cursor:pointer;">
-                            <img src="assets/images/3D-software-landing/3d-systems-control-x-.png" alt="reverse-engneering-software-workflow" style="width:100%;margin-bottom: 69px;" class="img-fluid">
-                            <div class="d-flex justify-content-center">
-                            <a href="geomagic-control-x-3d-inspection-software.php" class="btn btn-info btn-lg " style="
-    position: relative;
-    bottom: 34px;
-" >KNOW MORE</a></div>
+            <div class="ind-workflow-container">
+                <!-- Step 1 -->
+                <div class="ind-workflow-card">
+                    <div class="ind-workflow-icon">
+                        <img src="assets/images/industrial-3d/workflow1.png" alt="3D Scan Icon">
+                    </div>
+                    <span class="ind-workflow-step">STEP 1</span>
+                    <h4 class="ind-workflow-step-title">3D Scan</h4>
+                    <p class="ind-workflow-step-desc">Capture accurate 3D data from physical parts</p>
+                </div>
 
+                <!-- Connector Arrow -->
+                <div class="ind-workflow-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="ind-workflow-card">
+                    <div class="ind-workflow-icon">
+                        <img src="assets/images/industrial-3d/workflow2.png" alt="CAD Alignment Icon">
+                    </div>
+                    <span class="ind-workflow-step">STEP 2</span>
+                    <h4 class="ind-workflow-step-title">CAD Alignment</h4>
+                    <p class="ind-workflow-step-desc">Align scan data to CAD with advanced algorithms</p>
+                </div>
+
+                <!-- Connector Arrow -->
+                <div class="ind-workflow-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="ind-workflow-card">
+                    <div class="ind-workflow-icon">
+                        <img src="assets/images/industrial-3d/workflow3.png" alt="GD&T Inspection Icon">
+                    </div>
+                    <span class="ind-workflow-step">STEP 3</span>
+                    <h4 class="ind-workflow-step-title">GD&T Inspection</h4>
+                    <p class="ind-workflow-step-desc">Extract dimensions & GD&T measurements</p>
+                </div>
+
+                <!-- Connector Arrow -->
+                <div class="ind-workflow-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="ind-workflow-card">
+                    <div class="ind-workflow-icon">
+                        <img src="assets/images/industrial-3d/workflow4.png" alt="Deviation Analysis Image" class="workflow-img-car">
+                    </div>
+                    <span class="ind-workflow-step">STEP 4</span>
+                    <h4 class="ind-workflow-step-title">Deviation Analysis</h4>
+                    <p class="ind-workflow-step-desc">Compare & analyze deviations with intuitive color maps</p>
+                </div>
+
+                <!-- Connector Arrow -->
+                <div class="ind-workflow-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="ind-workflow-card">
+                    <div class="ind-workflow-icon">
+                        <img src="assets/images/industrial-3d/workflow5.png" alt="Professional Report Icon">
+                    </div>
+                    <span class="ind-workflow-step">STEP 5</span>
+                    <h4 class="ind-workflow-step-title">Professional Report</h4>
+                    <p class="ind-workflow-step-desc">Generate customizable inspection reports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Scanner + Software Bundles Section -->
+    <section class="ind-bundles-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="ind-bundles-title">POPULAR SCANNER + SOFTWARE BUNDLES</h2>
+                <p class="ind-bundles-subtitle">Optimize your workflow with our handpicked, pre-configured scanner and software packages.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Bundle 1 -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="ind-bundle-card bundle-blue-theme">
+                        <div class="ind-bundle-img-wrap">
+                            <img src="assets/images/industrial-3d/bundle5.png" alt="FreeScan Omni Bundle">
+                        </div>
+                        <div class="ind-bundle-details">
+                            <p class="ind-bundle-desc">On-Scanner Inspection for maximum portability</p>
+                            <a href="freescan-omni.php" class="btn-bundle btn-bundle-blue">View Bundle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bundle 2 -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="ind-bundle-card bundle-green-theme">
+                        <div class="ind-bundle-img-wrap">
+                            <img src="assets/images/industrial-3d/bundle2.png" alt="FreeScan Combo Bundle">
+                        </div>
+                        <div class="ind-bundle-details">                            
+                            <p class="ind-bundle-desc">Medium-sized parts shop floor inspection</p>
+                            <a href="FreeScan-Combo.php" class="btn-bundle btn-bundle-green">View Bundle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bundle 3 -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="ind-bundle-card bundle-teal-theme">
+                        <div class="ind-bundle-img-wrap">
+                            <img src="assets/images/industrial-3d/bundle3.png" alt="FreeScan Trak Nova Bundle">
+                        </div>
+                        <div class="ind-bundle-details">
+                            <p class="ind-bundle-desc">Large Scale Inspection with laser tracker workflow</p>
+                            <a href="freescan-track-nova.php" class="btn-bundle btn-bundle-teal">View Bundle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bundle 4 -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="ind-bundle-card bundle-orange-theme">
+                        <div class="ind-bundle-img-wrap">
+                            <img src="assets/images/industrial-3d/bundle4.png" alt="FreeScan Omni Lite Bundle">
+                        </div>
+                        <div class="ind-bundle-details">                            
+                            <p class="ind-bundle-desc">Propeller inspection solution for marine applications</p>
+                            <a href="trueprop-software.php" class="btn-bundle btn-bundle-orange">View Bundle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Resources Section -->
+    <section class="ind-download-section">
+        <div class="container text-center">
+            <h2 class="ind-download-title">Download Resources</h2>
+            <div class="ind-download-wrap">
+                <div class="ind-download-row">
+                    <a href="assets/images/industrial-3d/Geomagic-Cx_Essential_Connect Comparision.pdf" download class="btn-download">
+                        <i class="fa-solid fa-download"></i> Geomagic Control X and essential comparisons
+                    </a>
+                   <a href="assets/images/industrial-3d/Truprop-Brochure.pdf" class="btn-download">
+                        <i class="fa-solid fa-download"></i> Trueprop Brochure
+                    </a>
+                </div>
+                <div class="ind-download-row mt-3">
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-download">
+                        <i class="fa-solid fa-download"></i> Systems requirement guide
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries & Why Choose Section -->
+    <section class="ind-info-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Left Card: Industries We Serve -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="ind-info-card">
+                        <h2 class="ind-info-card-title">INDUSTRIES WE SERVE</h2>
+                        <div class="ind-industry-grid">
+                            <!-- Row 1 -->
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind1.png" alt="Automotive Icon">
+                                </div>
+                                <span class="ind-industry-label">Automotive</span>
+                            </div>
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind2.png" alt="Aerospace Icon">
+                                </div>
+                                <span class="ind-industry-label">Aerospace</span>
+                            </div>
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind3.png" alt="Marine Icon">
+                                </div>
+                                <span class="ind-industry-label">Marine</span>
+                            </div>
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind4.png" alt="Shipbuilding Icon">
+                                </div>
+                                <span class="ind-industry-label">Shipbuilding</span>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind5.png" alt="Foundry & Casting Icon">
+                                </div>
+                                <span class="ind-industry-label">Foundry & Casting</span>
+                            </div>
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind6.png" alt="Power Generation Icon">
+                                </div>
+                                <span class="ind-industry-label">Power Generation</span>
+                            </div>
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind7.png" alt="Precision Engineering Icon">
+                                </div>
+                                <span class="ind-industry-label">Precision Engineering</span>
+                            </div>
+                            <div class="ind-industry-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind8.png" alt="Plastic Molding Icon">
+                                </div>
+                                <span class="ind-industry-label">Plastic Molding</span>
+                            </div>
+
+                            <!-- Row 3 (centered) -->
+                            <div class="ind-industry-item ind-grid-center-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind9.png" alt="Tooling & Die Icon">
+                                </div>
+                                <span class="ind-industry-label">Tooling & Die</span>
+                            </div>
+                            <div class="ind-industry-item ind-grid-center-item">
+                                <div class="ind-industry-icon">
+                                    <img src="assets/images/industrial-3d/ind10.png" alt="Education & R&D Icon">
+                                </div>
+                                <span class="ind-industry-label">Education & R&D</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card: Why Choose -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="ind-info-card">
+                        <h2 class="ind-info-card-title text-center">WHY CHOOSE</h2>
+                        <div class="ind-precise-logo-wrap">
+                            <img src="assets/images/industrial-3d/precise-logo.png" alt="Precise3DM Logo" class="ind-precise-logo">
+                        </div>
+                        
+                        <div class="ind-stats-grid">
+                            <div class="ind-stats-item">
+                                <div class="ind-stats-number">10+</div>
+                                <div class="ind-stats-label">Years in 3D Scanning Business</div>
+                            </div>
+                            <div class="ind-stats-item">
+                                <div class="ind-stats-number">3000+</div>
+                                <div class="ind-stats-label">Scan Projects Completed</div>
+                            </div>
+                            <div class="ind-stats-item">
+                                <div class="ind-stats-number">15+</div>
+                                <div class="ind-stats-label">Countries Served</div>
+                            </div>
+                            <div class="ind-stats-item">
+                                <div class="ind-stats-number">1000+</div>
+                                <div class="ind-stats-label">Happy Customers</div>
+                            </div>
+                            <div class="ind-stats-item">
+                                <div class="ind-stats-number">3000+</div>
+                                <div class="ind-stats-label">Industries Impacted</div>
+                            </div>
+                            <div class="ind-stats-item">
+                                <div class="ind-stats-number">Pan India</div>
+                                <div class="ind-stats-label">Support & Service</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- See Live Inspection Section -->
+    <section class="ind-live-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-lg-10">
+                    <div class="ind-live-card">
+                        <!-- Orange Header Banner -->
+                        <div class="ind-live-banner">
+                            SEE LIVE INSPECTION IN ACTION
+                        </div>
+                        
+                        <div class="row align-items-center">
+                            <!-- Left Content -->
+                            <div class="col-md-7 col-12">
+                                <ul class="ind-live-checklist">
+                                    <li><i class="fa-solid fa-circle-check"></i> Live online demonstration</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Scan-to-report on your actual part</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> On-scanner & PC Inspection demo</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> Marine propeller inspection demo</li>
+                                    <li><i class="fa-solid fa-circle-check"></i> free workflow consultation</li>
+                                </ul>
                                 
+                                <div class="ind-live-cta">
+                                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-live-demo">Book Live Demo</a>
+                                    <span class="ind-live-cta-text">No Cost. No Obligation</span>
+                                </div>
                             </div>
                             
-
+                            <!-- Right Image (Laptop Metrology Preview) -->
+                            <div class="col-md-5 col-12 mt-4 mt-md-0">
+                                <div class="ind-live-img-wrap">
+                                    <img src="assets/images/industrial-3d/live-img.png" alt="Live Inspection Laptop Preview" class="ind-live-laptop-img">
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                </section>
-            </div>
-        </div>
-
-        <!-- 3D SCANNING & DIGITAL INSPECTION SOFTWARE starts -->
-
-        
-        <!-- DIGITAL SCULPTING SOFTWARE ends -->
-        <div class="container-fluid software-content-yellowbg sofware-yellow-sector" style="background-color:#212121;">
-        <div class="container">
-                <!--<div class="sample-data-flex">
-                    <h1>3D OBJECT VIEWER</h1>
-                </div>-->
-                <div class="col-md-12    mt-5  ">
-                <h3 style="color: white;">Blog</h3>
-
-
-                <div class="owl-carousel owl-theme mt-5" id="owlblog" >
-                 <div class="item">
-                        <img src="assets/images/solutionix c500/slidepicnew/3D-Inspection-Main-300x126.png" style="filter: grayscale(20%);" width="350px" height="250px"alt="3d printing service in india-ear buds" class="printing">
-                        <h5 style="color:#FE8700; margin-top:5px;">3D Inspection of Large Parts using Handheld Metrology 3D Scanning</h5>
-                        <div class=" text-center mt-3">
-                        <a class=' mb-3' style="color: white"><i class="far fa-clock" style="position:relative;left: -4px;"></i>July 19, 2021  </a> <a class= "text-white" style="padding-left:20px;"><i class="fas fa-bars" style="position:relative;left: -4px;"></i>3D Inspections</a>
-
-                        </div>
-                        <div class="text-center mt-4">
-                        <a class="btn pre-btn my-2" href="https://precise3dm.com/blogs/handheld-3d-scanning-service-using-freescan-x7/" target="_blank">READ MORE</a>
-                        </div>
-
-
-                    </div>
-                    
-                    <div class="item">
-                        <img src="assets/images/solutionix c500/slidepicnew/1-300x225.jpg" style="filter: grayscale(20%);" width="350px" height="250px"alt="3d printing service in india-ear buds" class="printing">
-                        <h5 style="color:#FE8700; margin-top:5px;">Post Print 3D Scanning & Digital Inspection of Bag Buckle(Male)</h5>
-                        <div class=" text-center mt-3">
-                        <a class=' mb-3' style="color: white"><i class="far fa-clock" style="position:relative;left: -4px;"></i>November 17 , 2021  </a> <a class= "text-white" style="padding-left:20px;"><i class="fas fa-bars" style="position:relative;left: -4px;"></i>3D Inspections</a>
-
-                        </div>
-                        <div class="text-center mt-4">
-                        <a class="btn pre-btn my-2" href="https://precise3dm.com/blogs/3d-digital-inspection-for-buckle/" target="_blank">READ MORE</a>
-                        </div>
-
-
-                    </div>
-                    <div class="item">
-                        <img src="https://precise3dm.com/blogs/wp-content/uploads/2022/03/unnamed-4.jpg" style="filter: grayscale(20%);" width="350px" height="250px"alt="3d printing service in india-ear buds" class="printing">
-                        <h5 style="color:#FE8700; margin-top:5px;">Are you an abroad client looking for a 3d scanning service in India? see how we help a French manufacturer</h5>
-                        <div class=" text-center mt-3">
-                        <a class=' mb-3' style="color: white"><i class="far fa-clock" style="position:relative;left: -4px;"></i>March 30, 2022  </a> <a class= "text-white" style="padding-left:20px;"><i class="fas fa-bars" style="position:relative;left: -4px;"></i>3D Inspection</a>
-
-                        </div>
-                        <div class="text-center mt-3">
-                        <a class="btn pre-btn my-2" href="https://precise3dm.com/blogs/are-you-an-abroad-client-looking-for-a-3d-scanning-service-in-india-see-how-we-help-a-french-manufacturer/" target="_blank">READ MORE</a>
-                        </div>
-
-
-                    </div>
-
-                    <div class="item">
-                        <img src="https://precise3dm.com/blogs/wp-content/uploads/2022/04/Screenshot-4-1-1536x773.jpg" style="filter: grayscale(20%);" width="350px" height="250px"alt="3d printing service in india-ear buds" class="printing">
-                        <h5 style="color:#FE8700; margin-top:5px;">3D inspection software – Digital Quality inspection using Geomagic Control X</h5>
-                        <div class=" text-center mt-3">
-                        <a class=' mb-3' style="color: white"><i class="far fa-clock" style="position:relative;left: -4px;"></i>April 22, 2022  </a> <a class= "text-white" style="padding-left:20px;"><i class="fas fa-bars" style="position:relative;left: -4px;"></i>3D Inspections</a>
-
-                        </div>
-                        <div class="text-center mt-3">
-                        <a class="btn pre-btn my-2" href="https://precise3dm.com/blogs/3d-inspection-software-digital-quality-inspection-using-geomagic-control-x/" target="_blank">READ MORE</a>
-                        </div>
-
-
-                    </div>
-                    
                 </div>
-             </div>
             </div>
         </div>
-        <style>
-                 .owl-nav button{
-                     height:40px;
-                     width:40px;
-                     border-radius:30px !important;
-                 }
-                 @media only screen and (min-width: 712px) {
-                    .owl-theme .owl-nav [class*=owl-] {
-                     margin-left:-26px;
-                     margin-right:-26px;
-                 }
-
-
-                 }
-
-                 #owlblog .owl-nav button{
-                     background-color:#ff8d1e !important;
-                 }
-             </style>
-        </div>
-        <!--hjk-->
-        <style>
-                 .owl-nav button{
-                     height:40px;
-                     width:40px;
-                     border-radius:30px !important;
-                 }
-                 @media only screen and (min-width: 712px) {
-                    .owl-theme .owl-nav [class*=owl-] {
-                     margin-left:-26px;
-                     margin-right:-26px;
-                 }
-
-
-                 }
-
-                 #owlblog .owl-nav button{
-                     background-color:#ff8d1e !important;
-                 }
-             </style>
-             <div class="container">
-
-<div id="features" class="faq">
-    <section class="section-padding section-padding-edit">
-    <div class="container">
-    <div class="row ">
-
-<div class="col-md-11 text-left px-lg-0 "> 
-    <h4 class="text-uppercase text-white mt-2 mb-4 mx-lg-0 mx-2" >Frequently asked questions </h4></div></div>
-   
-<div class="row faqsectionforscroll">
-
-    <div class="col-md-11 text-left px-lg-0 ">
-
-        <h5 class="pre-color" >What is 3D inspection software?</h5>
-        <div class="left-border">
-            <p class="text-white" >3D inspection software is used along with 3D scanners to measure, compare and extract 3D dimensions of any scanned parts of components, objects, and assembly.3D scanners 3D scan files and original CAD files are the main resources to perform the 3D inspection.
-            </p>
-        </div>
-
-        <h5 class="pre-color "  >Where do we use the 3D inspection application?</h5>
-        <div class="left-border">
-            <p class="text-white " >3D inspection is the new method of quality control and quality assurance mainly used for post-production of mechanical components after manufacturing any industrial parts, and nowadays widely used for post 3D printing.</p>
-        </div>
-
-        <h5 class="pre-color " >What is the best 3D inspection software in the market?</h5>
-        <div class="left-border">
-            <p class="text-white " >The best inspection software in the market is based on your application. Suppose you are looking for an inspection software with advanced functions such as automation and batch processing to reduce the time and perform an end-to-end 3D inspection analysis Geomagic Control X is the best 3D inspection software.</p>
-        </div>
-
-        <h5 class="pre-color " >  Are 3D metrology and 3D inspection software the same?</h5>
-        <div class="left-border">
-            <p class="text-white " >3D inspection and 3D metrology indicate the same meaning, so both the software perform the same analysis. It is also called computer-aided verification systems.
- 
-            </p>
-        </div>
-        <h5 class="pre-color " >Can I use 3D inspection software without a 3D scanner?</h5>
-        <div class="left-border">
-            <p class="text-white " >The main resource for 3D inspection software is a 3D scanner. Either you need 3D scanners in-house, or you should have 3D scan files as a reference files to use 3D inspection software
-
-
-            </p>
-        </div>
-
-        
-    </div>
-</div>
-</div>
-
     </section>
-</div>
-</div>
 
-
-    
-
-    </section>
-    
-    <!-- content section  end-->
-
-
+    <!-- Footer Include -->
     <?php include('includes/footer.php'); ?>
 
-    <!-- bootstrap links-->
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="assets/js/slim.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="assets/js/tabs.js"></script>
-
-    <!-- bootstrap links-->
-    <script src="assets/js/counter.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 </body>
+
 
 </html>

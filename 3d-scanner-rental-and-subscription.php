@@ -24,26 +24,39 @@
     <meta property="twitter:description" content="Rent or subscribe to high-precision 3D scanners across India. Flexible daily to annual plans, with software, training, support & pan-India delivery.Call us now!" />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     
-    <link rel="canonical" href="https://www.precise3dm.com/3d-scanner-rental-and-subscription.php"/>
+   <link rel="canonical" href="https://www.precise3dm.com/3d-scanners-on-rental-and-subscription-in-india.php" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
 
-   <!--bootstrap css-->
-   <link rel="stylesheet" href="assets/css/bootstrap.css">
-   <!--owl css-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <!--custom css-->
-   <link rel="stylesheet" href="assets/css/styles.css">
-   <link rel="stylesheet" href="assets/css/index.css">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-   <link rel="canonical" href="https://www.precise3dm.com/" />
-   <link rel="stylesheet" href="assets/css/3d-scanner-rental.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Site-Wide CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Page-Specific CSS -->
+    <link rel="stylesheet" href="assets/css/3d-scanners-on-rental-and-subscription-in-india.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
 
     <script type="application/ld+json">
     {
@@ -158,650 +171,755 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
-    
+
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-   <!-- header start -->
-   <?php include('includes/header.php'); ?>
-   <!-- header End -->
+    <!-- =========================================================
+     HEADER INCLUDE
+     ========================================================= -->
+    <?php include('includes/header.php'); ?>
 
-
-      <!-- =================
-          Hero Section Start
-      ===========================-->
-      
-  <section class="hero">
-    <div class="container">
-      <div class="mobile">
-        <div class="cont-div">
-          <a class="btn" href="tel:+91 9840478347"><i class="fa-solid fa-phone"></i></a>
-          <div class="cont-text">
-            <h4>Call us now</h4>
-            <p>+91 98404 78347</p>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-lg-2">
-        <div class="col">
-          <div class="banner-left">
-            <ul class="nav nav-pills" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">3D Scanner <br> Rentals in India</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">3D Scanner <br> Subscription in India </span></button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <div class="rent-sub-div">
-                  <ul>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>3D Scanning Engineer for using 3D Scanner</p>
-                    </li>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>For Short-term project</p>
-                    </li>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>Pay Per day or week basis</p>
-                    </li>
-                  </ul>
+    <!-- =========================================================
+     HERO SECTION
+     ========================================================= -->
+    <section class="rental-hero" id="rental-hero" aria-label="3D Scanners on Rental and Subscription Hero">
+        <div class="container-fluid h-100 d-flex flex-column" style="padding: 0 5%;">
+            
+            <!-- ── Top Right: Contact Info ── -->
+            <div class="rental-hero-topbar">
+                <div class="rental-contact-box">
+                    <div class="rental-contact-item">
+                        <div>
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/phone-icon.png" alt="Phone icon">
+                        </div>
+                        <div class="rental-contact-text">
+                            <h6>Call us now</h6>
+                            <p>
+                                <a href="tel:+919840478347">+91 98404 78347</a>
+                                <span class="text-orange mx-1">|</span>
+                                <a href="tel:+916374406179">+91 63744 06179</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rental-contact-item mt-3">
+                        <div>
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/mail-logo.png" alt="Email icon">
+                        </div>
+                        <div class="rental-contact-text">
+                            <h6>Email us</h6>
+                            <p>
+                                <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                <span class="text-orange mx-1">|</span>
+                                <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="tab-pane fade show active  " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <div class="rent-sub-div">
-                  <ul>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>For the self-use</p>
-                    </li>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>For Long-term Projects</p>
-                    </li>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>Initial Training for scanner usage</p>
-                    </li>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>laptop with appropriate scanning software</p>
-                    </li>
-                    <li>
-                      <img src="assets/images/rental-and-subscription/tick.png" alt="">
-                      <p>Monthly or yearly options</p>
-                    </li>
-                  </ul>
+            </div>
+            <!-- ── End Top Right ── -->
+
+            <!-- ── Main Content Row ── -->
+            <div class="row rental-hero-content-row position-relative">
+                
+                <!-- Left Column: Text + CTAs -->
+                <div class="col-lg-6 col-xl-6 position-relative z-2">
+                    <div class="rental-hero-left">
+
+                        <h1 class="rental-hero-title">
+                            <span class="text-black">3D Scanners on</span> <span class="text-orange">Rental</span> <span class="text-black">and</span><br>
+                            <span class="text-orange">Subscription</span> <span class="text-black">in India</span>
+                        </h1>
+
+                        <p class="rental-hero-subtitle">FLEXIBLE PLANS, ZERO HASSLE.</p>
+
+                        <p class="rental-hero-desc">
+                            Rent or subscribe to the latest 3D scanning technology from Precise3DM. 
+                            Low upfront cost, expert support, and the freedom to scale.
+                        </p>
+
+                        <!-- Feature Icons -->
+                        <div class="rental-icons-strip">
+                            <div class="rental-feature-icon">
+                                <div class="icon-ring">
+                                    <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/hero1.png" alt="500+ Businesses Served">
+                                </div>
+                                <span>500+<br>Businesses<br>Served</span>
+                            </div>
+                            <div class="rental-feature-icon">
+                                <div class="icon-ring">
+                                    <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/hero2.png" alt="Pan India Support" onerror="this.src='assets/images/3d-scanners-on-rental-and-subscription-in-india/hero1.png'"> <!-- fallback to hero1 just in case hero2 isn't exact name -->
+                                </div>
+                                <span>Pan India<br>Support</span>
+                            </div>
+                            <div class="rental-feature-icon">
+                                <div class="icon-ring">
+                                    <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/hero3.png" alt="Expert Guidance">
+                                </div>
+                                <span>Expert<br>Guidance</span>
+                            </div>
+                        </div>
+
+                        <!-- CTA Buttons -->
+                        <div class="rental-btn-group">
+                            <a href="#explore-scanners"
+                                class="rental-btn rental-btn-primary"
+                                aria-label="Explore Scanners">
+                                Explore Scanners
+                            </a>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php"
+                                class="rental-btn rental-btn-outline"
+                                aria-label="Talk to an Expert">
+                                Talk to an Expert
+                            </a>
+                        </div>
+                        <!-- End CTA Buttons -->
+
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="email-div">
-              <div class="cont-div">
-                <a class="btn" href="mailto:sm@precise3dm.com"><i class="fa-solid fa-envelope"></i></a>
-                <div class="cont-text">
-                  <h4>Email us</h4>
-                  <p>sm@precise3dm.com</p>
+                <!-- End Left Column -->
+
+                <!-- Blur Box Overlay -->
+                <div class="rental-blur-box">
+                    <h4 class="text-orange">0% Upfront<br>Investment</h4>
+                    <p class="text-black">Start scanning with zero capital expenditure.</p>
                 </div>
-              </div>
-              <a href="https://www.precise3dm.com/rental-and-subscription-form.php" class="btn btnn">Get a Quote</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="banner-right mt-4 mt-lg-0">
-            <img src="assets/images/rental-and-subscription/banner-img.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-<!-- ================
-  Hero section end
-======================-->
+            </div>
+            <!-- ── End Main Content Row ── -->
 
-<!-- ==================
-  Section 2 start
-========================-->
-  <section style="padding:60px 0">
-    <div class="container">
-      <h1 class="text-center sec-head">Available 3D scanners for rental and subscription in India </h1>
-      <div class="row gap-0 row-cols-2 row-cols-lg-4 mt-5">
-        <div class="col">
-          <div class="sub-card">
-            <img src="assets/images/rental-and-subscription/card1.png" alt="">
-            <div class="card-btn">
-              <a href="https://www.precise3dm.com/Einstar.php" class="btn">Einstar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="sub-card">
-            <img src="assets/images/rental-and-subscription/card2.png" alt="">
-            <div class="card-btn">
-              <a href="https://www.precise3dm.com/Einscanh2.php" class="btn">Einscan H2</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="sub-card mt-3 mt-lg-0">
-            <img src="assets/images/rental-and-subscription/card3.png" alt="">
-            <div class="card-btn">
-              <a href="https://www.precise3dm.com/FreeScan-Combo.php" class="btn">Freescan Combo</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="sub-card mt-3 mt-lg-0">
-            <img src="assets/images/rental-and-subscription/card4.png" alt="">
-            <div class="card-btn">
-              <a href="https://www.precise3dm.com/freescan-ue-pro-3d-scanner-in-india.php" class="btn">Freescan UE Pro</a>
-            </div>
-          </div>
-        </div>        
-      </div>
-    </div>
-  </section>
-
-<!-- ==================
-  Section 2 end
-========================-->
-<!-- ==================
-  Section 3 start
-========================-->
-
-  <section>
-    <div class="container">
-      <h3 class="text-center sec-head">How it Works</h3>
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="how-container">
-          <div class="how-list">
-            <img src="assets/images/rental-and-subscription/tag1.png" alt="">
-            <p><b>Choose Your Plan:</b> Pick the plan that fits your needs</p>
-          </div>
-          <div class="how-list">
-            <img src="assets/images/rental-and-subscription/tag2.png" alt="">
-            <p><b>Get Started:</b> Receive the Scanner and onboarding support.</p>
-          </div>
-          <div class="how-list">
-            <img src="assets/images/rental-and-subscription/tag3.png" alt="">
-            <p><b>Scan & Succeed:</b> Start achieving high-precision results immediately.</p>
-          </div>
-        </div>
-      </div>  
-    </div>
-  </section>
-
-<!-- ==================
-  Section 3 end
-========================-->
-<!-- ==================
-  Section 4 start
-========================-->
-
-  <section class="tag-sec" style="padding:60px 0">
-    <div class="container">
-      <h3 class="text-center sec-head">Why Precise3DM 3D Scanner Rental and Subscription?</h3>
-      <div class="row row-cols-1 row-cols-lg-2 mt-5">
-        <div class="col">
-          <div class="tag-card">
-            <p>Flexible <span>Rental</span> and <br> <span>Subscription</span> options.</p>
-            <div class="tag-icon">
-              <img src="assets/images/rental-and-subscription/icon1.png" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col mt-4 mt-lg-0">
-          <div class="tag-card">
-            <p>Access to cutting-edge <br> <span>3D scanning technology.</span></p>
-            <div class="tag-icon">
-              <img src="assets/images/rental-and-subscription/icon2.png" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col mt-4">
-          <div class="tag-card">
-            <p><span>Expert support</span> and <br> <span>Training</span> are available.</p>
-            <div class="tag-icon">
-              <img src="assets/images/rental-and-subscription/icon3.png" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col mt-4">
-          <div class="tag-card">
-            <p>Scanners were delivered <br> with all the necessary <br> <span>3D scanning software.</span></p>
-            <div class="tag-icon">
-              <img src="assets/images/rental-and-subscription/icon4.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-<!-- ==================
-  Section 4 end
-========================-->
-<!-- ==================
-  Section 5 start
-========================-->
-
-  <section class="sub-buy-table" style="padding:60px 0;">
-    <div class="container">
-      <h3 class="text-center sec-head"><span>Compare</span> Subscription vs Buying</h3>
-
-      <table class="table table-bordered mt-5">
-        <thead>
-          <tr>
-            <th></th>
-            <th>Subscription</th>
-            <th>Buy</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Zero upfront cost</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Annual software updates included</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Free calibration and maintenance	</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Flexible upgrade options</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Access to the latest technology</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>No long-term commitment</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Option to purchase after rental</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>On-demand support and training</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Ownership after payment</td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-          </tr>
-          <tr>
-            <td>Better ROI for short-term projects</td>
-            <td><img src="assets/images/rental-and-subscription/green-tick.png" alt=""></td>
-            <td><img src="assets/images/rental-and-subscription/red-cross.png" alt=""></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-<!-- ==================
-  Section 5 end
-========================-->
-<!-- ==================
-  FAQ Section start
-========================-->
-
-    <section id="FAQ" class="container pt-5 pb-5">
-    <h3 class="text-center sec-head"><span class="span">FREQUENTLY </span>ASKED QUESTIONS</h3>
-      <div id="style-3" class="row mt-4">
-         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                     aria-expanded="true" aria-controls="collapseOne">
-                     <span>What types of 3D scanners are available for rent or subscription in India?</span>
-                  </button>
-               </h2>
-               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                  <P>We offer high-performance 3D scanners for both rental and subscription:</P>
-                    <ul>
-                      <li><a href="https://www.precise3dm.com/Einstar.php">Einstar</a>- for hobbyist purposes</li>
-                      <li><a href="https://www.precise3dm.com/Einscanh2.php">Einscan</a> H2 for statues and figurines 3d scanning</li>
-                      <li><a href="https://www.precise3dm.com/FreeScan-Combo.php">FreeScan Combo</a> for 3d metrology purposes</li>
-                      <li><a href="https://www.precise3dm.com/freescan-ue-pro-3d-scanner-in-india.php">FreeScan UE Pro</a> for wireless 3d scanning and large object</li>
-                      <li><a href="https://www.precise3dm.com/laser-tracker-3d-scanner.php">Long-range 3D scanners</a> for building and construction</li>
-                    </ul>
-                    <P>These scanners are available for rental and subscription in India; pls fill out the form and get the quote here</P>
-                  </div>
-               </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     <span>What is included in the 3D scanner rental plan?</span>
-                  </button>
-               </h2>
-               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>Our 3D scanner rental plan includes:</p>
-                     <ul>
-                      <li>A certified 3D scanning engineer</li>
-                      <li>Short-term rental options (daily or weekly)</li>
-                      <li>Pre-installed <a href="https://www.precise3dm.com/3d-scanning-software.php">scanning software</a></li>
-                      <li>We offer end-to-end support for your project. We can deliver STL files or assist you with inspection and reverse engineering projects</li>
-                     </ul>
-                     <p>Perfect for short-term projects or one-time requirements.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <span>What is included in the 3D scanner subscription plan?</span>
-                  </button>
-               </h2>
-               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>Our 3D scanner subscription plan is designed for self-use and includes:</p>
-                     <ul>
-                      <li>A 3D scanner of your choice</li>
-                      <li>A laptop with pre-installed <a href="https://www.precise3dm.com/3d-scanning-software.php">scanning software</a></li>
-                      <li>Initial training to help you get started</li>
-                      <li>Monthly or yearly subscription options</li>
-                     </ul>
-                     <p>Ideal for long-term projects or in-house teams.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                     <span>Do you provide training or support?</span>
-                  </button>
-               </h2>
-               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>Yes! We provide onboarding training, scanner setup assistance, and ongoing technical support with our subscription plans for short-term rental we will take care of scanner usage.</p>
-                  </div>
-               </div>
-            </div>
-
-            <!--  -->
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingFive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                     <span>Where in India can I rent or subscribe to a 3D scanner?</span>
-                  </button>
-               </h2>
-               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>We offer pan-India delivery and support, so no matter where you are, we can get the scanner to your location and help you get started.</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingsix">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                     <span>What’s the duration of rental or subscription?</span>
-                  </button>
-               </h2>
-               <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <ul>
-                      <li>
-                      <b>Rental:</b> Available on a per-day or weekly basis.
-                      </li>
-                      <li>
-                      <b>Subscription:</b> Available on a monthly or annual basis, ideal for long-term use.
-                      </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingseven">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                     <span>How does the rental or subscription process work?</span>
-                  </button>
-               </h2>
-               <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p>It’s simple:</p>
-                     <ol>
-                      <li>Choose Your Plan – Rental or Subscription</li>
-                      <li>Get Quote- We give you a quote based on the duration</li>
-                      <li>Get Started – We ship the scanner and offer onboarding</li>
-                      <li>Scan & Succeed – Begin scanning with high accuracy right away!</li>
-                     </ol>
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingtwelve">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-                     <span>Who should opt for rental vs subscription?</span>
-                  </button>
-               </h2>
-               <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <ul>
-                      <li>Rental is best for companies or professionals working on a short-term project or a one-time job.</li>
-                      <li><b>Subscription</b> is ideal for businesses with <b>ongoing 3D scanning needs</b> and teams that want to scan in-house.</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingnine">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                     <span>How much does it cost to rent or subscribe to a 3D scanner?</span>
-                  </button>
-               </h2>
-               <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>Costs vary depending on the scanner model and the rental/subscription period. Please contact us at <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a> or <a href="mailto:sm@precis3dm.com">sm@precis3dm.com</a> for a customized quote based on your application and project duration.</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingten">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapsetten">
-                     <span>Why choose Precise3DM for 3D scanner rental or subscription?</span>
-                  </button>
-               </h2>
-               <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <ul>
-                      <li>Flexible rental & subscription options</li>
-                      <li>Wide selection of industry-leading scanners</li>
-                      <li>Includes software, laptop (for subscription), and training</li>
-                      <li>Delivered anywhere in India with expert support</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading11">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                     <span>Can I upgrade or change the scanner during my subscription?</span>
-                  </button>
-               </h2>
-               <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>Yes, you can upgrade or switch to another model during your subscription term (based on availability). This is helpful if your project scope changes or you need different accuracy or resolution.</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingtwelve">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
-                     <span> Do I need to sign a rental or subscription agreement?</span>
-                  </button>
-               </h2>
-               <div id="collapsetwelve" class="accordion-collapse collapse" aria-labelledby="headingtwelve"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                  Yes, we provide a simple rental/subscription agreement to ensure transparency. It includes terms on scanner care, usage limits (if any), and return policies.
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading13">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                     <span>What if the scanner gets damaged during use?</span>
-                  </button>
-               </h2>
-               <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                  In case of accidental damage, we follow a damage responsibility policy explained during onboarding. For rentals, our engineer handles the scanner. For subscriptions, basic training and care instructions are provided to avoid issues
-                  </div>
-               </div>
-            </div>
-
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading14">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                     <span>Is internet connectivity required for using the scanner?</span>
-                  </button>
-               </h2>
-               <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                  No, an Internet connection is not needed to use our <a href="https://www.precise3dm.com/3dscanner-in-india.php">3D scanners</a>. Most scanning software works offline, We’ll guide you based on the scanner and software you choose.
-                  </div>
-               </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading15">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
-                     <span>How do I return the scanner after the rental or subscription period?</span>
-                  </button>
-               </h2>
-               <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                  We’ll schedule a pickup from your location. Scanners should be packed in the original shipping box with all accessories and software dongles (if any).
-                  </div>
-               </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading16">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
-                     <span> Can I use the rented scanner for reverse engineering or inspection?</span>
-                  </button>
-               </h2>
-               <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                  Absolutely. Our scanners are equipped for both <a href="https://www.precise3dm.com/3d-Reverse-Engineering-Services-in-india.php">reverse engineering</a> and <a href="https://www.precise3dm.com/3d-inspection-service.php">3D inspection</a>. Let us know your application — we’ll match you with the right tool and software.
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+        </div><!-- /container -->
     </section>
-<!-- ==================
-  FAQ Section end
-========================-->
+    <!-- =========================================================
+     END HERO SECTION
+     ========================================================= -->
+
+    <!-- =========================================================
+     ABOUT SECTION
+     ========================================================= -->
+    <section class="rental-about" id="rental-about">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row text-center justify-content-center">
+                
+                <!-- Item 1 -->
+                <div class="col-6 col-md-4 col-lg mt-4 mt-lg-0">
+                    <div class="rental-about-item">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/about1.png" alt="Low Initial Cost" class="img-fluid mb-3">
+                        <h5 class="fw-bold">Low Initial Cost</h5>
+                        <p>Start with minimal investment</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-6 col-md-4 col-lg mt-4 mt-lg-0">
+                    <div class="rental-about-item">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/about2.png" alt="Flexible Plans" class="img-fluid mb-3">
+                        <h5 class="fw-bold">Flexible Plans</h5>
+                        <p>Monthly or yearly options</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-6 col-md-4 col-lg mt-4 mt-lg-0">
+                    <div class="rental-about-item">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/about3.png" alt="Latest Technology" class="img-fluid mb-3">
+                        <h5 class="fw-bold">Latest Technology</h5>
+                        <p>Access cutting-edge<br>3D scanners</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-6 col-md-4 col-lg mt-4 mt-lg-0">
+                    <div class="rental-about-item">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/about4.png" alt="Expert Support" class="img-fluid mb-3">
+                        <h5 class="fw-bold">Expert Support</h5>
+                        <p>Training, calibration &<br>technical support</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col-6 col-md-4 col-lg mt-4 mt-lg-0">
+                    <div class="rental-about-item">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/about5.png" alt="Hassle-Free" class="img-fluid mb-3">
+                        <h5 class="fw-bold">Hassle-Free</h5>
+                        <p>Maintenance & upgrades</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END ABOUT SECTION
+     ========================================================= -->
+
+    <!-- =========================================================
+     TOP SCANNERS SECTION
+     ========================================================= -->
+    <section class="rental-top-scanners" id="rental-top-scanners">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="text-center fw-bold mb-5">Top 3D Scanners Available for Rent or Subscription</h2>
+            
+            <div class="row justify-content-center g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-xl-3 py-3">
+                    <div class="rental-scanner-card">
+                        <div class="scanner-img-wrapper">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/scanner1.png" alt="FreeScan Trak Nova" class="img-fluid">
+                        </div>
+                        <div class="scanner-card-body">
+                            <h4 class="fw-bold">FreeScan Trak Nova</h4>
+                            <ul>
+                                <li>Photogrammetry & 3D Laser Scanning</li>
+                                <li>Large-volume accuracy</li>
+                                <li>Built-in wireless</li>
+                                <li>Ideal for aerospace, automotive & heavy industry</li>
+                            </ul>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-xl-3 py-3">
+                    <div class="rental-scanner-card">
+                        <div class="scanner-img-wrapper">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/scanner2.png" alt="FreeScan Omni" class="img-fluid">
+                        </div>
+                        <div class="scanner-card-body">
+                            <h4 class="fw-bold">FreeScan Omni</h4>
+                            <ul>
+                                <li>Wireless & handheld</li>
+                                <li>High accuracy</li>
+                                <li>Fast & easy to use</li>
+                                <li>Perfect for mid-size parts & assemblies</li>
+                            </ul>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-xl-3 py-3">
+                    <div class="rental-scanner-card">
+                        <div class="scanner-img-wrapper">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/scanner3.png" alt="FreeScan Combo" class="img-fluid">
+                        </div>
+                        <div class="scanner-card-body">
+                            <h4 class="fw-bold">FreeScan Combo</h4>
+                            <ul>
+                                <li>Blue Laser + NIR Modes</li>
+                                <li>Versatile scanning</li>
+                                <li>Wide range of applications</li>
+                                <li>All-in-one scanning solution</li>
+                            </ul>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-md-6 col-xl-3 py-3">
+                    <div class="rental-scanner-card">
+                        <div class="scanner-img-wrapper">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/scanner4.png" alt="EinScan Rigil" class="img-fluid">
+                        </div>
+                        <div class="scanner-card-body">
+                            <h4 class="fw-bold">EinScan Rigil</h4>
+                            <ul>
+                                <li>Dual Light Source (Blue Laser + IR VCSEL)</li>
+                                <li>High detail & accuracy</li>
+                                <li>Marker-Free Laser Scanning</li>
+                                <li>Ideal for product design, reverse engineering</li>
+                            </ul>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END TOP SCANNERS SECTION
+     ========================================================= -->
+
+    <!-- =========================================================
+     SUBSCRIPTION VS BUYING SECTION
+     ========================================================= -->
+    <section class="rental-compare" id="rental-compare">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row g-4 align-items-stretch">
+                
+                <!-- Left Side: Table -->
+                <div class="col-12 col-xl-6 d-flex flex-column">
+                    <div class="rental-compare-left flex-grow-1">
+                        <h2 class="text-center fw-bold mb-2">Subscription vs Buying</h2>
+                        <p class="text-center text-muted mb-4">Make the smart choice for your Business</p>
+                        
+                        <div class="table-responsive">
+                            <table class="rental-compare-table">
+                                <thead>
+                                    <tr>
+                                        <th style="color: var(--orange);">Benefit</th>
+                                        <th style="color: #28a745; text-align: center;">Subscription</th>
+                                        <th style="color: #dc3545; text-align: center;">Buy</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Zero upfront cost</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Annual software update included</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Free calibration and maintenance</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flexible upgrade options</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Access to the latest technology</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>No long-term commitment</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Option to purchase after rental</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>On-demand support and training</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ownership after payment</td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Better ROI for short-term projects</td>
+                                        <td class="text-center"><span class="tick-green">✔</span></td>
+                                        <td class="text-center"><span class="cross-red">✖</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Subscription vs Rental Box -->
+                <div class="col-12 col-xl-6 d-flex flex-column">
+                    <div class="rental-right-box">
+                        <h2 class="fw-bold mb-2">Subscription vs Rental in India</h2>
+                        <p class="text-muted mb-4">Choose what fits your project and timeline</p>
+                        
+                        <div class="row g-4">
+                            <!-- Card 1 -->
+                            <div class="col-12 col-md-6 d-flex flex-column">
+                                <div class="rental-sub-card flex-grow-1">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/subscription1.png" alt="Subscription Icon" class="me-3 px-2" style="width: 40px; height: auto;">
+                                        <h4 class="mb-0 text-orange fw-bold">3D Scanner<br>Subscription<br>in India</h4>
+                                    </div>
+                                    <ul class="rental-list-tick">
+                                        <li>For self-use</li>
+                                        <li>For long-term projects</li>
+                                        <li>Initial training for scanner usage</li>
+                                        <li>Laptop with appropriate scanning software</li>
+                                        <li>Monthly or yearly options</li>
+                                    </ul>
+                                    <div class="mt-auto pt-3">
+                                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-solid">Choose Subscription</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-12 col-md-6 d-flex flex-column">
+                                <div class="rental-sub-card flex-grow-1">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/subscription2.png" alt="Rental Icon" class="me-3 px-2" style="width: 40px; height: auto;">
+                                        <h4 class="mb-0 text-orange fw-bold">3D Scanner<br>Rental in India</h4>
+                                    </div>
+                                    <ul class="rental-list-tick">
+                                        <li>For short-term projects or one-time requirements</li>
+                                        <li>Cost-effective for occasional use</li>
+                                        <li>No need for initial training (if basic usage)</li>
+                                        <li>Scanner only (laptop not included)</li>
+                                        <li>Pay only for the duration you need</li>
+                                    </ul>
+                                    <div class="mt-auto pt-3">
+                                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-solid">Choose Rental</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END SUBSCRIPTION VS BUYING SECTION
+     ========================================================= -->
+
+    <!-- =========================================================
+     HOW IT WORKS SECTION
+     ========================================================= -->
+    <section class="rental-how" id="rental-how">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-2">HOW IT WORKS</h2>
+                <h3 class="fw-normal text-muted">Simple Steps to Get Started</h3>
+            </div>
+
+            <div class="row position-relative text-center rental-how-row">
+                <!-- Connecting Line -->
+                <div class="how-connecting-line d-none d-md-block"></div>
+
+                <div class="col-12 col-md-3 how-step">
+                    <div class="how-icon-wrapper">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/how1.png" alt="Choose Your Scanner">
+                    </div>
+                    <h4 class="fw-bold mt-4 mb-3">Choose Your Scanner</h4>
+                    <p class="text-muted">Select the right 3D scanner based on your project requirements.</p>
+                </div>
+
+                <div class="col-12 col-md-3 how-step">
+                    <div class="how-icon-wrapper">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/how2.png" alt="Pick Your Plan">
+                    </div>
+                    <h4 class="fw-bold mt-4 mb-3">Pick Your Plan</h4>
+                    <p class="text-muted">Choose from rental or subscription plans — monthly or yearly.</p>
+                </div>
+
+                <div class="col-12 col-md-3 how-step">
+                    <div class="how-icon-wrapper">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/how3.png" alt="We Deliver & Set Up">
+                    </div>
+                    <h4 class="fw-bold mt-4 mb-3">We Deliver & Set Up</h4>
+                    <p class="text-muted">We deliver the scanner, provide training, and ensure you're ready to scan.</p>
+                </div>
+
+                <div class="col-12 col-md-3 how-step">
+                    <div class="how-icon-wrapper">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/how4.png" alt="Scan & Achieve More">
+                    </div>
+                    <h4 class="fw-bold mt-4 mb-3">Scan & Achieve More</h4>
+                    <p class="text-muted">Capture accurate 3D data, boost productivity, and achieve your goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END HOW IT WORKS SECTION
+     ========================================================= -->
+
+    <!-- =========================================================
+     WHY PRECISE3DM SECTION
+     ========================================================= -->
+    <section class="rental-why" id="rental-why">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Why Precise3DM 3D Scanner Rental and Subscription?</h2>
+                <div class="rental-title-underline mx-auto"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 d-flex py-2">
+                    <div class="rental-why-card w-100 d-flex align-items-center justify-content-between">
+                        <div class="why-card-text">
+                            <h4 class="mb-0 fw-semibold">Flexible <span class="text-orange">Rental</span> and <span class="text-orange">Subscription</span> options.</h4>
+                        </div>
+                        <div class="why-card-img ms-3">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/why1.png" alt="Flexible Options">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 d-flex py-2">
+                    <div class="rental-why-card w-100 d-flex align-items-center justify-content-between">
+                        <div class="why-card-text">
+                            <h4 class="mb-0 fw-semibold">Access to cutting-edge <span class="text-orange">3D scanning technology.</span></h4>
+                        </div>
+                        <div class="why-card-img ms-3">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/why2.png" alt="Cutting Edge Technology">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 d-flex py-2">
+                    <div class="rental-why-card w-100 d-flex align-items-center justify-content-between">
+                        <div class="why-card-text">
+                            <h4 class="mb-0 fw-semibold"><span class="text-orange">Expert support</span> and <span class="text-orange">Training</span> are available.</h4>
+                        </div>
+                        <div class="why-card-img ms-3">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/why3.png" alt="Expert Support and Training">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-md-6 d-flex py-2">
+                    <div class="rental-why-card w-100 d-flex align-items-center justify-content-between">
+                        <div class="why-card-text">
+                            <h4 class="mb-0 fw-semibold">Scanners were delivered with all the necessary <span class="text-orange">3D scanning software.</span></h4>
+                        </div>
+                        <div class="why-card-img ms-3">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/why4.png" alt="Scanning Software Included">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 (Full Width) -->
+                <div class="col-12 d-flex py-2">
+                    <div class="rental-why-card w-100 d-flex align-items-center justify-content-between px-md-5">
+                        <div class="why-card-text">
+                            <h4 class="mb-0 fw-semibold">Access the <span class="text-orange">latest technology</span> without <span class="text-orange">investment.</span></h4>
+                        </div>
+                        <div class="why-card-img ms-3">
+                            <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/why5.png" alt="No Investment Needed">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END WHY PRECISE3DM SECTION
+     ========================================================= -->
+
+    <!-- =========================================================
+     TESTIMONIAL AND FAQ SECTION
+     ========================================================= -->
+    <section class="rental-testimonial-faq" id="rental-testimonial-faq">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row g-5">
+                
+                <!-- Left: Testimonial -->
+                <div class="col-12 col-lg-5">
+                    <h2 class="fw-bold mb-4" style="color: #1a202c;">What Our Partners Say</h2>
+                    
+                    <div class="rental-testimonial-card position-relative">
+                        <div class="d-flex justify-content-between align-items-start mb-4">
+                            <div class="stars text-orange">
+                                <span class="fs-4">&#9733;</span>
+                                <span class="fs-4">&#9733;</span>
+                                <span class="fs-4">&#9733;</span>
+                                <span class="fs-4">&#9733;</span>
+                                <span class="fs-4">&#9733;</span>
+                            </div>
+                            <div class="quote-icon position-absolute">
+                                &rdquo;
+                            </div>
+                        </div>
+                        
+                        <p class="fst-italic fs-5 text-dark mb-4 position-relative" style="line-height: 1.6; z-index: 2;">
+                            “Precise3DM’s subscription plan helped us access the latest scanners without any heavy investment. The support and training are excellent.”
+                        </p>
+                        
+                        <p class="fw-bold text-dark mb-0">— Engineering Manager, Automotive Industry</p>
+                    </div>
+                </div>
+
+                <!-- Right: FAQ -->
+                <div class="col-12 col-lg-7">
+                    <h2 class="fw-bold mb-4 text-uppercase">FREQUENTLY ASKED QUESTIONS</h2>
+                    
+                    <div class="accordion afaq-accordion" id="rentalFaqAccordion">
+                        
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item afaq-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button afaq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="afaq-icon-wrap" aria-hidden="true">
+                                        <i class="fa-solid fa-plus afaq-icon-plus"></i>
+                                        <i class="fa-solid fa-minus afaq-icon-minus"></i>
+                                    </span>
+                                    What is the minimum rental or subscription period?
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#rentalFaqAccordion">
+                                <div class="accordion-body afaq-body">
+                                    We offer flexible plans. Please contact our team for specific minimum periods based on your chosen scanner and plan.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item afaq-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button afaq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="afaq-icon-wrap" aria-hidden="true">
+                                        <i class="fa-solid fa-plus afaq-icon-plus"></i>
+                                        <i class="fa-solid fa-minus afaq-icon-minus"></i>
+                                    </span>
+                                    Is training included in the rental/subscription plan?
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#rentalFaqAccordion">
+                                <div class="accordion-body afaq-body">
+                                    Yes! We provide onboarding training, scanner setup assistance, and ongoing technical support with our subscription plans for short-term rental we will take care of scanner usage.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item afaq-item">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button afaq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span class="afaq-icon-wrap" aria-hidden="true">
+                                        <i class="fa-solid fa-plus afaq-icon-plus"></i>
+                                        <i class="fa-solid fa-minus afaq-icon-minus"></i>
+                                    </span>
+                                    Do I need to have a laptop for 3D scanning?
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#rentalFaqAccordion">
+                                <div class="accordion-body afaq-body">
+                                    A capable laptop is required. While some subscription plans may include one, rentals typically require you to provide your own. We can advise on specifications.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item afaq-item">
+                            <h3 class="accordion-header" id="headingFour">
+                                <button class="accordion-button afaq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span class="afaq-icon-wrap" aria-hidden="true">
+                                        <i class="fa-solid fa-plus afaq-icon-plus"></i>
+                                        <i class="fa-solid fa-minus afaq-icon-minus"></i>
+                                    </span>
+                                    Can I upgrade my subscription plan?
+                                </button>
+                            </h3>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#rentalFaqAccordion">
+                                <div class="accordion-body afaq-body">
+                                    Yes, we offer flexible upgrade options so you can access the latest technology as your needs grow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 5 -->
+                        <div class="accordion-item afaq-item">
+                            <h3 class="accordion-header" id="headingFive">
+                                <button class="accordion-button afaq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span class="afaq-icon-wrap" aria-hidden="true">
+                                        <i class="fa-solid fa-plus afaq-icon-plus"></i>
+                                        <i class="fa-solid fa-minus afaq-icon-minus"></i>
+                                    </span>
+                                    What happens if the scanner gets damaged?
+                                </button>
+                            </h3>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#rentalFaqAccordion">
+                                <div class="accordion-body afaq-body">
+                                    We offer support and maintenance. Please review our detailed terms and conditions regarding accidental damage and liability during the rental or subscription period.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END TESTIMONIAL AND FAQ SECTION
+     ========================================================= -->
+    <!-- =========================================================
+     START CTA SECTION
+     ========================================================= -->
+    <section class="rental-cta py-5">
+        <div class="container-fluid py-lg-4" style="padding: 0 5%;">
+            <div class="row align-items-center">
+                <!-- Left Side -->
+                <div class="col-lg-7 mb-5 mb-lg-0 text-start">
+                    <h2 class="rental-cta-title mb-3">Ready to Start Your 3D Scanning<br class="d-none d-md-block"> Journey?</h2>
+                    <p class="rental-cta-subtitle mb-5">Get the right scanner on rent or subscription and take your projects to the next level.</p>
+                    <div class="rental-cta-contact d-flex align-items-center mb-4">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/Phone-icon.png" alt="Phone" class="cta-icon me-4">
+                        <div>
+                            <div class="cta-contact-title">Call us now</div>
+                            <div class="cta-contact-info">
+                                <a href="tel:+919840478347" style="color: inherit; text-decoration: none;">+91 98404 78347</a> 
+                                <span class="cta-separator">|</span> 
+                                <a href="tel:+916374406179" style="color: inherit; text-decoration: none;">+91 63744 06179</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="rental-cta-contact d-flex align-items-center">
+                        <img src="assets/images/3d-scanners-on-rental-and-subscription-in-india/mail-logo.png" alt="Mail" class="cta-icon me-4">
+                        <div>
+                            <div class="cta-contact-title">Email us</div>
+                            <div class="cta-contact-info">
+                                <a href="mailto:sm@precise3dm.com" style="color: inherit; text-decoration: none;">sm@precise3dm.com</a> 
+                                <span class="cta-separator">|</span> 
+                                <a href="mailto:sales@precise3dm.com" style="color: inherit; text-decoration: none;">sales@precise3dm.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-lg-5 text-center text-lg-end">
+                    <div class="d-flex flex-column align-items-lg-end align-items-center">
+                        <div class="mb-4">
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="rental-cta-btn">Get a Free Consultation</a>
+                        </div>
+                        <div>
+                            <a href="#" class="rental-cta-btn">Download Brochure &darr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================================
+     END CTA SECTION
+     ========================================================= -->
 
 
+    <?php include('includes/footer.php'); ?>
 
+    <!-- =========================================================
+     SCRIPTS
+     ========================================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
 
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-   <!--separator start-->
-   <hr class="separator">
-   <!--separator end-->
-
-
-   <!-- footer start -->
-   <?php include('includes/footer.php'); ?>
-   <!-- footer end -->
-   <!-- bootstrap links-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-   <script type="text/javascript" src="assets/js/slim.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-
-   <!-- bootstrap links-->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script> 
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const homeTab = document.querySelector('#pills-home-tab');
-      const profileTab = document.querySelector('#pills-profile-tab');
-
-      let active = true;
-
-      setInterval(function () {
-        if (active) {
-          profileTab.click();
-        } else {
-          homeTab.click();
-        }
-        active = !active;
-      }, 4000); // switch every 4 seconds
-    });
-  </script>
-
-
-
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 </body>
+
 
 </html>

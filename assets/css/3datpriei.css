@@ -1,0 +1,1399 @@
+/* 3datpriei.css */
+
+.atpriei-hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    background-image: url('../images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3datpriei-hero-bg-img.png');
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 120px 0 80px;
+    /* Optional background color if the img doesn't cover on ultrawide */
+    background-color: #f8fafc;
+    margin-top: 100px;
+}
+
+.atpriei-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.atpriei-hero-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensures perfect vertical alignment for both sides */
+    position: relative;
+    width: 100%;
+}
+
+/* LEFT SIDE INFO */
+.atpriei-hero-left {
+    width: 48%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.atpriei-hero-left h1.hero-title {
+    font-size: 46px;
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.text-orange {
+    color: #F89C1E;
+}
+
+.highlight-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.highlight-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 75%;
+    height: 4px;
+    background-color: #222;
+}
+
+.hero-desc {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+.hero-cta-buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-atpriei-orange {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 10px rgba(246, 142, 30, 0.3);
+}
+
+.btn-atpriei-orange:hover {
+    background: #e5821c;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(246, 142, 30, 0.4);
+}
+
+/* CONTACTS SHARED STYLING */
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.contact-links-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #F89C1E;
+}
+
+.divider {
+    color: #000;
+}
+
+/* BOTTOM CONTACT */
+.bottom-email-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* RIGHT SIDE INFO */
+.atpriei-hero-right {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOP CONTACT */
+.top-call-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    margin-top: -150px;
+}
+
+/* WORKFLOW GRID */
+.atpriei-workflow-grid {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-end; /* Align the grid to the right */
+}
+
+.workflow-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.workflow-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 165px; /* Slightly wider to fit nicely */
+}
+
+/* Different image heights for top and bottom rows based on the reference design */
+.workflow-row:first-child .workflow-img {
+    height: 90px;
+}
+
+.workflow-row:first-child .workflow-arrow {
+    margin-top: -30px;
+}
+
+.workflow-row:last-child .workflow-img {
+    height: 220px;
+}
+
+.workflow-row:last-child .workflow-arrow {
+    margin-top: -45px;
+}
+
+.workflow-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.workflow-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Add a style if an image needs a distinct white background */
+.bg-white-box .workflow-img img {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.workflow-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+}
+
+.workflow-arrow {
+    font-size: 24px;
+    color: #111;
+}
+
+/* =========================================
+   ECOSYSTEM SECTION
+   ========================================= */
+.atpriei-ecosystem-section {
+    background-color: #f7f9fa; /* Matches the global light gray background */
+    padding: 80px 0;
+}
+
+.ecosystem-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.03);
+    padding: 60px 40px;
+    border: 1px solid #eaeaea;
+}
+
+.ecosystem-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ecosystem-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+.ecosystem-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.5;
+}
+
+.ecosystem-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 80px; /* Space reserved purely for absolutely positioned titles */
+}
+
+.ecosystem-col {
+    position: relative;
+}
+
+	/* Central Box Image */
+.eco-col-center {
+    width: 280px;
+    flex-shrink: 0;
+}
+.eco-center-box {
+    background-color: #f4f6fa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.04);
+    position: relative;
+    z-index: 5;
+}
+.eco-center-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+	/* Columns */
+.eco-left {
+    padding-right: 30px; 
+    flex: 1;
+}
+
+.eco-right {
+    padding-left: 30px;
+    flex: 1;
+}
+
+	/* Titles */
+.eco-col-title {
+    position: absolute;
+    bottom: calc(100% + 30px);
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #111;
+}
+
+.eco-left .eco-col-title {
+    text-align: right;
+    right: 25px; /* aligns tightly above the text */
+    width: 350px; /* Force word wrap behavior similar to design */
+}
+
+.eco-right .eco-col-title {
+    text-align: left;
+    left: 25px; /* aligns tightly above the text */
+    width: 350px;
+}
+
+	/* Tree Lists */
+.eco-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.eco-list li {
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    padding: 7px 0;
+    line-height: 1.35;
+}
+
+/* Left List Base & Connectors */
+.eco-list-left {
+    padding-right: 25px;
+    position: relative;
+}
+.eco-list-left li {
+    padding-right: 25px;
+    text-align: right;
+}
+
+	/* Dynamic Vertical Spine */
+.eco-list-left::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 17px; 
+    bottom: 17px; /* Pull it neatly inside the row limits */
+    width: 2px;
+    background-color: #333;
+}
+	/* Mid-point Connector to Center Box */
+.eco-list-left::after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+}
+
+/* Horizontal Nodes for Left List */
+.eco-list-left li::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px; 
+    width: 14px;
+    height: 14px;
+    background-color: #F89C1E;
+    border-radius: 50%;
+    z-index: 2; /* Ensures dot covers structural lines */
+}
+.eco-list-left li::after {
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    margin-top: -1px; /* 2px height vertically center via pull */
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    z-index: 1;
+}
+
+/* Right List Base & Connectors */
+.eco-list-right {
+    padding-left: 25px;
+    position: relative;
+}
+.eco-list-right li {
+    padding-left: 25px;
+    text-align: left;
+}
+
+	/* Dynamic Vertical Spine */
+.eco-list-right::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 17px;
+    bottom: 17px;
+    width: 2px;
+    background-color: #333;
+}
+	/* Mid-point Connector to Center Box */
+.eco-list-right::after {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+}
+
+/* Horizontal Nodes for Right List */
+.eco-list-right li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+    width: 14px;
+    height: 14px;
+    background-color: #F89C1E;
+    border-radius: 50%;
+    z-index: 2;
+}
+.eco-list-right li::after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    margin-top: -1px;
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    z-index: 1;
+}
+
+/* =========================================
+   IQES & REDPD SECTIONS
+   ========================================= */
+.iqes-section, .redpd-section {
+    background-color: #f7f9fa; /* Matches ecosystem */
+    padding-bottom: 80px; 
+}
+.iqes-header, .redpd-header {
+    margin-bottom: 40px;
+}
+.iqes-main-title, .redpd-main-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 12px;
+}
+.iqes-subtitle, .redpd-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.5;
+}
+.iqes-grid, .redpd-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.iqes-card, .redpd-card {
+    border: 1px solid #FFCD94; /* Soft orange outline */
+    border-radius: 8px;
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    height: 100%;
+}
+.iqes-card:hover, .redpd-card:hover {
+    box-shadow: 0 10px 25px rgba(248, 156, 30, 0.15);
+    border-color: #F89C1E;
+}
+.iqes-card-title, .redpd-card-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: #222;
+    margin: 0 0 12px 0;
+    line-height: 1.35;
+    min-height: 40px; /* guarantees space for 2 lines */
+}
+.iqes-card-img-wrap, .redpd-card-img-wrap {
+    flex-grow: 1; /* Pushes button to bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa; /* Slight grey background inside the card img area */
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 0px;
+    overflow: hidden;
+    min-height: 100px;
+}
+.iqes-card-img-wrap img, .redpd-card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.btn-iqes-explore, .btn-redpd-explore {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-iqes-explore:hover, .btn-redpd-explore:hover {
+    color: #fff;
+    background: #e5821c;
+}
+.iqes-know-more-wrap, .redpd-know-more-wrap {
+    grid-column: -2 / -1; /* Auto-places it in the last column of the current row */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+.btn-iqes-orange, .btn-redpd-orange {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-iqes-orange:hover, .btn-redpd-orange:hover {
+    color: #fff;
+    background: #e5821c;
+}
+/* =========================================
+   OALCTG SECTION
+   ========================================= */
+.oalctg-section {
+    background-color: #f7f9fa; 
+    padding-bottom: 80px; 
+}
+.oalctg-card {
+    background-image: 
+        linear-gradient(to right, #ffffff 50%, rgba(255,255,255,0) 90%),
+        url('../images/3d-application-transform-hysical-reality-into-engineering-lntelligence/oalctg-bg-img.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right center;
+    background-size: 100% 100%, cover;
+    background-color: #fff;
+    padding: 50px 40px;
+    position: relative;
+    overflow: hidden; 
+}
+.oalctg-content {
+    position: relative;
+    z-index: 2;
+    width: 65%; /* Constrain to left side out of the heavy globe */
+}
+.oalctg-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 15px;
+}
+.oalctg-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+.oalctg-icons-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 900px;
+}
+.oalctg-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    flex-shrink: 0;
+}
+.oalctg-icon-item img {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+.oalctg-icon-item span {
+    font-size: 13px;
+    font-weight: 800;
+    color: #333;
+    line-height: 1.35;
+}
+
+/* Floating Badge */
+.oalctg-floating-badge {
+    position: absolute;
+    bottom: 25px; 
+    right: 0px; 
+    background: linear-gradient(90deg, #F89C1E 0%, #1a0e00 70%);
+    padding: 15px 30px;
+    border-radius: 50px 0 0 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    z-index: 5;
+}
+.badge-small-text {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.badge-large-text {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* =========================================
+   CAPEX/OPEX SECTION
+   ========================================= */
+.capex-opex-section {
+    background-color: #f7f9fa;
+    padding-bottom: 80px; 
+}
+.capex-opex-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 35px;
+}
+.co-wrapper {
+    width: 100%;
+    /* max-width: 1040px; 
+    margin: 0 auto; */
+}
+.capex-opex-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.co-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.capex-col {
+    padding-right: 15px;
+}
+.opex-col {
+    padding-left: 15px;
+}
+
+/* VS Divider */
+.vs-divider {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-shrink: 0;
+}
+.vs-svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 180px; 
+    width: 100%;
+    z-index: 1;
+}
+.vs-circle {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-color: #f4f6f8;
+    border: 1px solid #F89C1E;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    color: #111;
+    z-index: 2;
+    box-shadow: none;
+}
+
+/* Header inside columns */
+.co-header {
+    margin-bottom: 30px;
+}
+.co-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 5px;
+}
+.co-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+    margin: 0;
+}
+
+/* Grid layout */
+.co-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: min-content;
+    gap: 25px 15px;
+    margin-bottom: 30px;
+    flex-grow: 1; /* Retain this to push the button down */
+    align-content: start; /* THIS CRITICAL FLAG CRUSHES THE UGLY VERTICAL STRETCHING GAP! */
+}
+.co-icon-item {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.co-icon-item img {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+.co-icon-item span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.3;
+}
+.co-img-wrap {
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    height: 100%;
+}
+.co-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Button */
+.btn-co-explore {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 14px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: auto;
+    border: none;
+}
+.btn-co-explore:hover {
+    color: #fff;
+    background: #e5821c;
+}
+
+/* =========================================
+   3D SCANNER & PROVEN APPLICATIONS SECTION
+   ========================================= */
+.bboy-paai-section {
+    background-color: #f7f9fa;
+    padding-bottom: 80px; 
+}
+.bboy-paai-layout {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+}
+.bboy-card, .paai-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bboy-card {
+    padding: 30px !important; 
+    gap: 20px; /* spacing between hero, list, buttons */
+}
+.bboy-hero-block {
+    height: auto;
+    min-height: 250px;
+    flex-grow: 1; /* Absorbs any remaining height disparity natively */
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bboy-hero-content h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+.btn-bboy-know-more {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-bboy-know-more:hover, .btn-bboy-know-more-small:hover {
+    color: #fff;
+    background: #e5821c;
+}
+
+.bboy-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 0; /* Prevents this static list from stretching */
+}
+.bboy-subcard {
+    display: flex;
+    border: 1px solid #FFCD94;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 15px; 
+    align-items: stretch;
+}
+.bboy-subcard-content {
+    flex: 1;
+    padding: 10px 15px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bboy-subcard-content h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #F89C1E;
+    margin-bottom: 5px;
+}
+.bboy-subcard-content p {
+    font-size: 14px;
+    color: #444;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+.btn-bboy-know-more-small {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.bboy-subcard-img {
+    flex: 0 0 180px; 
+    display: flex;
+}
+.bboy-subcard-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Adds the subtle internal rounding from the mock */
+}
+
+.bboy-action-buttons {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+.bboy-action-buttons .btn-co-explore {
+    flex: 1; /* equal wide buttons */
+    margin-top: 0;
+}
+
+/* RIGHT: PAAI Card */
+.paai-card {
+    padding: 40px; 
+}
+.paai-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.paai-main-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+.paai-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: min-content;
+    gap: 25px 20px;
+    margin-bottom: 30px;
+    flex-grow: 1; 
+    align-content: start;
+}
+.paai-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.paai-img-wrap {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.paai-img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.paai-item span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.3;
+}
+.paai-footer-block {
+    margin-top: 0; /* Let it sit naturally right underneath the grid without jumping to the bottom! */
+}
+.paai-footer-block .btn-co-explore {
+    margin-top: 0; /* Specifically overrides the global auto margin so the button touches the text exactly! */
+}
+.paai-bottom-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* =========================================
+   CTA SECTION
+   ========================================= */
+.atpriei-cta-section {
+    background-color: #f7f9fa; /* Matches surrounding section flows */
+    padding-bottom: 80px; 
+}
+
+.cta-banner-card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta-banner-content h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.cta-banner-content p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.cta-btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.btn-cta-orange {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(180deg, #FFB952 0%, #F58D1E 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-cta-orange:hover {
+    color: #fff;
+    background: #e5821c;
+}
+
+.btn-cta-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 30px; /* offset by 1px border */
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-cta-outline:hover {
+    background: #fff;
+    color: #111;
+    border-color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1199px) {
+    .atpriei-hero-left h1.hero-title {
+        font-size: 40px;
+    }
+    .workflow-row:first-child .workflow-img {
+        height: 75px;
+    }
+    .workflow-row:last-child .workflow-img {
+        height: 160px;
+    }
+    .workflow-item {
+        width: 130px;
+    }
+    .workflow-row {
+        gap: 10px;
+    }
+    .iqes-grid, .redpd-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .oalctg-content {
+        width: 100%;
+    }
+    .oalctg-icons-row {
+        gap: 25px;
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width: 991px) {
+    .atpriei-hero-section {
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .atpriei-hero-layout {
+        flex-direction: column;
+    }
+    .atpriei-hero-left {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .atpriei-hero-right {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .top-call-contact {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 0; /* Fixes overlap pulling from desktop's -150px */
+        margin-bottom: 30px;
+        justify-content: flex-start;
+        align-self: flex-start;
+        align-items: flex-start;
+    }
+    .contact-links-group {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .divider {
+        display: none;
+    }
+    .bottom-email-contact {
+        align-items: flex-start;
+    }
+    .atpriei-workflow-grid {
+        margin-top: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    .workflow-row {
+        justify-content: center;
+    }
+    
+    /* Ecosystem Fallback for Tablet/Mobile */
+    .ecosystem-layout {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .eco-left, .eco-right {
+        padding: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 50px;
+    }
+    .eco-col-title {
+        position: relative;
+        bottom: auto;
+        text-align: left !important;
+        right: auto !important;
+        left: auto !important;
+        width: auto !important;
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .eco-list-left, .eco-list-right {
+        padding: 0;
+        border: none;
+    }
+    .eco-list-left::before, .eco-list-left::after,
+    .eco-list-right::before, .eco-list-right::after {
+        display: none;
+    }
+    .eco-list-left li, .eco-list-right li {
+        text-align: left;
+        padding: 10px 0 10px 30px !important; 
+    }
+    .eco-list-left li::after, .eco-list-right li::after {
+        display: none;
+    }
+    .eco-list-left li::before, .eco-list-right li::before {
+        right: auto;
+        left: 0;
+    }
+    .eco-col-center {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto 50px;
+        order: -1; /* Place image on top of the groups in stacking */
+    }
+    .iqes-grid, .redpd-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .iqes-main-title, .redpd-main-title, .oalctg-main-title {
+        font-size: 24px;
+    }
+    .oalctg-card {
+        background-image: 
+            linear-gradient(to right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%),
+            url('../images/3d-application-transform-hysical-reality-into-engineering-lntelligence/oalctg-bg-img.png');
+        background-size: cover, cover;
+        padding-bottom: 50px;
+    }
+    .oalctg-icons-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px 15px;
+        width: 100%;
+        justify-content: center;
+    }
+    .oalctg-icon-item {
+        width: 100%;
+    }
+    .oalctg-floating-badge {
+        position: relative;
+        bottom: 0px; 
+        right: 0px;
+        border-radius: 50px;
+        align-items: center;
+        margin-top: 50px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .capex-opex-layout {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .capex-col {
+        padding-right: 0;
+    }
+    .opex-col {
+        padding-left: 0;
+    }
+    .vs-svg {
+        display: none; /* Hide diagonal line on mobile stacking */
+    }
+    .vs-divider {
+        width: 100%;
+        padding: 30px 0;
+        height: auto;
+    }
+    
+    /* Rearrange Grid for Tablet & Mobile */
+    .co-img-wrap {
+        grid-column: 1 / -1 !important;
+        grid-row: auto !important;
+        margin-top: 20px;
+        order: 99; /* Force image to completely bottom of grid */
+    }
+    
+    .bboy-paai-layout {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .paai-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .atpriei-hero-left h1.hero-title {
+        font-size: 32px;
+    }
+    .hero-desc {
+        font-size: 16px;
+    }
+    .highlight-underline::after {
+        width: 100%;
+    }
+    .hero-cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .btn-atpriei-orange {
+        width: 100%;
+    }
+    .bottom-email-contact, .top-call-contact {
+        flex-direction: row; 
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .top-call-contact {
+        align-self: flex-start;
+    }
+    .workflow-row {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .workflow-arrow {
+        transform: rotate(90deg);
+        margin-top: 0 !important;
+    }
+    .workflow-item {
+        width: 100%;
+    }
+    .workflow-row:first-child .workflow-img,
+    .workflow-row:last-child .workflow-img {
+        height: 140px;
+    }
+    .iqes-grid, .redpd-grid {
+        grid-template-columns: 1fr;
+    }
+    .iqes-know-more-wrap, .redpd-know-more-wrap {
+        grid-column: 1 / -1;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .oalctg-card {
+        padding: 40px 15px;
+    }
+    .oalctg-icons-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px 10px;
+    }
+    
+    .co-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 10px;
+    }
+    
+    .bboy-action-buttons {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .bboy-card-list {
+        padding: 30px 20px 0;
+    }
+    .bboy-subcard {
+        flex-direction: column;
+    }
+    .bboy-subcard-img {
+        width: 100%;
+        height: 140px;
+    }
+    .paai-card {
+        padding: 40px 20px;
+    }
+    
+    .cta-banner-card {
+        padding: 40px 20px;
+    }
+    .cta-banner-content h2 {
+        font-size: 26px;
+    }
+    .cta-btn-group {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    .btn-cta-orange, .btn-cta-outline {
+        width: 100%;
+    }
+}

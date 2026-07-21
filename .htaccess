@@ -120,3 +120,7 @@ RewriteRule ^3d-usa-onsite-scan-upload\.php$ https://precise3dm.com/3d-scanning-
 # CUSTOM 404 PAGE
 # -------------------------------------------------
 ErrorDocument 404 /404.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]

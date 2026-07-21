@@ -2009,7 +2009,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="dropdown">
                     <a class="nav-link dropdown-toggle" href="#">3D Solutions</a>
                     <div class="dropdown-content">
-                      <a href="3d-metrology-applications.php">Applications
+                      <a href="3d-applications.php">Applications
                       </a>
 
                     </div>
@@ -3242,7 +3242,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-menu">
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="https://www.precise3dm.com/3d-metrology-applications.php">Applications</a>
+              <a class="nav-link" href="3d-applications.php">Applications</a>
             </div>
           </li>
         </ul>

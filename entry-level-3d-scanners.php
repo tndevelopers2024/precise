@@ -25,10 +25,69 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
     <link rel="stylesheet" href="assets/css/index.css">
     <!-- Page Specific CSS -->
     <link rel="stylesheet" href="assets/css/entry-level.css">
+    <link rel="canonical" href="https://www.precise3dm.com/entry-level-3d-scanners.php" />
     
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does Einstar Vega run after a full charge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After a full charge, the Einstar Vega runs for approximately 90 minutes when used continuously. However, the time depends on what application it is used for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to export project or log files from Einstar Vega?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Connect the Einstar Vega to StarVision and click on the Transfer File option. Then click the information icon in front of Einstar, click the settings icon, and choose Export Logs. Open the log directory using the question mark option and then click the open log directory button. You can export the project files after importing Vega’s internal projects into the workplace."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to turn on Einstar Vega’s texture light?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In advanced settings, switch the toggle button to Object under Scan Settings and turn on the Acquire Texture toggle. Then click the Window button on the left window and adjust the LED brightness as needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the ambient working temperature conditions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ambient working temperature required by Einstar Vega is -10°C to 40°C."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to activate the scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press and hold the power button for 2 seconds, then release it when the startup animation appears. Connect the device to a wireless network, tap Next, and register or log in to your SHINING 3D passport account. Once logged in, you will be directed to the scan interface."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What steps can I take if calibration repeatedly fails on the Einstar Vega?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If calibration repeatedly fails, clean the camera window with a clean cloth and make sure the camera is unobstructed during calibration. You can also increase the camera brightness under HD mode. If the issue continues, raise a ticket with Einstar Support."
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
     <!-- Header Include -->

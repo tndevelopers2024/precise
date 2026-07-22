@@ -703,11 +703,19 @@ In addition to its primary 98-laser-line mode, the FreeScan Trio offers versatil
       <div class="container">
          <div class="blog-slider mt-5">
             <div class="blogs-img px-3">
+               <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
+               <h5>
+                  How We Help You Choose the Right 3D Scanner?
+               </h5>
+               <p>July 24, 2026</p>
+               <a href="3d-scanner-for-capex-investment.php" class="btn">Read More</a>
+            </div>
+            <div class="blogs-img px-3">
                <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
                <h5>
                   Industrial 3D Scanner Buying Guide 2026
                </h5>
-               <p>JUne 14, 2026</p>
+               <p>June 14, 2026</p>
                <a href="right-metorology-grade-scanner.php" class="btn">Read More</a>
             </div>
             <div class="blogs-img px-3">

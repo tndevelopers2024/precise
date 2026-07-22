@@ -82,17 +82,66 @@
     </script>
 
 
-    <noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
-</noscript>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the typical turnaround time for a complete vehicle teardown and scanning project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turnaround times depend on the vehicle segment and data requirements, but typically range from 2 to 4 weeks for standard automotive benchmarking projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide parametric CAD models or just raw scan data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide both. Our engineering team specialises in Scan-to-CAD workflows, delivering fully parametric, editable CAD models compatible with your native software."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are the 3D scanning systems used for automotive parts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use metrology-grade 3D scanners capable of capturing data with an accuracy of up to 0.02 mm, ensuring highly precise digital twins of all vehicle components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you perform benchmarking on electric vehicles (EVs) and their battery packs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we have specialised infrastructure and safety protocols for EV teardowns, including high-voltage system analysis and battery pack scanning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it possible to scan vehicles at our facility instead of yours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We offer Pan-India on-site scanning support. Our portable metrology systems allow us to capture data directly at your R&D centre or manufacturing plant."
+      }
+    }
+  ]
+}
+</script>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5FX95R9');</script>
-<!-- End Google Tag Manager -->
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
+    </noscript>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
+    <!-- End Google Tag Manager -->
 
 </head>
 

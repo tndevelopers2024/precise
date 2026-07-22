@@ -71,7 +71,7 @@ ini_set('max_execution_time', '-1');
                     </h1>
 
                     <div class="blog26-hero-btns d-flex flex-wrap">
-                        <a href="contact-us.php" class="blog26-btn-primary">Request a Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="blog26-btn-primary">Request a Demo</a>
                         <a href="assets/images/freescan-track-nova/FreeScan-Trak-Nova-Brochure-2025.pdf" target="_blank" download class="blog26-btn-outline">Download Brochure</a>
                     </div>
 
@@ -511,7 +511,7 @@ ini_set('max_execution_time', '-1');
         <div class="container-fluid" style="padding: 0 5%;">
             <h2 class="blog26-contact-title">Precise3DM is an authorised master reseller for Shining3D in India.</h2>
             <p class="blog26-contact-desc">Every application is different. The right system depends on your part size, accuracy requirement, and workflow.</p>
-            <a href="contact-us.php" class="blog26-contact-btn">Request a Demo</a>
+            <a href="Book-demo-get-quote-for-3D-scanner.php" class="blog26-contact-btn">Request a Demo</a>
         </div>
     </section>
     <!-- Contact Section Ends -->

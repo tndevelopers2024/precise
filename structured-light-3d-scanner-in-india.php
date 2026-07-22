@@ -512,6 +512,17 @@ ini_set('max_execution_time', '-1');
             <div class="blog-item">
                <div class="blog">
                   <img
+                        src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png"
+                        alt="">
+                  <h5>How We Help You Choose the Right 3D Scanner?</h5>
+                  <p>July 20, 2026</p>
+                  <a href="3d-scanner-for-capex-investment.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                  
+               </div>
+            </div>
+            <div class="blog-item">
+               <div class="blog">
+                  <img
                      src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png"
                      alt="">
                   <h5>

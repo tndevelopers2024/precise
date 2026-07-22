@@ -738,6 +738,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             data-md-slide-show="1">
             <div class="blog-item">
                <div class="blog">
+                  <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
+                  <h5>
+                     Why Invest in a 3D Scanner for Your Business?
+                  </h5>
+                  <p>July 24, 2026</p>
+                  <a href="3d-scanner-for-capex-investment.php" class="btn">Read
+                     More</a>
+               </div>
+            </div>
+            <div class="blog-item">
+               <div class="blog">
                   <img src="assets/images/einscan-gallery/img13.png" alt="">
                   <h5>
                      Three Types of Reverse Engineering Technic

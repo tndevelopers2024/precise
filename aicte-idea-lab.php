@@ -31,6 +31,74 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <!-- Custom CSS for this page -->
     <link rel="stylesheet" href="assets/css/aicte.css">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Precise3DM AICTE IDEA Lab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Precise3DM AICTE IDEA Lab is a complete digital manufacturing ecosystem designed for institutions. It helps students learn through practical exposure to 3D scanning, 3D design, 3D printing, and 3D inspection technologies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does an AICTE IDEA Lab help students?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AICTE IDEA Lab helps students build real products, solve practical industry problems, gain job-ready skills, and understand modern digital manufacturing workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What technologies are included in the Precise3DM AICTE IDEA Lab setup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The setup includes 3D scanners, reverse engineering software, 3D printers, inspection tools, CAD comparison, GD&T analysis, deviation analysis, and quality reporting capabilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should institutions upgrade to the Precise3DM AICTE IDEA Lab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Institutions can upgrade to the Precise3DM AICTE IDEA Lab to provide hands-on learning, industry-grade tools, job-ready training, innovation opportunities, and practical exposure to Industry 4.0 technologies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What career paths can students explore after learning through an AICTE IDEA Lab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Students can explore career paths such as 3D Scanning Specialist, 3D Printing Specialist, CAD Engineer for reverse engineering, Digital Inspection Specialist, Faro Portable Arm Specialist, and 3D Scanner Application Engineer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the AICTE IDEA Lab support research and student innovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The lab supports research projects, functional prototypes, rapid manufacturing, student innovation, startup innovation, reverse engineering, and product development inside the campus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Precise3DM provide a customized AICTE IDEA Lab setup plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Precise3DM offers consultation, demo support, and customized lab setup plans for institutions that want to build a future-ready AICTE IDEA Lab."
+      }
+    }
+  ]
+}
+</script>
+
+
+
 </head>
 
 <body>

@@ -24,7 +24,7 @@
     <meta property="twitter:description" content="Explore FUNMAT PRO industrial 3D printer for engineering-grade materials, high-temperature printing, and precision manufacturing applications." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     
-    <link rel="canonical" href="https://www.precise3dm.com/3d-scanners-by-technology.php"/>
+    <link rel="canonical" href="https://www.precise3dm.com/funmat-pro.php"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
 
    <!--bootstrap css-->
@@ -59,6 +59,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What materials can be used with FUNMAT PRO 410?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Materials such as PEEK, PEKK, PAEK, PPS, PC, ABS, and other engineering materials can be used with FUNMAT PRO 410."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the function of the dual extruder system in the FUNMAT PRO 410 industrial 3D printer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The dual extruder system allows printing with different materials at the same time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can third-party filaments be used with FUNMAT PRO 410?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the FUNMAT PRO 410 is an open material platform that allows engineers to use materials from different manufacturers."
+      }
+    }
+  ]
+}
+</script>
+
+
+
 
 </head>
 

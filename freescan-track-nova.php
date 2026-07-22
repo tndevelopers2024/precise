@@ -656,117 +656,125 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br><br>
       <!-- =======Blog section========= -->
       <section class="blog-section" id="blogs">
-      <div class="container">
-         <div class="head-group">
-            <div class="container-head text-center">Blogs & Resources</div>
+         <div class="container">
+            <div class="head-group">
+               <div class="container-head text-center">Blogs & Resources</div>
+            </div>
+
+            <!-- Slider with Responsive Settings -->
+            <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
+               data-md-slide-show="1">
+            <div class="blog-item">
+               <div class="blog">
+                  <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
+                  <h5>How We Help You Choose the Right 3D Scanner?</h5>
+                  <p>July 24, 2026</p>
+                  <a href="3d-scanner-for-capex-investment.php" class="btn">Read More</a>
+               </div>
+            </div>
+            <div class="blog-item">
+               <div class="blog">
+                  <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+                  <h5>
+                  Industrial 3D Scanner Buying Guide 2026
+                  </h5>
+                  <p>June 14, 2026</p>
+                  <a href="right-metorology-grade-scanner.php" class="btn">Read
+                  More</a>
+               </div>
+            </div>
+            <div class="blog-item">
+               <div class="blog">
+                  <img src="assets/images/blog17/img1.png" alt="">
+                  <h5>
+                  Why is FreeScan Trak Nova Called a 5-in-1 3D Scanner System?
+                  </h5>
+                  <p> April 14, 2026 </p>
+                  <a href="why-is-freescan-trak-nova-called-a-5-in-1-3d-scanner-system.php" class="btn">Read
+                  More</a>
+               </div>
+            </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog12/img1.png" alt="">
+                     <h5>
+                        Three Types of Reverse Engineering Technic
+                     </h5>
+                     <p> April 14, 2026 </p>
+                     <a href="three-types-of-reverse-engineering-techniques.php" class="btn">Read
+                        More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog13/3d-rev1.png" alt="">
+                     <h5>
+                        3D Reverse Engineering Workflow in Geomagic Design X Software
+                     </h5>
+                     <p> April 14, 2026 </p>
+                     <a href="3d-reverse-engineering-workflow-in-geomagic-design-x.php" class="btn">Read More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog14/img1.png" alt="">
+                     <h5>
+                        3D Scanning and Reverse engineering Deliverables & Their use cases
+                     </h5>
+                     <p> April 14, 2026 </p>
+                     <a href="3d-scanning-and-reverse-engineering-deliverables.php" class="btn">Read More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog15/unique1.png" alt="">
+                     <h5>
+                        Unique Key features of Freescan Combo
+                     </h5>
+                     <p> April 14, 2026</p>
+                     <a href="unique-key-features-of-freescan-combo.php" class="btn">Read
+                        More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog16/img1.png" alt="">
+                     <h5>
+                        Exploring Four Different 3D Scanning Modes in Freescan Combo
+                     </h5>
+                     <p> April 14, 2026</p>
+                     <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php"
+                        class="btn">Read More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog18/img1.png" alt="">
+                     <h5>
+                        How can 3D scanning service providers save cost & increase profit with Freescan Combo 3D scanner
+                        India?
+                     </h5>
+                     <p> April 14, 2026 • </p>
+                     <a href="how-3d-scanning-service-providers-save-cost-increase-profit-freescan-combo-india.php"
+                        class="btn">Read More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog19/img1.png" alt="">
+                     <h5>
+                        Geomagic software in India 2026
+                     </h5>
+                     <p> April 20, 2026 </p>
+                     <a href="geomagic-software-in-india-2026.php" class="btn">Read More</a>
+                  </div>
+               </div>
+
+               <!-- Add more slides as needed -->
+            </div>
+
          </div>
-
-         <!-- Slider with Responsive Settings -->
-         <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
-            data-md-slide-show="1">
-           <div class="blog-item">
-             <div class="blog">
-               <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
-               <h5>
-                 Industrial 3D Scanner Buying Guide 2026
-               </h5>
-               <p>June 14, 2026</p>
-               <a href="right-metorology-grade-scanner.php" class="btn">Read
-                 More</a>
-             </div>
-           </div>
-           <div class="blog-item">
-             <div class="blog">
-               <img src="assets/images/blog17/img1.png" alt="">
-               <h5>
-                 Why is FreeScan Trak Nova Called a 5-in-1 3D Scanner System?
-               </h5>
-               <p> April 14, 2026 </p>
-               <a href="why-is-freescan-trak-nova-called-a-5-in-1-3d-scanner-system.php" class="btn">Read
-                 More</a>
-             </div>
-           </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog12/img1.png" alt="">
-                  <h5>
-                     Three Types of Reverse Engineering Technic
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="three-types-of-reverse-engineering-techniques.php" class="btn">Read
-                     More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog13/3d-rev1.png" alt="">
-                  <h5>
-                     3D Reverse Engineering Workflow in Geomagic Design X Software
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="3d-reverse-engineering-workflow-in-geomagic-design-x.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog14/img1.png" alt="">
-                  <h5>
-                     3D Scanning and Reverse engineering Deliverables & Their use cases
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="3d-scanning-and-reverse-engineering-deliverables.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog15/unique1.png" alt="">
-                  <h5>
-                     Unique Key features of Freescan Combo
-                  </h5>
-                  <p> April 14, 2026</p>
-                  <a href="unique-key-features-of-freescan-combo.php" class="btn">Read
-                     More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog16/img1.png" alt="">
-                  <h5>
-                     Exploring Four Different 3D Scanning Modes in Freescan Combo
-                  </h5>
-                  <p> April 14, 2026</p>
-                  <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php"
-                     class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog18/img1.png" alt="">
-                  <h5>
-                     How can 3D scanning service providers save cost & increase profit with Freescan Combo 3D scanner
-                     India?
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="how-3d-scanning-service-providers-save-cost-increase-profit-freescan-combo-india.php"
-                     class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog19/img1.png" alt="">
-                  <h5>
-                     Geomagic software in India 2026
-                  </h5>
-                  <p> April 20, 2026 </p>
-                  <a href="geomagic-software-in-india-2026.php" class="btn">Read More</a>
-               </div>
-            </div>
-
-            <!-- Add more slides as needed -->
-         </div>
-
-      </div>
-   </section>
+      </section>
       <!-- ==================
         FAQ Section start
       ========================-->

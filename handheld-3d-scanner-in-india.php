@@ -918,57 +918,66 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <h2 class="blogs-heading text-center">Related Blogs</h2>
             <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
             data-md-slide-show="1">
-              <div class="blog-item">
-               <div class="blog">
-                  <img
-                     src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png"
-                     alt="">
-                  <p>Industrial 3D Scanner Buying Guide 2026</p>
-                  <a href="right-metorology-grade-scanner.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
-               </div>
+                <div class="blog-item">
+                    <div class="blog">
+                        <img
+                            src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png"
+                            alt="">
+                        <p>How We Help You Choose the Right 3D Scanner?</p>
+                        <a href="3d-scanner-for-capex-investment.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                <div class="blog">
+                    <img
+                        src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png"
+                        alt="">
+                    <p>Industrial 3D Scanner Buying Guide 2026</p>
+                    <a href="right-metorology-grade-scanner.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                </div>
+                </div>
+                <div class="blog-item">
+                <div class="blog">
+                    <img
+                        src="assets/images/blog-four/img1.png"
+                        alt="">
+                    <p>How EINSTAR VEGA Solves Common Problems in Educational 3D Scanning?</p>
+                    <a href="how-einstar-vega-solves-common-problems-in-educational-3d-scanning.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                </div>
+                </div>
+                <div class="blog-item">
+                <div class="blog">
+                    <img
+                        src="assets/images/blog-five/img1.png"
+                        alt="">
+                    <p>Real-World Applications of EINSTAR VEGA for Students
+                    </p>
+                    <a href="real-world-applications-of-einstar-vega-for-students.php"
+                        class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                </div>
+                </div>
+                <div class="blog-item">
+                <div class="blog">
+                    <img
+                        src="assets/images/blog-three/img1.png"
+                        alt="">
+                    <p>Why Einstar Vega is one of the Best 3D Scanners for Education Institutions and Students?</p>
+                    <a href="why-einstar-vega-is-one-of-the-best-3d-scanners-for-education-institutions-and-students.php"
+                        class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                </div>
+                </div>
+                <div class="blog-item">
+                <div class="blog">
+                    <img
+                        src="assets/images/blog-one/img1.png"
+                        alt="">
+                    <p>Best 3D Scanners for Art and Heritage Preservation in 2026</p>
+                    <a href="best-3d-scanners-for-art-and-heritage-preservation-in-2026.php"
+                        class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                </div>
+                </div>
+                <!-- Add more slides as needed -->
             </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img
-                     src="assets/images/blog-four/img1.png"
-                     alt="">
-                  <p>How EINSTAR VEGA Solves Common Problems in Educational 3D Scanning?</p>
-                  <a href="how-einstar-vega-solves-common-problems-in-educational-3d-scanning.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img
-                     src="assets/images/blog-five/img1.png"
-                     alt="">
-                  <p>Real-World Applications of EINSTAR VEGA for Students
-                  </p>
-                  <a href="real-world-applications-of-einstar-vega-for-students.php"
-                     class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img
-                     src="assets/images/blog-three/img1.png"
-                     alt="">
-                  <p>Why Einstar Vega is one of the Best 3D Scanners for Education Institutions and Students?</p>
-                  <a href="why-einstar-vega-is-one-of-the-best-3d-scanners-for-education-institutions-and-students.php"
-                     class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img
-                     src="assets/images/blog-one/img1.png"
-                     alt="">
-                  <p>Best 3D Scanners for Art and Heritage Preservation in 2026</p>
-                  <a href="best-3d-scanners-for-art-and-heritage-preservation-in-2026.php"
-                     class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
-               </div>
-            </div>
-            <!-- Add more slides as needed -->
-         </div>
          </div>
       </section>
 

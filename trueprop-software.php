@@ -30,6 +30,64 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-5FX95R9');</script>
     <!-- End Google Tag Manager -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is TrueProp used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TrueProp is used for marine propeller inspection and repair analysis by converting 3D scan data into measurable parameters like pitch, blade angles, and profiles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can it work with any scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. TrueProp is hardware-independent and supports all metrology-grade 3D scanners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is 3D scanning better than pitchometers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. 3D scanning captures the full surface instead of limited curves, improving accuracy and reducing inspection time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can inspections be done on-site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. With portable scanners, inspections can be performed directly on the vessel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get this solution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can get this solution through Precise3DM, an authorised reseller of SHINING3D systems, offering bundled hardware and software solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What support do you provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Precise3DM provides complete support, including consultation, demo, training, and ongoing technical assistance."
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 
 

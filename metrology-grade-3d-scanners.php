@@ -58,6 +58,130 @@
     })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
     <!-- End Google Tag Manager -->
 
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a metrology-grade 3D scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A metrology-grade 3D scanner is a high-precision measurement device designed for inspection, quality control, and dimensional analysis. Unlike standard scanners, these systems deliver micron-level accuracy and are suitable for industrial applications such as automotive, aerospace, and precision manufacturing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are metrology-grade 3D scanners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metrology-grade scanners typically offer an accuracy of 0.02 mm, depending on the model and measurement volume. Many systems comply with international standards such as VDI/VDE 2634, ensuring reliable and repeatable inspection results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do metrology 3D scanners compare with CMM machines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CMM is a contact-type method used for high-precision point measurements, while 3D scanners provide complete surface inspection in less time through a non-contact method. With CMM, the part is taken to the machine, while with 3D scanning, the scanner can be taken to the part."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries use metrology-grade 3D scanners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metrology-grade 3D scanners are used by industries such as automotive, aerospace, factories, and precision manufacturing to check whether the final product matches the design accurately before delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can these scanners handle reflective, black, or complex surfaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Handheld metrology scanners, especially blue laser technology scanner variants, use optimized algorithms to effectively scan shiny, reflective, dark, black, and complex surfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which software is used for inspection and dimensional analysis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metrology-grade scanners are often bundled with industry-standard software such as Geomagic Control X, PolyWorks, and Shining 3D Inspect. These tools support CAD comparison, GD&T analysis, and detailed reporting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast is the scanning process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Modern metrology scanners can capture millions of data points per second, significantly reducing inspection time compared to traditional methods. Complete workflows from scanning to report generation can often be completed in minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are these scanners portable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Many metrology-grade scanners are handheld and portable, allowing inspection directly on the shop floor without the need for dedicated metrology labs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How reliable and repeatable are the results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "These systems are designed for high repeatability and stability, helping deliver consistent measurement results across multiple scans, operators, and environmental conditions when proper calibration procedures are followed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a skilled operator to use the scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Modern metrology scanners feature user-friendly interfaces and automated workflows, reducing dependency on highly specialised operators. However, training is recommended for advanced inspection tasks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ROI of investing in a metrology-grade 3D scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Customers typically achieve ROI through reduced inspection time, lower rejection and rework rates, faster product development cycles, and reduced dependency on outsourced inspection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Precise3DM provide training and support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Precise3DM offers installation and onboarding, operator training, application support, annual maintenance, and calibration services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a live demo before purchasing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Precise3DM provides live on-site and online demonstrations, allowing customers to evaluate the scanner's performance on actual components before making a decision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose the right metrology-grade 3D scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The right scanner depends on part size and complexity, required accuracy, inspection workflow, and industry application."
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
 </head>
 
 <body>

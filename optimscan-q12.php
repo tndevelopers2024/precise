@@ -529,7 +529,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Slider with Responsive Settings -->
             <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
                data-md-slide-show="1">
-              <div class="blog-item">
+               <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
+                     <h5>
+                        Why Invest in a 3D Scanner for Your Business?
+                     </h5>
+                     <p>July 24, 2026</p>
+                     <a href="3d-scanner-for-capex-investment.php" class="btn">Read
+                        More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
                   <div class="blog">
                      <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
                      <h5>
@@ -540,7 +551,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         More</a>
                   </div>
                </div>
-              <div class="blog-item">
+               <div class="blog-item">
                   <div class="blog">
                      <img src="assets/images/blog20/img1.png" alt="">
                      <h5>

@@ -615,6 +615,15 @@ We provide comprehensive technical support, including professional training and 
          <h2 class="sec-head text-center">Blogs & Resources</h2>
          <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
          data-md-slide-show="1">
+         <div class="blog-item">
+                    <div class="blog">
+                        <img
+                            src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png"
+                            alt="">
+                        <p>How We Help You Choose the Right 3D Scanner?</p>
+                        <a href="3d-scanner-for-capex-investment.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </div>
            <div class="blog-item">
                <div class="blog">
                   <img

@@ -26,107 +26,34 @@
     <meta property="og:description" content="Our team of experts teardown the vehicle and do analyzes and prepares the strategy of design, Vehicle aspects, weight Analysis, Teardown, Data mapping. Get quote" />
     <meta property="twitter:url" content="https://www.precise3dm.com/vehicle-teardown-analysis-service-in-india.php" />
     <link rel="canonical" href="https://www.precise3dm.com/vehicle-teardown-analysis-service-in-india.php"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-    <!--bootstrap css-->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!-- custom css-->
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Site-Wide CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/optical-blue-light.css">
-    <link rel="stylesheet" href="assets/css/Automotive-benchmarking.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/scanner-styles.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/new.css" >
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/full-vehicle-teardown-and-digital-benchmarking.css">
     
 
-   <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript">
-        $('input[type="text"]').on('blur',function(){
-                var val = $(this).val();
-                $(this).val($.trim(val));
-        });
-    
-        function disablebutton()
-        {
-            $('#loader').show();
-            //$('#submit').attr('disabled',true);
-        }
-        $(document).ready(function() {
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: false,
-            autoplayTimeout: 3000,
-            margin: 30,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                960: {
-                    items: 3
-                },
-                1200: {
-                    items: 3
-                }
-            }
-        });
-    })
-        
-    </script>
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.precise3dm.com/vehicle-teardown-analysis-service-in-india.php"
-        },
-        "headline": "Vehicle Teardown Analysis Benchmarking service in india | Get Quote",
-        "description": "Our team of experts teardown the vehicle and do analyzes and prepares the strategy of design, Vehicle aspects, weight Analysis, Teardown, Data mapping. Get quote",
-        "image": "https://www.precise3dm.com/assets/images/updateimgs/tearanalyimg1.png",  
-        "author": {
-            "@type": "Organization",
-            "name": "Precise3DM",
-            "url": "https://www.precise3dm.com/"
-        },  
-        "publisher": {
-            "@type": "Organization",
-            "name": "Precise3DM",
-            "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png"
-            }
-        },
-        "datePublished": "2025-04-20",
-        "dateModified": "2025-05-01"
-        }
-    </script>
-
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org/", 
-        "@type": "BreadcrumbList", 
-        "itemListElement": [{
-            "@type": "ListItem", 
-            "position": 1, 
-            "name": "Precise3DM",
-            "item": "https://www.precise3dm.com/"  
-        },{
-            "@type": "ListItem", 
-            "position": 2, 
-            "name": "Vehicle Teardown Analysis service in india ",
-            "item": "https://www.precise3dm.com/vehicle-teardown-analysis-service-in-india.php"  
-        }]
-        }
-    </script>
-
-    
 
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
@@ -143,641 +70,601 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
-    
-     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    <!-- header start -->
     <?php include('includes/header.php'); ?>
-    <!-- header end -->
 
-    <!-- section start-->
-    <section id="automatate-teardown-3D-banner" class="pt-4 mt-lg-5 pt-lg-5">
-        <div class="container-fluid head m-320 ">
-            <div class="row ">
-                <div class="col-md-12 text-md-left text-center px-2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 software-mobile software-3d-headcont software-headhide-modal1">
-                            <h1 class="title text-white "> TEARDOWN ANALYSIS</h1>
-                                <h2 class="text-white text-uppercase">OVERVIEW</h2>
-                                <p style="color: #fff;font-weight: 700;text-align: justify;">Vehicle Teardown is process of disassembling a complete vehicle, such that it helps detail analysis of Design Strategy, Material usage, System functionality, Technology ,Component costing information , Component Manufacturing and its complicity comparison of your existing product.</p>
-                                <p style="color: #fff;font-weight: 700;text-align: justify;">In-house Hardware and Software<br> In-house Vehicle Teardown Lab <br> 50+ Specialists for Scan to CAD</p>                                
+    <!-- Main Content Starts Here -->
 
-                            </div>
-
-                            <!-- modal starts -->
-                            <!-- <div class="col-md-4 software-landing-modal software-headhide-modal1">
-                                <button type="button" class="btn software-landing-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                    REQUEST TRIAL
-                                </button>
-                            </div>
-                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modal-contain">
-                                        <div class="modal-header">
-                                            <div class="container">
-                                                <div class="row ">
-                                                    <div class="col-12 col-md-12">
-                                                        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/dx.png" alt="Geomagic Design X">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Design X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Gw.png" alt="Geomagic Wrap">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center modal-para-mqs">Geomagic Wrap</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/gs.png" alt="Geomagic for SolidWorks">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic for SolidWorks</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/cx.png" alt="Geomagic Control X">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center modal-para-smallscreen">Geomagic Control X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Ff.png" alt="Geomagic Freeform">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Freeform</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- modal ends -->
-                        </div>
-                    </div>
-                </div>
+    <!-- Hero Section Starts -->
+    <section class="fvtdb-hero-section position-relative py-3">
+        <!-- Call Info (Top Right) -->
+        <div class="fvtdb-hero-contact d-flex align-items-center position-absolute">
+            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/phone-icon.png" alt="Phone" class="img-fluid me-3">
+            <div class="fvtdb-hero-contact-text">
+                <h4 class="mb-1">Call us now</h4>
+                <p class="mb-0">
+                    <a href="tel:+919840478347" class="text-white text-decoration-none">+91 98404 78347</a> | 
+                    <a href="tel:+919025700192" class="text-white text-decoration-none">+91 90257 00192</a> | 
+                    <a href="tel:+919940352575" class="text-white text-decoration-none">+91 99403 52575</a>
+                </p>
             </div>
         </div>
 
-
-        
-        <div class="container-fluid head m-320 software-headhide-modal2">
-            <div class="row ">
-                <div class="col-md-12 text-md-left text-center px-2">
-                    <div class="container ">
-                        <div class="row ">
-                            <div class="col-md-6 software-mobile software-3d-headcont mt-5">
-                            <h2 class="title text-white "> TEARDOWN ANALYSIS</h2>
-                                <h2 class="text-white text-uppercase">OVERVIEW</h2>
-                                <p style="color: #fff;font-weight: 700;text-align: justify;">Vehicle Teardown is process of disassembling a complete vehicle, such that it helps detail analysis of Design Strategy, Material usage, System functionality, Technology ,Component costing information , Component Manufacturing and its complicity comparison of your existing product.</p>
-                                <p style="color: #fff;font-weight: 700;text-align: justify;">In-house Hardware and Software<br> In-house Vehicle Teardown Lab <br> 50+ Specialists for Scan to CAD</p>                                
-                                
-                            </div>
-
-                            <!-- Modal starts-->
-                            <!-- <div class="col-md-4 software-landing-modal column-half">
-                                <button type="button" class="btn software-landing-btn" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                    REQUEST TRIAL
-                                </button>
-                            </div>
-                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modal-contain">
-                                        <div class="modal-header">
-                                            <div class="container">
-                                                <div class="row ">
-                                                    <div class="col-12 col-md-12">
-                                                        <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/dx.png" alt="Geomagic Design X">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Design X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Gw.png" alt="Geomagic Wrap">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center modal-para-mqs">Geomagic Wrap</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/gs.png" alt="Geomagic for SolidWorks">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic for SolidWorks</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/cx.png" alt="Geomagic Control X">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center modal-para-smallscreen">Geomagic Control X</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 col-md-4 modal-card-bgcolor">
-                                                        <div class="modal-card-1">
-                                                            <div class="modal-img-background">
-                                                                <img class="card-img-top img-fluid modal-card-img" src="assets/images/3D-software-landing/Ff.png" alt="Geomagic Freeform">
-                                                            </div>
-                                                            <div class="modal-card-body">
-
-                                                                <p class="text-white card-title text-center">Geomagic Freeform</p>
-
-                                                            </div>
-                                                            <div class="modal-foot-button text-center">
-                                                                <a class="btn" href="">Download Trial</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- Modal ends-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-    <!-- section end-->
-
-    <!-- DRES section starts-->
-    
-    <!-- DRES section ends-->
-
-    <!-- content section starts-->
-    <section id="" class="section-padding software-land-section-padd">
-        <div class="container">
-
-            <div id="features">
-                <section class="section-padding section-padding-edit">
-                    <div class="container automotive-card-main">
-                        <div class="row" id="whyChooseus">
-                            <div class="col-12 why-choose">
-                                <h3 class="text-uppercase " >PROCESS AND METHODOLOGY</h3>
-                            </div>
-                            <div class=" col-md-12 zoom-out boxst" style="margin-top: 34px;">
-                            <div class="row d-flex justify-content-between">
-                            <div class="col-md-6  justify-content-center align-items-center mr-3">                
-                        <p class="justify-para">
-                            <h4 class="content-heading">VEHICLE ASPECTS</h4>
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;">Overview Picture of Vehicle Exterior & Interior, Infotainment system & cluster information, Suspensions & special features analysis, Gap and Flush Analysis, Physical Measurement LWH of the vehicle, Effort measurements etc</p>
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;"> Global Vehicle photographs <br>  Vehicle Physical Measurements  </p>                  </div>
-                    <div class="col-md-5 pt-4">
-                        <img src="assets/images/updateimgs/tearanalyimg1.png" alt="vehicle-aspects" class="img-fluid" />
-                    </div>
-                </div>
-                            </div>
-
-
-
-                            <!--sec-->
-                            <div class=" col-md-12 zoom-out mt-5 boxst">
-                            <div class="row d-flex justify-content-between">
-                            <div class="col-md-6  justify-content-center align-items-center mr-3">                
-                        <p class="justify-para">
-                            <h4 class="content-heading">WEIGHT ANALYSIS</h4>
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;">These are nothing but Finding the front and rear axle load difference weights of an Vehicle at two different conditions.<br> 1. Curb Weight <br> 2. GVMR</p>
-                    </div>
-                    <div class="col-md-5 pt-4">
-                        <img src="assets/images/updateimgs/tearanalyimg2.png" alt="vechicle-teardown-weight-analysis" class="img-fluid" />
-                    </div>
-                </div>
-                            </div>
-                            <!-- sec-->
-                            <!--sec-->
-                            <div class=" col-md-12 zoom-out mt-5 boxst">
-                            <div class="row d-flex justify-content-between">
-                            <div class="col-md-6  justify-content-center align-items-center mr-3">                
-                        <p class="justify-para">
-                            <h4 class="content-heading">TEARDOWN</h4>
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;">Physical teardown process happen here, where dismantling and data's capturing the complete vehicle in different levels also Consumable Extraction happen. <br>Teardown Level 1-System Level  <br>Teardown Level 2-Part Level
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="fvtdb-hero-content mb-5">
+                        <h1 class="fvtdb-hero-title mb-4">
+                            <span class="text-orange">Full Vehicle Teardown</span> <span class="text-white">& Digital Benchmarking</span>
+                        </h1>
+                        <h3 class="fvtdb-hero-subtitle mb-3">Engineering Intelligence Beyond Physical Disassembly</h3>
+                        <p class="fvtdb-hero-text mb-3">
+                            Teardown-assisted digital benchmarking solution for automotive OEMSs, EV manufacturers, engineering teams, and mobility innovators seeking deeper vehicle architecture and engineering intelligence.
                         </p>
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;"> <strong> Level 1</strong> - System-wise-Engine, Bumper, Heating System, etc…will torn down and capture the data’s (Photos, Weight, Measurement's etc..)  </p> 
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;"> <strong>Level 2</strong> - Component wise-Engine parts, Bumper Parts, Heating System Parts… etc, Level 1 systems will further dismantle in to components level capture the data’s (Photos, Weight, Measurement's, Material details, Manufacture Details, Fastener Sequence, etc..)  </p>                   </div>
-                    <div class="col-md-5 pt-4">
-                        <img src="assets/images/updateimgs/tearanalyimg3.png" alt="vechicle-teardown-analysis" class="img-fluid" />
-                    </div>
-                </div>
-                            </div>
-                            <!-- sec-->
-                            <!--sec-->
-                            <div class=" col-md-12 zoom-out mt-5 boxst">
-                            <div class="row d-flex justify-content-between">
-                            <div class="col-md-6  justify-content-center align-items-center mr-3">                
-                        <p class="justify-para">
-                            <h4 class="content-heading">DATA MAPPING</h4>
-                            <p style="color: #000000;font-weight: 900;text-align: justify;font-size: 16px;">All the Data analyzed and captured in Aspects, Teardown Process levels are mapped together in one unique platform with all information of the vehicle from the initial analysis to the final teardown deliverables listed.</p>
-                    </div>
-                    <div class="col-md-5 ">
-                        <img src="assets/images/updateimgs/tearanalyimg4.png" alt="data-mapping-vechicle-teardown" class="img-fluid" style="padding: 13px;" />
-                    </div>
-                </div>
-                            </div>
-                            <!-- sec-->
-                           
-
-                        </div>
-                    </div>
-
-                </section>
-            </div>
-        </div>
-    </section>
-    <style>
-        .section-padding-edit{
-            padding-bottom:71px !important;
-        }
-        .boxst{
-            box-shadow: rgb(50 50 93 / 30%) 0px 6px 12px -2px, rgb(0 0 0 / 46%) 0px 3px 14px -3px;
-        }
-    </style>
-    <!-- content section  end-->
-    <section id="digi-reverse-contain" class="sofware-yellow-sector " style="background-color: #616161;">
-
-        <div class="container ">
-            <div class="row">
-                <div class="col-md-12  ">
-                <h3 class="text-uppercase text-white " >DELIVERABLES</h3>
-
-<Strong>
-                    <p style="text-align: justify;color: white;">Vehicle specifications, component pictures, technical data’s (manufacturer, material, LWH measurement, weight, fastener details, tools used to dismantle, reference photos, removal history photo, six angle photo), weight details. Creating the exploded view of the sub-system assembled sequence complete pictures of the reverse assembly of the vehicle.</p></Strong>
-                    <h5 class="text-uppercase text-white " >WHAT’S NEXT?</h5>
-                    <a class="btn pre-btn  " href="assets\images\solutionix c500\keyfeatures/autobench.pdf" target="_blank"> Download Brochure   </a>
-                    
-
-                        <a class="btn pre-btn " href="https://zfrmz.com/0gyntYLdCetqKBqn35SN" target="_blank"> Fix online or offline meeting  </a>
-                        <a class="btn pre-btn " href="https://zfrmz.com/0gyntYLdCetqKBqn35SN" target="_blank"> Request for proposal   </a>
-
-
-
-
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-    <!-- Demo video section start-->
-   <!-- <section id="demo-video" class="pt-4 demoVid">
-        <div class="container">
-            <h2 class="text-white text-uppercase kf demV ">GALLERY</h2>
-            <div class="row automotive-demo-video">
-                <div class="col-md-6 main-demo-video">
-                    <h4 class="text-uppercase text-white">IMAGE GALLERY</h4>
-
-                    <iframe width="100%" height="345" src="">
-                    </iframe>
-                </div>
-                <div class="col-md-6 main-demo-video">
-                    <h4 class="text-uppercase text-white">VIDEO GALLERY</h4>
-                    <iframe width="100%" height="345" src="">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <style>
-                 .owl-nav button{
-                     height:40px;
-                     width:40px;
-                     border-radius:30px !important;
-                 }
-                 @media only screen and (max-width: 452px) {
-                    .owl-theme .owl-nav [class*=owl-] {
-                     margin-left:19px;
-                     margin-right:27px;
-
-                 }
-                 .software-3d-head-padd{
-                     height:18.5rem !important;
-
-                 }
-                 
-
-                 }
-                 @media only screen and (min-width: 712px) {
-                    .owl-theme .owl-nav [class*=owl-] {
-                     margin-left:-26px;
-                 }
-                 
-
-                 }
-
-                 #owlblog .owl-nav button{
-                     background-color:#ff8d1e !important;
-                 }
-             </style>
-     <section id="gallery" class="pre-bg-grey section-padding">
-         <div class="container">
-            <div class="row py-3">
-               <div class="col-md-12 scanning-service px-lg-4">
-                  <h4 class=" text-white text-uppercase">Similar Product</h4>
-                  <div class="owl-carousel owl-theme mt-5">
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                        <img src="assets/images/updateimgs/NoPath.png" style="border-radius: 30px 30px 0px 0px;" alt="Teardown-Analysis-automotive-benchmarking-services-in-india" class="img-fluid">
-                        <h6 class="text-center mt-1">Teardown Analysis</h6>
-                        <div class="text-center mt-3">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="vehicle-teardown-analysis-service-in-india.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                        <img src="assets/images/updateimgs/DigitalBenchmarking.jpg" style="border-radius: 30px 30px 0px 0px;height: 160px;filter: grayscale(20%);" alt="Vehicle-Digital-Benchmarking-services-in-india" class="img-fluid">
-                        <h6 class="text-center mt-1">Vehicle Digital Benchmarking</h6>
-                        <div class="text-center mt-3">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="vehicle-digital-benchmarking-service-in-india.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>                    </div>
-
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                        <img src="assets/images/updateimgs/Image 69.png" style="border-radius: 30px 30px 0px 0px;filter: grayscale(20%);" alt="Vehicle-Occupant-&-Architecture" class="img-fluid">
-                        <h6 class="text-center mt-1">Vehicle Occupant & Architecture</h6>
-                        <div class="text-center mt-3">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="vehicle-occupant-architecture-analysis-service.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>                    </div>
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                    <img src="assets/images/updateimgs/newtear.png" style="border-radius: 30px 30px 0px 0px;filter: grayscale(20%);background-color: #fff;height: 157px;" alt="vehicle-cad-reverse" class="img-fluid">
-                        <h6 class="text-center mt-1">vehicle CAD Reverse</h6>
-                        <div class="text-center mt-3">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="vehicle-cad-reverse.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>                    </div>
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                        <img src="assets/images/updateimgs/NoPath - Copy (-1.png" style="border-radius: 30px 30px 0px 0px;filter: grayscale(20%);" alt="Electrical-and-Electronics-Benchmarking" class="img-fluid">
-                        <h6 class="text-center mt-1">Electrical and Electronics Benchmarking</h6>
-                        <div class="text-center mt-2">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="electrical-electronics-benchmarking-service-in-india.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>                    </div>
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                        <img src="assets/images/updateimgs/cartear.png" style="border-radius: 30px 30px 0px 0px;filter: grayscale(20%);height: 160px;" alt="vehicle-digital-inspection" class="img-fluid">
-                        <h6 class="text-center mt-1">Vehicle Digital Inspection</h6>
-                        <div class="text-center mt-3">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="vehicle-digital-inspection-service-in-india.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>                    </div>
-                    <div class="item">
-                    <div class="software-3d-head-padd" style="background-color: #616161;border-radius: 30px;border: 5px solid #777777; width:300px;height:16.5rem">
-                        <img src="assets/images/updateimgs/Image 72.png" style="border-radius: 30px 30px 0px 0px;filter: grayscale(20%);height: 160px;" alt="material-testing" class="img-fluid">
-                        <h6 class="text-center mt-1">Material Testing</h6>
-                        <div class="text-center mt-3">
-                        <div class="dropdown">
-                                    <button class="dropbtn"><a style="  color: white; " href="material-testing.php">KNOW MORE</a></button>
-                                    
-                                </div>
-                        </div>
-                    </div>                    </div>
-                    
-
-                    
-                    
-                    <!--<div class="item">
-                        <div class="sketchfab-embed-wrapper"> <iframe title="3D PRINTED VERTEBRAE -EINSCAN PRO 2X 2020" height="300px" width="100%" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/403e44f78f864d0da576e2cefa748785/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/3d-printed-vertebrae-einscan-pro-2x-2020-403e44f78f864d0da576e2cefa748785?utm_medium=embed&utm_campaign=share-popup&utm_content=403e44f78f864d0da576e2cefa748785" target="_blank" style="font-weight: bold; color: #1CAAD9;"> 3D PRINTED VERTEBRAE -EINSCAN PRO 2X 2020 </a> by <a href="https://sketchfab.com/precise3dmetrlogy?utm_medium=embed&utm_campaign=share-popup&utm_content=403e44f78f864d0da576e2cefa748785" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Precise 3DM </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=403e44f78f864d0da576e2cefa748785" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-
-                    </div>-->
-                    
-                </div>
-               </div>
-            </div>
-         </div>
-      </section>
-    <!-- Demo video section ends-->
-    <!--FAQs section start
-    <section id="faq" class="faq section-padding automotive-faq">
-        <div class="container">
-            <div class="row">
-                <h4 class="text-uppercase text-white mt-2 mb-4 mx-lg-0 mx-2">Frequently asked questions </h4>
-                <div class="col-md-12 text-left px-lg-0">
-                    <h5 class="pre-color" data-toggle="collapse" href="#collapseExample" aria-expanded="true" aria-controls="collapseExample">What is Reverse - Engineering?</h5>
-                    <div class="left-border">
-                        <p class="text-white" id="collapseExample">Reverse Engineering is also called as back-engineering is the process
-                            of re-creating drawing by manually measuring the part.
+                        <p class="fvtdb-hero-text mb-5">
+                            Precise3DM combines physical teardown support, advanced 3D scanning, engineering measurements, subsystem documentation, and digital benchmarking methodologies to help organizations study vehicles beyond surface-level comparison
                         </p>
-                    </div>
-                    <div class="col-md-12 text-left px-lg-0">
-                    </div>
-                    <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">What is Digital Reverse - Engineering?
-                    </h5>
-                    <div class="left-border">
-                        <p class="collapse text-white" id="collapseExample1">Digital Reverse Engineering is where a physical object is scanned by a 3D Scanner and
-                            then digitized. This digital data is now processed by dedicated reverse engineering
-                            software and converted into a neutral 3D CAD f le.</p>
-                    </div>
-                    <div class="col-md-12 text-left px-lg-0">
-                    </div>
-                    <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">How accurate is the f nal model?</h5>
-                    <div class="left-border">
-                        <p class="collapse text-white" id="collapseExample3">This depends on what modeling technique we use during the process of converting
-                            the Scan into a CAD f le. Normally As-Built Parametric CAD f les are very close to the
-                            dimensions of the original f le. Design Intent based Reverse Engineering is less
-                            accurate</p>
-                    </div>
-                    <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">What is the output format of the delivered f le?</h5>
-                    <div class="left-border">
-                        <p class="collapse text-white" id="collapseExample4">We will provide you a neutral CAD f le in .iges, .step, .sat, .ps formats.</p>
+
+                        <div class="fvtdb-hero-btns d-flex flex-wrap gap-4 mb-5">
+                            <a href="contact-us.php" class="fvtdb-btn-primary">Request Teardown Proposal</a>
+                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="fvtdb-btn-primary">Talk to Metrology Expert</a>
+                        </div>
+
+                        <!-- Email Info -->
+                        <div class="fvtdb-hero-email d-flex align-items-center">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/mail-logo.png" alt="Email" class="img-fluid me-3">
+                            <div class="fvtdb-hero-email-text">
+                                <h4 class="mb-1">Email Us</h4>
+                                <p class="mb-0">
+                                    <a href="mailto:sm@precise3dm.com" class="text-white text-decoration-none">sm@precise3dm.com</a> | 
+                                    <a href="mailto:service@precise3dm.com" class="text-white text-decoration-none">service@precise3dm.com</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--FAQs section ends-->
-    <style>
-        section p{
-            font-weight:500 !important;
+    <!-- Hero Section Ends -->
 
-        }
-        .faqsectionforscroll::-webkit-scrollbar-thumb {
-      background: black;
-      border-radius: 10px;
+    <!-- Hero Stat Section Starts -->
+    <section class="fvtdb-hero-stat-section">
+        <div class="container-fluid" style="padding: 0 8%;">
+            <div class="fvtdb-hero-stat-container">
+                <div class="row justify-content-center">
 
-  }
-  .visible-scrollbar, .faqsectionforscroll, .invisible-scrollbar, .mostly-customized-scrollbar {
-    height:230px;
-  }
-    </style>
-    <section id="faq" class="faq pre-bg-white section-padding" style="background-color:#ffffff !important">
-         <div class="container">
-            <div class="row">
-                <div class="col-12 faq-content-business">
-                   <h2>
-                   FREQUENTLY ASKED QUESTIONS
-                   </h2
-                   </div>
-                   <div class="col-md-12 text-left px-lg-0">
-                  </div>
-               <div class="col-md-12 text-left px-lg-0 faqsectionforscroll ">
-                  <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">What does Benchmarking mean in automotive?</h5>
-                   <div class="left-border">
-                     <p class="collapse text" id="collapseExample" style="color:#000000 !important">Benchmarking involves a structured comparison between similar products, services or processes on some dimensions of performance.</p>
-                  </div>
-                  <div class="col-md-12 text-left px-lg-0">
-                  </div>
-                  <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">What is vehicle teardown benchmarking?</h5>
-                  <div class="left-border">
-                     <p class="collapse text" id="collapseExample1" style="color:#000000 !important">Teardown Benchmarking is a key for understanding the strategy of design, material usage, manufacturing, and complicity comparison of your existing product, etc. </p>
-                  </div>
-                  <div class="col-md-12 text-left px-lg-0">
-                  </div>
-                  <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">What is a teardown analysis?</h5>
-                  <div class="left-border">
-                     <p class="collapse text" id="collapseExample3" style="color:#000000 !important"> Teardown analysis comprises a set of techniques for examining devices and materials at the smallest constituent level. The result is a comprehensive report presenting our thorough analysis of the construction and materials of a device as examined from all angles.</p>
-                  </div>
-                  <div class="col-md-12 text-left px-lg-0">
-                  </div>
-                  <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">What is the first step of product teardown?</h5>
-                  <div class="left-border">
-                     <p class="collapse text" id="collapseExample4" style="color:#000000 !important"> Examine installation and operation documentation and packaging for cost effectiveness and liability. Analyze and measure the complete product first. Coordinate disassembly with measurement, experimentation, and modeling. Take apart assembly (be clear about what non-destructive disassembly is acceptable and needed) </p>
-                  </div>
-                  <div class="col-md-12 text-left px-lg-0">
-                  </div>
-                  <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">What is the deliverables /output for the teardown process?</h5>
-                  <div class="left-border">
-                     <p class="collapse text" id="collapseExample5" style="color:#000000 !important"> The output of the teardown will be in the form of an excel sheet, which will contain a wide range of information about the vehicle obtained by the team while dismantling it into parts level.</p>
-                  </div>
-               </div>
-         </div>
-         </div>
-      </section>
+                    <!-- Stat 1 -->
+                    <div class="col-lg-2 col-md-4 col-6 fvtdb-hero-stat-item">
+                        <div class="fvtdb-hero-stat-icon-wrapper">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/hero-stat-1.svg" alt="Assembly Scan Data" class="img-fluid">
+                        </div>
+                        <p class="fvtdb-hero-stat-text">Assembly Scan Data</p>
+                    </div>
 
+                    <!-- Stat 2 -->
+                    <div class="col-lg-2 col-md-4 col-6 fvtdb-hero-stat-item">
+                        <div class="fvtdb-hero-stat-icon-wrapper">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/hero-stat-2.svg" alt="System-Level Scan Data" class="img-fluid">
+                        </div>
+                        <p class="fvtdb-hero-stat-text">System-Level Scan Data</p>
+                    </div>
 
+                    <!-- Stat 3 -->
+                    <div class="col-lg-2 col-md-4 col-6 fvtdb-hero-stat-item">
+                        <div class="fvtdb-hero-stat-icon-wrapper">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/hero-stat-3.svg" alt="Engineering Measurements" class="img-fluid">
+                        </div>
+                        <p class="fvtdb-hero-stat-text">Engineering Measurements</p>
+                    </div>
 
-   <?php include('includes/footer.php');?>
+                    <!-- Stat 4 -->
+                    <div class="col-lg-2 col-md-4 col-6 fvtdb-hero-stat-item">
+                        <div class="fvtdb-hero-stat-icon-wrapper">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/hero-stat-4.svg" alt="Architecture Studies" class="img-fluid">
+                        </div>
+                        <p class="fvtdb-hero-stat-text">Architecture Studies</p>
+                    </div>
 
-    <!-- bootstrap links-->
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/slim.min.js"></script> -->
+                    <!-- Stat 5 -->
+                    <div class="col-lg-2 col-md-4 col-6 fvtdb-hero-stat-item">
+                        <div class="fvtdb-hero-stat-icon-wrapper">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/hero-stat-5.svg" alt="Benchmarking Reports" class="img-fluid">
+                        </div>
+                        <p class="fvtdb-hero-stat-text">Benchmarking Reports</p>
+                    </div>
+
+                    <!-- Stat 6 -->
+                    <div class="col-lg-2 col-md-4 col-6 fvtdb-hero-stat-item">
+                        <div class="fvtdb-hero-stat-icon-wrapper">
+                            <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/hero-stat-6.svg" alt="Vehicle Intelligence Documentation" class="img-fluid">
+                        </div>
+                        <p class="fvtdb-hero-stat-text">Vehicle Intelligence Documentation</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Stat Section Ends -->
+
+    <!-- About Section Starts -->
+    <section class="fvtdb-about-section">
+        <div class="container-fluid" style="padding: 0 8%;">
+            <div class="fvtdb-about-container">
+                <div class="row align-items-center">
+                    <!-- Left Side -->
+                    <div class="col-md-5 fvtdb-about-left d-flex align-items-center">
+                        <i class="fa-solid fa-triangle-exclamation fvtdb-about-icon"></i>
+                        <p class="fvtdb-about-left-text">This solution does NOT primarily focus on CAD generation.</p>
+                    </div>
+                    <!-- Right Side -->
+                    <div class="col-md-7">
+                        <p class="fvtdb-about-right-text">Primary deliverables include: scan data, measurement reports, engineering documentation, architecture studies benchmarking insights. CAD modeling is performed only if separately requested.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Automotive Benchmarking Section Starts -->
+    <section class="fvtdb-auto-bench-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row align-items-center">
+
+                <!-- Left Side: Text -->
+                <div class="col-lg-5 col-md-12 fvtdb-auto-bench-left">
+                    <h2 class="fvtdb-auto-bench-title">Automotive Benchmarking for Modern <span>Vehicle Engineering</span></h2>
+                    <p class="fvtdb-auto-bench-desc">Vehicle digital benchmarking helps engineering teams understand vehicle architecture, assembly methodology, packaging strategy, subsystem integration, ergonomics dimensional intelligence, value engineering opportunities through teardown-supported engineering workflows, advanced 3D scanning, measurements, and structured documentation</p>
+                </div>
+
+                <!-- Right Side: Cards -->
+                <div class="col-lg-7 col-md-12">
+                    <div class="row g-3">
+
+                        <!-- Card 1 -->
+                        <div class="col-md-4 col-6 fvtdb-auto-bench-card-wrapper py-2">
+                            <div class="fvtdb-auto-bench-card">
+                                <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/automotive-1.svg" alt="In-House Vehicle Teardown Lab" class="img-fluid">
+                                <p class="fvtdb-auto-bench-card-text">In-House Vehicle Teardown Lab</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-md-4 col-6 fvtdb-auto-bench-card-wrapper py-2">
+                            <div class="fvtdb-auto-bench-card">
+                                <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/automotive-2.png" alt="Advanced 3D Scanning Infrastructure" class="img-fluid">
+                                <p class="fvtdb-auto-bench-card-text">Advanced 3D Scanning Infrastructure</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-md-4 col-6 fvtdb-auto-bench-card-wrapper py-2">
+                            <div class="fvtdb-auto-bench-card">
+                                <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/automotive-3.svg" alt="Automotive Benchmarking Specialists" class="img-fluid">
+                                <p class="fvtdb-auto-bench-card-text">Automotive Benchmarking Specialists</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="col-md-4 col-6 fvtdb-auto-bench-card-wrapper py-2">
+                            <div class="fvtdb-auto-bench-card">
+                                <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/automotive-4.svg" alt="Engineering Measurement Workflow" class="img-fluid">
+                                <p class="fvtdb-auto-bench-card-text">Engineering Measurement Workflow</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="col-md-4 col-6 fvtdb-auto-bench-card-wrapper py-2">
+                            <div class="fvtdb-auto-bench-card">
+                                <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/automotive-5.svg" alt="Vehicle Intelligence Documentation" class="img-fluid">
+                                <p class="fvtdb-auto-bench-card-text">Vehicle Intelligence Documentation</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="col-md-4 col-6 fvtdb-auto-bench-card-wrapper py-2">
+                            <div class="fvtdb-auto-bench-card">
+                                <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/automotive-6.svg" alt="Scan Data & Reporting Expertise" class="img-fluid">
+                                <p class="fvtdb-auto-bench-card-text">Scan Data & Reporting Expertise</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Automotive Benchmarking Section Ends -->
+
+    <!-- Process & Methodology Section Starts -->
+    <section class="fvtdb-process-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="fvtdb-process-title">Process & Methodology</h2>
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-md-4 py-3">
+                    <div class="fvtdb-process-card">
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/process-1.png" alt="Vehicle Aspects & Engineering Study" class="fvtdb-process-card-img">
+                        <div class="fvtdb-process-card-body">
+                            <h3 class="fvtdb-process-card-title">Vehicle Aspects & Engineering Study</h3>
+                            <ul class="fvtdb-process-list">
+                                <li>Exterior overview documentation</li>
+                                <li>Interior overview documentation</li>
+                                <li>Infotainment analysis</li>
+                                <li>Suspension analysis</li>
+                                <li>Gap & flush study</li>
+                                <li>Effort measurements</li>
+                                <li>Global vehicle photography</li>
+                                <li>Physical LWH measurements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4 py-3">
+                    <div class="fvtdb-process-card">
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/process-2.png" alt="Weight Distribution & Axle Analysis" class="fvtdb-process-card-img">
+                        <div class="fvtdb-process-card-body">
+                            <h3 class="fvtdb-process-card-title">Weight Distribution & Axle Analysis</h3>
+                            <ul class="fvtdb-process-list">
+                                <li>Front axle load analysis</li>
+                                <li>Rear axle load analysis</li>
+                                <li>Curb weight study</li>
+                                <li>GVMR / GVWR references</li>
+                                <li>Weight distribution benchmarking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4 py-3">
+                    <div class="fvtdb-process-card">
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/process-3.png" alt="System-Level & Component-Level Teardown" class="fvtdb-process-card-img">
+                        <div class="fvtdb-process-card-body">
+                            <h3 class="fvtdb-process-card-title">System-Level & Component-Level Teardown</h3>
+                            <ul class="fvtdb-process-list">
+                                <li><span style="color: #ff931e; display: block;">Level 1 — System-Level Teardown</span> Engine systems, Bumper systems, HVAC systems, Dashboard systems, Battery systems, Suspension systems</li>
+                                <li><span style="color: #ff931e; display: block;">Level 2 — Component-Level Teardown</span> Measurements, Material references, Manufacturer details, Fastener sequences, removal history, engineering photography</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-4 py-3">
+                    <div class="fvtdb-process-card">
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/process-4.png" alt="Vehicle & Subsystem 3D Digitization" class="fvtdb-process-card-img">
+                        <div class="fvtdb-process-card-body">
+                            <h3 class="fvtdb-process-card-title">Vehicle & Subsystem 3D Digitization</h3>
+                            <ul class="fvtdb-process-list">
+                                <li>Vehicle Exterior Scan: top, front, rear, side, underbody</li>
+                                <li>Vehicle Interior Scan: dashboard, floor pillars, seating zones, cabin architecture</li>
+                                <li>Additional Scan Conditions: door positions, steering positions, seat travel positions, fuel lid positions, armrest positions, gear positions</li>
+                                <li>System-Level Scan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-md-4 py-3">
+                    <div class="fvtdb-process-card">
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/process-5.png" alt="Ergonomics & Occupant Packaging Analysis" class="fvtdb-process-card-img">
+                        <div class="fvtdb-process-card-body">
+                            <h3 class="fvtdb-process-card-title">Ergonomics & Occupant Packaging Analysis</h3>
+                            <ul class="fvtdb-process-list">
+                                <li>H-point analysis</li>
+                                <li>seating position study</li>
+                                <li>seat travel analysis</li>
+                                <li>visibility references</li>
+                                <li>occupant packaging study</li>
+                                <li>SAE-based measurements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-md-4 py-3">
+                    <div class="fvtdb-process-card">
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/process-6.png" alt="Data mapping & engineering reports" class="fvtdb-process-card-img">
+                        <div class="fvtdb-process-card-body">
+                            <h3 class="fvtdb-process-card-title">Data mapping & engineering reports</h3>
+                            <ul class="fvtdb-process-list">
+                                <li>Subsystem documentation</li>
+                                <li>Measurement reports</li>
+                                <li>Exploded references</li>
+                                <li>Architecture studies</li>
+                                <li>Engineering photography</li>
+                                <li>Scan datasets</li>
+                                <li>Benchmarking reports</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Process & Methodology Section Ends -->
+
+    <!-- Deliverables & Use Cases Section Starts -->
+    <section class="fvtdb-deliverables-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row g-4">
+
+                <!-- Left Main Card: What You Receive -->
+                <div class="col-lg-6 col-md-12 py-2">
+                    <div class="fvtdb-del-main-card">
+                        <h3 class="fvtdb-del-title">What You Receive</h3>
+                        <div class="row g-3">
+
+                            <!-- Card 1 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-1.svg" alt="Assembly Scan Data">
+                                    <p>Assembly Scan Data</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-2.svg" alt="Torn-Down System Level Scan Data">
+                                    <p>Torn-Down System Level Scan Data</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-3.svg" alt="Component Level Scan Data">
+                                    <p>Component Level Scan Data</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-4.svg" alt="Vehicle Measurements">
+                                    <p>Vehicle Measurements</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-5.svg" alt="Packaging Analysis">
+                                    <p>Packaging Analysis</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-6.svg" alt="Architecture Studies">
+                                    <p>Architecture Studies</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 7 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-7.svg" alt="Weight Analysis">
+                                    <p>Weight Analysis</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 8 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-8.svg" alt="Engineering Documentation">
+                                    <p>Engineering Documentation</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 9 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-9.svg" alt="Benchmarking Reports">
+                                    <p>Benchmarking Reports</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 10 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-10.svg" alt="Ergonomics References">
+                                    <p>Ergonomics References</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 11 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-11.svg" alt="Exploded Subsystem References">
+                                    <p>Exploded Subsystem References</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 12 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/what-12.svg" alt="Engineering Photography">
+                                    <p>Engineering Photography</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Main Card: Best Suited For -->
+                <div class="col-lg-6 col-md-12 py-2">
+                    <div class="fvtdb-del-main-card">
+                        <h3 class="fvtdb-del-title">Best Suited For</h3>
+                        <div class="row g-3">
+
+                            <!-- Card 1 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-1.svg" alt="Competitive Benchmarking">
+                                    <p>Competitive Benchmarking</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-2.svg" alt="EV Architecture Study">
+                                    <p>EV Architecture Study</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-3.svg" alt="Value Engineering">
+                                    <p>Assembly Understanding</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-4.svg" alt="Packaging Analysis">
+                                    <p>Packaging Analysis</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-5.svg" alt="Internal R&D Analysis">
+                                    <P>Value Engineering</P>
+                                </div>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-6.svg" alt="Engineering Documentation">
+                                    <p>Manufacturing Study</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 7 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-7.svg" alt="Assembly Understanding">
+                                    <p>Internal R&D Analysis</p>
+                                </div>
+                            </div>
+
+                            <!-- Card 8 -->
+                            <div class="col-md-4 col-6 py-2">
+                                <div class="fvtdb-del-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/best-8.svg" alt="Manufacturing Study">
+                                    <p>Engineering Documentation</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Deliverables & Use Cases Section Ends -->
+
+    <!-- Why Precise3DM Section Starts -->
+    <section class="fvtdb-why-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="fvtdb-why-card-wrapper">
+                <div class="row align-items-center">
+                    
+                    <!-- Left Side -->
+                    <div class="col-lg-4 fvtdb-why-left">
+                        <h4 class="fvtdb-why-subtitle">WHY PRECISE3DM</h4>
+                        <h2 class="fvtdb-why-title">Built Through Real Vehicle Benchmarking Experience</h2>
+                        <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/precise-logo.png" alt="Precise3DM" class="fvtdb-why-logo img-fluid">
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="col-lg-8">
+                        <div class="row g-4">
+                            
+                            <!-- Card 1 -->
+                            <div class="col-lg col-md-4 col-6 py-2">
+                                <div class="fvtdb-why-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/why-1.svg" alt="100+">
+                                    <div class="fvtdb-why-big-text">100+</div>
+                                    <p class="fvtdb-why-inner-text">Vehicles Digitized</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 2 -->
+                            <div class="col-lg col-md-4 col-6 py-2">
+                                <div class="fvtdb-why-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/why-2.svg" alt="Dedicated Infrastructure">
+                                    <p class="fvtdb-why-inner-text">Dedicated Vehicle Benchmarking Infrastructure</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 3 -->
+                            <div class="col-lg col-md-4 col-6 py-2">
+                                <div class="fvtdb-why-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/why-3.svg" alt="Automotive Engineering Specialists">
+                                    <p class="fvtdb-why-inner-text">Automotive Engineering Specialists</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 4 -->
+                            <div class="col-lg col-md-4 col-6 py-2">
+                                <div class="fvtdb-why-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/why-4.svg" alt="Advanced Metrology Systems">
+                                    <p class="fvtdb-why-inner-text">Advanced Metrology Systems</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Card 5 -->
+                            <div class="col-lg col-md-4 col-6 py-2">
+                                <div class="fvtdb-why-inner-card">
+                                    <img src="assets/images/full-vehicle-teardown-and-digital-benchmarking/why-5.svg" alt="Real Vehicle Scanning Experience">
+                                    <p class="fvtdb-why-inner-text">Real Vehicle Scanning Experience</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Precise3DM Section Ends -->
+
+    <!-- Main Content Ends Here -->
+
+    <?php include('includes/footer.php'); ?>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="assets/js/tabs.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
-    <!-- bootstrap links-->
-    <script src="assets/js/counter.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 </body>
-
 </html>

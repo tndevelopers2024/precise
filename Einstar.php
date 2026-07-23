@@ -748,6 +748,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          data-md-slide-show="1">
          <div class="blog-item">
             <div class="blog">
+               <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
+               <p class="mt-4">How We Help You Choose the Right 3D Scanner For Your Capex Investment In 2026</p>
+               <a href="3d-scanner-for-capex-investment.php" class="btn">Read More  <i class="fa-solid fa-caret-right"></i></a>
+            </div>
+         </div>
+         <div class="blog-item">
+            <div class="blog">
                <img
                   src="assets/images/blog12/img1.png"
                   alt="">

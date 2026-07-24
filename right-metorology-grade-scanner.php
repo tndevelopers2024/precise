@@ -217,7 +217,7 @@ $keywords = "Industrial 3D Scanner, Shining 3D, Metrology Scanner, Inspection So
                         <div class="scanner-img-container">
                             <img src="assets/images/blog-26-right-metorology-grade-scanner/scanner-3.png" alt="High Precision Inspection Systems" class="scanner-card-img">
                         </div>
-                        <a href="3d-scanning-and-inspection-software.php" type="button" class="scanner-card-btn">Know More</a>
+                        <a href="3d-inspection-software-in-india.php" type="button" class="scanner-card-btn">Know More</a>
                     </div>
                 </div>
             </div>

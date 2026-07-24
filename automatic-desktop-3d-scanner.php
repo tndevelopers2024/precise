@@ -462,6 +462,13 @@
             data-md-slide-show="1">
             <div class="blog-item">
                <div class="blog">
+                  <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+                  <p>Industrial 3D Scanner Buying Guide 2026</p>
+                  <a href="right-metorology-grade-scanner.php" class="btn">Read More</a>
+               </div>
+            </div>
+            <div class="blog-item">
+               <div class="blog">
                   <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
                   <p>How We Help You Choose the Right 3D Scanner?</p>
                   <a href="3d-scanner-for-capex-investment.php" class="btn">Read More</a>

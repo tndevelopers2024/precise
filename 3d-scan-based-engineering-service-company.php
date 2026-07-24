@@ -73,7 +73,7 @@ ini_set('max_execution_time', '-1');
                             <p class="svc-company-hero-desc">Experience cutting-edge 3D scanning technologies under an OPEX model before investing in CAPEX infrastructure.</p>
 
                             <div class="svc-company-hero-btns">
-                                <a href="contact-us.php" class="svc-company-btn">Become a Partner</a>
+                                <a href="business-opportunity-in-india.php" class="svc-company-btn">Become a Partner</a>
                                 <a href="3d-services.php" class="svc-company-btn">Explore Our Services</a>
                             </div>
 
@@ -666,7 +666,7 @@ ini_set('max_execution_time', '-1');
                                 <div class="capex-start-content">
                                     <h3 class="capex-start-title">Start with OPEX First.</h3>
                                     <p class="capex-start-subtitle">Scale with Confidence.</p>
-                                    <a href="contact-us.php" class="capex-start-btn">
+                                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="capex-start-btn">
                                         Talk to Our Experts 
                                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                                     </a>

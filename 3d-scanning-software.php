@@ -261,7 +261,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   Partner Oqton Geomagic, the global OEM behind the world's leading 3D inspection software. Our experts
                   can recommend the right 3D Inspection software, customized to your inspection requirements and
                   budget."</p>
-               <a href="https://www.precise3dm.com/3d-scanning-and-inspection-software.php"><button
+               <a href="https://www.precise3dm.com/3d-inspection-software-in-india.php"><button
                      class="btn">Know More</button></a>
             </div>
 

@@ -1974,7 +1974,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="3d-scanning-and-inspection-software.php">3D Inspection Software</a>
+                            href="3d-inspection-software-in-india.php">3D Inspection Software</a>
                           <ul class="dropdown-menu">
                             
                             <li><a class="dropdown-item text-left py-2"
@@ -3155,7 +3155,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="3d-scanning-and-inspection-software.php">3D Inspection Software</a>
+                  <a class="nav-link" href="3d-inspection-software-in-india.php">3D Inspection Software</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>

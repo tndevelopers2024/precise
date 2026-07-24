@@ -919,6 +919,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
             data-md-slide-show="1">
                 <div class="blog-item">
+                  <div class="blog">
+                     <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+                     <h5>
+                        Industrial 3D Scanner Buying Guide 2026
+                     </h5>
+                     <p> June 14, 2026 </p>
+                     <a href="right-metorology-grade-scanner.php" class="btn">Read
+                        More</a>
+                  </div>
+               </div>
+               <div class="blog-item">
                     <div class="blog">
                         <img
                             src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png"

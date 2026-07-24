@@ -304,7 +304,7 @@ ini_set('max_execution_time', '-1');
                     </div>
                     <div class="col-lg-6 py-2">
                         <div class="w-100 h-100 position-relative" style="min-height: 300px;">
-                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-1-4.png" alt="Dynamic Tracking of Large Assemblies" class="blog26-func1-feature-img position-absolute top-0 start-0">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-1-4.jpeg" alt="Dynamic Tracking of Large Assemblies" class="blog26-func1-feature-img position-absolute top-0 start-0">
                         </div>
                     </div>
                 </div>

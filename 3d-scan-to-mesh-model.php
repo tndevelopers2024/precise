@@ -141,7 +141,7 @@ ini_set('max_execution_time', '-1');
                                 <img src="assets/images/3d-scan-to-mesh-model/phone-icon.png" alt="Call Us" class="stm-phone-icon">
                                 <div class="stm-contact-text-wrap">
                                     <span class="stm-contact-label">Call us now</span>
-                                    <span class="stm-contact-numbers">+91 98404 78347 | +91 63744 06179</span>
+                                    <span class="stm-contact-numbers"><a href="tel:+919840478347" class="stm-contact-link">+91 98404 78347</a> | <a href="tel:+916374406179" class="stm-contact-link">+91 63744 06179</a></span>
                                 </div>
                             </div>
 
@@ -868,9 +868,9 @@ ini_set('max_execution_time', '-1');
                                 <div class="stm-contact-text-box">
                                     <h4 class="stm-contact-lbl">Call us now</h4>
                                     <p class="stm-contact-val">
-                                        +91 98404 78347
+                                        <a href="tel:+919840478347" class="stm-contact-link">+91 98404 78347</a>
                                         <span class="stm-contact-sep">|</span>
-                                        +91 63744 06179
+                                        <a href="tel:+916374406179" class="stm-contact-link">+91 63744 06179</a>
                                     </p>
                                 </div>
                             </div>
@@ -881,9 +881,9 @@ ini_set('max_execution_time', '-1');
                                 <div class="stm-contact-text-box">
                                     <h4 class="stm-contact-lbl">Email us</h4>
                                     <p class="stm-contact-val">
-                                        sm@precise3dm.com
+                                        <a href="mailto:sm@precise3dm.com" class="stm-contact-link">sm@precise3dm.com</a>
                                         <span class="stm-contact-sep">|</span>
-                                        sales@precise3dm.com
+                                        <a href="mailto:sales@precise3dm.com" class="stm-contact-link">sales@precise3dm.com</a>
                                     </p>
                                 </div>
                             </div>

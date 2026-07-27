@@ -1045,6 +1045,16 @@ body {
     margin: 0;
 }
 
+.stm-contact-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.stm-contact-link:hover {
+    color: #ff931e;
+}
+
 .stm-contact-sep {
     color: #ff931e;
     margin: 0 5px;

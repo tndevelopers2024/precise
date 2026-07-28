@@ -96,6 +96,35 @@
                         <a href="why-precise3dm-for-3d-scanning-services-in-india.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
+
+                <!-- New Added Blogs -->
+                <article class="blog-card" id="blog-card-capex-investment">
+                    <div class="card-img-wrap">
+                        <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="3D Scanners for Capex Investment">
+                        <span class="card-category">Investment</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-date"><i class="fa-regular fa-calendar"></i> July 28, 2026</span>
+                        <h3 class="card-title">3D Scanner For Your Capex Investment In 2026</h3>
+                        <p class="card-excerpt">Discover how to choose the right 3D scanner for your Capex investment in 2026. Explore key questions to ask before buying.</p>
+                        <a href="3d-scanner-for-capex-investment.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" id="blog-card-right-metorology-grade-scanner">
+                    <div class="card-img-wrap">
+                        <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="Industrial 3D Scanner Buying Guide 2026">
+                        <span class="card-category">Metrology</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-date"><i class="fa-regular fa-calendar"></i> July 28, 2026</span>
+                        <h3 class="card-title">Industrial 3D Scanner Buying Guide 2026: Choosing the Right SHINING 3D Metrology Scanner</h3>
+                        <p class="card-excerpt">Find the ideal SHINING 3D scanner for reverse engineering, quality inspection, and large-scale industrial measurement.</p>
+                        <a href="right-metorology-grade-scanner.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- End New Added Blogs -->
+
                 <article class="blog-card" id="blog-card-freescan-omni-vs-nova">
                     <div class="card-img-wrap">
                         <img src="assets/images/best-3d-scanners-for-automotive/b3d-hero-right-img1.png" alt="FreeScan Omni Vs FreeScan Trak Nova">

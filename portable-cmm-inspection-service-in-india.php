@@ -24,22 +24,38 @@
       <meta property="og:description" content="Presice3dM is the best Portable CMM inspection service provider in India, FARO edge Arm for onsite (outsource) CMM inspection service. non-contact portable measurement Get the best quote" />
       <meta property="twitter:url" content="https://www.precise3dm.com/portable-cmm-inspection-service-in-india.php" />
       <link rel="canonical" href="https://www.precise3dm.com/portable-cmm-inspection-service-in-india.php"/>
-      <!--bootstrap css-->
-      <link rel="stylesheet" href="assets/css/bootstrap.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <!--custom css-->
-   <link rel="stylesheet" href="assets/css/styles.css">
-   <link rel="stylesheet" href="assets/css/index.css">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-   <link rel="canonical" href="https://www.precise3dm.com/" />
-   <link rel="stylesheet" href="assets/css/portable-cmm-3d-scanner.css"/>
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Site-Wide CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/portable-cmm-measurement-services-without-arm-limitations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
+
+      
       <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -134,48 +150,7 @@
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
 </noscript>
 
-<style>
-      .banner,
-      .banner1 {
-         background: url(assets/images/new-home/banner.png) no-repeat center center;
-         background-size: 100% 100%;
-         padding: 0px 0 100px 0;
-         position: relative;
-      }
 
-      .carousel-indicators li {
-         background-color: #000 !important;
-      }
-
-      .banner-img1 {
-         display: none;
-      }
-
-      #carouselExampleIndicators {
-         margin-top: -120px;
-      }
-
-      .banner-content {
-         padding-top: 20px;
-      }
-
-      #app {
-         z-index: 999 !important;
-      }
-
-      .custom-switch,
-      .address-con {
-         z-index: 9;
-      }
-
-      .theme-con,
-      .address-con {
-         padding-top: 50px;
-      }
-      .tab-container{
-          border-radius:20px;
-      }
-   </style>
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -186,699 +161,1097 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
    </head>
    <body>
-    
-     <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
+    <?php include('includes/header.php'); ?>
 
-   <!-- header start -->
-   <?php include('includes/header.php'); ?>
-   <!-- header End -->
+    <!-- Main Content Starts Here -->
 
-   <!-- ==========================
-          Hero Section start
-       ========================== -->
-   <style>
-      :root {
-         --backgroundcolor: #101010;
-         --whitecolor: #fff;
-         --maincolor: #ff931e;
-         --subbackground: #0A0A0A;
-         --subcotent: #bbb;
-         --list: #DFEEFF;
-      }
-
-      body {
-         background:#fff;
-         color: #000 !important;
-         margin: 0;
-         padding: 0;
-         text-decoration: none;
-         transition: background 0.5s;
-         /* Add a smooth transition effect */
-      }
-
-      </style>
-
-
-      <!-- =================
-          Hero Section Start
-      ===========================-->
-      
-      <section class="hero">
-    <div class="container">
-      <div class="call">
-      <a href="tel:+91 9840478347">
-        <div class="call-icon">
-          <img src="assets/images/3d-light-scanner/call.png" alt="">
-        </div>
-        </a>
-        <div class="call-text">
-          <h5>Call us now</h5>
-          <p>+91 9840478347 <span>|</span> +91 7395972777</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8">
-        <h1>Portbale CMM <br> 3D Scanning Services</h1>
-        <p class="head-text">For Combined Cmm Probing & 3D Scanning</p>
-        <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn border-rounded">Get 3D Scan Service Quote </a>
-        </div>
-        <div class="col-lg-4"></div>
-      </div>
-      <div class="mail mt-4">
-        <a href="mailto:sm@precise3dm.com">
-        <div class="mail-icon">
-          <img src="assets/images/3d-light-scanner/mail.png" alt="">
-        </div>
-        </a>
-        <div class="mail-text">
-          <h5>Email us</h5>
-          <p>service@precise3dm.com <span>|</span> sm@precise3dm.com</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-   <!-- ================
-   Hero section end
-   ======================-->
-   <!-- ================
-      overview section start
-   ======================-->
-
-  
-  <section class="overview" style="margin-top:80px;">
-    <div class="container overview-banner">
-      <h2>Overview</h2>
-      <p class="head-text">Do you need to capture both freeform shapes and probe 2D and 3D features in one object?</p>
-      <p>Arm laser Portable CMM 3D scanning is ideal for objects with complex shapes and multiple geometry features. It's particularly effective for applications like automotive sheet metal parts and complex die casting where you need to accurately capture the overall shape as well as specific features like plane creation, hole positions along with 2D & 3D features using probing, such as hole positions, extract planes, slots, and other geometries for various applications.</p>
-      <p>Precise3DM is equipped with a newly calibrated Faro arm and hexagon and Kreon 3D scanner to cater to our global customers with arm laser 3D Scanning services. At Precise3DM, we are equipped with the latest arm laser scanners to capture your object with precision. Contact us today or upload a photo of your object to get a quick estimate. We at Precise3DM can either bring the scanner to your location or you can visit one of Precise3DM's nearby 3D scanning centres nearest to your locations.</p>
-      <h3>Get Free Estimate for your 3D Scanning Project</h3>
-      <div class="buttons">
-       <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"><button class="btn">Get Quote Now</button></a> 
-        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"><button class="btn"><i class="fa-solid fa-video"></i> Meet Us live Online now</button></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- =============================
-   overview seciton end
-  =====================================-->
-
-  <!-- =============================
-   Key Features Start
-  =====================================-->
-
-  <section class="key" style="margin-top:90px;">
-    <div class="container">
-      <h2 class="text-center">Key Features</h2>
-      <div class="row row-cols-1 row-cols-lg-2">
-        <div class="col">
-          <div class="key-img">
-            <img src="assets/images/portable-cmm-3d-scanner/key-img1.png" alt="">
-          </div>
-        </div>
-        <div class="col mt-4 mt-lg-0">
-          <div class="key-points h-100 d-flex flex-column  justify-content-center">
-            <div class="point">
-              <div class="tick-point">
-                <img src="assets/images/portable-cmm-3d-scanner/tick.png" alt="">
-              </div>
-              <div class="point-text">
-                <p>We use the latest portable CMM arm laser scanners, which are regularly calibrated to maintain top-notch performance. These scanners are installed in many strategic locations across the world, making it easy for you to visit a Precise3DM centre in nearby cities.</p>
-              </div>
-            </div>
-            <div class="point">
-              <div class="tick-point">
-                <img src="assets/images/portable-cmm-3d-scanner/tick.png" alt="">
-              </div>
-              <div class="point-text">
-                <p>We also offer onsite portable arm laser scanners that can be brought to your location to perform 3D Scanning at your place.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-lg-2 gy-3 mt-5">
-        <div class="col order-2 order-lg-1 mt-4 mt-lg-0">
-          <div class="key-points h-100 d-flex flex-column  justify-content-center">
-            <div class="point">
-              <div class="tick-point">
-                <img src="assets/images/portable-cmm-3d-scanner/tick.png" alt="">
-              </div>
-              <div class="point-text">
-                <p>Our experienced in-house team can quickly convert arm laser 3d scans to CAD models or generate 3D inspection reports based on your scan data. We deliver fast and accurate results.</p>
-              </div>
-            </div>
-            <div class="point">
-              <div class="tick-point">
-                <img src="assets/images/portable-cmm-3d-scanner/tick.png" alt="">
-              </div>
-              <div class="point-text">
-                <p>We offer competitive pricing and can mobilize our scanners to your location with just one or two days' notice. In some cases, we can arrange scanning services on the same day as your inquiry.</p>
-              </div>
-            </div>
-            <div class="point">
-              <div class="tick-point">
-                <img src="assets/images/portable-cmm-3d-scanner/tick.png" alt="">
-              </div>
-              <div class="point-text">
-                <p>Our arm laser 3D scanners are time-calibrated and certified to ensure maximum accuracy.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col order-1 order-lg-2">
-          <div class="key-img">
-            <img src="assets/images/portable-cmm-3d-scanner/key-img2.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- =============================
-   Key Features end
-  =====================================-->
-
-  <!-- =============================
-   How Section  Start
-  =====================================-->
-
-  <section class="how" style="margin-top:80px">
-    <div class="container">
-      <div class="head-container">
-        <div class="how-head">
-          <img src="assets/images/portable-cmm-3d-scanner/question.png" alt="">
-          <h2>How <span>Precise3DM's Arm Laser</span> Scanning Service Works</h2 >
-        </div>
-      </div>      
-    </div>
-  </section>
-  <section id="listsec" class="list-sec pad-140">
-      <div class="container tab-container">
-         <div class="row">
-            <div class="col-md-1">
-               <ul class="tabs" onclick="handleTabClick(event)">
-                  <li data-tab="tab1" class="active">01</li>
-                  <li data-tab="tab2">02</li>
-                  <li data-tab="tab3">03</li>
-                  <li data-tab="tab4">04</li>
-               </ul>
-            </div>
-            <div class="col-md-11 d-gridcen">
-               <div id="tab1" class="content active-content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Submit a Request</h2>
-                        <p style="text-align:left;" class="quote-p">Start by filling out our form or submitting a Request for Quotation (RFQ). We will assess your RFQ documents to determine if arm laser scanning is the right solution.</p>
-                        <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Rapid Quote</a>
-                     </div>
-
-                     <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php">
-                        <img src="assets/images/portable-cmm-3d-scanner/tab1.png" alt="">
-                     </a>
-                  </div>
-               </div>
-
-               <div id="tab2" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Project Assessment</h2>
-                        <p style="text-align:left;" class="quote-p">Our team reviews the details of your project and selects the appropriate arm length and 3D scanner based on the size and complexity of your object.</p>
-                        <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php">
-                          <img src="assets/images/portable-cmm-3d-scanner/tab2.png" alt="">
-                     </a>
-                  </div>
-               </div>
-
-               <div id="tab3" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Performing the Scan</h2>
-                        <p style="text-align:left;" class="quote-p">Once calibrated, we'll perform the laser scanning, capturing your object with full accuracy and detail.</p>
-                        <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php">                      
-                        <img src="assets/images/portable-cmm-3d-scanner/tab3.png" alt="">                           
-                     </a>
-                  </div>
-               </div>
-               <div id="tab4" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Delivering Results</h2>
-                        <p style="text-align:left;" class="quote-p">After scanning, we will create a CAD model or a 3D inspection report, depending on your requirements, and deliver the final files to you.</p>
-                        <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php">
-                        <img src="assets/images/portable-cmm-3d-scanner/tab4.png" alt="">
-                     </a>
-                  </div>
-               </div>
-            </div>
-            <div class="arrows">
-               <button class="arrow-btn" onclick="moveTabs(-1)"><i class="fa-solid fa-chevron-left"></i></button>
-               <button class="arrow-btn" onclick="moveTabs(1)"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-         </div>
-      </div>
-   </section>
-
-
-   <!-- FAQs -->
-
-      <section class="acc-section">
-        <div class="container">
-        <h2 class="text-center py-5"><span>FREQUENTLY</span> ASKED QUESTIONS</h2>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                 <h5>What is arm laser 3D scanning?</h5>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5>Arm laser 3D scanning is one of the 3D Scanning techniques used to capture the digital shape of a physical object. A laser scanner is connected to an articulated arm that consists of multiple joins and DOF that helps the user reach all sides of the object during 3D Scanning.</h5>
+    <!-- Hero Section Starts -->
+    <section class="pcmm-hero-section position-relative py-3">
+        <!-- Call Info (Top Right) -->
+        <div class="pcmm-hero-contact d-flex align-items-center position-absolute">
+            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/phone-icon.png" alt="Phone" class="img-fluid me-3">
+            <div class="pcmm-contact-text">
+                <div class="pcmm-contact-title">Call us now</div>
+                <div class="pcmm-contact-numbers">
+                    <a href="tel:+919840478347" class="text-decoration-none">+91 98404 78347</a> |
+                    <a href="tel:+919940352575" class="text-decoration-none">+91 99403 52575</a>
                 </div>
-              </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                 <h5>How does arm laser scanning work?</h5>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                 <h5>The scanner projects a laser line across the object, and sensors inside the scanner detect the distortions caused by the object's surface. This data is processed to create a 3D model of the object</h5>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                 <h5>What is the cost of arm laser 3D scanning?</h5>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5>The cost depends on the size and complexity of the object, as well as the time required to scan it. Typically, our services start at USD 25 per hour (around ₹2500 INR per hour).</h5>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                 <h5>What is the accuracy of arm laser 3D scanning?</h5>
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5>Arm laser scanners offer excellent accuracy, often starting at 5 microns, depending on the object size and scanning setup.</h5>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                 <h5>How small is the size of the object you can scan with arm laser scanning?</h5>
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5>Arm laser scanners are appropriate for scanning medium-sized objects. However, you can still scan small objects starting from 20 mm in size.</h5>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                 <h5>What is the output of arm laser 3D scanning?</h5>
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5>Arm laser scanner output is typically a point cloud file; we can also export mesh files as .stl and .obj file formats. Note that arm laser scanners do not directly create CAD files. To convert scan data to CAD, we perform 3D reverse engineering.</h5>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSeven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                 <h5>How accurate is arm laser 3D scanning?</h5>
-                </button>
-              </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5>Arm accuracy depends on the length of the arm; the scanner alone has an accuracy of 20 microns, so a 2.5-meter laser arm offers 60 microns.</h5>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        
-      </section>
 
-   <!--separator start-->
-   <hr class="separator">
-   <!--separator end-->
+        <div class="container-fluid pcmm-container position-relative z-1 pt-5 pt-lg-0">
+            <div class="row align-items-center pcmm-hero-row">
+                <div class="col-lg-8 py-5">
+                    <h1 class="pcmm-hero-title mb-3">
+                        <span class="text-white">PORTABLE CMM MEASUREMENT SERVICES</span><br>
+                        <span class="text-orange">WITHOUT ARM LIMITATIONS</span>
+                    </h1>
+                    <h2 class="pcmm-hero-subtitle mb-4">Measure anything. Scan anything. Inspect anywhere.</h2>
+                    <p class="pcmm-hero-desc mb-5">
+                        Advanced onsite inspection using optical tracking, FreeProbe measurement and integrated 3D scanning. Contact and non-contact inspection in a single visit with instant reporting.
+                    </p>
+                    <div class="d-flex flex-wrap mb-5 pcmm-btn-group">
+                        <a href="Get-3d-scan-service-quote.php" class="pcmm-btn pcmm-btn-primary text-decoration-none d-inline-block text-center">GET A QUOTE</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="pcmm-btn pcmm-btn-outline text-decoration-none d-inline-block text-center">BOOK DEMO</a>
+                    </div>
+
+                    <!-- Stats Box -->
+                    <div class="pcmm-stats-box d-inline-block mt-3">
+                        <div class="row text-center">
+                            <div class="col-6 col-md-2 pcmm-stat-item">
+                                <div class="bg-white rounded p-3 d-inline-flex justify-content-center align-items-center mb-3 pcmm-stat-icon-wrapper">
+                                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/hero-stat-1.png" alt="No Arm Limitations" class="img-fluid">
+                                </div>
+                                <div class="pcmm-stat-text">No Arm Limitations</div>
+                            </div>
+                            <div class="col-6 col-md-2 pcmm-stat-item">
+                                <div class="bg-white rounded p-3 d-inline-flex justify-content-center align-items-center mb-3 pcmm-stat-icon-wrapper">
+                                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/hero-stat-2.png" alt="Large Volume Inspection" class="img-fluid">
+                                </div>
+                                <div class="pcmm-stat-text">Large Volume Inspection</div>
+                            </div>
+                            <div class="col-6 col-md-3 pcmm-stat-item">
+                                <div class="bg-white rounded p-3 d-inline-flex justify-content-center align-items-center mb-3 pcmm-stat-icon-wrapper">
+                                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/hero-stat-3.png" alt="Contact & Non-Contact Measurement" class="img-fluid">
+                                </div>
+                                <div class="pcmm-stat-text">Contact & Non-Contact Measurement</div>
+                            </div>
+                            <div class="col-6 col-md-2 pcmm-stat-item">
+                                <div class="bg-white rounded p-3 d-inline-flex justify-content-center align-items-center mb-3 pcmm-stat-icon-wrapper">
+                                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/hero-stat-4.png" alt="Instant Reporting" class="img-fluid">
+                                </div>
+                                <div class="pcmm-stat-text">Instant Reporting</div>
+                            </div>
+                            <div class="col-12 col-md-3 pcmm-stat-item">
+                                <div class="bg-white rounded p-3 d-inline-flex justify-content-center align-items-center mb-3 pcmm-stat-icon-wrapper">
+                                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/hero-stat-5.png" alt="Pan India Support" class="img-fluid">
+                                </div>
+                                <div class="pcmm-stat-text">Pan India Support</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email Box -->
+                    <div class="d-flex align-items-center mt-5 pcmm-email-box d-inline-flex">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/mail-logo.png" alt="Email" class="img-fluid me-3">
+                        <div class="pcmm-email-text">
+                            <div class="pcmm-email-title">Email Us</div>
+                            <div class="pcmm-email-links">
+                                <a href="mailto:sm@precise3dm.com" class="text-decoration-none">sm@precise3dm.com</a> |
+                                <a href="mailto:service@precise3dm.com" class="text-decoration-none">service@precise3dm.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Gradient Overlay at bottom -->
+        <div class="pcmm-hero-gradient-overlay"></div>
+    </section>
+    <!-- Hero Section Ends -->
+
+    <!-- CMM vs Probe Section Starts -->
+    <section class="pcmm-vs-section py-3">
+        <div class="container-fluid pcmm-vs-container position-relative">
+            <div class="row g-0">
+
+                <!-- Left Side: CMM -->
+                <div class="col-12 col-lg-6 py-2">
+                    <div class="row g-0 h-100">
+                        <div class="col-12 col-md-5 py-2">
+                            <div class="pcmm-vs-img pcmm-vs-img-cmm h-100"></div>
+                        </div>
+                        <div class="col-12 col-md-7 py-2">
+                            <div class="pcmm-vs-box pcmm-vs-box-cmm w-100 h-100 p-4 p-xl-5 d-flex flex-column justify-content-center bg-white">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="pcmm-vs-icon-wrapper pcmm-vs-icon-wrapper-cmm">
+                                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/cmm-logo.png" alt="CMM" class="pcmm-vs-icon-img">
+                                    </div>
+                                    <h3 class="pcmm-vs-title">CMM</h3>
+                                </div>
+                                <ul class="list-unstyled pcmm-vs-list mb-0">
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>Restricted reach and articulation</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>Access issues in tight features</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>Limited working volume</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>Hard-to-access deep features</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>Repositioning required</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>Laptop cables and power connections may require</span>
+                                    </li>
+                                    <li class="d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m15 9-6 6" />
+                                            <path d="m9 9 6 6" />
+                                        </svg>
+                                        <span>The system is heavy and bulky</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Probe -->
+                <div class="col-12 col-lg-6 py-2">
+                    <!-- Use flex-row-reverse on lg so Probe text card is left, Image is right -->
+                    <div class="row g-0 h-100 flex-lg-row-reverse">
+                        <div class="col-12 col-md-5 py-2">
+                            <div class="pcmm-vs-img pcmm-vs-img-probe h-100"></div>
+                        </div>
+                        <div class="col-12 col-md-7 py-2">
+                            <div class="pcmm-vs-box pcmm-vs-box-probe w-100 h-100 p-4 p-xl-5 d-flex flex-column justify-content-center bg-white">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="pcmm-vs-icon-wrapper pcmm-vs-icon-wrapper-probe">
+                                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/probe-logo.png" alt="Probe" class="pcmm-vs-icon-img">
+                                    </div>
+                                    <h3 class="pcmm-vs-title">Probe</h3>
+                                </div>
+                                <ul class="list-unstyled pcmm-vs-list mb-0">
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>No arm, unlimited movement</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>No blind spots, full access</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>Large volume inspection</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>Easy access to any feature</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>Minimal repositioning</span>
+                                    </li>
+                                    <li class="d-flex mb-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>Integrated scanning capability</span>
+                                    </li>
+                                    <li class="d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-3 flex-shrink-0 mt-1">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <span>Higher productivity</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VS Circle Badge -->
+            <div class="pcmm-vs-circle d-none d-lg-flex">
+                <span class="pcmm-vs-circle-text">VS</span>
+            </div>
+        </div>
+    </section>
+    <!-- CMM vs Probe Section Ends -->
+
+    <!-- How It Works Section Starts -->
+    <section class="pcmm-how-section py-4">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="pcmm-how-title">How It Works - One System. Complete Workflow.</h2>
+            <div class="pcmm-how-track">
+
+                <!-- Step 1 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-1.png" alt="Step 1">
+                    </div>
+                    <div class="pcmm-how-text">Pair up the probe with the tracker</div>
+                </div>
+
+                <div class="pcmm-how-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 17 5-5-5-5" />
+                        <path d="m13 17 5-5-5-5" />
+                    </svg>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-2.png" alt="Step 2">
+                    </div>
+                    <div class="pcmm-how-text">Ensure the tracker is facing the probe</div>
+                </div>
+
+                <div class="pcmm-how-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 17 5-5-5-5" />
+                        <path d="m13 17 5-5-5-5" />
+                    </svg>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-3.png" alt="Step 3">
+                    </div>
+                    <div class="pcmm-how-text">Measure</div>
+                </div>
+
+                <div class="pcmm-how-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 17 5-5-5-5" />
+                        <path d="m13 17 5-5-5-5" />
+                    </svg>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-4.png" alt="Step 4">
+                    </div>
+                    <div class="pcmm-how-text">Change the probe type and tips</div>
+                </div>
+
+                <div class="pcmm-how-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 17 5-5-5-5" />
+                        <path d="m13 17 5-5-5-5" />
+                    </svg>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-5.png" alt="Step 5">
+                    </div>
+                    <div class="pcmm-how-text">Measure various features</div>
+                </div>
+
+                <div class="pcmm-how-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 17 5-5-5-5" />
+                        <path d="m13 17 5-5-5-5" />
+                    </svg>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-6.png" alt="Step 6">
+                    </div>
+                    <div class="pcmm-how-text">Move the tracker and probbe larger parts</div>
+                </div>
+
+                <div class="pcmm-how-divider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 17 5-5-5-5" />
+                        <path d="m13 17 5-5-5-5" />
+                    </svg>
+                </div>
+
+                <!-- Step 7 -->
+                <div class="pcmm-how-step">
+                    <div class="pcmm-how-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/how-7.png" alt="Step 7">
+                    </div>
+                    <div class="pcmm-how-text">Report</div>
+                    <div class="pcmm-how-subtext">Generate instant reports with actionable insights</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- How It Works Section Ends -->
+
+    <!-- Product Showcase Section Starts -->
+    <section class="pcmm-showcase-section py-5">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row align-items-center">
+                
+                <!-- Left Div -->
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <h2 class="pcmm-showcase-title">FREEPROBE + FREESCAN TRAK NOVA</h2>
+                    <div class="pcmm-showcase-subtitle">NEXT GENERATION PORTABLE METROLOGY</div>
+                    <div class="pcmm-showcase-left-list mt-4">
+                        <!-- Items 1 to 7 -->
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-1.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">No Mechanical Arm</div>
+                        </div>
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-2.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">No Axis Lock</div>
+                        </div>
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-3.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">Large Measurement Volume</div>
+                        </div>
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-4.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">Real-Time Optical Tracking</div>
+                        </div>
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-5.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">Unlimited Movement Freedom</div>
+                        </div>
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-6.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">Portable &amp; Factory Ready</div>
+                        </div>
+                        <div class="pcmm-showcase-left-item d-flex align-items-center">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/portable-7.png" alt="Icon" class="me-3">
+                            <div class="pcmm-showcase-item-text">High Accuracy &amp; Repeatability</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Middle Div -->
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0 text-center">
+                    <div class="pcmm-showcase-middle-img-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/scanner-image.png" alt="Scanner" class="img-fluid">
+                    </div>
+                </div>
+                
+                <!-- Right Div -->
+                <div class="col-12 col-lg-4">
+                    <div class="pcmm-showcase-right-card">
+                        <div class="pcmm-showcase-right-header">
+                            Technical Highlights
+                        </div>
+                        <div class="pcmm-showcase-right-body">
+                            <!-- Items 1 to 6 -->
+                            <div class="pcmm-showcase-right-item d-flex align-items-center">
+                                <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/highlight-1.png" alt="Icon" class="me-3">
+                                <div>
+                                    <div class="pcmm-showcase-right-title">Tracking Volume</div>
+                                    <div class="pcmm-showcase-right-subtitle">Up to 10 m</div>
+                                </div>
+                            </div>
+                            <div class="pcmm-showcase-right-item d-flex align-items-center">
+                                <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/highlight-2.png" alt="Icon" class="me-3">
+                                <div>
+                                    <div class="pcmm-showcase-right-title">Measurement Accuracy</div>
+                                    <div class="pcmm-showcase-right-subtitle">Up to 0.02 mm</div>
+                                </div>
+                            </div>
+                            <div class="pcmm-showcase-right-item d-flex align-items-center">
+                                <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/highlight-3.png" alt="Icon" class="me-3">
+                                <div>
+                                    <div class="pcmm-showcase-right-title">Volumetric Accuracy</div>
+                                    <div class="pcmm-showcase-right-subtitle">0.014 mm/m</div>
+                                </div>
+                            </div>
+                            <div class="pcmm-showcase-right-item d-flex align-items-center">
+                                <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/highlight-4.png" alt="Icon" class="me-3">
+                                <div>
+                                    <div class="pcmm-showcase-right-title">Optical Tracker</div>
+                                    <div class="pcmm-showcase-right-subtitle">FreeProbe</div>
+                                </div>
+                            </div>
+                            <div class="pcmm-showcase-right-item d-flex align-items-center">
+                                <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/highlight-5.png" alt="Icon" class="me-3">
+                                <div>
+                                    <div class="pcmm-showcase-right-title">Scanner</div>
+                                    <div class="pcmm-showcase-right-subtitle">FreeScan Trak Nova</div>
+                                </div>
+                            </div>
+                            <div class="pcmm-showcase-right-item d-flex align-items-center">
+                                <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/highlight-6.png" alt="Icon" class="me-3">
+                                <div>
+                                    <div class="pcmm-showcase-right-title">Portability</div>
+                                    <div class="pcmm-showcase-right-subtitle">Lightweight & Easy Setup</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Product Showcase Section Ends -->
+
+    <!-- Inspection Methodology Section Starts -->
+    <section class="pcmm-inspection-section py-5">
+        <div class="container-fluid">
+            <div class="pcmm-inspection-row">
+                
+                <!-- 1. Left Image Block -->
+                <div class="pcmm-inspection-left">
+                    <div class="pcmm-inspection-left-title">Contact &amp; Non-Contact Inspection in One Visit</div>
+                    <div class="pcmm-inspection-left-subtitle">Probe. Scan. Inspect. Deliver.</div>
+                </div>
+
+                <!-- 2. Contact Measurement List -->
+                <div class="pcmm-inspection-list-block">
+                    <div class="pcmm-inspection-list-header">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/contact-measurement-icon.png" alt="Contact Measurement">
+                        <h3 class="pcmm-inspection-list-title">Contact Measurement</h3>
+                    </div>
+                    <ul class="pcmm-inspection-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Dimensional Inspection</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Hole &amp; Bore Measurement</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>GD&amp;T Verification</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Tool &amp; Fixture Validation</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Assembly Inspection</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 3. Center Circle & Flow Map -->
+                <div class="pcmm-inspection-center">
+                    <div class="pcmm-inspection-circle">
+                        <div class="pcmm-inspection-circle-text-1">ONE VISIT</div>
+                        <div class="pcmm-inspection-circle-text-2">TWO TECHNOLOGIES</div>
+                        <div class="pcmm-inspection-circle-text-3">COMPLETE INSPECTION</div>
+                    </div>
+                    <div class="pcmm-inspection-flow">
+                        <div class="pcmm-inspection-flow-item">Probe</div>
+                        <svg class="pcmm-inspection-flow-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        
+                        <div class="pcmm-inspection-flow-item">Scan</div>
+                        <svg class="pcmm-inspection-flow-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        
+                        <div class="pcmm-inspection-flow-item">Inspect</div>
+                        <svg class="pcmm-inspection-flow-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        
+                        <div class="pcmm-inspection-flow-item">Digital Twin</div>
+                    </div>
+                </div>
+
+                <!-- 4. 3D Scanning List -->
+                <div class="pcmm-inspection-list-block">
+                    <div class="pcmm-inspection-list-header">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/3d-scanning-icon.png" alt="3D Scanning">
+                        <h3 class="pcmm-inspection-list-title">3D Scanning</h3>
+                    </div>
+                    <ul class="pcmm-inspection-list">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>High-Speed Laser Scanning</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Reverse Engineering</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>CAD Comparison</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Color Map Analysis</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#565E74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            <span>Digital Twin Creation</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 5. Right Image Block -->
+                <div class="pcmm-inspection-right">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/3d-scanning-right-side-image.png" alt="3D Scanning Demonstration">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Inspection Methodology Section Ends -->
+
+    <!-- Industries We Serve Section Starts -->
+    <section class="pcmm-industries-section py-5">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="pcmm-industries-title">Industries <span>We Serve</span></h2>
+            
+            <div class="pcmm-industries-grid">
+                <!-- Card 1 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-1.png" alt="Aerospace">
+                    <div class="pcmm-industry-overlay">AEROSPACE</div>
+                </div>
+                <!-- Card 2 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-2.png" alt="Automotive">
+                    <div class="pcmm-industry-overlay">AUTOMOTIVE</div>
+                </div>
+                <!-- Card 3 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-3.png" alt="Rail">
+                    <div class="pcmm-industry-overlay">RAIL</div>
+                </div>
+                <!-- Card 4 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-4.png" alt="Defence">
+                    <div class="pcmm-industry-overlay">DEFENCE</div>
+                </div>
+                <!-- Card 5 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-5.png" alt="Wind Energy">
+                    <div class="pcmm-industry-overlay">WIND ENERGY</div>
+                </div>
+                <!-- Card 6 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-6.png" alt="Heavy Engineering">
+                    <div class="pcmm-industry-overlay">HEAVY ENGINEERING</div>
+                </div>
+                <!-- Card 7 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-7.png" alt="Foundry">
+                    <div class="pcmm-industry-overlay">FOUNDRY</div>
+                </div>
+                <!-- Card 8 -->
+                <div class="pcmm-industry-card">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/industries-8.png" alt="Industrial Manufacturing">
+                    <div class="pcmm-industry-overlay">INDUSTRIAL MANUFACTURING</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Industries We Serve Section Ends -->
+
+    <!-- Advanced Measurement Capabilities Section Starts -->
+    <section class="pcmm-advanced-section py-5">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="pcmm-advanced-title">Advanced Measurement Capabilities</h2>
+            
+            <div class="pcmm-advanced-capabilities">
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-1.svg" alt="Flatness">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">FLATNESS</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-2.svg" alt="Parallelism">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">PARALLELISM</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-3.svg" alt="Position">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">POSITION</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-4.svg" alt="Run-Out">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">RUN-OUT</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-5.svg" alt="Concentricity">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">CONCENTRICITY</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-6.svg" alt="Circularity">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">CIRCULARITY</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-7.svg" alt="Angularity">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">ANGULARITY</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-8.svg" alt="Straightness">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">STRAIGHTNESS</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-9.svg" alt="Profile">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">PROFILE</div>
+                </div>
+                <div class="pcmm-advanced-capability-item">
+                    <div class="pcmm-advanced-capability-icon">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/capability-10.svg" alt="First Article Inspection">
+                    </div>
+                    <div class="pcmm-advanced-capability-text">FIRST ARTICLE INSPECTION</div>
+                </div>
+            </div>
+
+            <div class="pcmm-advanced-images">
+                <div class="pcmm-advanced-image-item">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/advanced-1.png" alt="Advanced Measurement 1">
+                </div>
+                <div class="pcmm-advanced-image-item">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/advanced-2.png" alt="Advanced Measurement 2">
+                </div>
+                <div class="pcmm-advanced-image-item">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/advanced-3.png" alt="Advanced Measurement 3">
+                </div>
+                <div class="pcmm-advanced-image-item">
+                    <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/advanced-4.png" alt="Advanced Measurement 4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Advanced Measurement Capabilities Section Ends -->
+
+    <!-- Value Proposition Section Starts -->
+    <section class="pcmm-value-section py-5">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="pcmm-value-row">
+                
+                <!-- Part 1: Coverage -->
+                <div class="pcmm-value-col">
+                    <h3 class="pcmm-value-title">Pan India Coverage We Come to Your Factory</h3>
+                    <div class="pcmm-value-map-wrapper">
+                        <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/india-bg.png" alt="India Map">
+                    </div>
+                    <div class="pcmm-value-map-text">
+                        Chennai | Pune | Bangalore | Delhi | Ahmedabad | Hyderabad | Coimbatore and more
+                    </div>
+                </div>
+
+                <!-- Part 2: Instant Reports -->
+                <div class="pcmm-value-col">
+                    <h3 class="pcmm-value-title">Instant Reports Onsite Before We Leave</h3>
+                    <ul class="pcmm-value-list">
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Dimensional Reports
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            GD&amp;T Reports
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Color Map Analysis
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            FAI &amp; PPAP Reports
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Customer-Specific Formats
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Part 3: Rental Models -->
+                <div class="pcmm-value-col">
+                    <h3 class="pcmm-value-title">Portable CMM Rental Flexible Engagement Models</h3>
+                    <ul class="pcmm-value-list">
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Monthly Rental
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Project-Based Rental
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Operator Assisted
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Long-Term Lease
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM16.7071 9.70711C17.0976 9.31658 17.0976 8.68342 16.7071 8.29289C16.3166 7.90237 15.6834 7.90237 15.2929 8.29289L10.5 13.0858L8.70711 11.2929C8.31658 10.9024 7.68342 10.9024 7.29289 11.2929C6.90237 11.6834 6.90237 12.3166 7.29289 12.7071L9.79289 15.2071C10.1834 15.5976 10.8166 15.5976 11.2071 15.2071L16.7071 9.70711Z" fill="#16A34A"/>
+                            </svg>
+                            Portable CMM as a Service
+                        </li>
+                    </ul>
+                    <a href="rental-and-subscription-form.php" class="pcmm-value-btn">
+                        Request Rental Proposal
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <!-- Part 4: Why Precise3DM -->
+                <div class="pcmm-value-col">
+                    <h3 class="pcmm-value-title">Why Precise3DM?</h3>
+                    <div class="pcmm-value-cards-grid">
+                        <div class="pcmm-value-card">
+                            <div class="pcmm-value-card-title">1000+</div>
+                            <div class="pcmm-value-card-text">Projects Delivered</div>
+                        </div>
+                        <div class="pcmm-value-card">
+                            <div class="pcmm-value-card-title">100+</div>
+                            <div class="pcmm-value-card-text">Vehicles Digitized</div>
+                        </div>
+                        <div class="pcmm-value-card">
+                            <div class="pcmm-value-card-text">Pan India Coverage</div>
+                        </div>
+                        <div class="pcmm-value-card">
+                            <div class="pcmm-value-card-title">24-Hour</div>
+                            <div class="pcmm-value-card-text">Deployment Capability</div>
+                        </div>
+                        <div class="pcmm-value-card pcmm-value-card-full">
+                            <div class="pcmm-value-card-text">Single Vendor for Inspection, Scanning &amp; Reverse Engineering</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Value Proposition Section Ends -->
+
+    <!-- Traditional Arm vs FreeProbe System Section Starts -->
+    <section class="pcmm-compare-section py-5">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="pcmm-compare-title">Traditional Arm vs FreeProbe System</h2>
+            
+            <div class="pcmm-compare-table-wrapper">
+                <table class="pcmm-compare-table">
+                    <thead>
+                        <tr>
+                            <th class="header-dark">Features</th>
+                            <th class="header-orange">Traditional Arm</th>
+                            <th class="header-orange">FreeProbe System</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mechanical Arm</td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#16A34A" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#16A34A"/><path d="M17 8L10 15L7 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    Yes
+                                </div>
+                            </td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#FE1111" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#FE1111"/><path d="M16 8L8 16M8 8L16 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    No
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Axis Lock</td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#16A34A" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#16A34A"/><path d="M17 8L10 15L7 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    Yes
+                                </div>
+                            </td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#FE1111" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#FE1111"/><path d="M16 8L8 16M8 8L16 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    No
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Joint Limitations</td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#16A34A" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#16A34A"/><path d="M17 8L10 15L7 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    Yes
+                                </div>
+                            </td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#FE1111" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#FE1111"/><path d="M16 8L8 16M8 8L16 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    No
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Measurement Volume</td>
+                            <td>Limited</td>
+                            <td>Large / Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Contact Measurement</td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#16A34A" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#16A34A"/><path d="M17 8L10 15L7 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    Yes
+                                </div>
+                            </td>
+                            <td>
+                                <div class="pcmm-compare-cell-content">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#16A34A" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#16A34A"/><path d="M17 8L10 15L7 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    Yes
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3D Scanning</td>
+                            <td>Separate System</td>
+                            <td>Integrated</td>
+                        </tr>
+                        <tr>
+                            <td>Accessibility</td>
+                            <td>Moderate</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr>
+                            <td>Flexibility</td>
+                            <td>Limited</td>
+                            <td>Very High</td>
+                        </tr>
+                        <tr>
+                            <td>Productivity</td>
+                            <td>Moderate</td>
+                            <td>High</td>
+                        </tr>
+                        <tr>
+                            <td>Cost Efficiency</td>
+                            <td>Moderate</td>
+                            <td>High</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Traditional Arm vs FreeProbe System Section Ends -->
+
+    <!-- Contact Section Starts -->
+    <section class="pcmm-contact-section py-5">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="pcmm-contact-row">
+                
+                <!-- Left Side -->
+                <div class="pcmm-contact-left">
+                    <h2 class="pcmm-contact-title">Ready to Measure Smarter?</h2>
+                    <p class="pcmm-contact-desc">
+                        Replace traditional portable arms with next-generation optical metrology. Get contact measurement, 3D scanning, inspection and reporting from a single trusted partner.
+                    </p>
+                    
+                    <div class="pcmm-contact-info-block">
+                        <div class="pcmm-contact-info-icon">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/phone-icon.png" alt="Phone">
+                        </div>
+                        <div class="pcmm-contact-info-text">
+                            <div class="pcmm-contact-info-label">Call us now</div>
+                            <div class="pcmm-contact-info-value"><a href="tel:+91 98404 78347">+91 98404 78347</a> | <a href="tel:+91 63744 06179">+91 63744 06179</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="pcmm-contact-info-block">
+                        <div class="pcmm-contact-info-icon">
+                            <img src="assets/images/portable-cmm-measurement-services-without-arm-limitations/mail-logo.png" alt="Email">
+                        </div>
+                        <div class="pcmm-contact-info-text">
+                            <div class="pcmm-contact-info-label">Email us</div>
+                            <div class="pcmm-contact-info-value"><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="pcmm-contact-right">
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="pcmm-contact-btn pcmm-contact-btn-solid">Book Inspection</a>
+                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="pcmm-contact-btn pcmm-contact-btn-solid">Talk to Metrology Expert</a>
+                    <a href="rental-and-subscription-form.php" class="pcmm-contact-btn pcmm-contact-btn-outline">Request Rental Quote</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section Ends -->
+
+    <!-- FAQ Section Starts -->
+    <section class="pcmm-faq-section py-5">
+        <div class="container py-4">
+            <h2 class="pcmm-faq-title mb-5">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="accordion pcmm-faq-accordion" id="pcmmFaqAccordion">
+
+                <!-- FAQ 1 -->
+                <div class="accordion-item pcmm-faq-item">
+                    <h2 class="accordion-header" id="faqHeading1">
+                        <button class="accordion-button collapsed pcmm-faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+                            What is the cost of handheld colour 3D scanning services?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#pcmmFaqAccordion">
+                        <div class="accordion-body pcmm-faq-body">
+                            The cost varies depending on the size and complexity of the object. Please contact us for a detailed quote.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item pcmm-faq-item">
+                    <h2 class="accordion-header" id="faqHeading2">
+                        <button class="accordion-button collapsed pcmm-faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                            What is colour 3D Scanning, and how does it differ from industrial 3D Scanning?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#pcmmFaqAccordion">
+                        <div class="accordion-body pcmm-faq-body">
+                            Colour 3D scanning captures both the geometry and the colour/texture of the object, while industrial 3D Scanning only captures the shape.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="accordion-item pcmm-faq-item">
+                    <h2 class="accordion-header" id="faqHeading3">
+                        <button class="accordion-button collapsed pcmm-faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                            How long does it take when you do a 3D Scan with colour?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#pcmmFaqAccordion">
+                        <div class="accordion-body pcmm-faq-body">
+                            Scanning time depends on the object's dimensions and details, typically ranging from a few minutes to a few hours.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item pcmm-faq-item">
+                    <h2 class="accordion-header" id="faqHeading4">
+                        <button class="accordion-button collapsed pcmm-faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                            Who benefits from Precise3DM's Handheld Color 3D Scanning Services?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#pcmmFaqAccordion">
+                        <div class="accordion-body pcmm-faq-body">
+                            Industries such as heritage preservation, healthcare, consumer products, and entertainment greatly benefit from accurate colour 3D models.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item pcmm-faq-item">
+                    <h2 class="accordion-header" id="faqHeading5">
+                        <button class="accordion-button collapsed pcmm-faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                            Is your Colour 3D scanning service available for outdoor or indoor objects?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#pcmmFaqAccordion">
+                        <div class="accordion-body pcmm-faq-body">
+                            Our handheld scanners are versatile and can be used for both indoor and outdoor objects, adapting to various lighting conditions.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section Ends -->
+
+    <!-- Main Content Ends Here -->
+
+    <?php include('includes/footer.php'); ?>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 
-   <!-- footer start -->
-   <?php include('includes/footer.php'); ?>
-   <!-- footer end -->
-   <!-- bootstrap links-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-   <script type="text/javascript" src="assets/js/slim.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-   <!-- bootstrap links-->
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   <script src="assets/js/custom-owl.js" type="text/javascript"></script>
-   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-   <script src="assets/js/counter.js"></script>
-   <script>
-      let counted = 0;
-
-      window.addEventListener('scroll', function () {
-         const counter = document.getElementById('counter');
-         const oTop = counter.offsetTop - window.innerHeight;
-
-         if (counted === 0 && window.scrollY > oTop) {
-            const countElements = document.querySelectorAll('.count');
-            const duration = 5000;
-
-            countElements.forEach(function (element) {
-               const countTo = element.getAttribute('data-count');
-               let countNum = parseInt(element.textContent);
-               const increment = (countTo - countNum) / (duration / 20);
-               const animation = setInterval(function () {
-                  countNum += increment;
-
-                  element.textContent = Math.floor(countNum);
-
-                  if (countNum >= countTo) {
-                     clearInterval(animation);
-                     element.textContent = countTo;
-                  }
-               }, 20);
-            });
-
-            counted = 1;
-         }
-      });
-
-   </script>
-   <script>
-      let currentIndex = 0;
-      function handleTabClick(event) {
-         if (event.target.tagName === 'LI') {
-            const selectedTab = event.target.dataset.tab;
-            updateTabs(selectedTab);
-         }
-      }
-      function moveTabs(direction) {
-         const tabs = document.querySelectorAll('.tabs li');
-         const newIndex = currentIndex + direction;
-         if (newIndex >= 0 && newIndex < tabs.length) {
-            const selectedTab = tabs[newIndex].dataset.tab;
-            updateTabs(selectedTab);
-         }
-      }
-      function updateTabs(selectedTab) {
-         document.querySelectorAll('.content').forEach(function (div) {
-            div.classList.remove('active-content');
-         });
-         document.querySelectorAll('.tabs li').forEach(function (tab) {
-            tab.classList.remove('active');
-         });
-         document.getElementById(selectedTab).classList.add('active-content');
-         document.querySelector(`[data-tab="${selectedTab}"]`).classList.add('active');
-         currentIndex = Array.from(document.querySelectorAll('.tabs li')).findIndex(tab => tab.dataset.tab === selectedTab);
-      }
-   </script>
-   <script>
-      let currentIndex1 = 0;
-      function handleCustomTabClick(event) {
-         if (event.target.tagName === 'LI') {
-            const selectedTab = event.target.dataset.tab;
-            updateTabs1(selectedTab);
-         }
-      }
-      function moveTabs1(direction) {
-         const tabs = document.querySelectorAll('.custom-tabs li');
-         const newIndex = currentIndex1 + direction;
-
-         if (newIndex >= 0 && newIndex < tabs.length) {
-            const selectedTab = tabs[newIndex].dataset.tab;
-            updateTabs1(selectedTab);
-         }
-      }
-      function updateTabs1(selectedTab) {
-         document.querySelectorAll('.custom-content').forEach(function (div) {
-            div.classList.remove('active-contents');
-         });
-         document.querySelectorAll('.custom-tabs li').forEach(function (tab) {
-            tab.classList.remove('active');
-         });
-         document.getElementById(selectedTab).classList.add('active-contents');
-         document.querySelector(`[data-tab="${selectedTab}"]`).classList.add('active');
-         currentIndex1 = Array.from(document.querySelectorAll('.custom-tabs li')).findIndex(tab => tab.dataset.tab === selectedTab);
-      }
-   </script>
-
-   <script>
-      // Function to initialize the slider
-      function initializeSlider(selector, options) {
-         const defaultOptions = {
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            arrows: true
-            // Add other default options as needed
-         };
-
-         const mergedOptions = { ...defaultOptions, ...options };
-
-         $(document).ready(function () {
-            $(selector).slick(mergedOptions);
-         });
-      }
-
-      // Function to fetch slide data and initialize the slider
-      function initializeDynamicSlider(selector) {
-         // Make an API request or fetch data dynamically
-         // Here, we are using dummy data for demonstration
-         const fetchData = {
-            slideShow: 3,
-            mlSlideShow: 2,
-            lgSlideShow: 1,
-            mdSlideShow: 1
-         };
-
-         // Set the fetched data to the corresponding data attributes
-         $(selector).attr('data-slide-show', fetchData.slideShow);
-         $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
-         $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
-         $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
-
-         // Initialize the slider with the fetched data
-         initializeSlider(selector, {
-            slidesToShow: fetchData.slideShow,
-            slidesToScroll: 1,
-            responsive: [
-               {
-                  breakpoint: 991,
-                  settings: {
-                     slidesToShow: fetchData.mdSlideShow
-                  }
-               },
-               {
-                  breakpoint: 768,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               },
-               {
-                  breakpoint: 576,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               }
-            ]
-         });
-      }
-
-      // Initialize the dynamic slider
-      initializeDynamicSlider('#dynamicSlider');
-      initializeDynamicSlider('#dynamicSlider1');
-   </script>
-   <script>
-      // Function to initialize the slider
-      function initializeSlider(selector, options) {
-         const defaultOptions = {
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            arrows: true
-            // Add other default options as needed
-         };
-
-         const mergedOptions = { ...defaultOptions, ...options };
-
-         $(document).ready(function () {
-            $(selector).slick(mergedOptions);
-         });
-      }
-
-      // Function to fetch slide data and initialize the slider
-      function initializeDynamicSlider(selector) {
-         // Make an API request or fetch data dynamically
-         // Here, we are using dummy data for demonstration
-         const fetchData = {
-            slideShow: 5,
-            mlSlideShow: 2,
-            lgSlideShow: 3,
-            mdSlideShow: 2
-         };
-
-         // Set the fetched data to the corresponding data attributes
-         $(selector).attr('data-slide-show', fetchData.slideShow);
-         $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
-         $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
-         $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
-
-         // Initialize the slider with the fetched data
-         initializeSlider(selector, {
-            slidesToShow: fetchData.slideShow,
-            slidesToScroll: 1,
-            responsive: [
-               {
-                  breakpoint: 991,
-                  settings: {
-                     slidesToShow: fetchData.mdSlideShow
-                  }
-               },
-               {
-                  breakpoint: 768,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               },
-               {
-                  breakpoint: 576,
-                  settings: {
-                     slidesToShow: 2
-                  }
-               }
-            ]
-         });
-      }
-
-      // Initialize the dynamic slider
-      initializeDynamicSlider('#dynamicSlider2');
-   </script>
-   <script>
-      const customSwitchContainer = document.getElementById('customSwitchContainer');
-      const customToggleSwitch = document.getElementById('customToggleSwitch');
-      const root = document.documentElement;
-      const body = document.body;
-      var banner = document.querySelector(".banner");
-      var eventbanner = document.querySelector(".main-event-banner-sec");
-      var banner1 = document.querySelector(".banner1");
-      var bannerimg1 = document.querySelector(".banner-img1");
-      var midbanner = document.getElementById("midbanner");
-      var listsecc = document.getElementsByClassName("list-sec");
-
-
-      function toggleStyles() {
-         if (customToggleSwitch.checked) {
-            customSwitchContainer.querySelector('.custom-slider').classList.add('on');
-            root.style.setProperty('--backgroundcolor', '#101010');
-            root.style.setProperty('--subbackground', '#0A0A0A');
-            root.style.setProperty('--subcotent', '#bbb');
-            root.style.setProperty('--counter', '#0A0A0A');
-            root.style.setProperty('--img-filter', 'none');
-            root.style.setProperty('--list', '#DFEEFF');
-            root.style.setProperty('--list-black', '#0a0a0a');
-            root.style.setProperty('--whitecolor', '#fff');
-            root.style.setProperty('--maincolor', '#ff931e');
-            body.style.background = 'var(--backgroundcolor)';
-            banner.style.background = 'url(assets/images/new-home/banner.png)';
-            // eventbanner.style.background = 'url(assets/images/new-home/banner.png)';
-            banner.style.backgroundSize = '100% 100%';
-            banner1.style.background = 'url(assets/images/product-gallery/banner2.png)';
-            bannerimg1.style.background = 'url(assets/images/product-gallery/moblight.png)';
-            bannerimg1.style.backgroundSize = '100% 100%';
-            banner1.style.backgroundSize = '100% 100%';
-            banner1.style.backgroundRepeat = 'no-repeat';
-
-            for (var i = 0; i < listsecc.length; i++) {
-               listsecc[i].style.padding = '80px 0 0';
-               listsecc[i].style.background = 'none';
-            }
-            midbanner.style['-webkit-text-fill-color'] = 'transparent';
-         } else {
-            customSwitchContainer.querySelector('.custom-slider').classList.remove('on');
-            root.style.setProperty('--backgroundcolor', '#fff');
-            root.style.setProperty('--subcotent', '#000');
-            root.style.setProperty('--counter', '#F0EAE4');
-            root.style.setProperty('--img-filter', 'invert(1)');
-            root.style.setProperty('--list', '#000');
-            root.style.setProperty('--subbackground', '#fff');
-            root.style.setProperty('--whitecolor', '#101010');
-            root.style.setProperty('--maincolor', '#ff931e');
-            root.style.setProperty('--backgroundimage', 'url(/assets/images/new-home/p-140bg.png)');
-            body.style.background = '#fff';
-            banner.style.background = 'url(assets/images/new-home/banner-img.png)';
-            // eventbanner.style.background = 'url(assets/images/new-home/banner.png)';
-            banner.style.backgroundSize = '100% 100%';
-            banner.style.backgroundRepeat = 'no-repeat';
-            banner1.style.background = 'url(assets/images/product-gallery/banner1.png)';
-            banner1.style.backgroundSize = '100% 100%';
-            banner1.style.backgroundRepeat = 'no-repeat';
-            midbanner.style.color = "#ff931e"
-            bannerimg1.style.background = 'url(assets/images/product-gallery/mobdark.png)';
-            bannerimg1.style.backgroundSize = '100% 100%';
-            for (var i = 0; i < listsecc.length; i++) {
-               listsecc[i].style.padding = '150px 0';
-
-               listsecc[i].style.background = 'url(assets/images/new-home/p-140bg.png) 0% 0% / 100% 100% no-repeat';
-            }
-            midbanner.style['-webkit-text-fill-color'] = 'currentColor';
-         }
-      }
-
-      // Initial setup
-      toggleStyles();
-
-      // Event listener for the custom switch
-      customSwitchContainer.addEventListener('click', function () {
-         customToggleSwitch.checked = !customToggleSwitch.checked;
-         toggleStyles();
-      });
-   </script>
 </body>
 
 </html>

@@ -726,9 +726,9 @@
                                  Precise3DM
                               </h2>
                               <p>Discover our exciting Campaigns, Products & Offerings below.</p>
-                              <a href="https:www.precise3dm.com/geomagicsoftware.php" class="btn">Geomagic Products</a>
-                              <a href="https:www.precise3dm.com/FreeScan-Combo.php" class="btn">Freescan Combo</a>
-                              <a href="https:www.precise3dm.com/3d-services.php" class="btn">3D services</a>
+                              <a href="geomagicsoftware.php" class="btn">Geomagic Products</a>
+                              <a href="FreeScan-Combo.php" class="btn">Freescan Combo</a>
+                              <a href="3d-services.php" class="btn">3D services</a>
                               <br>
                               <div class="email">
                                  <a href="mailto:sm@precise3dm.com" class=" mail-btn">
@@ -767,12 +767,12 @@
                                  Manufacturing Solution
                               </h2>
                               <p style="font-weight:700;">“Capex Investment Products For Manufacturing Companies”</p>
-                              <a href="https:www.precise3dm.com/3d-scanners-in-india.php" class="btn">3D
+                              <a href="3d-scanners-in-india.php" class="btn">3D
                                  Scanner </a>
-                              <a href="https:www.precise3dm.com/3d-scanning-and-reverse-engineering-software.php"
+                              <a href="3d-scanning-and-reverse-engineering-software.php"
                                  class="btn">3D Reverse Engineering
                                  Software</a>
-                              <a href="https:www.precise3dm.com/figure-4-standalone-3d-printer.php" class="btn">3D
+                              <a href="figure-4-standalone-3d-printer.php" class="btn">3D
                                  Printer</a>
                               <br>
                               <div class="email">
@@ -807,7 +807,7 @@
                               <p class="mt-4 text-left text">Free Trial, Live Demos, Workflow Insights, and Expert
                                  Guidance! Visit our Geomagic Design X information page to get started</p>
 
-                              <a href="https:www.precise3dm.com/geomagic-designx.php" class="btn">Know more</a>
+                              <a href="geomagic-designx.php" class="btn">Know more</a>
                               <div class="social">
                                  <div class="email">
                                     <a href="mailto:sm@precise3dm.com" class="mail-btn" style="border-radius:50%;">
@@ -984,9 +984,9 @@
                               <h1 id="midbanner">Welcome to Precise3DM
                               </h1>
                               <p>Discover our exciting Campaigns, Products & Offerings below.</p>
-                              <a href="https:www.precise3dm.com/geomagicsoftware.php" class="btn">Geomagic Products</a>
-                              <a href="https:www.precise3dm.com/FreeScan-Combo.php" class="btn">Freescan Combo</a>
-                              <a href="https:www.precise3dm.com/3d-services.php" class="btn">3D services</a>
+                              <a href="geomagicsoftware.php" class="btn">Geomagic Products</a>
+                              <a href="FreeScan-Combo.php" class="btn">Freescan Combo</a>
+                              <a href="3d-services.php" class="btn">3D services</a>
                               <br>
                               <div class="email">
                                  <a href="mailto:sm@precise3dm.com" class=" mail-btn">
@@ -1025,12 +1025,12 @@
                                  Manufacturing Solution
                               </h2>
                               <p style="font-weight:700;">“Capex Investment Products For Manufacturing Companies”</p>
-                              <a href="https:www.precise3dm.com/3d-scanners-in-india.php" class="btn">3D
+                              <a href="3d-scanners-in-india.php" class="btn">3D
                                  Scanner </a>
-                              <a href="https:www.precise3dm.com/3d-scanning-and-reverse-engineering-software.php"
+                              <a href="3d-scanning-and-reverse-engineering-software.php"
                                  class="btn">3D Reverse Engineering
                                  Software</a>
-                              <a href="https:www.precise3dm.com/figure-4-standalone-3d-printer.php" class="btn">3D
+                              <a href="figure-4-standalone-3d-printer.php" class="btn">3D
                                  Printer</a>
                               <br>
                               <div class="email">
@@ -1068,7 +1068,7 @@
                               <p class="mt-4 text-left text">Free Trial, Live Demos, Workflow Insights, and Expert
                                  Guidance! Visit our Geomagic Design X information page to get started</p>
 
-                              <a href="https:www.precise3dm.com/geomagic-designx.php" class="btn">Know more</a>
+                              <a href="geomagic-designx.php" class="btn">Know more</a>
                               <div class="social">
                                  <div class="email">
                                     <a href="mailto:sm@precise3dm.com" class="mail-btn" style="border-radius:50%;">
@@ -1256,7 +1256,7 @@
          </div>
       </div>
       <div class="a">
-         <a href="https:www.precise3dm.com/About_us.php" class="btn">Know More</a>
+         <a href="About_us.php" class="btn">Know More</a>
       </div>
    </section>
    <!-- ==========================
@@ -1275,7 +1275,7 @@
                   <img src="assets/images/optimscan-plus/img1.png" alt="">
                   <a href="structured-light-3d-scanner-in-india.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="https:www.precise3dm.com/optical-blue-light-3d-scanning-service-in-india.php">3D
+                  <a class="btn" href="optical-blue-light-3d-scanning-service-in-india.php">3D
                      Scanning
                      Service</a>
                </div>
@@ -1285,7 +1285,7 @@
                   <h3>Industrial Handheld Metrology 3D Scanning(Metrology Grade)</h3>
                   <img style="height: 175px;" src="assets/images/new-home/product2.png" alt="">
                   <a href="handheld-3d-scanner-in-india.php" class="btn">Buy 3D Scanner</a>
-                  <a class="btn" href="https:www.precise3dm.com/3d-scanning-services-in-india.php">3D Scanning
+                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
                      Service</a>
                </div>
             </div>
@@ -1295,7 +1295,7 @@
                   <img style="height: 175px;" src="assets/images/new-home/product9.png" alt="">
                   <a href="handheld-color-3dscanning-service.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="https:www.precise3dm.com/3d-scanning-services-in-india.php">3D Scanning
+                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
                      Service</a>
                </div>
             </div>
@@ -1303,9 +1303,9 @@
                <div class="product-item">
                   <h3>Long Range 3D Scanning(Lidar)</h3>
                   <img src="assets/images/new-home/card-img1.png" alt="">
-                  <a href="https:www.precise3dm.com/lidar-scanners.php" class="btn">Buy 3D
+                  <a href="lidar-scanners.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="https:www.precise3dm.com/long-range-3dscanning-service.php">3D Scanning
+                  <a class="btn" href="long-range-3dscanning-service.php">3D Scanning
                      Service</a>
                </div>
             </div>
@@ -1313,10 +1313,10 @@
                <div class="product-item">
                   <h3>Freescan Trio Triple Camera - Handheld Laser 3D Scanner</h3>
                   <img style="height: 175px;" src="assets/images/new-home/product10.png" alt="">
-                  <a href="https:www.precise3dm.com/freescan-trio-triple-camera-handheld-laser-3D-scanner.php"
+                  <a href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php"
                      class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="https:www.precise3dm.com/3d-scanning-services-in-india.php">3D Scanning
+                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
                      Service</a>
                </div>
             </div>
@@ -1326,7 +1326,7 @@
                   <img src="assets/images/new-home/card-img2.png" alt="">
                   <a href="3d-laser-scanners.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="https:www.precise3dm.com/arm-based-3d-scanning-service-in-india.php">3D
+                  <a class="btn" href="arm-based-3d-scanning-service-in-india.php">3D
                      Scanning Service</a>
                </div>
             </div>
@@ -1350,7 +1350,7 @@
 
                   <img src="assets/images/new-home/product11.png" alt="">
                   <p>Solutions for Bringing the Physical into 3D Digital</p>
-                  <a href="https:www.precise3dm.com/3d-scanners-in-india.php" class="btn">Know more</a>
+                  <a href="3d-scanners-in-india.php" class="btn">Know more</a>
                </div>
             </div>
             <div class="col-md-4 col-6 padd-right">
@@ -1358,7 +1358,7 @@
                   <h3>3D SOFTWARE</h3>
                   <img src="assets/images/new-home/product7.png" alt="">
                   <p>Software for 3D Reverse Engineering, 3D Inspection & 3D Printing</p>
-                  <a href="https:www.precise3dm.com/3d-scanning-software.php" class="btn">Know more</a>
+                  <a href="3d-scanning-software.php" class="btn">Know more</a>
                </div>
             </div>
             <div class="col-md-4 col-6 padd-left">
@@ -1366,7 +1366,7 @@
                   <h3>3D PRINTERS</h3>
                   <img style="height: 225px;" src="assets/images/new-home/product8.png" alt="">
                   <p>Solutions for Production 3D Printing</p>
-                  <a href="https:www.precise3dm.com/figure-4-standalone-3d-printer.php" class="btn">Know more</a>
+                  <a href="figure-4-standalone-3d-printer.php" class="btn">Know more</a>
                </div>
             </div>
 
@@ -1405,12 +1405,12 @@
                         <p style="text-align:left;">Provide details about your requirements,<br> including component
                            size,
                            application, and budget.</p>
-                        <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
                            Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
+                     <a href="Book-demo-get-quote-for-3D-scanner.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list1.png" alt="">
                            <span style="--i:0"></span>
@@ -1432,12 +1432,12 @@
                            that
                            aligns with <br> your budget and application needs.
                         </p>
-                        <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
                            Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
+                     <a href="Book-demo-get-quote-for-3D-scanner.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list2.png" alt="">
                            <span style="--i:0"></span>
@@ -1457,12 +1457,12 @@
                            capabilities of the selected
                            bundle.
                         </p>
-                        <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
                            Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
+                     <a href="Book-demo-get-quote-for-3D-scanner.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list3.png" alt="">
                            <span style="--i:0"></span>
@@ -1482,12 +1482,12 @@
                            address specific
                            requirements upon your request.<br>
                            Order Processing: Once you're satisfied and send us the Order</p>
-                        <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
                            Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
+                     <a href="Book-demo-get-quote-for-3D-scanner.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list4.png" alt="">
                            <span style="--i:0"></span>
@@ -1507,12 +1507,12 @@
                            maximize the potential
                            of
                            your 3D scanning solution.</p>
-                        <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
                            Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
+                     <a href="Book-demo-get-quote-for-3D-scanner.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list5.png" alt="">
                            <span style="--i:0"></span>
@@ -1532,11 +1532,11 @@
                            post-sales support to
                            keep<br>
                            your operations running smoothly.</p>
-                        <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
                            Rapid Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
+                     <a href="Book-demo-get-quote-for-3D-scanner.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list6.png" alt="">
                            <span style="--i:0"></span>
@@ -1560,7 +1560,7 @@
    <section class="portfolio-sec">
       <div class="container">
          <div style="display:block;" class="row">
-            <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php" class="h2-center">
+            <a href="Get-3d-scan-service-quote.php" class="h2-center">
                <h2 style="color:#ff931e;">End-To-End 3D Scanning Service Portfolio</h2>
             </a>
             <h5>3D Scan Anything & Anywhere</h5>
@@ -1579,7 +1579,7 @@
       <div class="container option-con">
          <div class="row">
             <div class="col-lg-2 col-md-2">
-               <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php">
+               <a href="Get-3d-scan-service-quote.php">
                   <div class="form-img-img">
                      <img src="assets/images/new-home/option6.png" alt="">
                      <span style="--i:0"></span>
@@ -1641,11 +1641,11 @@
                            complete information on the<br>
                            project requirements.
                         </p>
-                        <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Rapid
+                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php">
+                     <a href="Get-3d-scan-service-quote.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list1.png" alt="">
                            <span style="--i:0"></span>
@@ -1663,11 +1663,11 @@
                         <h2>Select 3D Scanner</h2>
                         <p style="text-align:left;">We will select the appropriate Scanner that <br> fits your specific
                            application.</p>
-                        <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Rapid
+                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php">
+                     <a href="Get-3d-scan-service-quote.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list7.png" alt="">
                            <span style="--i:0"></span>
@@ -1685,11 +1685,11 @@
                         <h2>3D Scan</h2>
                         <p style="text-align:left;">Modeling and 3D Inspection Benchmarking can<br>also be done on-site.
                         </p>
-                        <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Rapid
+                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php">
+                     <a href="Get-3d-scan-service-quote.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list11.png" alt="">
                            <span style="--i:0"></span>
@@ -1708,11 +1708,11 @@
                         <p style="text-align:left;">we will either create a CAD model or perform <br> an inspection
                            post-3D
                            scanning</p>
-                        <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Rapid
+                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php">
+                     <a href="Get-3d-scan-service-quote.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list9.png" alt="">
                            <span style="--i:0"></span>
@@ -1729,11 +1729,11 @@
                         <h2>File Transfer</h2>
                         <p style="text-align:left;">We will securely transfer the <br>processed output to you.
                         </p>
-                        <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Rapid
+                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
                            Quote</a>
                      </div>
 
-                     <a href="https:www.precise3dm.com/Get-3d-scan-service-quote.php">
+                     <a href="Get-3d-scan-service-quote.php">
                         <div class="quote-img">
                            <img src="assets/images/new-home/list10.png" alt="">
                            <span style="--i:0"></span>

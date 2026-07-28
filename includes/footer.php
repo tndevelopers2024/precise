@@ -311,7 +311,7 @@
                 <div class="col-lg-3 footer-2 pt-4">
                     <h2>PORTFOLIO</h2>
                     <ul class="points">
-                        <li><i class="fa-regular fa-circle-dot"></i> <a href="https://www.precise3dm.com/affordable-3d-scanners-in-the-market.php">3D Products</a></li>
+                        <li><i class="fa-regular fa-circle-dot"></i> <a href="3d-products.php">3D Products</a></li>
                         <li><i class="fa-regular fa-circle-dot"></i> <a href="https://www.precise3dm.com/3d-metrology-applications.php">3D Solutions</a></li>
                         <li><i class="fa-regular fa-circle-dot"></i> <a href="https://www.precise3dm.com/3d-services-in-india.php">3D Services</a></li>
                     </ul>

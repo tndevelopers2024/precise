@@ -138,7 +138,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
                     </ul>
 
                     <div class="d-flex flex-wrap gap-3 mt-4" style="gap:10px;">
-                        <a href="#" class="btn-orange-gradient text-decoration-none text-center">Buy Online Now</a>
+                        <a href="buy-einstar-and-einscan-3d-scanner-online-in-india.php" class="btn-orange-gradient text-decoration-none text-center">Buy Online Now</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange-gradient text-decoration-none text-center">Book a Live Demo</a>
                     </div>
 

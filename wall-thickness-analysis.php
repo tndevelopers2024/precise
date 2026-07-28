@@ -29,13 +29,20 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!-- custom css-->
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+    <!--custom css-->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/optical-blue-light.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
+    
+    <!-- page specific css -->
+    <link rel="stylesheet" href="assets/css/3d-scan-based-wall-thickness-analysis.css">
 
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/parametric-cad.css">
     <!--<title>Reverse engineering freeform software-3D scan services-Scan to Wall thickness analysis</title>-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96527116-1"></script>
@@ -151,445 +158,495 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 </head>
-<style>
-    html{
-            scroll-padding-top:150px;
-        }
-    .need-to-fixtop{
-        position:fixed;
-        top:195px;
-    }
-    #myTabnew li a i{
-        float:right;
-        padding-top:4px;
-    }
-</style>
-<body>
-     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
+<body>
     <!-- header start -->
     <?php include('includes/header.php'); ?>
-    <!-- header end -->
+    <!-- header End -->
 
-    <!--about us banner section start-->
-    <section id="wall-thickness-analysis" class="pt-4">
-        <div class="container">
-            <div class="row h-300">
+    <!-- hero section -->
+    <section class="analysis-hero">
+        <div class="analysis-container">
+            <div class="hero-left">
+                <h1>3D Scan-Based <span class="text-orange">Wall<br>Thickness Analysis</span></h1>
+                <h3>Measure Material Thickness Across Entire Components<br>Without Cutting, Sectioning or Destroying Parts</h3>
+                <p>Using industrial 3D scanners and Geomagic Control X software, engineers can<br>digitally evaluate wall thickness, identify thin sections, excessive material build-up,<br>sink-prone areas, wear zones, casting inconsistencies and manufacturing defects<br>across the entire part.</p>
+                
+                <div class="hero-buttons">
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Schedule Live Demo</a>
+                    <a href="Get-3d-scan-service-quote.php" class="btn-orange">Request Inspection Service</a>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/3d-scan-based-hero-left-img1.png" alt="100% Surface Coverage">
+                        <span>100% Surface<br>Coverage</span>
+                    </div>
+                    <div class="feature-item">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/3d-scan-based-hero-left-img2.png" alt="Non-Destructive Measurement">
+                        <span>Non-Destructive<br>Measurement</span>
+                    </div>
+                    <div class="feature-item">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/3d-scan-based-hero-left-img3.png" alt="High Accuracy Results">
+                        <span>High Accuracy<br>Results</span>
+                    </div>
+                    <div class="feature-item">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/3d-scan-based-hero-left-img4.png" alt="Actionable Engineering Insights">
+                        <span>Actionable<br>Engineering Insights</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="contact-top">
+                    <div class="icon-circle">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="title">Call us now</span>
+                        <span class="details"><a href="tel:+919840478347" class="contact-link">+91 98404 78347</a> <span class="sep">|</span> <a href="tel:+919025700192" class="contact-link">+91 90257 00192</a> <span class="sep">|</span> <a href="tel:+919940352575" class="contact-link">+91 99403 52575</a></span>
+                    </div>
+                </div>
+                
+                <div class="hero-image-wrapper">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/3d-scan-based-hero-right-img.png" alt="3D Scan Based Wall Thickness Analysis" class="main-img">
+                </div>
             </div>
         </div>
-        <div class="heading m-320">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-6 aboutus-herohead pl-0">
-                        <h1>Wall Thickness Analysis</h1>
+        
+        <div class="hero-bottom-container">
+            <div class="hero-bottom-email">
+                <div class="icon-circle email-icon-circle">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                    <span class="title text-dark">Email Us</span>
+                    <span class="details text-dark"><a href="mailto:sm@precise3dm.com" class="contact-link">sm@precise3dm.com</a> <span class="sep">|</span> <a href="mailto:service@precise3dm.com" class="contact-link">service@precise3dm.com</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Wall Thickness Analysis section -->
+    <section class="wta-section">
+        <div class="wta-container">
+            <div class="wta-left">
+                <h2>WHAT IS WALL THICKNESS<br>ANALYSIS?</h2>
+                <p>Wall Thickness Analysis is a digital inspection process where a high-resolution 3D scan captures the entire geometry of a physical component. Using Geomagic Control X, the software calculates the distance between opposite surfaces and generates a complete wall thickness map throughout the model.</p>
+                <ul class="wta-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Identify thin & thick areas</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Detect manufacturing defects</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Optimize material usage</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Improve quality and performance</li>
+                </ul>
+            </div>
+            
+            <div class="wta-right">
+                <div class="wta-card">
+                    <h4>Physical Part</h4>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/wta-right-img1.png" alt="Physical Part">
+                </div>
+                <div class="wta-card">
+                    <h4>3D Scan</h4>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/wta-right-img2.png" alt="3D Scan">
+                </div>
+                <div class="wta-card">
+                    <h4>Thickness<br>Calculation</h4>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/wta-right-img3.png" alt="Thickness Calculation">
+                </div>
+                <div class="wta-card">
+                    <h4>Color<br>Thickness Map</h4>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/wta-right-img4.png" alt="Color Thickness Map">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Engineers Use Section -->
+    <section class="weuwta-section">
+        <div class="weuwta-container">
+            <h2 class="weuwta-title">WHY ENGINEERS USE WALL THICKNESS ANALYSIS</h2>
+            <div class="weuwta-grid">
+                <!-- Card 1 -->
+                <div class="weuwta-card">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/weuwta-card1-img.png" alt="100% Surface Inspection">
+                    <h4>100% Surface<br>Inspection</h4>
+                    <p>Analyze every point across the entire component.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="weuwta-card">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/weuwta-card2-img.png" alt="Non-Destructive Measurement">
+                    <h4>Non-Destructive<br>Measurement</h4>
+                    <p>No cutting, sectioning or damaging valuable parts.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="weuwta-card">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/weuwta-card3-img.png" alt="Detect Manufacturing Defects">
+                    <h4>Detect<br>Manufacturing<br>Defects</h4>
+                    <p>Identify sink marks, thin areas, porosity and inconsistencies.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="weuwta-card">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/weuwta-card4-img.png" alt="Improve Product Quality">
+                    <h4>Improve Product<br>Quality</h4>
+                    <p>Ensure consistent wall thickness and structural integrity.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="weuwta-card">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/weuwta-card5-img.png" alt="Reduce Material Waste">
+                    <h4>Reduce Material<br>Waste</h4>
+                    <p>Optimize material distribution and reduce excess weight.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="weuwta-card">
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/weuwta-card6-img.png" alt="Optimize Product Design">
+                    <h4>Optimize Product<br>Design</h4>
+                    <p>Make informed design decisions with accurate thickness data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why The Process Works Section -->
+    <section class="wtpw-section">
+        <div class="wtpw-container">
+            <div class="wtpw-box">
+                <h2 class="wtpw-title">WHY THE PROCESS WORKS</h2>
+                <div class="wtpw-flow">
+                    <!-- Step 1 -->
+                    <div class="wtpw-step">
+                        <div class="wtpw-number">1</div>
+                        <div class="wtpw-card">
+                            <div class="img-wrapper"><img src="assets/images/3d-scan-based-wall-thickness-analysis/wtpw-img1.png" alt="Capture Part"></div>
+                            <h4>Capture Part</h4>
+                            <p>Using 3D scanner<br>High accuracy data<br>capture</p>
+                        </div>
+                    </div>
+                    
+                    <div class="wtpw-arrow"><i class="fa-solid fa-angles-right"></i></div>
+                    
+                    <!-- Step 2 -->
+                    <div class="wtpw-step">
+                        <div class="wtpw-number">2</div>
+                        <div class="wtpw-card">
+                            <div class="img-wrapper"><img src="assets/images/3d-scan-based-wall-thickness-analysis/wtpw-img2.png" alt="Generate Mesh"></div>
+                            <h4>Generate Mesh</h4>
+                            <p>High Resolution<br>Create precise 3D mesh<br>model</p>
+                        </div>
+                    </div>
+                    
+                    <div class="wtpw-arrow"><i class="fa-solid fa-angles-right"></i></div>
+                    
+                    <!-- Step 3 -->
+                    <div class="wtpw-step">
+                        <div class="wtpw-number">3</div>
+                        <div class="wtpw-card">
+                            <div class="img-wrapper"><img src="assets/images/3d-scan-based-wall-thickness-analysis/wtpw-img3.png" alt="Run Analysis"></div>
+                            <h4>Run Analysis</h4>
+                            <p>Wall Thickness<br>Calculate distance<br>between surfaces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="wtpw-arrow"><i class="fa-solid fa-angles-right"></i></div>
+                    
+                    <!-- Step 4 -->
+                    <div class="wtpw-step">
+                        <div class="wtpw-number">4</div>
+                        <div class="wtpw-card">
+                            <div class="img-wrapper"><img src="assets/images/3d-scan-based-wall-thickness-analysis/wtpw-img4.png" alt="Thickness Map"></div>
+                            <h4>Thickness Map</h4>
+                            <p>Color Visualization<br>Generate easy-to-interpret<br>heat map</p>
+                        </div>
+                    </div>
+                    
+                    <div class="wtpw-arrow"><i class="fa-solid fa-angles-right"></i></div>
+                    
+                    <!-- Step 5 -->
+                    <div class="wtpw-step">
+                        <div class="wtpw-number">5</div>
+                        <div class="wtpw-card">
+                            <div class="img-wrapper"><img src="assets/images/3d-scan-based-wall-thickness-analysis/wtpw-img5.png" alt="Inspection Report"></div>
+                            <h4>Inspection Report</h4>
+                            <p>Engineering Report<br>Detailed report with critical<br>insights</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- about us banner section end-->
 
-    <!-- about us section starts-->
-    <section id="aboutus-bg" class="pb-3">
-        <div class="aboutus-sec2">
-
-        </div>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-md-4 cad-left-pills">
-                    <div class="w-100">
-                        <div class="my-stick-nav">
-                            <ul class="nav" id="myTabnew">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="overview-tab" href="#overview">OVERVIEW <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="workflow-tab" href="#workflow">WORKFLOW <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="imagegallery-tab" href="#imagegallery">IMAGE GALLERY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="videogallery-tab" href="#videogallery">VIDEO GALLERY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" id="cadindustry-tab" href="#cadindustry">INDUSTRY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="whatsnext-tab" href="#whatsnext">WHAT'S NEXT <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="cadblog-tab" href="#rel_blog">BLOGS<i class="fas fa-angle-right"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <!-- Thickness Color Map Analysis Section -->
+    <section class="tcma-section">
+        <div class="tcma-container">
+            <div class="tcma-grid">
+                <!-- Info Card -->
+                <div class="tcma-info-card">
+                    <h2>THICKNESS COLOR<br>MAP ANALYSIS</h2>
+                    <p>Instantly visualize thickness distribution and identify problem areas.</p>
                     
+                    <div class="tcma-legend">
+                        <div class="tcma-legend-header">Thickness Scale (mm)</div>
+                        <ul class="tcma-legend-list">
+                            <li><span class="color-box bg-red"></span> Very Thin (&lt; 1.0)</li>
+                            <li><span class="color-box bg-yellow"></span> Thin (1.0 - 2.0)</li>
+                            <li><span class="color-box bg-green"></span> Nominal (2.0 - 4.0)</li>
+                            <li><span class="color-box bg-lightblue"></span> Thick (4.0 - 6.0)</li>
+                            <li><span class="color-box bg-darkblue"></span> Excess (&gt; 6.0)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-8 mt-3">
-                    <div class="" id="myTabContentnew">
-                        <div class="" id="overview">
-                            <h4>Overview</h4>
-                            <div class="overview-cont">
-                                <h6>Wall Thickness Analysis</h6>
-                                <p>Wall thickness refers to the distance between one surface of the model and its opposite sheer surface. Wall thickness is defined as the minimum thickness that the model should have at any time. Every surface of the 3D model must be assigned a wall thickness. With the help of a CT  3D scanner and 3D inspection software, wall thickness analysis can be calculated on mesh and volume objects using both ray firing and sphere growing methods. Like a nominal 3D CAD actual comparison, a wall thickness analysis is typically displayed as a color map on the surface of the part. It is then possible to see at any point what the calculated wall thickness is in that area. Discrete points can be selected and the wall thickness measurement can be reported. This is possible in both 3D and 2D. The output report includes Wall Thickness Analysis, four ranges of critical thickness, faces, the amount of surface area, and the percentage of analyzed area that fall into those ranges, and all Critical features in the desirable CAD format. </p>
-                                
-                            </div>
-                        </div>
-                        <!-- workflow tabs -->
-                        <div class="mt-5" id="workflow">
-                            <h4>WORKFLOW</h4>
-                            <div class="owl-carousel owl-theme chennai-carousel-box owl-prev-set">
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/wall-thickness-analysis/1) Import cad file (8).png" alt="wall-thickness-analysis" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>1</span>
-                                        </div>
-                                        <p>Import CAD file</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/wall-thickness-analysis/2) import 3d scan file (10).png" alt="wall-thickness-analysis" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>2</span>
-                                        </div>
-                                        <p>Import 3D scan file </p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/wall-thickness-analysis/3) datum allignment.png" alt="wall-thickness-analysis" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>3</span>
-                                        </div>
-                                        <p>Datum Allignment</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/wall-thickness-analysis/4) Select thickness to measure wall thisckness.png" alt="wall-thickness-analysis" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>4</span>
-                                        </div>
-                                        <p>Select thickness to measure wall thisckness</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/wall-thickness-analysis/5) wall Thickness.png" alt="wall-thickness-analysis" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>5</span>
-                                        </div>
-                                        <p>Wall Thickness</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/wall-thickness-analysis/6) wall thickness dimensions.png" alt="wall-thickness-analysis" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>6</span>
-                                        </div>
-                                        <p>Wall thickness dimensions</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <!-- workflow tabs end-->
-                        <!-- image tabs -->
-                        <div class="mt-5" id="imagegallery">
-                            <h4>IMAGE</h4>
-                            <div id="demo" class="carousel slide" data-ride="carousel">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo" data-slide-to="1"></li>
-                                    <li data-target="#demo" data-slide-to="2"></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/images/wall-thickness-analysis/1.png" alt="wall-thickness-analysis">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>Wall Thickness Dimensions</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                    <img src="assets/images/wall-thickness-analysis/1.png" alt="wall-thickness-analysis">
-                                        <div class="text-center py-4 bg-white">
-                                        <p>Wall Thickness Dimensions</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                    <img src="assets/images/wall-thickness-analysis/1.png" alt="wall-thickness-analysis">
-                                        <div class="text-center py-4 bg-white">
-                                        <p>Wall Thickness Dimensions</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- image tabs end-->
-                        <!-- video tabs -->
-                        <div class="mt-5" id="videogallery">
-                            <h4>VIDEO</h4>
-                            <div id="demo1" class="carousel slide" data-ride="carousel">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo1" data-slide-to="1"></li>
-                                    <li data-target="#demo1" data-slide-to="2"></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/EMDjuUp6uvY" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p><p>Wall Thickness Dimensions</p></p>
-                                        </div>
-                                    </div>
-                                    <!--<div class="carousel-item">-->
-                                    <!--    <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">-->
-                                    <!--    </iframe>-->
-                                    <!--    <div class="text-center py-4 bg-white">-->
-                                    <!--        <p><p>Wall Thickness Dimensions</p></p>-->
-                                    <!--    </div>-->
-                                    <!--</div>-->
-                                    <!--<div class="carousel-item">-->
-                                    <!--    <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">-->
-                                    <!--    </iframe>-->
-                                    <!--    <div class="text-center py-4 bg-white">-->
-                                    <!--        <p><p>Wall Thickness Dimensions</p></p>-->
-                                    <!--    </div>-->
-                                    <!--</div>-->
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo1" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo1" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- video tabs end-->
-                        <div class="mt-5" id="cadindustry">
-                            <h4>INDUSTRIES WE SERVE</h4>
-                            <!--industry serve section start -->
-                            <div class="container indus-bg">
-                                <div class="row ">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-1.svg" class="img-fluid" alt="wall-thickness-analysis-Automative"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Automotive</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-2.svg" class="img-fluid" alt="wall-thickness-analysis-Aerospace"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Aerospace</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-3.svg" class="img-fluid" alt="wall-thickness-analysis-Education"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Education</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-4.svg" class="img-fluid" alt="wall-thickness-analysis-Die-Casting"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Die Casting</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-5.svg" class="img-fluid" alt="wall-thickness-analysis"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">EV</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-6.svg" class="img-fluid" alt="wall-thickness-analysis-Mining"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Mining</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-7.svg" class="img-fluid" alt="wall-thickness-analysis-Die-Moulds"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Die and molds</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-8.svg" class="img-fluid" alt="wall-thickness-analysis-Plastic-Components"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Plastic Components</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                                            <!--industry serve section end -->
-                        </div>
-                        <div class="mt-5" id="whatsnext">
-                            <h4>WHAT'S NEXT?</h4>
-                            <div class="overview-cont">
-                                <div class="row">
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/cx.jpeg" alt="wall-thickness-analysis">
-                                        <a href="https://precise3dm.com/geomagic-control-x-3d-inspection-software.php">Buy dedicated Reverse Engineering software</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/upload.png" alt="wall-thickness-analysis">
-                                        <a href="scan-to-cad-service.php" >Upload your 3D Scan for converting into Wall thickness analysis</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/Quote.png" alt="wall-thickness-analysis">
-                                        <a href="javascript:" data-toggle="modal" data-target=".bd-example-modal-sm">Submit your Request for Quote</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/system.png" alt="wall-thickness-analysis">
-                                        <a href="javascript:" data-toggle="modal" data-target=".related-services-modal-sm">Related services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Small modal -->
-                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-sm modal-dialog-centered">
-                            <div class="modal-content">
-                                <h5 class="mt-4 text-dark text-center">Get Quote</h5>
-                                 <?php
-                                    if (isset($_SESSION['status'])) {
-                                        if ($_SESSION['status'] == "success") {
-                                            echo "<div class='row status-div'>
-                                                    <p class='status-message'>Thanks for your interest in our 3d scanning cad service. You will receive the call and the quote from our business executives.</p>
-                                                    <div style='width: 100%'><a href='https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php'><button class='step-form-btn'>Back</button></a></div></div>";
-                                        } else {
-                                            echo "<div class='row status-div'>
-                                                    <p class='status-message'>Oops...Something went wrong, please try again
-                                                </p><div style='width: 100%'><a href='javascript:void(0);'><button class='step-form-btn'>Back</button></a></div></div>";
-                                        }
-                                        unset($_SESSION['status']);
-                                    }else { ?>
-                                <form method="POST" action="webinar_submit.php" id="web_form" autocomplete="off">
-                                <div class="form-group cad-input-fields">
-                                    <input type="text" name="cadName" id="cadName" class="form-control" placeholder="Name*">
-                                    <input type="email" name="cadEmail" id="cadEmail" class="form-control" placeholder="Email*">
-                                    <input type="text" name="cadContnum" id="cadContnum" class="form-control" placeholder="Contact number*" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10">
-                                    <input type="text" name="cadLocation" id="cadLocation" placeholder="Location" class="form-control">
-                                    <input type="text" name="cadCompanyname" id="cadCompanyname" placeholder="Company name" class="form-control">
-                                </div>
-                                <div class="text-center mb-4">
-                                    <button type="submit" class="btn" id="cadsubmit">Submit</button>
-                                </div>
-                            </form>
-                            <?php } ?>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Small modal -->
-                        <!-- Related services Small modal -->
-                         <div class="modal fade related-services-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-sm modal-dialog-centered">
-                            <div class="modal-content" style="padding:25px;">
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-scanning-services-in-india.php" target="_blank">3D scanning Service</a>
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-scanners-in-india.php" target="_blank">3D Scanner</a>
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-software-provider-in-india.php" target="_blank">3D Software</a>
-                                     
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Small modal -->
-                        <!--related blogs-->
-                        <div class="mt-5" id="rel_blog">
-                            <div class="row">
-                                <div class="col-12 mt-4">
-                                    <h4 class="">RELATED BLOGS</h4>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="wall-thickness-analysis" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="wall-thickness-analysis" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="wall-thickness-analysis" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                            </div>
-                        </div>
+                
+                <!-- Image Card 1 -->
+                <div class="tcma-card">
+                    <h4>Automotive Plastic<br>Component</h4>
+                    <div class="tcma-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/tcma-img1.png" alt="Automotive Plastic Component">
                     </div>
-                    
+                </div>
+                
+                <!-- Image Card 2 -->
+                <div class="tcma-card">
+                    <h4>Die Cast<br>Component</h4>
+                    <div class="tcma-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/tcma-img2.png" alt="Die Cast Component">
+                    </div>
+                </div>
+                
+                <!-- Image Card 3 -->
+                <div class="tcma-card">
+                    <h4>Injection Molded<br>Part</h4>
+                    <div class="tcma-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/tcma-img3.png" alt="Injection Molded Part">
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Who we are division start -->
     </section>
-    <!-- Workflow Section Starts Here -->
-    <hr class="separator">
+
+    <!-- Cross Section Analysis Section -->
+    <section class="csa-section">
+        <div class="csa-container">
+            <div class="csa-card">
+                <div class="csa-left">
+                    <h2>CROSS SECTION ANALYSIS</h2>
+                    <p>Create unlimited cross-sections to evaluate internal structures, ribs, transitions, reinforcement zones and material flow.</p>
+                    <ul class="csa-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Measure thickness at any location</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Analyze internal ribs and supports</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Evaluate material flow and transitions</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Detect wear, erosion and corrosion</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Engineering dimensions & annotations</li>
+                    </ul>
+                </div>
+                
+                <div class="csa-right">
+                    <h4>Sample Cross Section Wall Thickness Values</h4>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/csa-right-img.jpg" alt="Sample Cross Section Wall Thickness Values">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software & Scanners Section -->
+    <section class="software-scanners-section">
+        <div class="ss-container">
+            <div class="ss-grid">
+                
+                <!-- Left Box (Software) -->
+                <div class="ss-left-box ss-card">
+                    <h2>SOFTWARE USED</h2>
+                    
+                    <div class="software-highlight">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/su-left-img1.png" alt="Geomagic Control X">
+                        <div class="sw-info">
+                            <h4>Geomagic Control X</h4>
+                            <p>Industry-leading software for scan-to-CAD and scan-to-scan curve comparison.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="software-main-img">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/su-left-img2.png" alt="Geomagic Control X Interface">
+                    </div>
+                    
+                    <ul class="software-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Wall Thickness Analysis</li>
+                        <li><i class="fa-solid fa-circle-check"></i> First Article Inspection</li>
+                        <li><i class="fa-solid fa-circle-check"></i> CAD Comparison</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Production Quality Control</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Scan to Scan Inspection</li>
+                        <li><i class="fa-solid fa-circle-check"></i> SPC Reporting</li>
+                        <li><i class="fa-solid fa-circle-check"></i> GD&T Analysis</li>
+                    </ul>
+                </div>
+                
+                <!-- Right Box (Scanners) -->
+                <div class="ss-right-box ss-card">
+                    <h2>RECOMMENDED 3D SCANNERS</h2>
+                    
+                    <div class="scanners-flex">
+                        <!-- Scanner 1 -->
+                        <div class="scanner-item">
+                            <div class="scanner-img">
+                                <img src="assets/images/3d-scan-based-wall-thickness-analysis/su-right-img1.png" alt="AutoScan Inspec 2">
+                            </div>
+                            <h4>AutoScan Inspec 2</h4>
+                            <p>Small Parts<br>Up to 200 mm<br>High Accuracy</p>
+                            <a href="automatic-desktop-3d-scanner.php" class="btn-know-more">Know More</a>
+                        </div>
+                        
+                        <!-- Scanner 2 -->
+                        <div class="scanner-item">
+                            <div class="scanner-img">
+                                <img src="assets/images/3d-scan-based-wall-thickness-analysis/su-right-img2.png" alt="OptimScan Q12">
+                            </div>
+                            <h4>OptimScan Q12</h4>
+                            <p>Precision Parts<br>Up to 500 mm<br>High Accuracy</p>
+                            <a href="optimscan-q12.php" class="btn-know-more">Know More</a>
+                        </div>
+                        
+                        <!-- Scanner 3 -->
+                        <div class="scanner-item">
+                            <div class="scanner-img">
+                                <img src="assets/images/3d-scan-based-wall-thickness-analysis/su-right-img3.png" alt="FreeScan Combo">
+                            </div>
+                            <h4>FreeScan Combo</h4>
+                            <p>Medium Parts<br>Up to 1000 mm<br>Versatile Use</p>
+                            <a href="FreeScan-Combo.php" class="btn-know-more">Know More</a>
+                        </div>
+                        
+                        <!-- Scanner 4 -->
+                        <div class="scanner-item">
+                            <div class="scanner-img">
+                                <img src="assets/images/3d-scan-based-wall-thickness-analysis/su-right-img4.png" alt="FreeScan Omni">
+                            </div>
+                            <h4>FreeScan Omni</h4>
+                            <p>Large Parts<br>Up to 4000 mm<br>High Efficiency</p>
+                            <a href="freescan-omni.php" class="btn-know-more">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Deliverables Section -->
+    <section class="deliverables-section">
+        <div class="del-container">
+            <h2>Deliverables</h2>
+            <div class="del-grid">
+                <!-- Card 1 -->
+                <div class="del-card">
+                    <h4>Complete 3D<br>Scan Data</h4>
+                    <div class="del-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/deliverables-card1-img.png" alt="Complete 3D Scan Data">
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="del-card">
+                    <h4>Inspection<br>Report</h4>
+                    <div class="del-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/deliverables-card2-img.png" alt="Inspection Report">
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="del-card">
+                    <h4>Wall Thickness<br>Deviation<br>(PASS / FAIL)<br>Report</h4>
+                    <div class="del-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/deliverables-card3-img.png" alt="Wall Thickness Deviation Report">
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="del-card">
+                    <h4>Report<br>(PDF Format)</h4>
+                    <div class="del-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/deliverables-card4-img.png" alt="Report (PDF Format)">
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="del-card">
+                    <h4>Report<br>(PPT Format)</h4>
+                    <div class="del-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/deliverables-card5-img.png" alt="Report (PPT Format)">
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="del-card">
+                    <h4>Report<br>(Excel Format)</h4>
+                    <div class="del-img-wrap">
+                        <img src="assets/images/3d-scan-based-wall-thickness-analysis/deliverables-card6-img.png" alt="Report (Excel Format)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Options Section -->
+    <section class="options-section">
+        <div class="opt-container">
+            <div class="opt-grid">
+                
+                <!-- Option 1 -->
+                <div class="opt-card opt-capex">
+                    <div class="opt-content">
+                        <h5>OPTION 1: CAPEX</h5>
+                        <h2>BUILD IN-HOUSE CAPABILITY</h2>
+                        <ul class="opt-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Buy Industrial 3D Scanner</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Buy Geomagic Control X Software</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Installation & Training</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Technical Support</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Long Term ROI</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/option-card1-img.png" alt="Build In-House Capability" class="opt-img opt-img1">
+                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-know-more opt-btn">Talk to Product Expert</a>
+                </div>
+                
+                <!-- Option 2 -->
+                <div class="opt-card opt-opex">
+                    <div class="opt-content">
+                        <h5>OPTION 2: OPEX</h5>
+                        <h2>OUTSOURCE AS A SERVICE</h2>
+                        <ul class="opt-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Send Physical Parts</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Onsite or In-House Scanning</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Expert Wall Thickness Analysis</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Fast Turnaround Time</li>
+                            <li><i class="fa-solid fa-circle-check"></i> No Software Investment</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/3d-scan-based-wall-thickness-analysis/option-card2-img.png" alt="Outsource as a Service" class="opt-img opt-img2">
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-know-more opt-btn">Request a Quote</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="analysis-cta-section">
+        <div class="cta-container">
+            <div class="cta-banner" style="background-image: url('assets/images/3d-scan-based-wall-thickness-analysis/ep-cta-bg-img.png');">
+                <h2>Ready to Analyze Wall Thickness with<br>Engineering Precision?</h2>
+                <p>Whether you want to build an in-house inspection department or<br>outsource wall thickness analysis, Precise DM can help.</p>
+                <div class="cta-buttons">
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-primary-orange">Schedule Live Demo</a>
+                    <a href="Get-3d-scan-service-quote.php" class="btn-outline-white">Request Inspection Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start -->
     <?php include('includes/footer.php'); ?>
-    <!-- bootstrap links-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/highlight.js"></script>
-    <script src="assets/js/counter.js"></script>
-    <script src="assets/js/parametric-cad.js"></script>
+    <!-- footer End -->
+    
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

@@ -98,6 +98,18 @@
                 </article>
                 <article class="blog-card" id="blog-card-freescan-omni-vs-nova">
                     <div class="card-img-wrap">
+                        <img src="assets/images/best-3d-scanners-for-automotive/b3d-hero-right-img1.png" alt="FreeScan Omni Vs FreeScan Trak Nova">
+                        <span class="card-category">Comparison</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-date"><i class="fa-regular fa-calendar"></i> July 21, 2026</span>
+                        <h3 class="card-title">Best 3D Scanners for Automotive 3D Scanning</h3>
+                        <p class="card-excerpt">Complete Guide to Automotive 3D Scanners, Reverse Engineering Software and Investment Costs</p>
+                        <a href="best-3d-scanners-for-automotive.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card" id="blog-card-freescan-omni-vs-nova">
+                    <div class="card-img-wrap">
                         <img src="assets/images/freescan-omni-vs-freescan-trak-nova/hero-left.png" alt="FreeScan Omni Vs FreeScan Trak Nova">
                         <span class="card-category">Comparison</span>
                     </div>

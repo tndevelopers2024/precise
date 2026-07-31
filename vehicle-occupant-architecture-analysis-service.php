@@ -22,12 +22,12 @@
     <meta property="og:url" content="https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/FreeCan UE7/FreeCan UE7/broucheue7/AUTOMOTIVE BENCHMARKING SERVICE.png" />
     <meta property="og:description" content="Precsie3dM team of expertise analysis and perform exterior measure, interior measure, manikin measure, surface measure.  Get quote." />
-    <meta property="og:title" content="Vehicle Occupant & Architecture Analysis | PRECISE3DM" /> 
-    <meta property="twitter:url" content="https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php" /> 
-    <meta property="twitter:title" content="Vehicle Occupant & Architecture Analysis | PRECISE3DM"/>
+    <meta property="og:title" content="Vehicle Occupant & Architecture Analysis | PRECISE3DM" />
+    <meta property="twitter:url" content="https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php" />
+    <meta property="twitter:title" content="Vehicle Occupant & Architecture Analysis | PRECISE3DM" />
     <meta property="twitter:description" content="Precsie3dM team of expertise analysis and perform exterior measure, interior measure, manikin measure, surface measure. Get quote." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-     <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
     <!-- Owl Carousel CSS -->
@@ -57,156 +57,165 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-    <link rel="canonical" href="https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php"/>
+    <link rel="canonical" href="https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php" />
 
 
-    
 
-   <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
-        $('input[type="text"]').on('blur',function(){
-                var val = $(this).val();
-                $(this).val($.trim(val));
+        $('input[type="text"]').on('blur', function() {
+            var val = $(this).val();
+            $(this).val($.trim(val));
         });
-    
-        function disablebutton()
-        {
+
+        function disablebutton() {
             $('#loader').show();
             //$('#submit').attr('disabled',true);
         }
         $(document).ready(function() {
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            loop: true,
-            nav: true,
-            autoplay: false,
-            autoplayTimeout: 3000,
-            margin: 30,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                960: {
-                    items: 3
-                },
-                1200: {
-                    items: 3
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                nav: true,
+                autoplay: false,
+                autoplayTimeout: 3000,
+                margin: 30,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    960: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 3
+                    }
                 }
-            }
-        });
-    })
-        
+            });
+        })
     </script>
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What does Benchmarking mean in automotive?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Benchmarking involves a structured comparison between similar products, services or processes on some dimensions of performance."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is Vehicle Occupant & Architecture analysis?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Vehicle Occupant & Architecture study enables engineers to validate automotive designs against safety, occupant ergonomics, and visibility standards are measurements are taken under SAE standards"
-    }
-  },{
-    "@type": "Question",
-    "name": "What is vehicle layout architecture?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "A vehicle architecture respectively describes the physical layout of a vehicle and the way it realizes its function by a given set of basic architectures parameters and modules."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the vehicle h point?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The H-point (or hip-point) is the theoretical, relative location of an occupant's hip: specifically the pivot point between the torso and upper leg portions of the body — as used in vehicle design, automotive design and vehicle regulation as well as other disciplines including chair and furniture design."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the delivery format",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We deliver Measurement Schematics in PDF format"
-    }
-  }]
-}
-</script>
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "What does Benchmarking mean in automotive?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Benchmarking involves a structured comparison between similar products, services or processes on some dimensions of performance."
+                }
+            }, {
+                "@type": "Question",
+                "name": "What is Vehicle Occupant & Architecture analysis?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Vehicle Occupant & Architecture study enables engineers to validate automotive designs against safety, occupant ergonomics, and visibility standards are measurements are taken under SAE standards"
+                }
+            }, {
+                "@type": "Question",
+                "name": "What is vehicle layout architecture?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A vehicle architecture respectively describes the physical layout of a vehicle and the way it realizes its function by a given set of basic architectures parameters and modules."
+                }
+            }, {
+                "@type": "Question",
+                "name": "What is the vehicle h point?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The H-point (or hip-point) is the theoretical, relative location of an occupant's hip: specifically the pivot point between the torso and upper leg portions of the body — as used in vehicle design, automotive design and vehicle regulation as well as other disciplines including chair and furniture design."
+                }
+            }, {
+                "@type": "Question",
+                "name": "What is the delivery format",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We deliver Measurement Schematics in PDF format"
+                }
+            }]
+        }
+    </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php"
-  },
-  "headline": "Vehicle Occupant & Architecture Analysis | PRECISE3DM",
-  "description": "Precsie3dM team of expertise analysis and perform exterior measure, interior measure, manikin measure, surface measure. Get quote.",
-  "image": "https://www.precise3dm.com/assets/images/updateimgs/voa4.png",  
-  "author": {
-    "@type": "Organization",
-    "name": "Precise3DM",
-    "url": "https://www.precise3dm.com/"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Precise3DM",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png"
-    }
-  },
-  "datePublished": "2025-04-20",
-  "dateModified": "2025-05-01"
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php"
+            },
+            "headline": "Vehicle Occupant & Architecture Analysis | PRECISE3DM",
+            "description": "Precsie3dM team of expertise analysis and perform exterior measure, interior measure, manikin measure, surface measure. Get quote.",
+            "image": "https://www.precise3dm.com/assets/images/updateimgs/voa4.png",
+            "author": {
+                "@type": "Organization",
+                "name": "Precise3DM",
+                "url": "https://www.precise3dm.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Precise3DM",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png"
+                }
+            },
+            "datePublished": "2025-04-20",
+            "dateModified": "2025-05-01"
+        }
+    </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "Precise3DM",
-    "item": "https://www.precise3dm.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "Vehicle Occupant & Architecture Analysis",
-    "item": "https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php"  
-  }]
-}
-</script>
-
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Precise3DM",
+                "item": "https://www.precise3dm.com/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Vehicle Occupant & Architecture Analysis",
+                "item": "https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php"
+            }]
+        }
+    </script>
 
 
-    
 
-<noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
-</noscript>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5FX95R9');</script>
-<!-- End Google Tag Manager -->
+
+
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
+    </noscript>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5FX95R9');
+    </script>
+    <!-- End Google Tag Manager -->
 
 </head>
 
@@ -242,7 +251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <h3 class="hero-subtitle">Understand Competitor Vehicles Without Teardown.</h3>
                     <p class="hero-desc">Digital vehicle architecture intelligence for OEMs, EV manufacturers, suppliers and R&D teams.</p>
 
-                    <button type="button" class="hero-btn">Request Technical Consultation</button>
+                    <a href="contact-us.php" class="hero-btn" style="display:inline-block; text-decoration:none;">Request Technical Consultation</a>
 
                     <!-- Bottom Left Email -->
                     <div class="email-box d-flex align-items-center">
@@ -265,7 +274,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <section class="what-questions-section">
         <div class="container-fluid" style="padding: 0 5%;">
             <h2 class="what-questions-title">What Questions Can this <span>Study Answer?</span></h2>
-            
+
             <div class="row justify-content-center g-4">
                 <!-- Card 1 -->
                 <div class="col-lg-6 mb-4">
@@ -366,7 +375,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <section class="key-analysis-section">
         <div class="container-fluid" style="padding: 0 5%;">
             <h2 class="key-analysis-title">Key Analysis & <span>Measurements</span></h2>
-            
+
             <div class="row justify-content-center g-4">
                 <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -465,7 +474,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <section class="deliverables-section">
         <div class="container-fluid" style="padding: 0 5%;">
             <h2 class="deliverables-main-title">Deliverables</h2>
-            
+
             <div class="row">
                 <!-- Left Section -->
                 <div class="col-lg-6 mb-5 mb-lg-0">
@@ -653,7 +662,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
 
                     <div class="consultation-btn-wrapper">
-                        <a href="#" class="consultation-btn">Request Technical Consultation</a>
+                        <a href="Get-3d-scan-service-quote.php" class="consultation-btn">Get Quote</a>
                     </div>
                 </div>
             </div>

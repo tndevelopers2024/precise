@@ -307,15 +307,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     $redpd_cards = [
                         ["title" => "3D Scan to Mesh", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card1-img.png" , "link" => "3d-scan-processing-&-mesh-creation-software.php"],
                         ["title" => "3D Scan to Parametric CAD", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card2-img.png", "link" => "3d-scan-to-parametric-cad-modeling.php"],
-                        ["title" => "3D Scan to NURBS", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card3-img.png", "link" => "difference-between-nurbs-surface-and-parametric-cad-modeling-in-3d-reverse-engineering.php"],
-                        ["title" => "New Product Development<br>from Scan Data", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card4-img.png", "link" => "#"],
-                        ["title" => "3D Scan to Hybrid<br>Modelling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card5-img.png", "link" => "#"],
-                        ["title" => "3D Scan to Flat 2D Pattern", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card6-img.png", "link" => "#"],
-                        ["title" => "CT Scan to 3D Modeling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card7-img.png", "link" => "#"],
-                        ["title" => "3D Scan-Based Design<br>Optimization", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card8-img.png", "link" => "#"],
+                        ["title" => "3D Scan to NURBS", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card3-img.png", "link" => "scan-to-nurbs-modelling.php"],
+                        ["title" => "New Product Development<br>from Scan Data", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card4-img.png", "link" => "product-development-from-existing-scan.php"],
+                        ["title" => "3D Scan to Hybrid<br>Modelling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card5-img.png", "link" => "3d-scan-to-hybrid-modelling.php"],
+                        ["title" => "3D Scan to Flat 2D Pattern", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card6-img.png", "link" => "3d-scan-to-2d-cutting-pattern.php"],
+                        ["title" => "CT Scan to 3D Modeling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card7-img.png", "link" => "ct-scan-to-cad-modelling.php"],
+                        ["title" => "3D Scan-Based Design<br>Optimization", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card8-img.png", "link" => "design-modification-from-3d-scan.php"],
                         ["title" => "Mean Geometry Reverse<br>Engineering", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card9-img.png", "link" => "#"],
-                        ["title" => "3D Scan to BIW", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card10-img.png", "link" => "#"],
-                        ["title" => "3D Scan Organic<br>Modeling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card11-img.png", "link" => "#"],
+                        ["title" => "3D Scan to BIW", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card10-img.png", "link" => "biw-scan-to-cad-service-in-india.php"],
+                        ["title" => "3D Scan Organic<br>Modeling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card11-img.png", "link" => "organic-shapes-based-cad-reconstruction.php"],
                     ];
 
                     foreach ($redpd_cards as $card) {

@@ -141,6 +141,29 @@ ini_set('max_execution_time', '-1');
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Pune",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-pune.php",
+  "url": "https://maps.app.goo.gl/uaqbPuhs4dNUDWtL9",
+  "telephone": "06374410624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Metro, Unit No. 4, Sri Sai Aangan, Vishveshwar Bank Lane, near Balewadi Phata, Baner",
+    "addressLocality": "Pune",
+    "postalCode": "411045",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.56478449043857,
+    "longitude": 73.7838483220891
+  }  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -851,7 +874,7 @@ Engineering and 3D inspection in Pune.</p>
                 </div>
                 <div class="col-md-7">
                     <div class="precise-chennai-map">
-                        <a href="https://goo.gl/maps/UWb9ZCSAkWsVuaxAA" target="_blank">
+                        <a href="https://www.google.com/maps/place/Precise3DM+Pune+-+Reverse+Engineering+%7C+3D+Scanning+service+%7C+3D+Printing+Service/data=!4m2!3m1!1s0x0:0xc679064b62371493?sa=X&ved=1t:2428&hl=en-GB&ictx=111" target="_blank">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.9183160147168!2d73.87437299999999!3d18.577721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c732d5b96311%3A0xdbb12e2400d6c7a9!2sSai%20Laxmi%20Galaxy%2C%20SRI%20LAKSHMI%20GALAXY%2C%20Kalas%20Area%2C%20Kalas%2C%20Pune%2C%20Maharashtra%20411015!5e0!3m2!1sen!2sin!4v1653571511247!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </a>
                     </div>
                 </div>

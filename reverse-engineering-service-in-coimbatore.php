@@ -133,6 +133,29 @@ s.parentNode.insertBefore(b, s);})();
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Coimbatore",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/reverse-engineering-service-in-coimbatore.php",
+  "url": "https://maps.app.goo.gl/HX2Xw5TGC5yekb8q6",
+  "telephone": "06374410624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "60/61, Vivekanandha Street, Ramakrishnapuram, Gopalakrishnapuram, Ganapathy",
+    "addressLocality": "Coimbatore",
+    "postalCode": "641006",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 11.050446483740544,
+    "longitude": 76.99057286202161
+  }  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
@@ -220,7 +243,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div class="hero-left mt-4">               
                     <div class="d-flex flex-wrap">
                       <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get a Quote / Book Demo</a>
-                      <a href="https://maps.app.goo.gl/7PGN1vkAGqrQNJRW8" class="btn ml-lg-2 mt-2 mt-lg-0">Location</a>
+                      <a href="https://www.google.com/maps/place/Precise3DM+Coimbatore+-+Reverse+Engineering+%7C+3D+Scanning+service+%7C+3D+Printing+Service/data=!4m2!3m1!1s0x0:0xf180528d598d5d56?sa=X&ved=1t:2428&hl=en-GB&ictx=111" class="btn ml-lg-2 mt-2 mt-lg-0">Location</a>
                     </div>
                     <div class="mail mt-5">
                       <a href="mailto:sm@precise3dm.com" class="btn">

@@ -98,6 +98,19 @@
                 </article>
 
                 <!-- New Added Blogs -->
+                <article class="blog-card" id="blog-card-upgrade-portable-cmm-arms">
+                    <div class="card-img-wrap">
+                        <img src="assets/images/upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing/cmma-hero-bg-img.png" alt="Upgrade from Portable CMM Arms to Dynamic Tracking + Wireless Probing">
+                        <span class="card-category">Metrology</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-date"><i class="fa-regular fa-calendar"></i> August 04, 2026</span>
+                        <h3 class="card-title">Upgrade from Portable CMM Arms to Dynamic Tracking + Wireless Probing</h3>
+                        <p class="card-excerpt">Discover how to upgrade from portable CMM arms to dynamic tracking and wireless probing. Experience contact and non-contact measurement in one metrology platform.</p>
+                        <a href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
                 <article class="blog-card" id="blog-card-capex-investment">
                     <div class="card-img-wrap">
                         <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="3D Scanners for Capex Investment">

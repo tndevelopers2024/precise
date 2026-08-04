@@ -305,7 +305,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="redpd-grid">
                     <?php
                     $redpd_cards = [
-                        ["title" => "3D Scan to Mesh", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card1-img.png" , "link" => "3d-scan-processing-&-mesh-creation-software.php"],
+                        ["title" => "3D Scan to Mesh", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card1-img.png" , "link" => "3d-scan-to-mesh-model.php"],
                         ["title" => "3D Scan to Parametric CAD", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card2-img.png", "link" => "3d-scan-to-parametric-cad-modeling.php"],
                         ["title" => "3D Scan to NURBS", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card3-img.png", "link" => "scan-to-nurbs-modelling.php"],
                         ["title" => "New Product Development<br>from Scan Data", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card4-img.png", "link" => "product-development-from-existing-scan.php"],

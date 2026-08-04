@@ -141,6 +141,29 @@ ini_set('max_execution_time', '-1');
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Bangalore",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-bangalore.php#localbusiness",
+  "url": "https://maps.app.goo.gl/6j1ENRqujHeCfqTf9",
+  "telephone": "09940352575",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 315/1, IV Phase, 2nd Floor, 8th Cross Rd, Ganapathy Nagar, Phase 3, Peenya,",
+    "addressLocality": "Bengaluru",
+    "postalCode": "560058",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 13.022416220180414,
+    "longitude": 77.51521947866689
+  }  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -962,11 +985,11 @@ Engineering and 3D inspection in Bangalore.</p>
                     </p>-->
                 </div>
                 <div class="col-md-7">
-                    <!--<div class="precise-chennai-map">-->
-                    <!--    <a href="https://goo.gl/maps/UWb9ZCSAkWsVuaxAA" target="_blank">-->
-                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.867803456393!2d77.5643719!3d12.9419447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x219297201a6bc65!2sAkuva%20Infotech%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1647585242498!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>--.                    <!--    </a>-->
-                  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4003.62272029368!2d77.5112090751537!3d13.022364313763145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ce2f9a28197%3A0x67c998ac3e9c77b!2s2nd%20Floor%20IV%20Phase%2C%20No.%20315%2F1%2C%208th%20Cross%20Rd%2C%20Ganapathy%20Nagar%2C%20Phase%203%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560058!5e1!3m2!1sen!2sin!4v1783682418450!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
-                  <!--</div>-->
+                    <div class="precise-chennai-map">
+                        <a href="https://www.google.com/maps/place/Precise3DM+Bangalore+-+3D+Scanning+Service+%7C+Reverse+Engineering+Service+%7C+3D+Printing+Service/data=!4m2!3m1!1s0x0:0x7f0432eccd16b9ce?sa=X&ved=1t:2428&hl=en-GB&ictx=111" target="_blank">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4003.62272029368!2d77.5112090751537!3d13.022364313763145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ce2f9a28197%3A0x67c998ac3e9c77b!2s2nd%20Floor%20IV%20Phase%2C%20No.%20315%2F1%2C%208th%20Cross%20Rd%2C%20Ganapathy%20Nagar%2C%20Phase%203%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560058!5e1!3m2!1sen!2sin!4v1783682418450!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </a>
+                  </div>
                 </div>
             </div>
         </div>

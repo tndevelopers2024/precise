@@ -256,6 +256,29 @@
   "dateModified": "2025-05-01"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Coimbatore",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-coimbatore.php",
+  "url": "https://maps.app.goo.gl/yWCQL5U9iJXp3kje9",
+  "telephone": "06374410624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "60/61, Vivekanandha Street, Ramakrishnapuram, Gopalakrishnapuram, Ganapathy",
+    "addressLocality": "Coimbatore",
+    "postalCode": "641006",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 11.050467543560588,
+    "longitude": 76.99049776017213
+  }  
+}
+</script>
 
 <script type="application/ld+json">
     {
@@ -1183,7 +1206,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-lg-7">
                <div class="repta">
+               <a href="https://www.google.com/maps/place/Precise3DM+Coimbatore+-+Reverse+Engineering+%7C+3D+Scanning+service+%7C+3D+Printing+Service/data=!4m2!3m1!1s0x0:0xf180528d598d5d56?sa=X&ved=1t:2428&hl=en-GB&ictx=111" target="_blank">
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4033.119068653243!2d76.98702607513124!3d11.050051254086855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859e3d1421571%3A0x4015236e13a899db!2sTrymywebsites%E2%84%A2!5e1!3m2!1sen!2sin!4v1783682348363!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </a>
                </div>
             </div>
          </div>

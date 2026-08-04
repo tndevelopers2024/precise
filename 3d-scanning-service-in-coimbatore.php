@@ -306,6 +306,32 @@
     }
     
     </script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Coimbatore",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-coimbatore.php",
+  "url": "https://maps.app.goo.gl/yWCQL5U9iJXp3kje9",
+  "telephone": "06374410624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "60/61, Vivekanandha Street, Ramakrishnapuram, Gopalakrishnapuram, Ganapathy",
+    "addressLocality": "Coimbatore",
+    "postalCode": "641006",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 11.050467543560588,
+    "longitude": 76.99049776017213
+  }  
+}
+</script>
+
+
         <noscript>
         <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
         </noscript>

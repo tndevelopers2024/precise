@@ -189,6 +189,30 @@ ini_set('max_execution_time', '-1');
   "dateModified": "2025-05-01"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Bangalore",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-bangalore.php#localbusiness",
+  "url": "https://maps.app.goo.gl/6j1ENRqujHeCfqTf9",
+  "telephone": "09940352575",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 315/1, IV Phase, 2nd Floor, 8th Cross Rd, Ganapathy Nagar, Phase 3, Peenya,",
+    "addressLocality": "Bengaluru",
+    "postalCode": "560058",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 13.022416220180414,
+    "longitude": 77.51521947866689
+  }  
+}
+</script>
+
 
 
         <noscript>

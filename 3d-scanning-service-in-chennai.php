@@ -117,6 +117,32 @@ ini_set('max_execution_time', '-1');
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Chennai",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-chennai.php",
+  "url": "https://maps.app.goo.gl/ZTAj8911VeYKznSh9",
+  "telephone": "09940352575",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No:2/461, 2nd Floor, Rajas Tower, Medavakkam Main Rd, Kovilambakkam,",
+    "addressLocality": "Chennai",
+    "postalCode": "600129",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.937365523105608,
+    "longitude": 80.18203114907527
+  }  
+}
+</script>
+
+
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

@@ -196,6 +196,31 @@ s.parentNode.insertBefore(b, s);})();
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Coimbatore",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/reverse-engineering-service-in-coimbatore.php",
+  "url": "https://maps.app.goo.gl/HX2Xw5TGC5yekb8q6",
+  "telephone": "06374410624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "60/61, Vivekanandha Street, Ramakrishnapuram, Gopalakrishnapuram, Ganapathy",
+    "addressLocality": "Coimbatore",
+    "postalCode": "641006",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 11.050446483740544,
+    "longitude": 76.99057286202161
+  }  
+}
+</script>
+
+
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
 </noscript>

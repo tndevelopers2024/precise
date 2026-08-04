@@ -190,6 +190,32 @@ ini_set('max_execution_time', '-1');
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Pune",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/3d-scanning-service-in-pune.php",
+  "url": "https://maps.app.goo.gl/uaqbPuhs4dNUDWtL9",
+  "telephone": "06374410624",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Metro, Unit No. 4, Sri Sai Aangan, Vishveshwar Bank Lane, near Balewadi Phata, Baner",
+    "addressLocality": "Pune",
+    "postalCode": "411045",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.56478449043857,
+    "longitude": 73.7838483220891
+  }  
+}
+</script>
+
+
+
         <noscript>
         <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
         </noscript>

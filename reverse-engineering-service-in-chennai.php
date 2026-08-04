@@ -186,6 +186,31 @@ s.parentNode.insertBefore(b, s);})();
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Precise3DM Chennai",
+  "image": "https://www.precise3dm.com/assets/images/Precise%20Logos-08.png",
+  "@id": "https://www.precise3dm.com/reverse-engineering-service-in-chennai.php",
+  "url": "https://maps.app.goo.gl/YBswX6EyyNf4dmkv7",
+  "telephone": "09940352575",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No:2/461, 2nd Floor, Rajas Tower, Medavakkam Main Rd, Kovilambakkam",
+    "addressLocality": "Chennai",
+    "postalCode": "600129",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.937166849743463,
+    "longitude": 80.18272852339186
+  }  
+}
+</script>
+
+
 
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />

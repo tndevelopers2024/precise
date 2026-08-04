@@ -234,7 +234,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <!-- Buttons -->
                     <div class="hero-buttons mb-4">
-                        <a href="#" class="btn-hero-orange me-3 mb-2">Upload CAD File</a>
+                        <a href="3d-printing-service-request.php" class="btn-hero-orange me-3 mb-2">Get Quote</a>
                         <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-hero-orange mb-2">Talk to Experts</a>
                     </div>
 
@@ -270,7 +270,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="hero-stat-card d-flex align-items-center">
+                    <a href="peek-3d-printing-services.php">
+                        <div class="hero-stat-card d-flex align-items-center">
                         <div class="stat-card-img-wrapper">
                             <img src="assets/images/industrial-3d-printing-services-in-india/hero-stat2.png" alt="PEEK 3D PRINTING SERVICE">
                         </div>
@@ -281,6 +282,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </div>
                     </div>
+                    </a>
                 </div>
 
                 <!-- Card 3 -->
@@ -356,7 +358,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <img src="assets/images/industrial-3d-printing-services-in-india/service2.png" alt="PEEK Printing Service">
                         </div>
                         <div class="ips-service-btn-wrapper">
-                            <a href="#" class="ips-btn-service">Explore Peek Printing Service</a>
+                            <a href="peek-3d-printing-services.php" class="ips-btn-service">Explore Peek Printing Service</a>
                         </div>
                     </div>
                 </div>

@@ -7,11 +7,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <title>India’s Leading 3D Scanning-Based Service Provider</title>
-   <meta name="title" content="India’s Leading 3D Scanning-Based Service Provider"/>
+   <meta name="title" content="India’s Leading 3D Scanning-Based Service Provider" />
    <meta name="description"
       content="Professional 3D services: scanning, reverse engineering, inspection, printing, and portable CMM. Tailored for automotive benchmarking and manufacturing.">
-   <meta name="keywords"
-      content="Experience Our Industrial 3D Scanning Equipment and 3D Scan-based services
+   <meta name="keywords" content="Experience Our Industrial 3D Scanning Equipment and 3D Scan-based services
 Under OPEX, minimise your investment risk before committing to high-cost CAPEX equipment.">
    <meta name="robots" content="index, follow" />
    <meta name="googlebot" content="index, follow" />
@@ -20,7 +19,7 @@ Under OPEX, minimise your investment risk before committing to high-cost CAPEX e
    <meta name="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta name="twitter:card" content="Precise3dm" />
    <meta name="twitter:site" content="@precise3d_m" />
-   <meta property="twitter:title" content="India’s Leading 3D Scanning-Based Service Provider"/>
+   <meta property="twitter:title" content="India’s Leading 3D Scanning-Based Service Provider" />
    <meta name="twitter:description"
       content="Professional 3D services: scanning, reverse engineering, inspection, printing, and portable CMM. Tailored for automotive benchmarking and manufacturing." />
    <meta property="og:type" content="Geomagic Design X" />
@@ -29,36 +28,42 @@ Under OPEX, minimise your investment risk before committing to high-cost CAPEX e
    <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta property="og:description"
       content="Professional 3D services: scanning, reverse engineering, inspection, printing, and portable CMM. Tailored for automotive benchmarking and manufacturing." />
-    <meta property="twitter:url" content="https://www.precise3dm.com/3d-services.php" />
-    <link rel="canonical" href="https://www.precise3dm.com/3d-services.php"/>
-   <!-- bootstarp -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   <!--owl css-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta property="twitter:url" content="https://www.precise3dm.com/3d-services.php" />
+   <link rel="canonical" href="https://www.precise3dm.com/3d-services.php" />
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
 
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-   <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <!--custom css-->
-   <link rel="stylesheet" href="assets/css/styles.css">
-   <link rel="stylesheet" href="assets/css/einscan.css">
-   <link rel="stylesheet" href="assets/css/logo-page.css">
-   <link rel="stylesheet" href="assets/css/opex-capex.css">
-   <link rel="stylesheet" href="assets/css/index.css">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-   <link rel="canonical" href="https://www.precise3dm.com/" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    
-    <script type="application/ld+json">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Site-Wide CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/3d-scan-based-engineering-service-company.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
+
+
+
+   <script type="application/ld+json">
     {
       "@context": "https://schema.org/", 
       "@type": "BreadcrumbList", 
@@ -76,7 +81,7 @@ Under OPEX, minimise your investment risk before committing to high-cost CAPEX e
     }
     </script>
 
-    <script type="application/ld+json">
+   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -185,999 +190,909 @@ Under OPEX, minimise your investment risk before committing to high-cost CAPEX e
          padding-top: 50px;
       }
    </style>
-   
+
    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5FX95R9');</script>
-<!-- End Google Tag Manager -->
+   <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+               new Date().getTime(), event: 'gtm.js'
+         }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+               'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-5FX95R9');</script>
+   <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-   <!-- header start -->
    <?php include('includes/header.php'); ?>
-   <!-- header End -->
 
-   <!-- ==========================
-          Hero Section start
-       ========================== -->
-   <style>
-      :root {
-         --backgroundcolor: #101010;
-         --whitecolor: #fff;
-         --maincolor: #ff931e;
-         --subbackground: #0A0A0A;
-         --subcotent: #bbb;
-         --list: #DFEEFF;
-      }
+   <!-- Main Content Starts Here -->
+   <main class="svc-company-main-container">
 
-      body {
-         background: #fff;
-         color: var(--whitecolor);
-         margin: 0;
-         padding: 0;
-         text-decoration: none;
-         transition: background 0.5s;
-         /* Add a smooth transition effect */
-      }
+      <!-- Hero Section Starts -->
+      <section class="svc-company-hero-section">
+         <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="svc-company-hero-content">
+                     <h1 class="svc-company-hero-title">
+                        3D Services<br>
+                        <span class="svc-company-hero-subtitle">India's Leading <span
+                              class="svc-company-hero-highlight">3D Scan-Based</span><br>Engineering Services
+                           Company</span>
+                     </h1>
+                     <p class="svc-company-hero-desc">Experience cutting-edge 3D scanning technologies under an OPEX
+                        model before investing in CAPEX infrastructure.</p>
 
-      .form-img-img img {
-         width: 60%;
-         z-index: 99;
-      }
-
-      .form-img-img {
-         position: relative;
-         width: 166px;
-         height: 64px;
-         background: rgba(255, 147, 30, 0.4);
-         border-radius: 10px;
-         display: grid;
-         place-items: center;
-         margin-left: 10px;
-         margin-top: -31px;
-         margin-left: 124px;
-      }
-
-      .before hr {
-         margin-top: 20px;
-         margin-bottom: 20px;
-         border: 0;
-         color: white;
-         height: 2px;
-         background: white;
-         margin-left: 9%;
-         margin-right: 9%;
-      }
-
-      .test-section {
-         padding-top: 190px !important;
-      }
-
-      .form-img-img span {
-         position: absolute;
-         width: 100%;
-         height: 100%;
-         background: inherit;
-         border-radius: inherit;
-         opacity: 0.8;
-         animation: pulseAnimate 4s ease-out infinite;
-         animation-delay: calc(1s* var(--i));
-      }
-
-      button {
-         background-color: var(--maincolor);
-         color: var(--whitecolor);
-         padding: 10px;
-         cursor: pointer;
-      }
-
-      .carousel-control-prev,
-      .carousel-control-next {
-         background-color: transparent !important;
-         border: none;
-      }
-
-      .custom-switch,
-      .address-con {
-         z-index: 9;
-      }
-
-      .carousel-control-prev-icon,
-      .carousel-control-next-icon {
-         background-color: black;
-         border-radius: 50%;
-         background-size: 100% 75%;
-         padding: 20px;
-      }
-
-      .custom-slider:before {
-         background: url(assets/images/new-home/sun.svg) no-repeat center center;
-         background-size: contain;
-      }
-
-      .custom-slider.on:before {
-         background: url(assets/images/new-home/moon.svg) no-repeat center center;
-         background-size: contain;
-         content: '';
-      }
-
-      .custom-slider.on {
-         background-color: #ff931e;
-      }
-
-      .banner-img1 {
-         background-size: 100% 100%;
-         height: 350px;
-         width: 350px;
-         margin-top: 40px;
-      }
-
-      .email {
-         display: flex;
-         justify-content: left;
-         padding-top: 60px;
-         gap: 20px;
-         padding-bottom: 20px;
-      }
-
-      .email span {
-         color: #ff931e;
-      }
-
-      body .sk-ww-google-reviews {
-         background-color: var(--backgroundcolor) !important;
-      }
-
-
-      @media (max-width:600px) {
-         .main-banner {
-            padding-top: 50px;
-         }
-
-         body .sk-ww-google-reviews .swiper-button-prev {
-            left: 0px !important;
-         }
-
-         .email {
-            display: flex;
-            justify-content: center !important;
-            padding-top: 20px !important;
-            padding-bottom: 40px !important;
-         }
-
-         .banner-img1 {
-            display: block;
-         }
-
-         body .sk-ww-google-reviews {
-            margin-bottom: 30px !important;
-         }
-
-
-         .product-item img {
-            width: 100%;
-            height: 120px !important;
-         }
-
-         .banner,
-         .banner1 {
-            padding: 120px 0 0px !important;
-            background: #FFF5EB !important;
-         }
-
-         .theme-con,
-         .address-con {
-            padding-top: 75px;
-         }
-      }
-      .logo-banner h1 {
-            color: rgba(35, 64, 87, 1);
-            font-size: 40px !important;
-            font-weight: 700;
-            text-align: center;
-        }
-
-      @media (max-width: 600px) {
-         .test-section {
-            padding-top: 40px !important;
-         }
-         .logo-banner h1 {
-            font-size: 26px !important;
-        }
-      }
-      
-   </style>
-
-
-
-
-   <section class="logo-banner">
-      <div class="container">
-         <div class="social">
-            <div class="email1">
-               <a href="tel:+91 9840478347" class="btn mail-btn">
-                  <i class="fa-solid fa-phone text-white"></i>
-               </a>
-               <p class="text-dark">Call us now <br><span style="color: rgba(255, 147, 30, 1);">Sales:</span> +91 9840478347 | <span style="color: rgba(255, 147, 30, 1);">3D Service:</span>+91 9940352575 </p>
-            </div>
-         </div>
-         <div class="row">
-            <h1>India’s Leading 3D (Scan-Based) Service Provider</h1>
-            <p class="text-center">Experience our cutting-edge scanning equipment and 3D Scan-based services<br> under
-               OPEX, minimising your
-               investment risk before committing to CAPEX.</p>
-            <div class="img-sec">
-               <img src="assets/images/opex-capex/0.png" alt="">
-               <img src="assets/images/opex-capex/1.png" alt="">
-               <img src="assets/images/opex-capex/2.png" alt="">
-               <img src="assets/images/opex-capex/3.png" alt="">
-               <img src="assets/images/opex-capex/4.png" alt="">
-            </div>
-            <a class="text-center" href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"><button
-                  class="btn mt-3">Get Quote for 3D Scan Service</button></a>
-
-            <div class="social">
-               <div class="email">
-                  <a href="mailto:sm@precise3dm.com" class="btn mail-btn">
-                     <i class="fa-solid fa-envelope text-white"></i>
-                  </a>
-                  <p class="text-dark">Email us <br>service@precise3dm.com <span>|</span> sm@precise3dm.com </p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- 2 -->
-
-   <section class="logo-2">
-      <div class="container">
-         <div class="row">
-            <div style="place-content: center;" class="col-lg-6">
-               <h2><b>3D Scanning Services in India</b></h2>
-               <p>For Any Size and Anywhere </p>
-            </div>
-            <div class="col-lg-6">
-               <img src="assets/images/opex-capex/Vector.png" alt="">
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-               <div class="col">
-                  <div class="card h-100">
-                     <img src="assets/images/opex-capex/card1.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Industrial Handheld 3D Scanning Services  </h5>
+                     <div class="svc-company-hero-btns">
+                        <a href="business-opportunity-in-india.php" class="svc-company-btn">Become a Partner</a>
+                        <a href="3d-services.php" class="svc-company-btn">Explore Our Services</a>
                      </div>
-                     <div class="card-footer">
-                        <a href="https://www.precise3dm.com/handheld-industrial-3d-scanning-service-india.php"><button
-                              class="btn">Know More</button></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="card h-100">
-                     <img src="assets/images/opex-capex/card2.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Handheld Full-colour 3D Scanning Service </h5>
-                     </div>
-                     <div class="card-footer">
-                        <a href="https://www.precise3dm.com/handheld-color-3dscanning-service.php"><button
-                              class="btn">Know More</button></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col">
-                  <div class="card h-100">
-                     <img src="assets/images/opex-capex/card3.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Structured Light 3D Scanning<br> Service </h5>
-                     </div>
-                     <div class="card-footer">
-                        <a href="https://www.precise3dm.com/structured-light-3dscanning-services.php"><button
-                              class="btn">Know More</button></a>
+
+                     <div class="svc-company-contact-info">
+                        <div class="svc-company-contact-item">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/phone-icon.png" alt="Phone"
+                              class="svc-company-contact-icon">
+                           <div class="svc-company-contact-text-wrapper">
+                              <div class="svc-company-contact-label">Call us now</div>
+                              <div class="svc-company-contact-value">
+                                 <a href="tel:+919840478347" class="svc-company-link">+91 98404 78347</a> |
+                                 <a href="tel:+919025700192" class="svc-company-link">+91 90257 00192</a> |
+                                 <a href="tel:+919940352575" class="svc-company-link">+91 99403 52575</a>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="svc-company-contact-item">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/mail-logo.png" alt="Email"
+                              class="svc-company-contact-icon">
+                           <div class="svc-company-contact-text-wrapper">
+                              <div class="svc-company-contact-label-email">Email Us</div>
+                              <div class="svc-company-contact-value-email">
+                                 <a href="mailto:sm@precise3dm.com" class="svc-company-link">sm@precise3dm.com</a> |
+                                 <a href="mailto:service@precise3dm.com"
+                                    class="svc-company-link">service@precise3dm.com</a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
+         </div>
+      </section>
+      <!-- Hero Section Ends -->
 
+      <!-- Hero Stat Section Starts -->
+      <section class="svc-company-hero-stat-section">
+         <div class="container-fluid" style="padding: 0 5%;">
+            <div class="svc-company-hero-stat-row">
+               <!-- Stat 1 -->
+               <div class="svc-company-hero-stat-item">
+                  <div class="svc-company-hero-stat-icon-wrap">
+                     <img src="assets/images/3d-scan-based-engineering-service-company/hero-stat-1.svg"
+                        alt="Scanning Centers" class="svc-company-hero-stat-icon">
+                  </div>
+                  <div class="svc-company-hero-stat-text-wrap">
+                     <div class="svc-company-hero-stat-title">15+</div>
+                     <div class="svc-company-hero-stat-desc">Scanning Centers<br>Across India</div>
+                  </div>
+               </div>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-               <div class="col">
-                  <div class="card h-100">
-                     <img src="assets/images/opex-capex/card4.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">3D Laser Scanning (LiDAR) Service</h5>
+               <!-- Stat 2 -->
+               <div class="svc-company-hero-stat-item">
+                  <div class="svc-company-hero-stat-icon-wrap">
+                     <img src="assets/images/3d-scan-based-engineering-service-company/hero-stat-2.svg"
+                        alt="Scan-to-CAD Experts" class="svc-company-hero-stat-icon">
+                  </div>
+                  <div class="svc-company-hero-stat-text-wrap">
+                     <div class="svc-company-hero-stat-title">100+</div>
+                     <div class="svc-company-hero-stat-desc">Scan-to-CAD<br>Experts</div>
+                  </div>
+               </div>
+
+               <!-- Stat 3 -->
+               <div class="svc-company-hero-stat-item">
+                  <div class="svc-company-hero-stat-icon-wrap">
+                     <img src="assets/images/3d-scan-based-engineering-service-company/hero-stat-3.png"
+                        alt="Scanning Technologies" class="svc-company-hero-stat-icon">
+                  </div>
+                  <div class="svc-company-hero-stat-text-wrap">
+                     <div class="svc-company-hero-stat-title">9+</div>
+                     <div class="svc-company-hero-stat-desc">Scanning<br>Technologies</div>
+                  </div>
+               </div>
+
+               <!-- Stat 4 -->
+               <div class="svc-company-hero-stat-item">
+                  <div class="svc-company-hero-stat-icon-wrap">
+                     <img src="assets/images/3d-scan-based-engineering-service-company/hero-stat-4.svg"
+                        alt="Service Coverage" class="svc-company-hero-stat-icon">
+                  </div>
+                  <div class="svc-company-hero-stat-text-wrap">
+                     <div class="svc-company-hero-stat-title">Pan India</div>
+                     <div class="svc-company-hero-stat-desc">Service<br>Coverage</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Hero Stat Section Ends -->
+
+      <!-- Scanning Service Overview Section Starts -->
+      <section class="svc-company-overview-section">
+         <div class="container-fluid" style="padding: 0 2%;">
+            <div class="svc-company-overview-container">
+
+               <!-- Top Part -->
+               <div class="svc-company-overview-top">
+                  <div class="row align-items-center">
+                     <!-- Left Column -->
+                     <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h2 class="svc-company-overview-title"><span>3D Scanning</span> Services in India</h2>
+                        <div class="svc-company-overview-subtitle">
+                           FOR ANY SIZE.<br>
+                           FOR ANY INDUSTRY.<br>
+                           <span>FOR ANYWHERE IN INDIA.</span>
+                        </div>
+                        <ul class="svc-company-overview-list">
+                           <li>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <path d="m9 12 2 2 4-4" />
+                              </svg>
+                              Small Components
+                           </li>
+                           <li>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <path d="m9 12 2 2 4-4" />
+                              </svg>
+                              Automotive Parts
+                           </li>
+                           <li>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <path d="m9 12 2 2 4-4" />
+                              </svg>
+                              Aircraft Structures
+                           </li>
+                           <li>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <path d="m9 12 2 2 4-4" />
+                              </svg>
+                              Factories
+                           </li>
+                           <li>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <path d="m9 12 2 2 4-4" />
+                              </svg>
+                              Industrial Plants
+                           </li>
+                           <li>
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <path d="m9 12 2 2 4-4" />
+                              </svg>
+                              Entire Buildings
+                           </li>
+                        </ul>
                      </div>
-                     <div class="card-footer">
-                        <a href="long-range-3dscanning-service.php"><button
-                              class="btn">Know More</button></a>
+
+                     <!-- Right Column -->
+                     <div class="col-lg-6">
+                        <div class="svc-company-about-cards">
+                           <div class="svc-company-about-card">
+                              <div class="svc-company-hex-number">
+                                 <svg width="40" height="40" viewBox="0 0 24 24" fill="#ff931e"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L22 8V16L12 22L2 16V8L12 2Z" />
+                                 </svg>
+                                 <span class="svc-company-hex-text">1</span>
+                              </div>
+                              <img src="assets/images/3d-scan-based-engineering-service-company/about-1.png"
+                                 alt="Walk into our 3D Scanning locations">
+                              <div class="svc-company-about-card-body">
+                                 Walk into our 3D Scanning locations
+                              </div>
+                           </div>
+
+                           <div class="svc-company-about-card">
+                              <div class="svc-company-hex-number">
+                                 <svg width="40" height="40" viewBox="0 0 24 24" fill="#ff931e"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L22 8V16L12 22L2 16V8L12 2Z" />
+                                 </svg>
+                                 <span class="svc-company-hex-text">2</span>
+                              </div>
+                              <img src="assets/images/3d-scan-based-engineering-service-company/about-2.png"
+                                 alt="Ship the parts to our address">
+                              <div class="svc-company-about-card-body">
+                                 Ship the parts to our address
+                              </div>
+                           </div>
+
+                           <div class="svc-company-about-card">
+                              <div class="svc-company-hex-number">
+                                 <svg width="40" height="40" viewBox="0 0 24 24" fill="#ff931e"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L22 8V16L12 22L2 16V8L12 2Z" />
+                                 </svg>
+                                 <span class="svc-company-hex-text">3</span>
+                              </div>
+                              <img src="assets/images/3d-scan-based-engineering-service-company/about-3.png"
+                                 alt="We bring the right 3D scanner equipment to your place">
+                              <div class="svc-company-about-card-body">
+                                 We bring the right 3D scanner equipment to your place.
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
-               <div class="col">
-                  <div class="card h-100">
-                     <img src="assets/images/opex-capex/card5.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Portbale CMM 3D Scanning</h5>
+
+               <!-- Bottom Part (Technologies) -->
+               <div class="svc-company-overview-bottom">
+                  <h2 class="svc-company-tech-title">Our 3D Scanning <span>Technologies.</span></h2>
+
+                  <div class="svc-company-tech-row">
+                     <div class="svc-company-tech-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/technologies-1.png"
+                           alt="Structured Light Scanning">
+                        <div class="svc-company-tech-card-body">
+                           <h3 class="svc-company-tech-card-title">Structured Light Scanning</h3>
+                           <a href="structured-light-3dscanning-services.php" class="svc-company-tech-btn">Know More
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
                      </div>
-                     <div class="card-footer">
-                        <a href="portable-cmm-inspection-service-in-india.php"><button
-                              class="btn">Know More</button></a>
+
+                     <div class="svc-company-tech-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/technologies-2.png"
+                           alt="Industrial Handheld Scanning">
+                        <div class="svc-company-tech-card-body">
+                           <h3 class="svc-company-tech-card-title">Industrial Handheld Scanning</h3>
+                           <a href="handheld-industrial-3d-scanning-service-india.php" class="svc-company-tech-btn">Know
+                              More <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+
+                     <div class="svc-company-tech-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/technologies-3.png"
+                           alt="LiDAR Laser Scanning">
+                        <div class="svc-company-tech-card-body">
+                           <h3 class="svc-company-tech-card-title">LiDAR Laser Scanning</h3>
+                           <a href="lidar-scanners.php" class="svc-company-tech-btn">Know More <svg width="20"
+                                 height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+
+                     <div class="svc-company-tech-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/technologies-4.png"
+                           alt="Dynamic Tracking Scanning">
+                        <div class="svc-company-tech-card-body">
+                           <h3 class="svc-company-tech-card-title">Dynamic Tracking Scanning</h3>
+                           <a href="dynamic-tracking-3d-scanning-services.php" class="svc-company-tech-btn">Know More
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+
+                     <div class="svc-company-tech-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/technologies-5.png"
+                           alt="Photogrammetry Assisted Scanning">
+                        <div class="svc-company-tech-card-body">
+                           <h3 class="svc-company-tech-card-title">Photogrammetry Assisted Scanning</h3>
+                           <a href="photogammetry.php" class="svc-company-tech-btn">Know More <svg width="20"
+                                 height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+
+                     <div class="svc-company-tech-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/technologies-6.png"
+                           alt="Infrared Scanning">
+                        <div class="svc-company-tech-card-body">
+                           <h3 class="svc-company-tech-card-title">Infrared Scanning</h3>
+                           <a href="infrared-3d-scanner.php" class="svc-company-tech-btn">Know More <svg width="20"
+                                 height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
                      </div>
                   </div>
                </div>
-               <div class="col">
-                  <div class="card h-100">
-                     <img src="assets/images/opex-capex/card6.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Laser Tracker 3D scanning </h5>
+
+            </div>
+         </div>
+         <!-- Scanning Service Overview Section Ends -->
+
+         <!-- Engineering Services Section Starts -->
+         <section class="engg-services-section">
+            <div class="container-fluid engg-services-container">
+               <h2 class="engg-services-title text-center">Our <span class="highlight">Engineering</span> Services.</h2>
+
+               <div class="engg-services-list">
+                  <!-- Card 1 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title"><span class="highlight">3D Reverse</span> Engineering Services
+                           </h3>
+                           <p class="engg-card-desc">Transform physical objects into precise 3D CAD models for redesign,
+                              manufacturing, and analysis.</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="3d-Reverse-Engineering-Services-in-india.php" class="engg-know-more-btn">Know More
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
                      </div>
-                     <div class="card-footer">
-                        <a href="dynamic-tracking-3d-scanning-services.php"><button
-                              class="btn">Know More</button></a>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-1.png"
+                           class="img-fluid w-100" alt="3D Reverse Engineering Services">
                      </div>
                   </div>
+
+                  <!-- Card 2 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title"><span class="highlight">3D Inspection</span> Services</h3>
+                           <p class="engg-card-desc">Ensure quality and compliance by comparing scanned data to original
+                              CAD designs with detailed reports.</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="3d-inspection-service.php" class="engg-know-more-btn">Know More <svg width="20"
+                                 height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-2.png"
+                           class="img-fluid w-100" alt="3D Inspection Services">
+                     </div>
+                  </div>
+
+                  <!-- Card 3 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title"><span class="highlight">Automotive</span> Benchmarking Services
+                           </h3>
+                           <p class="engg-card-desc">Custom vehicle digital twin for complete vehicle analysis.</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="automotive-benchmarking-services-in-india.php" class="engg-know-more-btn">Know More
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-3.png"
+                           class="img-fluid w-100" alt="Automotive Benchmarking Services">
+                     </div>
+                  </div>
+
+                  <!-- Card 4 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title"><span class="highlight">3D Scan-to-</span>CAD Services</h3>
+                           <p class="engg-card-desc">3D CAD modeling from scan data in all major CAD formats</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="scan-to-cad-service.php" class="engg-know-more-btn">Know More <svg width="20"
+                                 height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-4.png"
+                           class="img-fluid w-100" alt="3D Scan-to-CAD Services">
+                     </div>
+                  </div>
+
+                  <!-- Card 5 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title"><span class="highlight">3D Printing</span> Services</h3>
+                           <p class="engg-card-desc">From prototypes to functional parts, bring your designs to life
+                              with industrial 3D printing.</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="3d-printing-service-in-india.php" class="engg-know-more-btn">Know More <svg
+                                 width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-5.png"
+                           class="img-fluid w-100" alt="3D Printing Services">
+                     </div>
+                  </div>
+
+                  <!-- Card 6 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title"><span class="highlight">3D Scanner Rental</span> &amp;
+                              Subscription Services</h3>
+                           <p class="engg-card-desc">Access world-class scanning technology on demand without large
+                              upfront investments.</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="3d-scanner-rental-and-subscription.php" class="engg-know-more-btn">Know More <svg
+                                 width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-6.png"
+                           class="img-fluid w-100" alt="3D Scanner Rental & Subscription Services">
+                     </div>
+                  </div>
+
                </div>
             </div>
+         </section>
+         <!-- Engineering Services Section Ends -->
 
-            <div class="text-end unness mt-5">
-               <a href="3d-scanning-services-in-india.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+         <!-- Why Choose Section Starts -->
+         <section class="why-choose-section">
+            <div class="container-fluid why-choose-container">
+               <h2 class="why-choose-title text-center">Why Choose <span class="highlight">Precise3DM</span> for your 3D
+                  Scan-based engineering services?</h2>
 
-   <!-- 3 -->
+               <div class="row why-choose-list-container">
+                  <!-- Item 1 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-1.svg"
+                              alt="One Partner" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">One Partner for the Complete Digital Workflow</h3>
+                           <p class="why-choose-item-desc">From 3D scanning and reverse engineering to inspection, CAD
+                              development, benchmarking, and additive manufacturing, we provide complete end-to-end
+                              support under one roof.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>Portable Cmm Inspection Service</h2>
-            <p>For onsite probing measurement</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same1.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="portable-cmm-inspection-service-in-india.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 2 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-2.svg"
+                              alt="Cutting-Edge Equipment" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Cutting-Edge Equipment</h3>
+                           <p class="why-choose-item-desc">We have a wide range of equipment and use more than 5
+                              Different types of 3D scanner technology, including the latest 3D scanner models available
+                              in the industry for 2026.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>3D Reverse Engineering Services</h2>
-            <p>Transform physical objects into precise 3D CAD models for redesign,<br> manufacturing, and analysis.</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same2.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="3d-Reverse-Engineering-Services-in-india.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 3 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-3.svg" alt="Accuracy"
+                              class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Accuracy from Microns to Entire Factories</h3>
+                           <p class="why-choose-item-desc">From tiny precision components to complete manufacturing
+                              facilities, our solutions cover Small components (10 μm accuracy), large castings and
+                              assemblies, entire production lines, buildings, plants, and industrial campuses. Our
+                              metrology-grade 3D scanners are calibrated, come with certificates in accordance with
+                              VDI/VDE 2634, and were tested in an ISO/IEC 17025:2017-certified lab at 20 ± 0.5°C and
+                              40-60% RH.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>3D Inspection Services</h2>
-            <p>Ensure quality and compliance by comparing scanned data to original<br> CAD designs with detailed
-               metrology reports.</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same3.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="3d-inspection-service.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 4 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-4.svg"
+                              alt="Tailored Solutions" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Tailored Solutions</h3>
+                           <p class="why-choose-item-desc">We carefully select the right 3D scanner based on your
+                              specific project needs, along with the right 3D scan-based workflow, whether it involves
+                              component size, accuracy expectations, or the application itself.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>Automotive Benchmarking Services</h2>
-            <p>Custom Vehicle Digital Twin</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same4.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="https://www.precise3dm.com/automotive-benchmarking-services-in-india.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 5 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-5.svg"
+                              alt="State-of-the-Art Technology" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">State-of-the-Art Technology</h3>
+                           <p class="why-choose-item-desc">We leverage the latest advancements in hardware and software
+                              to provide the best scanning solutions in the industry.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>3D Scan-to-CAD Services</h2>
-            <p>3D CAD modeling form Scan Data</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same5.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="https://convertscantocad.com/"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 6 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-6.svg"
+                              alt="Pan-India Service Reach" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Pan-India Service Reach</h3>
+                           <p class="why-choose-item-desc">With a presence across India, we ensure our services are
+                              nearby. We have set up 15 scanning centres across India and keep expanding every year; we
+                              are even expanding globally, including the USA, the UK, and the UAE.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>3D Printing Services</h2>
-            <p>From prototypes to functional parts, bring your designs to life with our<br> industrial 3D printing
-               solutions.</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same6.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="3d-printing-service-in-india.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 7 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-7.svg"
+                              alt="Largest Team of Experts" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Largest Team of Experts</h3>
+                           <p class="why-choose-item-desc">Our team of 100+ scan-to-CAD and 3D Metrology specialists is
+                              the largest team in Asia dedicated to digital reverse engineering and 3D inspection,
+                              application-based, so we shall work on projects that demand a faster turnaround time and
+                              urgent delivery.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="same-box">
-      <div class="container">
-         <div class="row">
-            <h2>3D Scanner Rental Services</h2>
-            <p>Access world-class scanning technology on-demand without the need<br> for large upfront investments.</p>
-            <div class="text-center pt-3 pb-3">
-               <img src="assets/images/opex-capex/same7.png" alt="">
-            </div>
-            <div class="text-end pt-3">
-               <a href="3d-scanner-rental-and-subscription.php"><button
-                     class="btn">Know More</button></a>
-            </div>
-         </div>
-      </div>
-   </section>
+                  <!-- Item 8 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-8.svg"
+                              alt="Post-Project Support" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Post-Project Support</h3>
+                           <p class="why-choose-item-desc">We offer quick, responsive post-project support to ensure
+                              your results align with your expectations and any issues are resolved promptly.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <!-- 4 -->
+                  <!-- Item 9 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-9.svg"
+                              alt="Engineering Deliverables" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Engineering Deliverables, Not Just Scan Data</h3>
+                           <p class="why-choose-item-desc">Post-scanning, we don't just convert the scan to CAD. We
+                              deliver Editable CAD models, Native CAD formats (CATIA, NX, Creo, SolidWorks, Inventor),
+                              2D manufacturing drawings, inspection reports, GD&T analysis, digital twins, and BIM
+                              deliverables, all related to a 3D scan-based workflow.</p>
+                        </div>
+                     </div>
+                  </div>
 
-   <section class="best-choice">
-      <div class="container">
-         <h2>Why Precise3DM is the Best Choice for Your<br> 3D Scan-based Projects in India</h2>
-         <div class="row">
-            <div class="best-choice-main">
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon1.png" alt="">
-                  <h4>Cutting-Edge Equipment</h4>
-                  <p>We use more than 5 Different types of 3D scanner technology and the latest model 3D Scanners of
-                     2025
-                     available in the industry.</p>
-               </div>
+                  <!-- Item 10 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-10.svg"
+                              alt="Uncompromised Quality" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Uncompromised Quality</h3>
+                           <p class="why-choose-item-desc">While making our Opex services affordable, we also offer
+                              uncompromised quality of output.</p>
+                        </div>
+                     </div>
+                  </div>
 
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon2.png" alt="">
-                  <h4> Exceptional Accuracy and Detail</h4>
-                  <p>Our 3D scanners are calibrated and come with certificates based on VDI/VDE 2634, which were tested
-                     in an ISO/IEC 17025:2017 certified lab at 20 ± 0.5°C and 40-60% RH humidity.</p>
-               </div>
+                  <!-- Item 11 -->
+                  <div class="col-lg-6 mb-4">
+                     <div class="why-choose-item d-flex align-items-start gap-3">
+                        <div class="why-choose-icon-wrapper">
+                           <img src="assets/images/3d-scan-based-engineering-service-company/why-11.svg"
+                              alt="Business Outcomes That Matter" class="why-choose-icon">
+                        </div>
+                        <div class="why-choose-text">
+                           <h3 class="why-choose-item-title">Business Outcomes That Matter</h3>
+                           <p class="why-choose-item-desc">We help customers reduce development costs, improve product
+                              quality, shorten design cycles, preserve legacy components, enable digital transformation,
+                              and accelerate innovation and manufacturing readiness.</p>
+                        </div>
+                     </div>
+                  </div>
 
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon3.png" alt="">
-                  <h4>Tailored Solutions</h4>
-                  <p>We carefully select the right 3D scanner based on your specific project needs, whether they involve
-                     component size, accuracy expectations, or the application itself.</p>
-               </div>
-            </div>
-
-            <div class="best-choice-main">
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon4.png" alt="">
-                  <h4>State-of-the-Art Technology</h4>
-                  <p>We leverage the latest advancements in hardware and software to provide the best scanning solutions
-                     in the industry.</p>
-               </div>
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon5.png" alt="">
-                  <h4> Wide Range of Equipment</h4>
-                  <p>What may your project be? We have a wide range of equipment based on your project requirements.</p>
-               </div>
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon6.png" alt="">
-                  <h4> Pan-India Service Reach</h4>
-                  <p>With a presence across India, we ensure that our services are nearby as we have set up 12 places of
-                     scanning centres across India, and we keep on expanding every year; we are even expanding globally,
-                     like the USA, UK, DUBAI and Australia.</p>
-               </div>
-            </div>
-
-            <div class="best-choice-main">
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon7.png" alt="">
-                  <h4>Largest Team of Experts</h4>
-                  <p>Our team of 100+ scan-to-CAD and 3D Metrology specialists is the largest team in Asia dedicated to
-                     digital reverse engineering and 3D inspection application-based projects.</p>
-               </div>
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon8.png" alt="">
-                  <h4> Post-Project Support</h4>
-                  <p>We offer quick, responsive post-project support to ensure that your results are aligned with your
-                     expectations and that any issues are resolved promptly.</p>
-               </div>
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon9.png" alt="">
-                  <h4>Competitive Pricing</h4>
-                  <p>We deliver top-quality results at competitive prices, ensuring you get the best value for your
-                     investment.</p>
                </div>
             </div>
+         </section>
+         <!-- Why Choose Section Ends -->
 
-            <div class="best-choice-main">
-               <!-- <div class="best-choice-box"></div> -->
-               <div class="best-choice-box">
-                  <img src="assets/images/opex-capex/icon10.png" alt="">
-                  <h4> Uncompromised Quality</h4>
-                  <p>While making our Opex services affordable, we also offer uncompromised quality of output.</p>
-               </div>
-               <!-- <div class="best-choice-box"></div> -->
-            </div>
-         </div>
-      </div>
-   </section>
+         <!-- CAPEX vs OPEX Section Starts -->
+         <section class="capex-opex-section">
+            <div class="container-fluid capex-opex-container">
+               <div class="row align-items-stretch justify-content-center g-4">
 
+                  <!-- Card 1: Traditional CAPEX -->
+                  <div class="col-lg-3 position-relative py-2">
+                     <div class="capex-card capex-traditional h-100">
+                        <h3 class="capex-title capex-red">Traditional CAPEX.</h3>
+                        <ul class="capex-list capex-red-list">
+                           <li>High upfront investment</li>
+                           <li>Training & hiring</li>
+                           <li>Maintenance & calibration</li>
+                           <li>Software & license costs</li>
+                           <li>Ownership burden</li>
+                           <li>High risk</li>
+                        </ul>
+                     </div>
+                     <div class="vs-circle">Vs</div>
+                  </div>
 
-   <!-- ==========================
-          Blog Section start
-       ========================== -->
+                  <!-- Card 2: Precise3DM OPEX -->
+                  <div class="col-lg-3 py-2">
+                     <div class="capex-card capex-precise h-100">
+                        <h3 class="capex-title capex-blue">Precise3DM OPEX services.</h3>
+                        <ul class="capex-list capex-blue-list">
+                           <li>Pay per project</li>
+                           <li>Immediate execution</li>
+                           <li>Certified experts</li>
+                           <li>Latest technology</li>
+                           <li>No ownership burden</li>
+                           <li>Scale on demand</li>
+                        </ul>
+                     </div>
+                  </div>
 
-   <section class="blog-section">
-      <div class="container">
-         <div class="head-group">
-            <h2>Blog</h2>
-            <p>You can explore our exclusive blog platform to learn more about 3D scanning, 3D reverse engineering, 3D
-               Printing, and 3D Inspection applications. Subscribe for updates on technology advancements, key features,
-               case
-               studies, application-based solutions, and more.</p>
-         </div>
+                  <!-- Card 3: Start with OPEX First -->
+                  <div class="col-lg-4 py-2">
+                     <div class="capex-card capex-start h-100">
+                        <div class="capex-start-content">
+                           <h3 class="capex-start-title">Start with OPEX First.</h3>
+                           <p class="capex-start-subtitle">Scale with Confidence.</p>
+                           <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"
+                              class="capex-start-btn">
+                              Talk to Our Experts
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="lucide lucide-arrow-right">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg>
+                           </a>
+                        </div>
+                        <img src="assets/images/3d-scan-based-engineering-service-company/scanner-img.png" alt="Scanner"
+                           class="capex-scanner-img">
+                     </div>
+                  </div>
 
-         <!-- Slider with Responsive Settings -->
-         <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
-            data-md-slide-show="1">
-           <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog52/hero-bg.png" alt="">
-                  <h5>
-                     Why Precise3DM for 3D Scanning Services in India?
-                  </h5>
-                  <p> June 14, 2026 </p>
-                  <a href="why-precise3dm-for-3d-scanning-services-in-india.php" class="btn">Read
-                     More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog12/img1.png" alt="">
-                  <h5>
-                     Three Types of Reverse Engineering Technic
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="three-types-of-reverse-engineering-techniques.php" class="btn">Read
-                     More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog13/3d-rev1.png" alt="">
-                  <h5>
-                     3D Reverse Engineering Workflow in Geomagic Design X Software
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="3d-reverse-engineering-workflow-in-geomagic-design-x.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog14/img1.png" alt="">
-                  <h5>
-                     3D Scanning and Reverse engineering Deliverables & Their use cases
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="3d-scanning-and-reverse-engineering-deliverables.php" class="btn">Read More</a>
                </div>
             </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog15/unique1.png" alt="">
-                  <h5>
-                     Unique Key features of Freescan Combo
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="unique-key-features-of-freescan-combo.php" class="btn">Read
-                     More</a>
+         </section>
+         <!-- CAPEX vs OPEX Section Ends -->
+
+         <!-- Industries We Serve Section Starts -->
+         <section class="industries-serve-section">
+            <div class="container-fluid industries-serve-container">
+               <h2 class="industries-serve-title text-center">INDUSTRIES <span class="highlight">WE SERVE</span></h2>
+
+               <div class="row g-4 mt-3">
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-1.png"
+                           alt="Aerospace" class="industry-img">
+                        <h3 class="industry-name">AEROSPACE</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-2.png"
+                           alt="Automotive" class="industry-img">
+                        <h3 class="industry-name">AUTOMOTIVE</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-3.png" alt="Rail"
+                           class="industry-img">
+                        <h3 class="industry-name">RAIL</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-4.png"
+                           alt="Defence" class="industry-img">
+                        <h3 class="industry-name">DEFENCE</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-5.png"
+                           alt="Wind Energy" class="industry-img">
+                        <h3 class="industry-name">WIND ENERGY</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-6.png"
+                           alt="Heavy Engineering" class="industry-img">
+                        <h3 class="industry-name">HEAVY ENGINEERING</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-7.png"
+                           alt="Foundry" class="industry-img">
+                        <h3 class="industry-name">FOUNDRY</h3>
+                     </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 py-3">
+                     <div class="industry-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/industries-8.png"
+                           alt="Industrial Manufacturing" class="industry-img">
+                        <h3 class="industry-name">INDUSTRIAL<br>MANUFACTURING</h3>
+                     </div>
+                  </div>
+
                </div>
             </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog16/img1.png" alt="">
-                  <h5>
-                     Exploring Four Different 3D Scanning Modes in Freescan Combo
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php"
-                     class="btn">Read More</a>
+         </section>
+         <!-- Industries We Serve Section Ends -->
+
+         <!-- Related Blogs Section Starts -->
+         <section class="related-blogs-section">
+            <div class="container-fluid related-blogs-container">
+               <h2 class="related-blogs-title text-center">Related Blogs</h2>
+
+               <div class="row g-4 mt-3">
+
+                  <!-- Blog Card 1 -->
+                  <div class="col-lg-4 py-3">
+                     <div class="blog-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/blog-1.png" alt="Blog 1"
+                           class="blog-img img-fluid">
+                        <div class="blog-content">
+                           <h3 class="blog-title">3D Scanning and Reverse engineering Deliverables & Their use cases
+                           </h3>
+                           <p class="blog-date">April 28, 2026</p>
+                           <a href="3d-scanning-and-reverse-engineering-deliverables.php" class="blog-read-btn">Read
+                              More</a>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Blog Card 2 -->
+                  <div class="col-lg-4 py-3">
+                     <div class="blog-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/blog-2.png" alt="Blog 2"
+                           class="blog-img img-fluid">
+                        <div class="blog-content">
+                           <h3 class="blog-title">Unique Key features of Freescan Combo</h3>
+                           <p class="blog-date">April 14, 2026</p>
+                           <a href="unique-key-features-of-freescan-combo.php" class="blog-read-btn">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Blog Card 3 -->
+                  <div class="col-lg-4 py-3">
+                     <div class="blog-card">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/blog-3.png" alt="Blog 3"
+                           class="blog-img img-fluid">
+                        <div class="blog-content">
+                           <h3 class="blog-title">Exploring Four Different 3D Scanning Modes in Freescan Combo</h3>
+                           <p class="blog-date">April 14, 2026</p>
+                           <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php"
+                              class="blog-read-btn">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+
                </div>
             </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog18/img1.png" alt="">
-                  <h5>
-                     How can 3D scanning service providers save cost & increase profit with Freescan Combo 3D scanner
-                     India?
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="how-3d-scanning-service-providers-save-cost-increase-profit-freescan-combo-india.php"
-                     class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog19/img1.png" alt="">
-                  <h5>
-                     Geomagic software in India 2026
-                  </h5>
-                  <p> April 20, 2026 </p>
-                  <a href="geomagic-software-in-india-2026.php" class="btn">Read More</a>
-               </div>
-            </div>
+         </section>
+         <!-- Related Blogs Section Ends -->
 
-            <!-- Add more slides as needed -->
-         </div>
+   </main>
+   <!-- Main Content Ends Here -->
 
-      </div>
-   </section>
-
-   <script>
-      document.addEventListener("DOMContentLoaded", () => {
-         const checkboxes = document.querySelectorAll(".checkbox-div input[type='checkbox']");
-
-         checkboxes.forEach((checkbox) => {
-            checkbox.addEventListener("change", () => {
-               const index = checkbox.dataset.index;
-               const relatedTds = document.querySelectorAll(`.hidden-td[data-index='${index}']`);
-
-               relatedTds.forEach(td => {
-                  if (checkbox.checked) {
-                     td.style.display = "table-cell"; // Show the <td>
-                  } else {
-                     td.style.display = "none"; // Hide the <td>
-                  }
-               });
-            });
-         });
-      });
-
-
-   </script>
-   <!--separator start-->
-   <hr class="separator">
-   <!--separator end-->
-
-   <!-- footer start -->
    <?php include('includes/footer.php'); ?>
-   <!-- footer end -->
 
-   <!-- bootstrap -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+   <!-- Scripts -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-
-   <!-- Add Slick Slider JavaScript -->
+   <!-- Slick Carousel JS -->
    <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-   <script src="assets/js/custom-owl.js" type="text/javascript"></script>
-   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-   <script src="assets/js/counter.js"></script>
 
+   <!-- Owl Carousel JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-
-   <script>
-      let counted = 0;
-
-      window.addEventListener('scroll', function () {
-         const counter = document.getElementById('counter');
-         const oTop = counter.offsetTop - window.innerHeight;
-
-         if (counted === 0 && window.scrollY > oTop) {
-            const countElements = document.querySelectorAll('.count');
-            const duration = 5000;
-
-            countElements.forEach(function (element) {
-               const countTo = element.getAttribute('data-count');
-               let countNum = parseInt(element.textContent);
-               const increment = (countTo - countNum) / (duration / 20);
-               const animation = setInterval(function () {
-                  countNum += increment;
-
-                  element.textContent = Math.floor(countNum);
-
-                  if (countNum >= countTo) {
-                     clearInterval(animation);
-                     element.textContent = countTo;
-                  }
-               }, 20);
-            });
-
-            counted = 1;
-         }
-      });
-
-   </script>
-   <script>
-      let currentIndex = 0;
-      function handleTabClick(event) {
-         if (event.target.tagName === 'LI') {
-            const selectedTab = event.target.dataset.tab;
-            updateTabs(selectedTab);
-         }
-      }
-      function moveTabs(direction) {
-         const tabs = document.querySelectorAll('.tabs li');
-         const newIndex = currentIndex + direction;
-         if (newIndex >= 0 && newIndex < tabs.length) {
-            const selectedTab = tabs[newIndex].dataset.tab;
-            updateTabs(selectedTab);
-         }
-      }
-      function updateTabs(selectedTab) {
-         document.querySelectorAll('.content').forEach(function (div) {
-            div.classList.remove('active-content');
-         });
-         document.querySelectorAll('.tabs li').forEach(function (tab) {
-            tab.classList.remove('active');
-         });
-         document.getElementById(selectedTab).classList.add('active-content');
-
-         document.querySelector(`[data-tab="${selectedTab}"]`).classList.add('active');
-         currentIndex = Array.from(document.querySelectorAll('.tabs li')).findIndex(tab => tab.dataset.tab === selectedTab);
-      }
-   </script>
-   <script>
-      let currentIndex1 = 0;
-      function handleCustomTabClick(event) {
-         if (event.target.tagName === 'LI') {
-            const selectedTab = event.target.dataset.tab;
-            updateTabs1(selectedTab);
-         }
-      }
-      function moveTabs1(direction) {
-         const tabs = document.querySelectorAll('.custom-tabs li');
-         const newIndex = currentIndex1 + direction;
-
-         if (newIndex >= 0 && newIndex < tabs.length) {
-            const selectedTab = tabs[newIndex].dataset.tab;
-            updateTabs1(selectedTab);
-         }
-      }
-      function updateTabs1(selectedTab) {
-         document.querySelectorAll('.custom-content').forEach(function (div) {
-            div.classList.remove('active-contents');
-         });
-         document.querySelectorAll('.custom-tabs li').forEach(function (tab) {
-            tab.classList.remove('active');
-         });
-         document.getElementById(selectedTab).classList.add('active-contents');
-         document.querySelector(`[data-tab="${selectedTab}"]`).classList.add('active');
-         currentIndex1 = Array.from(document.querySelectorAll('.custom-tabs li')).findIndex(tab => tab.dataset.tab === selectedTab);
-      }
-   </script>
-
-   <script>
-      // Function to initialize the slider
-      function initializeSlider(selector, options) {
-         const defaultOptions = {
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            arrows: true
-            // Add other default options as needed
-         };
-
-         const mergedOptions = { ...defaultOptions, ...options };
-
-         $(document).ready(function () {
-            $(selector).slick(mergedOptions);
-         });
-      }
-
-      // Function to fetch slide data and initialize the slider
-      function initializeDynamicSlider(selector) {
-         // Make an API request or fetch data dynamically
-         // Here, we are using dummy data for demonstration
-         const fetchData = {
-            slideShow: 3,
-            mlSlideShow: 2,
-            lgSlideShow: 1,
-            mdSlideShow: 1
-         };
-
-         // Set the fetched data to the corresponding data attributes
-         $(selector).attr('data-slide-show', fetchData.slideShow);
-         $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
-         $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
-         $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
-
-         // Initialize the slider with the fetched data
-         initializeSlider(selector, {
-            slidesToShow: fetchData.slideShow,
-            slidesToScroll: 1,
-            responsive: [
-               {
-                  breakpoint: 991,
-                  settings: {
-                     slidesToShow: fetchData.mdSlideShow
-                  }
-               },
-               {
-                  breakpoint: 768,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               },
-               {
-                  breakpoint: 576,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               }
-            ]
-         });
-      }
-
-      // Initialize the dynamic slider
-      initializeDynamicSlider('#dynamicSlider');
-      initializeDynamicSlider('#dynamicSlider1');
-   </script>
-   <script>
-      // Function to initialize the slider
-      function initializeSlider(selector, options) {
-         const defaultOptions = {
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            arrows: true
-            // Add other default options as needed
-         };
-
-         const mergedOptions = { ...defaultOptions, ...options };
-
-         $(document).ready(function () {
-            $(selector).slick(mergedOptions);
-         });
-      }
-
-      // Function to fetch slide data and initialize the slider
-      function initializeDynamicSlider(selector) {
-         // Make an API request or fetch data dynamically
-         // Here, we are using dummy data for demonstration
-         const fetchData = {
-            slideShow: 5,
-            mlSlideShow: 2,
-            lgSlideShow: 3,
-            mdSlideShow: 2
-         };
-
-         // Set the fetched data to the corresponding data attributes
-         $(selector).attr('data-slide-show', fetchData.slideShow);
-         $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
-         $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
-         $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
-
-         // Initialize the slider with the fetched data
-         initializeSlider(selector, {
-            slidesToShow: fetchData.slideShow,
-            slidesToScroll: 1,
-            responsive: [
-               {
-                  breakpoint: 991,
-                  settings: {
-                     slidesToShow: fetchData.mdSlideShow
-                  }
-               },
-               {
-                  breakpoint: 768,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               },
-               {
-                  breakpoint: 576,
-                  settings: {
-                     slidesToShow: 2
-                  }
-               }
-            ]
-         });
-      }
-
-      // Initialize the dynamic slider
-      initializeDynamicSlider('#dynamicSlider2');
-   </script>
-
-   <script>
-      const customToggleSwitch = document.getElementById('customToggleSwitch');
-      const root = document.documentElement;
-      const body = document.body;
-
-      function toggleStyles() {
-         if (customToggleSwitch.checked) {
-            customSwitchContainer.querySelector('.custom-slider').classList.add('on');
-            root.style.setProperty('--backgroundcolor', '#101010');
-            root.style.setProperty('--subbackground', '#0A0A0A');
-            root.style.setProperty('--subcotent', '#bbb');
-            root.style.setProperty('--counter', '#0A0A0A');
-            root.style.setProperty('--img-filter', 'none');
-            root.style.setProperty('--list', '#DFEEFF');
-            root.style.setProperty('--list-black', '#0a0a0a');
-            root.style.setProperty('--whitecolor', '#fff');
-            root.style.setProperty('--maincolor', '#ff931e');
-            body.style.background = 'var(--backgroundcolor)';
-            document.getElementById("specification").src = "assets/images/einscan-gallery/specification1.png";
-            document.getElementById("banner1").src = "assets/images/einscan-gallery/img19.png";
-            document.getElementById("Multipurpose").src = "assets/images/einscan-gallery/img20.png";
-            document.getElementById("img4").src = "assets/images/einscan-gallery/img22.png";
-            document.getElementById("bannerrr").src = "assets/images/einscan-gallery/img23.png";
-            document.getElementById("feature-img").style.backgroundColor = '#000';
-            document.getElementById("feature-card1").style.backgroundColor = '#000';
-            document.getElementById("feature-card").style.backgroundColor = '#000';
-            document.getElementById("feature-card").style.border = '1px solid #fff';
-            document.getElementById("feature-card1").style.border = '1px solid #fff';
-            document.getElementById("features-section").style.backgroundImage = 'url(assets/images/einscan-gallery/img21.png)';
-         } else {
-            customSwitchContainer.querySelector('.custom-slider').classList.remove('on');
-            root.style.setProperty('--backgroundcolor', '#fff');
-            root.style.setProperty('--subcotent', '#000');
-            root.style.setProperty('--counter', '#F0EAE4');
-            root.style.setProperty('--img-filter', 'invert(1)');
-            root.style.setProperty('--list', '#000');
-            root.style.setProperty('--subbackground', '#fff');
-            root.style.setProperty('--whitecolor', '#101010');
-            root.style.setProperty('--maincolor', '#ff931e');
-            body.style.background = '#fff';
-            document.getElementById("specification").src = "assets/images/einscan-gallery/specification.png";
-            document.getElementById("banner1").src = "assets/images/einscan-gallery/img1.png";
-            document.getElementById("img4").src = "assets/images/einscan-gallery/img4.png";
-            document.getElementById("bannerrr").src = "assets/images/einscan-gallery/banner1-img.png";
-            document.getElementById("Multipurpose").src = "assets/images/einscan-gallery/img5.jpg";
-            document.getElementById("feature-img").style.backgroundColor = '#fff';
-            document.getElementById("feature-card1").style.backgroundColor = '#fff';
-            document.getElementById("feature-card").style.backgroundColor = '#fff';
-            document.getElementById("features-section").style.backgroundImage = 'url(assets/images/einscan-gallery/img3.png)';
-         }
-      }
-
-      // Initial setup
-      toggleStyles();
-
-      // Event listener for the custom switch
-      customToggleSwitch.addEventListener('change', function () {
-         toggleStyles();
-      });
-   </script>
+   <script src="assets/js/main.js"></script>
 
 </body>
+
 
 </html>

@@ -206,8 +206,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           </div>
                       </div>
                       <div class="hero-buttons">
-                          <a href="#" class="btn-orange">Get Project Quote</a>
-                          <a href="#" class="btn-orange">Talk to Engineer</a>
+                          <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Get Project Quote</a>
+                          <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-orange">Talk to Engineer</a>
                       </div>
                       <div class="contact-widget call-widget-mobile d-lg-none mt-4">
                           <div class="icon-circle" style="transform: scale(0.9);">

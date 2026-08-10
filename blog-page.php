@@ -98,6 +98,19 @@
                 </article>
 
                 <!-- New Added Blogs -->
+                <article class="blog-card" id="blog-card-freescan-track-nova">
+                    <div class="card-img-wrap">
+                        <img src="assets/images/freescan-track-nova/banner-bg.png" alt="FreeScan Trak Nova Wireless 3D Scanner for Large Object">
+                        <span class="card-category">Metrology</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-date"><i class="fa-regular fa-calendar"></i> August 06, 2026</span>
+                        <h3 class="card-title">FreeScan Trak Nova Wireless 3D Scanner for Large Object</h3>
+                        <p class="card-excerpt">FreeScan Trak Nova is a wireless 3D scanner system designed for large-object scanning. Offers dynamic tracking, portability, and metrology-grade precision.</p>
+                        <a href="freescan-track-nova.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
                 <article class="blog-card" id="blog-card-upgrade-portable-cmm-arms">
                     <div class="card-img-wrap">
                         <img src="assets/images/upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing/cmma-hero-bg-img.png" alt="Upgrade from Portable CMM Arms to Dynamic Tracking + Wireless Probing">

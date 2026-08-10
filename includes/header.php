@@ -731,10 +731,10 @@ headeer top
   }
 
   .book-online {
-    padding: 8px 10px;
+    padding: 8px 20px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
-    width: 335px;
+    width: fit-content;
     border-radius: 50px;
   }
 
@@ -1515,11 +1515,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-lg-7 all1">
           <ul class="cad">
             <li>
-              <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"><button
-                  class="upload book-online">Book Demo / Get Quote for 3D Scanner</button></a>
+              <a href="scanning-solution-form.php"><button
+                  class="upload book-online">Get Quote</button></a>
             </li>
             <li>
-              <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"><button class="upload book-online1">Get 3D Scan Service quote</button></a>
+              <a href="Book-demo-get-quote-for-3D-scanner.php"><button
+                  class="upload book-online">Book Demo</button></a>
+            </li>
+            <li>
+              <a href="Get-3d-scan-service-quote.php"><button class="upload book-online1">Get 3D Scan Service quote</button></a>
             </li>
             <li>
               <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"><button
@@ -3643,8 +3647,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a class="nav-link" href="contact-us.php">Contact Us</a>
       </li>
       <div class="mob-nav-btns">
-        <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get 3D Scan Service quote</a>
-        <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Demo / Get Quote for 3D Scanner</a>
+        <a href="scanning-solution-form.php" class="btn">Get Quote</a>
+        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Demo</a>
+        <a href="Get-3d-scan-service-quote.php" class="btn">Get 3D Scan Service quote</a>        
         <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn"><i class="fa-solid fa-video"></i>  Meet Us live Online</a>
       </div>
     </ul>    

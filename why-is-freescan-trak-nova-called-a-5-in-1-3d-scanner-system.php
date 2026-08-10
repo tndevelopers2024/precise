@@ -26,25 +26,37 @@
 
     <link rel="canonical" href="https://www.precise3dm.com/3d-scanners-for-aerospace.php"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
-
-
-   <!--bootstrap css-->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!--owl css-->
+
+    <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css"
-       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" type="text/css"
-       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--custom css-->
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Site-Wide CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/blog-26-freescan-trak-nova-5-functionality-in-1-device.css">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-    <link rel="canonical" href="https://www.precise3dm.com/" />
-    <link rel="stylesheet" href="assets/css/main-blog.css"/>
+
 
    
     <noscript>
@@ -58,338 +70,483 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
    <!-- End Google Tag Manager -->
-
-   <style>
-       html{
-           scroll-padding-top:140px;
-       }
-       .main-div{
-            background-color: #FBFBFB;
-            padding: 40px;
-            border-radius: 10px;
-       }
-        .main-blog-title{
-            margin-top:140px;
-        }
-        .main-title-img{
-        position: relative;
-        }
-        .main-title-img .row{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            padding: 40px;
-        }
-        .main-title-img .col{
-            display: flex;
-            justify-content: start;
-            align-items: start;
-            flex-direction: column;
-        }
-        .main-title-img h2{
-            background-color: #FF8D1E;
-            color: #fff !important;
-            font-size: 1.5rem !important;
-            padding: 8px 15px;
-            display: inline;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            font-weight: 600;
-        }
-        .main-title-img h1{
-            color: #fff !important;
-            font-size: 2.5rem !important;
-            font-weight: bold;
-            padding-top: 30px;
-        }
-        .cont-hero{
-            display:flex;
-            justify-content:space-between;
-            flex-wrap:wrap;
-        }
-        @media screen and (max-width: 768px) {
-            .main-title-img .main-img{
-                height:40vh;
-                object-fit:cover;
-            }
-            .main-blog-title{
-                margin-top:10px;
-            }
-            .main-title-img h1{
-                font-size: 1.5rem !important;
-            }
-            .main-title-img .row{
-                padding: 20px;
-            }
-            .main-div{
-                padding:20px;
-            }
-        }
-        .mail{
-            display: flex;
-            justify-content: left;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        .mail .btn{
-            padding: 0 !important;
-            width: 60px !important;
-            height: 60px !important;
-            display: grid;
-            place-content: center;
-            border-radius: 50% !important;
-        }
-        .mail-text h5{
-            color: #fff !important;
-            font-weight: 600;
-        }
-        .mail-text p{
-            color: #ffffff;
-        }
-        .mail-text p span{
-            color: #FF8D1E;
-        }
-        .hero-content{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 100%;
-            width: 100%;
-        }
-        .tab-div ol{
-            padding-left: 30px;
-        }
-        .tab-div ol li{
-            list-style-type: numbers;
-        }
-       
-        .how-container{
-            background: #FF931E0D;
-            padding:50px 50px 0;
-            margin-top: 30px;
-            margin-bottom:40px;
-            border-radius: 16px;
-            border: 1px solid #d6d6d6;
-        }
-        .how-container .mail-text h5{
-            color: #000 !important;
-        }
-        .how-container .mail-text p{
-            color: #000 !important;
-        }
-        .contact-div{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .big-container img{
-            width: 100%;
-        }
-        @media screen and (max-width: 768px) {
-            .main-div2 h2 {
-                font-size: 1.5rem !important;
-            }   
-            .tab-box{
-                margin-bottom: 20px;
-            }    
-            .big-container{
-                padding: 20px;
-            }
-            .how-container{
-                padding: 20px;
-            }    
-        }
-   </style>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <?php include('includes/header.php'); ?>
 
-   <!-- header start -->
-   <?php include('includes/header.php'); ?>
-   <!-- header End -->
+    <!-- Hero Section Starts -->
+    <section class="blog26-hero-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="blog26-hero-title">
+                        One Investment. <span class="text-orange">5 Industrial</span>
+                        Multifunction Measurement uses.
+                    </h1>
 
-    
+                    <div class="blog26-hero-btns d-flex flex-wrap">
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="blog26-btn-primary">Request a Demo</a>
+                        <a href="assets/images/freescan-track-nova/FreeScan-Trak-Nova-Brochure-2025.pdf" target="_blank" download class="blog26-btn-outline">Download Brochure</a>
+                    </div>
 
-    <section>
-        <div class="container main-blog-title">
-            <div class=main-title-img>
-                <img src="assets/images/blog17/img1.png" class="mb-4 main-img" style="width:100%" alt="">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-9">
-                        <div>
-                            <h1>Why is FreeScan Trak Nova Called a 5-in-1 3D Scanner System?</h1>
-                            <a href="freescan-track-nova.php" class="btn">Know More</a>
+                    <div class="blog26-hero-contact">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/mail-logo.png" alt="Email us" class="blog26-hero-contact-icon">
+                        <div class="blog26-hero-contact-text">
+                            <h4>Email us</h4>
+                            <p><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> <span style="color: #ff931e;">|</span> <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
                         </div>
                     </div>
-                    <div class="col"></div>
                 </div>
             </div>
-            <p>What if there were a single 3D scanner that combines multiple scanning modes and tracking capabilities, and contact-type coordinated systems within a single system</p>
-            <p>The tag 5-in-1 scanner is not just associated with Freescan Trak Nova because of a branding shortcut, but it actually combines five different scanning and tracking functions into one single hardware and software architecture. Let’s see how! </p>
         </div>
     </section>
+    <!-- Hero Section Ends -->
 
-    <section>
-        <div class="container" style="margin-top:60px;">
-            <h2 class="sec-head">What Is FreeScan Trak Nova?</h2>
-            <img src="assets/images/blog17/img2.png" class="mb-4" style="width:100%" alt="">
-            <p>The Freescan Trak Nova is a wireless, multi-functional, high-precision, dynamic-tracking 3D scanning system from Shining 3D. It is designed for industrial 3D scanning and inspection tasks.  It combines handheld laser scanning with real-time tracking, allowing users to capture accurate 3D data without relying on scanning targets, also called scanning markers.</p>
-            <p>Freescan Trak Nova is built to support both small-detail scanning and large-volume measurement within the same setup. The important part about Freescan Trak Nova is that it is not a single scanning head, but a modular system made up of dedicated scanning and tracking components. </p>
+    <!-- Problem Statement Section Starts -->
+    <section class="blog26-problem-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="row g-4">
+                
+                <!-- Left Card (8 cols) -->
+                <div class="col-lg-8 py-2">
+                    <div class="blog26-problem-card">
+                        <h2 class="blog26-problem-left-title">Why Buy Multiple Systems When One Platform Can Do Everything?</h2>
+                        <h3 class="blog26-problem-subtitle">Most manufacturers today purchase separate systems for</h3>
+                        
+                        <div class="row g-3">
+                            <div class="col-md-6 py-2">
+                                <div class="blog26-problem-left-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check blog26-check-icon"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                                    <p>Large-part 3D scanning</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-2">
+                                <div class="blog26-problem-left-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check blog26-check-icon"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                                    <p>Precision scanning</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-2">
+                                <div class="blog26-problem-left-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check blog26-check-icon"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                                    <p>Portable CMM inspection</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-2">
+                                <div class="blog26-problem-left-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check blog26-check-icon"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                                    <p>Photogrammetry</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-2">
+                                <div class="blog26-problem-left-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff931e" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check blog26-check-icon"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                                    <p>Markerless scanning</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card (4 cols) -->
+                <div class="col-lg-4 py-2">
+                    <div class="blog26-problem-card d-flex flex-column">
+                        <h2 class="blog26-problem-right-title">The result?</h2>
+                        
+                        <div class="flex-grow-1">
+                            <div class="blog26-problem-right-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#121212" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert blog26-alert-icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                                <p>Higher investment</p>
+                            </div>
+                            <div class="blog26-problem-right-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#121212" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert blog26-alert-icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                                <p>They purchase Multiple software and hardware</p>
+                            </div>
+                            <div class="blog26-problem-right-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#121212" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert blog26-alert-icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                                <p>Longer training cycles</p>
+                            </div>
+                            <div class="blog26-problem-right-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#121212" stroke="#f2f2f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert blog26-alert-icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                                <p>Complex workflows</p>
+                            </div>
+                        </div>
+
+                        <div class="blog26-problem-right-bottom-text">
+                            The FreeScan Trak Nova ecosystem changes everything.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Problem Statement Section Ends -->
+
+    <!-- Measurement Workflow Section Starts -->
+    <section class="blog26-workflow-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="blog26-workflow-title">With a single platform, manufacturers can perform 5 distinct measurement workflows with a single expandable metrology solution.</h2>
+            
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-6 py-3">
+                    <div class="blog26-workflow-card">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/workflow-1.png" alt="Markerless Scanning" class="blog26-workflow-img">
+                        <div class="blog26-workflow-card-body">
+                            <h3 class="blog26-workflow-card-title">Markerless Scanning</h3>
+                            <p class="blog26-workflow-card-text">Scan large surfaces without sticking targets on the part using a fixed tracker within the tracker range; scanners scan without markers saving prep time and avoiding surface damage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6 py-3">
+                    <div class="blog26-workflow-card">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/workflow-2.png" alt="Dynamic Tracking Scanning" class="blog26-workflow-img">
+                        <div class="blog26-workflow-card-body">
+                            <h3 class="blog26-workflow-card-title">Dynamic Tracking Scanning</h3>
+                            <p class="blog26-workflow-card-text">Tracker unit of freescn trak nova tracks the scanner in real time scanning without fixed set-up, one person holds the tracker hand and moves along with the person who scans</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-6 py-3">
+                    <div class="blog26-workflow-card">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/workflow-3.png" alt="Video Photogrammetry (VPG)" class="blog26-workflow-img">
+                        <div class="blog26-workflow-card-body">
+                            <h3 class="blog26-workflow-card-title">Video Photogrammetry (VPG)</h3>
+                            <p class="blog26-workflow-card-text">Eliminates coded markers entirely. Sets up the full scanning session as one unified coordinate group.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-6 py-3">
+                    <div class="blog26-workflow-card">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/workflow-4.png" alt="Large-FOV Handheld Scanning" class="blog26-workflow-img">
+                        <div class="blog26-workflow-card-body">
+                            <h3 class="blog26-workflow-card-title">Large-FOV Handheld Scanning</h3>
+                            <p class="blog26-workflow-card-text">2.6 &times; 2.2 m field of view &mdash; the widest on the market &mdash; for fast coverage of large structures.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-md-6 py-3">
+                    <div class="blog26-workflow-card">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/workflow-5.png" alt="Precision Part Scanning" class="blog26-workflow-img">
+                        <div class="blog26-workflow-card-body">
+                            <h3 class="blog26-workflow-card-title">Precision Part Scanning</h3>
+                            <p class="blog26-workflow-card-text">High-resolution capture of small, intricate components down to 20 &mu;m accuracy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-md-6 py-3">
+                    <div class="blog26-workflow-card">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/workflow-6.png" alt="Wireless Portable CMM Probing" class="blog26-workflow-img">
+                        <div class="blog26-workflow-card-body">
+                            <h3 class="blog26-workflow-card-title">Wireless Portable CMM Probing</h3>
+                            <p class="blog26-workflow-card-text">Instant contact type point-by-point measurement of 2d &amp; 3D Features directly from the physical object, see instant measurement on the computer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Measurement Workflow Section Ends -->
+
+    <!-- Functionality 1 Section Starts -->
+    <section class="blog26-func1-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            
+            <!-- Card 1 -->
+            <div class="blog26-func1-card text-center">
+                <div class="blog26-func1-tag">Functionality: 1</div>
+                <h2 class="blog26-func1-main-title">Use the FreeScan Trak Nova in two ways</h2>
+                
+                <div class="row g-4 mb-4">
+                    <div class="col-md-6">
+                        <div class="blog26-func1-img-wrap">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-1-1.png" alt="Wireless Dynamic Tracking" class="w-100">
+                            <h3 class="blog26-func1-img-caption">Wireless Dynamic Tracking</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog26-func1-img-wrap">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-1-2.png" alt="Fixed Tracking Scanning System" class="w-100">
+                            <h3 class="blog26-func1-img-caption">Fixed Tracking Scanning System</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="blog26-func1-intro-text">The Trak Nova is the complete system it houses the UE Nova (tracker/large scanner) and the TE Nova (detail scanner) in a single portable case. Both modules communicate wirelessly, and the system is controlled through 3d scanning software environment.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="blog26-func1-card">
+                <div class="row align-items-stretch g-4">
+                    <div class="col-lg-7 py-2">
+                        <div class="d-flex align-items-start gap-4 mb-4" style="gap: 13px;">
+                            <div class="blog26-func1-number">1</div>
+                            <h2 class="blog26-func1-feature-title">Freescan Trak Nova Fixed Tracker Mode for Markerless Scanning</h2>
+                        </div>
+                        <p class="blog26-func1-feature-text">Scan large surfaces without sticking any targets on the component. The tracker remains fixed within its working range while the scanner performs completely markerless scanning, saving preparation time and avoiding any damage or residue on critical surfaces</p>
+                    </div>
+                    <div class="col-lg-5 py-2">
+                        <div class="w-100 h-100 position-relative" style="min-height: 300px;">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-1-3.png" alt="Freescan Trak Nova Fixed Tracker Mode" class="blog26-func1-feature-img position-absolute top-0 start-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="blog26-func1-card">
+                <div class="row align-items-stretch g-4">
+                    <div class="col-lg-6 py-2">
+                        <div class="d-flex align-items-start mb-4" style="gap: 13px;">
+                            <div class="blog26-func1-number">2</div>
+                            <h2 class="blog26-func1-feature-title">Freescan Trak Nova with VPG for Dynamic Tracking of Large Assemblies</h2>
+                        </div>
+                        <p class="blog26-func1-feature-text">For larger parts and assemblies, the tracker and scanner can move together in parallel. Markers are pasted on the object; VPG (Video Photogrammetry) maintains global accuracy; and all scans are imported into the software within a single coordinate system, resulting in a complete, accurate point cloud.</p>
+                        <p class="blog26-func1-feature-text">The FreeScan Trak Nova tracker continuously tracks the scanner in real time without requiring a fixed setup. One operator can carry and move the tracker while another performs the scanning, enabling flexible and efficient digitisation of very large components and structures.</p>
+                        <p class="blog26-func1-feature-text">Certified to VDI/VDE 2634 Part 3 &amp; ISO 10360 in an ISO/IEC 17025 accredited laboratory. Winner of the iF Design Award 2026.</p>
+                    </div>
+                    <div class="col-lg-6 py-2">
+                        <div class="w-100 h-100 position-relative" style="min-height: 300px;">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-1-4.jpeg" alt="Dynamic Tracking of Large Assemblies" class="blog26-func1-feature-img position-absolute top-0 start-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </section>
+    <!-- Functionality 1 Section Ends -->
 
-    <section>
-        <div class="container" style="margin-top:60px;">
-            <h2 class="sec-head">Four systems of Freescan Trak Nova</h2>
-            <div class="main-div">
-                <h3>Freescan Trak Nova</h3>
-                <p>With the tracker and scanner unit together, Freescan Trak Nova is a laser scanning and dynamic tracking 3D scanning system designed for marker-free 3D measurement over varying part sizes.</p>
-                <img src="assets/images/blog17/img3.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>UE Nova</h3>
-                <p>UE Nova is a detachable handheld scanner being used as a tracker in the freescan Trak Nova system with the largest FOV (2.6 × 2.2 m), designed to capture large objects. </p>
-                <img src="assets/images/blog17/img4.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>TE Nova</h3>
-                <p>Standalone 3D Scanner Device that can be used as a standalone handheld 3D Scanner without the tracker to scan small objects with markers.</p>
-                <img src="assets/images/blog17/img5.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>FreeProbe 2</h3>
-                <p> A contact-based probing tool for capturing precise geometric data without generating a mesh.</p>
-                <img src="assets/images/blog17/img6.png" class="mb-4" style="width:100%" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container" style="margin-top:60px;">
-            <h2 class="sec-head">5 Different Scanning Capabilities in 1 Freescan Trak Nova</h2>
-            <p>Now, let’s look at the 5 different capabilities that Freescan Trak Nova possesses: </p>
-            <div class="main-div">
-                <h3>1. Large-scale Handheld Laser 3D  Scanning with Freescan UE Nova</h3>
-                <p>UE Nova is used when the job involves capturing large components. The user can detach the UE Nova from the Freescan Trak Nova system and use it as a handheld scanner, and move it over the part to digitise its shape. It is suited for large components, fine edges, curves, and areas where large surface detail matters. Because of its wide field of view, you can scan faster and cover more area in each pass, instead of working in small patches. </p>
-                <p>When it is used on its own, markers may be required to help the system understand position and alignment, especially on larger or more complex parts.</p>
-                <img src="assets/images/blog17/img7.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>2. High detail medium part 3D Scanning with TE Nova</h3>
-                <p>To scan small and medium-sized parts with high precision without the need for a tracker unit, you can use the TE Nova. TE Nova is typically used as the scanning unit within the FreeScan Track Nova system, but it can also operate independently.</p>
-                <p>In this standalone scanning mode, it offers 20-micron accuracy for parts under 1 meter when using markers. You will also benefit from the 7-laser mode, which provides highly detailed scanning capabilities.</p>
-                <img src="assets/images/blog17/img8.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>3. Dynamic and Fixed Tracker-based 3D scanning with Freescan Trak Nova (Marker Less 3D Scanning )</h3>
-                <p>When UE Nova and TE Nova are used together, the system is called Freescan Trak Nova. Technically, the FreeScan Trak Nova is a portable, wireless 3D scanning laser system designed to meet the high-precision, high-efficiency demands of industrial 3D measurement. With an accuracy of up to 0.02mm and stable repeatability</p>
-                <p>Instead of sticking markers on the part, the dynamic tracking technology ensures that the data acquisition is always relative to the part and maintains high accuracy for large-scale measurement tasks. UE Nova is used as a tracker unit that continuously tracks while TE nova 3d scan the object </p>
-                <img src="assets/images/blog17/img9.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>4. Video Photogrammetry (VPG) for enhanced accuracy on large object scanning. </h3>
-                <p>FreeScan Trak Nova features SHINING 3D’s patented VPG, which captures marker positions before the scan starts, ensuring the scanner automatically maintains proper alignment throughout the scan. Once the reference is set, the object can be scanned with improved consistency over large areas, while reducing the need for dense marker placement. With VPG (Video Photogrammetry Guidance) in the FreeScan Trak Nova, you can scan large parts in a single scan using just one set of scan settings.</p>
-                <p>Without VPG, the user would need to perform multiple scan groups and then manually align them to create a single point cloud. This alignment process is completely eliminated when using VPG.</p>
-                <img src="assets/images/blog17/img10.png" class="mb-4" style="width:100%" alt="">
-            </div>
-            <div class="main-div">
-                <h3>5. Contact-Based Point Measurement with FreeProbe 2</h3>
-                <p>Each contact point is captured and recorded in the software in real time, using the existing coordinate system created by scanning or tracking. These measured points can then be used for alignment, inspection, or validation alongside the scanned data.</p>
-                <div class="tab-div">
-                    <ul>
-                        <li><p>Ergonomic design for easy grip and use</p></li>
-                        <li><p>Sturdy structure for enhanced durability and measurement accuracy</p></li>
-                        <li><p>Multi-functional button for versatile functionality</p></li>
-                        <li><p>Seamless integration with several industrial inspection software</p></li>
-                    </ul>
+    <!-- Functionality 2 Section Starts -->
+    <section class="blog26-func2-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="blog26-func2-card">
+                <div class="text-center">
+                    <div class="blog26-func2-tag">Functionality: 2</div>
+                    <h2 class="blog26-func2-main-title">World's Largest FOV Handheld Laser 3D Scanner</h2>
                 </div>
-                <img src="assets/images/blog17/img11.png" class="mb-4" style="width:100%" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section style="margin-top:100px;">
-        <div class="container">
-            <h2 class="sec-head mb-4">The Bottom Line</h2>
-            <p>Freescan Trak Nova is a complete 3D scanning system that combines scanning, tracking, and measurement workflows into one equipment. It features a lightweight carbon fibre structure, and every component is packed neatly in one portable case, so you can carry the complete 3D scanning system with you anywhere in the world. </p>
-            <p>Without any compromise in performance, regardless of the environment, one can scan fine features on a small machined component and then move on to inspecting a large structure, such as a vehicle body or a tooling frame, without shifting between scanning systems.</p>
-            <img src="assets/images/blog17/img12.png" class="mb-4" style="width:100%" alt="">
-        </div>
-    </section>
-
-    <section style="margin-top:60px;">
-        <div class="container">
-            <div class="how-container">
-                <h2 class="sec-head">At Precise3DM, you can get Freescan Trak Nova at OPEX or CAPEX models</h2>
-                <p>depending on how you prefer to invest in your 3D measurement setup. So, talk to our experts today and see if Freescan Trak Nova is worth your investment or not. </p>
-                <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn mt-4">Meet us live online</a>
-
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col">
-                        <div class="contact-div">
-                            <div class="mail">
-                                <a href="tel:+919840478347" class="btn">
-                                <div class="mail-icon">
-                                <img src="assets/images/3d-light-scanner/call.png" alt="">
-                                </div>
-                                </a>
-                                <div class="mail-text">
-                                <h5>Call us now </h5>
-                                <p>+91 98404 78347<span> |</span> +91 63744 06179</p>
-                                </div>
-                            </div>
-                            <div class="mail">
-                                <a href="mailto:sm@precise3dm.com" class="btn">
-                                <div class="mail-icon">
-                                <img src="assets/images/3d-light-scanner/mail.png" alt="">
-                                </div>
-                                </a>
-                                <div class="mail-text">
-                                <h5>Email us</h5>
-                                <p>sm@precise3dm.com <span>|</span> sales@precise3dm.com</p>
-                                </div>
-                            </div>
+                
+                <div class="row align-items-stretch g-4">
+                    <div class="col-lg-9">
+                        <h3 class="blog26-func2-subtitle">FreeScan UE Nova</h3>
+                        <p class="blog26-func2-text">The UE Nova does two jobs. First, it acts as the tracker in the Trak Nova system, tracking the TE Nova's position. Second, it is a powerful standalone large-format handheld 3D scanner &mdash; and currently holds the largest field of view of any handheld on the market at 2.6 &times; 2.2 m.</p>
+                        <p class="blog26-func2-text">With 50 blue laser lines, it captures data at high speed across wide surfaces &mdash; ideal for car bodies, aircraft panels, ship sections, wind turbine blades, and large machine casings. Three selectable working modes (Near: 300-800 mm, Standard: 600-1500 mm, Far: 1200-2600 mm) let you adapt on site without changing hardware.</p>
+                        <p class="blog26-func2-text">The UE Nova can be used completely standalone for large-object scanning projects where the Trak Nova's dynamic tracking is not required.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="w-100 h-100 position-relative" style="min-height: 300px;">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-2.png" alt="FreeScan UE Nova" class="blog26-func2-img position-absolute top-0 start-0">
                         </div>
                     </div>
-                    <div class="col text-right">
-                        <img style="width:80%" src="assets/images/blog-eight/img4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Functionality 2 Section Ends -->
+
+    <!-- Functionality 3 Section Starts -->
+    <section class="blog26-func3-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            
+            <!-- Top Card -->
+            <div class="blog26-func3-top-card mb-4">
+                <div class="text-center">
+                    <div class="blog26-func3-tag">Functionality: 3</div>
+                    <h2 class="blog26-func3-main-title">VPG &mdash; Video Photogrammetry</h2>
+                </div>
+                
+                <h3 class="blog26-func3-subtitle">Accuracy Backbone for Large-Scale Scanning</h3>
+                <p class="blog26-func3-text">VPG is not a standalone scanner it is an accuracy enhancing technology layer built into the Trak Nova ecosystem. It is Shining3D's patented system that uses a camera and a calibrated reference rod to build a precise spatial reference frame around the object being scanned.</p>
+                <p class="blog26-func3-text">The key benefit: it eliminates coded markers and ties the entire scanning session into a single coordinate group. Without VPG, scanning a large object in multiple setups introduces small alignment errors that accumulate. VPG removes this problem by maintaining a consistent volumetric reference throughout.</p>
+            </div>
+
+            <!-- Bottom Cards -->
+            <div class="row align-items-stretch g-4">
+                <div class="col-lg-6 py-3">
+                    <div class="blog26-func3-bottom-card">
+                        <div class="blog26-func3-img-wrap">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-3-1.png" alt="Trak Nova + VPG" class="blog26-func3-img">
+                            <div class="blog26-func3-img-title">Trak Nova + VPG</div>
+                        </div>
+                        <div class="blog26-func3-card-body">
+                            <p class="blog26-func3-card-desc">The UE Nova (acting as the tracker) and the TE Nova both operate within the VPG reference frame. You move in parallel with both units, and the entire scan session is captured as one unified dataset no post-processing alignment needed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="blog26-func3-bottom-card">
+                        <div class="blog26-func3-img-wrap">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-3-2.png" alt="UE Nova + VPG" class="blog26-func3-img">
+                            <div class="blog26-func3-img-title">UE Nova + VPG</div>
+                        </div>
+                        <div class="blog26-func3-card-body">
+                            <p class="blog26-func3-card-desc">When using the UE Nova standalone on large parts, enabling VPG reduces volumetric accuracy errors and merges all scan positions into a single group. Supports photogrammetry up to 3.5 m working distance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Functionality 3 Section Ends -->
+
+    <!-- Functionality 4 Section Starts -->
+    <section class="blog26-func4-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="blog26-func4-card">
+                <div class="text-center">
+                    <div class="blog26-func4-tag">Functionality: 4</div>
+                    <h2 class="blog26-func4-main-title">FreeScan TE Nova</h2>
+                </div>
+                
+                <div class="row align-items-stretch g-4">
+                    <div class="col-lg-6 py-2">
+                        <h3 class="blog26-func4-subtitle">High-Precision Compact Handheld Scanner</h3>
+                        <p class="blog26-func4-text">The TE Nova is the detail-focused scanner in the Trak Nova system. It is compact, lightweight, and designed for capturing small parts, intricate geometry, and features in hard-to-reach areas &mdash; things the large-FOV UE Nova would overshoot.</p>
+                        <p class="blog26-func4-text">In wireless mode, it gives you up to 2.5 hours of battery life. You can use it independently in Partial HD mode (for boosted resolution in selected areas) or as the tracked scanner within the full Trak Nova dynamic tracking setup.</p>
+                        <p class="blog26-func4-text">Think of the TE Nova as the fine-tipped instrument in the kit &mdash; you reach for it when you need to capture a bracket, a weld seam, a drilled hole pattern, or any geometry that demands sub-millimetre detail.</p>
+                    </div>
+                    <div class="col-lg-6 py-2">
+                        <div class="w-100 h-100 position-relative" style="min-height: 300px;">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-4.png" alt="FreeScan TE Nova" class="blog26-func4-img position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover;">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Functionality 4 Section Ends -->
 
+    <!-- Functionality 5 Section Starts -->
+    <section class="blog26-func5-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="blog26-func5-card">
+                <div class="text-center">
+                    <div class="blog26-func5-tag">Functionality: 5</div>
+                    <h2 class="blog26-func5-main-title">Portable CMM FreeProbe 2</h2>
+                </div>
+                
+                <div class="row align-items-stretch g-4">
+                    <div class="col-lg-6 py-2">
+                        <h3 class="blog26-func5-subtitle">Wireless Handheld Tactile Probing System</h3>
+                        <p class="blog26-func5-text">FreeProbe 2 is the portable CMM element of the ecosystem. Unlike the scanners, it does not generate a mesh &mdash; instead it captures precise geometric point data in real time, directly on the part.</p>
+                        <p class="blog26-func5-text">This is especially useful for areas that a scanner physically cannot reach: deep bores, undercuts, recessed slots, and internal features. It is also the right tool when you need a fast dimensional check &mdash; a bolt circle diameter, a hole-to-hole distance, or a flatness measurement &mdash; without running a full scan.</p>
+                        <p class="blog26-func5-text">Being wireless, FreeProbe 2 can be used around large parts without cable management getting in the way. It works within the same FreeScan Trak Nova software environment, so probe measurements and scan data co-exist in the same coordinate space.</p>
+                    </div>
+                    <div class="col-lg-6 py-2">
+                        <div class="w-100 h-100 position-relative" style="min-height: 300px;">
+                            <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/functionality-5.png" alt="Portable CMM FreeProbe 2" class="blog26-func5-img position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; border-radius: 12px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Functionality 5 Section Ends -->
 
-    <!-- ====== End Blog Section ====== -->
+    <!-- Accuracy Reference Section Starts -->
+    <section class="blog26-accuracy-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <div class="blog26-accuracy-card">
+                <div class="text-center">
+                    <div class="blog26-accuracy-tag">Accuracy Reference</div>
+                    <h2 class="blog26-accuracy-main-title">At-a-glance accuracy summary</h2>
+                    <p class="blog26-accuracy-desc">All accuracy figures are verified in the ISO/IEC 17025 accredited Shining3D accuracy laboratory, tested to VDI/VDE 2634 Part 3 and ISO 10360 standards.</p>
+                </div>
+                
+                <div class="blog26-accuracy-table-wrapper">
+                    <table class="blog26-accuracy-table">
+                        <thead>
+                            <tr>
+                                <th>Component</th>
+                                <th>Primary Use</th>
+                                <th>Accuracy</th>
+                                <th>Volumetric Accuracy</th>
+                                <th>Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>TE Nova</td>
+                                <td>Small / detailed parts</td>
+                                <td>0.02 mm (20 &micro;m)</td>
+                                <td>-</td>
+                                <td>Standalone or tracked by UE Nova</td>
+                            </tr>
+                            <tr>
+                                <td>UE Nova (standalone)</td>
+                                <td>Large objects, wide coverage</td>
+                                <td>0.02 mm</td>
+                                <td>0.072 + 0.012 mm/m</td>
+                                <td>No VPG; marker-free via built-in VPG</td>
+                            </tr>
+                            <tr>
+                                <td>UE Nova + VPG</td>
+                                <td>Large objects, improved accuracy</td>
+                                <td>0.02 mm</td>
+                                <td>0.046 + 0.012 mm/m</td>
+                                <td>Photogrammetry working distance: 3.5 m</td>
+                            </tr>
+                            <tr>
+                                <td>Trak Nova (dynamic)</td>
+                                <td>Dynamic tracking, markerless</td>
+                                <td>0.02 mm</td>
+                                <td>0.046 + 0.012 mm/m</td>
+                                <td>Full system with VPG active</td>
+                            </tr>
+                            <tr>
+                                <td>FreeProbe 2</td>
+                                <td>Point measurement / CMM-style</td>
+                                <td>High &mdash; point-level</td>
+                                <td>N/A (point data)</td>
+                                <td>For hidden geometry, direct checks</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Accuracy Reference Section Ends -->
 
-   <!--separator start-->
-   <hr class="separator">
-   <!--separator end-->
+    <!-- Contact Section Starts -->
+    <section class="blog26-contact-section">
+        <div class="container-fluid" style="padding: 0 5%;">
+            <h2 class="blog26-contact-title">Precise3DM is an authorised master reseller for Shining3D in India.</h2>
+            <p class="blog26-contact-desc">Every application is different. The right system depends on your part size, accuracy requirement, and workflow.</p>
+            <a href="Book-demo-get-quote-for-3D-scanner.php" class="blog26-contact-btn">Request a Demo</a>
+        </div>
+    </section>
+    <!-- Contact Section Ends -->
 
+    <!-- Main Content Ends Here -->
 
-   <!-- footer start -->
-   <?php include('includes/footer.php'); ?>
-   <!-- footer end -->
-   <!-- bootstrap links-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-   <script type="text/javascript" src="assets/js/slim.min.js"></script>
-   <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <?php include('includes/footer.php'); ?>
 
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-   <!-- bootstrap links-->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script> 
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
 
 </body>
 

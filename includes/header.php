@@ -1621,6 +1621,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2" href="freescan-track-nova.php">FreeScan Trak Nova</a></li>
                                 <li><a class="dropdown-item text-left py-2" href="freescan-trak-pro-w.php">FreeScan Trak Pro W</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a></li>
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -1717,6 +1718,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     href="https://www.precise3dm.com/freescan-track-pro2.php">Freescan Trak Pro</a></li>
                                 <li><a class="dropdown-item text-left py-2"
                                     href="https://www.precise3dm.com/freescan-track-nova.php">Freescan Trak Nova</a></li>
+                                <li><a class="dropdown-item text-left py-2"
+                                    href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a></li>
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -2338,6 +2341,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
                           <a class="nav-link" href="freescan-trak-pro-w.php">FreeScan Trak Pro W</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a>
                         </div>
                       </li>
                     </ul>

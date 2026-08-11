@@ -116,6 +116,20 @@ RewriteRule ^portable-cmm-3d-scanning-service\.php$ https://precise3dm.com/porta
 
 RewriteRule ^3d-usa-onsite-scan-upload\.php$ https://precise3dm.com/3d-scanning-onsiteform.php [R=301,L]
 
+RewriteRule ^trueprop-software\.phpphp$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^3d-scanning-and-inspection-software\.php$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^cdn-cgi/l/email-protection$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^three-types-of-reverse-engineering-techniques-new\.php$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^why-precise3dm-is-the-best-geomagic-software-reseller-in-india-2026\.php$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^Jewellery-3D-Scanner-IN300\.php$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^geomagic-design-x-features-in-india-2026\.php$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule "^assets/images/digital-measurement-extraction-of-shape/import03d0scan0file\.png$" "https://www.precise3dm.com/" [R=301,L]
+RewriteRule "^assets/images/digital-volume-analysis/20\(1\)\.png$" "https://www.precise3dm.com/" [R=301,L]
+RewriteRule "^assets/images/vechicle-exhaust/Image0Gallery\.png$" "https://www.precise3dm.com/" [R=301,L]
+RewriteRule "^assets/images/freescan-ue-nova/FreeScan-UE-Nova-Brochure-2025\.pdf$" "https://www.precise3dm.com/" [R=301,L]
+RewriteRule ^3d-scanners-on-rental-and-subscription-in-india\.php$ https://www.precise3dm.com/ [R=301,L]
+RewriteRule ^blog-26-why-einstar-vega-for-human-miniature-scanning\.php$ https://www.precise3dm.com/why-einstar-vega-is-one-of-the-best-3d-scanners-for-education-institutions-and-students.php [R=301,L]
+
 # -------------------------------------------------
 # CUSTOM 404 PAGE
 # -------------------------------------------------

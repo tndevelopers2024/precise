@@ -381,9 +381,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Know More Button -->
                     <div class="fdm-card-btn-wrap">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php"
+                        <a href="javascript:void(0)"
                            id="fdm-artish300-know-more"
                            class="fdm-know-more-btn"
+                           data-bs-toggle="modal" 
+                           data-bs-target="#artish300Modal"
                            aria-label="Know more about ARTISH 300">
                             Know More
                         </a>
@@ -446,9 +448,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Know More Button -->
                     <div class="fdm-card-btn-wrap">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php"
+                        <a href="javascript:void(0)"
                            id="fdm-artish700-know-more"
                            class="fdm-know-more-btn"
+                           data-bs-toggle="modal" 
+                           data-bs-target="#artish700Modal"
                            aria-label="Know more about ARTISH 700">
                             Know More
                         </a>
@@ -507,9 +511,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Know More Button -->
                     <div class="fdm-card-btn-wrap">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php"
+                        <a href="javascript:void(0)"
                            id="fdm-artish1200-know-more"
                            class="fdm-know-more-btn"
+                           data-bs-toggle="modal" 
+                           data-bs-target="#artish1200Modal"
                            aria-label="Know more about ARTISH 1200">
                             Know More
                         </a>
@@ -1324,6 +1330,465 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      ========================================================= -->
     <?php include('includes/footer.php'); ?>
 
+
+<!-- ARTISH 300 Modal -->
+<div class="modal fade" id="artish300Modal" tabindex="-1" aria-labelledby="artish300ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="artish300ModalLabel">ARTISH 300 - Specifications</h5>
+      </div>
+      <div class="modal-body p-0">
+        <div class="table-responsive">
+          <table class="table table-bordered mb-0" style="min-width: 600px;">
+            <tbody>
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Printer and Printing Properties</th>
+              </tr>
+              <tr>
+                <td style="width: 35%;">Technology</td>
+                <td>Fused Filament Fabrication (FFF) / Fused Deposition Modeling (FDM)</td>
+              </tr>
+              <tr>
+                <td>Print head</td>
+                <td>Single Extrusion Print Head</td>
+              </tr>
+              <tr>
+                <td>Extruder type</td>
+                <td>Dual Metal Gear Direct Drive – All Metal Extruder</td>
+              </tr>
+              <tr>
+                <td>Build volume</td>
+                <td>300 (X) * 300 (Y) * 300 (Z) mm</td>
+              </tr>
+              <tr>
+                <td>Filament diameter</td>
+                <td>1.75 mm</td>
+              </tr>
+              <tr>
+                <td>Nozzle diameter</td>
+                <td>Swappable 0.4 mm by default (0.6/0.8/1.0/1.2/1.4 mm compatible)<br>Nozzle can be swapped just using fingers at room temperature</td>
+              </tr>
+              <tr>
+                <td>Layer thickness</td>
+                <td>100 - 300 micron with 0.4 mm nozzle<br>200 - 400 micron with 0.6 mm nozzle<br>200 - 600 micron with 0.8 mm nozzle<br>300 - 700 micron with 1 mm nozzle<br>300 - 800 micron with 1.2 mm nozzle<br>400 - 800 micron with 1.4 mm nozzle</td>
+              </tr>
+              <tr>
+                <td>XYZ Precision</td>
+                <td>X – 12.5, Y – 12.5, Z – 2.5 micron</td>
+              </tr>
+              <tr>
+                <td>Print accuracy</td>
+                <td>± 250 microns or 0.002 mm per mm of dimensions (whichever is higher)<br>(This accuracy is with 0.4 mm nozzle and 0.2 mm layer height)</td>
+              </tr>
+              <tr>
+                <td>Print speed</td>
+                <td>25 - 120 mm/s (to be set as per printing material, nozzle size, layer height and part geometry)</td>
+              </tr>
+              <tr>
+                <td>Print head travel speed</td>
+                <td>25 - 150 mm/s</td>
+              </tr>
+              <tr>
+                <td>Build plate</td>
+                <td>Specialized sheet with Glass Fiber</td>
+              </tr>
+              <tr>
+                <td>Heating bed</td>
+                <td>Silicon heat bed</td>
+              </tr>
+              <tr>
+                <td>Build plate temperature</td>
+                <td>Up to 120 ºC</td>
+              </tr>
+              <tr>
+                <td>Build plate leveling</td>
+                <td>Auto bed leveling</td>
+              </tr>
+              <tr>
+                <td>Z supported with two side stepper motor arrangement</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Supported materials</td>
+                <td>PLA, TPU, PETG, ABS, ASA, PA, PC, PLA CF, PETG CF and many many more (CF = Carbon Fibre)</td>
+              </tr>
+              <tr>
+                <td>Nozzle temperature</td>
+                <td>Up to 300 ºC</td>
+              </tr>
+              <tr>
+                <td>Connectivity</td>
+                <td>USB port, WiFi</td>
+              </tr>
+              <tr>
+                <td>Filament runout detection</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Nozzle clogging detection</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Pause and resume Print</td>
+                <td>Yes</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Power requirements</th>
+              </tr>
+              <tr>
+                <td>Input</td>
+                <td>100 - 240V AC, 50-60Hz</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Ambient conditions</th>
+              </tr>
+              <tr>
+                <td>Operating ambient temperature</td>
+                <td>15 - 40ºC, 10 - 90% RH non condensing</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Software</th>
+              </tr>
+              <tr>
+                <td>Supplied software</td>
+                <td>Go3D Slicer, Cura</td>
+              </tr>
+              <tr>
+                <td>Other Supported Slicer Software</td>
+                <td>Simplify 3D</td>
+              </tr>
+              <tr>
+                <td>Supported OS</td>
+                <td>macOS, Windows and Linux</td>
+              </tr>
+              <tr>
+                <td>File types</td>
+                <td>STL, OBJ</td>
+              </tr>
+              <tr>
+                <td>Machine code</td>
+                <td>GCODE</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ARTISH 700 Modal -->
+<div class="modal fade" id="artish700Modal" tabindex="-1" aria-labelledby="artish700ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="artish700ModalLabel">ARTISH 700 - Specifications</h5>
+      </div>
+      <div class="modal-body p-0">
+        <div class="table-responsive">
+          <table class="table table-bordered mb-0" style="min-width: 600px;">
+            <tbody>
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Printer and Printing Properties</th>
+              </tr>
+              <tr>
+                <td style="width: 35%;">Technology</td>
+                <td>Fused Filament Fabrication (FFF) / Fused Deposition Modeling (FDM)</td>
+              </tr>
+              <tr>
+                <td>Print head</td>
+                <td>Single Extrusion Print Head</td>
+              </tr>
+              <tr>
+                <td>Extruder type</td>
+                <td>Dual Metal Gear Direct Drive – All Metal Extruder</td>
+              </tr>
+              <tr>
+                <td>Build volume</td>
+                <td>700 (X) * 500 (Y) * 500 (Z) mm</td>
+              </tr>
+              <tr>
+                <td>Filament diameter</td>
+                <td>1.75 mm</td>
+              </tr>
+              <tr>
+                <td>Nozzle diameter</td>
+                <td>Swappable 0.4 mm by default (0.6/0.8/1.0/1.2/1.4 mm compatible)<br>Nozzle can be swapped just using fingers at room temperature</td>
+              </tr>
+              <tr>
+                <td>Layer thickness</td>
+                <td>100 - 300 micron with 0.4 mm nozzle<br>200 - 400 micron with 0.6 mm nozzle<br>200 - 600 micron with 0.8 mm nozzle<br>300 - 700 micron with 1 mm nozzle<br>300 - 800 micron with 1.2 mm nozzle<br>400 - 800 micron with 1.4 mm nozzle</td>
+              </tr>
+              <tr>
+                <td>XYZ Precision</td>
+                <td>X – 12.5, Y – 12.5, Z – 2.5 micron</td>
+              </tr>
+              <tr>
+                <td>Print accuracy</td>
+                <td>± 250 microns or 0.002 mm per mm of dimensions (whichever is higher)<br>(This accuracy is with 0.4 mm nozzle and 0.2 mm layer height)</td>
+              </tr>
+              <tr>
+                <td>Print speed</td>
+                <td>25 - 100 mm/s (to be set as per printing material, nozzle size, layer height and part geometry)</td>
+              </tr>
+              <tr>
+                <td>Print head travel speed</td>
+                <td>25 - 150 mm/s</td>
+              </tr>
+              <tr>
+                <td>Build plate</td>
+                <td>Specialized sheet with Glass Fiber</td>
+              </tr>
+              <tr>
+                <td>Heating bed</td>
+                <td>Silicon heat bed</td>
+              </tr>
+              <tr>
+                <td>Build plate temperature</td>
+                <td>Up to 120 ºC</td>
+              </tr>
+              <tr>
+                <td>Build plate leveling</td>
+                <td>Auto bed leveling</td>
+              </tr>
+              <tr>
+                <td>Z supported with two side stepper motor arrangement</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Supported materials</td>
+                <td>PLA, TPU, PETG, ABS, ASA, PA, PC, PLA CF, PETG CF and many many more (CF = Carbon Fibre)</td>
+              </tr>
+              <tr>
+                <td>Nozzle temperature</td>
+                <td>Up to 300 ºC</td>
+              </tr>
+              <tr>
+                <td>Connectivity</td>
+                <td>USB port, WiFi</td>
+              </tr>
+              <tr>
+                <td>Filament runout detection</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Nozzle clogging detection</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Pause and resume Print</td>
+                <td>Yes</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Power requirements</th>
+              </tr>
+              <tr>
+                <td>Input</td>
+                <td>100 - 240V AC, 50-60Hz</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Ambient conditions</th>
+              </tr>
+              <tr>
+                <td>Operating ambient temperature</td>
+                <td>15 - 40ºC, 10 - 90% RH non condensing</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #fce458;">Software</th>
+              </tr>
+              <tr>
+                <td>Supplied software</td>
+                <td>Go3D Slicer, Cura</td>
+              </tr>
+              <tr>
+                <td>Other Supported Slicer Software</td>
+                <td>Simplify 3D</td>
+              </tr>
+              <tr>
+                <td>Supported OS</td>
+                <td>macOS, Windows and Linux</td>
+              </tr>
+              <tr>
+                <td>File types</td>
+                <td>STL, OBJ</td>
+              </tr>
+              <tr>
+                <td>Machine code</td>
+                <td>GCODE</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ARTISH 1200 Modal -->
+<div class="modal fade" id="artish1200Modal" tabindex="-1" aria-labelledby="artish1200ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="artish1200ModalLabel">ARTISH 1200 - Specifications</h5>
+      </div>
+      <div class="modal-body p-0">
+        <div class="table-responsive">
+          <table class="table table-bordered mb-0" style="min-width: 600px;">
+            <tbody>
+              <tr>
+                <th colspan="2" style="background-color: #53a3a9; color: #000;">Printer and Printing Properties</th>
+              </tr>
+              <tr>
+                <td style="width: 35%;">Technology</td>
+                <td>Fused Filament Fabrication (FFF) / Fused Deposition Modeling (FDM)</td>
+              </tr>
+              <tr>
+                <td>Print head</td>
+                <td>Single Extrusion Print Head</td>
+              </tr>
+              <tr>
+                <td>Extruder type</td>
+                <td>Dual Metal Gear Direct Drive – All Metal Extruder</td>
+              </tr>
+              <tr>
+                <td>Build volume</td>
+                <td>1200 (X) *1000 (Y) * 1200 (Z) mm</td>
+              </tr>
+              <tr>
+                <td>Filament diameter</td>
+                <td>1.75 mm</td>
+              </tr>
+              <tr>
+                <td>Nozzle diameter</td>
+                <td>Swappable 0.4 mm by default (0.6/0.8/1.0/1.2/1.4 mm compatible)<br>Nozzle can be swapped just using fingers at room temperature</td>
+              </tr>
+              <tr>
+                <td>Layer thickness</td>
+                <td>100 - 300 micron with 0.4 mm nozzle<br>200 - 400 micron with 0.6 mm nozzle<br>200 - 600 micron with 0.8 mm nozzle<br>300 - 700 micron with 1 mm nozzle<br>300 - 800 micron with 1.2 mm nozzle<br>400 - 800 micron with 1.4 mm nozzle</td>
+              </tr>
+              <tr>
+                <td>XYZ Precision</td>
+                <td>X – 12.5, Y – 12.5, Z – 2.5 micron</td>
+              </tr>
+              <tr>
+                <td>Print accuracy</td>
+                <td>± 250 microns or 0.002 mm per mm of dimensions (whichever is higher)<br>(This accuracy is with 0.4 mm nozzle and 0.2 mm layer height)</td>
+              </tr>
+              <tr>
+                <td>Print speed</td>
+                <td>15 - 100 mm/s (to be set as per printing material, nozzle size, layer height and part geometry)</td>
+              </tr>
+              <tr>
+                <td>Print head travel speed</td>
+                <td>Upto 150 mm/s</td>
+              </tr>
+              <tr>
+                <td>Build plate</td>
+                <td>Specialized sheet with Glass Fiber</td>
+              </tr>
+              <tr>
+                <td>Heating bed</td>
+                <td>Silicon heat bed</td>
+              </tr>
+              <tr>
+                <td>Build plate temperature</td>
+                <td>Up to 120 ºC</td>
+              </tr>
+              <tr>
+                <td>Build plate leveling</td>
+                <td>Auto bed leveling</td>
+              </tr>
+              <tr>
+                <td>Z supported with four corners stepper motor arrangement</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Supported materials</td>
+                <td>PLA, TPU, PETG, ABS, ASA, PA, PC, PLA CF, PETG CF and many many more (CF = Carbon Fibre)</td>
+              </tr>
+              <tr>
+                <td>Nozzle temperature</td>
+                <td>Up to 300 ºC</td>
+              </tr>
+              <tr>
+                <td>Connectivity</td>
+                <td>USB port, WiFi</td>
+              </tr>
+              <tr>
+                <td>Filament runout detection</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Nozzle clogging detection</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Pause and resume Print</td>
+                <td>Yes</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #53a3a9; color: #000;">Power requirements</th>
+              </tr>
+              <tr>
+                <td>Input</td>
+                <td>100 - 240V AC, 50-60Hz</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #53a3a9; color: #000;">Ambient conditions</th>
+              </tr>
+              <tr>
+                <td>Operating ambient temperature</td>
+                <td>15 - 40ºC, 10 - 90% RH non condensing</td>
+              </tr>
+
+              <tr>
+                <th colspan="2" style="background-color: #53a3a9; color: #000;">Software</th>
+              </tr>
+              <tr>
+                <td>Supplied software</td>
+                <td>Go3D Transform</td>
+              </tr>
+              <tr>
+                <td>Other Supported Slicer Software</td>
+                <td>Cura, Simplify 3D</td>
+              </tr>
+              <tr>
+                <td>Supported OS</td>
+                <td>macOS, Windows and Linux</td>
+              </tr>
+              <tr>
+                <td>File types</td>
+                <td>STL, OBJ</td>
+              </tr>
+              <tr>
+                <td>Machine code</td>
+                <td>GCODE</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- =========================================================
      SCRIPTS

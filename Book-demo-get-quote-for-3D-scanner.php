@@ -12,14 +12,14 @@ if ($dev_step < 1 || $dev_step > 3) {
   <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Demo / Get Quote for 3D Scanner </title>
-  <meta name="description" content="Contact us Precise3DM, Pan india">
+  <meta name="description" content="Book a free demo or request a quote for advanced 3D scanners from Precise3DM. Find the ideal scanning solution for your industrial needs.">
   <meta property="og:url" content="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" />
   <meta property="og:title" content="Book Demo / Get Quote for 3D Scanner" />
-  <meta property="og:description" content="Contact us Precise3DM, Pan india" />
+  <meta property="og:description" content="Book a free demo or request a quote for advanced 3D scanners from Precise3DM. Find the ideal scanning solution for your industrial needs." />
   <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
   <meta property="twitter:url" content="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" />
   <meta property="twitter:title" content="Book Demo / Get Quote for 3D Scanner" />
-  <meta property="twitter:description" content="Contact us Precise3DM, Pan india" />
+  <meta property="twitter:description" content="Book a free demo or request a quote for advanced 3D scanners from Precise3DM. Find the ideal scanning solution for your industrial needs." />
   <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
   <link rel="canonical" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" />
   <!-- Bootstrap CSS -->

@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> long range 3D scanner in india | price | faro focus  </title>
-    <meta name="description" content="long range terrestrial 3d scanner price , get price quote">
+    <meta name="description" content="Explore long-range 3D scanners in India for large-scale industrial measurement, inspection, and reverse engineering with Precise3DM.">
     <meta name="keywords" content=" faro focus m70 price in india, faro focus s70 price in india, faro focus s150 price in india, faro focus s350 price in india">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,12 +25,12 @@ ini_set('max_execution_time', '-1');
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta property="twitter:title" content="long range 3D scanner in india | price | faro focus"/>
-    <meta name="twitter:description" content="low cost white light 3d scanner in india ,get price quote ,specification" />
+    <meta name="twitter:description" content="Explore long-range 3D scanners in India for large-scale industrial measurement, inspection, and reverse engineering with Precise3DM." />
     <meta property="og:type" content="3D scanner" />
     <meta property="og:title" content="long range 3D scanner in india | price | faro focus " />
     <meta property="og:url" content="https://www.precise3dm.com/long-range-3d-scanner-in-india.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/products/chapter5-Image-1.png" />
-    <meta property="og:description" content="long range terrestrial 3d scanner price , get price quote" />
+    <meta property="og:description" content="Explore long-range 3D scanners in India for large-scale industrial measurement, inspection, and reverse engineering with Precise3DM." />
     <meta property="twitter:url" content="https://www.precise3dm.com/long-range-3d-scanner-in-india.php" />
     <link rel="canonical" href="https://www.precise3dm.com/long-range-3d-scanner-in-india.php"/>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">

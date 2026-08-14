@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beam Analysis | 3D Inpsection Service</title>
-    <meta name="description" content="Large structure analysis, beam analysis service using 3D Sofwtare, Industries like construction">
+    <meta name="description" content="Optimize structural performance with Precise3DM's beam analysis solutions for engineering design, simulation, and product development.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,12 +18,12 @@
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta name="twitter:title" content="Precise3dm" />
-    <meta name="twitter:description" content="Large structure analysis, beam analysis service using 3D Sofwtare, Industries like construction" />
+    <meta name="twitter:description" content="Optimize structural performance with Precise3DM's beam analysis solutions for engineering design, simulation, and product development." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="Beam Analysis | 3D Inpsection Service" />
     <meta property="og:url" content="https://www.precise3dm.com/beam-analysis.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="Large structure analysis, beam analysis service using 3D Sofwtare, Industries like construction" />
+    <meta property="og:description" content="Optimize structural performance with Precise3DM's beam analysis solutions for engineering design, simulation, and product development." />
     <meta property="twitter:url" content="https://www.precise3dm.com/beam-analysis.php" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/beam-analysis.php" />

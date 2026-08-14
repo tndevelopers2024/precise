@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="3D Scanning and 3D Printing events in India">
+    <meta name="description" content="Explore highlights from Precise3DM's 3D scanning and 3D printing events in India, showcasing the latest technologies and innovations.">
     <meta property="og:url" content="https://www.precise3dm.com/3D_scanning_and_Printing_events_in_india_2021.php" />
     <meta property="og:title" content="Events India" />
-    <meta property="og:description" content="3D Scanning and 3D Printing events in India" />
+    <meta property="og:description" content="Explore highlights from Precise3DM's 3D scanning and 3D printing events in India, showcasing the latest technologies and innovations." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/events_images/events_scanning.png" />
     <meta property="twitter:url" content="https://www.precise3dm.com/3D_scanning_and_Printing_events_in_india_2021.php" />
     <meta property="twitter:title" content="Events India" />
-    <meta property="twitter:description" content="3D Scanning and 3D Printing events in India" />
+    <meta property="twitter:description" content="Explore highlights from Precise3DM's 3D scanning and 3D printing events in India, showcasing the latest technologies and innovations." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/events_images/events_scanning.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/3D_scanning_and_Printing_events_in_india_2021.php"/>
     <!--bootstrap css-->

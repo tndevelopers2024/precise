@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue print to CAD Construction | Reverse Engineering Service</title>
-    <meta name="description" content="Geomagic Design X, Remodelling service, cad output, 2D drawing">
+    <meta name="description" content="Convert construction blueprints into accurate CAD drawings with Precise3DM's blueprint-to-CAD conversion services for engineering projects.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,13 +18,13 @@
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta property="twitter:title" content="Blue print to CAD Construction | Reverse Engineering Service"/> 
-    <meta name="twitter:description" content="Geomagic Design X, Remodelling service, cad output, 2D drawing" />
+    <meta name="twitter:description" content="Convert construction blueprints into accurate CAD drawings with Precise3DM's blueprint-to-CAD conversion services for engineering projects." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="Blue print to CAD Construction | Reverse Engineering Service" />
     <meta property="og:url" content="https://www.precise3dm.com/blue-print-to-cad-construction.php" />
     <meta property="twitter:url" content="https://www.precise3dm.com/blue-print-to-cad-construction.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="Geomagic Design X, Remodelling service, cad output, 2D drawing" />
+    <meta property="og:description" content="Convert construction blueprints into accurate CAD drawings with Precise3DM's blueprint-to-CAD conversion services for engineering projects." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/blue-print-to-cad-construction.php" />
     <!--bootstrap css-->

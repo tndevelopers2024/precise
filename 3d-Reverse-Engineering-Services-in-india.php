@@ -6,9 +6,7 @@
   <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3D Reverse Engineering Services in the India</title>
-  <meta name="description" content="3D Scanning Service
-In The INDIA
-SCAN ANYTHING, ANYWHERE">
+  <meta name="description" content="Get professional 3D reverse engineering services in India with Precise3DM. Convert Physical Object into accurate CAD models for manufacturing and design.">
   <meta name="Keywords" content="Teardown Analysis Benchmarking service in india, get quote,">
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,12 +21,12 @@ SCAN ANYTHING, ANYWHERE">
   <meta property="twitter:title" content="3D Reverse Engineering Services in the India"/>
   <meta property="og:type" content="3D Scanning" />
   <meta property="og:title" content="3D Reverse Engineering Services in the India" />
-  <meta property="twitter:description" content="Our team of experts teardown the vehicle and do analyzes and prepares the strategy of design, Vehicle aspects, weight Analysis, Teardown, Data mapping. Get quote" />
+  <meta property="twitter:description" content="Get professional 3D reverse engineering services in India with Precise3DM. Convert Physical Object into accurate CAD models for manufacturing and design." />
   <meta property="og:url" content="https://www.precise3dm.com/3d-Reverse-Engineering-Services-in-india.php" />
   <meta property="og:image"
     content="https://www.precise3dm.com/assets/images/FreeCan UE7/FreeCan UE7/broucheue7/AUTOMOTIVE BENCHMARKING SERVICE.png" />
   <meta property="og:description"
-    content="Our team of experts teardown the vehicle and do analyzes and prepares the strategy of design, Vehicle aspects, weight Analysis, Teardown, Data mapping. Get quote" />
+    content="Get professional 3D reverse engineering services in India with Precise3DM. Convert Physical Object into accurate CAD models for manufacturing and design." />
   <meta property="twitter:url" content="https://www.precise3dm.com/3d-Reverse-Engineering-Services-in-india.php" />
   <link rel="canonical" href="https://www.precise3dm.com/3d-Reverse-Engineering-Services-in-india.php"/>
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">

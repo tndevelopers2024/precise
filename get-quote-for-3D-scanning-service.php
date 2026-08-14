@@ -6,14 +6,14 @@
   <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Quote for 3D scanning service </title>
-  <meta name="description" content="Upload picture submit RFQ and get instant quote for your 3D scanning based project ">
+  <meta name="description" content="Get a quick quote for industrial 3D scanning services with Precise3DM. Accurate scanning solutions for inspection, CAD, and reverse engineering.">
   <meta property="og:url" content="https://www.precise3dm.com/get-quote-for-3D-scanning-service.php" />
   <meta property="og:title" content="Get Quote for 3D scanning service" />
-  <meta property="og:description" content="Upload picture submit RFQ and get instant quote for your 3D scanning based project" />
+  <meta property="og:description" content="Get a quick quote for industrial 3D scanning services with Precise3DM. Accurate scanning solutions for inspection, CAD, and reverse engineering." />
   <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
   <meta property="twitter:url" content="https://www.precise3dm.com/get-quote-for-3D-scanning-service.php" />
   <meta property="twitter:title" content="Get Quote for 3D scanning service" />
-  <meta property="twitter:description" content="Upload picture submit RFQ and get instant quote for your 3D scanning based project" />
+  <meta property="twitter:description" content="Get a quick quote for industrial 3D scanning services with Precise3DM. Accurate scanning solutions for inspection, CAD, and reverse engineering." />
   <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
   <link rel="canonical" href="https://www.precise3dm.com/get-quote-for-3D-scanning-service.php"/>
   

@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us Precise3DM</title>
-    <meta name="description" content="Contact us Precise3DM, Pan india">
+    <meta name="description" content="Contact Precise3DM for expert 3D scanning, reverse engineering, metrology, and additive manufacturing solutions. Our team is ready to assist you.">
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- custom css-->
@@ -19,11 +19,11 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <meta property="og:url" content="https://www.precise3dm.com/contact-us.php" />
     <meta property="og:title" content="Contact us Precise3DM" />
-    <meta property="og:description" content="Contact us Precise3DM, Pan india" />
+    <meta property="og:description" content="Contact Precise3DM for expert 3D scanning, reverse engineering, metrology, and additive manufacturing solutions. Our team is ready to assist you." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="twitter:url" content="https://www.precise3dm.com/contact-us.php" />
     <meta property="twitter:title" content="Contact us Precise3DM" />
-    <meta property="twitter:description" content="Contact us Precise3DM, Pan india" />
+    <meta property="twitter:description" content="Contact Precise3DM for expert 3D scanning, reverse engineering, metrology, and additive manufacturing solutions. Our team is ready to assist you." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/contact-us.php"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->

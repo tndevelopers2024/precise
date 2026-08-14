@@ -4,7 +4,7 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Optical blue light 3D scanner">
+      <meta name="description" content="Submit your 3D scanning project requirements through Precise3DM's online form and receive expert consultation with a customized solution.">
       <!--bootstrap css-->
       <link rel="stylesheet" href="assets/css/bootstrap.css">
       <link rel="stylesheet" href="assets/css/optical-blue-light.css">

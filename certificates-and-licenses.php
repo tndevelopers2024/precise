@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>certificates and licenses </title>
-    <meta name="description" content="certificates and licenses">
+    <meta name="description" content="Explore Precise3DM's certifications and licenses that reflect our commitment to quality, innovation, and trusted 3D scanning solutions.">
     <meta name="keywords" content="certificates and licenses  ">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,10 +27,10 @@ ini_set('max_execution_time', '-1');
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="certificates and licenses" />
     <meta property="og:url" content="https://www.precise3dm.com/certificates-and-licenses.php" />
-    <meta property="og:description" content="certificates and licenses" />
+    <meta property="og:description" content="Explore Precise3DM's certifications and licenses that reflect our commitment to quality, innovation, and trusted 3D scanning solutions." />
     <meta property="twitter:url" content="https://www.precise3dm.com/certificates-and-licenses.php" />
     <meta property="twitter:title" content="certificates and licenses" />
-    <meta property="twitter:description" content="certificates and licenses" />
+    <meta property="twitter:description" content="Explore Precise3DM's certifications and licenses that reflect our commitment to quality, innovation, and trusted 3D scanning solutions." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/FreeCan UE7/FreeCan UE7/broucheue7/Frame 5-min.jpg" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/certificates-and-licenses.php"/>

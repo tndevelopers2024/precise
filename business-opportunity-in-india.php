@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['fullname'])) {
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> New business opportunity in india | Best ROI Return </title>
-    <meta name="description" content="Best ROI return business opportunity in india, technology based inversment">
+    <meta name="description" content="Discover business opportunities with Precise3DM in India's growing 3D scanning and additive manufacturing industry. Partner with leading experts.">
     <meta name="Keywords" content="business opportunity, ROI Return,">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -86,12 +86,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['fullname'])) {
     <meta name="twitter:site" content="@precise3d_m" />
     <!-- <meta name="twitter:title" content="Precise3dm" /> -->
     <meta property="twitter:title" content="New business opportunity in india | Best ROI Return"/>
-    <meta property="twitter:description" content="Best ROI return business opportunity in india, technology based inversment" />
+    <meta property="twitter:description" content="Discover business opportunities with Precise3DM in India's growing 3D scanning and additive manufacturing industry. Partner with leading experts." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="New business opportunity in india | Best ROI Return" />
     <meta property="og:url" content="https://www.precise3dm.com/buisness-opportunity-in-india.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/FreeCan UE7/FreeCan UE7/broucheue7/AUTOMOTIVE BENCHMARKING SERVICE.png" />
-    <meta property="og:description" content="Best ROI return business opportunity in india, technology based inversment." />
+    <meta property="og:description" content="Discover business opportunities with Precise3DM in India's growing 3D scanning and additive manufacturing industry. Partner with leading experts." />
     <meta property="twitter:url" content="https://www.precise3dm.com/business-opportunity-in-india.php" />
     <link rel="canonical" href="https://www.precise3dm.com/business-opportunity-in-india.php"/>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">

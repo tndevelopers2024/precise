@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyre Flatten Analysis | 3D Inspection Service</title>
-    <meta name="description" content="3D CAD file inspection report, Tyre surface analysis using geomagic control, tyre industry  ">
+    <meta name="description" content="Perform precise tyre flatten analysis with advanced 3D scanning and engineering solutions from Precise3DM for automotive applications.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,13 +18,13 @@
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta property="twitter:title" content="Tyre Flatten Analysis | 3D Inspection Service"/> 
-    <meta name="twitter:description" content="3D CAD file inspection report, Tyre surface analysis using geomagic control, tyre industry  " />
+    <meta name="twitter:description" content="Perform precise tyre flatten analysis with advanced 3D scanning and engineering solutions from Precise3DM for automotive applications." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="Tyre Flatten Analysis | 3D Inspection Service " />
     <meta property="og:url" content="https://www.precise3dm.com/tyre-flatten-analysis.php" />
     <meta property="twitter:url" content="https://www.precise3dm.com/tyre-flatten-analysis.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="3D CAD file inspection report, Tyre surface analysis using geomagic control, tyre industry  " />
+    <meta property="og:description" content="Perform precise tyre flatten analysis with advanced 3D scanning and engineering solutions from Precise3DM for automotive applications." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/tyre-flatten-analysis.php" />
     <!--bootstrap css-->

@@ -12,7 +12,7 @@ ini_set('max_execution_time', '-1');
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Scanning Service chennai">
+    <meta name="description" content="Explore Precise3DM's online 3D scanning webinar featuring industry insights, live demonstrations, and the latest scanning technologies.">
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- font awesome cdn -->
@@ -22,11 +22,11 @@ ini_set('max_execution_time', '-1');
     <link rel="stylesheet" href="assets/css/events_land.css">
     <meta property="og:url" content="https://www.precise3dm.com/online_3d_scanning_webinar_2021.php" />
     <meta property="og:title" content="Events India Scanning" />
-    <meta property="og:description" content="Scanning Service chennai" />
+    <meta property="og:description" content="Explore Precise3DM's online 3D scanning webinar featuring industry insights, live demonstrations, and the latest scanning technologies." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="twitter:url" content="https://www.precise3dm.com/online_3d_scanning_webinar_2021.php" />
     <meta property="twitter:title" content="Events India Scanning" />
-    <meta property="twitter:description" content="Scanning Service chennai" />
+    <meta property="twitter:description" content="Explore Precise3DM's online 3D scanning webinar featuring industry insights, live demonstrations, and the latest scanning technologies." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/online_3d_scanning_webinar_2021.php"/>
     <title>Events India Scanning</title>

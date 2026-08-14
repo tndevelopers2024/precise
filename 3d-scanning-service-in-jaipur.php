@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3d scanning in Jaipur | 3d scanning service in Jaipur</title>
-    <meta name="description" content=" 3d scanning provider in Jaipur, Rajastan, Get price quote for our 3d scanning service">
+    <meta name="description" content="Avail professional 3D scanning services in Jaipur from Precise3DM for reverse engineering, inspection, product design, and digital manufacturing.">
     <meta name="keywords" content="3D Laser Scanning in Jaipur, 3d scanning in Jaipur, 3d scanning in india, 3d Scanning Services in India, 3d scanning services, 3d scanning services in Jaipur">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,14 +25,14 @@ ini_set('max_execution_time', '-1');
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta property="twitter:title" content="3d scanning service in Jaipur | 3d scanning in Jaipur"/> 
-    <meta name="twitter:description" content="3d scanning provider in Jaipur, Rajastan, Get price quote for our 3d scanning service" />
+    <meta name="twitter:description" content="Avail professional 3D scanning services in Jaipur from Precise3DM for reverse engineering, inspection, product design, and digital manufacturing." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="3d scanning service in Jaipur | 3d scanning in Jaipur" />
     <meta property="og:url" content="https://www.precise3dm.com/3d-scanning-service-in-jaipur.php" />
     <meta property="twitter:url" content="https://www.precise3dm.com/3d-scanning-service-in-jaipur.php" />
     <link rel="canonical" href="https://www.precise3dm.com/3d-scanning-service-in-jaipur.php"/>
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="3d scanning provider in Jaipur, Rajastan, Get price quote for our 3d scanning service" />
+    <meta property="og:description" content="Avail professional 3D scanning services in Jaipur from Precise3DM for reverse engineering, inspection, product design, and digital manufacturing." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">

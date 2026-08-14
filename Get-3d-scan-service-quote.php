@@ -7,14 +7,14 @@
   <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get 3D Scan Service Quote</title>
-  <meta name="description" content="Contact us Precise3DM, Pan india">
+  <meta name="description" content="Request a customized quote for professional 3D scanning services from Precise3DM. Fast, accurate, and reliable solutions across India.">
   <meta property="og:url" content="https://www.precise3dm.com/Get-3d-scan-service-quote.php" />
   <meta property="og:title" content="Get 3D Scan Service Quote" />
-  <meta property="og:description" content="Contact us Precise3DM, Pan india" />
+  <meta property="og:description" content="Request a customized quote for professional 3D scanning services from Precise3DM. Fast, accurate, and reliable solutions across India." />
   <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
   <meta property="twitter:url" content="https://www.precise3dm.com/Get-3d-scan-service-quote.php" />
   <meta property="twitter:title" content="Get 3D Scan Service Quote" />
-  <meta property="twitter:description" content="Contact us Precise3DM, Pan india" />
+  <meta property="twitter:description" content="Request a customized quote for professional 3D scanning services from Precise3DM. Fast, accurate, and reliable solutions across India." />
   <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
   <link rel="canonical" href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"/>
   

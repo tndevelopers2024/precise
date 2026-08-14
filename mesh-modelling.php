@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesh Modelling | Reverse Engineering Service</title>
-    <meta name="description" content="mesh modelling service in india, geomagic design x software, 3d software,  cad modelling">
+    <meta name="description" content="Discover mesh modelling services by Precise3DM for accurate 3D model creation, reverse engineering, product design, and manufacturing workflows.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,13 +18,13 @@
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta property="twitter:title" content="Mesh Modelling | Reverse Engineering Service"/> 
-    <meta name="twitter:description" content="mesh modelling service in india, geomagic design x software, 3d software,  cad modelling" />
+    <meta name="twitter:description" content="Discover mesh modelling services by Precise3DM for accurate 3D model creation, reverse engineering, product design, and manufacturing workflows." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="Mesh Modelling | Reverse Engineering Service" />
     <meta property="og:url" content="https://www.precise3dm.com/mesh-modelling.php" />
     <meta property="twitter:url" content="https://www.precise3dm.com/mesh-modelling.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="mesh modelling service in india, geomagic design x software, 3d software,  cad modelling" />
+    <meta property="og:description" content="Discover mesh modelling services by Precise3DM for accurate 3D model creation, reverse engineering, product design, and manufacturing workflows." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/mesh-modelling.php" />
     <!--bootstrap css-->

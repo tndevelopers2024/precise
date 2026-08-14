@@ -12,7 +12,7 @@ ini_set('max_execution_time', '-1');
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Scanning Service chennai">
+    <meta name="description" content="Watch Precise3DM's digital manufacturing webinar covering Industry 4.0, 3D scanning, reverse engineering, and advanced production solutions.">
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- font awesome cdn -->
@@ -20,15 +20,14 @@ ini_set('max_execution_time', '-1');
     <!-- custom css-->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/events_land.css">
-    <title>Events India for manufacturing lab</title>
-    
+    <title>Events India for manufacturing lab</title>    
     <meta property="og:url" content="https://www.precise3dm.com/online_webinar_on_digital_manufacturing_lab.php" />
     <meta property="og:title" content="Events India for manufacturing lab" />
-    <meta property="og:description" content="Scanning Service chennai" />
+    <meta property="og:description" content="Watch Precise3DM's digital manufacturing webinar covering Industry 4.0, 3D scanning, reverse engineering, and advanced production solutions." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="twitter:url" content="https://www.precise3dm.com/online_webinar_on_digital_manufacturing_lab.php" />
     <meta property="twitter:title" content="Events India for manufacturing lab" />
-    <meta property="twitter:description" content="Scanning Service chennai" />
+    <meta property="twitter:description" content="Watch Precise3DM's digital manufacturing webinar covering Industry 4.0, 3D scanning, reverse engineering, and advanced production solutions." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/online_webinar_on_digital_manufacturing_lab.php"/>
     <script src="assets/js/jquery-3.6.0.min.js"></script>

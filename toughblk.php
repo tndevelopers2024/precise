@@ -4,16 +4,15 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="3D SCANNING SERVICE">
+		<meta name="description" content="Explore Tough BLK 3D printing material from Precise3DM for durable prototypes, functional parts, and high-performance manufacturing projects.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Figure 4 TOUGH-BLK 10: Ideal for Automotive Prototyping</title>
 		<meta name="title" content="Figure 4 TOUGH-BLK 10: Ideal for Automotive Prototyping"/>
-		<meta name="description" content="Achieve high-speed printing up to 100 mm/hour with TOUGH-BLK 10. Perfect for rapid design iteration and low-volume production. Request a demo today."/>
 
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.precise3dm.com/toughblk.php" />
 		<meta property="og:title" content="Figure 4 TOUGH-BLK 10: Ideal for Automotive Prototyping" />
-		<meta property="og:description" content="Achieve high-speed printing up to 100 mm/hour with TOUGH-BLK 10. Perfect for rapid design iteration and low-volume production. Request a demo today." />
+		<meta property="og:description" content="Explore Tough BLK 3D printing material from Precise3DM for durable prototypes, functional parts, and high-performance manufacturing projects." />
 		<meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
 		<meta property="og:image:width" content="1200"/>
 		<meta property="og:image:height" content="630"/>
@@ -21,7 +20,7 @@
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://www.precise3dm.com/toughblk.php" />
 		<meta property="twitter:title" content="Figure 4 TOUGH-BLK 10: Ideal for Automotive Prototyping" />
-		<meta property="twitter:description" content="Achieve high-speed printing up to 100 mm/hour with TOUGH-BLK 10. Perfect for rapid design iteration and low-volume production. Request a demo today." />
+		<meta property="twitter:description" content="Explore Tough BLK 3D printing material from Precise3DM for durable prototypes, functional parts, and high-performance manufacturing projects." />
 		<meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
 
 		<link rel="canonical" href="https://www.precise3dm.com/toughblk.php"/>

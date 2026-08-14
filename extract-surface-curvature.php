@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extract Surface Curvature | Reverse Engineering Service</title>
-    <meta name="description" content="sheet metal manufacturer industry, sheet metal nalaysis, CAD , Design X software">
+    <meta name="description" content="Discover highlights from Precise3DM's 3D scanning and 3D printing open house event showcasing innovative digital manufacturing solutions.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,12 +19,12 @@
     <meta name="twitter:site" content="@precise3d_m" />
     <meta name="twitter:title" content="Precise3dm" />
     <meta property="twitter:url" content="https://www.precise3dm.com/extract-surface-curvature.php" />
-    <meta name="twitter:description" content="sheet metal manufacturer industry, sheet metal nalaysis, CAD , Design X software" />
+    <meta name="twitter:description" content="Discover highlights from Precise3DM's 3D scanning and 3D printing open house event showcasing innovative digital manufacturing solutions." />
     <meta property="og:type" content="3D Scanning" />
     <meta property="og:title" content="Extract Surface Curvature | Reverse Engineering Service" />
     <meta property="og:url" content="https://www.precise3dm.com/extract-surface-curvature.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="sheet metal manufacturer industry, sheet metal nalaysis, CAD , Design X software" />
+    <meta property="og:description" content="Discover highlights from Precise3DM's 3D scanning and 3D printing open house event showcasing innovative digital manufacturing solutions." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/extract-surface-curvature.php" />
   	

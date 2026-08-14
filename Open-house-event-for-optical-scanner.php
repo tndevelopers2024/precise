@@ -12,14 +12,14 @@ ini_set('max_execution_time', '-1');
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="3D Scanning and 3D Printing open house event">
+    <meta name="description" content="Attend Precise3DM's optical scanner open house event to explore advanced 3D scanning solutions through live product demonstrations and expert sessions.">
     <meta property="og:url" content="https://www.precise3dm.com/Open-house-event-for-optical-scanner.php" />
     <meta property="og:title" content="open house event for optical scanner" />
-    <meta property="og:description" content="3D Scanning and 3D Printing open house event" />
+    <meta property="og:description" content="Attend Precise3DM's optical scanner open house event to explore advanced 3D scanning solutions through live product demonstrations and expert sessions." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="twitter:url" content="https://www.precise3dm.com/Open-house-event-for-optical-scanner.php" />
     <meta property="twitter:title" content="open house event for optical scanner" />
-    <meta property="twitter:description" content="3D Scanning and 3D Printing open house event" />
+    <meta property="twitter:description" content="Attend Precise3DM's optical scanner open house event to explore advanced 3D scanning solutions through live product demonstrations and expert sessions." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/Open-house-event-for-optical-scanner.php"/>
     <!--bootstrap css-->

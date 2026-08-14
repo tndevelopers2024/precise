@@ -4,7 +4,7 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="3D SCANNING SERVICE">
+      <meta name="description" content="Learn about Eggshell 3D printing material from Precise3DM, offering precision, fine detail, and reliable performance for prototyping needs.">
       <!--bootstrap css-->
       <link rel="stylesheet" href="assets/css/bootstrap.css">
       <link rel="stylesheet" href="assets/css/scanning-service.css">
@@ -12,11 +12,11 @@
       <title>Figure-4-Landing-Page</title>
       <meta property="og:url" content="https://www.precise3dm.com/eggshell.php" />
       <meta property="og:title" content="Figure-4-Landing-Page" />
-      <meta property="og:description" content="3D SCANNING SERVICE" />
+      <meta property="og:description" content="Learn about Eggshell 3D printing material from Precise3DM, offering precision, fine detail, and reliable performance for prototyping needs." />
       <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
       <meta property="twitter:url" content="https://www.precise3dm.com/eggshell.php" />
       <meta property="twitter:title" content="Figure-4-Landing-Page" />
-      <meta property="twitter:description" content="3D SCANNING SERVICE" />
+      <meta property="twitter:description" content="Learn about Eggshell 3D printing material from Precise3DM, offering precision, fine detail, and reliable performance for prototyping needs." />
       <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
       <link rel="canonical" href="https://www.precise3dm.com/eggshell.php"/>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96527116-1"></script>

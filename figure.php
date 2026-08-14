@@ -1,10 +1,10 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
    <head>
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="3D SCANNING SERVICE">
+      <meta name="description" content="Discover Figure 3D printing solutions from Precise3DM for rapid prototyping, product development, and high-quality manufacturing applications.">
       <!--bootstrap css-->
       <link rel="stylesheet" href="assets/css/bootstrap.css">
       <link rel="stylesheet" href="assets/css/scanning-service.css">
@@ -15,11 +15,11 @@
       <title>Filter_Page</title>
       <meta property="og:url" content="https://www.precise3dm.com/figure.php" />
       <meta property="og:title" content="Filter_Page" />
-      <meta property="og:description" content="3D SCANNING SERVICE" />
+      <meta property="og:description" content="Discover Figure 3D printing solutions from Precise3DM for rapid prototyping, product development, and high-quality manufacturing applications." />
       <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
       <meta property="twitter:url" content="https://www.precise3dm.com/figure.php" />
       <meta property="twitter:title" content="Filter_Page" />
-      <meta property="twitter:description" content="3D SCANNING SERVICE" />
+      <meta property="twitter:description" content="Discover Figure 3D printing solutions from Precise3DM for rapid prototyping, product development, and high-quality manufacturing applications." />
       <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
       <link rel="canonical" href="https://www.precise3dm.com/figure.php"/>
       

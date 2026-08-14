@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the Tri-Mode Wireless Laser 3D Scanner for fast, accurate, and flexible industrial 3D scanning. Contact Precise3DM for expert solutions.">
     <title>EinScan Rigil Tri-Mode Wireless Laser 3D Scanner | Precise3DM</title>
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- custom css for site globals if any -->
     <link rel="stylesheet" href="assets/css/styles.css">
-    
     <!-- Page specific styling -->
     <link rel="stylesheet" href="assets/css/tri-mode-wireless-laser-3d-scanner.css?v=11">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">

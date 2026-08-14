@@ -12,14 +12,14 @@ ini_set('max_execution_time', '-1');
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="3D Scanning and 3D Printing open house event">
+    <meta name="description" content="Join Precise3DM's free 3D scanning event to experience live demonstrations, industrial applications, and advanced scanning technologies.">
     <meta property="og:url" content="https://www.precise3dm.com/free-3d-scanning-event.php" />
     <meta property="og:title" content="Free Live 3D Scanning & Reverse Engineering event in Coimbatore" />
-    <meta property="og:description" content="3D Scanning and 3D Printing open house event" />
+    <meta property="og:description" content="Join Precise3DM's free 3D scanning event to experience live demonstrations, industrial applications, and advanced scanning technologies." />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="twitter:url" content="https://www.precise3dm.com/free-3d-scanning-event.php" />
     <meta property="twitter:title" content="Free Live 3D Scanning & Reverse Engineering event in Coimbatore" />
-    <meta property="twitter:description" content="3D Scanning and 3D Printing open house event" />
+    <meta property="twitter:description" content="Join Precise3DM's free 3D scanning event to experience live demonstrations, industrial applications, and advanced scanning technologies." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/free-3d-scanning-event.php"/>
     <!--bootstrap css-->

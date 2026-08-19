@@ -690,78 +690,190 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-   <!-- banner -->
-   <div class="container-fluid light">
-      <div class="row">
-         <div class="col-lg-2 col-4 theme-con">
-            <label class="custom-switch" id="customSwitchContainer">
-               <input type="checkbox" id="customToggleSwitch">
-               <span class="custom-slider round"></span>
-            </label>
-         </div>
-         <div class="col-lg-10 col-8 address-con hidden">
-            <i class="fa-solid fa-phone"></i>
-            <p class="dm-n"><span style="color:rgba(255, 147, 30, 1);font-weight:700;">Call Us now at</span> <br>3D
-               Service: <a href="tel:9840478347">9840478347</a> <span>|</span> <a href="tel:9940352575">9940352575</a>
-            </p>
-            <i class="fa-solid fa-envelope"></i>
-            <p class="dm-n"><span style="color:rgba(255, 147, 30, 1);font-weight:700;">Email Us at</span> <br><a
-                  href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> <br><a
-                  href="mailto:service@precise3dm.com">service@precise3dm.com</a></p>
-         </div>
-         <!-- mob -->
-         <div class="col-lg-10 col-12 address-con desk-hide">
-            <div class="text-center">
-               <a href="tel:9840478347"><i class="fa-solid fa-phone"></i></a>
-               <span style="color:rgba(255, 147, 30, 1);font-weight:700;">Call Us now at</span> <br>
-               <p class=""><a href="tel:9840478347">9840478347</a> <br> <a href="tel:9940352575">9940352575</a></p>
-            </div>
-            <div class="text-center">
-               <i class="fa-solid fa-envelope"></i><br>
-               <p class=""><span style="color:rgba(255, 147, 30, 1);font-weight:700;">Email Us at</span> <br>
-               <p class=""><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> <br><a
-                     href="mailto:service@precise3dm.com">service@precise3dm.com</a></p>
-            </div>
-         </div>
-         <!--  -->
-      </div>
-   </div>
+   <style>
+      .hero {
+         background-image: linear-gradient(#FFEFDE7D, #FFEFDE7D), url(assets/images/service-in-india/banner-bg.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: 120px;
+         padding: 60px 0;
+      }
 
+      .hero-head {
+         background-color: #FFEFDE;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: fit-content;
+         padding: 30px 50px;
+         border-radius: 2rem;
+         border: 1px solid #FF8D1E;
+         position: relative;
+         margin: 150px auto;
+      }
 
-   <section id="banner"
-      style=" background: url(assets/images/optimscan-plus/banner.png) !important;background-size:100% 100% !important;"
-      class="banner">
+      .hero-btns {
+         display: flex;
+         gap: 20px;
+         position: absolute;
+         bottom: -25px;
+      }
 
-      <div class="container main-banner">
-         <div class="row">
-            <div class="">
-               <h1 style="font-size:45px;" class="about-head pb-3">3D Scanning
-                  Service
-                  in Coimbatore</h1>
-               <div class="head1">
-                  <h2 class="opti-head">3D Scan any size of the components and objects in and around Coimbatore !!</h2>
+      .hero-head h1 {
+         font-size: 50px;
+         font-weight: bold;
+         color: #234057;
+      }
+
+      .hero-head h1 span {
+         color: #FF8D1E;
+      }
+
+      .call {
+         display: flex;
+         justify-content: right;
+         gap: 10px;
+      }
+
+      .call>div {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         background: #FFEFDE;
+         padding: 10px 20px;
+         border-radius: 5rem;
+         border: 1px solid #FF8D1E;
+      }
+
+      .call .btn {
+         padding: 0 !important;
+         width: 60px !important;
+         height: 60px !important;
+         display: grid;
+         place-content: center;
+         border-radius: 50% !important;
+      }
+
+      .call-text h5 {
+         color: #000000 !important;
+         font-weight: 600;
+      }
+
+      .call-text p {
+         color: #000000;
+         margin-bottom: 0 !important;
+      }
+
+      .call-text p span {
+         color: #FF8D1E;
+      }
+
+      .hero .mail {
+         display: flex;
+         justify-content: left;
+         gap: 10px;
+      }
+
+      .hero .mail>div {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         background: #FFEFDE;
+         padding: 10px 20px;
+         border-radius: 5rem;
+         border: 1px solid #FF8D1E;
+      }
+
+      .mail .btn {
+         padding: 0 !important;
+         width: 70px !important;
+         height: 60px !important;
+         display: grid;
+         place-content: center;
+         border-radius: 50% !important;
+      }
+
+      .mail-text h5 {
+         color: #000000 !important;
+         font-weight: 600;
+      }
+
+      .mail-text p {
+         color: #000000;
+         margin-bottom: 0 !important;
+      }
+
+      .mail-text p span {
+         color: #FF8D1E;
+      }
+
+      @media screen and (max-width:700px) {
+         .hero {
+            margin-top: 0;
+         }
+
+         .call {
+            justify-content: left;
+         }
+
+         .hero-head h1 {
+            font-size: 30px;
+         }
+
+         .hero-head {
+            margin: 30px 0;
+         }
+      }
+   </style>
+
+   <!-- =================
+          Hero Section Start
+      ===========================-->
+      
+   <section class="hero">
+      <div class="container">
+         <div class="call">
+            <div>
+               <a href="tel:+91 9840478347" class="btn">
+                  <div class="call-icon">
+                     <img src="assets/images/3d-light-scanner/call.png" alt="">
+                  </div>
+               </a>
+               <div class="call-text">
+                  <h5>Call us now</h5>
+                  <p>+91 98404 78347 <span>|</span> +91 90257 00192 <span>|</span>+91 99403 52575 </p>
                </div>
-               <p class="pb-3">For 3D Reverse engineering & 3D Inspection Requirements </p>
-
-               <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"> <button class="btn"
-                     id="getdemo">Get a
-                     Quote Now</button></a>
-               <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"><button class="btn"
-                     id="getdemo">Chat With Us / Get a call back</button></a>
             </div>
          </div>
-         <div class="banner-img desktop-banner-img">
-            <img id="banner-image" src="assets/images/hyderabad-img/banner.png" alt="">
+
+         <div class="hero-head">
+            <h1 class="text-center">Most Trusted Company for <br><span>3D Scanning Services In Coimbatore</span></h1>
+            <p>3D Scan Anything Anywhere and AnySize in Coimbatore</p>
+            <div class="hero-btns">
+               <a href="Get-3d-scan-service-quote.php" class="btn">Get Quote</a>
+               <a href="Get-3d-scan-service-quote.php" class="btn">Book a Demo</a>
+            </div>
          </div>
-         <div class="mobile-banner-img">
-            <img src="assets/images/hyderabad-img/mob-banner1.png" alt="">
-            <img src="assets/images/hyderabad-img/mob-arrow.png" alt="">
-            <img src="assets/images/hyderabad-img/mob-banner2.png" alt="">
-            <img src="assets/images/hyderabad-img/mob-arrow.png" alt="">
-            <img src="assets/images/hyderabad-img/mob-banner3.png" alt="">
+         
+         <div class="mail mt-5">
+            <div class="div">
+               <a href="mailto:sm@precise3dm.com" class="btn">
+                  <div class="mail-icon">
+                     <img src="assets/images/3d-light-scanner/mail.png" alt="">
+                  </div>
+               </a>
+               <div class="mail-text">
+                  <h5>Email us</h5>
+                  <p>sm@precise3dm.com <span>|</span> service@precise3dm.com</p>
+               </div>
+            </div>
          </div>
       </div>
    </section>
+
+   <!-- ================
+     Hero section end
+   ======================-->
 
    <!-- ==========================
           About Section start

@@ -163,136 +163,190 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- header start -->
     <?php include('includes/header.php'); ?>
     <!-- header end -->
-    <!--hero section start-->
-    <section id="chennai-service-heroimg">
-        <div class="chennai-heroimg-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="hero-content-phone">
-                        <p>Give a call to Book us now</p>
-                        <h2><i class="fas fa-phone-alt"></i>+91 99403 52575</h2>
-                    </div>
-                    <div class="hero-head-center">
-                        <h1>3D SCANNING SERVICES IN CHENNAI</h1>
-                        <h4>GET A RAPID QUOTE IN ONE CLICK</h4>
-                    </div>
-                    <div class="chennai-hero-btns">
-                        <a href="#pickup_section" class="btn mb-2" style="font-size: 16px;">FREE COMPONENT PICK UP</a>
-                        <a href="#onsite_chennai_section" class="btn mb-2" style="font-size: 16px;">ON-SITE 3D SCANNING</a>
-                        <a href="#che_location" class="btn mb-2" style="font-size: 16px;">LOCATION</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 chennai-hero-form">
-                    <?php
-                    if (isset($_SESSION['status'])) {
-                        if ($_SESSION['status'] == "success") {
-                            echo "<div class='row status-div'>
-                                    <p class='status-message'>Thanks for your interest in our 3d scanning service. You will receive the call and the quote from our business executives.</p>
-                                    <div style='width: 100%'><a href='https://www.precise3dm.com/3d-scanning-service-in-chennai.php'><button class='step-form-btn'>Back</button></a></div></div>";
-                        } else {
-                            echo "<div class='row status-div'>
-                                    <p class='status-message'>Oops...Something went wrong, please try again
-                                </p><div style='width: 100%'><a href='javascript:void(0);'><button class='step-form-btn'>Back</button></a></div></div>";
-                        }
-                        unset($_SESSION['status']);
-                    }else { ?>
-                    <form id="che_form" method="POST" action="chennai_mail.php" enctype="multipart/form-data">
-                        <div class="form-group chennai-contact-form">
-                            <h3>Contact information</h3>
-                            <input type="text" name="che_name" id="che_name" class="form-control" placeholder="Name*">
-                            <input type="email" name="che_email" id="che_email" class="form-control" placeholder="Email*">
-                            <input type="text" name="che_companyname" id="che_companyname" placeholder="Company name" class="form-control">
-                            <input type="text" name="che_contnum" id="che_contnum" class="form-control" placeholder="Contact number*" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10">
-                            <input type="text" name="che_gst" id="che_gst" placeholder="GST Number" class="form-control">
-                            <div class="form-group upload-btn text-center">
-                                <label for="uploadscan" class="custom-file-upload" style="font-size: 16px;">
-                                    Upload Image
-                                    <i class="fas fa-arrow-up"></i><br>
-                                    <p style="font-size: 16px;">OPTIONAL</p>
-                                </label>
-                                <input type="file" class="form-control" id="uploadscan" name="uploadscan" required />
-                            </div>
-                            <div class="text-center chennai-contact-form-btn">
-                                <button class="btn che-next" style="font-size: 16px;" type="button" disabled>NEXT</button>
-                            </div>
-                        </div>
-                        <div class="form-group chennai-contact-form2 che-checkbox">
-                            <h3>Select accuracy</h3>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="accuracy_check1" value="1 mm to 100 mm">1 mm to 100 mm</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="accuracy_check2" value="100 mm to 500 mm<">100 mm to 500 mm</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="accuracy_check3" value="500 mm to 1000 mm">500 mm to 1000 mm</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="accuracy_check4" value="1000 mm to 5000 mm">1000 mm to 5000 mm</label>
-                            </div>
-                             <div class="checkbox">
-                                <label><input type="checkbox" name="accuracy_check5" value="Large objects and environment such as factories, Ships, Aircrafts">Large objects and environment such <span class="adj">as factories, Ships, Aircrafts</span></label>
-                            </div>
-                            <div class="text-center che-accuracy mt-3">
-                                <button class="btn che-back2" type="button">BACK</button>
-                                <button class="btn che-next2 shift" type="button" disabled>NEXT</button>
-                            </div>
-                        </div>
-                        <div class="form-group chennai-contact-form3 che-checkbox">
-                            <h3>Scanning Technique</h3>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="scan_check1" value="GOM OPTICAL 3D SCANNING">GOM OPTICAL 3D SCANNING</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="scan_check2" value="HANDHELD METROLOGY 3D SCANNING">HANDHELD METROLOGY 3D SCANNING</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="scan_check3" value="MULTIFUNCTIONAL 3D SCANNING">MULTIFUNCTIONAL 3D SCANNING</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="scan_check4" value="LONG RANGE 3D SCANNING">LONG RANGE 3D SCANNING</label>
-                            </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox" name="scan_check5" value="ARM BASED 3D SCANNING">ARM BASED 3D SCANNING</label>
-                            </div>
-                            <div class="checkbox text-uppercase">
-                                <label><input type="checkbox" name="scan_check6" value="I am not sure what 3D scanner suits my requirement">I am not sure what 3D scanner <span class="adj">suits my requirement</span></label>
-                            </div>
-                             
-                            <div class="text-center che-accuracy mt-5">
-                                <button class="btn che-back3" type="button">BACK</button>
-                                <button class="btn che-next3 shift" type="button" disabled>NEXT</button>
-                            </div>
-                        </div>
-                        <div class="form-group chennai-contact-form4 che-checkbox">
-                            <h3>Service assistance</h3>
-                            <div class="checkbox text-uppercase">
-                                <label><input type="checkbox" name="service_check1">I'LL courier the part to your <span class="adj">address</span></label>
-                            </div>
-                            <div class="checkbox text-uppercase">
-                                <label><input type="checkbox" name="service_check2">Bring scanners and 3d scan at my <span class="adj">place</span></label>
-                            </div>
-                            <div class="checkbox text-uppercase">
-                                <label><input type="checkbox" name="service_check3">I'LL bring the part to your place</label>
-                            </div>
-                            <div class="checkbox text-uppercase">
-                                <label><input type="checkbox" name="service_check4">Arrange a part Pick up service</label>
-                            </div>	
-                            <div class="checkbox text-uppercase">
-                                <label><input type="checkbox" name="service_check5">Others<span class="adj"></span></label>
-                            </div>
-                            <div class="text-center che-accuracy mt-5">
-                                <button type="submit" class="btn che-submit shift" disabled>GET QUOTE</button>
-                            </div>
-                        </div>
-                    </form>
-                    <?php } ?>
-                </div>
+       <style>
+      .hero {
+         background-image: linear-gradient(#FFEFDE7D, #FFEFDE7D), url(assets/images/service-in-india/banner-bg.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: 120px;
+         padding: 60px 0;
+      }
+
+      .hero-head {
+         background-color: #FFEFDE;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: fit-content;
+         padding: 30px 50px;
+         border-radius: 2rem;
+         border: 1px solid #FF8D1E;
+         position: relative;
+         margin: 150px auto;
+      }
+
+      .hero-btns {
+         display: flex;
+         gap: 20px;
+         position: absolute;
+         bottom: -25px;
+      }
+
+      .hero-head h1 {
+         font-size: 50px;
+         font-weight: bold;
+         color: #234057;
+      }
+
+      .hero-head h1 span {
+         color: #FF8D1E;
+      }
+
+      .call {
+         display: flex;
+         justify-content: right;
+         gap: 10px;
+      }
+
+      .call>div {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         background: #FFEFDE;
+         padding: 10px 20px;
+         border-radius: 5rem;
+         border: 1px solid #FF8D1E;
+      }
+
+      .call .btn {
+         padding: 0 !important;
+         width: 60px !important;
+         height: 60px !important;
+         display: grid;
+         place-content: center;
+         border-radius: 50% !important;
+      }
+
+      .call-text h5 {
+         color: #000000 !important;
+         font-weight: 600;
+      }
+
+      .call-text p {
+         color: #000000;
+         margin-bottom: 0 !important;
+      }
+
+      .call-text p span {
+         color: #FF8D1E;
+      }
+
+      .hero .mail {
+         display: flex;
+         justify-content: left;
+         gap: 10px;
+      }
+
+      .hero .mail>div {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         background: #FFEFDE;
+         padding: 10px 20px;
+         border-radius: 5rem;
+         border: 1px solid #FF8D1E;
+      }
+
+      .mail .btn {
+         padding: 0 !important;
+         width: 70px !important;
+         height: 60px !important;
+         display: grid;
+         place-content: center;
+         border-radius: 50% !important;
+      }
+
+      .mail-text h5 {
+         color: #000000 !important;
+         font-weight: 600;
+      }
+
+      .mail-text p {
+         color: #000000;
+         margin-bottom: 0 !important;
+      }
+
+      .mail-text p span {
+         color: #FF8D1E;
+      }
+
+      @media screen and (max-width:700px) {
+         .hero {
+            margin-top: 0;
+         }
+
+         .call {
+            justify-content: left;
+         }
+
+         .hero-head h1 {
+            font-size: 30px;
+         }
+
+         .hero-head {
+            margin: 30px 0;
+         }
+      }
+   </style>
+
+   <!-- =================
+          Hero Section Start
+      ===========================-->
+      
+   <section class="hero">
+      <div class="container">
+         <div class="call">
+            <div>
+               <a href="tel:+91 9840478347" class="btn">
+                  <div class="call-icon">
+                     <img src="assets/images/3d-light-scanner/call.png" alt="">
+                  </div>
+               </a>
+               <div class="call-text">
+                  <h5>Call us now</h5>
+                  <p>+91 98404 78347 <span>|</span> +91 90257 00192 <span>|</span>+91 99403 52575 </p>
+               </div>
             </div>
-        </div>
-    </section>
-    <!-- hero section end-->
+         </div>
+
+         <div class="hero-head">
+            <h1 class="text-center">Most Trusted Company for <br><span>3D Scanning Services In Chennai</span></h1>
+            <p>3D Scan Anything Anywhere and AnySize in Chennai</p>
+            <div class="hero-btns">
+               <a href="Get-3d-scan-service-quote.php" class="btn">Get Quote</a>
+               <a href="Get-3d-scan-service-quote.php" class="btn">Book a Demo</a>
+            </div>
+         </div>
+         
+         <div class="mail mt-5">
+            <div class="div">
+               <a href="mailto:sm@precise3dm.com" class="btn">
+                  <div class="mail-icon">
+                     <img src="assets/images/3d-light-scanner/mail.png" alt="">
+                  </div>
+               </a>
+               <div class="mail-text">
+                  <h5>Email us</h5>
+                  <p>sm@precise3dm.com <span>|</span> service@precise3dm.com</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- ================
+     Hero section end
+   ======================-->
    
     <!-- content icon section start// -->
     <section>

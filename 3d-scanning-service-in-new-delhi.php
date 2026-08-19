@@ -581,73 +581,190 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- header start -->
     <?php include('includes/header.php'); ?>
     <!-- header end -->
-    <!--hero section start-->
-    <section id="chennai-service-heroimg">
-        <div class="chennai-heroimg-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="hero-content">
-                       
-                    </div>
-                    <div class="hero-head-center">
-                        <h1>3D Scanning Services in <br> New Delhi</h1>
-                        <h4>"3D Scan of any size and object in and around New Delhi"</h4>
-                    </div>
-                    <div class="chennai-hero-btns">
-                        <a href="#pickup_section" class="btn">Get Quote</a>
-                        <a  href="#onsite_chennai_section" class="btn call-us">Call Us <span><img src="assets/images/Newdelhi-3D-service/phone.png" alt="" height="10px" width="10px"></span>+91 98404 78347</a>
-                       
-                    </div>
-                </div>
-                <!-- <div class="col-12  col-md-4 chennai-hero-form">
-                    <?php
-                    if (isset($_SESSION['status'])) {
-                        if ($_SESSION['status'] == "success") {
-                            echo "<div class='row status-div'>
-                                    <p class='status-message'>Thanks for your interest in our 3d scanning service. You will receive the call and the quote from our business executives.</p>
-                                    <div style='width: 100%'><a href='https://www.precise3dm.com/3d-scanning-service-in-pune.php'><button class='step-form-btn'>Back</button></a></div></div>";
-                        } else {
-                            echo "<div class='row status-div'>
-                                    <p class='status-message'>Oops...Something went wrong, please try again
-                                </p><div style='width: 100%'><a href='javascript:void(0);'><button class='step-form-btn'>Back</button></a></div></div>";
-                        }
-                        unset($_SESSION['status']);
-                    } else { ?>                                                                                                                                                                                                                                            </form>
-                    <?php } ?>
-                </div> -->
+       <style>
+      .hero {
+         background-image: linear-gradient(#FFEFDE7D, #FFEFDE7D), url(assets/images/service-in-india/banner-bg.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: 120px;
+         padding: 60px 0;
+      }
+
+      .hero-head {
+         background-color: #FFEFDE;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: fit-content;
+         padding: 30px 50px;
+         border-radius: 2rem;
+         border: 1px solid #FF8D1E;
+         position: relative;
+         margin: 150px auto;
+      }
+
+      .hero-btns {
+         display: flex;
+         gap: 20px;
+         position: absolute;
+         bottom: -25px;
+      }
+
+      .hero-head h1 {
+         font-size: 50px;
+         font-weight: bold;
+         color: #234057;
+      }
+
+      .hero-head h1 span {
+         color: #FF8D1E;
+      }
+
+      .call {
+         display: flex;
+         justify-content: right;
+         gap: 10px;
+      }
+
+      .call>div {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         background: #FFEFDE;
+         padding: 10px 20px;
+         border-radius: 5rem;
+         border: 1px solid #FF8D1E;
+      }
+
+      .call .btn {
+         padding: 0 !important;
+         width: 60px !important;
+         height: 60px !important;
+         display: grid;
+         place-content: center;
+         border-radius: 50% !important;
+      }
+
+      .call-text h5 {
+         color: #000000 !important;
+         font-weight: 600;
+      }
+
+      .call-text p {
+         color: #000000;
+         margin-bottom: 0 !important;
+      }
+
+      .call-text p span {
+         color: #FF8D1E;
+      }
+
+      .hero .mail {
+         display: flex;
+         justify-content: left;
+         gap: 10px;
+      }
+
+      .hero .mail>div {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         background: #FFEFDE;
+         padding: 10px 20px;
+         border-radius: 5rem;
+         border: 1px solid #FF8D1E;
+      }
+
+      .mail .btn {
+         padding: 0 !important;
+         width: 70px !important;
+         height: 60px !important;
+         display: grid;
+         place-content: center;
+         border-radius: 50% !important;
+      }
+
+      .mail-text h5 {
+         color: #000000 !important;
+         font-weight: 600;
+      }
+
+      .mail-text p {
+         color: #000000;
+         margin-bottom: 0 !important;
+      }
+
+      .mail-text p span {
+         color: #FF8D1E;
+      }
+
+      @media screen and (max-width:700px) {
+         .hero {
+            margin-top: 0;
+         }
+
+         .call {
+            justify-content: left;
+         }
+
+         .hero-head h1 {
+            font-size: 30px;
+         }
+
+         .hero-head {
+            margin: 30px 0;
+         }
+      }
+   </style>
+
+   <!-- =================
+          Hero Section Start
+      ===========================-->
+      
+   <section class="hero">
+      <div class="container">
+         <div class="call">
+            <div>
+               <a href="tel:+91 9840478347" class="btn">
+                  <div class="call-icon">
+                     <img src="assets/images/3d-light-scanner/call.png" alt="">
+                  </div>
+               </a>
+               <div class="call-text">
+                  <h5>Call us now</h5>
+                  <p>+91 98404 78347 <span>|</span> +91 90257 00192 <span>|</span>+91 99403 52575 </p>
+               </div>
             </div>
-        </div>
-           <!-- content icon section start// -->
-    <section class="home-sections "> 
-        <div class="container ">
-            <div class="row herobelow-iconspace">
-                <div class="col-6 col-md-2 text-center hero-below-icons">
-                    <img src="assets/images/chennai_service_img/Icons/Affordable_pricing.png"
-                        alt="3d-scanning-services-Delhi-Affordable-pricing" class="img-fluid">
-                    <h6>Affordable pricing</h6>
-                </div>
-                <div class="col-6 col-md-2 text-center hero-below-icons">
-                    <img src="assets/images/chennai_service_img/Icons/Rapid_quote_in_10_mins.png"
-                        alt="3d-scanning-services-Delhi-quote" class="img-fluid">
-                    <h6>Rapid quote in 10 mins</h6>
-                </div>
-                <div class="col-6 col-md-2 text-center hero-below-icons">
-                    <img src="assets/images/chennai_service_img/Icons/Anysize_can_be_Scanned.png"
-                        alt="3d-scanning-services-Delhi" class="img-fluid">
-                    <h6>Any size can be Scanned</h6>
-                </div>
-                <div class="col-6 col-md-2 text-center hero-below-icons">
-                    <img src="assets/images/chennai_service_img/Icons/Accurate_results.png"
-                        alt="33d-scanning-services-Delhi" class="img-fluid">
-                    <h6>Accurate results</h6>
-                </div>
+         </div>
+
+         <div class="hero-head">
+            <h1 class="text-center">Most Trusted Company for <br><span>3D Scanning Services In New Delhi</span></h1>
+            <p>3D Scan Anything Anywhere and AnySize in New Delhi</p>
+            <div class="hero-btns">
+               <a href="Get-3d-scan-service-quote.php" class="btn">Get Quote</a>
+               <a href="Get-3d-scan-service-quote.php" class="btn">Book a Demo</a>
             </div>
-        </div>
-    </section>
-    <!-- content icon section end// -->
-    </section>
-    <!-- hero section end-->
+         </div>
+         
+         <div class="mail mt-5">
+            <div class="div">
+               <a href="mailto:sm@precise3dm.com" class="btn">
+                  <div class="mail-icon">
+                     <img src="assets/images/3d-light-scanner/mail.png" alt="">
+                  </div>
+               </a>
+               <div class="mail-text">
+                  <h5>Email us</h5>
+                  <p>sm@precise3dm.com <span>|</span> service@precise3dm.com</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- ================
+     Hero section end
+   ======================-->
 
  
     <!-- end to end service chennai section start// -->

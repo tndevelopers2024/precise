@@ -118,7 +118,7 @@ try {
 
     // Recipients
     $mail->setFrom($smtpUser, 'Precise3DM Website');
-    $mail->addAddress('service@precise3dm.com'); // Send to admin
+    $mail->addAddress('marketing@precise3dm.com'); // Send to admin
 
     // Content
     $mail->isHTML(true);

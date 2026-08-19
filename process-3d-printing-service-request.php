@@ -127,7 +127,7 @@ try {
 
     $mail->From = $smtpUser;
     $mail->FromName = "Precise3DM 3D Printing Service Request";
-    $mail->addAddress('service@precise3dm.com'); // Send to admin
+    $mail->addAddress('marketing@precise3dm.com'); // Send to admin
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $mail->addReplyTo($email, $fullName);
     }

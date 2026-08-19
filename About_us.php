@@ -443,7 +443,7 @@
         </div>
     </section>
 
-     <section>
+     <!-- <section>
          <div id="FAQ" class="container pt-5 pb-5 faq">
             <h2 class="container-head text-center">FREQUENTLY ASKED QUESTIONS</h2>
             <div id="style-3" class="row mt-4">
@@ -535,7 +535,7 @@
                </div>
             </div>
          </div>
-    </section>
+    </section> -->
     <?php include('includes/footer.php'); ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script> 
 

@@ -1058,98 +1058,222 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </section>
 
         <section>
-         <div id="FAQ" class="container pt-5 pb-5 faq">
-            <h2 class="why-choose-title text-center">FREQUENTLY ASKED QUESTIONS</h2>
+            <div id="FAQ" class="container pt-5 pb-5 faq">
+            <h3 class="text-center">FREQUENTLY ASKED QUESTIONS</h3>
             <div id="style-3" class="row mt-4">
-               <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingOne">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                           aria-expanded="true" aria-controls="collapseOne">
-                           <span>What is TrueProp used for?</span>
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <span>How Do I Get Geomagic Software in India?</span>
                         </button>
-                     </h2>
-                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        <P>It is used for marine propeller inspection and repair analysis by converting 3D scan data into measurable parameters like pitch, blade angles, and profiles. </P>
+                        <P><b>Precise3DM</b> has been a trusted distributor of <b>Geomagic software</b> since 2014 and offers pan-India support in multiple languages, including <b>Tamil, English, Kannada, Hindi, Marathi, and Gujarati</b>. As a <b>Golden Partner</b> of Geomagic (Hexagon), we offer competitive pricing, training, and on-site consultations. Additionally, we can provide personalised live demos using your specific 3D scanning data to help you choose the right software for your needs.</P>
                         </div>
-                     </div>
-                  </div>
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingTwo">
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                           data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                           <span>Can it work with any scanner?</span>
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span>What is Geomagic Software for 3D Reverse Engineering and Inspection?</span>
                         </button>
-                     </h2>
-                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Yes. TrueProp is hardware-independent and supports all metrology-grade 3D scanners.</p>
+                            <p>Geomagic software is the leading solution for <a href="https://www.precise3dm.com/reverse-engineering-software-in-india.php">3D reverse engineering</a> (Scan to CAD) and <a href="https://www.precise3dm.com/3d-inspection-software-in-india.php">3D inspection</a>. It allows users to convert 3D scan data into editable CAD models, compare scans to existing designs, and perform advanced quality control. Ideal for industries such as automotive, aerospace, and manufacturing, Geomagic offers specialised tools for efficient and accurate scan-based workflows.</p>
                         </div>
-                     </div>
-                  </div>
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingThree">
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                           data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           <span>Is 3D scanning better than pitchometers?</span>
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span>What are the best Geomagic software modules for Reverse engineering?</span>
                         </button>
-                     </h2>
-                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Yes. It captures the full surface instead of limited curves, improving accuracy and reducing inspection time.</p>
+                            <p>Geomagic has many reverse engineering modules based on the customer's budget and application; the best reverse engineering software model from the Geomagic product line is <a href="https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php">Geomagic Design X</a> Professional.</p>
                         </div>
-                     </div>
-                  </div>
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingFour">
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                           data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                           <span>Can inspections be done on-site?</span>
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span>Why Should I Choose Geomagic for 3D Scanning and Reverse Engineering in India?</span>
                         </button>
-                     </h2>
-                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Yes. With portable scanners, inspections can be performed directly on the vessel.</p>
+                            <p>Geomagic software is designed to integrate seamlessly with various <a href="https://www.precise3dm.com/3dscanner-in-india.php">3D scanners</a>, making it the best choice for businesses in India looking for a comprehensive solution to reverse engineering, 3D scanning, and inspection. As a Golden Partner of Hexagon, we offer competitive pricing and localised support, making Geomagic the most trusted brand for Indian manufacturers and engineers.</p>
                         </div>
-                     </div>
-                  </div>
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingFive">
+                    </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                           data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                           <span>Where can I get this solution?</span>
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <span>What Is the cost of Geomagic software Pricing Options in India?</span>
                         </button>
-                     </h2>
-                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Through Precise3DM, an authorised reseller of SHINING3D systems, offering bundled hardware and software solutions.</p>
+                            <p>Geomagic software is available through both annual subscriptions and perpetual licenses. While the perpetual software bundle costs up to ₹ 25 lakh, the yearly subscription starts at ₹1.80 lakh, making it accessible to businesses across India. If you have a limited budget, we can help tailor the most suitable option, ensuring your investment in 3D reverse engineering and inspection is a cost-effective choice. Get a Quote from Precise3DM now for Geomagic Software.</p>
                         </div>
-                     </div>
-                  </div>
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingSix">
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingsix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                           data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                           <span>What support do you provide?</span>
+                            data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                            <span>Why Should I Choose Geomagic Over Other 3D Scanning Software in India?</span>
                         </button>
-                     </h2>
-                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    </h2>
+                    <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Complete support—consultation, demo, training, and ongoing technical assistance.</p>
+                            <p>Geomagic's powerful capabilities, ease of use, and deep integration with CAD systems make it the best choice for industries in India. Compared to other reverse engineering and inspection software, <a href="https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php">Geomagic Design X</a>, <a href="https://www.precise3dm.com/geomagic-control-x-3d-inspection-software.php">Control X</a>, and <a href="https://www.precise3dm.com/geomagic-wrap-3d-scanning-software.php">Wrap</a> offer unique features that reduce modeling time, improve accuracy, and streamline workflows, making them the top choice for 3D scan-based projects in India.</p>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingseven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                            <span>How Can I Get Geomagic Software in India?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>As a Golden Partner of Geomagic (Hexagon), Precise3DM offers localised support, pricing, and training in multiple languages (Hindi, Tamil, Kannada, Telugu, and more). We provide live demonstrations, tailored quotes, and full technical support across India, ensuring that your 3D scanning and reverse engineering workflows are optimised with Geomagic software.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!--<div class="accordion-item">-->
+                    <!--   <h2 class="accordion-header" id="headingtwelve">-->
+                    <!--      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+                    <!--         data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">-->
+                    <!--         <span>Can I get the demo of Geomagic Software Before Buying?</span>-->
+                    <!--      </button>-->
+                    <!--   </h2>-->
+                    <!--   <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight"-->
+                    <!--      data-bs-parent="#accordionExample">-->
+                    <!--      <div class="accordion-body">-->
+                    <!--         <p>Yes, we offer on-site consultations and live demonstrations to show how Geomagic integrates with your specific 3D scan-based workflow. We can demonstrate how Geomagic helps streamline your <a href="https://www.precise3dm.com/reverse-engineering-software-in-india.php">3D reverse engineering</a> or inspection process, using your actual 3D Scan data for a hands-on experience.</p>-->
+                    <!--      </div>-->
+                    <!--   </div>-->
+                    <!--</div>-->
+
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingnine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                            <span>Can I get a demo of Geomagic Software before purchasing it?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Yes! We offer live demonstrations of Geomagic software at your facility or through online meetings. We can showcase how the software integrates with your existing 3D scanners for your Reverse engineering and 3D Inspection workflows using your actual 3D Scan data for a hands-on experience, helping you see firsthand how Geomagic can benefit your business.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingten">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapsetten">
+                            <span>Why is Geomagic Software the Best Choice for 3D Scanning and Reverse Engineering?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Geomagic is a global leader in 3D scan-based software, offering robust features like live transfer of scan data to CAD systems, parametric history-based design, and integration with popular CAD tools such as SolidWorks, Creo, and Inventor. It helps significantly reduce time and effort in reverse engineering and inspection tasks, ensuring efficient and accurate results. Additionally, Geomagic's powerful yet user-friendly tools make it ideal for professionals who need to turn scan data into high-quality, usable 3D models.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                            <span>How Does Geomagic Design X Improve My Workflow?</span>
+                        </button>
+                    </h2>
+                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><a href="https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php">Geomagic Design X</a> allows users to convert 3D scan data into fully editable parametric CAD models. It features a live transfer function, which lets you send the entire design history directly from Geomagic to your CAD system (like SolidWorks, Creo, or Inventor), saving time and eliminating the need to rebuild models manually. This function reduces the time spent on repetitive tasks and improves workflow efficiency.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingtwelve">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+                            <span>How Does Geomagic Wrap Help With 3D Scan Data?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsetwelve" class="accordion-collapse collapse" aria-labelledby="headingtwelve"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><a href="https://www.precise3dm.com/geomagic-wrap-3d-scanning-software.php">Geomagic Wrap</a> specializes in processing 3D scan data by creating high-quality meshes that are ideal for applications like 3D printing, AR/VR, and organic modeling. It can automatically repair damaged scan data, smooth surfaces, and fill holes. The software also provides easy export options, such as STL, OBJ, and PLY formats, ensuring that your 3D models are ready for immediate use.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                            <span>Can I Use Geomagic Design X Software With My Existing CAD System?</span>
+                        </button>
+                    </h2>
+                    <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p>Yes! Geomagic integrates seamlessly with many popular CAD systems, including SolidWorks, Creo, Inventor, and others. For example, Geomagic for SolidWorks is a plugin that allows you to work within the SolidWorks environment while leveraging Geomagic's reverse engineering capabilities. This integration allows you to import scan data and perform history-based reverse engineering using familiar CAD tools, without having to switch to a different CAD system.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading14">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                            <span>What is Geomagic Wrap, and How Does It Help With 3D Scanning Projects?</span>
+                        </button>
+                    </h2>
+                    <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><a href="https://www.precise3dm.com/geomagic-wrap-3d-scanning-software.php">Geomagic Wrap</a> processes raw data from 3D scanners, cleaning and optimizing it for further use. It's ideal for art, heritage preservation, and 3D printing industries in India, where high-quality meshes and models are crucial. This software automatically repairs damaged data, fills holes, and ensures your 3D models are ready for export in various formats, such as STL and OBJ.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-         </div>
-    </section>
+            </div>
+        </section>
 
     </main>
     <!-- Main Content End -->

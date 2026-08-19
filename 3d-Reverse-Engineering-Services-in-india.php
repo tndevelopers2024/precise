@@ -54,38 +54,101 @@
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "What does Benchmarking mean in automotive?",
+    "name": "What is 3D scanning and reverse engineering?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Benchmarking involves a structured comparison between similar products, services or processes on some dimensions of performance."
+      "text": "3D scanning is a technology that captures the physical geometry of objects to create digital 3D models. 3D Reverse engineering involves using the digital model as a reference and creating CAD models used for design, manufacturing and modifications."
     }
   },{
     "@type": "Question",
-    "name": "What is vehicle teardown benchmarking?",
+    "name": "What industries and who can benefit from these 3D reverse engineering services?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Teardown Benchmarking is a key for understanding the strategy of design, material usage, manufacturing, and complicity comparison of your existing product, etc."
+      "text": "Any industry looking to create a CAD model from a physical object and finds it difficult and time-consuming to measure it may need our 3D scanning and reverse engineering services, including automotive, aerospace, manufacturing, healthcare, art, architecture, and more."
     }
   },{
     "@type": "Question",
-    "name": "What is a teardown analysis?",
+    "name": "Why should I choose Precise3DM for these services?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Teardown analysis comprises a set of techniques for examining devices and materials at the smallest constituent level. The result is a comprehensive report presenting our thorough analysis of the construction and materials of a device as examined from all angles."
+      "text": "Precise3DM is a pioneer in 3D scanning and reverse engineering in India. Our experts have extensive experience, state-of-the-art technology, and a proven track record of delivering high-quality CAD models."
     }
   },{
     "@type": "Question",
-    "name": "What is the first step of product teardown?",
+    "name": "What types of objects can be 3D scanned and reverse-engineered?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Examine installation and operation documentation and packaging for cost effectiveness and liability. Analyze and measure the complete product first. Coordinate disassembly with measurement, experimentation, and modeling. Take apart assembly (be clear about what non-destructive disassembly is acceptable and needed)"
+      "text": "We can scan and reverse engineer a wide range of objects, including products, components, machinery, artefacts, sculptures, and more."
     }
   },{
     "@type": "Question",
-    "name": "What is the deliverables /output for the teardown process?",
+    "name": "What benefits does 3D reverse engineering offer?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The output of the teardown will be in the form of an excel sheet, which will contain a wide range of information about the vehicle obtained by the team while dismantling it into parts level."
+      "text": "3D Reverse engineering provides insights into product design, aids in reproducing hard-to-find parts, supports design modifications, and helps in understanding competitors' products."
+    }
+  },{
+    "@type": "Question",
+    "name": "How accurate is the 3D scanning and reverse engineering process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our advanced 3D scanning technology offers high accuracy, capturing intricate details and dimensions with precision."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will my original object be damaged during the scanning process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, 3D scanning is a non-contact process and does not damage the original object in any way."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you work with large and complex objects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely, our experts are skilled in scanning objects of various sizes and complexities, from small components to large machinery."
+    }
+  },{
+    "@type": "Question",
+    "name": "What file formats will I receive after scanning and reverse engineering?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide CAD models in standard formats like STL, STEP, IGES, and more, ensuring compatibility with various design software."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does the reverse engineering process usually take?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration varies based on the complexity and size of the object. We strive to provide timely services without compromising on quality."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is my project information kept confidential?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we prioritise the confidentiality of your projects. Your data and designs are treated with the utmost discretion and security."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I get started with Precise3DM's services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply reach out to us via our website or contact details. We'll discuss your project requirements and provide you with a tailored solution."
+    }
+  },{
+    "@type": "Question",
+    "name": "What's the cost involved in 3D scanning and reverse engineering?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Costs depend on factors like the complexity of the object, required accuracy, and project scope. We offer competitive pricing and can provide a quote after assessing your needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you provide assistance beyond creating CAD models from the scan data?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer comprehensive support, including design consultation, prototyping, and manufacturing guidance based on the scanned data."
     }
   }]
 }
@@ -1245,29 +1308,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
             <div class="accordion faq-accordion custom-faq-accordion" id="faqAccordion">
                 <!-- FAQ 1 -->
-                <div class="accordion-item faq-item">
+                <div class="accordion-item faq-item active-faq">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseOne">
-                            What is the cost of handheld colour 3D scanning services?
+                        <button class="accordion-button faq-btn" type="button" aria-expanded="true" aria-controls="collapseOne">
+                            What is 3D scanning and reverse engineering?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                         <div class="accordion-body faq-body">
-                            The cost varies depending on the complexity and size of the object. Please contact us for a detailed quote.
+                            3D scanning is a technology that captures the physical geometry of objects to create digital 3D models. 3D Reverse engineering involves using the digital model as a reference and creating CAD models used for design, manufacturing and modifications.
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- FAQ 2 -->
-                <div class="accordion-item faq-item active-faq">
+                <div class="accordion-item faq-item">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button faq-btn" type="button" aria-expanded="true" aria-controls="collapseTwo">
-                            What is colour 3D Scanning, and how does it differ from industrial 3D Scanning?
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseTwo">
+                            What industries and who can benefit from these 3D reverse engineering services?
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                         <div class="accordion-body faq-body">
-                            Colour 3D scanning captures both the geometry and the colour/texture of the object, while industrial 3D Scanning only captures the shape.
+                            Any industry looking to create a CAD model from a physical object and finds it difficult and time-consuming to measure it may need our 3D scanning and reverse engineering services, including automotive, aerospace, manufacturing, healthcare, art, architecture, and more.
                         </div>
                     </div>
                 </div>
@@ -1276,12 +1339,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="accordion-item faq-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseThree">
-                            How long does it take when you do a 3D Scan with colour?
+                            Why should I choose Precise3DM for these services?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                         <div class="accordion-body faq-body">
-                            Scanning time depends on the object's size and complexity, but generally ranges from a few minutes to a few hours.
+                            Precise3DM is a pioneer in 3D scanning and reverse engineering in India. Our experts have extensive experience, state-of-the-art technology, and a proven track record of delivering high-quality CAD models.
                         </div>
                     </div>
                 </div>
@@ -1290,12 +1353,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="accordion-item faq-item">
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseFour">
-                            Who benefits from Precise3DM's Handheld Color 3D Scanning Services?
+                            What types of objects can be 3D scanned and reverse-engineered?
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                         <div class="accordion-body faq-body">
-                            Industries such as archaeology, modern art, medical orthotics, and consumer goods greatly benefit from textured 3D scanning.
+                            We can scan and reverse engineer a wide range of objects, including products, components, machinery, artefacts, sculptures, and more.
                         </div>
                     </div>
                 </div>
@@ -1304,12 +1367,138 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="accordion-item faq-item">
                     <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseFive">
-                            Is your Colour 3D scanning service available for outdoor or indoor objects?
+                            What benefits does 3D reverse engineering offer?
                         </button>
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
                         <div class="accordion-body faq-body">
-                            Yes, our versatile handheld scanners can be used in both indoor and outdoor environments depending on lighting conditions.
+                            3D Reverse engineering provides insights into product design, aids in reproducing hard-to-find parts, supports design modifications, and helps in understanding competitors' products.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseSix">
+                            How accurate is the 3D scanning and reverse engineering process?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            Our advanced 3D scanning technology offers high accuracy, capturing intricate details and dimensions with precision.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseSeven">
+                            Will my original object be damaged during the scanning process?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            No, 3D scanning is a non-contact process and does not damage the original object in any way.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseEight">
+                            Can you work with large and complex objects?
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            Absolutely, our experts are skilled in scanning objects of various sizes and complexities, from small components to large machinery.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 9 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseNine">
+                            What file formats will I receive after scanning and reverse engineering?
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            We provide CAD models in standard formats like STL, STEP, IGES, and more, ensuring compatibility with various design software.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 10 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingTen">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseTen">
+                            How long does the reverse engineering process usually take?
+                        </button>
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            The duration varies based on the complexity and size of the object. We strive to provide timely services without compromising on quality.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 11 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingEleven">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseEleven">
+                            Is my project information kept confidential?
+                        </button>
+                    </h2>
+                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            Yes, we prioritise the confidentiality of your projects. Your data and designs are treated with the utmost discretion and security.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 12 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingTwelve">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseTwelve">
+                            How do I get started with Precise3DM's services?
+                        </button>
+                    </h2>
+                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            Simply reach out to us via our website or contact details. We'll discuss your project requirements and provide you with a tailored solution.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 13 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingThirteen">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseThirteen">
+                            What's the cost involved in 3D scanning and reverse engineering?
+                        </button>
+                    </h2>
+                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            Costs depend on factors like the complexity of the object, required accuracy, and project scope. We offer competitive pricing and can provide a quote after assessing your needs.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 14 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="headingFourteen">
+                        <button class="accordion-button collapsed faq-btn" type="button" aria-expanded="false" aria-controls="collapseFourteen">
+                            Can you provide assistance beyond creating CAD models from the scan data?
+                        </button>
+                    </h2>
+                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-body">
+                            Yes, we offer comprehensive support, including design consultation, prototyping, and manufacturing guidance based on the scanned data.
                         </div>
                     </div>
                 </div>

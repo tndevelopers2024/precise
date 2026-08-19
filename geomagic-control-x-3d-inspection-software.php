@@ -57,7 +57,7 @@ ini_set('max_execution_time', '-1');
     "name": "Can I import my old Geomagic control and Wrap files into Geomagic Control X ?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Can I import my old Geomagic control and Wrap files into Geomagic Control X ?"
+      "text": "You can import legacy Geomagic files directly into Geomagic control X."
     }
   },{
     "@type": "Question",
@@ -85,7 +85,7 @@ ini_set('max_execution_time', '-1');
     "name": "What is the difference between Geomagic Control X and Design X?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "What is the difference between Geomagic Control X and Design X?"
+      "text": "Control X is an inspection & metrology software used for comparison purposes where as Design X is a reverse engineering software"
     }
   },{
     "@type": "Question",
@@ -144,7 +144,7 @@ ini_set('max_execution_time', '-1');
     "name": "Can I show SPC Quality tools in the report of Control X?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Can I show SPC Quality tools in the report of Control X?"
+      "text": "Yes you can show SPC tools from the Chart option available in the Insert toolbar option."
     }
   },{
     "@type": "Question",
@@ -1270,41 +1270,124 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <!-- FAQ Item 1 (Open by default) -->
                         <details class="controlx-faq-item" name="controlx-faq" open>
-                            <summary>What is the cost of handheld colour 3D scanning services?</summary>
+                            <summary>I do not have a 3D CAD file, I have only a 2D drawing. Can I still do 3D inspection in Control X?</summary>
                             <div class="controlx-faq-answer">
-                                The cost of handheld colour 3D scanning services depends on several factors, including the object's size, geometry complexity, and the level of color texture detail required. Contact our engineering team to get a custom quote for your project.
+                                Yes, you can still perform 3D inspection in Geomagic Control X without CAD, just align 3D scan to word coordinate system, take cross sections and construct features and extract whatever dimensions you want to measure. Treat 3D scan as CAD file as you use them in 2D drafting in CAD.
                             </div>
                         </details>
 
                         <!-- FAQ Item 2 -->
                         <details class="controlx-faq-item" name="controlx-faq">
-                            <summary>What is colour 3D Scanning, and how does it differ from industrial 3D Scanning?</summary>
+                            <summary>Can I import my old Geomagic control and Wrap files into Geomagic Control X?</summary>
                             <div class="controlx-faq-answer">
-                                Colour 3D scanning captures both the geometry and the colour/texture of the object, while industrial 3D Scanning only captures the shape.
+                                You can import legacy Geomagic files directly into Geomagic control X.
                             </div>
                         </details>
 
                         <!-- FAQ Item 3 -->
                         <details class="controlx-faq-item" name="controlx-faq">
-                            <summary>How long does it take when you do a 3D Scan with colour?</summary>
+                            <summary>I have a 3D scanner. Can I directly connect my device to Geomagic software?</summary>
                             <div class="controlx-faq-answer">
-                                Scanning an object with color usually takes between 10 to 30 minutes for typical parts. Post-processing and texture mapping may take another 1-2 hours depending on the file size and accuracy requirements.
+                                You can download the hardware plugin and install Scan directly into Geomagic Control X with popular metrology devices from FARO, Hexagon, Creaform, Nikon, Solutionix, and more.
                             </div>
                         </details>
 
                         <!-- FAQ Item 4 -->
                         <details class="controlx-faq-item" name="controlx-faq">
-                            <summary>Who benefits from Precise3DM's Handheld Color 3D Scanning Services?</summary>
+                            <summary>Is Geomagic software a perpetual or a yearly subscription?</summary>
                             <div class="controlx-faq-answer">
-                                Industries such as automotive design, heritage preservation, archaeology, CGI & animation, e-commerce, and medical orthotics benefit significantly, as they require both exact shape capture and photographic color texture.
+                                Geomagic software Design X, Control X wrap and Geomagic for Solidworks, all are one-time purchase perpetual license applications. It's impossible to rent or yearly subscribe to Geomagic design x software.
                             </div>
                         </details>
 
                         <!-- FAQ Item 5 -->
                         <details class="controlx-faq-item" name="controlx-faq">
-                            <summary>Is your Colour 3D scanning service available for outdoor or indoor objects?</summary>
+                            <summary>Do I mandatorily update the Geomagic software AMC every year?</summary>
                             <div class="controlx-faq-answer">
-                                Yes, our handheld color 3D scanning systems are highly portable and capable of scanning both indoors and outdoors. However, outdoor scanning is best performed under shaded conditions to avoid direct sunlight interference with the color sensors.
+                                To receive a frequent update on Geomagic software, the user needs to go for AMC renewal every year. However, it is not mandatory to renew every year. Users can keep using the software version and updates launched during the AMC period.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 6 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>What is the difference between Geomagic Control X and Design X?</summary>
+                            <div class="controlx-faq-answer">
+                                Control X is an inspection & metrology software used for comparison purposes where as Design X is a reverse engineering software.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 7 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Can we 3D scan in Geomagic Control X?</summary>
+                            <div class="controlx-faq-answer">
+                                Yes, we can scan directly inside software and work on the scan data using LiveInspect settings. It supports all the major 3D scanner and PCMM solutions in the market for scanning and probing operations.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 8 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Which files can be imported in Control X?</summary>
+                            <div class="controlx-faq-answer">
+                                Control X supports the import of .stl, .obj, .ply, .asc, .igs, .stp, .catpart, .sldprt, .asm and many more.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 9 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Can we do CAD modelling in Control X?</summary>
+                            <div class="controlx-faq-answer">
+                                Yes, you can use the Curves tool from the toolbar and can sketch and create a 3D model according to your requirement in Control X.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 10 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Why is alignment required in Control X?</summary>
+                            <div class="controlx-faq-answer">
+                                Both the Scan data and the CAD data are imported in different cordinate system. Alignment is used to get both the objects in world cordinate system and superimpose one over other.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 11 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Can i able to edit the scan data according to my cad data?</summary>
+                            <div class="controlx-faq-answer">
+                                No, you cannot. Control X shows you the deviation and generates a report according to the data aligned.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 12 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>What kind of inspection can I perform on my model?</summary>
+                            <div class="controlx-faq-answer">
+                                3D & 2D comparison , all kinds of dimensions measuring from co ordinates and GD&T's , Trend Analysis, PMI inspection, Airfoil analysis.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 13 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Can I import just the scan data and perform inspection?</summary>
+                            <div class="controlx-faq-answer">
+                                Yes you can do three types of inspection with only scan data.<br>
+                                1. scan to scan comparison.<br>
+                                2. Scan to 2d drawing inspection <br>
+                                3. You can extract dimensions from scan data
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 14 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>Can I show SPC Quality tools in the report of Control X?</summary>
+                            <div class="controlx-faq-answer">
+                                Yes you can show SPC tools from the Chart option available in the Insert toolbar option.
+                            </div>
+                        </details>
+
+                        <!-- FAQ Item 15 -->
+                        <details class="controlx-faq-item" name="controlx-faq">
+                            <summary>What formats are available while generating the report for Control X?</summary>
+                            <div class="controlx-faq-answer">
+                                Control X exports the report in PDF, Excel, Powerpoint, .txt and .csv format.
                             </div>
                         </details>
 

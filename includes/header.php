@@ -2031,33 +2031,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <ul class="dropdown-menu">
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="https://www.precise3dm.com/automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
+                        href="automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-left py-2"
-                            href="vehicle-teardown-analysis-service-in-india.php">Teardown Analysis
-                          </a></li>
-
-                        <li>
-                        <li><a class="dropdown-item text-left py-2"
-                            href="vehicle-digital-benchmarking-service-in-india.php">Vehicle Digital
-                            Benchmarking
-                          </a></li>
-                        <li><a class="dropdown-item text-left py-2"
-                            href="vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant &
-                            Architecture
-                          </a></li>
-                        <li><a class="dropdown-item text-left py-2" href="vehicle-cad-reverse.php">Vehicle CAD
-                            Reverse
-                          </a></li>
-                        <li><a class="dropdown-item text-left py-2"
-                            href="electrical-electronics-benchmarking-service-in-india.php">Electrical & Electronics
-                            Benchmarking
-                          </a></li>
-                        <li><a class="dropdown-item text-left py-2"
-                            href="vehicle-digital-inspection-service-in-india.php">Vehicle Digital Inspection</a>
+                        <li><a class="dropdown-item text-left py-2" href="vehicle-teardown-analysis-service-in-india.php">Full Vehicle Teardown</a>
                         </li>
-                        <li><a class="dropdown-item text-left py-2" href="material-testing.php">Material Testing
-                          </a>
+                        <li><a class="dropdown-item text-left py-2" href="vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant</a>
+                        </li>
+                        <li><a class="dropdown-item text-left py-2" href="scan-to-cad-service.php">Vechile SCAN-to-CAD</a>
+                        </li>
+                        <li><a class="dropdown-item text-left py-2" href="material-testing.php">Material Testing</a>
                         </li>
                       </ul>
                     </li>
@@ -3271,7 +3253,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-menu">
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="https://www.precise3dm.com/automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
+              <a class="nav-link" href="automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -3279,37 +3261,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/vehicle-teardown-analysis-service-in-india.php">Teardown Analysis</a>
+                  <a class="nav-link" href="vehicle-teardown-analysis-service-in-india.php">Full Vehicle Teardown</a>
                 </div>
-              </li>
+              </li>              
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/vehicle-digital-benchmarking-service-in-india.php">Vehicle Digital Benchmarking</a>
+                  <a class="nav-link" href="vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant</a>
                 </div>
-              </li>
+              </li>              
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant & Architecture</a>
+                  <a class="nav-link" href="scan-to-cad-service.php">Vehicle Scan-to-CAD</a>
                 </div>
-              </li>
+              </li>              
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/vehicle-cad-reverse.php">Vehicle CAD Reverse</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/electrical-electronics-benchmarking-service-in-india.php">Electrical & Electronics Benchmarking</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/vehicle-digital-inspection-service-in-india.php">Vehicle Digital Inspection</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/material-testing.php">Material Testing</a>
+                  <a class="nav-link" href="material-testing.php">Material Testing</a>
                 </div>
               </li>
             </ul>

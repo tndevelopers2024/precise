@@ -44,38 +44,23 @@ if($_POST)
 
     /*Upload Function*/
     if(isset($_FILES['uploadscan'])) {
-        $folder = "scanning_solution_uploads";
-        if (!is_dir($folder)) {
-            mkdir($folder, 0777, true);
-        }
-
         // Check if multiple files
         if(is_array($_FILES['uploadscan']['name'])) {
             $totalFiles = count($_FILES['uploadscan']['name']);
             for($i = 0; $i < $totalFiles; $i++) {
                 if($_FILES['uploadscan']['size'][$i] > 0) {
-                    $filename = uniqid() . "-" . time();
-                    $extension = pathinfo($_FILES["uploadscan"]["name"][$i], PATHINFO_EXTENSION);
-                    $finalFilename = $filename.".".$extension;
-                    
-                    move_uploaded_file($_FILES["uploadscan"]["tmp_name"][$i], $folder."/".$finalFilename);
                     $data['upload_files'][] = $_FILES["uploadscan"]["name"][$i];
                     $attachments[] = [
-                        'path' => $folder."/".$finalFilename,
+                        'path' => $_FILES["uploadscan"]["tmp_name"][$i],
                         'name' => $_FILES["uploadscan"]["name"][$i]
                     ];
                 }
             }
         } else {
              if($_FILES['uploadscan']['size'] > 0) {
-                $filename = uniqid() . "-" . time();
-                $extension = pathinfo($_FILES["uploadscan"]["name"], PATHINFO_EXTENSION);
-                $finalFilename = $filename.".".$extension;
-                
-                move_uploaded_file($_FILES["uploadscan"]["tmp_name"], $folder."/".$finalFilename);
                 $data['upload_files'][] = $_FILES["uploadscan"]["name"];
                 $attachments[] = [
-                    'path' => $folder."/".$finalFilename,
+                    'path' => $_FILES["uploadscan"]["tmp_name"],
                     'name' => $_FILES["uploadscan"]["name"]
                 ];
              }

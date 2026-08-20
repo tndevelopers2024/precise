@@ -383,10 +383,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        ========================== -->
    <style>
       :root {
-         --backgroundcolor: #101010;
-         --whitecolor: #fff;
+         --backgroundcolor: #fff;
+         --whitecolor: #000;
          --maincolor: #ff931e;
-         --subbackground: #0A0A0A;
+         --subbackground: #fff;
          --subcotent: #bbb;
          --list: #DFEEFF;
       }

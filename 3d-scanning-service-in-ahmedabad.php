@@ -338,10 +338,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        ========================== -->
    <style>
       :root {
-         --backgroundcolor: #101010;
-         --whitecolor: #fff;
+         --backgroundcolor: #fff;
+         --whitecolor: #010101;
          --maincolor: #ff931e;
-         --subbackground: #0A0A0A;
+         --subbackground: #fff;
          --subcotent: #bbb;
          --list: #DFEEFF;
       }
@@ -354,6 +354,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          text-decoration: none;
          transition: background 0.5s;
          /* Add a smooth transition effect */
+      }
+      .keyfeatures-bg h2{
+         color:#000;
       }
 
       .form-img-img img {

@@ -287,7 +287,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <a href="figure-4-standalone-3d-printer.php" class="hero-stat-card d-flex align-items-center">
+                    <a href="figure-4-printing-service.php" class="hero-stat-card d-flex align-items-center">
                         <div class="stat-card-img-wrapper">
                             <img src="assets/images/industrial-3d-printing-services-in-india/hero-stat3.png" alt="FIGURE 4 DLP 3D PRINTING SERVICE">
                         </div>

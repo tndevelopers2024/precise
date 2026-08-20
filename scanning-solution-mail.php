@@ -39,7 +39,8 @@ if($_POST)
     $data['stage'] = isset($_POST['decision_stage']) ? $_POST['decision_stage'] : 'Not provided';
     $data['additional_notes'] = isset($_POST['additional_notes']) && !empty($_POST['additional_notes']) ? $_POST['additional_notes'] : 'None';
 
-    $data['upload_links'] = [];
+    $data['upload_files'] = [];
+    $attachments = [];
 
     /*Upload Function*/
     if(isset($_FILES['uploadscan'])) {
@@ -58,7 +59,11 @@ if($_POST)
                     $finalFilename = $filename.".".$extension;
                     
                     move_uploaded_file($_FILES["uploadscan"]["tmp_name"][$i], $folder."/".$finalFilename);
-                    $data['upload_links'][] = "https://precise3dm.com"."/".$folder."/".$finalFilename;
+                    $data['upload_files'][] = $_FILES["uploadscan"]["name"][$i];
+                    $attachments[] = [
+                        'path' => $folder."/".$finalFilename,
+                        'name' => $_FILES["uploadscan"]["name"][$i]
+                    ];
                 }
             }
         } else {
@@ -68,7 +73,11 @@ if($_POST)
                 $finalFilename = $filename.".".$extension;
                 
                 move_uploaded_file($_FILES["uploadscan"]["tmp_name"], $folder."/".$finalFilename);
-                $data['upload_links'][] = "https://precise3dm.com"."/".$folder."/".$finalFilename;
+                $data['upload_files'][] = $_FILES["uploadscan"]["name"];
+                $attachments[] = [
+                    'path' => $folder."/".$finalFilename,
+                    'name' => $_FILES["uploadscan"]["name"]
+                ];
              }
         }
     }
@@ -101,6 +110,12 @@ if($_POST)
 
     $mail->Subject = $subject;
     $mail->Body = $body;
+
+    if (!empty($attachments)) {
+        foreach ($attachments as $attachment) {
+            $mail->addAttachment($attachment['path'], $attachment['name']);
+        }
+    }
 
     try {
         $mail->send();

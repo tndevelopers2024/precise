@@ -393,9 +393,9 @@
                         <label style="margin-bottom: 15px; font-size: 0.95rem; font-weight: 700; color: #111827;">Upload Files <span style="font-weight: 400; color: var(--text-muted);">(Images, CAD, PDF, Drawings, Inspection Reports)</span></label>
                         <div class="upload-zone-v2" onclick="document.getElementById('fileUpload').click();">
                             <div class="upload-text-v2">Drag & drop files here or click to browse</div>
-                            <div class="upload-formats-v2">JPG, PNG, PDF, STEP, IGES, STP, DWG</div>
+                            <div class="upload-formats-v2">JPG, PNG, PDF, STL, STP, STEP, IGES, X_T, PRT, SLDPRT, IPT, DWG</div>
                             <div class="upload-limit-v2">Max file size 100MB per file</div>
-                            <input type="file" name="uploadscan[]" multiple style="display: none;" id="fileUpload">
+                            <input type="file" name="uploadscan[]" multiple style="display: none;" id="fileUpload" accept=".jpg,.jpeg,.png,.pdf,.stl,.stp,.step,.iges,.x_t,.prt,.sldprt,.ipt,.dwg">
                         </div>
                         <div id="fileList" style="margin-top: 15px; font-size: 0.85rem; color: var(--text-dark); display: flex; flex-direction: column; gap: 8px;"></div>
                     </div>
@@ -872,6 +872,19 @@
         </div>
     </div>
     
+    <!-- Loader Overlay -->
+    <div id="loaderOverlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; justify-content: center; align-items: center; flex-direction: column; color: white; font-family: 'Inter', sans-serif;">
+        <div style="width: 300px; background: #fff; padding: 30px; border-radius: 12px; text-align: center; color: #333; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+            <i class="fa-solid fa-spinner fa-spin" style="font-size: 48px; color: var(--primary-orange, #ea580c); margin-bottom: 20px;"></i>
+            <h3 style="margin-top: 0; margin-bottom: 10px; font-size: 1.2rem; font-weight: 600;">Submitting Request...</h3>
+            <p style="font-size: 0.9rem; color: #6b7280; margin-bottom: 20px;">Please do not close this window.</p>
+            <div style="width: 100%; background: #f3f4f6; border-radius: 10px; height: 10px; overflow: hidden; display: none;" id="progressContainer">
+                <div id="progressBar" style="width: 0%; height: 100%; background: var(--primary-orange, #ea580c); transition: width 0.3s ease;"></div>
+            </div>
+            <div id="progressText" style="margin-top: 15px; font-weight: 600; font-size: 0.95rem; color: var(--primary-orange, #ea580c);"></div>
+        </div>
+    </div>
+
     <script>
         // Handle selectable cards styling
         document.querySelectorAll('.action-card input[type="radio"], .radio-card input[type="radio"]').forEach(radio => {
@@ -1151,6 +1164,67 @@
                     fileList.appendChild(fileItem);
                 });
             }
+        });
+
+        // Form submit with AJAX for progress
+        document.getElementById('mainForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Check required fields for step 5
+            if(!document.getElementById('confirmData').checked) {
+                alert('Please confirm that the information is correct.');
+                return;
+            }
+
+            const loader = document.getElementById('loaderOverlay');
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            const progressContainer = document.getElementById('progressContainer');
+            const fileInput = document.getElementById('fileUpload');
+            
+            loader.style.display = 'flex';
+            
+            if (fileInput.files.length > 0) {
+                progressContainer.style.display = 'block';
+                progressBar.style.width = '0%';
+                progressText.textContent = '0%';
+            } else {
+                progressContainer.style.display = 'none';
+                progressText.textContent = 'Processing request...';
+            }
+            
+            const formData = new FormData(this);
+            const xhr = new XMLHttpRequest();
+            
+            xhr.open('POST', 'scanning-solution-mail.php', true);
+            
+            xhr.upload.onprogress = function(e) {
+                if (e.lengthComputable && fileInput.files.length > 0) {
+                    const percentComplete = Math.round((e.loaded / e.total) * 100);
+                    progressBar.style.width = percentComplete + '%';
+                    progressText.textContent = percentComplete + '%';
+                    
+                    if (percentComplete === 100) {
+                        progressText.textContent = 'Sending email, please wait...';
+                    }
+                }
+            };
+            
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    window.location.href = 'thankyou-page.php';
+                } else {
+                    alert('An error occurred during submission. Please try again.');
+                    loader.style.display = 'none';
+                }
+            };
+            
+            xhr.onerror = function() {
+                alert('An error occurred during submission. Please try again.');
+                loader.style.display = 'none';
+            };
+            
+            xhr.send(formData);
         });
     </script>
 </body>

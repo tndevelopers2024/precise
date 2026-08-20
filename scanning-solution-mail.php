@@ -77,7 +77,7 @@ if($_POST)
 
     $subject = "New 3D Scanning Solution Request from " . $data['full_name'];
     
-    $to = "service@precise3dm.com";
+    $to = "marketing@precise3dm.com";
     $from = "precise3dmdre@gmail.com";
 
     //PHPMailer Object

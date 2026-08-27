@@ -755,7 +755,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <form class="service-request-form">
                     <!-- Upload Area -->
                     <div class="upload-area mb-4" onclick="document.getElementById('fileUpload').click()">
-                        <input type="file" id="fileUpload" multiple style="display: none;">
+                        <input type="file" id="fileUpload" name="uploadscan[]" multiple style="display: none;" accept=".jpg,.jpeg,.png,.pdf,.stl,.stp,.step,.iges,.x_t,.prt,.sldprt,.ipt,.dwg,.dxf,.obj,.ply">
                         <div class="upload-icon">
                             <i class="fa-solid fa-cloud-arrow-up"></i>
                         </div>
@@ -763,7 +763,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">or click to browse from your computer</p>
 
                         <div style="font-size: 0.85rem; color: #6b7280; font-weight: 500;">
-                            <p class="mb-1">Supported formats: JPG, PNG, PDF, STEP, IGES, STP, DWG, DXF, OBJ, PLY</p>
+                            <p class="mb-1">Supported formats: JPG, PNG, PDF, STL, STP, STEP, IGES, X_T, PRT, SLDPRT, IPT, DWG, DXF, OBJ, PLY</p>
                             <p class="mb-0">Maximum file size: 50MB per file</p>
                         </div>
                     </div>
@@ -2804,8 +2804,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             $('#step6SubmitBtn').on('click', function() {
                 if ($(this).prop('disabled')) return;
                 
-                const origText = $(this).html();
-                $(this).prop('disabled', true).html('Submitting... <i class="fa-solid fa-spinner fa-spin"></i>');
+                const fileInput = document.getElementById('fileUpload');
+                
+                if (fileInput && fileInput.files.length > 0) {
+                    let totalSize = 0;
+                    for (let i = 0; i < fileInput.files.length; i++) {
+                        totalSize += fileInput.files[i].size;
+                    }
+                    if (totalSize > 50 * 1024 * 1024) { // 50 MB limit
+                        alert('Total file size exceeds 50MB limit. Please upload smaller files or provide a Google Drive / Dropbox link in the project details.');
+                        return;
+                    }
+                }
+                
+                const loader = document.getElementById('loaderOverlay');
+                const progressBar = document.getElementById('progressBar');
+                const progressText = document.getElementById('progressText');
+                const progressContainer = document.getElementById('progressContainer');
+                
+                loader.style.display = 'flex';
+                
+                if (fileInput && fileInput.files.length > 0) {
+                    progressContainer.style.display = 'block';
+                    progressBar.style.width = '0%';
+                    progressText.textContent = '0%';
+                } else {
+                    progressContainer.style.display = 'none';
+                    progressText.textContent = 'Processing request...';
+                }
 
                 const payload = {
                     name: $('#summaryName').text(),
@@ -2822,31 +2848,82 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     applicationType: $('#summaryApplicationType').text(),
                     scanningType: $('#summaryScanningType').length ? $('#summaryScanningType').text() : '',
                     inspectionRef: $('#summaryInspectionRef').length ? $('#summaryInspectionRef').text() : '',
-                    inspectionDeliverables: $('#summaryInspectionDeliverables').length ? $('#summaryInspectionDeliverables').html() : '',
-                    reverseEndUse: $('#summaryReverseEndUse').length ? $('#summaryReverseEndUse').text() : '',
-                    reverseDeliverables: $('#summaryReverseDeliverables').length ? $('#summaryReverseDeliverables').html() : '',
-                    reverseCadFormat: $('#summaryReverseCadFormat').length ? $('#summaryReverseCadFormat').text() : '',
+                    inspectionDeliverables: $('#summaryInspectionDeliverables').length ? $('#summaryInspectionDeliverables').html().replace(/<br\s*[\/]?>/gi, ', ') : '',
+                    reverseEndUse: $('#summaryReverseEndUse').length ? $('#summaryReverseEndUse').html().replace(/<br\s*[\/]?>/gi, ', ') : '',
+                    reverseDeliverables: $('#summaryReverseDeliverables').length ? $('#summaryReverseDeliverables').html().replace(/<br\s*[\/]?>/gi, ', ') : '',
+                    reverseCadFormat: $('#summaryReverseCadFormat').length ? $('#summaryReverseCadFormat').html().replace(/<br\s*[\/]?>/gi, ', ') : '',
                     reverseExisting2d: $('#summaryReverseExisting2d').length ? $('#summaryReverseExisting2d').text() : '',
-                    reverse2dDrawings: $('#summaryReverse2dDrawings').length ? $('#summaryReverse2dDrawings').html() : ''
+                    reverse2dDrawings: $('#summaryReverse2dDrawings').length ? $('#summaryReverse2dDrawings').html().replace(/<br\s*[\/]?>/gi, ', ') : ''
                 };
 
-                fetch('process-3d-service-request.php', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                })
-                .then(res => res.json())
-                .then(data => {
-                    document.getElementById('step6-container').style.display = 'none';
-                    document.getElementById('step7-container').style.display = 'block';
-                    window.scrollTo(0, 0);
-                })
-                .catch(err => {
-                    console.error('Submit error:', err);
-                    document.getElementById('step6-container').style.display = 'none';
-                    document.getElementById('step7-container').style.display = 'block';
-                    window.scrollTo(0, 0);
-                });
+                if (fileInput && fileInput.files.length > 0) {
+                    const formData = new FormData();
+                    for (let key in payload) {
+                        formData.append(key, payload[key]);
+                    }
+                    for (let i = 0; i < fileInput.files.length; i++) {
+                        formData.append('uploadscan[]', fileInput.files[i]);
+                    }
+
+                    const xhr = new XMLHttpRequest();
+                    xhr.open('POST', 'process-3d-service-request.php', true);
+                    
+                    xhr.upload.onprogress = function(e) {
+                        if (e.lengthComputable) {
+                            const percentComplete = Math.round((e.loaded / e.total) * 100);
+                            progressBar.style.width = percentComplete + '%';
+                            progressText.textContent = percentComplete + '%';
+                            if (percentComplete === 100) {
+                                progressText.textContent = 'Sending email, please wait...';
+                            }
+                        }
+                    };
+
+                    xhr.onload = function() {
+                        loader.style.display = 'none';
+                        if (xhr.status === 200) {
+                            try {
+                                const res = JSON.parse(xhr.responseText);
+                                if (res.status === 'error') {
+                                    alert("Failed to submit request: " + res.message);
+                                    return;
+                                }
+                            } catch(e) {}
+                            document.getElementById('step6-container').style.display = 'none';
+                            document.getElementById('step7-container').style.display = 'block';
+                            window.scrollTo(0, 0);
+                        } else {
+                            alert("Error communicating with server.");
+                        }
+                    };
+
+                    xhr.onerror = function() {
+                        loader.style.display = 'none';
+                        alert("Network error occurred.");
+                    };
+                    xhr.send(formData);
+                } else {
+                    fetch('process-3d-service-request.php', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        loader.style.display = 'none';
+                        if (data.status === 'error') {
+                            alert("Failed to submit request: " + data.message);
+                            return;
+                        }
+                        document.getElementById('step6-container').style.display = 'none';
+                        document.getElementById('step7-container').style.display = 'block';
+                        window.scrollTo(0, 0);
+                    })
+                    .catch(err => {
+                        loader.style.display = 'none';
+                        alert("Network error occurred.");
+                    });
+                }
             });
 
             if ($('#step6-container').is(':visible')) {
@@ -2936,5 +3013,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             });
         });
     </script>
+    
+    <!-- Loader Overlay -->
+    <div id="loaderOverlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; justify-content: center; align-items: center; flex-direction: column; color: white; font-family: 'Inter', sans-serif;">
+        <div style="width: 300px; background: #fff; padding: 30px; border-radius: 12px; text-align: center; color: #333; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+            <i class="fa-solid fa-spinner fa-spin" style="font-size: 48px; color: var(--primary-orange, #ea580c); margin-bottom: 20px;"></i>
+            <h3 style="margin-top: 0; margin-bottom: 10px; font-size: 1.2rem; font-weight: 600;">Submitting Request...</h3>
+            <p style="font-size: 0.9rem; color: #6b7280; margin-bottom: 20px;">Please do not close this window.</p>
+            <div style="width: 100%; background: #f3f4f6; border-radius: 10px; height: 10px; overflow: hidden; display: none;" id="progressContainer">
+                <div id="progressBar" style="width: 0%; height: 100%; background: var(--primary-orange, #ea580c); transition: width 0.3s ease;"></div>
+            </div>
+            <div id="progressText" style="margin-top: 15px; font-weight: 600; font-size: 0.95rem; color: var(--primary-orange, #ea580c);"></div>
+        </div>
+    </div>
 </body>
 </html>

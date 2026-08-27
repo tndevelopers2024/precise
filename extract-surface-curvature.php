@@ -6,7 +6,7 @@
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extract Surface Curvature | Reverse Engineering Service</title>
-    <meta name="description" content="Discover highlights from Precise3DM's 3D scanning and 3D printing open house event showcasing innovative digital manufacturing solutions.">
+    <meta name="description" content="Extract accurate surface curvature data using Precise3DM's advanced engineering solutions for design validation and reverse engineering.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,7 +24,7 @@
     <meta property="og:title" content="Extract Surface Curvature | Reverse Engineering Service" />
     <meta property="og:url" content="https://www.precise3dm.com/extract-surface-curvature.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
-    <meta property="og:description" content="Discover highlights from Precise3DM's 3D scanning and 3D printing open house event showcasing innovative digital manufacturing solutions." />
+    <meta property="og:description" content="Extract accurate surface curvature data using Precise3DM's advanced engineering solutions for design validation and reverse engineering." />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <link rel="canonical" href="https://www.precise3dm.com/extract-surface-curvature.php" />
   	

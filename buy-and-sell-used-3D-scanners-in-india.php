@@ -6,7 +6,7 @@
   <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buy and Sell Used 3D-scanners in india</title>
-  <meta name="description" content="Combination of Blue laser & Infrared VCSCL">
+  <meta name="description" content="Buy and sell used 3D scanners in India with Precise3DM. Find reliable pre-owned industrial scanning equipment at competitive prices.">
   <meta name="Keywords" content="Teardown Analysis Benchmarking service in india, get quote,">
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="Precise3dm" />
   <meta name="twitter:site" content="@precise3d_m" />
   <meta property="twitter:title" content="Buy and Sell Used 3D-scanners in india"/>
-  <meta property="twitter:description" content="Combination of Blue laser & Infrared VCSCL" />
+  <meta property="twitter:description" content="Buy and sell used 3D scanners in India with Precise3DM. Find reliable pre-owned industrial scanning equipment at competitive prices." />
   <meta property="og:type" content="3D Scanning" />
   <meta property="og:title" content="Buy and Sell Used 3D-scanners in india" />
   <meta property="og:url" content="https://www.precise3dm.com/buy-and-sell-used-3D-scanners-in-india.php" />
@@ -27,8 +27,7 @@
   <link rel="canonical" href="https://www.precise3dm.com/buy-and-sell-used-3D-scanners-in-india.php"/>
   <meta property="og:image"
     content="https://www.precise3dm.com/assets/images/FreeCan UE7/FreeCan UE7/broucheue7/AUTOMOTIVE BENCHMARKING SERVICE.png" />
-  <meta property="og:description"
-    content="Our team of experts teardown the vehicle and do analyzes and prepares the strategy of design, Vehicle aspects, weight Analysis, Teardown, Data mapping. Get quote" />
+  <meta property="og:description" content="Buy and sell used 3D scanners in India with Precise3DM. Find reliable pre-owned industrial scanning equipment at competitive prices." />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
   <!--bootstrap css-->
   <link rel="stylesheet" href="assets/css/bootstrap.css">

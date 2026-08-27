@@ -24,10 +24,18 @@ if (file_exists($envFile)) {
     }
 }
 
-$input = json_decode(file_get_contents('php://input'), true);
+$input = $_POST;
+if (empty($input)) {
+    $input = json_decode(file_get_contents('php://input'), true) ?? [];
+}
 
-if (!$input) {
-    echo json_encode(['status' => 'error', 'message' => 'No data received']);
+if (!$input && empty($_FILES)) {
+    $debugInfo = "Method: " . ($_SERVER['REQUEST_METHOD'] ?? 'unknown') . 
+                 ", CT: " . ($_SERVER['CONTENT_TYPE'] ?? 'none') . 
+                 ", POST length: " . count($_POST) . 
+                 ", FILES length: " . count($_FILES) . 
+                 ", Input length: " . strlen(file_get_contents('php://input'));
+    echo json_encode(['status' => 'error', 'message' => 'No data received. Debug: ' . $debugInfo]);
     exit;
 }
 
@@ -101,6 +109,27 @@ if (isset($input['reverseEndUse']) && $input['reverseEndUse']) {
     }
 }
 
+
+// Display uploaded file names in email body
+if(isset($_FILES['uploadscan'])) {
+    $uploadedNames = [];
+    if(is_array($_FILES['uploadscan']['name'])) {
+        foreach($_FILES['uploadscan']['name'] as $fileName) {
+            if(!empty($fileName)) {
+                $uploadedNames[] = $fileName;
+            }
+        }
+    } else {
+        if(!empty($_FILES['uploadscan']['name'])) {
+            $uploadedNames[] = $_FILES['uploadscan']['name'];
+        }
+    }
+    
+    if(!empty($uploadedNames)) {
+        $htmlBody .= '<tr><th>Uploaded Files</th><td>' . htmlspecialchars(implode(', ', $uploadedNames)) . '</td></tr>';
+    }
+}
+
 $htmlBody .= '
     </table>
     <br>
@@ -123,7 +152,7 @@ try {
 
     $mail->From = $smtpUser;
     $mail->FromName = "Precise3DM Service Request";
-    $mail->addAddress('marketing@precise3dm.com'); // Send to admin
+    $mail->addAddress('madhavangl20@gmail.com'); // Send to admin
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $mail->addReplyTo($email, $name);
     }
@@ -131,6 +160,22 @@ try {
     $mail->isHTML(true);
     $mail->Subject = "New 3D Service Request from " . $name;
     $mail->Body = $htmlBody;
+
+    /* Attach Files */
+    if(isset($_FILES['uploadscan'])) {
+        if(is_array($_FILES['uploadscan']['name'])) {
+            $totalFiles = count($_FILES['uploadscan']['name']);
+            for($i = 0; $i < $totalFiles; $i++) {
+                if($_FILES['uploadscan']['size'][$i] > 0) {
+                    $mail->addAttachment($_FILES['uploadscan']['tmp_name'][$i], $_FILES['uploadscan']['name'][$i]);
+                }
+            }
+        } else {
+             if($_FILES['uploadscan']['size'] > 0) {
+                $mail->addAttachment($_FILES['uploadscan']['tmp_name'], $_FILES['uploadscan']['name']);
+             }
+        }
+    }
 
     $mail->send();
     echo json_encode(['status' => 'success']);

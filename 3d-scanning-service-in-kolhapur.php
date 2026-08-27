@@ -305,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                </a>
                <div class="call-text">
                   <h5>Call us now</h5>
-                  <p>+91 98404 78347 <span>|</span> +91 90257 00192 <span>|</span>+91 99403 52575 </p>
+                  <p>+91 98404 78347 <span>|</span>+91 99403 52575 </p>
                </div>
             </div>
          </div>

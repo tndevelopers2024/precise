@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Refurbished 3d scanner in india | price | used 3D scanner  </title>
-    <meta name="description" content="affordable refurbished 3D scanner  at low price, get quote">
+    <meta name="description" content="Buy certified refurbished 3D scanners in India from Precise3DM. Affordable, reliable, and tested solutions for industrial applications.">
     <meta name="keywords" content=" used 3D scanner ,refurbished 3D scanner ">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,14 +24,14 @@ ini_set('max_execution_time', '-1');
     <meta name="twitter:card" content="Precise3dm" />
     <meta name="twitter:site" content="@precise3d_m" />
     <meta property="twitter:title" content="Refurbished 3d scanner in india | price | used 3D scanner"/>
-    <meta name="twitter:description" content="low cost white light 3d scanner in india ,get price quote ,specification" />
+    <meta name="twitter:description" content="Buy certified refurbished 3D scanners in India from Precise3DM. Affordable, reliable, and tested solutions for industrial applications." />
     <meta property="og:type" content="3D scanner" />
     <meta property="og:title" content="Refurbished 3d scanner in india " />
     <meta property="og:url" content="https://www.precise3dm.com/refurbished-3d-scanner-in-india.php" />
     <meta property="twitter:url" content="https://www.precise3dm.com/refurbished-3d-scanner-in-india.php" />
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png"/>
-    <meta property="og:description" content="affordable refurbished 3D scanner  at low price, get quote" />
+    <meta property="og:description" content="Buy certified refurbished 3D scanners in India from Precise3DM. Affordable, reliable, and tested solutions for industrial applications." />
     <link rel="canonical" href="https://www.precise3dm.com/refurbished-3d-scanner-in-india.php"/>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <!--bootstrap css-->

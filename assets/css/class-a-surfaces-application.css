@@ -1,0 +1,1252 @@
+/* assets/css/class-a-surfaces-application.css */
+
+:root {
+    --casa-orange: #F38118;
+    --casa-bg-dark: #000000;
+}
+
+body {
+    background-color: #f7f3ed;
+}
+
+.casa-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+.casa-hero-section {
+    position: relative;
+    padding: 120px 0 100px 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--casa-bg-dark);
+    background-image: url('../images/class-a-surfaces-application/casa-hero-bg-img.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* A soft gradient fade out at the bottom of the hero to blend with the stats section */
+.casa-hero-bg-overlay {
+    position: absolute;
+    bottom: -100px; /* stretch past bottom */
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 60%, rgba(250,248,245,1) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.casa-hero-section .casa-container {
+    z-index: 2; /* above background overlay */
+}
+
+/* TOP RIGHT CONTACT */
+.casa-hero-top-contact {
+    position: absolute;
+    top: -90px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.casa-contact-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f7b733, #fc4a1a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(243, 129, 24, 0.4);
+}
+
+.casa-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.casa-contact-label {
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    line-height: 1;
+}
+
+.casa-contact-numbers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.casa-contact-numbers a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.casa-contact-numbers a:hover {
+    color: var(--casa-orange);
+}
+
+.casa-contact-numbers .divider {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.casa-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.casa-hero-left {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.casa-hero-badge {
+    display: inline-block;
+    border: 1px solid rgba(243, 129, 24, 0.5);
+    border-radius: 6px;
+    padding: 6px 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.casa-hero-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.casa-hero-title .text-orange {
+    color: var(--casa-orange);
+}
+
+.casa-hero-desc {
+    color: #cccccc;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.casa-hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.btn-casa-orange {
+    background: linear-gradient(180deg, #fcb453 0%, #f28014 100%);
+    color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e1720a;
+    padding: 11px 24px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-casa-orange:hover {
+    background: linear-gradient(180deg, #fdcc7f 0%, #f79836 100%) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-casa-outline {
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #f79122 !important;
+    border: 1px solid #f79122 !important;
+    padding: 11px 24px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-casa-outline:hover {
+    background: rgba(0, 0, 0, 0.7) !important;
+    transform: translateY(-2px);
+    color: #fca442 !important;
+    border-color: #fca442 !important;
+}
+
+/* Left Bottom Email */
+.casa-email-contact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.casa-email-contact .casa-contact-label {
+    color: #111111;
+    font-weight: 700;
+}
+
+.casa-email-contact .casa-contact-numbers a {
+    color: #111111;
+    font-weight: 600;
+}
+
+.casa-email-contact .casa-contact-numbers a:hover {
+    color: var(--casa-orange);
+}
+
+.casa-email-contact .casa-contact-numbers .divider {
+    color: #333333;
+}
+
+.casa-hero-right {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.casa-hero-main-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Image sub labels */
+.casa-hero-img-labels {
+    display: flex;
+    width: 90%;
+    align-self: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.casa-img-label {
+    flex: 1;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+    opacity: 0.9;
+    padding: 0 5px;
+}
+
+
+/* ---------------- STATS SECTION ---------------- */
+.casa-stats-section {
+    padding: 25px 0;
+    background-color: #fdf5ea;
+    position: relative;
+    z-index: 5;
+    margin-top: 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+}
+
+.casa-stats-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: transparent;
+}
+
+.casa-stat-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 15px;
+    border-right: 1px solid rgba(243, 129, 24, 0.25); /* Vertical delimiters */
+}
+
+.casa-stat-item:last-child {
+    border-right: none;
+}
+
+.casa-stat-icon {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+.casa-stat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.casa-stat-val {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+
+.casa-stat-label {
+    font-size: 0.95rem;
+    color: #444;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* ---------------- CONCEPT TO FINAL SURFACE (CTFS) SECTION ---------------- */
+.casa-ctfs-section {
+    padding: 80px 0;
+    background-color: #fafafa;
+}
+
+.casa-ctfs-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.casa-ctfs-title .text-orange {
+    color: var(--casa-orange);
+}
+
+.casa-ctfs-desc {
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+.casa-ctfs-main-img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+.casa-ctfs-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.casa-ctfs-feature-item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.04);
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.casa-ctfs-feature-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.casa-ctfs-feature-item img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.casa-ctfs-feature-item span {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.3;
+}
+
+/* ---------------- HOW THE WORKFLOWS CONNECT (WFC) SECTION ---------------- */
+.casa-wfc-section {
+    padding: 80px 0 60px 0;
+    background-color: #f7f9fc;
+}
+
+.casa-section-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #111;
+}
+
+.casa-wfc-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 22px 15px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.casa-wfc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.casa-wfc-img-wrap {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.casa-wfc-img-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.casa-wfc-card-title {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.casa-wfc-card-text {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* ---------------- TRANSFORMATION WORKFLOW (TWF) SECTION ---------------- */
+.casa-twf-section {
+    padding: 80px 0;
+    background-color: #0b0b0b;
+}
+
+.casa-twf-section .casa-section-title {
+    color: #ffffff;
+}
+
+.casa-twf-card {
+    background: #282828;
+    border-radius: 12px;
+    padding: 30px 15px;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.casa-twf-card:hover {
+    transform: translateY(-5px);
+    background: #333333;
+}
+
+.casa-twf-img-wrap {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.casa-twf-img-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.casa-twf-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 0;
+}
+
+/* ---------------- SURFACE QUALITY (DTP) SECTION ---------------- */
+.casa-dtp-section {
+    padding: 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-dtp-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.casa-dtp-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 22px 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.casa-dtp-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    border-color: var(--casa-orange);
+}
+
+.casa-dtp-icon {
+    flex-shrink: 0;
+    width: 45px;
+    height: 45px;
+}
+
+.casa-dtp-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.casa-dtp-content {
+    flex-grow: 1;
+}
+
+.casa-dtp-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.casa-dtp-text {
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.45;
+    margin-bottom: 0;
+}
+
+/* ---------------- CONTINUITY COMPARISON (CC) SECTION ---------------- */
+.casa-cc-section {
+    padding: 0 0 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-cc-box {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 50px 70px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.03);
+}
+
+.casa-cc-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1.25;
+}
+
+.casa-cc-legend {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.casa-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.casa-legend-icon {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casa-legend-icon .line-blue {
+    width: 100%;
+    height: 3px;
+    background-color: #4a8cf6;
+}
+
+.casa-legend-icon .box-grey {
+    width: 100%;
+    height: 28px;
+    background-color: #d1d1d1;
+}
+
+.casa-legend-icon .line-black {
+    width: 100%;
+    height: 3px;
+    background-color: #111;
+}
+
+.casa-legend-text {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #111;
+}
+
+/* ---------------- 9-STEP WORKFLOW SECTION ---------------- */
+.casa-9step-section {
+    padding: 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-9step-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.casa-9step-row::before {
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 10%;
+    right: 10%;
+    height: 3px;
+    background: var(--casa-orange);
+    z-index: 1;
+}
+
+.casa-9step-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-top: 4px solid var(--casa-orange);
+    border-radius: 12px;
+    padding: 22px 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    position: relative;
+    z-index: 2;
+    flex: 0 1 260px;
+    transition: transform 0.3s ease;
+}
+
+.casa-9step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.casa-9step-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.casa-9step-num {
+    background: #111;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.casa-9step-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #111;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.casa-9step-text {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.45;
+    margin-bottom: 0;
+}
+
+/* ---------------- EVERY SURFACE IS ANALYSED (ESF) SECTION ---------------- */
+.casa-esf-section {
+    padding: 80px 0;
+    background-color: #0b0b0b;
+}
+
+.casa-esf-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+.casa-esf-text {
+    font-size: 1.05rem;
+    color: #cccccc;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.casa-esf-grid {
+    display: grid;
+    grid-template-columns: 240px 1fr 240px;
+    gap: 20px;
+    align-items: center;
+}
+
+.casa-esf-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.casa-esf-card {
+    background: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+.casa-esf-card:hover {
+    transform: translateY(-4px);
+    background: #333333;
+    border-color: var(--casa-orange);
+}
+
+.casa-esf-icon {
+    width: 65px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.casa-esf-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.casa-esf-card span {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.casa-esf-center img {
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ---------------- WHY PRECISE SECTION ---------------- */
+.casa-why-section {
+    padding: 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-why-title {
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 5px;
+    line-height: 1.1;
+}
+
+.casa-why-logo {
+    max-width: 220px;
+}
+
+.casa-why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* ---------------- DELIVERABLES SECTION ---------------- */
+.casa-deliv-section {
+    padding: 20px 0 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-deliv-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.casa-deliv-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.casa-deliv-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.casa-deliv-card img {
+    height: 55px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.casa-deliv-title {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 3px;
+    line-height: 1.25;
+}
+
+.casa-deliv-sub {
+    font-size: 0.8rem;
+    color: #777;
+    font-weight: 500;
+}
+
+/* ---------------- TRUSTED CLIENTS SECTION ---------------- */
+.casa-trusted-section {
+    padding: 0 0 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-trusted-box {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+}
+
+.casa-trusted-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 50px;
+}
+
+.casa-trusted-logos img {
+    height: 60px;
+    max-width: 150px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.casa-trusted-logos img:hover {
+    transform: scale(1.08);
+}
+
+/* ---------------- CTA SECTION ---------------- */
+.casa-cta-section {
+    padding: 0 0 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-cta-box {
+    background-color: #0d0d0d;
+    background-image: url('../images/class-a-surfaces-application/CTA-bg-img.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 65px 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+}
+
+.casa-cta-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 12px;
+    line-height: 1.25;
+}
+
+.casa-cta-text {
+    font-size: 1.05rem;
+    color: #cccccc;
+    margin-bottom: 35px;
+}
+
+.casa-cta-btn {
+    padding: 12px 35px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn.casa-cta-btn:hover {
+    background: linear-gradient(180deg, #fdcc7f 0%, #f79836 100%) !important;
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.2) !important;
+}
+
+/* ---------------- FAQ SECTION ---------------- */
+.casa-faq-section {
+    padding: 0 0 80px 0;
+    background-color: #fafbfc;
+}
+
+.casa-faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.casa-faq-item {
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+    overflow: hidden;
+    border-left: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.casa-faq-item.active {
+    border-left-color: #f89c1e;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.casa-faq-header {
+    padding: 22px 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #444;
+}
+
+.casa-faq-icon {
+    color: #f89c1e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 15px;
+    line-height: 1;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.casa-faq-icon::after {
+    content: '+';
+}
+
+.casa-faq-item.active .casa-faq-icon::after {
+    content: '-';
+}
+
+.casa-faq-body-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease;
+}
+
+.casa-faq-item.active .casa-faq-body-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.casa-faq-body {
+    overflow: hidden;
+}
+
+.casa-faq-body-inner {
+    padding: 0 30px 25px 65px;
+    font-size: 0.95rem;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* ---------------- RESPONSIVE QUERIES ---------------- */
+@media (max-width: 1199px) {
+    .casa-hero-title { font-size: 2.8rem; }
+    .casa-stat-item { padding: 15px 10px; gap: 8px; }
+    .casa-stat-icon { width: 30px; height: 30px; }
+    .casa-stat-val { font-size: 1.1rem; }
+    .casa-stat-label { font-size: 0.75rem; }
+    .casa-img-label { font-size: 0.7rem; }
+    .casa-dtp-grid { grid-template-columns: repeat(3, 1fr); }
+    
+    .casa-9step-row {
+        flex-wrap: wrap;
+    }
+    .casa-9step-row::before {
+        display: none;
+    }
+    .casa-9step-card {
+        flex: 1 1 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
+    
+    .casa-esf-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .casa-esf-center {
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 25px;
+    }
+    
+    .casa-why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .casa-deliv-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .casa-trusted-box {
+        padding: 40px 25px;
+    }
+    .casa-trusted-logos {
+        gap: 30px 40px;
+    }
+    .casa-trusted-logos img {
+        height: 50px;
+        max-width: 120px;
+    }
+    
+    .casa-cta-box {
+        padding: 50px 30px;
+    }
+    .casa-cta-title {
+        font-size: 1.85rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .casa-hero-section {
+        padding: 50px 0;
+        min-height: auto;
+    }
+
+    .casa-hero-badge {
+        margin-top: 0px;
+    }
+    .casa-hero-top-contact {
+        position: relative;
+        top: 0;
+        right: auto;
+        margin-bottom: 0px;
+        justify-content: flex-start;
+        align-self: flex-start;
+        width: auto;
+    }
+
+    .casa-contact-icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .casa-hero-content {
+        flex-direction: column;
+    }
+
+    .casa-hero-left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .casa-hero-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Force white text on contact blocks against dark background in stacked mode */
+    .casa-email-contact .casa-contact-label,
+    .casa-email-contact .casa-contact-numbers a,
+    .casa-hero-top-contact .casa-contact-label,
+    .casa-hero-top-contact .casa-contact-numbers a {
+        color: #ffffff !important;
+    }
+
+    .casa-stats-grid {
+        flex-wrap: wrap;
+        border-radius: 8px;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        gap: 15px;
+    }
+    
+    .casa-stat-item {
+        flex: 0 0 calc(33.333% - 10px);
+        background: #fff9f0;
+        border: 1px solid rgba(240, 230, 220, 0.8);
+        border-right: 1px solid rgba(240, 230, 220, 0.8);
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    }
+    .casa-stat-item:last-child {
+        border-right: 1px solid rgba(240, 230, 220, 0.8);
+    }
+    .casa-hero-bg-overlay{
+        background: transparent;
+    }
+    .casa-dtp-grid { grid-template-columns: repeat(2, 1fr); }
+    
+    .casa-cc-box {
+        padding: 40px 30px;
+    }
+    .casa-cc-legend {
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .casa-9step-card {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 767px) {
+    .casa-hero-title { font-size: 2.3rem; }
+    .casa-hero-desc { font-size: 1rem; }
+    .btn-casa-orange, .btn-casa-outline {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .casa-stat-item {
+        flex: 0 0 calc(50% - 8px);
+    }
+    
+    .casa-email-contact {
+        align-items: flex-start;
+    }
+    .casa-contact-numbers {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .casa-contact-numbers .divider { display: none; }
+    .casa-img-label { font-size: 0.65rem; padding: 0 2px; }
+    .casa-dtp-grid { grid-template-columns: 1fr; }
+    
+    .casa-cc-box {
+        padding: 30px 20px;
+    }
+    .casa-cc-title {
+        font-size: 1.95rem;
+    }
+    .casa-cc-legend {
+        margin-bottom: 25px;
+    }
+    
+    .casa-9step-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    
+    .casa-esf-grid {
+        grid-template-columns: 1fr;
+    }
+    .casa-esf-center {
+        grid-column: span 1;
+    }
+    
+    .casa-why-grid {
+        grid-template-columns: 1fr;
+    }
+    .casa-why-title {
+        font-size: 2.3rem;
+    }
+    .casa-why-logo {
+        max-width: 180px;
+    }
+    
+    .casa-deliv-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .casa-trusted-box {
+        padding: 30px 15px;
+    }
+    .casa-trusted-logos {
+        gap: 20px 25px;
+    }
+    .casa-trusted-logos img {
+        height: 40px;
+        max-width: 100px;
+    }
+    
+    .casa-cta-box {
+        padding: 45px 20px;
+    }
+    .casa-cta-title {
+        font-size: 1.6rem;
+    }
+    .casa-cta-text {
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+    }
+    
+    .casa-faq-header {
+        padding: 18px 20px;
+        font-size: 0.95rem;
+    }
+    .casa-faq-body-inner {
+        padding: 0 15px 20px 50px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .casa-hero-title { font-size: 2rem; }
+    .casa-stat-item {
+        flex: 0 0 100%;
+    }
+    .casa-img-label { font-size: 0.55rem; }
+    
+    .casa-deliv-grid {
+        grid-template-columns: 1fr;
+    }
+}

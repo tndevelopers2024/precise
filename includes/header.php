@@ -1416,14 +1416,19 @@ headeer top
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "@id": "https://www.precise3dm.com/#business",
+      "@type": "Organization",
+      "@id": "https://www.precise3dm.com/#organization",
       "name": "Precise3DM",
-      "image": "https://www.precise3dm.com/assets/images/logo.png",
+      "legalName": "Precise3D Metrology & Design Solution Pvt Ltd",
       "url": "https://www.precise3dm.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.precise3dm.com/assets/images/logo.png"
+      },
+      "image": "https://www.precise3dm.com/assets/images/logo.png",
       "telephone": "+91-7395972777",
       "email": "sales@precise3dm.com",
-      "priceRange": "$$$",
+      "description": "Precise3DM provides 3D scanning, 3D printing, reverse engineering, 3D inspection, and digital manufacturing solutions for industries across India and worldwide.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2/461, 2nd Floor, Rajas Tower, Medavakkam Main Rd, Kovilambakkam",
@@ -1432,19 +1437,13 @@ headeer top
         "postalCode": "600129",
         "addressCountry": "IN"
       },
-      "areaServed": "Worldwide",
-      "serviceType": [
-        "3D Scanning",
-        "Reverse Engineering",
-        "3D Printing",
-        "3D Inspection",
-        "Digital Manufacturing Solutions"
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "2556"
-      }
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/precise3dm/"
+      ]
     }
     </script> 
 

@@ -12,9 +12,9 @@ ini_set('max_execution_time', '-1');
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3d scanning in Delhi | 3d scanning service in Delhi</title>
-    <meta name="description"
-        content=" 3d scanning provider in Delhi, Rajastan, Get price quote for our 3d scanning service">
+    <title>3d Scanning in New Delhi | 3d Scanning Services</title>
+    <link rel="canonical" href="https://www.precise3dm.com/3d-scanning-service-in-new-delhi.php" />
+    <meta name="description" content="Get accurate 3D scanning services in New Delhi for reverse engineering, inspection, CAD modeling, and quality control with advanced scanning technology.">
     <meta name="keywords"
         content="3D Laser Scanning in Delhi, 3d scanning in Delhi, 3d scanning in india, 3d Scanning Services in India, 3d scanning services, 3d scanning services in Delhi">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
@@ -207,7 +207,7 @@ section#chennai-service-heroimg {
     font-weight: bold;
     box-shadow: rgba(255, 141, 30, 0.3) 0px 20px 25px -5px, rgba(255, 141, 30, 0.3) 0px 10px 10px -5px;
 }
-.OPTICAL-3D-SCANNING h1 {
+.OPTICAL-3D-SCANNING h2 {
     color: #FF8D1E;
     margin: 20px 0 10px 0;
     font-size: 26px;
@@ -222,7 +222,7 @@ section#chennai-service-heroimg {
 .OPTICAL-3D-SCANNING1 {
     text-align: center;
 }
-.HANDHELD-METROLOGY h1 {
+.HANDHELD-METROLOGY h2 {
     color: #FF8D1E;
     margin: 20px 0 10px 0;
     font-size: 26px;
@@ -238,7 +238,7 @@ section#chennai-service-heroimg {
     margin-top: 40px;
     padding-bottom: 40px;
 }
-.Colour h1 {
+.Colour h2 {
     color: #FF8D1E;
     margin: 20px 0 10px 0;
     font-size: 26px;
@@ -250,7 +250,7 @@ section#chennai-service-heroimg {
     line-height: 35px;
     text-align: justify;
 }
-.LONG-RANGE h1 {
+.LONG-RANGE h2 {
     color: #FF8D1E;
     margin: 20px 0 10px 0;
     font-size: 26px;
@@ -262,7 +262,7 @@ section#chennai-service-heroimg {
     line-height: 35px;
     text-align: justify;
 }
-.LASER-ARM h1 {
+.LASER-ARM h2 {
     color: #FF8D1E;
     margin: 20px 0 10px 0;
     font-size: 26px;
@@ -278,7 +278,7 @@ section#chennai-service-heroimg {
     background-color: #FF8D1E;
     text-align: center;
 }
-.SERVICE-WORKFLOW h1 {
+.SERVICE-WORKFLOW h2 {
     margin: auto;
     color: #FFF;
     font-size: 26px;
@@ -341,7 +341,7 @@ img {
     text-align: center;
     padding-bottom: 25px;
 }
-.WORKFLOW1 h1 {
+.WORKFLOW1 h2 {
     margin: auto;
     color: #FFF;
     font-size: 26px;
@@ -866,7 +866,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container OPTICAL-3D-SCANNING-HEAD">
 <div class="row">
 <div class="col-12 col-lg-6 col-md-6 OPTICAL-3D-SCANNING">
-    <h1>OPTICAL 3D SCANNING</h1>
+    <h2>OPTICAL 3D SCANNING</h2>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical" style="font-size: 16px">Any Small and large Objects with Blue & White light 3D Scanning In New Delhi( You bring the parts to our place )<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Onsite structured light 3D Scanning In New Delhi (We Bring The Scanner To Your Factory)<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Visit Our 3D scanning location In New Delhi to 3D Scan Your Component Using Gom 3D Scanners<br>
@@ -886,7 +886,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="assets/images/Newdelhi-3D-service/image 2.png" alt="optical" style="width: 100%;"><br>
     </div>
 <div class="col-12 col-lg-6 col-md-6 HANDHELD-METROLOGY">
-    <h1>HANDHELD METROLOGY 3D SCANNING</h1>
+    <h2>HANDHELD METROLOGY 3D SCANNING</h2>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Large objects can be 3D scanned using handheld 3D Scanning in New Delhi with industrial-grade portable 3D Scanners.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">We bring a handheld 3D Scanner to your place and perform onsite 3D Scanning in New Delhi.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Objects can be 3D Scanned without dismantling or in assembly conditions.<br>
@@ -901,7 +901,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container OPTICAL-3D-SCANNING-HEAD">
 <div class="row">
 <div class="col-12 col-lg-6 col-md-6 Colour">
-    <h1>Handheld Colour & Texture 3D Scanning</h1>
+    <h2>Handheld Colour & Texture 3D Scanning</h2>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">We provide a Handheld 3D Scanner weekly and monthly Rental to all over New Delhi.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">We bring a portable 3D Scanner to your place to perform statues, human bodies and non-engineering items to 3D Scann in New Delhi.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Get 3D Scanning in New Delhi for any coloured object and texture.<br>
@@ -922,7 +922,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="assets/images/Newdelhi-3D-service/imge 4.png" style="width: 100%;" alt="optical"><br>
     </div>
 <div class="col-12 col-lg-6 col-md-6 LONG-RANGE">
-    <h1>LONG-RANGE 3D SCANNING</h1>
+    <h2>LONG-RANGE 3D SCANNING</h2>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Large Building 3D scanning using Lidar Scanning in New Delhi.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">We can perform large and small factory 3D scanning in and around Delhi.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Building Interiors laser 3D Scanning in New Delhi<br>
@@ -938,7 +938,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container OPTICAL-3D-SCANNING-HEAD">
 <div class="row">
 <div class="col-12 col-lg-6 col-md-6 LASER-ARM">
-    <h1>LASER ARM 3D SCANNING</h1>
+    <h2>LASER ARM 3D SCANNING</h2>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">We bring Faro or hexagon laser arm 3D Scanner to your place and perform doorstep 3D Scanning service in New Delhi.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">Precise3DM can perform a Portable arm CMM inspection service & laser scanning service together based on project requirements.<br>
     <img src="assets/images/Newdelhi-3D-service/Frame.png" alt="optical">We can provide a Live inspection report after 3D Scanning onsite.<br>
@@ -956,7 +956,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="SERVICE-WORKFLOW">
        <div class="container">
         <div class="row">
-            <h1 class="text-center">FREE COMPONENT PICK-UP SERVICE WORKFLOW</h1>
+            <h2 class="text-center">FREE COMPONENT PICK-UP SERVICE WORKFLOW</h2>
 <p>At Precise3DM, we streamline 3D scanning projects by providing a complimentary pick-up service for components you wish to 3D scan, whether for reverse engineering or 3D inspection services in New Delhi.</p>
             <div class="col-12 col-lg-3 col-md-6 col-sm-12 WORKFLOW">
             <img src="assets/images/Newdelhi-3D-service/Group 850.png" alt="optical">
@@ -1007,7 +1007,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- end to end service chennai content section starts -->
     <section class="WORKFLOW1">
     <div class="container ">
-  <h1>WORKFLOW </h1>
+  <h2>WORKFLOW </h2>
     
     <div class="row ">
         
@@ -1190,7 +1190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row locations-Precise3DM-New-Delhi">
               
                 <div class="col-12 col-lg-12 col-md-6 col-sm-6 locations-Precise3DM-New-Delhi1">
-                <h1>3D scanning service locations from Precise3DM New Delhi</h1>
+                <h2>3D scanning service locations from Precise3DM New Delhi</h2>
                     <ul>
                     <li><img src="assets/images/Newdelhi-3D-service/Frame 799.png"
                         alt="3d-scanning-services-Delhi"></li>

@@ -13,6 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Scanning Service in Kolhapur | 3D Scan Kolhapur </title>
+    <link rel="canonical" href="https://www.precise3dm.com/3d-scanning-service-in-Kolhapur.php" />
     <meta name="description" content="Precise3DM is a 3D scanning Services Provider in Kolhapur, Get a quote & price for 3D Scanning Services in Kolhapur for reverse engineering & Inspection. ">
     <meta name="keywords" content="3D Laser Scanning in Kolhapur, 3D scanning in Kolhapur, 3D scanning in india, 3D Scanning Services in India, 3D scanning services, 3D scanning services in Kolhapur">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />

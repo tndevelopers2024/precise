@@ -1,0 +1,1865 @@
+/* scan-to-class-a-surface.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --stcas-orange: #F38118;
+    --stcas-orange-light: #fcb453;
+    --stcas-orange-dark: #e1720a;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.stcas-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+}
+
+/* ========================
+   HERO SECTION
+   ======================== */
+.stcas-hero-section {
+    padding: 160px 0 80px 0;
+    min-height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.stcas-hero-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* --- LEFT CONTENT --- */
+.stcas-hero-left {
+    width: 42%;
+    padding-right: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.stcas-hero-title {
+    font-size: 3.8rem;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 22px;
+    letter-spacing: -0.5px;
+    color: #111111;
+}
+
+.stcas-hero-desc {
+    color: #333333;
+    font-size: 1.15rem;
+    line-height: 1.65;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+/* --- CTA BUTTON --- */
+.stcas-hero-cta {
+    margin-bottom: 40px;
+}
+
+.btn-stcas-orange {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    background: linear-gradient(180deg, #fcb453 0%, #f28014 100%);
+    color: #ffffff;
+    border: 1px solid #e1720a;
+    box-shadow: 0 4px 15px rgba(243, 129, 24, 0.3);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-stcas-orange:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(243, 129, 24, 0.5);
+    background: linear-gradient(180deg, #fdcc7f 0%, #f79836 100%);
+    color: #ffffff;
+}
+
+/* --- CONTACT BLOCKS --- */
+.stcas-contact-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f7b733, #fc4a1a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(243, 129, 24, 0.4);
+    flex-shrink: 0;
+}
+
+.stcas-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.stcas-contact-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    line-height: 1;
+    color: #111111;
+}
+
+.stcas-contact-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.stcas-contact-link {
+    color: #111111;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.stcas-contact-link:hover {
+    color: var(--stcas-orange);
+}
+
+.stcas-divider {
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 0.9rem;
+}
+
+/* Bottom Left Email Contact */
+.stcas-email-contact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Mobile Call Contact - hidden on desktop */
+.stcas-mobile-call-contact {
+    display: none;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* --- RIGHT IMAGE CONTAINER --- */
+.stcas-hero-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* Top Right Call Contact */
+.stcas-top-call-contact {
+    position: absolute;
+    top: 130px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 10;
+}
+
+.stcas-top-call-contact .stcas-contact-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+.stcas-top-call-contact .stcas-contact-label {
+    color: #111111;
+    font-weight: 700;
+}
+
+.stcas-top-call-contact .stcas-contact-link {
+    color: #111111;
+    font-weight: 700;
+}
+
+.stcas-top-call-contact .stcas-contact-link:hover {
+    color: var(--stcas-orange);
+}
+
+/* Hero Main Image */
+.stcas-hero-main-img {
+    width: 100%;
+    height: auto;
+    max-height: 80%;
+    object-fit: contain;
+    object-position: center bottom;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    z-index: 1;
+}
+
+/* ========================
+   STATS BAR SECTION
+   ======================== */
+.stcas-stats-section {
+    padding: 20px 0;
+    background-color: #F38118;
+    position: relative;
+    z-index: 5;
+}
+
+.stcas-stats-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stcas-stat-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    gap: 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stcas-stat-item:last-child {
+    border-right: none;
+}
+
+.stcas-stat-icon {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    flex-shrink: 0;
+    filter: brightness(0) invert(1);
+}
+
+.stcas-stat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.stcas-stat-val {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.stcas-stat-label {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* ========================
+   WHAT IS A CLASS-A SURFACE SECTION
+   ======================== */
+.stcas-about-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.stcas-about-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #222222;
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.stcas-about-text {
+    font-size: 1.05rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.stcas-about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stcas-about-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #444444;
+}
+
+.stcas-check-icon {
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10' viewBox='0 0 14 10' fill='none'%3E%3Cpath d='M1 5L5 9L13 1' stroke='%23e63946' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.stcas-about-img-wrap {
+    text-align: center;
+}
+
+.stcas-about-img {
+    max-width: 100%;
+    border-radius: 12px;
+    /* Optional shadow if image itself does not have a border/shadow (the reference image seems to have a light inset/shadow) */
+}
+
+/* ========================
+   DIMENSIONAL ACCURACY SECTION
+   ======================== */
+.stcas-accuracy-section {
+    padding: 70px 0;
+    background-color: #f7f8fa;
+}
+
+.stcas-da-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    height: 100%;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.stcas-da-title {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+.stcas-da-subtitle {
+    text-align: center;
+    color: #555555;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+/* Left Card Comparison */
+.stcas-da-comparison {
+    display: flex;
+    gap: 20px;
+}
+
+.stcas-da-comp-box {
+    flex: 1;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stcas-da-comp-header {
+    font-weight: 800;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.txt-red { color: #dc3545; }
+.txt-green { color: #28a745; }
+
+.stcas-da-comp-desc {
+    font-size: 0.9rem;
+    color: #555555;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.stcas-da-comp-img-wrap {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.stcas-da-comp-img-wrap img {
+    max-height: 140px;
+    object-fit: contain;
+}
+
+/* Right Card Grid */
+.stcas-da-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stcas-da-grid-item {
+    text-align: center;
+}
+
+.stcas-da-grid-item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.stcas-da-grid-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #444444;
+    line-height: 1.3;
+}
+
+.stcas-da-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555555;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.txt-red-bold {
+    color: #dc3545;
+    font-weight: 800;
+}
+
+/* ========================
+   WORKFLOWS CONNECT SECTION
+   ======================== */
+.stcas-workflow-section {
+    padding: 80px 0;
+    background-color: #f7f8fa; /* Matching the reference light background */
+}
+
+.stcas-section-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #222222;
+    margin-bottom: 50px;
+}
+
+.stcas-workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 15px;
+    position: relative;
+}
+
+/* Continuous connecting line */
+.stcas-workflow-grid::before {
+    content: '';
+    position: absolute;
+    top: 90px; /* Vertically centered roughly behind the images */
+    left: 4%;
+    right: 4%;
+    height: 1.5px;
+    background-color: var(--stcas-orange);
+    z-index: 0;
+}
+
+.stcas-workflow-item {
+    position: relative;
+    padding-top: 16px; /* space for badge overflow */
+    z-index: 1; /* Ensure cards are above the line */
+    display: flex;
+    flex-direction: column;
+}
+
+.stcas-workflow-badge {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32px;
+    height: 32px;
+    background-color: var(--stcas-orange);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.95rem;
+    z-index: 2;
+    box-shadow: 0 3px 8px rgba(243, 129, 24, 0.4);
+}
+
+.stcas-workflow-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px 12px 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    height: 100%;
+}
+
+.stcas-workflow-card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.05); /* Light border matching reference */
+}
+
+.stcas-workflow-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #222222;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.stcas-workflow-desc {
+    font-size: 0.8rem;
+    color: #666666;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* ========================
+   SURFACE CONTINUITY SECTION
+   ======================== */
+.stcas-sc-section {
+    padding: 70px 0;
+    background-color: #f7f8fa;
+}
+
+.stcas-sc-grid {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stcas-sc-box {
+    flex: 1;
+    border: 1px solid rgba(0,0,0,0.08); /* light gray */
+    border-radius: 8px;
+    padding: 15px 12px;
+    text-align: center;
+    background-color: #fafbfc;
+}
+
+.stcas-sc-box h4 {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.stcas-sc-box p {
+    font-size: 0.8rem;
+    color: #555555;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 15px;
+    min-height: 52px; /* ensure alignment */
+}
+
+.stcas-sc-box img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.stcas-sc-box.active {
+    border-color: #F38118;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(243, 129, 24, 0.08);
+}
+
+.stcas-sc-box.active h4 {
+    color: #F38118;
+}
+
+/* Legend Arrow */
+.stcas-sc-legend {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.sc-legend-start {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #444444;
+}
+
+.sc-legend-end {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #F38118;
+}
+
+.sc-legend-line {
+    flex: 1;
+    height: 1px;
+    background-color: #F38118;
+    position: relative;
+}
+
+.sc-legend-line::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 4px 0 4px 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #F38118;
+}
+
+/* ========================
+   COMPARISON SECTION
+   ======================== */
+.stcas-vs-section {
+    padding: 70px 0;
+    background-color: #f6f7f9;
+}
+
+.stcas-vs-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #222222;
+    line-height: 1.4;
+}
+
+/* Table styles */
+.stcas-vs-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.stcas-vs-table-wrap::-webkit-scrollbar {
+    height: 6px;
+}
+.stcas-vs-table-wrap::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 6px;
+}
+
+.stcas-vs-table {
+    margin-bottom: 0;
+}
+
+.stcas-vs-table th,
+.stcas-vs-table td {
+    padding: 14px 10px;
+    vertical-align: middle;
+    text-align: center;
+    border-color: rgba(0,0,0,0.05); /* inner borders */
+}
+
+.stcas-vs-table th {
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-right: 1px solid rgba(255,255,255,0.2) !important;
+}
+.stcas-vs-table th:last-child {
+    border-right: none !important;
+}
+
+.stcas-vs-table th.th-dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.stcas-vs-table th.th-orange-dark {
+    background-color: #ee7f1a;
+    color: #ffffff;
+}
+
+.stcas-vs-table th.th-orange-light {
+    background-color: #fa9027;
+    color: #ffffff;
+}
+
+.stcas-vs-table {
+    min-width: 650px;
+}
+
+.stcas-vs-table td {
+    border-right: 1px solid rgba(0,0,0,0.05);
+    font-size: 0.85rem;
+    color: #444444;
+    font-weight: 500;
+    line-height: 1.4;
+    scroll-snap-align: start;
+}
+.stcas-vs-table th {
+    scroll-snap-align: start;
+}
+.stcas-vs-table td:last-child {
+    border-right: none;
+}
+.stcas-vs-table td.td-label {
+    color: #222222;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+/* Cards styles */
+.stcas-vs-cards {
+    display: flex;
+    gap: 15px;
+    height: calc(100% - 40px); /* Fill space minus title */
+}
+
+.stcas-vs-card {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 25px 15px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    display: flex;
+    flex-direction: column;
+}
+
+.stcas-vs-card-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    text-align: center;
+    color: #333333;
+    min-height: 38px;
+    margin-bottom: 20px;
+    line-height: 1.35;
+}
+
+.stcas-vs-card-img {
+    margin-bottom: 20px;
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.stcas-vs-card-img img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.stcas-vs-list {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 0.85rem;
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.stcas-vs-list li {
+    margin-bottom: 6px;
+}
+
+/* ========================
+   FLOWCHART SECTION
+   ======================== */
+.stcas-flowchart-section {
+    padding: 70px 0;
+    background-color: #f7f8fa;
+}
+
+.stcas-flow-scroll-wrap {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal pan on smaller screens */
+    padding-bottom: 20px;
+}
+
+.stcas-flow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1100px; /* Forces layout to remain intact */
+    margin: 0 auto;
+    padding-top: 180px; /* Space for the absolute top block */
+}
+
+/* Card Styles */
+.fc-card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 8px;
+    padding: 12px;
+    width: 145px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+.fc-card h4 {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #222222;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    min-height: 30px;
+}
+.fc-img-gray {
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    padding: 2px;
+}
+.fc-card img {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.fc-card-final {
+    width: 160px;
+}
+.fc-card-final h4 {
+    margin-bottom: 15px;
+}
+
+/* Left Start Block */
+.fc-start-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fc-absolute-top {
+    position: absolute;
+    bottom: 100%; /* places it directly above */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fc-arrow-down {
+    padding: 10px 0;
+    color: #999999;
+    font-size: 1.2rem;
+}
+
+/* Base Connectors */
+.fc-conn-arrow,
+.fc-conn-hz {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.fc-conn-arrow {
+    width: 50px;
+}
+.fc-conn-hz {
+    width: 25px;
+}
+.fc-line-hz {
+    height: 2px;
+    width: 100%;
+    background-color: #a3a3a3;
+}
+.fc-arr, .fc-txt-gray {
+    color: #a3a3a3;
+    position: absolute;
+    right: -4px;
+}
+
+.fc-txt-decision {
+    position: absolute;
+    top: -75px;
+    left: 85px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #616274;
+}
+
+/* Diamond */
+.fc-diamond-node {
+    margin: 0 20px;
+}
+.fc-diamond {
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+.fc-diamond-txt {
+    transform: rotate(-45deg);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #6b7280;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Fork Connector (splits up/down) */
+.fc-connector-fork {
+    position: relative;
+    width: 25px;
+    height: 110px; /* Card height 75px + gap 35px = 110px center-to-center */
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.fc-fork-up {
+    flex: 1;
+    border-left: 2px solid #ef4444; /* red */
+    border-top: 2px solid #ef4444;
+    border-top-left-radius: 6px;
+    margin-bottom: 50px; /* seamless connection */
+}
+.fc-fork-down {
+    flex: 1;
+    border-left: 2px solid #3b82f6; /* blue */
+    border-bottom: 2px solid #3b82f6;
+    border-bottom-left-radius: 6px;
+    margin-top: -1px;
+}
+.fc-caret-red {
+    position: absolute;
+    right: -5px;
+    top: -7px;
+    color: #ef4444;
+}
+.fc-caret-blue {
+    position: absolute;
+    right: -5px;
+    bottom: -7px;
+    color: #3b82f6;
+}
+
+/* Branches */
+.fc-branches {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; /* Defines the fork height */
+}
+.fc-branch {
+    display: flex;
+    align-items: center;
+}
+
+/* Label Cards */
+.fc-label-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 160px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+.fc-label-card h4 {
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+.fc-label-card p {
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin: 0;
+}
+.fc-red { border: 2px solid #ef4444; }
+.txt-red { color: #ef4444 !important; }
+.txt-red-light { color: #f87171 !important; }
+.fc-bg-red { background-color: #ef4444 !important; }
+.fc-txt-red { color: #ef4444 !important; position: absolute; right: -4px; }
+
+.fc-blue { border: 2px solid #3b82f6; }
+.txt-blue { color: #3b82f6 !important; }
+.txt-blue-light { color: #60a5fa !important; }
+.fc-bg-blue { background-color: #3b82f6 !important; }
+.fc-txt-blue { color: #3b82f6 !important; position: absolute; right: -4px; }
+.fc-bg-gray { background-color: #a3a3a3 !important; }
+
+/* Merge Connector */
+.fc-connector-merge {
+    position: relative;
+    width: 25px;
+    height: 110px; /* Same logic as fork */
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fc-merge-up {
+    flex: 1;
+    border-right: 2px solid #64748b;
+    border-top: 2px solid #64748b;
+    border-top-right-radius: 6px;
+    margin-bottom: -1px;
+}
+.fc-merge-down {
+    flex: 1;
+    border-right: 2px solid #64748b;
+    border-bottom: 2px solid #64748b;
+    border-bottom-right-radius: 6px;
+    margin-top: -1px;
+}
+.fc-caret-merge {
+    position: absolute;
+    right: -4.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748b;
+}
+
+/* ========================
+   ANALYSIS & USE CASES SPLIT SECTION
+   ======================== */
+.stcas-analysis-section {
+    padding: 20px 0 70px;
+    background-color: #f7f8fa;
+}
+
+.stcas-split-card {
+    display: flex;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+/* Left Side (White) */
+.stcas-split-left {
+    flex: 0 0 35%; /* roughly 35% of width */
+    background-color: #ffffff;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stcas-split-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+.stcas-use-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: auto; /* Push info box to bottom */
+}
+
+.stcas-use-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    color: #4b5563;
+    font-weight: 500;
+    line-height: 1.45;
+}
+
+.txt-green {
+    color: #1fc781;
+    font-size: 1.05rem;
+    margin-top: 3px;
+}
+
+.stcas-info-box {
+    background-color: #fcfcfc;
+    border: 1px solid #f1f2f4;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.stcas-info-icon {
+    color: #1e3a8a;
+    font-size: 1.15rem;
+    margin-top: 3px;
+}
+
+.stcas-info-box p {
+    flex: 1;
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.stcas-info-img {
+    width: 75px;
+    object-fit: contain;
+    align-self: flex-end;
+    background-color: #999999;
+    padding:5px 5px;
+    border-radius: 2px;
+}
+
+/* Right Side (Dark Blue) */
+.stcas-split-right {
+    flex: 0 0 65%;
+    background-color: #0b1a3c;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stcas-split-title-dark {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.stcas-esia-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.stcas-esia-card {
+    background-color: #122146;
+    border: 1px solid rgba(255, 255, 255, 0.08); /* slight highlight */
+    border-radius: 8px;
+    padding: 12px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stcas-esia-card h4 {
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.35;
+    min-height: 32px;
+    margin-bottom: 12px;
+}
+
+.stcas-esia-img {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.stcas-esia-img img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 3px;
+}
+
+/* ========================
+   CALL TO ACTION SECTION
+   ======================== */
+.stcas-cta-section {
+    padding: 75px 0;
+    background-color: #f6efe6; /* Very light warm beige */
+}
+
+.stcas-cta-suptitle {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 8px;
+}
+
+.stcas-cta-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #f5841e; /* exact orange */
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.stcas-cta-desc {
+    font-size: 1.05rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.stcas-cta-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stcas-cta-contact-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.stcas-cta-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #fba13f, #ef6e0c);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(239, 110, 12, 0.2);
+}
+
+.stcas-cta-contact-title {
+    display: block;
+    font-weight: 800;
+    color: #111111;
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+}
+
+.stcas-cta-contact-val {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #111111;
+}
+
+.stcas-cta-contact-val a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.stcas-cta-contact-val a:hover {
+    color: #f17610; /* Orange highlight on hover */
+}
+
+/* CTA Buttons */
+.stcas-cta-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* match right weighting */
+    gap: 20px;
+    width: 100%;
+}
+
+.stcas-cta-btn-wrap a {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+}
+
+.btn-stcas-solid-grad {
+    background: linear-gradient(90deg, #fd9e2e, #f17610);
+    color: #ffffff;
+    font-weight: 700;
+    padding: 16px 20px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(241, 118, 16, 0.25);
+    border: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.btn-stcas-solid-grad:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(241, 118, 16, 0.35);
+}
+
+.btn-stcas-outline-org {
+    background: transparent;
+    color: #f17610;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 1px solid #eea167; /* softer orange border matching reference */
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.btn-stcas-outline-org:hover {
+    background: rgba(241, 118, 16, 0.05);
+    color: #f17610;
+    border-color: #f17610;
+}
+
+/* ========================
+   FAQ SECTION
+   ======================== */
+.stcas-faq-section {
+    padding: 70px 0 80px 0;
+    background-color: #fafbfc;
+}
+
+.stcas-faq-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #111111;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.stcas-faq-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stcas-faq-item {
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+    overflow: hidden;
+    border-left: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.stcas-faq-item.active {
+    border-left-color: #f89c1e;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.stcas-faq-header {
+    padding: 22px 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #444;
+}
+
+.stcas-faq-icon {
+    color: #f89c1e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 15px;
+    line-height: 1;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.stcas-faq-icon::after {
+    content: '+';
+}
+
+.stcas-faq-item.active .stcas-faq-icon::after {
+    content: '-';
+}
+
+.stcas-faq-body-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease;
+}
+
+.stcas-faq-item.active .stcas-faq-body-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.stcas-faq-body {
+    overflow: hidden;
+}
+
+.stcas-faq-body-inner {
+    padding: 0 30px 25px 65px;
+    font-size: 0.95rem;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* ========================
+   RESPONSIVE STYLES
+   ======================== */
+
+@media (max-width: 1399px) {
+    .stcas-hero-right {
+        width: 55%;
+    }
+
+    .stcas-hero-left {
+        width: 45%;
+    }
+
+    .stcas-hero-title {
+        font-size: 3.3rem;
+    }
+
+    .stcas-stat-item {
+        padding: 12px 10px;
+        gap: 10px;
+    }
+    .stcas-stat-val {
+        font-size: 1.15rem;
+    }
+    .stcas-stat-label {
+        font-size: 0.8rem;
+    }
+    .stcas-workflow-grid::before {
+        top: 80px; /* Adjust line for smaller cards */
+    }
+}
+
+@media (max-width: 1199px) {
+    .stcas-hero-title {
+        font-size: 2.9rem;
+    }
+
+    .stcas-hero-right {
+        width: 52%;
+    }
+
+    .stcas-hero-left {
+        width: 48%;
+    }
+
+    .stcas-top-call-contact {
+        top: 100px;
+        right: 20px;
+    }
+
+    .stcas-stat-item {
+        padding: 10px 8px;
+        gap: 8px;
+    }
+    .stcas-stat-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .stcas-stat-val {
+        font-size: 1.05rem;
+    }
+    .stcas-stat-label {
+        font-size: 0.75rem;
+    }
+
+    /* Comparison Section 1199px */
+    .stcas-vs-title {
+        font-size: 1.05rem;
+    }
+    .stcas-vs-table th {
+        font-size: 0.9rem;
+    }
+    .stcas-vs-table td {
+        font-size: 0.8rem;
+    }
+
+    /* Analysis Split */
+    .stcas-split-left {
+        padding: 30px 20px;
+        flex: 0 0 40%; /* adjusted */
+    }
+    .stcas-split-right {
+        padding: 30px 20px;
+        flex: 0 0 60%;
+    }
+    .stcas-esia-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 cols on tablet */
+    }
+
+    /* CTA Section */
+    .stcas-cta-btn-wrap {
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+
+    /* FAQ Section */
+    .stcas-faq-section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .stcas-hero-section {
+        padding: 40px 0;
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .stcas-container {
+        order: 1;
+        padding-top: 20px;
+    }
+
+    .stcas-hero-layout {
+        flex-direction: column;
+    }
+
+    .stcas-hero-left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 35px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .stcas-hero-left .stcas-hero-title br,
+    .stcas-hero-left .stcas-hero-desc br {
+        display: none;
+    }
+
+    .stcas-hero-right {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+    }
+
+    .stcas-hero-main-img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-height: none;
+        bottom: auto;
+        right: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .stcas-top-call-contact {
+        position: relative;
+        top: 0;
+        right: auto;
+        left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .stcas-top-call-contact .stcas-contact-icon {
+        width: 55px;
+        height: 55px;
+    }
+    .stcas-contact-icon{
+        width: 65px;
+        height: 65px;
+    }
+
+    .stcas-cta-icon{
+        width: 65px;
+        height: 65px;
+    }
+
+    /* Show mobile call contact, hide desktop version */
+    .stcas-mobile-call-contact {
+        display: flex;
+    }
+
+    .stcas-top-call-contact {
+        display: none;
+    }
+
+    /* Stats bar: wrap into grid */
+    .stcas-stats-grid {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .stcas-stat-item {
+        flex: 0 0 33.333%;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 15px 12px;
+    }
+    .stcas-stat-item:nth-child(3) {
+        border-right: none;
+    }
+    .stcas-stat-item:nth-child(4),
+    .stcas-stat-item:nth-child(5) {
+        border-bottom: none;
+    }
+    .stcas-stat-item:last-child {
+        border-right: none;
+    }
+
+    /* About section */
+    .stcas-about-section {
+        padding: 50px 0;
+    }
+    .stcas-about-text br {
+        display: none;
+    }
+    .stcas-about-img-wrap {
+        margin-top: 30px;
+    }
+
+    /* Dimensional Accuracy */
+    .stcas-accuracy-section {
+        padding: 50px 0;
+    }
+    .stcas-da-card {
+        padding: 30px 20px;
+    }
+    .stcas-da-title br {
+        display: none;
+    }
+
+    /* Workflows section */
+    .stcas-workflow-section {
+        padding: 50px 0;
+    }
+    .stcas-section-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    .stcas-workflow-grid {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 30px;
+    }
+    .stcas-workflow-grid::before {
+        display: none; /* Hide continuous line on wrap */
+    }
+
+    /* Surface Continuity */
+    .stcas-sc-section {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .stcas-hero-title {
+        font-size: 2.3rem;
+    }
+
+    .stcas-hero-desc {
+        font-size: 1rem;
+    }
+
+    .btn-stcas-orange {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        padding: 13px 20px;
+    }
+
+    .stcas-contact-links {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .stcas-divider {
+        display: none;
+    }
+
+    .stcas-contact-links a {
+        display: block;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    .stcas-email-contact {
+        align-items: flex-start;
+    }
+
+    /* Stats bar: 2 columns */
+    .stcas-stat-item {
+        flex: 0 0 50%;
+    }
+    .stcas-stat-item:nth-child(3) {
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .stcas-stat-item:nth-child(2),
+    .stcas-stat-item:nth-child(4) {
+        border-right: none;
+    }
+    .stcas-stat-item:nth-child(3),
+    .stcas-stat-item:nth-child(4) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .stcas-stat-item:nth-child(5) {
+        flex: 0 0 100%;
+    }
+
+    /* DA Section Mobile */
+    .stcas-da-comparison {
+        flex-direction: column;
+    }
+    .stcas-da-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stcas-da-title {
+        font-size: 1.3rem;
+    }
+    .stcas-da-subtitle {
+        font-size: 0.9rem;
+    }
+
+    /* Workflows mobile */
+    .stcas-workflow-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        row-gap: 25px;
+    }
+    .stcas-workflow-card {
+        padding: 20px 8px 15px;
+    }
+
+    /* Comparison Section 767px */
+    .stcas-vs-cards {
+        flex-direction: column;
+    }
+    .stcas-vs-table th br,
+    .stcas-vs-table td br {
+        display: none; /* Make table data flow organically on mobile */
+    }
+
+    /* Analysis Split Mobile Stack */
+    .stcas-split-card {
+        flex-direction: column;
+    }
+    .stcas-split-left,
+    .stcas-split-right {
+        flex: 0 0 100%;
+        padding: 30px 20px;
+    }
+    .stcas-esia-grid {
+        grid-template-columns: repeat(4, 1fr); /* Can fit 4 on wide mobile/portrait tablet */
+    }
+
+    /* CTA Section */
+    .stcas-cta-btn-wrap {
+        align-items: center;
+        margin-top: 40px;
+    }
+    .stcas-cta-title {
+        font-size: 1.8rem;
+    }
+
+    /* FAQ */
+    .stcas-faq-title {
+        font-size: 1.8rem;
+    }
+    .stcas-faq-header {
+        padding: 15px 20px;
+    }
+    .stcas-faq-body-inner {
+        padding: 0 20px 20px 50px;
+    }
+    .stcas-faq-item {
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stcas-hero-title {
+        font-size: 2rem;
+    }
+
+    .stcas-hero-desc {
+        font-size: 0.95rem;
+    }
+
+    /* Stats bar: single column */
+    .stcas-stat-item {
+        flex: 0 0 100%;
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .stcas-stat-item:last-child {
+        border-bottom: none;
+    }
+
+
+    /* Workflows */
+    .stcas-workflow-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stcas-workflow-title {
+        font-size: 0.85rem;
+    }
+
+    /* Surface Continuity Mobile */
+    .stcas-sc-grid {
+        flex-direction: column;
+    }
+    .stcas-sc-box {
+        padding: 20px 15px;
+    }
+    .stcas-sc-box p {
+        min-height: auto;
+    }
+    .sc-legend-start, .sc-legend-end {
+        font-size: 0.75rem;
+    }
+
+    /* Analysis Split Grid */
+    .stcas-esia-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* CTA */
+    .stcas-cta-suptitle {
+        font-size: 1.3rem;
+    }
+    .stcas-cta-title {
+        font-size: 1.6rem;
+    }
+    .btn-stcas-solid-grad,
+    .btn-stcas-outline-org {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+
+    /* FAQ */
+    .stcas-faq-title {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .stcas-faq-question {
+        font-size: 0.95rem;
+    }
+    .stcas-faq-header {
+        padding: 15px;
+        gap: 10px;
+    }
+    .stcas-faq-body-inner {
+        padding: 0 15px 20px 40px;
+    }
+}

@@ -67,7 +67,7 @@ $meta_description = "How 3D scan data becomes visually refined, engineering-read
                     </p>
 
                     <div class="stcas-hero-cta">
-                        <a href="#" class="btn-stcas-orange">Explore Class-A Surface Development Services</a>
+                        <a href="scan-to-class-a-surface.php" class="btn-stcas-orange">Explore Class-A Surface Development Services</a>
                     </div>
 
                     <!-- Email Contact Block -->
@@ -719,8 +719,8 @@ $meta_description = "How 3D scan data becomes visually refined, engineering-read
                 <!-- Right: Buttons -->
                 <div class="col-lg-5">
                     <div class="stcas-cta-btn-wrap">
-                        <a href="javascript:void(0)" class="btn-stcas-solid-grad">Explore Class-A Surfacing Services</a>
-                        <a href="javascript:void(0)" class="btn-stcas-outline-org">Upload Scan Data for Technical Evaluation</a>
+                        <a href="scan-to-class-a-surface.php" class="btn-stcas-solid-grad">Explore Class-A Surfacing Services</a>
+                        <a href="scanning-solution-form.php" class="btn-stcas-outline-org">Upload Scan Data for Technical Evaluation</a>
                     </div>
                 </div>
             </div>

@@ -70,9 +70,9 @@ $meta_description = "Automatically Detect, Measure and Report Surface Damage fro
                     <p class="hero-desc">Inspect dents, impacts, scratches, deformations and rework<br>areas using industrial 3D scanning, automated comparison<br>algorithms and intelligent reporting.</p>
 
                     <div class="hero-cta-buttons">
-                        <a href="#" class="btn-sdi-orange">Book a Live Demo</a>
-                        <a href="#" class="btn-sdi-orange">Get Sample Report</a>
-                        <a href="#" class="btn-sdi-orange">Get Quote</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-sdi-orange">Book a Live Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-sdi-orange">Get Sample Report</a>
+                        <a href="scanning-solution-form.php" class="btn-sdi-orange">Get Quote</a>
                     </div>
 
                     <!-- Email Contact at bottom left -->
@@ -364,7 +364,7 @@ $meta_description = "Automatically Detect, Measure and Report Surface Damage fro
                         </div>
                     </div>
                     <div class="co-card-footer">
-                        <a href="#" class="btn-sdi-orange co-btn">Book a Live 3D Scanning & Inspection Demo</a>
+                        <a href="3d-products.php" class="btn-sdi-orange co-btn">Book a Live 3D Scanning & Inspection Demo</a>
                     </div>
                 </div>
 
@@ -386,7 +386,7 @@ $meta_description = "Automatically Detect, Measure and Report Surface Damage fro
                         </div>
                     </div>
                     <div class="co-card-footer">
-                        <a href="#" class="btn-sdi-orange co-btn">Get Quote a 3D Surface Damage Inspection Service</a>
+                        <a href="3d-services.php" class="btn-sdi-orange co-btn">Get Quote a 3D Surface Damage Inspection Service</a>
                     </div>
                 </div>
             </div>

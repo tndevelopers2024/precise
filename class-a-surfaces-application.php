@@ -55,8 +55,8 @@ $meta_description = "End-to-end Class-A surfacing services using scan data, CAD,
                     </p>
 
                     <div class="casa-hero-buttons">
-                        <a href="#" class="btn btn-casa-orange">Discuss Your Class-A Project</a>
-                        <a href="#" class="btn btn-casa-outline">Request a Technical Evaluation</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-casa-orange">Discuss Your Class-A Project</a>
+                        <a href="Get-3d-scan-service-quote.php" class="btn btn-casa-outline">Request a Technical Evaluation</a>
                     </div>
 
                     <div class="casa-email-contact">
@@ -357,7 +357,7 @@ $meta_description = "End-to-end Class-A surfacing services using scan data, CAD,
             </div>
 
             <div class="text-center">
-                <a href="#" class="btn btn-casa-orange px-5 py-3" style="font-size: 1.15rem;">Submit Scan Data for Evaluation</a>
+                <a href="scanning-solution-form.php" class="btn btn-casa-orange px-5 py-3" style="font-size: 1.15rem;">Submit Scan Data for Evaluation</a>
             </div>
         </div>
     </section>
@@ -781,7 +781,7 @@ $meta_description = "End-to-end Class-A surfacing services using scan data, CAD,
             <div class="casa-cta-box text-center">
                 <h2 class="casa-cta-title">Have Scan Data, a Physical Prototype, or a New Product Concept?</h2>
                 <p class="casa-cta-text">We'll turn it into a flawless Class-A surface. Let's build perfection together.</p>
-                <a href="#" class="btn btn-casa-glossy casa-cta-btn">Discuss Your Class-A Project</a>
+                <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-casa-glossy casa-cta-btn">Discuss Your Class-A Project</a>
             </div>
         </div>
     </section>

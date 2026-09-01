@@ -84,11 +84,11 @@
 .btn-ats-orange {
     background: linear-gradient(90deg, #ffb861, #f57e10);
     color: #ffffff;
-    padding: 14px 32px;
+    padding: 10px 15px; white-space: nowrap;
     border-radius: 8px;
     font-weight: 700;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     transition: all 0.3s ease;
     border: none;
     display: inline-block;
@@ -178,7 +178,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0 4px 12px rgba(245, 126, 16, 0.4);
 }
 
@@ -547,7 +547,7 @@
     border-radius: 50%;
     background-color: #fce8db;
     color: #9ea3ab;
-    font-size: 18px;
+    font-size: 16px;
     flex-shrink: 0;
     font-weight: 900;
 }
@@ -893,7 +893,7 @@
 }
 
 .scan-tech-name {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     color: #111a2f;
     margin-bottom: 20px;
@@ -921,7 +921,7 @@
     left: 0;
     top: 0;
     color: #888888;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.25;
 }
 
@@ -1041,7 +1041,7 @@
     left: 0;
     top: 0;
     color: #888888;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.25;
 }
 

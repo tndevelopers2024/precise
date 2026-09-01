@@ -80,7 +80,7 @@ ini_set('max_execution_time', '-1');
 
             <!-- Hero Content -->
             <div class="row">
-                <div class="col-lg-7 position-relative z-index-1">
+                <div class="col-lg-8 position-relative z-index-1">
                     <h1 class="dvc-hero-title-part1">3D Scan-Based</h1>
                     <h2 class="dvc-hero-title-part2"><span class="text-white">Digital</span> <span class="dvc-text-orange">Volume Calculation</span></h2>
 
@@ -113,9 +113,9 @@ ini_set('max_execution_time', '-1');
 
                     <!-- Buttons -->
                     <div class="dvc-hero-buttons d-flex flex-wrap gap-3 mb-5" >
+                        <a href="3d-inspection-software-in-india.php" class="dvc-btn">3D Inspection software</a>
+                        <a href="Get-3d-scan-service-quote.php" class="dvc-btn">Request a Quote</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="dvc-btn">Book a Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="dvc-btn">Request Quote</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dvc-btn">Talk to Experts</a>
                     </div>
 
                     <!-- Email Block -->
@@ -445,7 +445,7 @@ ini_set('max_execution_time', '-1');
                             </ul>
                         </div>
                         <img src="assets/images/digital-volume-calculation/opex.png" alt="OPEX Background" class="dvc-card-bg-img dvc-opex-img">
-                        <a href="Get-3d-scan-service-quote.php" class="dvc-opex-btn">Outsource Your Project</a>
+                        <a href="3d-products.php" class="dvc-capex-btn">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -464,7 +464,7 @@ ini_set('max_execution_time', '-1');
                             </ul>
                         </div>
                         <img src="assets/images/digital-volume-calculation/capex.png" alt="CAPEX Background" class="dvc-card-bg-img dvc-capex-img">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="dvc-capex-btn">Build Your Lab</a>
+                        <a href="3d-services.php" class="dvc-capex-btn">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -546,8 +546,8 @@ ini_set('max_execution_time', '-1');
             <h2 class="dvc-contact-title mb-3">Get Accurate, Reliable and Repeatable Digital Volume Results</h2>
             <p class="dvc-contact-subtitle mb-5">Scan anything. Calculate volume anywhere. Make confident engineering decisions.</p>
             <div class="dvc-contact-btns d-flex justify-content-center gap-4 flex-column flex-md-row">
-                <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dvc-contact-btn">Talk To An Expert</a>
-                <a href="Book-demo-get-quote-for-3D-scanner.php" class="dvc-contact-btn">Request a Quote</a>
+                <a href="Get-3d-scan-service-quote.php" class="dvc-contact-btn">REQUEST QUOTATION</a>
+                <a href="3d-products.php" class="dvc-contact-btn">SCANNING SOLUTION</a>
             </div>
         </div>
     </section>

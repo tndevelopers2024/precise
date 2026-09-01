@@ -145,9 +145,9 @@ body {
     background-color: #ff931e;
     color: #fff;
     font-weight: 600;
-    font-size: 1.56rem;
+    font-size: 1rem;
     border-radius: 10px;
-    padding: 12px 30px;
+    padding: 10px 15px; white-space: nowrap;
     text-decoration: none;
     text-align: center;
     display: inline-block;
@@ -369,7 +369,7 @@ body {
     background-color: #f7941d;
     color: #fff;
     font-weight: 700;
-    font-size: 1.56rem;
+    font-size: 1rem;
     text-align: center;
     padding: 20px;
     margin: 0; 
@@ -420,7 +420,7 @@ body {
 .dvc-software-title {
     color: #121212;
     font-weight: 700;
-    font-size: 1.56rem;
+    font-size: 1rem;
 }
 .dvc-software-logos {
     gap: 10px;
@@ -448,7 +448,7 @@ body {
 .dvc-cross-section-title {
     color: #121212;
     font-weight: 700;
-    font-size: 1.56rem;
+    font-size: 1rem;
 }
 .dvc-cross-section-box img {
     max-height: 355px;
@@ -469,7 +469,7 @@ body {
 .dvc-scanners-title {
     color: #121212;
     font-weight: 700;
-    font-size: 1.56rem;
+    font-size: 1rem;
 }
 .dvc-scanners-container {
     display: flex;
@@ -536,7 +536,7 @@ body {
 .dvc-why-title {
     color: #121212;
     font-weight: 700;
-    font-size: 1.56rem;
+    font-size: 1rem;
 }
 .dvc-why-list {
     display: flex;

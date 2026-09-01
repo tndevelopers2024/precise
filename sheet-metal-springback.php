@@ -88,7 +88,7 @@ ini_set('max_execution_time', '-1');
         <div class="container-fluid" style="padding: 0 5%;">
             <div class="row align-items-center">
                 <!-- Left Content -->
-                <div class="col-lg-7 col-md-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="smsb-hero-content mb-5">
                         <h1 class="smsb-hero-title mb-4">
                             <span class="text-white">SHEET METAL SPRINGBACK STUDY USING</span><br>
@@ -102,11 +102,10 @@ ini_set('max_execution_time', '-1');
                             Identify profile deviations, boundary movement, flange distortion, bending angle variation, and tooling compensation requirements before releasing parts into production.
                         </p>
 
-                        <div class="smsb-hero-btns d-flex flex-wrap gap-4">
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="smsb-btn-primary">Request Technical Consultation</a>
-                            <a href="#" class="smsb-btn-outline">
-                                <img src="assets/images/sheet-metal-springback/upload-icon.png" alt="Upload" class="smsb-btn-icon me-2"> Upload CAD Model
-                            </a>
+                        <div class="smsb-hero-btns d-flex flex-wrap gap-3">
+                            <a href="3d-inspection-software-in-india.php" class="smsb-btn-primary">3D Inspection software</a>
+                            <a href="Get-3d-scan-service-quote.php" class="smsb-btn-primary">Request a Quote</a>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="smsb-btn-primary">Book a Live Demo</a>
                         </div>
                     </div>
                 </div>

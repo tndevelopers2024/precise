@@ -97,11 +97,11 @@
     background-color: #FF931E;
     color: #fff;
     font-weight: 600;
-    font-size: 1.5625rem;
-    padding: 12px 30px;
+    font-size: 1rem;
+    padding: 10px 15px;
     border-radius: 10px;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; white-space: nowrap;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .sca-hero-btn:hover {

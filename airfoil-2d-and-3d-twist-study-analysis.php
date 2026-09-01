@@ -46,8 +46,9 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                 </div>
 
                 <div class="hero-cta-buttons">
-                    <a href="#" class="btn-ats-orange">Upload CAD Models</a>
-                    <a href="airfoil-2d-and-3d-twist-study-analysis" class="btn-ats-orange">Book Live Demo</a>
+                    <a href="3d-inspection-software-in-india.php" class="btn-ats-orange">3D Inspection software</a>
+                    <a href="Get-3d-scan-service-quote.php" class="btn-ats-orange">Request a Quote</a>
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-ats-orange">Book a Live Demo</a>
                 </div>
 
                 <div class="hero-features-icons">
@@ -412,7 +413,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                             <li>Fine Detail Capture</li>
                             <li>Complex Geometry</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Request Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Know More</a>
                     </div>
                 </div>
 
@@ -428,7 +429,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                             <li>High Precision</li>
                             <li>Airfoil Inspection</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Request Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Know More</a>
                     </div>
                 </div>
 
@@ -444,7 +445,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                             <li>Large Area Capture</li>
                             <li>High Productivity</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Request Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Know More</a>
                     </div>
                 </div>
 
@@ -460,7 +461,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                             <li>Dynamic Tracking</li>
                             <li>High Efficiency</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Request Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-request-demo">Know More</a>
                     </div>
                 </div>
             </div>
@@ -488,7 +489,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                             <li>Deviation Analysis</li>
                             <li>Automated Reporting</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="ef-btn ef-btn-green">Request Software Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="ef-btn ef-btn-green">Know More</a>
                     </div>
                     
                     <!-- Column 2 -->
@@ -502,7 +503,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                         <ul class="ef-list">
                             <li>The only independent and widely compatible software available for marine propeller inspection and repair.</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="ef-btn ef-btn-black">Request Software Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="ef-btn ef-btn-black">Know More</a>
                     </div>
 
                     <!-- Column 3 -->
@@ -519,7 +520,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                             <li>Industry-specific modules</li>
                             <li>Customizable, clear reports</li>
                         </ul>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="ef-btn ef-btn-brown">Request Software Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="ef-btn ef-btn-brown">Know More</a>
                     </div>
                 </div>
             </div>
@@ -590,7 +591,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                         </div>
                     </div>
 
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-oc-full">Book Live Scanner & Software Demo</a>
+                    <a href="3d-products.php" class="btn-oc-full">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- OPEX Box (Green) -->
@@ -614,7 +615,7 @@ $meta_description = "Validate blade geometry, twist distribution and aerodynamic
                         </div>
                     </div>
 
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-oc-full">Request Curvature Analysis Service</a>
+                    <a href="3d-services.php" class="btn-oc-full">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>

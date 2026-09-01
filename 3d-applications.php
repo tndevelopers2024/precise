@@ -109,8 +109,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <p class="hero-desc">From first article inspection to complete reverse<br>engineering, discover how industrial 3D scanning<br>powers quality, manufacturing, product development,<br>and digital transformation.</p>
 
                     <div class="hero-cta-buttons">
+                        <a href="3d-scanning-software.php" class="btn-atpriei-orange">3D Software</a>
+                        <a href="Get-3d-scan-service-quote.php" class="btn-atpriei-orange">Request a Quote</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-atpriei-orange">Book a Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-atpriei-orange">Request Quote</a>
                     </div>
 
                     <!-- Email Contact at bottom left -->
@@ -416,7 +417,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div class="co-icon-item"><img src="assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/capex-icon7.png" alt="Demo Programs"><span>Demo Programs</span></div>
                         </div>
                         
-                        <a href="opex-vs-capex-3dscanning.php" class="btn-co-explore">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="3d-products.php" class="btn-co-explore">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
                     <!-- VS Divider -->
@@ -451,7 +452,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div class="co-icon-item"><img src="assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/opex-icon7.png" alt="Subscription Models"><span>Subscription Models</span></div>
                         </div>
                         
-                        <a href="opex-vs-capex-3dscanning.php" class="btn-co-explore">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="3d-services.php" class="btn-co-explore">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -565,9 +566,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <p>We will recommend the right scanner, software, or engineering service.</p>
                     
                     <div class="cta-btn-group">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cta-orange">Book Live Demo</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-cta-outline">Talk To 3D Experts</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cta-outline">Get A Quotation 3D Scanners</a>
+                        <a href="Get-3d-scan-service-quote.php" class="btn-cta-orange">REQUEST QUOTATION</a>
+                        <a href="3d-products.php" class="btn-cta-outline">SCANNING SOLUTION</a>
                     </div>
                 </div>
             </div>

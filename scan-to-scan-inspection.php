@@ -58,14 +58,15 @@ $meta_description = "When CAD data is unavailable, Scan-to-Scan Inspection compa
 
         <div class="container-fluid pt-4" style="padding: 0 5%;">
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="col-lg-7 col-xl-7 mb-5 mb-lg-0">
                     <h1>SCAN-TO-SCAN INSPECTION</h1>
                     <h3>Compare Reality Against Reality</h3>
                     <p>When CAD data is unavailable, Scan-to-Scan Inspection compares two scanned objects to identify shape deviation, deformation, wear, and dimensional changes with high accuracy.</p>
 
                     <div class="d-flex flex-wrap gap-3" style="gap: 12px;">
-                        <a href="scan-to-cad-service.php" class="s2s-btn-primary">REQUEST SCAN-TO-SCAN STUDY</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="s2s-btn-primary">TALK TO AN EXPERT</a>
+                        <a href="3d-inspection-software-in-india.php" class="s2s-btn-primary">3D Inspection software</a>
+                        <a href="Get-3d-scan-service-quote.php" class="s2s-btn-primary">Request a Quote</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="s2s-btn-primary">Book a Live Demo</a>
                     </div>
 
                     <!-- Bottom Left Email -->
@@ -455,7 +456,7 @@ $meta_description = "When CAD data is unavailable, Scan-to-Scan Inspection compa
                             </ul>
                         </div>
                         <img src="assets/images/scan-to-scan-inpsection/invest-bg.png" alt="Invest in your own solution">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="io-btn">Book Live Scanner &amp; Software Demo</a>
+                        <a href="3d-products.php" class="io-btn">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6 py-3">
@@ -472,7 +473,7 @@ $meta_description = "When CAD data is unavailable, Scan-to-Scan Inspection compa
                             </ul>
                         </div>
                         <img src="assets/images/scan-to-scan-inpsection/outsource-bg.png" alt="Outsource as a service">
-                        <a href="Get-3d-scan-service-quote.php" class="io-btn">Request Scan to Scan Inspection Service</a>
+                        <a href="3d-services.php" class="io-btn">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -547,9 +548,8 @@ $meta_description = "When CAD data is unavailable, Scan-to-Scan Inspection compa
                 </div>
                 <div class="col-lg-4">
                     <div class="cta-buttons">
-                        <a href="scan-to-cad-service.php" class="cta-btn">REQUEST A SCAN-TO-SCAN STUDY</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="cta-btn">BOOK A LIVE DEMO OF SOFTWARE</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="cta-btn cta-btn-outline">TALK TO A 3D INSPECTION EXPERT</a>
+                        <a href="Get-3d-scan-service-quote.php" class="cta-btn">REQUEST QUOTATION</a>
+                        <a href="3d-products.php" class="cta-btn cta-btn-outline">SCANNING SOLUTION</a>
                     </div>
                 </div>
             </div>

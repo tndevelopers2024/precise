@@ -606,7 +606,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="ind-bundle-details">
                             <p class="ind-bundle-desc">On-Scanner Inspection for maximum portability</p>
-                            <a href="freescan-omni.php" class="btn-bundle btn-bundle-blue">View Bundle</a>
+                            <a href="freescan-omni.php" class="btn-bundle btn-bundle-blue">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -619,7 +619,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="ind-bundle-details">                            
                             <p class="ind-bundle-desc">Medium-sized parts shop floor inspection</p>
-                            <a href="FreeScan-Combo.php" class="btn-bundle btn-bundle-green">View Bundle</a>
+                            <a href="FreeScan-Combo.php" class="btn-bundle btn-bundle-green">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -632,7 +632,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="ind-bundle-details">
                             <p class="ind-bundle-desc">Large Scale Inspection with laser tracker workflow</p>
-                            <a href="freescan-track-nova.php" class="btn-bundle btn-bundle-teal">View Bundle</a>
+                            <a href="freescan-track-nova.php" class="btn-bundle btn-bundle-teal">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -645,7 +645,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="ind-bundle-details">                            
                             <p class="ind-bundle-desc">Propeller inspection solution for marine applications</p>
-                            <a href="trueprop-software.php" class="btn-bundle btn-bundle-orange">View Bundle</a>
+                            <a href="trueprop-software.php" class="btn-bundle btn-bundle-orange">Know More</a>
                         </div>
                     </div>
                 </div>

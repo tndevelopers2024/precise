@@ -68,9 +68,9 @@
                     </p>
 
                     <div class="sti-hero-buttons d-flex flex-wrap gap-3">
-                        <a href="Get-3d-scan-service-quote.php" class="sti-btn-primary">Book Free Consultation</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="sti-btn-primary">Schedule a Live Demo</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="sti-btn-primary">Discuss Your Project</a>
+                        <a href="3d-inspection-software-in-india.php" class="sti-btn-primary">3D Inspection software</a>
+                        <a href="Get-3d-scan-service-quote.php" class="sti-btn-primary">Request a Quote</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="sti-btn-primary">Book a Live Demo</a>
                     </div>
                 </div>
             </div>
@@ -666,7 +666,7 @@
                                 <li>On-Device Inspection</li>
                                 <li>Large Part Scanning</li>
                             </ul>
-                            <a href="freescan-omni.php" class="twu-btn">Request Demo</a>
+                            <a href="freescan-omni.php" class="twu-btn">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -684,7 +684,7 @@
                                 <li>Fine Detail Capture</li>
                                 <li>High Accuracy</li>
                             </ul>
-                            <a href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php" class="twu-btn">Request Demo</a>
+                            <a href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php" class="twu-btn">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -702,7 +702,7 @@
                                 <li>Large Assemblies</li>
                                 <li>Production Inspection</li>
                             </ul>
-                            <a href="freescan-track-nova.php" class="twu-btn">Request Demo</a>
+                            <a href="freescan-track-nova.php" class="twu-btn">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -719,7 +719,7 @@
                                 <li>Structured Light Metrology</li>
                                 <li>Micro Level inspection</li>
                             </ul>
-                            <a href="optimscan-q12.php" class="twu-btn">Request Demo</a>
+                            <a href="optimscan-q12.php" class="twu-btn">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -744,7 +744,7 @@
                         <div class="swu-header">
                             <div class="swu-icon swu-icon-green">Cx</div>
                             <h3 class="swu-title">
-                                <span class="swu-title-bold">Geomagic</span> <span class="swu-title-normal">Control X</span>
+                                <span class="swu-title-bold">Geomagic</span> <span class="swu-title-normal">Control </span>
                             </h3>
                         </div>
 
@@ -761,7 +761,7 @@
                             </ul>
                         </div>
 
-                        <a href="geomagic-control-x-3d-inspection-software.php" class="swu-btn swu-btn-green">Request Software Demo</a>
+                        <a href="geomagic-control-x-3d-inspection-software.php" class="swu-btn swu-btn-green">Know More</a>
                     </div>
 
                     <!-- Card 2 -->
@@ -771,7 +771,7 @@
                         <div class="swu-header">
                             <div class="swu-icon swu-icon-red ">Dx</div>
                             <h3 class="swu-title">
-                                <span class="swu-title-bold">Geomagic</span> <span class="swu-title-normal">Design X</span>
+                                <span class="swu-title-bold">Geomagic</span> <span class="swu-title-normal">Shining 3D Inspect</span>
                             </h3>
                         </div>
 
@@ -786,7 +786,7 @@
                             </ul>
                         </div>
 
-                        <a href="reverse-engineering-geomagic-design-x.php" class="swu-btn swu-btn-red">Request Software Demo</a>
+                        <a href="reverse-engineering-geomagic-design-x.php" class="swu-btn swu-btn-red">Know More</a>
                     </div>
 
                 </div>
@@ -971,7 +971,8 @@
     <!-- =========================================================
          CASE STUDIES SECTION
          ========================================================= -->
-    <section class="cs-section">
+    <?php /*
+<section class="cs-section">
         <div class="container">
             <h2 class="cs-section-title">CASE STUDIES</h2>
             
@@ -1044,6 +1045,7 @@
             </div>
         </div>
     </section>
+*/ ?>
     <!-- =========================================================
          WHY PRECISE3DM SECTION
          ========================================================= -->
@@ -1116,7 +1118,8 @@
     <!-- =========================================================
          CONSULTATION SECTION
          ========================================================= -->
-    <section class="consult-section">
+    <?php /*
+<section class="consult-section">
         <div class="container">
             <div class="consult-container">
                 <h2 class="consult-title">GET A FREE SCAN TO CAD CONSULTATION</h2>
@@ -1189,6 +1192,7 @@
             </div>
         </div>
     </section>
+*/ ?>
     <!-- =========================================================
          END CONSULTATION SECTION
          ========================================================= -->

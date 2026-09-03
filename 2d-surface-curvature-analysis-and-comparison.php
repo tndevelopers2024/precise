@@ -84,7 +84,7 @@ ini_set('max_execution_time', '-1');
 
             <!-- Hero Content -->
             <div class="row align-items-center py-4 pb-5">
-                <div class="col-lg-7 col-xl-6 position-relative" style="z-index: 2;">
+                <div class="col-lg-7 col-xl-7 position-relative" style="z-index: 2;">
                     <h1 class="sca-hero-title mb-3">2D Curvature Analysis<br>& Comparison</h1>
                     <h3 class="sca-hero-subtitle mb-4">Validate Surface Flow. Ensure Perfect Continuity.</h3>
                     <p class="sca-hero-desc mb-5">
@@ -123,8 +123,9 @@ ini_set('max_execution_time', '-1');
 
                     <!-- Buttons -->
                     <div class="d-flex flex-wrap gap-3 mb-5" style="gap: 12px;">
+                        <a href="3d-inspection-software-in-india.php" class="sca-hero-btn">3D Inspection software</a>
+                        <a href="Get-3d-scan-service-quote.php" class="sca-hero-btn">Request a Quote</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="sca-hero-btn">Book a Live Demo</a>
-                        <a href="Get-3d-scan-service-quote.php" class="sca-hero-btn">Request Quote</a>
                     </div>
 
                     <!-- Email Section -->
@@ -802,7 +803,7 @@ ini_set('max_execution_time', '-1');
                         </div>
                         
                         <div class="mt-4">
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="sca-delivery-btn w-100">GET A QUOTE</a>
+                            <a href="3d-products.php" class="sca-delivery-btn w-100">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -847,7 +848,7 @@ ini_set('max_execution_time', '-1');
                         </ul>
                         
                         <div class="mt-5 position-relative" style="z-index: 2;">
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="sca-delivery-btn w-100">TALK TO OUR EXPERTS</a>
+                            <a href="3d-services.php" class="sca-delivery-btn w-100">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right "></i></a>
                         </div>
                     </div>
                 </div>

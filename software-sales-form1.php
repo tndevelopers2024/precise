@@ -13,7 +13,7 @@ require 'PHPMailer/src/SMTP.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Sanitize and collect form data
-    $exclusive = isset($_POST['exclusive']) ? implode(', ', (array)$_POST['exclusive']) : 'None Selected';
+    $exclusive = isset($_POST['exclusive']) ? implode(', ', (array) $_POST['exclusive']) : 'None Selected';
     $name = $_POST['name'] ?? '';
     $company = $_POST['company'] ?? '';
     $email = $_POST['email'] ?? '';
@@ -53,8 +53,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('precise3dmdre@gmail.com', 'Your Name');
-        $mail->addAddress('precise3dmdre@gmail.com', 'Recipient Name');
+        $mail->setFrom('marketing@precise3dm.com', 'Your Name');
+        $mail->addAddress('marketing@precise3dm.com', 'Recipient Name');
 
         // Content
         $mail->isHTML(true);
@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $redirectUrl = 'thankyou-software.php'; // Redirect to thank you page
             }
         }
-        
+
 
         // Send the email
         $mail->send();

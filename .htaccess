@@ -19,6 +19,10 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\.precise3dm\.com$ [NC]
 RewriteRule ^(.*)$ https://www.precise3dm.com/$1 [R=301,L]
 
+# Redirect index.php to root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php [NC]
+RewriteRule ^index\.php$ https://www.precise3dm.com/ [R=301,L]
+
 
 # -------------------------------------------------
 # MAIN LEGACY REDIRECTS

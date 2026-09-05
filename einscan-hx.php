@@ -6,7 +6,8 @@
    <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <title>EinScan HX</title>
+   <title>EinScan HX 3D Scanner in India | Precise3DM</title>
+   <meta name="title" content="EinScan HX 3D Scanner in India | Precise3DM">
    <meta name="description"
       content="Precise3DM Provides complete digital manufacturing solution that includes 3D scanning services, 3D reverse engineering, 3D Printing services & 3d Inspection for all industries">
    <meta name="keywords"
@@ -18,11 +19,11 @@
    <meta name="twitter:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta name="twitter:card" content="Precise3dm" />
    <meta name="twitter:site" content="@precise3d_m" />
-   <meta property="twitter:title" content="EinScan HX" />
+   <meta property="twitter:title" content="EinScan HX 3D Scanner in India | Precise3DM" />
    <meta name="twitter:description"
       content="Precise3DM Provides complete digital manufacturing solution that includes 3D scanning services, 3D reverse engineering, 3D Printing services & 3d Inspection for all industries" />
    <meta property="og:type" content="3D Scanning" />
-   <meta property="og:title" content="3D scanning services | 3D Printing Services | 3D software | 3D Printer" />
+   <meta property="og:title" content="EinScan HX 3D Scanner in India | Precise3DM" />
    <meta property="og:url" content="https://www.precise3dm.com/einscan-hx.php" />
    <meta property="twitter:url" content="https://www.precise3dm.com/einscan-hx.php" />
    <link rel="canonical" href="https://www.precise3dm.com/einscan-hx.php"/>

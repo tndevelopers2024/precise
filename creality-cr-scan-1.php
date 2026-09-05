@@ -8,7 +8,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <title>Creality (CR-Scan 01) | Precise3DM</title>
    <meta name="description"
-      content="Used product template">
+      content="Discover the Creality CR-Scan 01 3D Scanner for accurate, portable, and high-speed 3D scanning. Explore features and solutions with Precise3DM.">
    <meta name="keywords"
       content="used product template">
    <meta name="robots" content="index, follow" />
@@ -20,13 +20,13 @@
    <meta name="twitter:site" content="@precise3d_m" />
    <meta name="twitter:title" content="Precise3dm" />
    <meta name="twitter:description"
-      content="used product Template" />
+      content="Discover the Creality CR-Scan 01 3D Scanner for accurate, portable, and high-speed 3D scanning. Explore features and solutions with Precise3DM." />
    <meta property="og:type" content="3D Scanning" />
    <meta property="og:title" content="Buy 3D Scanners (Capex ) | 3D Scanning Services(Opex)" />
    <meta property="og:url" content="https://www.precise3dm.com/" />
    <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta property="og:description"
-      content="Discover the FreeScan Trak Nova, a cutting-edge wireless 3D scanning system featuring dynamic tracking, video photogrammetry, and a large field of view. Ideal for precise, large-scale measurements across various industries." />
+      content="Discover the Creality CR-Scan 01 3D Scanner for accurate, portable, and high-speed 3D scanning. Explore features and solutions with Precise3DM." />
 
    <!--bootstrap css-->
    <link rel="stylesheet" href="assets/css/bootstrap.css">

@@ -72,9 +72,9 @@ $meta_description = "The World's Most Trusted Reverse Engineering & 3D Inspectio
                     </div>
 
                     <div class="hero-cta-buttons">
-                        <a href="#" class="btn-gsisl-orange">Request Free Demo</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-gsisl-orange">Request Free Demo</a>
                         <a href="#" class="btn-gsisl-outline">Download Trial</a>
-                        <a href="#" class="btn-gsisl-outline">Talk to Product Expert</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-gsisl-outline">Talk to Product Expert</a>
                     </div>
 
                     <!-- Telephone Contact (Moved in flow for Mobile) -->
@@ -138,7 +138,7 @@ $meta_description = "The World's Most Trusted Reverse Engineering & 3D Inspectio
                         <img src="assets/images/geomagic-software-in-sri-lanka/gs-img1.png" alt="Geomagic Design X">
                     </div>
                     <div class="gspf-cta">
-                        <a href="#" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="reverse-engineering-geomagic-design-x.php" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <ul class="gspf-features">
                         <li><i class="fa-solid fa-circle-check"></i> Scan to CAD</li>
@@ -163,7 +163,7 @@ $meta_description = "The World's Most Trusted Reverse Engineering & 3D Inspectio
                         <img src="assets/images/geomagic-software-in-sri-lanka/gs-img2.png" alt="Geomagic Control X">
                     </div>
                     <div class="gspf-cta">
-                        <a href="#" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="geomagic-control-x-3d-inspection-software.php" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <ul class="gspf-features">
                         <li><i class="fa-solid fa-circle-check"></i> CAD Comparison</li>
@@ -188,7 +188,7 @@ $meta_description = "The World's Most Trusted Reverse Engineering & 3D Inspectio
                         <img src="assets/images/geomagic-software-in-sri-lanka/gs-img3.png" alt="Geomagic Wrap">
                     </div>
                     <div class="gspf-cta">
-                        <a href="#" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="geomagic-wrap-3d-scanning-software.php" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <ul class="gspf-features">
                         <li><i class="fa-solid fa-circle-check"></i> Mesh Cleanup</li>
@@ -213,7 +213,7 @@ $meta_description = "The World's Most Trusted Reverse Engineering & 3D Inspectio
                         <img src="assets/images/geomagic-software-in-sri-lanka/gs-img4.png" alt="Geomagic for Solidworks">
                     </div>
                     <div class="gspf-cta">
-                        <a href="#" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="geomagic-for-solidworks-reverse-engineering-software.php" class="gspf-btn-outline">Learn more <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <ul class="gspf-features">
                         <li><i class="fa-solid fa-circle-check"></i> Mesh Cleanup</li>

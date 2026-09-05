@@ -1,0 +1,211 @@
+======================
+TIME: 2026-09-04 17:03:56
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva Gnanam
+
+--8cc51a72698bda9ea6c0784ca5a23c1e
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva Gnanam
+Company: York Silva Inc
+Email: devagnanam333@gmail.com
+Phone: 8668028487
+City: chennai
+
+Application Details:
+------------------------
+Required Material: css
+Application Industry: Aerospace
+
+
+
+--8cc51a72698bda9ea6c0784ca5a23c1e--
+
+======================
+TIME: 2026-09-04 17:20:54
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from James Hopper
+
+--65ac08f179d6c65154c8103738ff0533
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: James Hopper
+Company: Cherry Mcintosh Traders
+Email: sohycab@mailinator.com
+Phone: 8655535233
+City: Deserunt labore moll
+
+Application Details:
+------------------------
+Required Material: Harum laborum Quis
+Application Industry: Medical
+
+
+
+--65ac08f179d6c65154c8103738ff0533--
+
+======================
+TIME: 2026-09-04 17:32:47
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva
+
+--9818337296cd235272e8502161580bf1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva
+Company: Cherry Mcintosh Traders
+Email: deva333@gmail.com
+Phone: 8668028487
+City: chennai
+
+Application Details:
+------------------------
+Required Material: Harum laborum Quis
+Application Industry: Industrial
+
+
+
+--9818337296cd235272e8502161580bf1--
+
+======================
+TIME: 2026-09-04 17:48:39
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva Gnanam
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva Gnanam
+Company: Cherry Mcintosh Traders
+Email: devagnanam333@gmail.com
+Phone: 8668028487
+City: chennai
+
+Application Details:
+------------------------
+Required Material: Harum laborum Quis
+Application Industry: Industrial
+
+
+
+======================
+TIME: 2026-09-04 17:53:03
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva M
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva M
+Company: tan
+Email: devagnanam333@gmail.com
+Phone: 9223261631
+City: madurai
+
+Application Details:
+------------------------
+Required Material: css
+Application Industry: Medical
+
+
+
+======================
+TIME: 2026-09-04 18:18:02
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva Gnanam
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva Gnanam
+Company: Mcguire and Harding LLC
+Email: devagnanam333@gmail.com
+Phone: 8668028487
+City: Deserunt labore moll
+
+Application Details:
+------------------------
+Required Material: Harum laborum Quis
+Application Industry: Medical
+
+File Diagnostic Logs:
+------------------------
+Upload Array Found. Error Code: 0
+Upload failed or no file attached. (Code 0 means: 1=Too big for php.ini, 4=No file selected).
+
+
+
+======================
+TIME: 2026-09-04 18:22:16
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva Gnanam
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva Gnanam
+Company: Mcguire and Harding LLC
+Email: devagnanam333@gmail.com
+Phone: 6586765235
+City: Deserunt labore moll
+
+Application Details:
+------------------------
+Required Material: Harum laborum Quis
+Application Industry: Aerospace
+
+File Diagnostic Logs:
+------------------------
+Upload Array Found. Error Code: 0
+Filename: New Text Document.stl (0 MB)
+CAD File Link: https://localhost/precise/uploads/apollo_cad/cad_6a9af0388a964.stl
+
+
+
+======================
+TIME: 2026-09-04 18:25:14
+TO: devagnanam333@gmail.com
+SUBJECT: New Polymer Part Evaluation Request from Deva M
+
+You have received a new difficult polymer part evaluation request.
+
+Client Details:
+------------------------
+Name: Deva M
+Company: tan
+Email: devagnanam333@gmail.com
+Phone: 8668028487
+City: chennai
+
+Application Details:
+------------------------
+Required Material: Harum laborum Quis
+Application Industry: Industrial
+
+File Diagnostic Logs:
+------------------------
+Upload Array Found. Error Code: 0
+Filename: New Text Document.stl (0 MB)
+CAD File Link: https://localhost/precise/uploads/apollo_cad/cad_6a9af0ea91cd7.stl
+
+
+

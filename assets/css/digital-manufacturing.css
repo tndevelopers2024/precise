@@ -1,0 +1,789 @@
+/* ==========================================================
+   Digital Manufacturing Solutions Hero Section
+   ========================================================== */
+.dms-hero-section {
+    background-image: url('../images/digital-manufacturing-solutions-for-every-industry/dmsfei-hero-banner-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 140px 0 100px; /* Increased top padding to clear header */
+    font-family: "Inter", "firasan-normal", sans-serif;
+    color: #ffffff;
+    overflow: hidden; /* Restored overflow:hidden to prevent rotating SVG from causing scrollbars */
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+/* Background dark overlay for better text readability */
+.dms-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* background: linear-gradient(90deg, rgba(10,10,10,0.9) 0%, rgba(20,20,20,0.7) 40%, rgba(20,20,20,0.4) 100%); */
+    z-index: 1;
+}
+
+.dms-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+/* Left Column Typography */
+.dms-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    font-family: inherit;
+}
+
+.dms-title-orange {
+    color: #F7941D;
+    display: block;
+}
+
+.dms-title-white {
+    color: #ffffff;
+    display: block;
+}
+
+.dms-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.dms-desc {
+    font-size: 16px;
+    color: #cbd5e1;
+    margin-bottom: 35px;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+/* Buttons */
+.dms-btn-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.dms-btn-primary {
+    background-color: #F7941D;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid #F7941D;
+    box-shadow: 0 4px 15px rgba(247, 148, 29, 0.3);
+}
+
+.dms-btn-primary:hover {
+    background-color: #df8010;
+    border-color: #df8010;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(247, 148, 29, 0.4);
+    text-decoration: none;
+}
+
+.dms-btn-outline {
+    background-color: transparent;
+    color: #F7941D;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: 2px solid #F7941D;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.dms-btn-outline:hover {
+    background-color: rgba(247, 148, 29, 0.1);
+    color: #F7941D;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* Contact Blocks (Email left, Call right) */
+.dms-contact-block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.dms-contact-icon {
+    width: 65px;
+    height: 60px;
+    background: linear-gradient(135deg, #FFB74D, #F7941D);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.dms-contact-text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.dms-contact-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.dms-contact-links a {
+    color: #e2e8f0;
+    font-size: 13.5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.dms-contact-links a:hover {
+    color: #F7941D;
+}
+
+.dms-contact-sep {
+    color: #cbd5e1;
+    margin: 0 5px;
+}
+
+.dms-top-call {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+/* Cyclical Diagram Container */
+.dms-diagram-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1 / 1;
+    margin: 80px auto 0;
+}
+
+/* Center Logo */
+.dms-center-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.dms-center-logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Circular Orbit Items */
+.dms-orbit-item {
+    position: absolute;
+    width: 200px;
+    z-index: 5;
+    animation: float 6s ease-in-out infinite;
+}
+
+.dms-orbit-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5));
+}
+
+.dms-item-top {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-delay: 0s;
+}
+
+.dms-item-right {
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    width: 240px;
+    animation-delay: 1.5s;
+}
+
+.dms-item-bottom {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    animation-delay: 3s;
+}
+
+.dms-item-left {
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    width: 220px;
+    animation-delay: 4.5s;
+}
+
+/* SVG Arrows */
+.dms-svg-arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: slow-rotate 40s linear infinite;
+    pointer-events: none;
+}
+
+.dms-arrow-path {
+    fill: none;
+    stroke: #F7941D;
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+
+.dms-arrow-head {
+    fill: none;
+    stroke: #F7941D;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Animations */
+@keyframes float {
+    0% { margin-top: 0px; }
+    50% { margin-top: -15px; }
+    100% { margin-top: 0px; }
+}
+
+@keyframes slow-rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* ==========================================================
+   CAPEX vs OPEX Compare Section
+   ========================================================== */
+.dms-compare-section {
+    background-color: #f8f9fa;
+    padding: 60px 0 100px 0;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.dms-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 60px 40px 40px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid #f1f5f9;
+}
+
+.dms-card-icon-top {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #F7941D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(247, 148, 29, 0.3);
+}
+
+.dms-card-icon-top img {
+    width: 45px;
+    height: auto;
+    object-fit: contain;
+}
+
+.dms-card-title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1a202c;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-family: inherit;
+}
+
+.dms-card-desc {
+    font-size: 15px;
+    color: #475569;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.dms-icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    flex-grow: 1;
+}
+
+.dms-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    padding: 0 5px;
+}
+
+.dms-icon-item img {
+    height: 40px;
+    width: auto;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.dms-icon-item-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    line-height: 1.3;
+}
+
+.dms-card-opex .dms-icon-item {
+    width: 25%;
+}
+
+.dms-btn-full {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+/* ==========================================================
+   Industries We Serve Section
+   ========================================================== */
+.dms-industries-section {
+    background-color: #f1f5f9;
+    padding: 80px 0 100px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.dms-industries-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.dms-industries-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 15px;
+    font-family: inherit;
+}
+
+.dms-industries-subtitle {
+    font-size: 16px;
+    color: #475569;
+    font-weight: 500;
+}
+
+.dms-industry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.dms-industry-card {
+    background: #ffffff;
+    border-radius: 12px;
+    width: calc(20% - 16px);
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.dms-industry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.dms-industry-img-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 65%;
+    background: #ffffff;
+    overflow: visible;
+}
+
+.dms-industry-img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.dms-industry-icon {
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    background: #F7941D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(247, 148, 29, 0.4);
+    z-index: 2;
+}
+
+.dms-industry-icon img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    position: static;
+}
+
+.dms-industry-label {
+    padding: 25px 15px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a202c;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.3;
+}
+
+.dms-btn-orange {
+    background: linear-gradient(135deg, #FFB74D, #F7941D);
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(247, 148, 29, 0.3);
+}
+
+.dms-btn-orange:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(247, 148, 29, 0.4);
+    color: #fff;
+}
+
+/* ==========================================================
+   End-to-End Solutions Banner Section
+   ========================================================== */
+.dms-etoe-section {
+    background-color: #f1f5f9;
+    padding: 0 0 80px 0;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.dms-etoe-banner {
+    background-color: #FFF5EC;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(247, 148, 29, 0.05);
+}
+
+.dms-etoe-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+    padding: 0 30px;
+    position: relative;
+}
+
+.dms-etoe-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, rgba(247,148,29,0) 0%, rgba(247,148,29,0.3) 50%, rgba(247,148,29,0) 100%);
+}
+
+.dms-etoe-icon {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.dms-etoe-icon img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dms-etoe-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.dms-etoe-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.dms-etoe-desc {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ==========================================================
+   Call To Action (CTA) Banner Section
+   ========================================================== */
+.dms-cta-section {
+    background-color: #f1f5f9;
+    padding: 0 0 100px 0;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.dms-cta-banner {
+    background: linear-gradient(90deg, #4a2500 0%, #000000 30%);
+    border-radius: 16px;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.dms-cta-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.dms-cta-icon {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.dms-cta-icon img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dms-cta-text {
+    flex: 1;
+}
+
+.dms-cta-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.dms-cta-title span {
+    color: #F7941D;
+}
+
+.dms-cta-desc {
+    font-size: 15px;
+    color: #d1d5db;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.dms-cta-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 260px;
+    flex-shrink: 0;
+}
+
+.dms-cta-btn-primary {
+    background: linear-gradient(135deg, #FFB74D, #F7941D);
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.dms-cta-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(247, 148, 29, 0.4);
+    color: #fff;
+}
+
+.dms-cta-btn-outline {
+    background: transparent;
+    color: #F7941D;
+    border: 1px solid #F7941D;
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.dms-cta-btn-outline:hover {
+    background: rgba(247, 148, 29, 0.1);
+    transform: translateY(-2px);
+    color: #F7941D;
+}
+
+/* Responsive Styles */
+@media (max-width: 1199px) {
+    .dms-title {
+        font-size: 46px;
+    }
+    .dms-orbit-item {
+        width: 160px;
+    }
+    .dms-item-right { width: 190px; }
+    .dms-item-bottom { width: 200px; }
+    .dms-item-left { width: 180px; }
+    .dms-industry-card { width: calc(25% - 15px); }
+}
+
+@media (max-width: 991px) {
+    .dms-hero-section {
+        min-height: auto;
+        padding: 40px 0 40px;
+    }
+    .dms-top-call {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+    .dms-diagram-container {
+        margin-top: 60px;
+        max-width: 500px;
+    }
+    .dms-title {
+        font-size: 40px;
+    }
+    .dms-btn-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .dms-btn-primary, .dms-btn-outline {
+        text-align: center;
+        width: 100%;
+    }
+    .dms-industry-card { width: calc(33.333% - 14px); }
+    
+    .dms-etoe-banner {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+    .dms-etoe-item {
+        width: 100%;
+        padding: 0;
+    }
+    .dms-etoe-item:not(:last-child)::after {
+        display: none; /* Hide vertical dividers on mobile */
+    }
+    
+    .dms-cta-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+        gap: 30px;
+    }
+    .dms-cta-left {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .dms-cta-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .dms-title {
+        font-size: 32px;
+    }
+    .dms-subtitle {
+        font-size: 16px;
+    }
+    .dms-desc {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .dms-diagram-container {
+        max-width: 100%;
+    }
+    .dms-orbit-item {
+        width: 120px;
+    }
+    .dms-item-right { width: 140px; right: 0; }
+    .dms-item-bottom { width: 150px; bottom: 20px;}
+    .dms-item-left { width: 130px; left: 0;}
+    .dms-center-logo {
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+    .dms-industry-card { width: calc(50% - 10px); }
+}

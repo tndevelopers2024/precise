@@ -1,0 +1,1909 @@
+/* ==========================================================
+   Electric Vehicle Manufacturing - Hero Section
+   ========================================================== */
+
+.evm-hero-section {
+    background-color: #ffffff;
+    padding: 150px 0 60px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.evm-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.evm-hero-left {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.evm-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #F7941D;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-family: inherit;
+}
+
+.evm-subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F7941D;
+    margin-bottom: 25px;
+    font-family: inherit;
+}
+
+.evm-desc {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.evm-btn-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.evm-btn-primary {
+    background: linear-gradient(135deg, #FFB74D, #F7941D);
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(247, 148, 29, 0.3);
+    text-align: center;
+}
+
+.evm-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(247, 148, 29, 0.4);
+    color: #fff;
+}
+
+.evm-btn-outline {
+    background: transparent;
+    color: #F7941D;
+    border: 1px solid #F7941D;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.evm-btn-outline:hover {
+    background: rgba(247, 148, 29, 0.1);
+    color: #F7941D;
+    transform: translateY(-2px);
+}
+
+.evm-contact-bottom, .evm-contact-top, .evm-contact-top-mobile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.evm-contact-bottom:hover .evm-icon-wrap, 
+.evm-contact-top:hover .evm-icon-wrap {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(247, 148, 29, 0.4);
+}
+
+.evm-contact-top {
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.evm-icon-wrap {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #FFB74D, #F7941D);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(247, 148, 29, 0.3);
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.evm-contact-info {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.evm-contact-info a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.evm-contact-info a:hover {
+    color: #F7941D;
+}
+
+.evm-contact-info strong {
+    font-size: 15px;
+    color: inherit;
+}
+
+.evm-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.evm-image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* ==========================================================
+   Status Bar Section
+   ========================================================== */
+.evm-statusbar-section {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-statusbar-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.evm-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.evm-stat-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(247,148,29,0) 0%, rgba(247,148,29,0.4) 50%, rgba(247,148,29,0) 100%);
+}
+
+.evm-stat-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #FFF3E6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.evm-stat-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.evm-stat-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-stat-number {
+    font-size: 26px;
+    font-weight: 800;
+    color: #000;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.evm-stat-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a202c;
+    line-height: 1.2;
+}
+
+.evm-stat-sublabel {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.3;
+    margin-top: 3px;
+}
+
+/* ==========================================================
+   Manufacturing-Ready Parts Section
+   ========================================================== */
+.evm-mrp-section {
+    background-color: #f8fafc;
+    padding: 80px 0;
+    font-family: "Inter", "firasan-normal", sans-serif;
+    overflow: hidden;
+}
+
+.evm-mrp-subtitle {
+    color: #F7941D;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.evm-mrp-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 20px;
+}
+
+.evm-text-orange {
+    color: #F7941D;
+}
+
+.evm-mrp-flow-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #475569;
+    margin-bottom: 50px;
+}
+
+.evm-mrp-flow-text i {
+    color: #F7941D;
+    font-size: 12px;
+}
+
+.evm-mrp-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.evm-mrp-card {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 15px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-card-header {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.evm-card-number {
+    width: 40px;
+    height: 40px;
+    background: #F7941D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.evm-card-title-wrap h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.evm-card-title-wrap h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #F7941D;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.evm-card-desc {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.evm-card-img {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.evm-card-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.evm-card-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.evm-card-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(33.333% - 7px);
+}
+
+.evm-card-icon-item.w-100 {
+    width: 100%;
+}
+
+.evm-card-icon-item.flex-row-icon {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.evm-card-icon-item img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.evm-card-icon-item.flex-row-icon img {
+    margin-bottom: 0;
+}
+
+.evm-card-icon-item span {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1a202c;
+    line-height: 1.2;
+}
+
+.evm-inter-arrow {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7941D;
+    font-size: 12px;
+    z-index: 2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.evm-bottom-flow-new {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 80px; /* Space from edges to roughly align with the center of the first/last card */
+}
+
+.evm-flow-line {
+    flex: 1;
+    border-bottom: 2px dashed #F7941D;
+    position: relative;
+    height: 1px;
+}
+
+.evm-up-arrow {
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    border-left: 2px dashed #F7941D;
+    bottom: 0;
+}
+
+.evm-up-arrow.left {
+    left: 0;
+}
+
+.evm-up-arrow.right {
+    right: 0;
+}
+
+.evm-up-arrow::after {
+    content: '\f062';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: -13px;
+    left: -6px;
+    color: #F7941D;
+    font-size: 14px;
+}
+
+.evm-flow-steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #1a202c;
+    padding: 0 20px;
+}
+
+.evm-flow-steps span {
+    display: flex;
+    align-items: center;
+}
+
+.evm-flow-steps i {
+    color: #F7941D;
+    font-size: 12px;
+}
+
+/* ==========================================================
+   Own Pace Section
+   ========================================================== */
+.evm-op-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-op-inner {
+    background: #f8fafc;
+    border-radius: 12px;
+}
+
+.evm-op-header {
+    margin-bottom: 30px;
+}
+
+.evm-op-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 10px;
+}
+
+.evm-op-desc {
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+.evm-op-cards-wrapper {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.evm-op-card {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-op-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.evm-op-card-number {
+    width: 30px;
+    height: 30px;
+    background: #F7941D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+
+.evm-op-card-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #1a202c;
+    margin: 0;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.evm-op-card-title i {
+    font-size: 12px;
+    margin: 0 2px;
+    color: #1a202c;
+}
+
+.evm-op-card-text {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+.evm-op-flow-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.evm-op-mini-box {
+    border: 1.5px solid #fed7aa;
+    border-radius: 8px;
+    padding: 10px 5px;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 110px;
+    background: #fff;
+}
+
+.evm-op-mini-box img {
+    height: 35px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.evm-op-mini-box span {
+    font-size: 10px;
+    font-weight: 800;
+    color: #1a202c;
+    line-height: 1.2;
+}
+
+.evm-op-mini-arrow {
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    background: #F7941D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border: 2px solid #fff;
+}
+
+.evm-op-flow-divider {
+    font-size: 12px;
+    color: #1a202c;
+    padding: 0 4px;
+}
+
+.evm-op-flow-grid.step-4 .evm-op-mini-box {
+    padding: 8px 3px;
+    min-height: 100px;
+}
+.evm-op-flow-grid.step-4 .evm-op-mini-box img {
+    height: 30px;
+}
+.evm-op-flow-grid.step-4 .evm-op-flow-divider {
+    padding: 0 2px;
+    font-size: 10px;
+}
+
+/* Banner */
+.evm-op-banner {
+    background: linear-gradient(90deg, #0f172a 0%, #451a03 100%);
+    border-radius: 12px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.evm-op-banner-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.evm-op-banner-left img {
+    width: 35px;
+    height: 35px;
+}
+
+.evm-op-banner-left h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.evm-op-banner-arrow {
+    width: 35px;
+    height: 35px;
+    background: #F7941D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ==========================================================
+   CAPEX Section
+   ========================================================== */
+.evm-capex-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-capex-top-label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.evm-capex-top-label span {
+    color: #F7941D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.evm-capex-line {
+    flex: 1;
+    height: 2px;
+    background-color: #F7941D;
+    max-width: 300px;
+}
+
+.evm-capex-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 10px;
+}
+
+.evm-capex-desc {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 40px;
+}
+
+.evm-capex-workflow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.evm-capex-step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.evm-capex-step-num {
+    width: 35px;
+    height: 35px;
+    background: #F7941D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.evm-capex-step-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-capex-step-text strong {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a202c;
+    line-height: 1.2;
+}
+
+.evm-capex-step-text span {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.evm-capex-arrow i {
+    color: #F7941D;
+    font-size: 16px;
+}
+
+.evm-capex-cards-grid {
+    display: flex;
+    gap: 15px;
+}
+
+.evm-capex-card {
+    flex: 1;
+    background: #fff;
+    border-radius: 12px;
+    border-top: 4px solid #F7941D;
+    border-left: 1px solid #fed7aa;
+    border-right: 1px solid #fed7aa;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-capex-card-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.evm-capex-card-desc {
+    font-size: 12px;
+    color: #475569;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 15px;
+    min-height: 65px;
+}
+
+.evm-capex-hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.evm-capex-nested {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.evm-capex-nested.border-0 {
+    border-bottom: 0;
+}
+
+.evm-capex-nested.border-orange {
+    border: 1px solid #fed7aa;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.evm-capex-nested.border-gray {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.evm-capex-nested-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.evm-capex-nested-left img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.evm-capex-nested-left span {
+    font-size: 11px;
+    font-weight: 700;
+    color: #1a202c;
+    line-height: 1.3;
+}
+
+.evm-capex-nested-left strong {
+    font-size: 12px;
+}
+
+.evm-capex-nested-left small {
+    font-weight: 500;
+    color: #64748b;
+}
+
+.evm-capex-nested-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+}
+
+.evm-capex-nested-right a {
+    font-size: 10px;
+    color: #F7941D;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.evm-capex-nested-right a:hover {
+    text-decoration: underline;
+}
+
+.evm-capex-nested-right i {
+    margin-left: 2px;
+    font-size: 10px;
+}
+
+.flex-row-print {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+.flex-row-print .evm-capex-nested-right {
+    margin-left: auto;
+}
+
+.evm-capex-nested-print img {
+    width: 90px;
+    height: auto;
+}
+
+.evm-capex-nested-print-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-capex-nested-print-text strong {
+    font-size: 11px;
+    font-weight: 800;
+    color: #1a202c;
+    line-height: 1.3;
+}
+
+.evm-capex-nested-print-text small {
+    font-size: 10px;
+    color: #64748b;
+    line-height: 1.3;
+}
+
+.evm-capex-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 5px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.evm-capex-btn.solid {
+    background: #F7941D;
+    color: #fff;
+    border: 1px solid #F7941D;
+}
+
+.evm-capex-btn.solid:hover {
+    background: #d97706;
+    color: #fff;
+}
+
+.evm-capex-btn.outline {
+    background: #fff;
+    color: #F7941D;
+    border: 1px solid #fed7aa;
+}
+
+.evm-capex-btn.outline:hover {
+    background: #fff7ed;
+}
+
+.evm-capex-btn i {
+    margin-left: 5px;
+}
+
+/* ==========================================================
+   OPEX Section
+   ========================================================== */
+.evm-opex-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-opex-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.evm-opex-divider::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #F7941D;
+    top: 50%;
+    z-index: 1;
+}
+
+.evm-opex-divider span {
+    background-color: #f8fafc;
+    padding: 0 20px;
+    color: #F7941D;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.evm-opex-workflow-wrapper {
+    margin-bottom: 40px;
+}
+
+.evm-opex-workflow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.evm-opex-step {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evm-opex-step-num {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+    background: #F7941D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.evm-opex-step img {
+    height: 45px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.evm-opex-step strong {
+    font-size: 12px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.evm-opex-step p {
+    font-size: 11px;
+    color: #64748b;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.evm-opex-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #F7941D;
+    color: #F7941D;
+    flex-shrink: 0;
+}
+
+.evm-opex-arrow i {
+    font-size: 10px;
+}
+
+.evm-opex-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.evm-opex-card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #fed7aa;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-opex-card.span-2 {
+    grid-column: span 2;
+}
+
+.evm-opex-card-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #F7941D;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.evm-opex-card-title .evm-text-orange {
+    color: #F7941D;
+}
+
+.evm-opex-hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.evm-contain-img {
+    object-fit: contain;
+    max-height: 150px;
+}
+
+.evm-opex-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.evm-opex-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.evm-opex-list li i {
+    color: #22c55e;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.evm-opex-printing-grid {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.evm-opex-print-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-opex-print-item img {
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.evm-opex-print-item strong {
+    font-size: 13px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.evm-opex-print-item p {
+    font-size: 12px;
+    color: #475569;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.evm-opex-bm-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.evm-opex-bm-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.evm-opex-bm-item img {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+}
+
+.evm-opex-bm-item span {
+    flex: 1;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a202c;
+    line-height: 1.3;
+}
+
+.evm-opex-bm-item i {
+    color: #F7941D;
+    font-size: 14px;
+}
+
+.evm-opex-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #F7941D;
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.evm-opex-btn:hover {
+    background: #d97706;
+    color: #fff;
+}
+
+/* ==========================================================
+   Buy or Outsource Section
+   ========================================================== */
+.evm-boo-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-boo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.evm-boo-card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.evm-boo-card.dark {
+    background: #0f172a;
+    border: none;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.evm-boo-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.evm-boo-img1 {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: auto;
+}
+
+.evm-boo-img2 {
+    width: 120px;
+    height: auto;
+    margin: 0 auto 30px auto;
+}
+
+.evm-boo-card-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a202c;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.evm-boo-card-title.orange {
+    color: #F7941D;
+}
+
+.evm-boo-card-title.lg {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.evm-boo-card strong {
+    font-size: 14px;
+    color: #1a202c;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.evm-boo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+    flex: 1;
+}
+
+.evm-boo-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.evm-boo-list.orange-check li i {
+    color: #F7941D;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.evm-boo-list.black-check li i {
+    color: #1a202c;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.evm-boo-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin-top: auto;
+}
+
+.evm-boo-btn.orange {
+    background: linear-gradient(180deg, #FDB931 0%, #F7941D 100%);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(247, 148, 29, 0.3);
+}
+.evm-boo-btn.orange:hover {
+    background: linear-gradient(180deg, #F7941D 0%, #d97706 100%);
+}
+
+.evm-boo-btn.black {
+    background: linear-gradient(180deg, #334155 0%, #0f172a 100%);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.3);
+}
+.evm-boo-btn.black:hover {
+    background: linear-gradient(180deg, #0f172a 0%, #000 100%);
+}
+
+/* ==========================================================
+   Why Choose Section
+   ========================================================== */
+.evm-why-choose-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-wev-card {
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: linear-gradient(to right, rgba(255,255,255,0) 25%, rgba(255,255,255,1) 45%, #fff 100%), url('../images/electric-vehicle-manufacturing/wev-banner-img.png') no-repeat left center;
+    background-size: cover;
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.evm-wev-logo {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    max-width: 200px;
+    z-index: 2;
+}
+
+.evm-wev-content {
+    flex: 0 0 60%;
+    padding: 40px 40px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.evm-wev-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+.evm-wev-title span {
+    color: #F7941D;
+}
+
+.evm-wev-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.evm-wev-list li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    position: relative;
+    z-index: 1;
+}
+
+.evm-wev-list li:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    width: 2px;
+    height: calc(100% + 15px);
+    background-color: #e2e8f0;
+    z-index: -1;
+}
+
+.evm-wev-custom-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #F7941D;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #fed7aa;
+    margin-top: 4px;
+    flex-shrink: 0;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.evm-wev-btn {
+    display: inline-block;
+    background: linear-gradient(180deg, #FDB931 0%, #F7941D 100%);
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    box-shadow: 0 4px 10px rgba(247, 148, 29, 0.3);
+}
+
+.evm-wev-btn:hover {
+    background: linear-gradient(180deg, #F7941D 0%, #d97706 100%);
+    color: #fff;
+}
+
+/* ==========================================================
+   Our Technology Partners Section
+   ========================================================== */
+.evm-otp-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px 0;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-otp-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 50px;
+}
+
+.evm-otp-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.evm-otp-logos img {
+    max-height: 60px;
+    max-width: 180px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.evm-otp-logos img:hover {
+    transform: scale(1.05);
+}
+
+/* ==========================================================
+   CTA Section
+   ========================================================== */
+.evm-cta-section {
+    background-color: #f8fafc;
+    padding: 0 0 80px 0;
+    font-family: "Inter", "firasan-normal", sans-serif;
+}
+
+.evm-cta-wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    padding: 60px 40px;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.evm-cta-top {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.evm-cta-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.evm-cta-desc {
+    font-size: 15px;
+    color: #e2e8f0;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.evm-cta-btngroup {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.evm-btn-orange {
+    display: inline-block;
+    background: linear-gradient(180deg, #FDB931 0%, #F7941D 100%);
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(247, 148, 29, 0.3);
+    transition: all 0.3s ease;
+}
+
+.evm-btn-orange:hover {
+    background: linear-gradient(180deg, #F7941D 0%, #d97706 100%);
+    color: #fff;
+}
+
+.evm-cta-divider {
+    height: 1px;
+    background: radial-gradient(circle, rgba(247,148,29,0.8) 0%, rgba(247,148,29,0) 80%);
+    margin: 0 auto 50px auto;
+    width: 80%;
+}
+
+.evm-cta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.evm-cta-card {
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.evm-cta-card:hover {
+    border-color: rgba(247,148,29,0.4);
+    background: rgba(15, 23, 42, 0.7);
+}
+
+.evm-cta-card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.evm-cta-card-header img {
+    width: 45px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.evm-cta-card-header h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.evm-cta-card-header h3 span {
+    color: #F7941D;
+}
+
+.evm-cta-card p {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    flex: 1;
+}
+
+.evm-cta-card-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.evm-cta-card-btn:hover {
+    border-color: #F7941D;
+    color: #F7941D;
+}
+
+.evm-cta-card-btn i {
+    font-size: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1199px) {
+    .evm-title {
+        font-size: 38px;
+    }
+    .evm-capex-cards-grid {
+        flex-wrap: wrap;
+    }
+    .evm-capex-card {
+        flex: 0 0 calc(50% - 15px);
+        margin-bottom: 20px;
+    }
+    .evm-opex-workflow {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .evm-opex-step {
+        flex: 0 0 calc(33.333% - 20px);
+        min-width: 250px;
+    }
+    .evm-opex-arrow {
+        display: none;
+    }
+    .evm-opex-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .evm-boo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .evm-hero-left {
+        padding-right: 15px;
+    }
+    .evm-btn-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .evm-btn-primary, .evm-btn-outline {
+        width: 100%;
+    }
+    .evm-contact-top {
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+    .evm-image-wrapper {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .evm-statusbar-wrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .evm-stat-item {
+        flex: 0 0 calc(33.333% - 20px);
+        min-width: 200px;
+    }
+    .evm-stat-item:not(:last-child)::after {
+        display: none;
+    }
+    
+    .evm-mrp-cards-wrapper {
+        flex-wrap: wrap;
+    }
+    .evm-mrp-card {
+        flex: 0 0 calc(50% - 15px);
+        margin-bottom: 20px;
+    }
+    .evm-inter-arrow {
+        display: none;
+    }
+
+    .evm-op-cards-wrapper {
+        flex-direction: column;
+    }
+    .evm-op-card {
+        margin-bottom: 15px;
+    }
+    .evm-op-banner {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .evm-op-banner-left {
+        flex-direction: column;
+    }
+
+    .evm-opex-step {
+        flex: 0 0 calc(50% - 15px);
+    }
+    .evm-opex-printing-grid {
+        flex-direction: column;
+    }
+    .evm-opex-print-item {
+        align-items: center;
+        text-align: center;
+    }
+
+    .evm-wev-card {
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 30%, rgba(255,255,255,1) 50%, #fff 100%), url('../images/electric-vehicle-manufacturing/wev-banner-img.png') no-repeat top center;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 600px;
+    }
+    .evm-wev-content {
+        flex: 0 0 100%;
+        padding: 20px 20px 30px 20px;
+    }
+    .evm-wev-logo {
+        bottom: auto;
+        top: 30px;
+    }
+    
+    .evm-otp-logos {
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .evm-cta-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .evm-title {
+        font-size: 28px;
+    }
+    .evm-subtitle {
+        font-size: 18px;
+    }
+    .evm-desc {
+        font-size: 14px;
+    }
+    .evm-hero-section {
+        padding: 100px 0 40px;
+    }
+    
+    .evm-stat-item {
+        flex: 0 0 100%;
+        padding: 10px 0;
+    }
+    
+    .evm-mrp-card {
+        flex: 0 0 100%;
+    }
+    
+    .evm-mrp-flow-text {
+        font-size: 12px;
+    }
+    
+    .evm-mrp-title {
+        font-size: 28px;
+    }
+
+    .evm-op-title {
+        font-size: 26px;
+    }
+    .evm-op-flow-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .evm-op-flow-divider {
+        display: none;
+    }
+    .evm-op-mini-box {
+        flex: 0 0 calc(50% - 10px);
+        min-height: 100px;
+    }
+
+    .evm-capex-card {
+        flex: 0 0 100%;
+    }
+    .evm-capex-title {
+        font-size: 26px;
+    }
+
+    .evm-opex-step {
+        flex: 0 0 100%;
+    }
+    .evm-opex-grid {
+        grid-template-columns: 1fr;
+    }
+    .evm-opex-card.span-2 {
+        grid-column: span 1;
+    }
+    
+    .evm-boo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .evm-otp-logos {
+        gap: 30px;
+    }
+    .evm-otp-logos img {
+        max-height: 45px;
+        max-width: 40%;
+    }
+
+    .evm-cta-title {
+        font-size: 26px;
+    }
+    .evm-cta-btngroup {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .evm-cta-grid {
+        grid-template-columns: 1fr;
+    }
+    .evm-cta-wrapper {
+        padding: 40px 20px;
+    }
+}

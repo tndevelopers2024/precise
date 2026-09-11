@@ -98,16 +98,16 @@
                 </article>
 
                 <!-- New Added Blogs -->
-                <article class="blog-card" id="blog-card-freescan-track-nova">
+                <article class="blog-card" id="blog-card-opex-vs-capex">
                     <div class="card-img-wrap">
-                        <img src="assets/images/freescan-track-nova/banner-bg.png" alt="FreeScan Trak Nova Wireless 3D Scanner for Large Object">
-                        <span class="card-category">Metrology</span>
+                        <img src="assets/images/opex-capex/banner.png" alt="OPEX vs CAPEX in 3D Scanning | Services or Equipment">
+                        <span class="card-category">Investment</span>
                     </div>
                     <div class="card-body">
-                        <span class="card-date"><i class="fa-regular fa-calendar"></i> August 06, 2026</span>
-                        <h3 class="card-title">FreeScan Trak Nova Wireless 3D Scanner for Large Object</h3>
-                        <p class="card-excerpt">FreeScan Trak Nova is a wireless 3D scanner system designed for large-object scanning. Offers dynamic tracking, portability, and metrology-grade precision.</p>
-                        <a href="freescan-track-nova.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                        <span class="card-date"><i class="fa-regular fa-calendar"></i> August 08, 2026</span>
+                        <h3 class="card-title">OPEX vs CAPEX in 3D Scanning: Services or Equipment</h3>
+                        <p class="card-excerpt">Compare OpEx services and CapEx equipment in 3D scanning. Learn which model fits your budget, project size, and long-term needs for digital accuracy.</p>
+                        <a href="opex-vs-capex-3dscanning.php" class="card-read-more">Read Article <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
 

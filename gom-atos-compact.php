@@ -43,7 +43,7 @@
    <link rel="stylesheet" href="assets/css/styles.css">
    <link rel="stylesheet" href="assets/css/index.css">
    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
-   <link rel="canonical" href="https://www.precise3dm.com/" />
+   <link rel="canonical" href="https://www.precise3dm.com/gom-atos-compact.php" />
    <link rel="stylesheet" href="assets/css/product-template.css"/>
 
 

@@ -49,8 +49,8 @@ $page_title = "Digital Manufacturing Solutions | Precise3DM";
                     </p>
                     
                     <div class="dms-btn-group">
-                        <a href="#" class="dms-btn-primary">Talk to an Expert</a>
-                        <a href="#" class="dms-btn-outline">Book a live demo</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dms-btn-primary">Talk to an Expert</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="dms-btn-outline">Book a live demo</a>
                     </div>
                     
                     <!-- Call Contact Block (Mobile/Tablet Only) -->
@@ -188,7 +188,7 @@ $page_title = "Digital Manufacturing Solutions | Precise3DM";
                             </div>
                         </div>
                         
-                        <a href="#" class="dms-btn-outline dms-btn-full">Explore CAPEX Solutions &rarr;</a>
+                        <a href="3d-products.php" class="dms-btn-outline dms-btn-full">Explore CAPEX Solutions &rarr;</a>
                     </div>
                 </div>
 
@@ -223,7 +223,7 @@ $page_title = "Digital Manufacturing Solutions | Precise3DM";
                             </div>
                         </div>
                         
-                        <a href="#" class="dms-btn-outline dms-btn-full">Explore OPEX Services &rarr;</a>
+                        <a href="3d-services.php" class="dms-btn-outline dms-btn-full">Explore OPEX Services &rarr;</a>
                     </div>
                 </div>
 
@@ -287,7 +287,7 @@ $page_title = "Digital Manufacturing Solutions | Precise3DM";
             </div>
             
             <div class="text-center mt-2">
-                <a href="#" class="dms-btn-orange">View All Industries &rarr;</a>
+                <a href="handheld-industrial-3d-scanning-service-india.php" class="dms-btn-orange">View All Industries &rarr;</a>
             </div>
             
         </div>
@@ -353,8 +353,8 @@ $page_title = "Digital Manufacturing Solutions | Precise3DM";
                     </div>
                 </div>
                 <div class="dms-cta-right">
-                    <a href="#" class="dms-cta-btn-primary">Talk to an Expert</a>
-                    <a href="#" class="dms-cta-btn-outline">Book a Demo</a>
+                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dms-cta-btn-primary">Talk to an Expert</a>
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="dms-cta-btn-outline">Book a Demo</a>
                 </div>
             </div>
         </div>

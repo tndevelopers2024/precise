@@ -48,7 +48,7 @@ $meta_description = "Convert Complex 3D Shapes into Accurate 2D Manufacturing Pa
 
                 <div class="hero-cta-buttons">
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-live-demo">Schedule Live Demo</a>
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-live-demo btn-req-quote">Get Quote</a>
+                    <a href="scanning-solution-form.php" class="btn-live-demo btn-req-quote">Get Quote</a>
                 </div>
 
                 <div class="hero-contact-email">
@@ -637,7 +637,7 @@ $meta_description = "Convert Complex 3D Shapes into Accurate 2D Manufacturing Pa
                     </div>
 
                     <div class="oc-btn-wrap">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="oc-btn">Talk to Product Expert</a>
+                        <a href="3d-products.php" class="oc-btn">Know More</a>
                     </div>
                 </div>
 
@@ -674,7 +674,7 @@ $meta_description = "Convert Complex 3D Shapes into Accurate 2D Manufacturing Pa
                     </div>
 
                     <div class="oc-btn-wrap">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="oc-btn">Request Inspection Quote</a>
+                        <a href="3d-services.php" class="oc-btn">Know More</a>
                     </div>
                 </div>
             </div>
@@ -717,7 +717,7 @@ $meta_description = "Convert Complex 3D Shapes into Accurate 2D Manufacturing Pa
                 <!-- Right Buttons Column -->
                 <div class="p2d-cta-right">
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-outline-orange">Schedule Live Demo</a>
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-solid-orange">Get a Quote</a>
+                    <a href="scanning-solution-form.php" class="btn-solid-orange">Get a Quote</a>
                 </div>
 
             </div>

@@ -78,7 +78,7 @@ ini_set('max_execution_time', '-1');
                         </p>
                         <div class="stm-btn-group">
                             <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="stm-btn">Talk to 3D Experts</a>
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="stm-btn">Schedule Live Demo</a>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="stm-btn">Schedule Live Demo</a>
                         </div>
 
                         <!-- Email Contact (Bottom Left) -->

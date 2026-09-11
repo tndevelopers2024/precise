@@ -25,7 +25,7 @@
     <meta property="og:image" content="https://www.precise3dm.com/assets/images/FreeCan UE7/FreeCan UE7/broucheue7/3D PRINTING SERVICE.png" />
     <meta property="og:description" content="3D printing service in India - Additive manufacturing is the best option for low-volume production in many industries" />
     <meta property="twitter:url" content="https://www.precise3dm.com/3d-printing-service-in-india.php" />
-    <link rel="canonical" href="https://www.precise3dm.com/3d-printing-service-in-india.php"/>
+    <link rel="canonical" href="https://www.precise3dm.com/figure-4-printing-service.php"/>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">

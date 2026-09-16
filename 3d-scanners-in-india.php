@@ -106,6 +106,87 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a 3D scanner and how does it work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 3D scanner converts a physical object into a digital 3D scan model that can later be used for digital measurement and 3D scan-based designing purposes. Each Scanner works based on a different type of 3D scan technology. Look at our 3D scanner-based technology section to find how each 3D Scanner works based on its scanning principle and technology."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate is a 3D scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3D scanner accuracy starts from 5-micron level and goes up to millimeter level based on the technology and the component size you want to 3D scan. Please look at each of our 3D scanners by technology to know the accuracy of each 3D scanning technology and its products."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the price range of a 3D Scanner in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The price of a 3D Scanner starts from as low as ₹1,20,000 and goes up to ₹95 lakhs. Please look at our webpage, where you can find 3D scanners categorised based on price range."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of 3D Scanners are available in the market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We have more than 12 different types of 3D scanners available with us based on technology, specific application, and part size — such as handheld laser scanning technology, optical 3D scanning technology, LiDAR 3D scan technology, etc."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I scan large objects or small parts with a 3D scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in general, 3D scanners can scan everything from small objects to entire aircraft, buildings, or plants. There is no limitation on the size of objects that can be scanned, but the technology used will have its own limitations based on the object size."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What software is compatible with this 3D Scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are 3D Reverse engineering, 3D Inspection, and 3D scan-to-mesh model creation software options available to specifically work on post-3D scan applications. These are compatible with different types of 3D scanners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a demo or trial before buying a 3D scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, of course. We offer on-site demonstrations before you purchase the Scanner to help you understand its capabilities. Please fill out the form on our website for an on-site or online demo, or email your request to [email protected]. We will book a consultation call and then a demo at your location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between low-cost and high-end 3D scanners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key difference between low-cost and high-end 3D scanners is based on the Scanner’s capabilities — such as accuracy, object size, and resolution. You can choose the right 3D Scanner based on the price and features listed on our webpage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer training, support, or installation for the 3D Scanner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer very good pre-sales and post-sales support after purchasing the Scanner. We provide customised training ranging from two days to seven days based on your application and the software you select. We will also create a SOP (standard operating procedure) tailored for your specific application."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>

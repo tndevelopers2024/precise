@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Affordable 3D Printing Services in India: Scan and Print Solutions | Precise3DM</title>
-    <meta name="description" content="Discover low-cost 3D printing services in India with Precise3DM. We offer 3D scanner solutions for 3D printers and professional 3D scan and print services. Experience the best scan and 3D print services today">
+    <title>Industrial 3D Printing Services In India | Precise 3DM</title>
+    <meta name="description" content="Get Industrial 3D Printing solutions for prototypes, engineering parts, tooling, and production using FDM, PEEK, and Figure 4 DLP technologies in India.">
     <meta name="keywords" content="3d printing service provider, additive manufacturing in india, dlp printing service, small batch production ">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

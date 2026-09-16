@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automotive Benchmarking Service in India | Vehicle Benchmarking</title>
-    <meta name="description" content="Precsie3dM providing the best services in vehicle teardown benchmarking, Teardown analysis, Vehicle Digital Benchmarking, Vehicle Occupant & Architecture, Vehicle Cad Reverse, Electrical and Electronics Benchmarking, Vehicle Digital Inspection, Material Testing Get quote.">
+    <title>EV & Automotive Benchmarking Solutions | Market Insights</title>
+    <meta name="description" content="Explore EV & Automotive Benchmarking Solutions to compare competitors, products, pricing, market performance, and customer trends for smarter business decisions.">
     <meta name="Keywords" content="Car benchmarking services in india, get quote,">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Dimensional Analysis | 3D inspection service</title>
-    <meta name="description" content="Geomagic control X, 3D software services, control X feature, Three Dimensional analysis, dimensional and profile analysis tools, dimension inspection">
+    <title>3D Dimensional Analysis Services | 3D Inspection</title>
+    <meta name="description" content="Get accurate 3D dimensional analysis and inspection services using 3D scan data, CAD comparison, deviation mapping, and detailed inspection reports for quality control.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -151,6 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+   <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 <style>
   html{
@@ -722,6 +723,107 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Who we are division start -->
     </section>
     <!-- Workflow Section Starts Here -->
+    <!--FAQs section start-->
+   <div id="FAQ" class="container pt-5 pb-5 faq">
+      <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+      <div id="style-3" class="row mt-4">
+         <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span>What is 3D dimensional analysis?</span>
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D dimensional analysis is the process of evaluating the dimensional accuracy of a physical part by comparing 3D scan data with its nominal CAD model, drawing dimensions, or Product and Manufacturing Information (PMI). It helps identify dimensional deviations, variations, and critical measurement differences.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <span>How does 3D dimensional inspection work?</span>
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>The process typically involves importing the CAD model and 3D scan data, performing initial and best-fit alignment, analyzing dimensional differences, and generating deviation maps, color maps, critical dimension callouts, and inspection reports.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <span>What are the benefits of 3D dimensional analysis?</span>
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D dimensional analysis helps identify dimensional deviations and manufacturing variations across complex parts. It can support quality control, dimensional verification, design validation, and more detailed inspection of components where traditional measurement methods may be limited.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <span>Can 3D scan data be compared with a CAD model?</span>
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. 3D scan data can be aligned and compared with the nominal CAD model to identify deviations between the manufactured component and its intended design. The comparison can be presented through color maps, dimensional callouts, and inspection reports.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     <span>What information is included in a 3D dimensional inspection report?</span>
+                  </button>
+               </h2>
+               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>A 3D dimensional inspection report can include deviation maps, color-coded dimensional comparisons, critical dimension measurements, and other inspection results showing how the scanned part compares with the nominal design.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                     <span>Which industries can benefit from 3D dimensional analysis services?</span>
+                  </button>
+               </h2>
+               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D dimensional analysis can be used across industries including automotive, aerospace, EV, die casting, plastics, mining, pumps and valves, heavy engineering, construction machinery, defence, foundry, and other manufacturing applications.</p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!--FAQs section ends-->
+
     <hr class="separator">
     <?php include('includes/footer.php'); ?>
     <!-- bootstrap links-->
@@ -730,6 +832,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="assets/js/highlight.js"></script>
     <script src="assets/js/counter.js"></script>
     <script src="assets/js/parametric-cad.js"></script>
+    <!-- bootstrap 5 js for FAQ-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 
 </html>

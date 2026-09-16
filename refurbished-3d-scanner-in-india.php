@@ -596,8 +596,7 @@ BLOG</h3>
 
         <div class="col-md-12 mt-5"id="faq" >
         <div class="container">
-                    <h3 class=" " style="color: #FE8D1D;">
-                    FAQ</h3>
+                    <h3 class=" " style="color: #FE8D1D;">>Frequently Asked Questions</h3>
                 </div>
 
         </div>

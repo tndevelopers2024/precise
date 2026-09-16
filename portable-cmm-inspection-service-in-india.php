@@ -5,8 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <title>Affordable FARO CMM Machine Price and Inspection Services in India | Precise3DM</title>
-      <meta name="description" content="Explore our cost-effective FARO CMM machine and portable CMM inspection services in India. Precise3DM offers the best FARO CMM machine price and reliable metrology solutions for precise measurements.">
+      <title>Portable CMM Inspection Service in India | Onsite CMM Measurement</title>
+      <meta name="description" content="Get accurate Portable CMM Inspection Services in India for onsite dimensional measurement, GD&T, CAD comparison, large-part inspection, and quality control.">
       <meta name="keywords" content="cmm inspection services in india, cmm inspection service, cmm onsite inspection services, portable cmm inspection, get quote">
       <meta name="robots" content="index, follow" />
       <meta name="googlebot" content="index, follow" />

@@ -81,11 +81,13 @@
 
 
       
+      
       <style>
           .imp-img{
               height: 178px !important;
           }
       </style>
+
       
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
@@ -99,6 +101,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+   
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a custom 3D printing service online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A custom 3D printing service online allows you to share your CAD or STL file, select suitable materials and technology, and get custom parts produced based on your project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an FDM 3D printing service in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An FDM 3D printing service in India uses fused deposition modeling to create strong, functional prototypes, jigs, fixtures, tooling, and industrial parts using engineering thermoplastics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are 3D scanning services in India used for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3D scanning services in India are used for applications such as reverse engineering, quality inspection, product development, automotive benchmarking, and creating accurate digital models of physical components."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get 3D printing services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can contact Precise3DM with your project requirements or CAD/STL file to discuss the appropriate 3D printing technology, material, estimated cost, and production timeline."
+          }
+        }
+      ]
+    }
+    </script>
+
+         <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css"/>
    </head>
    <body class="pre-bg-black">
        
@@ -183,13 +228,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
     <!--section end-->
        
+      
+    <section>
+        <div id="FAQ" class="container pt-5 pb-5 faq">
+            <h2 class="sec-head text-center text-white">FREQUENTLY ASKED QUESTIONS</h2>
+            <div id="style-3" class="row mt-4">
+                <div class="accordion" id="accordionExample">
+                    <!-- 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span>What is a custom 3D printing service online?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>A custom 3D printing service online allows you to share your CAD or STL file, select suitable materials and technology, and get custom parts produced based on your project requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span>What is an FDM 3D printing service in India?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>An FDM 3D printing service in India uses fused deposition modeling to create strong, functional prototypes, jigs, fixtures, tooling, and industrial parts using engineering thermoplastics.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span>What are 3D scanning services in India used for?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>3D scanning services in India are used for applications such as reverse engineering, quality inspection, product development, automotive benchmarking, and creating accurate digital models of physical components.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <span>How can I get 3D printing services in India?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>You can contact Precise3DM with your project requirements or CAD/STL file to discuss the appropriate 3D printing technology, material, estimated cost, and production timeline.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
       <!-- footer start -->
       <?php include('includes/footer.php');?>
       <!-- footer end -->
        <!-- bootstrap links-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script type="text/javascript" src="assets/js/bootstrap.js"></script>
       <script type="text/javascript" src="assets/js/slim.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+      <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
       <!-- bootstrap links-->
    </body>
 </html>

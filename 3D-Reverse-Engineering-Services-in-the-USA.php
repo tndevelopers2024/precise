@@ -869,8 +869,7 @@ Expert 3D Specialists for Your Project Needs
     </style>
     <section id="faq" class="faq pre-bg-white section-padding" style="background-color:#ffffff !important">
          <div class="container">
-         <h2 class="main-heads">
-         FAQ        </h2>
+         <h2 class="main-heads">>Frequently Asked Questions</h2>
        <hr class="main-line" />
             <div class="row faqrow my-5">
                 <div class="col-12 faq-content-business">

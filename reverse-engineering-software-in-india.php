@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/optical-blue-light.css">
     <link rel="stylesheet" href="assets/css/scanner-styles.css">
-    <meta name="description" content="Explore top-notch 3D scanners for reverse engineering at Precise3DM in India. Our reverse engineering 3D scanner solutions provide precise and efficient results. Discover advanced tools for your projects today!">
+    <meta name="description" content="Explore Reverse Engineering Software in India for 3D scan-to-CAD, parametric modelling, NURBS modelling, and product redesign. Get expert software solutions from Precise3DM.">
     <meta name="keywords" content="Explore the best reverse engineering software in India from Precise3DM. Unlock advanced 3D CAD modelling, scan-to-CAD solutions, and efficient reverse engineering workflows to enhance product development and design accuracy.">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

@@ -354,9 +354,7 @@ model data.
       </section>
       <section id="faq" class="faq pre-bg-white section-padding" style="background-color:#ffffff !important">
          <div class="container">
-          <h1 class="main-heads my-5 text-center">
-            FAQ
-          </h1>
+          <h1 class="main-heads my-5 text-center">>Frequently Asked Questions</h1>
             <div class="row faqrow">
                 <div class="col-12 faq-content-business">
                    </div>

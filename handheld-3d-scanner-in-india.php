@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Handheld 3D Scanner in India | Portable 3D Laser Scanner </title>
-    <meta name="description" content="Discover the best handheld 3D scanner and portable 3D laser scanner in India at Precise3DM. Our advanced technology ensures precise and reliable scanning for your projects">
+    <meta name="description" content=" Explore Handheld 3D Scanner in India for accurate 3D scanning, inspection, reverse engineering, and quality control. Compare professional scanners and get expert guidance from Precise3DM.">
     <meta name="keywords" content=" freescanue7,freescanue11,freescanx7">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

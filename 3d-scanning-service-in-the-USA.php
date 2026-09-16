@@ -1167,9 +1167,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </style>
     <section id="faq" class="faq pre-bg-white section-padding" style="background-color:#ffffff !important">
       <div class="container">
-        <h2 class="head1">
-          FAQ
-        </h2>
+        <h2 class="head1">>Frequently Asked Questions</h2>
         <div class="row faqrow">
           <div class="col-12 faq-content-business">
           </div>

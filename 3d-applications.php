@@ -514,7 +514,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     
                     <div class="bboy-action-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-co-explore">Book Live Demo &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-co-explore">Request Quotation &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="scanning-solution-form.php" class="btn-co-explore">Request Quotation &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 

@@ -786,7 +786,7 @@
                             </ul>
                         </div>
 
-                        <a href="reverse-engineering-geomagic-design-x.php" class="swu-btn swu-btn-red">Know More</a>
+                        <a href="shining-3d-inspect-software.php" class="swu-btn swu-btn-red">Know More</a>
                     </div>
 
                 </div>

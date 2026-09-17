@@ -1113,9 +1113,6 @@
 }
 
 /* ================== Why Precise3DM Section ================== */
-.auto-why-section {
-    /* No bg image anymore, moved to white container layout */
-}
 .why-title {
     color: #121212;
     font-weight: 700;
@@ -1310,12 +1307,6 @@
 .auto-faq-item:has(.auto-faq-btn:not(.collapsed)) {
     border-left: 6px solid #FF931E !important;
     border-radius: 8px !important;
-}
-/* Fallback for browsers that don't support :has() */
-.auto-faq-btn:not(.collapsed) {
-    /* We can just apply border to the button, but it won't cover the body. 
-       We will rely on :has for modern browsers, or JS if needed. 
-       Let's add a left border to both button and body as fallback. */
 }
 .auto-faq-body {
     padding: 0 25px 25px 55px; /* left padding matches span margin + left position */

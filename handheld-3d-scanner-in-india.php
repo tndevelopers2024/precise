@@ -223,7 +223,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         
                         <div class="hero-buttons">
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Book Live Demo</a>
-                            <a href="#" class="btn-orange">Download Brochure</a>
+                            <a href="assets/images/precise_brochure_pdf/HANDHELD%20METROLOGY%203D%20SCANNING.pdf" target="_blank" class="btn-orange">Download Brochure</a>
                         </div>
 
                         <div class="contact-widget email-widget-container">
@@ -441,7 +441,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="iga-icon-circle"><img src="assets/images/3d-handheld-scanner/iga_icon3.png" alt="Icon"></div>
                         <h4 class="iga-title">Casting Validation</h4>
                         <p class="iga-desc">Validate castings and forgings for dimensional conformity and defects.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                        <a href="3d-scanners-by-application.php#v-pills-profile" class="btn-learn-more">Learn More</a>
                     </div>
                 </div>
 
@@ -454,7 +454,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="iga-icon-circle"><img src="assets/images/3d-handheld-scanner/iga_icon4.png" alt="Icon"></div>
                         <h4 class="iga-title">Tool & Die Inspection</h4>
                         <p class="iga-desc">Inspect molds, dies and tooling to ensure precision before production.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                        <a href="3d-scanners-by-application.php#v-pills-profile" class="btn-learn-more">Learn More</a>
                     </div>
                 </div>
 
@@ -467,7 +467,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="iga-icon-circle"><img src="assets/images/3d-handheld-scanner/iga_icon5.png" alt="Icon"></div>
                         <h4 class="iga-title">Automotive Manufacturing</h4>
                         <p class="iga-desc">BMW, panels, interior tooling and supplier quality inspection.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                        <a href="best-3d-scanners-for-automotive.php" class="btn-learn-more">Learn More</a>
                     </div>
                 </div>
 
@@ -481,7 +481,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="iga-icon-circle"><img src="assets/images/3d-handheld-scanner/iga_icon6.png" alt="Icon"></div>
                         <h4 class="iga-title">Aerospace Inspection</h4>
                         <p class="iga-desc">High-accuracy inspection for complex aerospace components.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                        <a href="3d-scanners-for-aerospace.php" class="btn-learn-more">Learn More</a>
                     </div>
                 </div>
             </div>

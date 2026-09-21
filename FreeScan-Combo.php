@@ -850,7 +850,7 @@
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Download Brochure</button></a>
                   <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Book a Demo</button></a>
-                  <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
+                  <a class="mt-4" href="https://www.precise3dm.com/scanning-solution-form.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Get a Quote</button></a>
                 </div>
               </div>
@@ -875,7 +875,7 @@
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Download Brochure</button></a>
                   <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Book a Demo</button></a>
-                  <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
+                  <a class="mt-4" href="https://www.precise3dm.com/scanning-solution-form.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Get a Quote</button></a>
                 </div>
               </div>
@@ -902,7 +902,7 @@
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Download Brochure</button></a>
                   <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Book a Demo</button></a>
-                  <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
+                  <a class="mt-4" href="https://www.precise3dm.com/scanning-solution-form.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Get a Quote</button></a>
                 </div>
               </div>

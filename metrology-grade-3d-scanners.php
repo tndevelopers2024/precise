@@ -659,7 +659,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h2 class="section-title text-white">Looking for the Right Scanner for Your <span>Application?</span></h2>
                         <p class="text-white mt-4">Every application is different. The right system depends on your part size, accuracy requirement, and workflow.</p>
                         <div class="app-btns d-flex flex-wrap gap-3 mt-5">
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-primary-orange">Talk to an Expert</a>
+                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-primary-orange">Talk to an Expert</a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="ml-lg-4 mt-4 mt-lg-0 btn-outline-white">Schedule a Demo</a>
                         </div>
                     </div>

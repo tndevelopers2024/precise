@@ -308,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a class="button2" href="assets/images/product-gallery/FreeScan-Trio-Brochure-2025.pdf">Download Brochure</a>
                </div>
                <div class="buttons1">
-                  <a class="button3" href="">Call Us +91 98404 78347</a>
+                  <a class="button3" href="tel:+919840478347">Call Us +91 98404 78347</a>
                </div>
                <div class="mail">
                             <a href="mailto:sm@precise3dm.com" class="btn">

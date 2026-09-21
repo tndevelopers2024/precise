@@ -240,7 +240,7 @@ We provide comprehensive technical support, including professional training and 
                             <li><p>Multi-mode for various sizes</p></li>
                     </ul>
                     <div class="d-flex flex-column flex-lg-row mt-4">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get Quote</a>
+                        <a href="scanning-solution-form.php" class="btn">Get Quote</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn ml-lg-2 mt-2 mt-lg-0">Book Demo</a>
                     </div>
                     <div class="mail">

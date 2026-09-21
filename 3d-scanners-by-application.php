@@ -324,7 +324,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img4.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="3d-scanners-for-3d-printing.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -342,7 +342,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img5.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="Einstar.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -426,7 +426,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img10.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="affordable-3d-scanners-in-the-market.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -442,7 +442,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img11.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="einstar-vega.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -474,7 +474,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img13.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="metrology-grade-3d-scanners.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -490,7 +490,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img14.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="animation-3d-content.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -506,7 +506,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img15.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="desktop-3d-scanner-in-india.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -522,7 +522,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img16.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="best-3d-scanners-for-small-parts-and-their-costs.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>
@@ -538,7 +538,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <img src="assets/images/3d-scanners-by-application/img17.png" alt="">
                               </div>
                               <div class="mt-3 text-center">
-                                <a href="#" class="btn">Know More</a>
+                                <a href="Einstar.php" class="btn">Know More</a>
                               </div>
                             </div>
                           </div>

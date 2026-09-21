@@ -519,7 +519,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="">
                   <h1 class="about-head">Freescan <span style="color: var(--whitecolor);">UE Pro2</span></h1>
                   <p class="pb-3">Witness the Unparalleled Precision, Power, Portability and Wireless Laser scanner</p>
-                  <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get Quote</a>
+                  <a href="https://www.precise3dm.com/scanning-solution-form.php" class="btn">Get Quote</a>
                   <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Demo</a>
                   <!-- <br> -->
                   <div class="social">

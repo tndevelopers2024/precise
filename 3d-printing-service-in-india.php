@@ -939,169 +939,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          END TRUST SECTION
          ========================================================= -->
 
-    <!-- =========================================================
-         FAQ SECTION
-         ========================================================= -->
-    <section class="ips-faq-section">
-        <div class="container px-3 px-md-5">
-            <h2 class="ips-faq-section-title">FREQUENTLY ASKED QUESTIONS</h2>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-9 col-xl-8">
-                    <div class="accordion ips-faq-accordion" id="ipsFaqAccordion">
-
-                        <!-- FAQ 1 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-1">
-                            <h3 class="accordion-header" id="headingOne">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    Is 3D printing as strong as injection molding?
-                                </button>
-                            </h3>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    We Precise3DM equipped with four Figure 4 offers some materials that are as strong as injection molded parts. Some of these materials provide tensile strength as high as 80 Mpa after proper post processing.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 2 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-2">
-                            <h3 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    How can I avail 3D printing services in India?
-                                </button>
-                            </h3>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    We at Precise3Dm provide 3d printing services all over India. To use the services, you can contact us through our website or call any Precise3dm technical representatives.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 3 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-3">
-                            <h3 class="accordion-header" id="headingThree">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    What is the part size that you can do 3d printing and low volume production?
-                                </button>
-                            </h3>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    For general 3d printing, we can have a build volume of 300x300x500mm, and for low volume production, the build volume is 124.8 x 70.2 x 346 mm.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 4 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-4">
-                            <h3 class="accordion-header" id="headingFour">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    What technology do you use for 3d printing and low volume production?
-                                </button>
-                            </h3>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    We use DLP (Digital Light Projection) technology for low volume production. It has high print speeds that make it possible to print multiple parts in a realistic time frame
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 5 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-5">
-                            <h3 class="accordion-header" id="headingFive">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    How long do you take to 3D Print my part?
-                                </button>
-                            </h3>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    Print time depends on the size and complexity of the part. To get an exact estimate of the time required to print your file, we would need a .stl file. You can directly upload your file on our website and get an estimate for time and cost as well.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 6 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-6">
-                            <h3 class="accordion-header" id="headingSix">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    My part is rubber. Do you print rubber-like material?
-                                </button>
-                            </h3>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    Yes!! We print rubber as well as many other production materials like bio-compatible materials and flexible materials. Our materials can effectively match the properties of some of the most used materials in production.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 7 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-7">
-                            <h3 class="accordion-header" id="headingSeven">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    Per day how many parts can you print?
-                                </button>
-                            </h3>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    We use DLP (Digital Light Projection) technology for low volume production. It has high print speeds that make it possible to print multiple parts in a realistic time frame
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FAQ 8 -->
-                        <div class="accordion-item ips-faq-item" id="ips-faq-item-8">
-                            <h3 class="accordion-header" id="headingEight">
-                                <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    <span class="ips-faq-icon-wrap" aria-hidden="true">
-                                        <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
-                                        <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
-                                    </span>
-                                    How do you increase the strength of a 3D-printed part?
-                                </button>
-                            </h3>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#ipsFaqAccordion">
-                                <div class="accordion-body ips-faq-body">
-                                    The strength of 3D printed parts can be increased by utilizing some post-processing measures like curing, for which we have special equipment. After curing, the properties of the material changes to some extent giving more strength to the materials
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =========================================================
-         END FAQ SECTION
-         ========================================================= -->
+    
 
     <!-- =========================================================
          READY TO START SECTION
@@ -1124,7 +962,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <!-- Right: Buttons -->
                     <div class="col-lg-3 text-center text-lg-end ips-ready-btn-col">
-                        <a href="#" class="ips-ready-btn mb-3">Upload CAD File</a>
+                        <a href="https://www.precise3dm.com/3d-printing-service-form.php" class="ips-ready-btn mb-3">Upload CAD File</a>
                         <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="ips-ready-btn">Request Consultation</a>
                     </div>
 
@@ -1135,6 +973,170 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- =========================================================
          END READY TO START SECTION
          ========================================================= -->
+
+         <!-- =========================================================
+              FAQ SECTION
+              ========================================================= -->
+         <section class="ips-faq-section">
+             <div class="container px-3 px-md-5">
+                 <h2 class="ips-faq-section-title">FREQUENTLY ASKED QUESTIONS</h2>
+     
+                 <div class="row justify-content-center">
+                     <div class="col-lg-9 col-xl-8">
+                         <div class="accordion ips-faq-accordion" id="ipsFaqAccordion">
+     
+                             <!-- FAQ 1 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-1">
+                                 <h3 class="accordion-header" id="headingOne">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         Is 3D printing as strong as injection molding?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         We Precise3DM equipped with four Figure 4 offers some materials that are as strong as injection molded parts. Some of these materials provide tensile strength as high as 80 Mpa after proper post processing.
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 2 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-2">
+                                 <h3 class="accordion-header" id="headingTwo">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         How can I avail 3D printing services in India?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         We at Precise3Dm provide 3d printing services all over India. To use the services, you can contact us through our website or call any Precise3dm technical representatives.
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 3 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-3">
+                                 <h3 class="accordion-header" id="headingThree">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         What is the part size that you can do 3d printing and low volume production?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         For general 3d printing, we can have a build volume of 300x300x500mm, and for low volume production, the build volume is 124.8 x 70.2 x 346 mm.
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 4 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-4">
+                                 <h3 class="accordion-header" id="headingFour">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         What technology do you use for 3d printing and low volume production?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         We use DLP (Digital Light Projection) technology for low volume production. It has high print speeds that make it possible to print multiple parts in a realistic time frame
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 5 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-5">
+                                 <h3 class="accordion-header" id="headingFive">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         How long do you take to 3D Print my part?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         Print time depends on the size and complexity of the part. To get an exact estimate of the time required to print your file, we would need a .stl file. You can directly upload your file on our website and get an estimate for time and cost as well.
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 6 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-6">
+                                 <h3 class="accordion-header" id="headingSix">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         My part is rubber. Do you print rubber-like material?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         Yes!! We print rubber as well as many other production materials like bio-compatible materials and flexible materials. Our materials can effectively match the properties of some of the most used materials in production.
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 7 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-7">
+                                 <h3 class="accordion-header" id="headingSeven">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         Per day how many parts can you print?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         We use DLP (Digital Light Projection) technology for low volume production. It has high print speeds that make it possible to print multiple parts in a realistic time frame
+                                     </div>
+                                 </div>
+                             </div>
+     
+                             <!-- FAQ 8 -->
+                             <div class="accordion-item ips-faq-item" id="ips-faq-item-8">
+                                 <h3 class="accordion-header" id="headingEight">
+                                     <button class="accordion-button ips-faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                         <span class="ips-faq-icon-wrap" aria-hidden="true">
+                                             <i class="fa-solid fa-plus ips-faq-icon-plus"></i>
+                                             <i class="fa-solid fa-minus ips-faq-icon-minus"></i>
+                                         </span>
+                                         How do you increase the strength of a 3D-printed part?
+                                     </button>
+                                 </h3>
+                                 <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#ipsFaqAccordion">
+                                     <div class="accordion-body ips-faq-body">
+                                         The strength of 3D printed parts can be increased by utilizing some post-processing measures like curing, for which we have special equipment. After curing, the properties of the material changes to some extent giving more strength to the materials
+                                     </div>
+                                 </div>
+                             </div>
+     
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+         <!-- =========================================================
+              END FAQ SECTION
+              ========================================================= -->
 
     <!-- =====================================================
          Footer section

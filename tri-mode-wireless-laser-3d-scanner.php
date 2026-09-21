@@ -74,9 +74,9 @@
                     <!-- Action Buttons -->
                     <div class="rh-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="rh-btn rh-btn-solid">Book Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="rh-btn rh-btn-outline">Get Quotation</a>
-                        <a href="#" class="rh-btn rh-btn-solid">Download Brochure</a>
-                        <a href="#" class="rh-btn rh-btn-outline"><i class="fa-solid fa-play"></i> Watch Video</a>
+                        <a href="scanning-solution-form.php" class="rh-btn rh-btn-outline">Get Quotation</a>
+                        <a href="assets/images/einscan-rigil/einScan-rigil-brochure.pdf" target="_blank" class="rh-btn rh-btn-solid">Download Brochure</a>
+                        <a href="https://www.youtube.com/watch?v=XXXXXXX" target="_blank" class="rh-btn rh-btn-outline"><i class="fa-solid fa-play"></i> Watch Video</a>
                     </div>
 
                     <!-- Mobile/Tablet Call Us Widget (Appears under buttons) -->
@@ -256,7 +256,7 @@
                         <!-- Feature 7 -->
                         <div class="wcr-feature">
                             <div class="wcr-icon">
-                                <img src="assets/images/tri-mode-wireless-laser-3d-scanner/wcer-right-icon7.png" alt="Lightweight and Portable">
+                                <img src="assets/images/tri-mode-wireless-laser-3d-scanner/wcer-right-icon7e.png" alt="Lightweight and Portable">
                             </div>
                             <div class="wcr-text">
                                 <h5>LIGHTWEIGHT & PORTABLE</h5>

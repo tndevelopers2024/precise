@@ -693,7 +693,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p>Email Us at <br>sm@precise3dm.com | sales@precise3dm.com</p>
+                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
                               </div>
                            </div>
                         </div>
@@ -735,7 +735,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p>Email Us at <br>sm@precise3dm.com</p>
+                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
                               </div>
                            </div>
                            <div class="banner-img">
@@ -780,7 +780,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p style="font-weight:700;">Email Us at <br>sm@precise3dm.com</p>
+                                 <p style="font-weight:700;">Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
                               </div>
                            </div>
                            <div class="banner-img1">
@@ -813,7 +813,7 @@
                                     <a href="mailto:sm@precise3dm.com" class="mail-btn" style="border-radius:50%;">
                                        <i class="fa-solid fa-envelope text-white"></i>
                                     </a>
-                                    <p class="text"><b>Email Us at</b> <br>sales@precise3dm.com | sm@precise3dm.com</p>
+                                    <p class="text"><b>Email Us at</b> <br><a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a> | <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
                                  </div>
                               </div>
                            </div>
@@ -868,7 +868,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p>Email Us at <br>sm@precise3dm.com | sales@precise3dm.com</p>
+                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
                               </div>
                            </div>
                         </div>
@@ -951,7 +951,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p>Email Us at <br>sm@precise3dm.com | sales@precise3dm.com</p>
+                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
                               </div>
                            </div>
                         </div>
@@ -992,7 +992,7 @@
                                  <a href="mailto:sm@precise3dm.com" class=" mail-btn">
                                     <i class="fa-solid fa-envelope text-white"></i>
                                  </a>
-                                 <p>Email Us at <br>sm@precise3dm.com</p>
+                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
                               </div>
                            </div>
                         </div>
@@ -1038,7 +1038,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p style="font-weight:700;">Email Us at <br>sm@precise3dm.com</p>
+                                 <p style="font-weight:700;">Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
                               </div>
                            </div>
                         </div>
@@ -1074,7 +1074,7 @@
                                     <a href="mailto:sm@precise3dm.com" class="mail-btn" style="border-radius:50%;">
                                        <i class="fa-solid fa-envelope text-white"></i>
                                     </a>
-                                    <p class="text"><b>Email Us at</b> <br>sales@precise3dm.com | sm@precise3dm.com</p>
+                                    <p class="text"><b>Email Us at</b> <br><a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a> | <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
                                  </div>
                               </div>
                            </div>
@@ -1129,7 +1129,7 @@
                                     <i class="fa-solid fa-envelope text-white"></i>
 
                                  </a>
-                                 <p>Email Us at <br>sm@precise3dm.com | sales@precise3dm.com</p>
+                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
                               </div>
                            </div>
                         </div>
@@ -1275,7 +1275,7 @@
                   <img src="assets/images/optimscan-plus/img1.png" alt="">
                   <a href="structured-light-3d-scanner-in-india.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="optical-blue-light-3d-scanning-service-in-india.php">3D
+                  <a class="btn" href="3d-scanning-services-in-india.php">3D
                      Scanning
                      Service</a>
                </div>
@@ -1305,7 +1305,7 @@
                   <img src="assets/images/new-home/card-img1.png" alt="">
                   <a href="lidar-scanners.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="long-range-3dscanning-service.php">3D Scanning
+                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
                      Service</a>
                </div>
             </div>
@@ -1326,7 +1326,7 @@
                   <img src="assets/images/new-home/card-img2.png" alt="">
                   <a href="3d-laser-scanners.php" class="btn">Buy 3D
                      Scanner</a>
-                  <a class="btn" href="arm-based-3d-scanning-service-in-india.php">3D
+                  <a class="btn" href="3d-scanning-services-in-india.php">3D
                      Scanning Service</a>
                </div>
             </div>
@@ -1366,7 +1366,7 @@
                   <h3>3D PRINTERS</h3>
                   <img style="height: 225px;" src="assets/images/new-home/product8.png" alt="">
                   <p>Solutions for Production 3D Printing</p>
-                  <a href="figure-4-standalone-3d-printer.php" class="btn">Know more</a>
+                  <a href="industrial-fdm-3d-printers.php" class="btn">Know more</a>
                </div>
             </div>
 

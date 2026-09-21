@@ -438,7 +438,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                       <div class="tab1-btns mt-5">
                         <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Fill Out The Form</a>
-                        <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get Callback</a>
+                        <a href="https://www.precise3dm.com/scanning-solution-form.php" class="btn">Get Callback</a>
                         <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn">Meet us live online</a>
                       </div>
                   </div>

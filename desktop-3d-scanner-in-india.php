@@ -206,6 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+   <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 
 <body>
@@ -603,6 +604,77 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       </div>
    </section>
+
+   <!--FAQs section start-->
+   <div id="FAQ" class="container pt-5 pb-5 faq">
+      <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+      <div id="style-3" class="row mt-4">
+         <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span>What is a Desktop 3D Scanner in India used for?</span>
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>A Desktop 3D Scanner in India is used to create detailed digital 3D models of small and medium-sized objects. It is commonly used for product design, jewellery, reverse engineering, quality inspection, measurement, and digital archiving.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <span>What are the benefits of using a desktop 3D scanner for small parts?</span>
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>A desktop 3D scanner for small parts provides a compact scanning setup with high precision and efficient scanning. It is particularly useful for capturing intricate shapes and details without requiring a large industrial scanning system.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <span>Is a desktop 3D scanner suitable for jewellery and intricate objects?</span>
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes, a 3D scanner for jewellery can capture detailed shapes and intricate features of small objects. Desktop scanners are well suited for jewellery, small components, product design, and other applications where detail and precision are important.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <span>What is the accuracy of the AutoScan Inspec2 desktop 3D scanner?</span>
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>The AutoScan Inspec2 3D scanner featured by Precise3DM provides 0.01 mm accuracy and includes one-click scanning, full-colour scanning, and a lightweight design.</p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!--FAQs section ends-->
 
    <!--separator start-->
    <hr class="separator">

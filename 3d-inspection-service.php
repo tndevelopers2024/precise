@@ -12,8 +12,8 @@ ini_set('max_execution_time', '-1');
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Scanner Product Inspection Services | Precise3DM</title>
-    <meta name="description" content="Experience top-notch 3D scanner product inspection and 3D scan product inspection services at Precise3DM. Utilize advanced technology for accurate, reliable results in quality assurance and product inspection.">
+    <title>3D Inspection Services in India | Metrology & CAD Inspection</title>
+    <meta name="description" content="Get accurate 3D Inspection Services in India for CAD comparison, GD&T analysis, dimensional inspection, FAI, quality control, and manufacturing validation.">
     <meta name="keywords" content="3D application,Reverse Engineering Service,3D Inspection Service in India,3D softwares">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

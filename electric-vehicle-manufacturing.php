@@ -55,8 +55,8 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                     </p>
                     
                     <div class="evm-btn-group">
-                        <a href="#" class="evm-btn-primary">Talk to an EV Manufacturing Expert</a>
-                        <a href="#" class="evm-btn-outline">Book a Live Demo</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="evm-btn-primary">Talk to an EV Manufacturing Expert</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="evm-btn-outline">Book a Live Demo</a>
                     </div>
                     
                     <div class="evm-contact-bottom">
@@ -566,7 +566,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         </div>
                     </div>
 
-                    <a href="#" class="evm-capex-btn solid mt-auto">EXPLORE AUTOMOTIVE 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="best-3d-scanners-for-automotive.php" class="evm-capex-btn solid mt-auto">EXPLORE AUTOMOTIVE 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -581,7 +581,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span><strong>Geomagic Design X</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="evm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="reverse-engineering-geomagic-design-x.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -591,7 +591,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span><strong>Geomagic for SOLIDWORKS</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="evm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-for-solidworks-reverse-engineering-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -601,11 +601,11 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span><strong>ExactFlat</strong><br><small>Automotive Sheet Cover / Sheet<br>Material Flattening Software</small></span>
                         </div>
                         <div class="evm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="exactflat.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="#" class="evm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanning-and-reverse-engineering-software.php" class="evm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -619,14 +619,14 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span><strong>Geomagic Control X</strong><br><small>3D Inspection Software</small></span>
                         </div>
                         <div class="evm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-control-x-3d-inspection-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
                     <img src="assets/images/electric-vehicle-manufacturing/capex-card3-img2.png" alt="Inspection Software 1" class="evm-capex-hero-img my-2 shadow-sm rounded">
                     <img src="assets/images/electric-vehicle-manufacturing/capex-card3-img3.png" alt="Inspection Software 2" class="evm-capex-hero-img mt-1 shadow-sm rounded">
 
-                    <a href="#" class="evm-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-inspection-software-in-india.php" class="evm-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 4 -->
@@ -643,7 +643,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <small>FUNMAT PRO<br>310 APOLLO</small>
                         </div>
                         <div class="evm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="peek-3d-printing-services.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -660,7 +660,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         </div>
                     </div>
 
-                    <a href="#" class="evm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="industrial-fdm-3d-printers.php" class="evm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -749,7 +749,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Powertrain & Motors</li>
                         <li><i class="fa-solid fa-circle-check"></i> Inspection & Archiving</li>
                     </ul>
-                    <a href="#" class="evm-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-scanning-services-in-india.php" class="evm-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -762,7 +762,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> STEP / IGES / Parasolid</li>
                         <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                     </ul>
-                    <a href="#" class="evm-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-Reverse-Engineering-Services-in-india.php" class="evm-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -775,7 +775,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> FAI / GD&T / Deviation Maps</li>
                         <li><i class="fa-solid fa-circle-check"></i> Supplier & Production QC</li>
                     </ul>
-                    <a href="#" class="evm-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-inspection-service.php" class="evm-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 4 (Span 2) -->
@@ -799,7 +799,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <p>Large automotive fixtures, tooling, prototype assemblies, dashboards, ducts, body panels and manufacturing aids.</p>
                         </div>
                     </div>
-                    <a href="#" class="evm-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-printing-service-in-india.php" class="evm-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 5 (Span 1) -->
@@ -823,7 +823,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
                     </div>
-                    <a href="#" class="evm-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="automotive-benchmarking-services-in-india.php" class="evm-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
             </div>
@@ -853,7 +853,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Production Inspection</li>
                         <li><i class="fa-solid fa-circle-check"></i> Long-Term Capability Building</li>
                     </ul>
-                    <a href="#" class="evm-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
+                    <a href="3d-products.php" class="evm-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
                 </div>
 
                 <!-- Card 3 (OPEX) -->
@@ -867,14 +867,14 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Benchmarking Projects</li>
                         <li><i class="fa-solid fa-circle-check"></i> Occasional Reverse Engineering</li>
                     </ul>
-                    <a href="#" class="evm-boo-btn black">EXPLORE ENGINEERING SERVICES</a>
+                    <a href="3d-services.php" class="evm-boo-btn black">EXPLORE ENGINEERING SERVICES</a>
                 </div>
 
                 <!-- Card 4 (Support) -->
                 <div class="evm-boo-card text-center align-items-center">
                     <img src="assets/images/electric-vehicle-manufacturing/boo-img2.png" alt="Support Agent" class="evm-boo-img2">
                     <h3 class="evm-boo-card-title lg">Not sure which is<br>right for your<br>application?</h3>
-                    <a href="#" class="evm-boo-btn orange mt-auto">TALK TO AN APPLICATION<br>ENGINEER</a>
+                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="evm-boo-btn orange mt-auto">TALK TO AN APPLICATION<br>ENGINEER</a>
                 </div>
 
             </div>
@@ -902,7 +902,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         <li><div class="evm-wev-custom-icon"></div> Pan-India Sales, Service, Training & Technical Support</li>
                         <li><div class="evm-wev-custom-icon"></div> Solutions for OEMs, Tier Suppliers, EV Manufacturers, Tool Rooms & R&D Centres</li>
                     </ul>
-                    <a href="#" class="evm-wev-btn">Know More About Precise 3DM</a>
+                    <a href="About_us.php" class="evm-wev-btn">Know More About Precise 3DM</a>
                 </div>
 
             </div>
@@ -932,8 +932,8 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                     <h2 class="evm-cta-title">Ready to Digitally Transform <span class="evm-text-orange">EV Manufacturing?</span></h2>
                     <p class="evm-cta-desc">Whether you're planning to invest in advanced digital manufacturing technologies or need immediate engineering support, Precise3DM can help you select the right solution for your application.</p>
                     <div class="evm-cta-btngroup">
-                        <a href="#" class="evm-btn-orange">3D Products</a>
-                        <a href="#" class="evm-btn-orange">3D Services</a>
+                        <a href="3d-products.php" class="evm-btn-orange">3D Products</a>
+                        <a href="3d-services.php" class="evm-btn-orange">3D Services</a>
                     </div>
                 </div>
 
@@ -947,7 +947,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <h3>GET QUOTE<br><span>FOR SERVICES</span></h3>
                         </div>
                         <p>Tell us about your project and get a customized service quote.</p>
-                        <a href="#" class="evm-cta-card-btn">GET QUOTE FOR SERVICES <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="Get-3d-scan-service-quote.php" class="evm-cta-card-btn">GET QUOTE FOR SERVICES <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     
                     <!-- Card 2 -->
@@ -957,7 +957,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <h3>GET QUOTE<br><span>FOR SCANNERS</span></h3>
                         </div>
                         <p>Looking to buy a 3D scanner? Get the best price and expert guidance.</p>
-                        <a href="#" class="evm-cta-card-btn">GET QUOTE FOR SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="scanning-solution-form.php" class="evm-cta-card-btn">GET QUOTE FOR SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
                     <!-- Card 3 -->
@@ -967,7 +967,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <h3>MEET US LIVE<br><span>ONLINE NOW</span></h3>
                         </div>
                         <p>Connect with our experts instantly for live guidance and support.</p>
-                        <a href="#" class="evm-cta-card-btn">MEET US LIVE ONLINE NOW <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="evm-cta-card-btn">MEET US LIVE ONLINE NOW <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
                     <!-- Card 4 -->
@@ -977,7 +977,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <h3>BOOK DEMO<br><span>FOR SCANNERS</span></h3>
                         </div>
                         <p>Schedule a live demo and experience the power of Precise3DM scanners.</p>
-                        <a href="#" class="evm-cta-card-btn">BOOK DEMO FOR SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="evm-cta-card-btn">BOOK DEMO FOR SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 

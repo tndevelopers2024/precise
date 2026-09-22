@@ -91,6 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+    <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 
 <body>
@@ -111,7 +112,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 software-mobile software-3d-headcont">
-                                <h1 class="title text-white ">3D software</h1>
+                                <h1 class="title text-white ">3D Software Provider in India for Scanning, Reverse Engineering & Inspection</h1>
                                 <h2 class="text-white text-uppercase">A complete set of engineering and reverse engineering
                                     software from a single vendor
                                 </h2>
@@ -292,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="container ">
                         <div class="row ">
                             <div class="col-md-8 software-mobile software-3d-headcont">
-                                <h1 class="title text-white ">3D software</h1>
+                                <h1 class="title text-white ">3D Software Provider in India for Scanning, Reverse Engineering & Inspection</h1>
                                 <h2 class="text-white text-uppercase">A COMPLETE SET OF ENGINEERING AND REVERSE ENGINEERING SOFTWARE FROM A SINGLE VENDOR
                                 </h2>
                                 <p class="software-landing-para2">We supply software for Computer-Aided Design, Computer-Aided Manufacturing, Computer-Aided Verification, Computer-Aided Engineering, 3D Scanning.</p>
@@ -586,6 +587,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- DIGITAL SCULPTING SOFTWARE ends -->
     </section>
+    
+    <!--FAQs section start-->
+    <div id="FAQ" class="container pt-5 pb-5 faq">
+        <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+        <div id="style-3" class="row mt-4">
+            <div class="accordion" id="accordionExample">
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span>What does a 3D Software Provider in India offer?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>A 3D Software Provider in India offers specialized software for 3D scanning, reverse engineering, CAD modelling, digital inspection, metrology, and 3D sculpting. These solutions help convert scan data into CAD models, compare physical parts with CAD data, and create detailed digital models.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span>What is 3D reverse engineering software used for?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>3D reverse engineering software is used to convert 3D scan data into usable CAD models. It can help engineers create parametric CAD files, mesh models, and surface models for product redesign, manufacturing, prototyping, and engineering applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span>Which 3D scanning software is available in India?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Various 3D scanning software in India is available for different applications, including reverse engineering, mesh modelling, CAD development, inspection, and digital sculpting. Precise3DM provides solutions such as Geomagic Design X, Geomagic Wrap, Geomagic Control X, Geomagic for SolidWorks, and Geomagic Freeform.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span>What is 3D inspection software used for?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>3D inspection software is used to analyze 3D scan or probe data and compare physical components against their original CAD models. It supports dimensional inspection, quality control, CAD comparison, and advanced digital inspection workflows.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--FAQs section ends-->
+
     <!-- content section  end-->
 
 
@@ -598,6 +671,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script type="text/javascript" src="assets/js/tabs.js"></script>
     <!-- bootstrap links-->
     <script src="assets/js/counter.js"></script>
+    <!-- bootstrap 5 js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wall Thickness Analysis | 3D Inspection Service</title>
-    <meta name="description" content="Geomagic control X, 3D Inspection software , Wall thickness analysis and 3D printing, Wall thickness for 3D model, local thickness measurement, wall thickness deviation">
+    <title>3D Scan-Based Wall Thickness Analysis Services</title>
+    <meta name="description" content="Get accurate 3D scan-based wall thickness analysis to identify thickness variations, deviations, and manufacturing issues in complex industrial components.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -43,7 +43,7 @@
     <!-- page specific css -->
     <link rel="stylesheet" href="assets/css/3d-scan-based-wall-thickness-analysis.css">
 
-    <!--<title>Reverse engineering freeform software-3D scan services-Scan to Wall thickness analysis</title>-->
+    <!--<title>3D Scan-Based Wall Thickness Analysis Services</title>-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96527116-1"></script>
     <script>
@@ -157,6 +157,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+   <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 
 <body>
@@ -638,6 +639,107 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </section>
 
+    <!--FAQs section start-->
+   <div id="FAQ" class="container pt-5 pb-5 faq">
+      <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+      <div id="style-3" class="row mt-4">
+         <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span>What is 3D scan-based wall thickness analysis?</span>
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D scan-based wall thickness analysis is a non-contact inspection method used to evaluate the thickness of components and identify variations, deviations, and areas that may fall outside required specifications.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <span>How does 3D scanning help with wall thickness analysis?</span>
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D scanning captures detailed geometric data from a component, which can then be analyzed to evaluate wall thickness across different areas. This helps identify thickness variations and potential manufacturing issues.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <span>What are the benefits of 3D wall thickness analysis?</span>
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D wall thickness analysis can help identify uneven thickness, localized variations, manufacturing defects, and areas requiring further investigation. It also provides detailed visual and measurement-based inspection results for quality control.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <span>Can 3D scanning measure wall thickness in complex components?</span>
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. 3D scan-based analysis can be useful for evaluating complex components and geometries where conventional measurement methods may be difficult to apply effectively.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     <span>What types of manufacturing issues can wall thickness analysis identify?</span>
+                  </button>
+               </h2>
+               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Wall thickness analysis can help identify areas with excessive or insufficient material, thickness variations, dimensional deviations, and other inconsistencies that may affect component quality or performance.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                     <span>Which industries can benefit from 3D scan-based wall thickness analysis?</span>
+                  </button>
+               </h2>
+               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Industries such as automotive, aerospace, rail, heavy engineering, defence, casting, forging, fabrication, and other manufacturing sectors can benefit from 3D scan-based wall thickness analysis. Precise 3DM identifies these sectors among its broader 3D inspection and quality-engineering applications.</p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!--FAQs section ends-->
+
     <!-- footer start -->
     <?php include('includes/footer.php'); ?>
     <!-- footer End -->
@@ -647,6 +749,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- custom js -->
     <script src="assets/js/script.js"></script>
+    <!-- bootstrap 5 js for FAQ-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 
 </html>

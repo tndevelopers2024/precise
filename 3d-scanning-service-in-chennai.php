@@ -12,7 +12,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Laser 3D Scanning Service in Chennai | 3D Scanning Near Me</title>
-    <meta name="description" content="Looking for top-notch 3D scanning in Chennai? Our laser 3D scanning service near you ensures precision. Explore our advanced 3D scanning solutions in Chennai today!">
+    <meta name="description" content="Get accurate 3D scanning services in Chennai for industrial inspection, reverse engineering, scan-to-CAD, dimensional measurement, and manufacturing applications.">
     <meta name="keywords" content="3D scanning service provider in chennai, 3D scanning service, Best 3D scanning service in chennai, 3D Scanning service in Ambattur, 3D Scanning in Sriperumbudur, 3D scanning provider in chennai">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -151,6 +151,95 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of Scanner are you using and how about its accuracy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PRECISE3DM has a wide range of scanners. Based on the customer's part and application requirements, we choose the appropriate scanner. We normally prefer the GOM ATOS Compact Scanner because its accuracy level is up to 6–7 microns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you support onsite Scanning services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we support onsite scanning services based on customer requirements, including heavy components, fixed components, highly confidential projects, NPD and R&D projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of software is used for design and what are its outputs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use different software based on the project requirements. Geomagic Design X is normally used for initial 3D model generation. SolidWorks and Creo are used when the customer requires an editable model. Outputs can be delivered in CAD formats such as STEP, IGES, SolidWorks .prt, and editable Creo files."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the size limit for measuring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use various types of technologies and equipment, allowing us to measure components ranging from millimeters to meters. There is generally no limitation on measurement size."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are the inspection activities carried out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We perform inspections using Geomagic Control X software. Both contact and non-contact inspection methods are used depending on the customer's application requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are your esteemed clients, and what is your field of experience?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PRECISE3DM has nearly 10 years of experience, with a design team of more than 30 members. Our design engineers have strong Mechanical and Automobile backgrounds and work on complex projects. Our clients include MRV, Royal Enfield, Stanadyne, Motherson, L&T, Rane, Nissan, Hanon Systems, Ford India, ZF, Swaraj Tractors, Boson Motors, Butterfly, Foxconn, Lucas TVS, and Satyam Ventures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are all the services you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our services include 3D Scanning, 3D and 2D Inspection, 3D Modeling including editable and non-editable models, Vehicle Benchmarking, Portable CMM Services, Architectural Scanning and BIM Modeling, 3D Printing Services, and FEA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does your Scanning service differ from CMM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CMM is a contact-based measurement method that measures coordinates through single-point data and can be time-consuming. 3D scanning is a non-contact method that generates a complete 3D profile and captures millions of points in seconds, making the process faster and more efficient for many applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you determine your project lead time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We generally follow a First Come First Serve (FCFS) policy. Lead time depends on part receiving time, technical clarifications, and commercial finalization. Emergency cases are treated as special cases and may be handled separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you determine the commercial pricing for projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We require physical photos covering the 3D profile of the part along with its dimension details. Customers can also use the website form to upload part details and scope of work to receive a quote."
+      }
+    }
+  ]
+}
+</script>
 
 </head>
 <body>

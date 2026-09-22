@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top 3D Scanning Services in Bangalore | 3D Laser & Digital Scanning Near Me</title>
-    <meta name="description" content="Find leading 3D scanning services in Bangalore offering laser and digital scanning near you. Get precise 3D scans with our advanced technology. Contact us for expert 3D scanner services!">
+    <meta name="description" content="Get accurate 3D scanning services in Bangalore for industrial inspection, reverse engineering, scan-to-CAD, dimensional measurement, automotive benchmarking and large components.">
     <meta name="keywords" content="3D Laser Scanning in Bangalore, 3d scanning in Bangalore, 3d scanning in india, 3d Scanning Services in India, 3d scanning services, 3d scanning services in Bangalore">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

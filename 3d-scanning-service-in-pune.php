@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Scanning Services in Pune | 3D Laser & Digital Scanning Near Me</title>
-    <meta name="description" content="Explore precise 3D scanning services in Pune for laser and digital scanning needs. Our advanced scanner services provide accurate 3D scans near you. Contact us for the best 3D scans in pune">
+    <meta name="description" content="Get accurate 3D scanning services in Pune for industrial inspection, reverse engineering, scan-to-CAD, dimensional measurement, automotive benchmarking and large components.">
     <meta name="keywords" content="3D Laser Scanning in pune, 3d scanning in pune, 3d scanning in india, 3d Scanning Services in India, 3d scanning services, 3d scanning services in pune">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

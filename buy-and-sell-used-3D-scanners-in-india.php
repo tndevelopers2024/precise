@@ -282,7 +282,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </style>
   <section id="faq" class="faq free-faq pre-bg-white section-padding pb-50" style="background-color:#ffffff !important">
     <div class="container">
-      <h3 class="head ">FAQs</h3>
+      <h3 class="head ">>Frequently Asked Questions</h3>
       <div class="row faqrow">
         <div class="col-12 faq-content-business">
         </div>

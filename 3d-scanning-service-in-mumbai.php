@@ -13,7 +13,7 @@ ini_set('max_execution_time', '-1');
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expert 3D Scanning Services in Mumbai | Precise3DM</title>
-    <meta name="description" content="Looking for best 3D scanning services in Mumbai? Discover our precise 3D product scanning services near you. Get advanced 3D laser scanning solutions from the experts at Precise3DM today in mumbai ">
+    <meta name="description" content="Get accurate 3D scanning services in Mumbai for industrial inspection, reverse engineering, scan-to-CAD, dimensional measurement, automotive benchmarking and large components.">
     <meta name="keywords" content="3D Laser Scanning, 3d scanning in mumbai, 3d scanning in india, 3d Scanning Services in India, 3d scanning services, 3d scanning service in mumbai">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

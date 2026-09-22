@@ -265,8 +265,8 @@
 
                         <div class="row mt-4 align-items-center flex-grow-1">
                             <!-- Left part -->
-                            <div class="col-md-5 text-center sti-comp-left-text">
-                                <p class="mb-0" style="color: #f50000;">Traditional Inspection</p>
+                            <div class="col-md-5 text-center">
+                                <img src="assets/images/3d-scan-to-inspection/traditional-inspection.png" alt="Traditional Inspection" class="img-fluid sti-comp-img mx-auto" style="border-radius: 10px;">
                             </div>
 
                             <!-- Right part -->
@@ -786,7 +786,7 @@
                             </ul>
                         </div>
 
-                        <a href="reverse-engineering-geomagic-design-x.php" class="swu-btn swu-btn-red">Know More</a>
+                        <a href="shining-3d-inspect-software.php" class="swu-btn swu-btn-red">Know More</a>
                     </div>
 
                 </div>

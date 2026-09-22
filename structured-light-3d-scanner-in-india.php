@@ -198,6 +198,7 @@ ini_set('max_execution_time', '-1');
 </noscript>
 
 
+   <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 
 
@@ -633,6 +634,77 @@ ini_set('max_execution_time', '-1');
 
       </div>
    </section>
+
+   <!--FAQs section start-->
+   <div id="FAQ" class="container pt-5 pb-5 faq">
+      <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+      <div id="style-3" class="row mt-4">
+         <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span>What is a Structured Light 3D Scanner in India?</span>
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>A Structured Light 3D Scanner in India uses projected patterns of light and camera capture to measure the shape and geometry of an object and create a detailed 3D model. It is suitable for high-precision scanning of small and medium-sized objects, intricate components, inspection, and reverse engineering.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <span>What is an Optical 3D Scanner used for?</span>
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>An Optical 3D Scanner uses light projection and cameras to capture the shape and details of physical objects without contact. These scanners are commonly used for precision measurement, quality inspection, metrology, and 3D reverse engineering applications.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <span>When should I use a high accuracy Structured Light 3D Scanner?</span>
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>A high accuracy Structured Light 3D Scanner is ideal when you need precise measurements or detailed digital models of small and intricate parts. It can be useful for high-end engineering applications, quality control, metrology, and reverse engineering where accuracy and fine detail are important.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <span>Can a Structured Light 3D Scanner be used for reverse engineering and inspection?</span>
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. A Structured Light 3D Scanner for reverse engineering can capture detailed 3D data from physical components for creating digital models and supporting engineering workflows. These scanners are also suitable for inspection and quality control applications where accurate dimensional data is required.</p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!--FAQs section ends-->
 
    <!--separator start-->
    <hr class="separator">

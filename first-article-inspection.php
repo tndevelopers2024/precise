@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Article Inspection Service</title>
-    <meta name="description" content="First article Inspection Service provider in india, Critical dimension analysis, First article inspection is associated with specific industries like aerospace and defense.">
+    <title>First Article Inspection Service Provider India | FAI</title>
+    <meta name="description" content="Get reliable First Article Inspection services in India using 3D scanning and dimensional inspection to validate manufactured parts against CAD and design specifications.">
     <meta name="keywords" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -149,6 +149,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
+   <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 <style>
     html{
@@ -182,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <div class="row ">
                     <div class="col-md-6 aboutus-herohead pl-0">
-                        <h1>First Article Inspection </h1>
+                        <h1>First Article Inspection Service Provider in India</h1>
                     </div>
                 </div>
             </div>
@@ -736,6 +737,122 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Who we are division start -->
     </section>
     <!-- Workflow Section Starts Here -->
+    <!--FAQs section start-->
+   <div id="FAQ" class="container pt-5 pb-5 faq">
+      <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+      <div id="style-3" class="row mt-4">
+         <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span>What is First Article Inspection (FAI)?</span>
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>First Article Inspection is a formal inspection process used to verify that a manufactured part or assembly meets its specified design, dimensional, and manufacturing requirements. It provides documented measurement results for the features of the inspected part.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <span>What does a First Article Inspection report include?</span>
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>A First Article Inspection report can include dimensional measurements, nominal and actual values, tolerances, inspection results, and other relevant information required to demonstrate that the manufactured part meets its specifications.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <span>How is 3D scanning used in First Article Inspection?</span>
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>3D scanning captures detailed data from the manufactured component, which can be aligned with CAD data and analyzed to identify dimensional deviations. This can make the inspection process faster and provide comprehensive information about the part's geometry.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <span>What are the benefits of First Article Inspection for manufacturers?</span>
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>First Article Inspection helps manufacturers identify dimensional and manufacturing issues early, validate production processes, reduce rework, and confirm that components meet design requirements before proceeding with larger production quantities.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     <span>Which industries use First Article Inspection services?</span>
+                  </button>
+               </h2>
+               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>First Article Inspection is used across industries including automotive, aerospace, EV, die casting, plastics, pumps and valves, heavy engineering, defence, foundry, construction machinery, and other manufacturing sectors.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                     <span>Can First Article Inspection be performed using 3D scan data?</span>
+                  </button>
+               </h2>
+               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. 3D scan data can be used for First Article Inspection by comparing the captured geometry with CAD models or other design references and generating detailed inspection results. Precise3DM uses 3D scanning and inspection software as part of its FAI workflow.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                     <span>Why choose a First Article Inspection service provider in India?</span>
+                  </button>
+               </h2>
+               <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>An India-based FAI service provider can support manufacturers with dimensional inspection, 3D scanning, CAD comparison, and inspection reporting while providing services closer to their manufacturing facilities and production operations.</p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!--FAQs section ends-->
+
     <hr class="separator">
     <?php include('includes/footer.php'); ?>
     <!-- bootstrap links-->
@@ -744,6 +861,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="assets/js/highlight.js"></script>
     <script src="assets/js/counter.js"></script>
     <script src="assets/js/parametric-cad.js"></script>
+    <!-- bootstrap 5 js for FAQ-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 
 </html>

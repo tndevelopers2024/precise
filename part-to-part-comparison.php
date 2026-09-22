@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Precise3DM uses Freeform reverse engineering software to convert 3D sculpted mesh into the NURBS-based CAD format. The output format is STEP, IGES, and Parasolid files">
+    <meta name="description" content="Get accurate part to part comparison services using 3D and CT scan data to identify dimensional deviations, production variations, and part-to-part differences.">
     <meta name="keywords" content="NURBS modeling in Geomagic software, 3D mesh to NURBS modeling service, NURBS surface reference model services, Geomagic Freeform software, NURBS solids & surfaces, 3D modeling NURBS surfaces ">
     <meta property="og:url" content="https://www.precise3dm.com/part-to-part-comparison.php" />
     <meta property="og:title" content="Reverse engineering freeform software-3D scan services-Scan to Part to part comparison" />
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/parametric-cad.css">
-    <title>Reverse engineering freeform software-3D scan services-Scan to Part to part comparison</title>
+    <title>Part to Part Comparison Services | 3D & CT Scan</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96527116-1"></script>
     <script>
@@ -138,6 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
 
+   <link rel="stylesheet" href="assets/css/metrology-grade-3d-scanners.css">
 </head>
 <style>
     .need-to-fixtop{
@@ -170,7 +171,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <div class="row ">
                     <div class="col-md-6 aboutus-herohead pl-0">
-                        <h1>Part to Part Comparison</h1>
+                        <h1>Part to Part Comparison Services for Accurate Inspection</h1>
                     </div>
                 </div>
             </div>
@@ -764,6 +765,122 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Who we are division start -->
     </section>
     <!-- Workflow Section Starts Here -->
+    <!--FAQs section start-->
+   <div id="FAQ" class="container pt-5 pb-5 faq">
+      <h2 class="sec-head text-center">Frequently Asked Questions</h2>
+      <div id="style-3" class="row mt-4">
+         <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span>What is part to part comparison?</span>
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Part to part comparison is an inspection process used to identify dimensional and geometric differences between two physical components. One part can be treated as the master or reference part and compared with another part using 3D scan or CT scan data.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <span>How does 3D part to part comparison work?</span>
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>The parts are scanned to capture their 3D geometry. The scan data is then imported into inspection software, aligned, and compared to identify surface deviations, dimensional differences, and other variations between the components.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <span>Can CT scanning be used for part to part comparison?</span>
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. Industrial CT scanning can capture detailed internal and external geometry, making it suitable for comparing components and identifying dimensional differences that may not be accessible through conventional surface inspection methods.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <span>What are the benefits of part to part comparison?</span>
+                  </button>
+               </h2>
+               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Part to part comparison can help identify manufacturing variations, dimensional deviations, production inconsistencies, and potential quality issues. It can also support lot-to-lot and tool-to-tool consistency checks and manufacturing troubleshooting.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     <span>Can a master part be compared with production parts?</span>
+                  </button>
+               </h2>
+               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. A master or reference part can be used as the basis for comparison against production components to identify differences in geometry, dimensions, and surface characteristics.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                     <span>What industries can benefit from part to part comparison services?</span>
+                  </button>
+               </h2>
+               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Part to part comparison can be used across automotive, aerospace, EV, die casting, plastics, pumps and valves, heavy engineering, defence, foundry, construction machinery, mining, consumer products, and other manufacturing industries.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                     <span>Can part to part comparison identify production variations?</span>
+                  </button>
+               </h2>
+               <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     <p>Yes. Comparing multiple components can help identify lot-to-lot, tool-to-tool, or production-related variations and provide useful information for troubleshooting and quality control.</p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!--FAQs section ends-->
+
     <hr class="separator">
     <?php include('includes/footer.php'); ?>
     <!-- bootstrap links-->
@@ -772,6 +889,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="assets/js/highlight.js"></script>
     <script src="assets/js/counter.js"></script>
     <script src="assets/js/parametric-cad.js"></script>
+    <!-- bootstrap 5 js for FAQ-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 
 </html>

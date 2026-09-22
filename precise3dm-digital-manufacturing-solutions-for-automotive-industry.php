@@ -188,94 +188,174 @@ $meta_description =
         </div>
     </section>
 
-    <!-- Complete Workflow Section -->
-    <section class="auto-workflow-section py-4" style="background-color: #F6F6FA;">
+    <!-- End-To-End Section -->
+    <section class="aero-end-section" style="background-color: #fff; padding-top: 60px; padding-bottom: 60px;">
         <div class="container-fluid" style="padding: 0 4%;">
-            <div class="workflow-box bg-white p-4 p-md-5" style="border-radius: 16px;">
-                <h2 class="text-center mb-5 workflow-main-title">Complete Digital Manufacturing Workflow for <span style="color: #FF931E;">Automotive</span></h2>
-
-                <div class="workflow-diagram-scroll">
-                    <div class="workflow-diagram position-relative">
-                        <div class="workflow-lines-container position-relative">
-                            <!-- Lines -->
-                            <div class="line-top-main"></div>
-                            <div class="line-curve-top-left"></div>
-                            <div class="line-curve-top-right"></div>
-
-                            <div class="line-bottom-left"></div>
-                            <div class="line-bottom-right"></div>
-
-                            <!-- Arrows Top -->
-                            <div class="arrow-right" style="left: 16.66%;"></div>
-                            <div class="arrow-right" style="left: 33.33%;"></div>
-                            <div class="arrow-right" style="left: 50%;"></div>
-                            <div class="arrow-right" style="left: 66.66%;"></div>
-                            <div class="arrow-right" style="left: 83.33%;"></div>
-
-                            <!-- Arrows Bottom Up -->
-                            <div class="arrow-up-left"></div>
-                            <div class="arrow-up-right"></div>
-
-                            <!-- Bottom Text -->
-                            <div class="workflow-bottom-text text-center position-absolute w-100" style="bottom: -15px;">
-                                <span class="bg-white px-4">DATA-DRIVEN INSIGHTS FOR CONTINUOUS IMPROVEMENT</span>
-                            </div>
-
-                            <!-- 6 Columns -->
-                        <div class="row text-center m-0 position-relative z-index-2 flex-nowrap flex-lg-wrap w-row-custom">
-
-                            <!-- Col 1 -->
-                            <div class="col-2 w-col-custom">
-                                <div class="workflow-number">1</div>
-                                <div class="workflow-col-title">Physical Part /<br>Product Idea</div>
-                                <div class="workflow-img-container"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/workflow-1.png" alt="Workflow 1" class="img-fluid workflow-img"></div>
-                                <div class="workflow-col-desc">Concept or existing<br>component</div>
-                            </div>
-
-                            <!-- Col 2 -->
-                            <div class="col-2 w-col-custom">
-                                <div class="workflow-number">2</div>
-                                <div class="workflow-col-title">3D Scanning /<br>Digital Capture</div>
-                                <div class="workflow-img-container"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/workflow-2.png" alt="Workflow 2" class="img-fluid workflow-img"></div>
-                                <div class="workflow-col-desc">Capture accurate<br>3D data</div>
-                            </div>
-
-                            <!-- Col 3 -->
-                            <div class="col-2 w-col-custom">
-                                <div class="workflow-number">3</div>
-                                <div class="workflow-col-title">Reverse Engineering /<br>CAD Development</div>
-                                <div class="workflow-img-container"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/workflow-3.png" alt="Workflow 3" class="img-fluid workflow-img"></div>
-                                <div class="workflow-col-desc">Convert scan<br>data into editable<br>CAD model</div>
-                            </div>
-
-                            <!-- Col 4 -->
-                            <div class="col-2 w-col-custom">
-                                <div class="workflow-number">4</div>
-                                <div class="workflow-col-title">Tooling, Fixtures &<br>Manufacturing Prep</div>
-                                <div class="workflow-img-container"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/workflow-4.png" alt="Workflow 4" class="img-fluid workflow-img"></div>
-                                <div class="workflow-col-desc">Prepare tools,<br>jigs, fixtures &<br>process setup</div>
-                            </div>
-
-                            <!-- Col 5 -->
-                            <div class="col-2 w-col-custom">
-                                <div class="workflow-number">5</div>
-                                <div class="workflow-col-title">3D Printing /<br>Prototyping / Production</div>
-                                <div class="workflow-img-container"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/workflow-5.png" alt="Workflow 5" class="img-fluid workflow-img"></div>
-                                <div class="workflow-col-desc">Produce<br>prototypes, jigs<br>or end-use parts</div>
-                            </div>
-
-                            <!-- Col 6 -->
-                            <div class="col-2 w-col-custom">
-                                <div class="workflow-number">6</div>
-                                <div class="workflow-col-title">Quality Control /<br>3D Inspection</div>
-                                <div class="workflow-img-container"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/workflow-6.png" alt="Workflow 6" class="img-fluid workflow-img"></div>
-                                <div class="workflow-col-desc">Inspect &<br>compare with<br>CAD model</div>
-                            </div>
-
-                        </div>
+            
+            <!-- Top Content -->
+            <div class="row align-items-center">
+                <!-- Left Title Area -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="aero-end-title">End-To-End Digital Manufacturing Solutions for the Automotive Industry</h2>
+                    <h3 class="aero-end-subtitle">From Real Vehicles to Digital Solutions</h3>
+                    <p class="aero-end-desc">Scan | Reverse Engineer | Benchmark | Validate | 3D Print | Drive Innovation</p>
+                </div>
+                
+                <!-- Right Image Overlay -->
+                <div class="col-lg-6">
+                    <div class="end-corner-box">
+                        <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-to-end-corner-image.png" alt="Automotive Industry" class="end-corner-img">
+                        <div class="end-overlay">
+                            <div class="end-overlay-title">REAL DATA.<br>REAL PARTS.<br>REAL PERFORMANCE.</div>
+                            <div class="end-overlay-bar"></div>
+                            <div class="end-overlay-bottom">SCAN.<br>DESIGN.<br>PRINT.<br>INSPECT.<br>DRIVE.</div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- 5 Cards Row -->
+            <div class="end-cards-row">
+                
+                <!-- Card 1 -->
+                <div class="end-card">
+                    <div class="end-card-header">
+                        <div class="end-card-num">1</div>
+                        <div class="end-card-title-box">
+                            <h4 class="end-card-title">3D SCAN</h4>
+                            <p class="end-card-subtitle">Capture Real Vehicles & Parts</p>
+                        </div>
+                    </div>
+                    <p class="end-card-desc">Scan complete vehicles, body panels, interiors, engine components or individual parts using high-accuracy 3D scanners.</p>
+                    <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-to-end-1.png" alt="3D Scan" class="end-card-img">
+                    <div class="end-badge-list">
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-1-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Full Vehicle Scanning</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-1-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Part Level Scanning</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-1-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">High Accuracy</div>
+                        </div>
+                    </div>
+                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="end-card">
+                    <div class="end-card-header">
+                        <div class="end-card-num">2</div>
+                        <div class="end-card-title-box">
+                            <h4 class="end-card-title">REVERSE ENGINEERING</h4>
+                            <p class="end-card-subtitle">From Scan to CAD</p>
+                        </div>
+                    </div>
+                    <p class="end-card-desc">Convert scan data into precise, editable CAD models for manufacturing, modification or benchmarking. Recreate complex surfaces, clips, mounts and internal features.</p>
+                    <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-to-end-2.png" alt="Reverse Engineering" class="end-card-img">
+                    <div class="end-badge-list">
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-2-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Editable CAD Models</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-2-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Design Optimization</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-2-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Manufacturing Ready Files</div>
+                        </div>
+                    </div>
+                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="end-card">
+                    <div class="end-card-header">
+                        <div class="end-card-num">3</div>
+                        <div class="end-card-title-box">
+                            <h4 class="end-card-title">BENCHMARK & ANALYZE</h4>
+                            <p class="end-card-subtitle">Compare. Improve. Innovate.</p>
+                        </div>
+                    </div>
+                    <p class="end-card-desc">Compare scanned parts with OEM data or competitor models. Perform dimensional analysis, gap analysis and deviation reports to support design improvements, customization or performance enhancement.</p>
+                    <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-to-end-3.png" alt="Benchmark & Analyze" class="end-card-img">
+                    <div class="end-badge-list">
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-3-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Deviation Analysis</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-2-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Benchmarking</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-3-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Inspection Reports</div>
+                        </div>
+                    </div>
+                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="end-card">
+                    <div class="end-card-header">
+                        <div class="end-card-num">4</div>
+                        <div class="end-card-title-box">
+                            <h4 class="end-card-title">3D PRINT</h4>
+                            <p class="end-card-subtitle">Prototypes & End-Use Parts</p>
+                        </div>
+                    </div>
+                    <p class="end-card-desc">Create prototypes, jigs, fixtures or end-use parts using FDM, DLP and high-performance materials like PEEK for functional automotive applications.</p>
+                    <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-to-end-4.png" alt="3D Print" class="end-card-img">
+                    <div class="end-badge-list">
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-1-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">FDM</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-4-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">DLP</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-4-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">PEEK</div>
+                        </div>
+                    </div>
+                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="end-card">
+                    <div class="end-card-header">
+                        <div class="end-card-num">5</div>
+                        <div class="end-card-title-box">
+                            <h4 class="end-card-title">3D INSPECTION</h4>
+                            <p class="end-card-subtitle">Validate Quality & Fit</p>
+                        </div>
+                    </div>
+                    <p class="end-card-desc">Inspect printed or machined parts using 3D scan-based inspection. Verify critical dimensions, fitment and assembly with color deviation maps and detailed reports.</p>
+                    <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-to-end-5.png" alt="3D Inspection" class="end-card-img">
+                    <div class="end-badge-list">
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-3-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">3D Inspection</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-2-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Function Test</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/end-card-3-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Dimensional Verification</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -645,7 +725,7 @@ $meta_description =
     <section id="opex" class="auto-opex-section py-4" style="background-color: #F6F6FA;">
         <div class="container-fluid" style="padding: 0 2%">
             <div class="opex-box bg-white position-relative" style="border-radius: 16px; padding: 30px 40px;">
-                
+
                 <!-- Top Right Image -->
                 <div class="opex-corner-img d-none d-lg-block">
                     <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/opex-image.png" alt="OPEX Facility" class="img-fluid">
@@ -679,9 +759,9 @@ $meta_description =
                         <div class="opex-workflow-title">Share Your RFQ</div>
                         <div class="opex-workflow-desc mt-2">Send your component, application and expected deliverables.</div>
                     </div>
-                    
+
                     <div class="opex-chevron d-none d-xl-flex align-self-center"><i class="fa-solid fa-chevron-right"></i></div>
-                    
+
                     <!-- Workflow 2 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">2</div>
@@ -689,7 +769,7 @@ $meta_description =
                         <div class="opex-workflow-title">Receive a Proposal</div>
                         <div class="opex-workflow-desc mt-2">We review the requirement and provide a clear quotation.</div>
                     </div>
-                    
+
                     <div class="opex-chevron d-none d-xl-flex align-self-center"><i class="fa-solid fa-chevron-right"></i></div>
 
                     <!-- Workflow 3 -->
@@ -709,7 +789,7 @@ $meta_description =
                         <div class="opex-workflow-title">On-Site or In-House<br>Execution</div>
                         <div class="opex-workflow-desc mt-2">Scanning is completed at your facility or at a Precise3DM centre.</div>
                     </div>
-                    
+
                     <div class="opex-chevron d-none d-xl-flex align-self-center"><i class="fa-solid fa-chevron-right"></i></div>
 
                     <!-- Workflow 5 -->
@@ -719,7 +799,7 @@ $meta_description =
                         <div class="opex-workflow-title">Receive Your<br>Deliverables</div>
                         <div class="opex-workflow-desc mt-2">Get a manufacturing-ready CAD model or inspection report.</div>
                     </div>
-                    
+
                     <div class="opex-chevron d-none d-xl-flex align-self-center"><i class="fa-solid fa-chevron-right"></i></div>
 
                     <!-- Workflow 6 -->
@@ -783,9 +863,9 @@ $meta_description =
                             </a>
                         </div>
                     </div>
-                    
+
                     </div>
-                
+
                 <!-- Bottom 2 Cards (Row 2) -->
                 <div class="row g-4 mt-4">
                     <!-- Card 4 (8 columns) -->
@@ -922,12 +1002,12 @@ $meta_description =
                         <!-- Logo at the bottom left -->
                         <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/precise3dm-logo.png" alt="Precise3DM Logo" class="position-absolute" style="bottom: 30px; left: 30px; max-width: 580px;">
                     </div>
-                    
+
                     <!-- Right Content Side -->
                     <div class="col-lg-6 d-flex align-items-center">
                         <div class="p-4 p-xl-5 w-100">
                             <h2 class="why-title mb-5">Why Automotive Manufacturers<br>Choose <span style="color: #FF931E;">Precise3DM?</span></h2>
-                            
+
                             <ul class="why-list">
                                 <li>
                                     <div class="why-bullet-col">
@@ -1017,7 +1097,7 @@ $meta_description =
     <section class="auto-partners-section py-4" style="background-color: #f6f6fa;">
         <div class="container-fluid auto-ind-container">
             <h2 class="partners-title text-center mb-5">Our Technology Partners</h2>
-            
+
             <div class="d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center gap-4 gap-lg-5">
                 <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/partner-1.png" alt="Shining 3D" class="img-fluid partners-logo">
                 <img src="assets/images/precise3dm-digital-manufacturing-solutions-for-automotive-industry/partner-2.png" alt="Hexagon" class="img-fluid partners-logo">
@@ -1032,19 +1112,19 @@ $meta_description =
     <section class="auto-contact-section py-4" style="background-color: #f6f6fa;">
         <div class="container-fluid" style="padding: 0 3%;">
             <div class="contact-inner-container p-4 p-xl-5 position-relative" style="background-image: url('assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/contact-bg.png'); background-size: cover; background-position: center; border-radius: 16px;">
-                
+
                 <div class="text-center mb-4">
                     <h2 class="contact-main-title">Ready to Digitally Transform <span style="color: #FF931E;">Your Automotive Manufacturing?</span></h2>
                     <p class="contact-main-desc mt-3 mx-auto" style="max-width: 1100px;">Whether you're planning to invest in advanced digital manufacturing technologies or need immediate engineering support, Precise3DM can help you select the right solution for your application.</p>
                 </div>
-                
+
                 <div class="d-flex justify-content-center flex-wrap gap-4 mb-5" style="gap: 20px;">
                     <a href="#capex" class="btn contact-top-btn px-5 py-3">3D Products</a>
                     <a href="#opex" class="btn contact-top-btn px-5 py-3">3D Services</a>
                 </div>
-                
+
                 <div class="contact-divider mb-5 mx-auto"></div>
-                
+
                 <div class="row g-4">
                     <!-- Card 1 -->
                     <div class="col-lg-6 col-xl-3 d-flex">
@@ -1057,7 +1137,7 @@ $meta_description =
                             <a href="3d-service-request.php" class="contact-card-btn w-100 d-inline-flex justify-content-center align-items-center text-decoration-none">GET QUOTE FOR SERVICES <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                    
+
                     <!-- Card 2 -->
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">
@@ -1069,7 +1149,7 @@ $meta_description =
                             <a href="buy-product-form.php" class="contact-card-btn w-100 d-inline-flex justify-content-center align-items-center text-decoration-none">GET QUOTE FOR SCANNERS <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                    
+
                     <!-- Card 3 -->
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">
@@ -1081,7 +1161,7 @@ $meta_description =
                             <a href="contact-us.php" class="contact-card-btn w-100 d-inline-flex justify-content-center align-items-center text-decoration-none">MEET US LIVE ONLINE NOW <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                    
+
                     <!-- Card 4 -->
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">

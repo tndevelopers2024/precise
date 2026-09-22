@@ -500,6 +500,103 @@
     border-radius: 12px;
 }
 
+.evm-mrp-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.evm-mrp-header-left {
+    flex: 1;
+}
+
+.evm-mrp-header-right {
+    flex: 0 0 45%;
+}
+
+.evm-etr-image-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.evm-etr-image-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.evm-etr-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(20, 20, 20, 0.95) 0%, rgba(20, 20, 20, 0.7) 45%, rgba(0,0,0,0) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.evm-etr-content {
+    padding-left: 20px;
+    border-left: 2px solid #F7941D;
+    margin-left: 30px;
+}
+
+.evm-etr-content h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.evm-etr-divider {
+    width: 40px;
+    height: 3px;
+    background-color: #F7941D;
+    margin-bottom: 12px;
+    border-radius: 2px;
+}
+
+.evm-etr-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.evm-etr-steps li {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.evm-mrp-main-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #121826;
+    line-height: 1.25;
+    margin-bottom: 15px;
+}
+
+.evm-mrp-sub-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #F7941D;
+    margin-bottom: 15px;
+}
+
+.evm-mrp-flow-text-new {
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+}
+
 .evm-op-header {
     margin-bottom: 30px;
 }
@@ -616,8 +713,8 @@
 
 .evm-op-mini-arrow {
     position: absolute;
-    bottom: -8px;
-    right: -8px;
+    bottom: 0px;
+    right: 5px;
     width: 20px;
     height: 20px;
     background: #F7941D;
@@ -1817,7 +1914,23 @@
     }
 }
 
+@media (max-width: 991px) {
+    .evm-mrp-header-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .evm-mrp-header-right {
+        width: 100%;
+    }
+}
+
 @media (max-width: 767px) {
+    .evm-mrp-main-title {
+        font-size: 28px;
+    }
+    .evm-mrp-sub-title {
+        font-size: 20px;
+    }
     .evm-title {
         font-size: 28px;
     }
@@ -1846,6 +1959,21 @@
     
     .evm-mrp-title {
         font-size: 28px;
+    }
+
+    .evm-etr-content {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    .evm-etr-content h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .evm-etr-divider {
+        margin-bottom: 8px;
+    }
+    .evm-etr-steps li {
+        font-size: 12px;
     }
 
     .evm-op-title {

@@ -159,17 +159,29 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
     <section class="evm-mrp-section">
         <div class="evm-container">
             
-            <div class="evm-mrp-header text-start">
-                <h5 class="evm-mrp-subtitle">ELECTRIC VEHICLE (EV) MANUFACTURING</h5>
-                <h2 class="evm-mrp-title">From EV Reality to <span class="evm-text-orange">Manufacturing-Ready Parts</span></h2>
-                
-                <div class="evm-mrp-flow-text">
-                    Scan the vehicle, system or component <i class="fa-solid fa-chevron-right mx-2"></i>
-                    Create CAD <i class="fa-solid fa-chevron-right mx-2"></i>
-                    Benchmark / Remanufacture / New Product Development <i class="fa-solid fa-chevron-right mx-2"></i>
-                    3D Print <i class="fa-solid fa-chevron-right mx-2"></i>
-                    Manufacture <i class="fa-solid fa-chevron-right mx-2"></i>
-                    Inspect
+            <div class="evm-mrp-header-row">
+                <div class="evm-mrp-header-left">
+                    <h2 class="evm-mrp-main-title">End-To-End Digital Manufacturing<br>Solutions for Electric Vehicle (EV)<br>Manufacturing</h2>
+                    <h3 class="evm-mrp-sub-title">From EV Reality to Manufacturing Ready Parts</h3>
+                    <div class="evm-mrp-flow-text-new">
+                        Scan the vehicle | Create CAD | Benchmark/New Product Development | 3D Print | Manufacture | Inspect
+                    </div>
+                </div>
+                <div class="evm-mrp-header-right">
+                    <div class="evm-etr-image-card">
+                        <img src="assets/images/electric-vehicle-manufacturing/etr-right-image.png" alt="End-to-End Digital Manufacturing">
+                        <div class="evm-etr-overlay">
+                            <div class="evm-etr-content">
+                                <h4>DIGITAL<br>MANUFACTURING<br>FOR A CLEANER<br>SMARTER TOMORROW</h4>
+                                <div class="evm-etr-divider"></div>
+                                <ul class="evm-etr-steps">
+                                    <li>SCAN.</li>
+                                    <li>DESIGN.</li>
+                                    <li>PRINT.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -327,7 +339,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
             </div>
 
             <!-- Bottom Flow Diagram -->
-            <div class="evm-bottom-flow-new d-none d-lg-flex">
+            <!-- <div class="evm-bottom-flow-new d-none d-lg-flex">
                 <div class="evm-flow-line left-line">
                     <div class="evm-up-arrow left"></div>
                 </div>
@@ -344,7 +356,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                 <div class="evm-flow-line right-line">
                     <div class="evm-up-arrow right"></div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>

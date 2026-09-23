@@ -10,8 +10,8 @@ use PHPMailer\PHPMailer\Exception;
 
 // Parse .env file robustly
 $envFile = __DIR__ . '/.env';
-$smtpUser = 'precise3dmdre@gmail.com';
-$smtpPass = 'nctdxqoxvqhflyaj';
+$smtpUser = 'noreplytndev@gmail.com';
+$smtpPass = 'dtypdbnuzdoozesr';
 
 if (file_exists($envFile)) {
     $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);

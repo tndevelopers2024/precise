@@ -22,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'precise3dmdre@gmail.com';
-        $mail->Password = 'nctdxqoxvqhflyaj'; // Use App Password
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Username = 'noreplytndev@gmail.com';
+        $mail->Password = 'dtypdbnuzdoozesr';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 465;
 
         $mail->setFrom('precise3dmdre@gmail.com', 'Website Form');
         $mail->addAddress('precise3dmdre@gmail.com', 'Receiver Name');

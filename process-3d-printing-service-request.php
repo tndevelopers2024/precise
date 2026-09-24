@@ -7,8 +7,8 @@ require 'PHPMailer/src/SMTP.php';
 
 // Parse .env file robustly
 $envFile = __DIR__ . '/.env';
-$smtpUser = 'netflixdemo270@gmail.com';
-$smtpPass = 'rhnx exsi acot shmq';
+$smtpUser = 'noreplytndev@gmail.com';
+$smtpPass = 'dtypdbnuzdoozesr';
 
 if (file_exists($envFile)) {
     $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);

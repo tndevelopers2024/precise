@@ -7,8 +7,8 @@ require 'PHPMailer/src/SMTP.php';
 
 // Parse .env file robustly
 $envFile = __DIR__ . '/.env';
-$smtpUser = 'precise3dmdre@gmail.com';
-$smtpPass = 'nctdxqoxvqhflyaj';
+$smtpUser = 'noreplytndev@gmail.com';
+$smtpPass = 'dtypdbnuzdoozesr';
 
 if (file_exists($envFile)) {
     $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
@@ -152,7 +152,7 @@ try {
 
     $mail->From = $smtpUser;
     $mail->FromName = "Precise3DM Service Request";
-    $mail->addAddress('madhavangl20@gmail.com'); // Send to admin
+    $mail->addAddress('marketing@precise3dm.com'); // Send to admin
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $mail->addReplyTo($email, $name);
     }

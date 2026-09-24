@@ -45,8 +45,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['fullname'])) {
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "precise3dmdre@gmail.com";
-    $mail->Password = "nctdxqoxvqhflyaj";
+    $mail->Username = "noreplytndev@gmail.com";
+    $mail->Password = "dtypdbnuzdoozesr";
     $mail->SMTPSecure = "ssl";
     $mail->Port = 465;
 

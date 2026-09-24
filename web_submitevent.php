@@ -10,44 +10,44 @@ require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
 /*Email Template Render*/
-function render_email($email, $data) {
-    ob_start();
-    include "email_temp_web.phtml";
-    return ob_get_contents();
+function render_email($email, $data)
+{
+	ob_start();
+	include "email_temp_web.phtml";
+	return ob_get_contents();
 }
 
-if($_POST)
-{
-	$data['nameweb'] = isset($_POST['web_name']) ? $_POST['web_name']:'';
-	$data['emailweb'] = isset($_POST['web_email']) ? $_POST['web_email']:'';
-	$data['contactnumberweb'] = isset($_POST['web_contnum']) ? $_POST['web_contnum']:'';
-	$data['companyweb'] = isset($_POST['web_companyname']) ? $_POST['web_companyname']:'';
+if ($_POST) {
+	$data['nameweb'] = isset($_POST['web_name']) ? $_POST['web_name'] : '';
+	$data['emailweb'] = isset($_POST['web_email']) ? $_POST['web_email'] : '';
+	$data['contactnumberweb'] = isset($_POST['web_contnum']) ? $_POST['web_contnum'] : '';
+	$data['companyweb'] = isset($_POST['web_companyname']) ? $_POST['web_companyname'] : '';
 	$body = render_email('email', $data);
 
 	$subject = "You have a message from your client for Webinar Registration";
 
 	$to = "service@precise3dm.com";
-    //$to = "prasannakanthan@gmail.com";
+	//$to = "prasannakanthan@gmail.com";
 	$from = "precise3dmdre@gmail.com";
 
 	//PHPMailer Object
 	$mail = new PHPMailer\PHPMailer\PHPMailer(); //Argument true in constructor enables exceptions
 
-	 // $mail->SMTPDebug = 3;  
-	$mail->SMTPDebug = false;  
+	// $mail->SMTPDebug = 3;  
+	$mail->SMTPDebug = false;
 	//Set PHPMailer to use SMTP.
-	$mail->isSMTP();            
+	$mail->isSMTP();
 	//Set SMTP host name                          
 	$mail->Host = "smtp.gmail.com";
 	//Set this to true if SMTP host requires authentication to send email
-	$mail->SMTPAuth = true;                          
+	$mail->SMTPAuth = true;
 	//Provide username and password     
-	$mail->Username = "precise3dmdre@gmail.com";                 
-	$mail->Password = "Precise@123";                           
+	$mail->Username = "noreplytndev@gmail.com";
+	$mail->Password = "dtypdbnuzdoozesr";
 	//If SMTP requires TLS encryption then set it
-	$mail->SMTPSecure = "ssl";                           
+	$mail->SMTPSecure = "ssl";
 	//Set TCP port to connect to
-	$mail->Port = 465; 
+	$mail->Port = 465;
 
 	//From email address and name
 	$mail->From = $from;
@@ -71,18 +71,18 @@ if($_POST)
 	$mail->Body = $body;
 
 
-try {
-    $mail->send();
-     echo "sent";
-     $_SESSION['status'] = "success";
-} catch (Exception $e) {
-    print_r(error_get_last());
-	    echo "Error: Message not accepted";
-	    $_SESSION['status'] = "failure";
-}
+	try {
+		$mail->send();
+		echo "sent";
+		$_SESSION['status'] = "success";
+	} catch (Exception $e) {
+		print_r(error_get_last());
+		echo "Error: Message not accepted";
+		$_SESSION['status'] = "failure";
+	}
 
 }
- header("Location: https://www.precise3dm.com/event_details.php");
+header("Location: https://www.precise3dm.com/event_details.php");
 //header("Location: ". $_SERVER['HTTP_REFERER']);
 exit;
 ?>

@@ -34,8 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'precise3dmdre@gmail.com'; // Your Gmail address
-        $mail->Password   = 'nctdxqoxvqhflyaj'; // Your Gmail App password
+        $mail->Username   = 'noreplytndev@gmail.com'; // Your Gmail address
+        $mail->Password   = 'dtypdbnuzdoozesr'; // Your Gmail App password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587; // Use port 587 for STARTTLS
         $mail->SMTPDebug  = 3; // Enable detailed debug output for testing

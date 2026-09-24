@@ -6,3 +6,5 @@ node_modules/
 package.json
 pnpm-lock.yaml
 *.py
+CLAUDE.md
+docs/

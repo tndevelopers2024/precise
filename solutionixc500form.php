@@ -48,8 +48,8 @@ if($_POST)
 	//Set this to true if SMTP host requires authentication to send email
 	$mail->SMTPAuth = true;                          
 	//Provide username and password     
-	$mail->Username = "precise3dmdre@gmail.com";                 
-	$mail->Password = "nctdxqoxvqhflyaj";                           
+	$mail->Username = "noreplytndev@gmail.com";                 
+	$mail->Password = "dtypdbnuzdoozesr";                           
 	//If SMTP requires TLS encryption then set it
 	$mail->SMTPSecure = "ssl";                           
 	//Set TCP port to connect to

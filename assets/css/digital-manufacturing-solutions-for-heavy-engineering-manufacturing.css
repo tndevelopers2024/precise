@@ -1,21 +1,24 @@
 /* ================== Hero Section Starts ================== */
-.med-hero-section {
-    background: linear-gradient(179.91deg, rgba(0, 0, 0, 0) 19.71%, #F6F6FA 99.07%), url('../images/digital-manufacturing-solutions-for-medical-device-manufacturing/hero-bg.png');
-    background-size: cover;
-    background-position: center;
+.hv-hero-section {
+    background-color: #2F2B2A;
+    background-image: url('../images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/hero-bg.png');
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 120px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 @media (max-width: 991px) {
-    .med-hero-section {
+    .hv-hero-section {
         margin-top: 0;
     }
 }
 
-.med-container {
+.hv-container {
     padding: 0 5%;
 }
 
@@ -73,7 +76,7 @@
 /* Titles and Text */
 .hero-main-title {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3.125rem;
     margin-bottom: 20px;
     line-height: 1.2;
 }
@@ -83,22 +86,23 @@
 }
 
 .hero-subtitle {
-    color: #FF931E;
+    color: #fff;
     font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
 .hero-desc {
+    color: #fff;
     font-weight: 500;
     font-size: 1.125rem;
     margin-bottom: 30px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .hero-desc p {
     color: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Buttons */
@@ -160,30 +164,13 @@
     text-decoration: none;
 }
 
-/* Right Side Hero Imagery */
-.med-hero-img-main {
-    max-width: 100%;
-    height: auto;
-}
-
-.med-hero-img-strip {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
-.med-hero-report-card {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
     .hero-main-title {
         font-size: 2.2rem;
     }
     .hero-subtitle {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .hero-desc {
         font-size: 1.05rem;
@@ -199,22 +186,22 @@
 }
 
 /* ================== Hero Stat Section Starts ================== */
-.med-stat-section {
+.auto-stat-section {
     background-color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.med-stat-row {
+.auto-stat-row {
     row-gap: 30px;
 }
 
-.med-stat-item {
+.auto-stat-item {
     flex: 1;
     min-width: 230px;
 }
 
-.med-stat-icon {
+.auto-stat-icon {
     width: 80px;
     height: 80px;
     background-color: #FFE8CCCC;
@@ -225,12 +212,12 @@
     flex-shrink: 0;
 }
 
-.med-stat-icon img {
+.auto-stat-icon img {
     max-width: 45px;
     max-height: 45px;
 }
 
-.med-stat-title {
+.auto-stat-title {
     color: #000;
     font-weight: 700;
     font-size: 1.75rem;
@@ -238,14 +225,14 @@
     margin-bottom: 2px;
 }
 
-.med-stat-subtitle {
+.auto-stat-subtitle {
     color: #000;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.2;
 }
 
-.med-stat-desc {
+.auto-stat-desc {
     color: #706E6E;
     font-weight: 600;
     font-size: 1.125rem;
@@ -253,23 +240,23 @@
     margin-top: 2px;
 }
 
-.med-stat-divider {
+.auto-stat-divider {
     border-left: 1px solid #FF931E;
     height: 70px;
     margin: 0 15px;
 }
 
 @media (max-width: 1399px) {
-    .med-stat-divider {
+    .auto-stat-divider {
         display: none;
     }
-    .med-stat-row {
+    .auto-stat-row {
         justify-content: flex-start !important;
     }
 }
 
 /* ================== Challenges Section Starts ================== */
-.med-challenges-section {
+.hv-challenges-section {
     background-color: #F6F6FA;
 }
 
@@ -279,86 +266,90 @@
     font-size: 2.1875rem;
 }
 
-.challenge-card {
+.hv-challenge-card {
     background-color: #fff;
-    border-top: 4px solid #FF931E;
     box-shadow: 0px 4px 9.6px 0px #00000026;
     border-radius: 16px;
-    padding: 30px 20px 20px;
+    padding: 50px 20px 24px;
     position: relative;
-    margin-top: 25px;
+    margin-top: 28px;
     height: 100%;
 }
 
-.challenge-x-icon {
+.hv-challenge-pill {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFD3D6;
+    border-radius: 40px;
+    padding: 6px 22px 6px 6px;
+    width: max-content;
+    max-width: 92%;
+}
+
+.hv-challenge-x {
     width: 40px;
     height: 40px;
-    background-color: #F44336;
+    background-color: #E31E24;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: -22px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    flex-shrink: 0;
 }
 
-.challenge-x-icon i {
+.hv-challenge-x i {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
 }
 
-.challenge-title {
-    color: #000;
-    font-weight: 700;
-    font-size: 1.375rem;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 1.3;
+.hv-challenge-title {
+    color: #C8102E;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    margin: 0;
 }
 
 .challenge-img {
     width: 100%;
-    height: 160px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 12px;
     margin-bottom: 20px;
 }
 
 .challenge-list {
     list-style: none;
     padding-left: 0;
-    margin: 0 auto;
-    display: table;
+    margin: 0;
 }
 
 .challenge-list li {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     color: #000;
     font-weight: 500;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     line-height: 1.4;
 }
 
 .challenge-list li i {
     color: #FF931E;
-    font-size: 1.05rem;
-    margin-right: 12px;
-    margin-top: 2px;
+    font-size: 1.25rem;
+    margin-right: 10px;
+    margin-top: 1px;
+    flex-shrink: 0;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .section-title {
         font-size: 1.8rem;
-    }
-    .challenge-title {
-        font-size: 1.2rem;
     }
 }
 
@@ -415,7 +406,7 @@
 .end-overlay-title {
     color: #fff;
     font-weight: 800;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.4;
     max-width: 300px;
 }
@@ -440,6 +431,7 @@
     gap: 20px;
     display: flex;
     flex-wrap: nowrap;
+    align-items: stretch;
 }
 
 .end-card {
@@ -450,6 +442,8 @@
     flex: 1;
     min-width: 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .end-card-header {
@@ -497,7 +491,7 @@
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 20px;
-    min-height: 100px;
+    min-height: 130px;
 }
 
 .end-card-img {
@@ -507,17 +501,13 @@
     margin-bottom: 20px;
 }
 
+/* Icon-over-label badges in a single row (this page shows 3 per card, not a vertical list) */
 .end-badge-list {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-/* 2x2 icon grid variant used on the medical device page */
-.end-badge-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: auto;
 }
 
 .end-badge-item {
@@ -525,6 +515,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex: 1;
 }
 
 .end-badge-icon {
@@ -546,9 +537,28 @@
 .end-badge-text {
     color: #1E293B;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.8125rem;
     margin-top: 8px;
     line-height: 1.2;
+}
+
+/* 2 + 1 layout for cards with longer badge labels */
+.end-badge-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
+}
+.end-badge-wrap .end-badge-item {
+    flex: 0 0 calc(50% - 5px);
+}
+.end-badge-wrap .end-badge-item:last-child:nth-child(3) {
+    flex: 0 0 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.end-badge-wrap .end-badge-item:last-child:nth-child(3) .end-badge-text {
+    margin-top: 0;
 }
 
 /* Responsive */
@@ -583,21 +593,6 @@
     }
     .end-corner-box {
         margin-top: 30px;
-    }
-    .end-overlay {
-        position: relative;
-        transform: none;
-        top: 0;
-        left: 0;
-        background-color: #121212;
-        padding: 20px;
-        border-left: 4px solid #FF931E;
-    }
-    .end-corner-img {
-        display: none;
-    }
-    .end-badge-grid {
-        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -641,10 +636,10 @@
     font-size: 1.125rem;
 }
 .capex-tag-line {
-    border-top: 4px solid #FF931E;
-    height: 0;
-    border-radius: 2px;
-    width: 200px;
+    background-color: #FF931E;
+    height: 6px;
+    width: 150px;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 .capex-main-title {
     color: #121212;
@@ -734,7 +729,7 @@
     display: block;
 }
 .capex-main-img-lg {
-    max-height: 240px;
+    max-height: 280px;
 }
 
 /* Inner List Items */
@@ -776,10 +771,6 @@
     max-height: 100%;
     object-fit: contain;
 }
-.capex-inner-img-large {
-    width: 110px;
-    height: 110px;
-}
 .capex-inner-title {
     font-weight: 600;
     font-size: 0.875rem;
@@ -803,17 +794,25 @@
     font-size: 1.25rem;
 }
 
-/* CAPEX Card 1 — larger scanner rows with stacked per-product links */
+/* CAPEX Card 1 — scanner rows with stacked per-product links */
 .capex-scanner-item {
     padding: 22px 20px;
 }
 .capex-scanner-icon {
-    width: 58px;
-    height: 58px;
+    width: 90px;
+    height: 90px;
+}
+.capex-scanner-item .capex-inner-content {
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.capex-scanner-item .capex-scanner-links,
+.capex-scanner-item .capex-scanner-link {
+    margin-left: auto;
 }
 .capex-scanner-title {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9375rem;
     line-height: 1.2;
     margin-left: 15px;
 }
@@ -827,7 +826,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 10px;
+    gap: 8px;
 }
 .capex-scanner-links a {
     color: #FF931E;
@@ -886,11 +885,11 @@
 
 /* Card 4 Specific Overrides */
 .capex-card-4-item {
-    padding: 20px 18px;
+    padding: 30px 24px;
 }
 .capex-inner-img-xl {
-    width: 95px;
-    height: 95px;
+    width: 155px;
+    height: 155px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -902,13 +901,13 @@
     object-fit: contain;
 }
 .capex-card-4-title {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     line-height: 1.3;
 }
 .capex-card-4-desc {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     line-height: 1.4;
-    margin-top: 6px !important;
+    margin-top: 8px !important;
 }
 
 /* ================== OPEX Section Starts ================== */
@@ -1021,7 +1020,7 @@
 .opex-service-title {
     color: #FF931E;
     font-weight: 700;
-    font-size: 1.625rem;
+    font-size: 1.375rem;
     line-height: 1.3;
 }
 .opex-list {
@@ -1056,7 +1055,7 @@
 
 /* Print Card specific */
 .opex-print-img {
-    max-height: 250px;
+    max-height: 320px;
     width: auto;
 }
 .opex-print-title {
@@ -1072,35 +1071,11 @@
     line-height: 1.3;
 }
 
-/* Benchmarking / Teardown Card specific */
-.opex-bench-item {
-    display: flex;
-    align-items: center;
-    padding: 12px;
-    background: #fff;
-    border: 1px solid #0000001A;
-    box-shadow: 2px 2px 4px 0px #0000001A;
-    border-radius: 8px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.opex-bench-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 4px 4px 8px 0px #00000026;
-}
-.opex-bench-item img {
-    width: 90px;
-    height: auto;
+/* Benchmarking Card specific */
+.opex-bench-img {
+    max-height: 220px;
+    width: auto;
     object-fit: contain;
-}
-.opex-bench-title {
-    color: #1B1B1D;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 1.2;
-}
-.opex-bench-arrow {
-    color: #FF931E;
-    font-size: 1.25rem;
 }
 
 /* ================== Engagement Models Section ================== */
@@ -1186,13 +1161,32 @@
 .auto-why-section {
     background-color: #f6f6fa;
 }
-.why-img {
-    max-height: 340px;
-    width: auto;
-    max-width: 80%;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
+.why-bg-container {
+    background-color: #fff;
+    min-height: 620px;
+}
+.why-left-col {
+    background-image: url('../images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/why-section-leftside-bg.png');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.why-logo {
+    bottom: 30px;
+    left: 30px;
+    max-width: 340px;
+    width: 32%;
+}
+@media (max-width: 991px) {
+    .why-bg-container {
+        min-height: 420px;
+    }
+    .why-logo {
+        position: static !important;
+        display: block;
+        margin: 0 auto 24px;
+        max-width: 220px;
+    }
 }
 .why-title {
     color: #121212;
@@ -1244,9 +1238,9 @@
 .why-text {
     color: #060711;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.1875rem;
     line-height: 1.4;
-    padding-bottom: 22px;
+    padding-bottom: 18px;
 }
 .why-list li:last-child .why-text {
     padding-bottom: 0;
@@ -1265,11 +1259,6 @@
 }
 
 /* ================== Contact Section ================== */
-.auto-contact-section .contact-inner-container {
-    background: radial-gradient(120% 140% at 15% 10%, #1b1e29 0%, #0b0d12 55%, #000000 100%);
-    background-size: cover;
-    background-position: center;
-}
 .contact-main-title {
     color: #fff;
     font-weight: 700;
@@ -1340,80 +1329,4 @@
 .contact-card-btn:hover {
     background-color: #FF931E;
     color: #fff !important;
-}
-
-/* ================== FAQ Section ================== */
-.auto-faq-item {
-    border-radius: 16px !important;
-    background: #fff;
-    box-shadow: 0px 4px 10px 0px #0000000A;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-.auto-faq-btn {
-    position: relative;
-    background: transparent !important;
-    color: #000 !important;
-    border: none;
-    outline: none;
-    width: 100%;
-    text-align: left;
-    font-size: 1.125rem !important;
-    font-weight: 500;
-    box-shadow: none !important;
-    padding: 20px 25px;
-}
-.auto-faq-btn:focus {
-    border: none;
-    outline: none;
-    box-shadow: none !important;
-}
-.auto-faq-btn span {
-    margin-left: 30px;
-    display: inline-block;
-}
-.auto-faq-btn::after {
-    content: "+";
-    background-image: none !important;
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 32px;
-    color: #ff931e;
-    font-weight: 700;
-}
-.auto-faq-btn:not(.collapsed) {
-    background: #fff !important;
-}
-.auto-faq-btn:not(.collapsed)::after {
-    content: "-";
-    background-image: none !important;
-}
-.auto-faq-item:has(.auto-faq-btn:not(.collapsed)) {
-    border-left: 6px solid #FF931E !important;
-    border-radius: 8px !important;
-}
-.auto-faq-body {
-    padding: 0 25px 25px 55px;
-    color: #666;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-    .auto-faq-btn {
-        font-size: 1rem !important;
-        padding: 15px;
-    }
-    .auto-faq-btn span {
-        margin-left: 25px;
-    }
-    .auto-faq-btn::after {
-        left: 10px;
-        font-size: 24px;
-    }
-    .auto-faq-body {
-        padding: 0 15px 20px 40px;
-    }
 }

@@ -5,9 +5,10 @@ ini_set("post_max_size", "40000M");
 ini_set("max_input_time", 300000);
 ini_set("max_execution_time", "-1");
 $page_title =
-    "Precise3DM Digital Manufacturing Solutions for Heavy Engineering Manufacturing";
+    "Precise3DM Digital Manufacturing Solutions for Material Handling Equipment Manufacturing";
 $meta_description =
-    "Empowering heavy engineering manufacturers with 3D scanning, reverse engineering, 3D printing and inspection solutions to capture large components with high accuracy, accelerate production and reduce rework.";
+    "Precise3DM empowers material handling equipment manufacturers with 3D scanning, reverse engineering, PEEK 3D printing and inspection solutions to capture complex components with high accuracy, produce custom spares and reduce downtime.";
+$img = "assets/images/digital-manufacturing-solutions-for-material-handling-equipment-manufacturing";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +52,7 @@ $meta_description =
     <link rel="stylesheet" href="assets/css/index.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/digital-manufacturing-solutions-for-heavy-engineering-manufacturing.css">
+    <link rel="stylesheet" href="assets/css/digital-manufacturing-solutions-for-material-handling-equipment-manufacturing.css">
 
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
 </head>
@@ -62,18 +63,20 @@ $meta_description =
     <!-- Main Content Starts Here -->
 
     <!-- Hero Section -->
-    <section class="hv-hero-section">
-        <div class="container-fluid hv-container">
+    <section class="mh-hero-section">
+        <div class="container-fluid mh-container">
             <div class="row pt-4 pb-5">
-                <!-- Left Side Content -->
-                <div class="col-lg-7 order-lg-1 order-2">
-                    <h1 class="hero-main-title text-white">Digital Manufacturing Solutions for <span class="text-orange">Heavy Engineering Manufacturing</span></h1>
-                    <h3 class="hero-subtitle">Built for Scale. Engineered for Precision.</h3>
+                <div class="col-lg-6">
+                    <h1 class="hero-main-title text-white">Digital Manufacturing Solutions <span class="text-orange">Material Handling Equipment Manufacturing</span></h1>
+                    <h3 class="hero-subtitle">Move More. Handle More. With Precision.</h3>
 
                     <div class="hero-desc">
-                        <p>Heavy engineering parts are massive, complex, and critical. Measuring them with traditional methods is slow, difficult, and often inaccurate.</p>
-                        <p>Precise3DM empowers heavy engineering manufacturers with advanced 3D scanning, reverse engineering, 3D printing and inspection solutions to capture large components with high accuracy, accelerate production, reduce rework and optimize performance.</p>
-                        <p>From concept to commissioning — we deliver a complete digital manufacturing ecosystem built for the demands of heavy engineering.</p>
+                        <p>Material handling equipment works in demanding environments where durability, safety, and reliability are non-negotiable. Precise3DM empowers manufacturers to capture complex components with high accuracy, reverse engineer, produce custom spares, and ensure quality—reducing downtime and keeping your operations running efficiently.</p>
+                    </div>
+
+                    <div class="hero-highlight">
+                        <div class="hero-highlight-title">SCAN LARGE. CAPTURE COMPLEX. DELIVER PRECISE.</div>
+                        <p class="hero-highlight-text">FreeScan Trak Nova is purpose-built for large assemblies, heavy structures, and hard-to-reach areas—delivering high-accuracy results without moving the part.</p>
                     </div>
 
                     <div class="hero-buttons d-flex flex-wrap">
@@ -93,34 +96,19 @@ $meta_description =
                         </div>
                     </div>
                 </div>
-
-                <!-- Right Side Contact -->
-                <div class="col-lg-5 order-lg-2 order-1 d-flex justify-content-lg-end justify-content-center align-items-start mb-4 mb-lg-0">
-                    <div class="top-contact d-flex align-items-center">
-                        <div class="contact-icon">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="contact-info ms-3 text-start">
-                            <div class="contact-title">Call us now</div>
-                            <div class="contact-numbers">
-                                <a href="tel:+919840478347">+91 98404 78347</a> <span class="divider">|</span> <a href="tel:+916374406179">+91 63744 06179</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
     <!-- Hero Stat Section -->
     <section class="auto-stat-section py-5">
-        <div class="container-fluid hv-container">
+        <div class="container-fluid mh-container">
             <div class="d-flex flex-wrap justify-content-between align-items-center auto-stat-row">
 
                 <!-- Stat 1 -->
                 <div class="auto-stat-item d-flex align-items-center" style="gap: 10px;">
                     <div class="auto-stat-icon me-3">
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/hero-stat-1.svg" alt="10+ Years">
+                        <img src="<?= $img ?>/hero-stat-1.svg" alt="10+ Years">
                     </div>
                     <div class="auto-stat-content">
                         <div class="auto-stat-title">10+</div>
@@ -133,7 +121,7 @@ $meta_description =
                 <!-- Stat 2 -->
                 <div class="auto-stat-item d-flex align-items-center" style="gap: 10px;">
                     <div class="auto-stat-icon me-3">
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/hero-stat-2.png" alt="250+ Scanners sold">
+                        <img src="<?= $img ?>/hero-stat-2.png" alt="250+ Scanners sold">
                     </div>
                     <div class="auto-stat-content">
                         <div class="auto-stat-title">250+</div>
@@ -147,7 +135,7 @@ $meta_description =
                 <!-- Stat 3 -->
                 <div class="auto-stat-item d-flex align-items-center" style="gap: 10px;">
                     <div class="auto-stat-icon me-3">
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/hero-stat-3.svg" alt="60+ Applications">
+                        <img src="<?= $img ?>/hero-stat-3.svg" alt="60+ Applications">
                     </div>
                     <div class="auto-stat-content">
                         <div class="auto-stat-title">60+</div>
@@ -161,7 +149,7 @@ $meta_description =
                 <!-- Stat 4 -->
                 <div class="auto-stat-item d-flex align-items-center" style="gap: 10px;">
                     <div class="auto-stat-icon me-3">
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/hero-stat-4.svg" alt="8+ Locations">
+                        <img src="<?= $img ?>/hero-stat-4.svg" alt="8+ Locations">
                     </div>
                     <div class="auto-stat-content">
                         <div class="auto-stat-title">8+</div>
@@ -175,7 +163,7 @@ $meta_description =
                 <!-- Stat 5 -->
                 <div class="auto-stat-item d-flex align-items-center" style="gap: 10px;">
                     <div class="auto-stat-icon me-3">
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/hero-stat-5.svg" alt="15+ Countries">
+                        <img src="<?= $img ?>/hero-stat-5.svg" alt="15+ Countries">
                     </div>
                     <div class="auto-stat-content">
                         <div class="auto-stat-title">15+</div>
@@ -189,71 +177,63 @@ $meta_description =
     </section>
 
     <!-- Challenges Section -->
-    <section class="hv-challenges-section py-5">
+    <section class="mh-challenges-section py-5">
         <div class="container-fluid" style="padding: 0 5%;">
-            <h2 class="section-title text-center mb-5">Challenges with Conventional Processes in Heavy Engineering Manufacturing</h2>
+            <h2 class="section-title text-center mb-5">Challenges with Conventional Processes in Material Handling Equipment Manufacturing</h2>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col">
-                    <div class="hv-challenge-card">
-                        <div class="hv-challenge-pill">
-                            <div class="hv-challenge-x"><i class="fa-solid fa-xmark"></i></div>
-                            <h3 class="hv-challenge-title">Manual Measurement for<br>Large &amp; Complex Parts</h3>
-                        </div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/challenges-1.png" class="challenge-img" alt="Manual Measurement for Large and Complex Parts">
+                    <div class="challenge-card">
+                        <div class="challenge-x-icon"><i class="fa-solid fa-xmark"></i></div>
+                        <h3 class="challenge-title">Manual Measurement for Large &amp; Complex Parts</h3>
+                        <img src="<?= $img ?>/challenge-1.png" class="challenge-img" alt="Manual Measurement for Large and Complex Parts">
                         <ul class="challenge-list">
-                            <li><i class="fa-solid fa-caret-right"></i> Extremely time-consuming &amp; labor intensive</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Difficult access to critical areas</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Very large parts are difficult to measure on-site</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Time-consuming &amp; labor intensive</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Limited access to critical areas</li>
                             <li><i class="fa-solid fa-caret-right"></i> Low point density &amp; inconsistent data</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Higher chance of human error</li>
                             <li><i class="fa-solid fa-caret-right"></i> Longer turnaround time</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="hv-challenge-card">
-                        <div class="hv-challenge-pill">
-                            <div class="hv-challenge-x"><i class="fa-solid fa-xmark"></i></div>
-                            <h3 class="hv-challenge-title">Conventional Manufacturing</h3>
-                        </div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/challenges-2.png" class="challenge-img" alt="Conventional Manufacturing">
+                    <div class="challenge-card">
+                        <div class="challenge-x-icon"><i class="fa-solid fa-xmark"></i></div>
+                        <h3 class="challenge-title">Conventional<br>Manufacturing</h3>
+                        <img src="<?= $img ?>/challenge-2.png" class="challenge-img" alt="Conventional Manufacturing">
                         <ul class="challenge-list">
                             <li><i class="fa-solid fa-caret-right"></i> Long tooling &amp; fixture development</li>
                             <li><i class="fa-solid fa-caret-right"></i> Multiple trial-and-error cycles</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Difficulty in achieving tight tolerances on large parts</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Material waste &amp; high costs</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Difficulty in achieving tight tolerances</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Material waste &amp; higher costs</li>
                             <li><i class="fa-solid fa-caret-right"></i> Slower time-to-market</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="hv-challenge-card">
-                        <div class="hv-challenge-pill">
-                            <div class="hv-challenge-x"><i class="fa-solid fa-xmark"></i></div>
-                            <h3 class="hv-challenge-title">Conventional CMM Inspection</h3>
-                        </div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/challenges-3.png" class="challenge-img" alt="Conventional CMM Inspection">
+                    <div class="challenge-card">
+                        <div class="challenge-x-icon"><i class="fa-solid fa-xmark"></i></div>
+                        <h3 class="challenge-title">Conventional CMM<br>Inspection</h3>
+                        <img src="<?= $img ?>/challenge-3.png" class="challenge-img" alt="Conventional CMM Inspection">
                         <ul class="challenge-list">
                             <li><i class="fa-solid fa-caret-right"></i> CMM size limitations</li>
                             <li><i class="fa-solid fa-caret-right"></i> Difficult to move or fixture large components</li>
                             <li><i class="fa-solid fa-caret-right"></i> Point-by-point measurement only</li>
                             <li><i class="fa-solid fa-caret-right"></i> Long inspection cycles</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Higher dependency on skilled operators</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Higher dependence on skilled operators</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="hv-challenge-card">
-                        <div class="hv-challenge-pill">
-                            <div class="hv-challenge-x"><i class="fa-solid fa-xmark"></i></div>
-                            <h3 class="hv-challenge-title">Impact on Heavy<br>Engineering Business</h3>
-                        </div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/challenges-4.png" class="challenge-img" alt="Impact on Heavy Engineering Business">
+                    <div class="challenge-card">
+                        <div class="challenge-x-icon"><i class="fa-solid fa-xmark"></i></div>
+                        <h3 class="challenge-title">Impact on Your<br>Business</h3>
+                        <img src="<?= $img ?>/challenge-4.png" class="challenge-img" alt="Impact on Your Business">
                         <ul class="challenge-list">
-                            <li><i class="fa-solid fa-caret-right"></i> Project delays &amp; cost overruns</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Increased downtime</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Rework &amp; scrap</li>
-                            <li><i class="fa-solid fa-caret-right"></i> Lower productivity</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Equipment downtime</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Delays in material handling operations</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Higher operating costs</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Reduced productivity &amp; throughput</li>
                             <li><i class="fa-solid fa-caret-right"></i> Reduced competitiveness</li>
                         </ul>
                     </div>
@@ -264,23 +244,35 @@ $meta_description =
 
     <!-- End to End Section -->
     <section class="aero-end-section">
-        <div class="container-fluid hv-container">
+        <div class="container-fluid mh-container">
 
             <!-- Top Content -->
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h2 class="aero-end-title">End-To-End Digital Manufacturing Solutions for Heavy Engineering Manufacturing</h2>
-                    <h3 class="aero-end-subtitle">From Real Assets to Actionable Solutions</h3>
-                    <p class="aero-end-desc">Capture | Reverse Engineer | Validate | Prototype | Support Operations</p>
+            <div class="row align-items-center g-4">
+                <div class="col-xl-5 col-lg-12">
+                    <h2 class="aero-end-title">End-To-End Digital Manufacturing Solutions for Material Handling Equipment Manufacturing</h2>
+                    <h3 class="aero-end-subtitle">From Scan to Real-World Solutions</h3>
+                    <p class="aero-end-desc">Spare Parts | Custom Components | Equipment Upgrades | Reverse Engineering</p>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="end-corner-box">
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-to-end-corner-image.png" alt="Heavy Engineering Manufacturing" class="end-corner-img">
-                        <div class="end-overlay">
-                            <div class="end-overlay-title">MASSIVE PARTS.<br>REAL DATA.<br>REAL PRECISION.</div>
-                            <div class="end-overlay-bar"></div>
-                            <div class="end-overlay-bottom">SCAN.<br>DESIGN.<br>PRINT.<br>SUPPORT.</div>
+                <div class="col-xl-3 col-md-5">
+                    <div class="end-tagline">STRONGER PARTS.<br>SMOOTHER OPERATIONS.<br>REAL IMPACT.</div>
+                    <div class="end-tagline-bar"></div>
+                    <img src="<?= $img ?>/end-to-end-middle.png" alt="Material Handling Equipment" class="end-middle-img">
+                </div>
+
+                <div class="col-xl-4 col-md-7">
+                    <div class="end-parts-box">
+                        <div class="end-parts-title">PEEK 3D PRINTED PARTS (EXAMPLES)</div>
+                        <div class="end-parts-grid">
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-1.png" alt="Bushing"><span>Bushing</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-2.png" alt="Bearing Sleeve"><span>Bearing Sleeve</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-3.png" alt="Roller / Wheel Core"><span>Roller / Wheel Core</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-4.png" alt="Slider / Guide Block"><span>Slider / Guide Block</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-5.png" alt="Hinge Bracket"><span>Hinge Bracket</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-6.png" alt="Washer / Spacer"><span>Washer / Spacer</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-7.png" alt="Pump/Actuator Mount"><span>Pump/Actuator Mount</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-8.png" alt="Handle Grip"><span>Handle Grip</span></div>
+                            <div class="end-part-tile"><img src="<?= $img ?>/end-corner-9.png" alt="Cable Clip"><span>Cable Clip</span></div>
                         </div>
                     </div>
                 </div>
@@ -295,26 +287,26 @@ $meta_description =
                         <div class="end-card-num">1</div>
                         <div class="end-card-title-box">
                             <h4 class="end-card-title">3D SCAN</h4>
-                            <p class="end-card-subtitle">Capture Real Assets</p>
+                            <p class="end-card-subtitle">Capture Real Equipment</p>
                         </div>
                     </div>
-                    <p class="end-card-desc">On-site or in-house scanning of large and complex components using high-accuracy 3D scanners. Capture any heavy equipment — from large castings, structures to machined parts.</p>
-                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-to-end-1.png" alt="3D Scan" class="end-card-img">
+                    <p class="end-card-desc">Scan the existing equipment or individual components using high-accuracy 3D scanners.</p>
+                    <img src="<?= $img ?>/end-to-end-1.png" alt="3D Scan" class="end-card-img">
                     <div class="end-badge-list">
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-1-1.svg" alt="Icon"></div>
-                            <div class="end-badge-text">Small to Large Parts</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">On-Site Scanning</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-1-2.svg" alt="Icon"></div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Capture Complex Parts</div>
+                        </div>
+                        <div class="end-badge-item">
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-3.svg" alt="Icon"></div>
                             <div class="end-badge-text">High Accuracy</div>
                         </div>
-                        <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-1-3.svg" alt="Icon"></div>
-                            <div class="end-badge-text">On-Site or In-Plant Scanning</div>
-                        </div>
                     </div>
-                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                    <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
                 </div>
 
                 <!-- Card 2 -->
@@ -326,23 +318,23 @@ $meta_description =
                             <p class="end-card-subtitle">From Scan to Engineering Model</p>
                         </div>
                     </div>
-                    <p class="end-card-desc">Convert scan data into precise, editable CAD models for reverse engineering, design improvement, simulation or manufacturing drawings.</p>
-                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-to-end-2.png" alt="Create CAD" class="end-card-img">
-                    <div class="end-badge-list end-badge-wrap">
+                    <p class="end-card-desc">Convert scan data into precise, editable CAD models. Identify wear parts and design optimized replacements.</p>
+                    <img src="<?= $img ?>/end-to-end-2.png" alt="Create CAD" class="end-card-img">
+                    <div class="end-badge-list">
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-2-1.svg" alt="Icon"></div>
-                            <div class="end-badge-text">Accurate CAD Models</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Edit &amp; Optimize CAD Models</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-2-2.svg" alt="Icon"></div>
-                            <div class="end-badge-text">Design Optimization</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Design Variants</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-2-3.svg" alt="Icon"></div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-3.svg" alt="Icon"></div>
                             <div class="end-badge-text">Manufacturing Ready Files</div>
                         </div>
                     </div>
-                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                    <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
                 </div>
 
                 <!-- Card 3 -->
@@ -350,27 +342,27 @@ $meta_description =
                     <div class="end-card-header">
                         <div class="end-card-num">3</div>
                         <div class="end-card-title-box">
-                            <h4 class="end-card-title">3D INSPECT</h4>
-                            <p class="end-card-subtitle">Verify Dimensions &amp; Quality</p>
+                            <h4 class="end-card-title">3D PRINT (PEEK)</h4>
+                            <p class="end-card-subtitle">Durable, High-Performance Parts</p>
                         </div>
                     </div>
-                    <p class="end-card-desc">Compare scan data, CAD and actual part geometry. Perform deviation analysis, GD&amp;T and quality reports to ensure the component meets engineering requirements before manufacture or reuse.</p>
-                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-to-end-3.png" alt="3D Inspect" class="end-card-img">
+                    <p class="end-card-desc">3D print functional replacement parts using PEEK for high strength, chemical resistance and wear performance.</p>
+                    <img src="<?= $img ?>/end-to-end-3.png" alt="3D Print PEEK" class="end-card-img">
                     <div class="end-badge-list">
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-3-1.svg" alt="Icon"></div>
-                            <div class="end-badge-text">3D Inspection</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">PEEK (High Performance)</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-3-2.svg" alt="Icon"></div>
-                            <div class="end-badge-text">Deviation Analysis</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Heat &amp; Chemical Resistant</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-2-3.svg" alt="Icon"></div>
-                            <div class="end-badge-text">GD&amp;T Reports</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Functional Prototypes &amp; Spares</div>
                         </div>
                     </div>
-                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                    <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
                 </div>
 
                 <!-- Card 4 -->
@@ -378,27 +370,27 @@ $meta_description =
                     <div class="end-card-header">
                         <div class="end-card-num">4</div>
                         <div class="end-card-title-box">
-                            <h4 class="end-card-title">3D PRINT</h4>
-                            <p class="end-card-subtitle">Prototypes, Tools &amp; End-Use Parts</p>
+                            <h4 class="end-card-title">VALIDATE &amp; FIT</h4>
+                            <p class="end-card-subtitle">Ensure Performance</p>
                         </div>
                     </div>
-                    <p class="end-card-desc">Create prototypes, inspection jigs, fixtures, tooling or even end-use spare parts using FDM, DLP and high-performance materials like PEEK for demanding heavy engineering environments.</p>
-                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-to-end-4.png" alt="3D Print" class="end-card-img">
+                    <p class="end-card-desc">Inspect printed parts, verify dimensions and fit on the equipment. Perform functional testing in real operating conditions.</p>
+                    <img src="<?= $img ?>/end-to-end-4.png" alt="Validate and Fit" class="end-card-img">
                     <div class="end-badge-list">
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-1-1.svg" alt="Icon"></div>
-                            <div class="end-badge-text">FDM</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">3D Inspection</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-4-2.svg" alt="Icon"></div>
-                            <div class="end-badge-text">DLP</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Dimensional Verification</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-4-3.svg" alt="Icon"></div>
-                            <div class="end-badge-text">PEEK &amp; Engineering</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Fit &amp; Function Test</div>
                         </div>
                     </div>
-                <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                    <div class="end-arrow"><i class="fa-solid fa-chevron-right"></i></div>
                 </div>
 
                 <!-- Card 5 -->
@@ -406,24 +398,24 @@ $meta_description =
                     <div class="end-card-header">
                         <div class="end-card-num">5</div>
                         <div class="end-card-title-box">
-                            <h4 class="end-card-title">SUPPORT OPERATIONS</h4>
-                            <p class="end-card-subtitle">Enable Conventional Manufacturing</p>
+                            <h4 class="end-card-title">DEPLOY &amp; SUPPORT</h4>
+                            <p class="end-card-subtitle">Keep Your Operations Moving</p>
                         </div>
                     </div>
-                    <p class="end-card-desc">Deliver accurate CAD, drawings and inspection data to support your heavy engineering production. Use 3D printed parts directly (for prototypes, low volume or critical spares) or combine with conventional manufacturing for the best solution.</p>
-                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-to-end-5.png" alt="Support Operations" class="end-card-img">
-                    <div class="end-badge-list end-badge-wrap">
+                    <p class="end-card-desc">Use 3D printed parts directly (for prototypes, low volume or critical spares) to minimize downtime. Combine with conventional manufacturing when required.</p>
+                    <img src="<?= $img ?>/end-to-end-5.png" alt="Deploy and Support" class="end-card-img">
+                    <div class="end-badge-list">
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-5-1.svg" alt="Icon"></div>
-                            <div class="end-badge-text">Prototypes &amp; Jigs</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-1.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Reduce Downtime</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-5-2.svg" alt="Icon"></div>
-                            <div class="end-badge-text">End-Use Spare Parts</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-2.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Lower Costs</div>
                         </div>
                         <div class="end-badge-item">
-                            <div class="end-badge-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/end-card-2-2.svg" alt="Icon"></div>
-                            <div class="end-badge-text">Support Manufacturing</div>
+                            <div class="end-badge-icon"><img src="<?= $img ?>/end-card-3.svg" alt="Icon"></div>
+                            <div class="end-badge-text">Report &amp; Operational Support</div>
                         </div>
                     </div>
                 </div>
@@ -494,16 +486,19 @@ $meta_description =
                     <!-- Card 1 -->
                     <div class="col-xl-3 col-lg-6">
                         <div class="capex-card">
-                            <h3 class="capex-card-title text-center">3D Scanners<br><span style="color: #000;">for Heavy Engineering</span></h3>
+                            <h3 class="capex-card-title text-center">3D Scanners<br><span style="color: #000;">for Material Handling</span></h3>
                             <p class="capex-card-desc text-center mt-2 mb-1">Large Parts. No Limits.</p>
 
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-1-1.png" alt="3D Scanners for Heavy Engineering" class="img-fluid my-3 capex-main-img capex-main-img-lg">
+                            <img src="<?= $img ?>/capex-1-1.png" alt="3D Scanners for Material Handling Equipment" class="img-fluid my-3 capex-main-img capex-main-img-lg">
 
                             <div class="capex-inner-list flex-grow-1">
                                 <div class="capex-inner-item capex-scanner-item">
                                     <div class="d-flex align-items-center justify-content-between w-100 capex-inner-content">
                                         <div class="d-flex align-items-center">
-                                            <div class="capex-inner-img capex-scanner-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-1-2.png" alt="Tracker-Based 3D Scanners"></div>
+                                            <div class="capex-scanner-icons">
+                                                <img src="<?= $img ?>/capex-1-2.png" alt="Tracker-Based 3D Scanner">
+                                                <img src="<?= $img ?>/capex-1-3.png" alt="Tracker-Based 3D Scanner">
+                                            </div>
                                             <div class="capex-inner-text-container">
                                                 <div class="capex-inner-title capex-scanner-title text-dark">Tracker-Based<br>3D Scanners</div>
                                             </div>
@@ -517,7 +512,10 @@ $meta_description =
                                 <div class="capex-inner-item capex-scanner-item mb-0">
                                     <div class="d-flex align-items-center justify-content-between w-100 capex-inner-content">
                                         <div class="d-flex align-items-center">
-                                            <div class="capex-inner-img capex-scanner-icon"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-1-3.png" alt="Laser Scanners"></div>
+                                            <div class="capex-scanner-icons">
+                                                <img src="<?= $img ?>/capex-1-4.png" alt="Leica RTC360">
+                                                <img src="<?= $img ?>/capex-1-5.png" alt="Laser Scanner">
+                                            </div>
                                             <div class="capex-inner-text-container">
                                                 <div class="capex-inner-title capex-scanner-title text-dark">Laser Scanners (for large environments)</div>
                                             </div>
@@ -530,7 +528,7 @@ $meta_description =
                             </div>
 
                             <a href="3d-scanners-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none d-flex justify-content-center align-items-center" style="gap: 7px;">
-                                <span>EXPLORE HEAVY ENGINEERING 3D SCANNERS</span> <i class="fa-solid fa-arrow-right ms-2"></i>
+                                <span>EXPLORE MATERIAL HANDLING 3D SCANNERS</span> <i class="fa-solid fa-arrow-right ms-2"></i>
                             </a>
                         </div>
                     </div>
@@ -538,15 +536,15 @@ $meta_description =
                     <!-- Card 2 -->
                     <div class="col-xl-3 col-lg-6">
                         <div class="capex-card">
-                            <h3 class="capex-card-title text-center">3D Reverse<br>Engineering Software<br><span style="color: #000;">for Heavy Engineering</span></h3>
+                            <h3 class="capex-card-title text-center">3D Reverse<br>Engineering Software<br><span style="color: #000;">for Material Handling</span></h3>
                             <p class="capex-card-desc text-center mt-3 mb-2">Convert scan data into editable, manufacturing-ready CAD models for redesign, product development and manufacturing.</p>
 
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-2-1.png" alt="Reverse Engineering" class="img-fluid my-2 capex-main-img capex-main-img-lg">
+                            <img src="<?= $img ?>/capex-2-1.png" alt="Reverse Engineering" class="img-fluid my-2 capex-main-img capex-main-img-lg">
 
                             <div class="capex-inner-list flex-grow-1">
                                 <a href="reverse-engineering-geomagic-design-x.php" class="capex-inner-item text-decoration-none">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
-                                        <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-2-2.png" alt="Geomagic Design X"></div>
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-2-2.png" alt="Geomagic Design X"></div>
                                         <div class="capex-inner-text-container flex-grow-1 pe-2">
                                             <div class="capex-inner-title text-dark">Geomagic Design X</div>
                                             <div class="capex-inner-desc text-dark mt-1">Dedicated Reverse Engineering Software</div>
@@ -554,12 +552,22 @@ $meta_description =
                                         <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
                                     </div>
                                 </a>
-                                <a href="geomagic-for-solidworks-reverse-engineering-software.php" class="capex-inner-item text-decoration-none mb-0">
+                                <a href="geomagic-for-solidworks-reverse-engineering-software.php" class="capex-inner-item text-decoration-none">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
-                                        <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-2-3.png" alt="Geomagic for SOLIDWORKS"></div>
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-2-3.png" alt="Geomagic for SOLIDWORKS"></div>
                                         <div class="capex-inner-text-container flex-grow-1 pe-2">
                                             <div class="capex-inner-title text-dark">Geomagic for SOLIDWORKS</div>
                                             <div class="capex-inner-desc text-dark mt-1">Reverse Engineering Plugin</div>
+                                        </div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
+                                    </div>
+                                </a>
+                                <a href="exactflat.php" class="capex-inner-item text-decoration-none mb-0">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-2-4.png" alt="ExactFlat for Rhino 3D"></div>
+                                        <div class="capex-inner-text-container flex-grow-1 pe-2">
+                                            <div class="capex-inner-title text-dark">ExactFlat</div>
+                                            <div class="capex-inner-desc text-dark mt-1">Surface Flattening for Rhino 3D</div>
                                         </div>
                                         <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
                                     </div>
@@ -575,13 +583,13 @@ $meta_description =
                     <!-- Card 3 -->
                     <div class="col-xl-3 col-lg-6">
                         <div class="capex-card">
-                            <h3 class="capex-card-title text-center">3D Inspection<br>Software<br><span style="color: #000;">for Heavy Engineering</span></h3>
-                            <p class="capex-card-desc text-center mt-3 mb-3">Perform dimensional inspection by comparing scanned heavy engineering components against their original CAD models.</p>
+                            <h3 class="capex-card-title text-center">3D Inspection<br>Software<br><span style="color: #000;">for Material Handling</span></h3>
+                            <p class="capex-card-desc text-center mt-3 mb-3">Perform dimensional inspection by comparing scanned material handling components against their original CAD models.</p>
 
                             <div class="capex-inner-list flex-grow-1">
                                 <a href="geomagic-control-x-3d-inspection-software.php" class="capex-inner-item text-decoration-none mb-2">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
-                                        <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-3-1.png" alt="Geomagic Control X"></div>
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-3-2.png" alt="Geomagic Control X"></div>
                                         <div class="capex-inner-text-container flex-grow-1 pe-2">
                                             <div class="capex-inner-title text-dark">Geomagic Control X</div>
                                             <div class="capex-inner-desc text-dark mt-1">3D Inspection Software</div>
@@ -589,8 +597,7 @@ $meta_description =
                                         <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
                                     </div>
                                 </a>
-                                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-3-2.png" alt="Inspection Report" class="img-fluid capex-main-img capex-main-img-lg">
-                                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-3-3.png" alt="Deviation Analysis" class="img-fluid capex-main-img capex-main-img-lg">
+                                <img src="<?= $img ?>/capex-3-1.png" alt="Inspection Report" class="capex-inspect-img">
                             </div>
 
                             <a href="3d-inspection-software-in-india.php" class="capex-btn capex-btn-outline mt-4 text-decoration-none d-flex justify-content-center align-items-center" style="gap: 7px;">
@@ -602,15 +609,15 @@ $meta_description =
                     <!-- Card 4 -->
                     <div class="col-xl-3 col-lg-6">
                         <div class="capex-card">
-                            <h3 class="capex-card-title text-center">3D Printing &amp; Additive<br>Manufacturing<br><span style="color: #000;">for Heavy Engineering</span></h3>
+                            <h3 class="capex-card-title text-center">3D Printing &amp; Additive<br>Manufacturing<br><span style="color: #000;">for Material Handling</span></h3>
                             <p class="capex-card-desc text-center mt-3 mb-4">Accelerate product development and manufacturing using industrial additive manufacturing technologies.</p>
 
                             <div class="capex-inner-list flex-grow-1">
-                                <a href="industrial-fdm-3d-printers.php" class="capex-inner-item capex-card-4-item text-decoration-none">
+                                <a href="funmat-pro-310-apollo.php" class="capex-inner-item capex-card-4-item text-decoration-none">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
-                                        <div class="capex-inner-img capex-inner-img-xl"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-4-1.png" alt="PEEK 3D Printer"></div>
+                                        <div class="capex-inner-img capex-inner-img-xl"><img src="<?= $img ?>/capex-4-1.png" alt="PEEK 3D Printer"></div>
                                         <div class="capex-inner-text-container flex-grow-1 pe-2">
-                                            <div class="capex-inner-title capex-card-4-title text-dark">PEEK 3D Printer<br>for Heavy Engineering<br>Parts</div>
+                                            <div class="capex-inner-title capex-card-4-title text-dark">PEEK 3D Printer for High-Performance Jigs &amp; Fixtures</div>
                                             <div class="capex-inner-desc capex-card-4-desc text-dark mt-1">FUNMAT PRO<br>310 APOLLO</div>
                                         </div>
                                         <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
@@ -618,10 +625,10 @@ $meta_description =
                                 </a>
                                 <a href="industrial-fdm-3d-printers.php" class="capex-inner-item capex-card-4-item text-decoration-none mb-0">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
-                                        <div class="capex-inner-img capex-inner-img-xl"><img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/capex-4-2.png" alt="Large-Format Industrial FDM Printers"></div>
+                                        <div class="capex-inner-img capex-inner-img-xl"><img src="<?= $img ?>/capex-4-2.png" alt="Large-Format Industrial FDM Printers"></div>
                                         <div class="capex-inner-text-container flex-grow-1 pe-2">
-                                            <div class="capex-inner-title capex-card-4-title text-dark">Large-Format<br>Industrial FDM<br>Printers</div>
-                                            <div class="capex-inner-desc capex-card-4-desc text-dark mt-1">Large-format FDM solutions for prototypes, tooling, fixtures and manufacturing applications.</div>
+                                            <div class="capex-inner-title capex-card-4-title text-dark">Large-Format Industrial FDM Printers</div>
+                                            <div class="capex-inner-desc capex-card-4-desc text-dark mt-1">For Jigs, Fixtures, Tools, Templates &amp; Prototypes</div>
                                         </div>
                                         <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
                                     </div>
@@ -650,8 +657,8 @@ $meta_description =
                             <div class="capex-tag">OPEX Engineering Services</div>
                             <div class="opex-tag-line ms-3"></div>
                         </div>
-                        <h2 class="opex-main-title">3D Scan-based Engineering and 3D Printing Services<br>for Heavy Engineering Manufacturing <span style="color: #FF931E;">(OPEX)</span></h2>
-                        <p class="opex-main-desc mt-3">Not ready to invest? Experience the technology through our engineering services. Precise3DM can complete your project, demonstrate the workflow and help you evaluate ROI based on your actual applications before making a CAPEX decision.</p>
+                        <h2 class="opex-main-title">3D Scan-based Engineering and 3D Printing Services for Material Handling Equipment Manufacturing <span style="color: #FF931E;">(OPEX)</span></h2>
+                        <p class="opex-main-desc mt-3">Bring your components to our application lab. We scan your parts, create CAD models and inspection reports to prove measurable value before you invest.</p>
                     </div>
                 </div>
 
@@ -667,7 +674,7 @@ $meta_description =
                     <!-- Workflow 1 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">1</div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/result-1.png" alt="Share Your RFQ" class="opex-workflow-img my-3">
+                        <img src="<?= $img ?>/result-1.png" alt="Share Your RFQ" class="opex-workflow-img my-3">
                         <div class="opex-workflow-title">Share Your RFQ</div>
                         <div class="opex-workflow-desc mt-2">Send your component, application and expected deliverables.</div>
                     </div>
@@ -677,7 +684,7 @@ $meta_description =
                     <!-- Workflow 2 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">2</div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/result-2.png" alt="Receive a Proposal" class="opex-workflow-img my-3">
+                        <img src="<?= $img ?>/result-2.png" alt="Receive a Proposal" class="opex-workflow-img my-3">
                         <div class="opex-workflow-title">Receive a Proposal</div>
                         <div class="opex-workflow-desc mt-2">We review the requirement and provide a clear quotation.</div>
                     </div>
@@ -687,7 +694,7 @@ $meta_description =
                     <!-- Workflow 3 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">3</div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/result-3.png" alt="Select the Right Workflow" class="opex-workflow-img my-3">
+                        <img src="<?= $img ?>/result-3.png" alt="Select the Right Workflow" class="opex-workflow-img my-3">
                         <div class="opex-workflow-title">Select the Right<br>Workflow</div>
                         <div class="opex-workflow-desc mt-2">We choose the right 3D scanner, software and methodology.</div>
                     </div>
@@ -697,7 +704,7 @@ $meta_description =
                     <!-- Workflow 4 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">4</div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/result-4.png" alt="On-Site or In-House Execution" class="opex-workflow-img my-3">
+                        <img src="<?= $img ?>/result-4.png" alt="On-Site or In-House Execution" class="opex-workflow-img my-3">
                         <div class="opex-workflow-title">On-Site or In-House<br>Execution</div>
                         <div class="opex-workflow-desc mt-2">Scanning is completed at your facility or at a Precise3DM centre.</div>
                     </div>
@@ -707,7 +714,7 @@ $meta_description =
                     <!-- Workflow 5 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">5</div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/result-5.png" alt="Receive Your Deliverables" class="opex-workflow-img my-3">
+                        <img src="<?= $img ?>/result-5.png" alt="Receive Your Deliverables" class="opex-workflow-img my-3">
                         <div class="opex-workflow-title">Receive Your<br>Deliverables</div>
                         <div class="opex-workflow-desc mt-2">Get a manufacturing-ready CAD model or inspection report.</div>
                     </div>
@@ -717,7 +724,7 @@ $meta_description =
                     <!-- Workflow 6 -->
                     <div class="opex-workflow-card" style="flex: 1 1 0%;">
                         <div class="opex-step-number">6</div>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/result-6.png" alt="Pay as OPEX" class="opex-workflow-img my-3">
+                        <img src="<?= $img ?>/result-6.png" alt="Pay as OPEX" class="opex-workflow-img my-3">
                         <div class="opex-workflow-title">Pay as OPEX</div>
                         <div class="opex-workflow-desc mt-2">Pay against invoice based on agreed terms. Monthly service options are available.</div>
                     </div>
@@ -727,8 +734,8 @@ $meta_description =
                 <div class="row g-4 mt-2">
                     <div class="col-xl-4 col-lg-6">
                         <div class="opex-service-card d-flex flex-column h-100">
-                            <h3 class="opex-service-title text-center">3D Scanning Services for<br>Heavy Engineering Manufacturing</h3>
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-1.png" alt="3D Scanning Services" class="img-fluid my-4 mx-auto d-block opex-service-img">
+                            <h3 class="opex-service-title text-center">3D Scanning Services<br>for Material Handling Equipment</h3>
+                            <img src="<?= $img ?>/opex-1.png" alt="3D Scanning Services" class="img-fluid my-4 mx-auto d-block opex-service-img">
                             <ul class="opex-list flex-grow-1">
                                 <li><i class="fa-solid fa-circle-check"></i> Large Component Scanning</li>
                                 <li><i class="fa-solid fa-circle-check"></i> On-site &amp; In-house Scanning</li>
@@ -737,79 +744,89 @@ $meta_description =
                                 <li><i class="fa-solid fa-circle-check"></i> Inspection &amp; Archiving</li>
                             </ul>
                             <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
-                                <span>KNOW MORE</span>
+                                <span>LEARN MORE</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6">
                         <div class="opex-service-card d-flex flex-column h-100">
-                            <h3 class="opex-service-title text-center">Reverse Engineering Services for<br>Heavy Engineering Manufacturing</h3>
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-2.png" alt="Reverse Engineering Services" class="img-fluid my-4 mx-auto d-block opex-service-img">
+                            <h3 class="opex-service-title text-center">Reverse Engineering Services<br>for Material Handling Equipment</h3>
+                            <img src="<?= $img ?>/opex-2.png" alt="Reverse Engineering Services" class="img-fluid my-4 mx-auto d-block opex-service-img">
                             <ul class="opex-list flex-grow-1">
                                 <li><i class="fa-solid fa-circle-check"></i> Scan-to-CAD</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Manufacturing-ready CAD</li>
                                 <li><i class="fa-solid fa-circle-check"></i> STEP / IGES / Parasolid</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Surface Repair &amp; Optimization</li>
                                 <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                             </ul>
                             <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
-                                <span>KNOW MORE</span>
+                                <span>LEARN MORE</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
                         <div class="opex-service-card d-flex flex-column h-100">
-                            <h3 class="opex-service-title text-center">3D Inspection Services for Heavy<br>Engineering Manufacturing</h3>
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-3.png" alt="3D Inspection Services" class="img-fluid my-4 mx-auto d-block opex-service-img">
+                            <h3 class="opex-service-title text-center">3D Inspection Services<br>for Material Handling Equipment</h3>
+                            <img src="<?= $img ?>/opex-3.png" alt="3D Inspection Services" class="img-fluid my-4 mx-auto d-block opex-service-img">
                             <ul class="opex-list flex-grow-1">
                                 <li><i class="fa-solid fa-circle-check"></i> Dimensional Inspection</li>
-                                <li><i class="fa-solid fa-circle-check"></i> CAD Comparison</li>
-                                <li><i class="fa-solid fa-circle-check"></i> FAI / GD&amp;T / Deviation Maps</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Supplier &amp; Production QC</li>
+                                <li><i class="fa-solid fa-circle-check"></i> GD&amp;T Inspection</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Cavity &amp; Core Analysis</li>
+                                <li><i class="fa-solid fa-circle-check"></i> FAI / PPAP Support</li>
+                                <li><i class="fa-solid fa-circle-check"></i> First Article Inspection</li>
                             </ul>
                             <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
-                                <span>KNOW MORE</span>
+                                <span>LEARN MORE</span>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Bottom 2 Cards -->
-                <div class="row g-4 mt-4">
-                    <div class="col-xl-8 col-lg-12">
+                <!-- Bottom 2 Cards (centered pair, same width as the cards above) -->
+                <div class="row g-4 mt-4 justify-content-center">
+                    <div class="col-xl-4 col-lg-6">
                         <div class="opex-service-card d-flex flex-column h-100">
-                            <h3 class="opex-service-title text-center mb-4">3D Printing Services for Heavy Engineering Manufacturing</h3>
-                            <div class="row flex-grow-1 g-4 align-items-center">
-                                <div class="col-md-4 text-center">
-                                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-4-1.png" alt="PEEK 3D Printing" class="img-fluid mb-3 opex-print-img">
-                                    <div class="opex-print-title text-center">PEEK 3D Printing</div>
-                                </div>
-                                <div class="col-md-4 text-center">
-                                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-4-2.png" alt="Figure 4 DLP" class="img-fluid mb-3 opex-print-img">
-                                    <div class="opex-print-title text-center">Figure 4: DLP 3D<br>Printing Service</div>
-                                </div>
-                                <div class="col-md-4 text-center">
-                                    <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-4-3.png" alt="Large-Format FDM" class="img-fluid mb-3 opex-print-img">
-                                    <div class="opex-print-title text-center">Large-Format FDM 3D Printing</div>
-                                </div>
+                            <h3 class="opex-service-title text-center">3D Printing Services<br>for Material Handling Equipment</h3>
+                            <div class="opex-print-list flex-grow-1">
+                                <a href="peek-3d-printing-services.php" class="capex-inner-item opex-print-item text-decoration-none">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img opex-print-thumb"><img src="<?= $img ?>/capex-4-1.png" alt="PEEK 3D Printer"></div>
+                                        <div class="capex-inner-text-container flex-grow-1 pe-2">
+                                            <div class="capex-inner-title capex-card-4-title text-dark">PEEK 3D Printer for High-Performance Jigs &amp; Fixtures</div>
+                                            <div class="capex-inner-desc capex-card-4-desc text-dark mt-1">FUNMAT PRO<br>310 APOLLO</div>
+                                        </div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
+                                    </div>
+                                </a>
+                                <a href="fdm-3d-printing-service-in-india.php" class="capex-inner-item opex-print-item text-decoration-none">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img opex-print-thumb"><img src="<?= $img ?>/capex-4-2.png" alt="Large-Format Industrial FDM Printers"></div>
+                                        <div class="capex-inner-text-container flex-grow-1 pe-2">
+                                            <div class="capex-inner-title capex-card-4-title text-dark">Large-Format Industrial FDM Printers</div>
+                                            <div class="capex-inner-desc capex-card-4-desc text-dark mt-1">For Jigs, Fixtures, Tools, Templates &amp; Prototypes</div>
+                                        </div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
+                                    </div>
+                                </a>
                             </div>
                             <a href="3d-printing-service-request.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
-                                <span>KNOW MORE</span>
+                                <span>LEARN MORE</span>
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-lg-12">
+                    <div class="col-xl-4 col-lg-6">
                         <div class="opex-service-card d-flex flex-column h-100">
-                            <h3 class="opex-service-title text-center mb-4">BENCHMARKING &amp; RETROFIT SERVICES<br>for Heavy Engineering Manufacturing</h3>
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/opex-5.png" alt="Benchmarking and Retrofit" class="img-fluid mb-4 mx-auto d-block opex-bench-img">
+                            <h3 class="opex-service-title text-center">Machinery Benchmarking &amp; Retrofit<br>Services for Material Handling Equipment</h3>
+                            <img src="<?= $img ?>/opex-5.png" alt="Machinery Benchmarking and Retrofit" class="img-fluid my-4 mx-auto d-block opex-bench-img">
                             <ul class="opex-list flex-grow-1">
                                 <li><i class="fa-solid fa-circle-check"></i> Component-Level Analysis</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Reverse Engineering</li>
-                                <li><i class="fa-solid fa-circle-check"></i> CAD Development</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Manufacturing Insights</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Retrofit &amp; Modernization</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Performance Analysis</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Spare Parts Development</li>
                             </ul>
                             <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
-                                <span>KNOW MORE</span>
+                                <span>LEARN MORE</span>
                             </a>
                         </div>
                     </div>
@@ -822,62 +839,48 @@ $meta_description =
     <!-- Engagement Models Section -->
     <section class="auto-engagement-section py-4" style="background-color: #f6f6fa;">
         <div class="container-fluid" style="padding: 0 3%;">
-            <div class="row g-4 align-items-stretch">
+            <div class="mh-eng-grid">
                 <!-- Card 1 -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="eng-card h-100 d-flex flex-column" style="background: #060711;">
-                        <h3 class="eng-title-white">Buy or Outsource? Choose What Works Best for Your Business</h3>
-                        <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/buy-image.png" alt="Buy or Outsource" class="img-fluid mt-auto mx-auto pt-4">
+                <div class="mh-eng-card mh-eng-dark">
+                    <h3 class="mh-eng-dark-title"><span>BUY OR OUTSOURCE?</span><br>CHOOSE WHAT WORKS BEST FOR YOUR BUSINESS</h3>
+                    <div class="mh-eng-dark-icons">
+                        <img src="<?= $img ?>/engagement-model-1.svg" alt="Build In-House">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <img src="<?= $img ?>/engagement-model-2.svg" alt="Engineering Team">
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="eng-card h-100 d-flex flex-column" style="background: #fff;">
-                        <h3 class="eng-title-orange">Build In-House CAPEX</h3>
-                        <div class="eng-subtitle mt-3 mb-4">Best for</div>
-                        <ul class="eng-list list-check-orange flex-grow-1">
-                            <li><i class="fa-solid fa-circle-check"></i> Frequent Scanning &amp; Reverse Engineering</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Daily QC &amp; Inspection</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Internal NPD &amp; Tool Rooms</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Production Inspection</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Long-Term Capability Building</li>
-                        </ul>
-                        <a href="#capex" class="capex-btn capex-btn-primary w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
-                            <span>EXPLORE CAPEX SOLUTIONS</span>
-                        </a>
-                    </div>
+                <div class="mh-eng-card mh-eng-capex">
+                    <h3 class="mh-eng-title mh-eng-title-red">BUILD IN-HOUSE (CAPEX)</h3>
+                    <div class="mh-eng-subtitle">Best for:</div>
+                    <ul class="mh-eng-list mh-eng-list-check flex-grow-1">
+                        <li><i class="fa-solid fa-check"></i> Frequent Scanning &amp; Reverse Engineering</li>
+                        <li><i class="fa-solid fa-check"></i> Daily QC &amp; Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> Internal NPD &amp; Tool Rooms</li>
+                        <li><i class="fa-solid fa-check"></i> Production Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> Long-Term Capability Building</li>
+                    </ul>
+                    <a href="#capex" class="capex-btn capex-btn-primary text-decoration-none text-white d-flex justify-content-center align-items-center text-center">
+                        <span>EXPLORE CAPEX SOLUTIONS</span>
+                    </a>
+                    <div class="mh-eng-or">OR</div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="eng-card h-100 d-flex flex-column" style="background: #fff;">
-                        <h3 class="eng-title-black">Use Our Engineering Team OPEX</h3>
-                        <div class="eng-subtitle mt-3 mb-4">Best for</div>
-                        <ul class="eng-list list-check-black flex-grow-1">
-                            <li><i class="fa-solid fa-circle-check"></i> One-Time Projects &amp; Immediate Needs</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Technology Evaluation</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Specialized Inspections</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Benchmarking Projects</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Occasional Reverse Engineering</li>
-                        </ul>
-                        <a href="#opex" class="capex-btn capex-btn-black w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
-                            <span>EXPLORE ENGINEERING SERVICES</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="eng-card h-100 d-flex flex-column justify-content-between align-items-center text-center" style="background: #fff;">
-                        <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center w-100 p-2">
-                            <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/talk-to-expert-image.png" alt="Talk to Expert" class="img-fluid mb-4" style="max-height: 200px;">
-                            <h3 class="eng-title-black-center">Not sure which is right for your application?</h3>
-                        </div>
-                        <a href="contact-us.php" class="capex-btn capex-btn-primary w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
-                            <span>TALK TO AN APPLICATION ENGINEER</span>
-                        </a>
-                    </div>
+                <div class="mh-eng-card mh-eng-opex">
+                    <h3 class="mh-eng-title mh-eng-title-green">USE OUR ENGINEERING TEAM (OPEX)</h3>
+                    <div class="mh-eng-subtitle">Best for:</div>
+                    <ul class="mh-eng-list mh-eng-list-circle flex-grow-1">
+                        <li><i class="fa-regular fa-circle-check"></i> One-Time Projects &amp; Immediate Needs</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Technology Evaluation</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Specialized Inspections</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Benchmarking Projects</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Occasional Reverse Engineering</li>
+                    </ul>
+                    <a href="#opex" class="capex-btn capex-btn-primary text-decoration-none text-white d-flex justify-content-center align-items-center text-center">
+                        <span>EXPLORE ENGINEERING SERVICES</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -894,7 +897,7 @@ $meta_description =
                     <!-- Right Side — 7 columns -->
                     <div class="col-lg-7 d-flex align-items-center">
                         <div class="p-4 p-xl-5 w-100">
-                            <h2 class="why-title mb-5">Why Heavy Engineering<br>Companies Choose <span style="color: #FF931E;">Precise3DM?</span></h2>
+                            <h2 class="why-title mb-5">Why Material Handling<br>Companies Choose <span style="color: #FF931E;">Precise3DM?</span></h2>
 
                             <ul class="why-list">
                                 <li>
@@ -923,7 +926,7 @@ $meta_description =
                                         <div class="why-bullet"><div class="why-bullet-inner"></div></div>
                                         <div class="why-line"></div>
                                     </div>
-                                    <div class="why-text">Invest in the technology or outsource your project to our in-house team</div>
+                                    <div class="why-text">Metrology &amp; Engineering software expertise</div>
                                 </li>
                                 <li>
                                     <div class="why-bullet-col">
@@ -944,7 +947,7 @@ $meta_description =
                                         <div class="why-bullet"><div class="why-bullet-inner"></div></div>
                                         <div class="why-line"></div>
                                     </div>
-                                    <div class="why-text">Master Reseller Advantage</div>
+                                    <div class="why-text">Advanced 3D inspections &amp; quality control workflows</div>
                                 </li>
                                 <li>
                                     <div class="why-bullet-col">
@@ -956,7 +959,7 @@ $meta_description =
                             </ul>
 
                             <div class="mt-4 text-start">
-                                <a href="About_us.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-inline-flex justify-content-center align-items-center" style="padding: 15px 40px;">
+                                <a href="About_us.php" class="capex-btn capex-btn-primary why-know-btn text-decoration-none text-white d-inline-flex justify-content-center align-items-center">
                                     <span>Know More About Precise 3DM</span>
                                 </a>
                             </div>
@@ -964,7 +967,7 @@ $meta_description =
                     </div>
                 </div>
 
-                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/precise3dm-logo.png" alt="Precise3DM Logo" class="position-absolute why-logo">
+                <img src="<?= $img ?>/precise3dm-logo.png" alt="Precise3DM Logo" class="position-absolute why-logo">
             </div>
         </div>
     </section>
@@ -975,11 +978,11 @@ $meta_description =
             <h2 class="partners-title text-center mb-5">Our Technology Partners</h2>
 
             <div class="d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center gap-4 gap-lg-5">
-                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/partner-1.png" alt="Shining 3D" class="img-fluid partners-logo">
-                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/partner-2.png" alt="Hexagon" class="img-fluid partners-logo">
-                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/partner-3.png" alt="ExactFlat" class="img-fluid partners-logo">
-                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/partner-4.png" alt="TrueProp Software" class="img-fluid partners-logo">
-                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/partner-5.png" alt="GD EPIC" class="img-fluid partners-logo">
+                <img src="<?= $img ?>/partner-1.png" alt="Shining 3D" class="img-fluid partners-logo">
+                <img src="<?= $img ?>/partner-2.png" alt="Hexagon" class="img-fluid partners-logo">
+                <img src="<?= $img ?>/partner-3.png" alt="ExactFlat" class="img-fluid partners-logo">
+                <img src="<?= $img ?>/partner-4.png" alt="TrueProp Software" class="img-fluid partners-logo">
+                <img src="<?= $img ?>/partner-5.png" alt="GD EPIC" class="img-fluid partners-logo">
             </div>
         </div>
     </section>
@@ -987,10 +990,10 @@ $meta_description =
     <!-- Contact Section -->
     <section class="auto-contact-section py-4" style="background-color: #f6f6fa;">
         <div class="container-fluid" style="padding: 0 3%;">
-            <div class="contact-inner-container p-4 p-xl-5 position-relative" style="background-image: url('assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/contact-bg.png'); background-size: cover; background-position: center; border-radius: 16px;">
+            <div class="contact-inner-container p-4 p-xl-5 position-relative" style="background-image: url('<?= $img ?>/contact-bg.png'); background-size: cover; background-position: center; border-radius: 16px;">
 
                 <div class="text-center mb-4">
-                    <h2 class="contact-main-title">Ready to Accelerate Innovation in <span style="color: #FF931E;">Heavy Engineering Manufacturing?</span></h2>
+                    <h2 class="contact-main-title">Ready to Accelerate Innovation in <span style="color: #FF931E;">Material Handling Equipment Manufacturing?</span></h2>
                 </div>
 
                 <div class="d-flex justify-content-center flex-wrap gap-4 mb-5" style="gap: 20px;">
@@ -1005,7 +1008,7 @@ $meta_description =
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">
                             <div class="d-flex align-items-center mb-3" style="gap: 10px;">
-                                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/contact-1.png" alt="Get Quote for Services" class="img-fluid me-3" style="width: 75px;">
+                                <img src="<?= $img ?>/contact-1.png" alt="Get Quote for Services" class="img-fluid me-3" style="width: 75px;">
                                 <h3 class="contact-card-title mb-0">GET QUOTE <br><span style="color: #FF931E;">FOR SERVICES</span></h3>
                             </div>
                             <p class="contact-card-desc mb-4 flex-grow-1">Tell us about your project and get a customized service quote.</p>
@@ -1017,7 +1020,7 @@ $meta_description =
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">
                             <div class="d-flex align-items-center mb-3" style="gap: 10px;">
-                                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/contact-2.png" alt="Get Quote for Scanners" class="img-fluid me-3" style="width: 75px;">
+                                <img src="<?= $img ?>/contact-2.png" alt="Get Quote for Scanners" class="img-fluid me-3" style="width: 75px;">
                                 <h3 class="contact-card-title mb-0">GET QUOTE <br><span style="color: #FF931E;">FOR SCANNERS</span></h3>
                             </div>
                             <p class="contact-card-desc mb-4 flex-grow-1">Looking to buy a 3D scanner? Get the best price and expert guidance.</p>
@@ -1029,7 +1032,7 @@ $meta_description =
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">
                             <div class="d-flex align-items-center mb-3" style="gap: 10px;">
-                                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/contact-3.png" alt="Meet Us Live" class="img-fluid me-3" style="width: 75px;">
+                                <img src="<?= $img ?>/contact-3.png" alt="Meet Us Live" class="img-fluid me-3" style="width: 75px;">
                                 <h3 class="contact-card-title mb-0">MEET US LIVE <br><span style="color: #FF931E;">ONLINE NOW</span></h3>
                             </div>
                             <p class="contact-card-desc mb-4 flex-grow-1">Connect with our experts instantly for live guidance and support.</p>
@@ -1041,7 +1044,7 @@ $meta_description =
                     <div class="col-lg-6 col-xl-3 d-flex">
                         <div class="contact-action-card w-100 p-4 d-flex flex-column">
                             <div class="d-flex align-items-center mb-3" style="gap: 10px;">
-                                <img src="assets/images/digital-manufacturing-solutions-for-heavy-engineering-manufacturing/contact-4.png" alt="Book Demo" class="img-fluid me-3" style="width: 75px;">
+                                <img src="<?= $img ?>/contact-4.png" alt="Book Demo" class="img-fluid me-3" style="width: 75px;">
                                 <h3 class="contact-card-title mb-0">BOOK DEMO <br><span style="color: #FF931E;">FOR SCANNERS</span></h3>
                             </div>
                             <p class="contact-card-desc mb-4 flex-grow-1">Schedule a live demo and experience the power of Precise3DM scanners.</p>

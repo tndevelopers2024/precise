@@ -1204,8 +1204,8 @@ $meta_description =
                 </div>
 
                 <div class="d-flex justify-content-center flex-wrap gap-4 mb-5" style="gap: 20px;">
-                    <a href="#capex" class="btn contact-top-btn px-5 py-3">3D Products</a>
-                    <a href="#opex" class="btn contact-top-btn px-5 py-3">3D Services</a>
+                    <a href="#capex" class="contact-top-btn px-5 py-3">3D Products</a>
+                    <a href="#opex" class="contact-top-btn px-5 py-3">3D Services</a>
                 </div>
 
                 <div class="contact-divider mb-5 mx-auto"></div>

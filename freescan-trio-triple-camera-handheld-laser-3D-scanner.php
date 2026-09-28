@@ -307,9 +307,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a class="button1" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">Get Quote</a>
                   <a class="button2" href="assets/images/product-gallery/FreeScan-Trio-Brochure-2025.pdf">Download Brochure</a>
                </div>
-               <div class="buttons1">
-                  <a class="button3" href="tel:+919840478347">Call Us +91 98404 78347</a>
-               </div>
                <div class="mail">
                             <a href="mailto:sm@precise3dm.com" class="btn">
                             <div class="mail-icon">
@@ -318,7 +315,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </a>
                             <div class="mail-text">
                             <h5>Email us</h5>
-                            <p>sm@precise3dm.com <span>|</span> sales@precise3dm.com</p>
+                            <p><a href="mailto:sm@precise3dm.com" style="color:inherit; text-decoration:none;">sm@precise3dm.com</a> <span>|</span> <a href="mailto:sales@precise3dm.com" style="color:inherit; text-decoration:none;">sales@precise3dm.com</a></p>
                             </div>
                         </div>
             </div>
@@ -331,7 +328,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </a>
                 <div class="call-text">
                   <h5>Call us now</h5>
-                  <p>+91 98404 78347 <span>|</span>  +91 6374 406 179</p>
+                  <p><a href="tel:+919840478347" style="color:inherit; text-decoration:none;">+91 98404 78347</a> <span>|</span> <a href="tel:+916374406179" style="color:inherit; text-decoration:none;">+91 6374 406 179</a></p>
                 </div>
               </div>
                <img src="assets/images/new-page/img2.png" alt="">

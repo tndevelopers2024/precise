@@ -237,7 +237,7 @@
                     <p>3D Scan Anything Anywhere and AnySize in India</p>
                     <div class="hero-btns">
                         <a href="Get-3d-scan-service-quote.php" class="btn">Get Quote</a>
-                        <a href="Get-3d-scan-service-quote.php" class="btn">Book a Demo</a>
+                        <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Book a Demo</a>
                     </div>
                 </div>
               

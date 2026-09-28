@@ -410,7 +410,7 @@
                <div class="">
                   <h1 class="about-head">Einscan <span>H2</span></h1>
                   <p class="pb-3">Handheld Colour 3D Scanner for Small & Large Objects(Human body & Texture )</p>
-                  <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Get Quote</a>
+                  <a href="https://www.precise3dm.com/scanning-solution-form.php" class="btn">Get Quote</a>
                   <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Book
                      Demo</a><br>
                   <!-- <a onclick="Calendly.initPopupWidget({url: 'https://calendly.com/webdeveloper-precise3dm/15min'});return false;"

@@ -226,8 +226,8 @@ Under OPEX, minimise your investment risk before committing to high-cost CAPEX e
                         model before investing in CAPEX infrastructure.</p>
 
                      <div class="svc-company-hero-btns">
-                        <a href="business-opportunity-in-india.php" class="svc-company-btn">Become a Partner</a>
-                        <a href="3d-services.php" class="svc-company-btn">Explore Our Services</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSclVLWG0-rp2lQuNOW31aebPBXkPi-s53wEwAa5fImN8x1cug/viewform" class="svc-company-btn">Become a Partner</a>
+                        <a href="Get-3d-scan-service-quote.php" class="svc-company-btn">Explore Our Services</a>
                      </div>
 
                      <div class="svc-company-contact-info">

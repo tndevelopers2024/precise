@@ -229,7 +229,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               <div class="contact-info">
                   <p class="title" style="font-size: 15px;">Call us now</p>
-                  <p class="details">+91 98404 78347 | +91 63744 06179</p>
+                  <p class="details"><a href="tel:+919840478347" style="color:inherit; text-decoration:none;">+91 98404 78347</a> | <a href="tel:+916374406179" style="color:inherit; text-decoration:none;">+91 63744 06179</a></p>
               </div>
           </div>
           <div class="row m-0 justify-content-between align-items-center h-100">
@@ -267,7 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           </div>
                       </div>
                       <div class="hero-buttons">
-                          <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Get Project Quote</a>
+                          <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn-orange">Get Project Quote</a>
                           <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-orange">Talk to Engineer</a>
                       </div>
                       <div class="contact-widget call-widget-mobile d-lg-none mt-4">
@@ -276,7 +276,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           </div>
                           <div class="contact-info">
                               <p class="title" style="font-size: 15px;">Call us now</p>
-                              <p class="details">+91 98404 78347 | +91 63744 06179</p>
+                              <p class="details"><a href="tel:+919840478347" style="color:inherit; text-decoration:none;">+91 98404 78347</a> | <a href="tel:+916374406179" style="color:inherit; text-decoration:none;">+91 63744 06179</a></p>
                           </div>
                       </div>
                       <div class="contact-widget email-widget-container">
@@ -285,7 +285,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           </div>
                           <div class="contact-info">
                               <p class="title" style="font-size: 16px; text-transform: uppercase;">EMAIL US</p>
-                              <p class="details" style="font-weight: 800;">sm@precise3dm.com | sales@precise3dm.com</p>
+                              <p class="details" style="font-weight: 800;"><a href="mailto:sm@precise3dm.com" style="color:inherit; text-decoration:none;">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com" style="color:inherit; text-decoration:none;">sales@precise3dm.com</a></p>
                           </div>
                       </div>
                   </div>

@@ -224,8 +224,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </p>
 
                         <div class="hero-buttons">
-                            <a href="Get-3d-scan-service-quote.php" class="btn-orange">Book a Live Demo</a>
-                            <a href="Get-3d-scan-service-quote.php" class="btn-orange">Request Quote</a>
+                            <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Book a Live Demo</a>
+                            <a href="https://www.precise3dm.com/scanning-solution-form.php" class="btn-orange">Request Quote</a>
                         </div>
                         
                         <!-- Mobile Call Us widget -->

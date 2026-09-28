@@ -433,7 +433,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <img src="assets/images/3d-laser-scanner/main4.png" alt="">
             </div>
             <div class="text-right mt-4">
-              <a href="https://www.precise3dm.com/freescan-ue-nova.php" class="btn">Know More</a>
+              <a href="arm-based-3d-scanning-service-in-india.php" class="btn">Know More</a>
             </div>
           </div>
         </div>

@@ -898,7 +898,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                </div>
 
                <div class="book-online-btn">
-                  <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"><button class="btn">Book
+                  <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"><button class="btn">Book
                         Now</button></a>
                </div>
             </div>

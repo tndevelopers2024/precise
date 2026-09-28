@@ -221,8 +221,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <i class="fa-solid fa-envelope"></i>
                 </div>
                 <div class="contact-info">
-                    <span class="title text-dark">Email Us</span>
-                    <span class="details text-dark"><a href="mailto:sm@precise3dm.com" class="contact-link">sm@precise3dm.com</a> <span class="sep">|</span> <a href="mailto:service@precise3dm.com" class="contact-link">service@precise3dm.com</a></span>
+                    <span class="title">Email Us</span>
+                    <span class="details"><a href="mailto:sm@precise3dm.com" class="contact-link">sm@precise3dm.com</a> <span class="sep">|</span> <a href="mailto:service@precise3dm.com" class="contact-link">service@precise3dm.com</a></span>
                 </div>
             </div>
         </div>
@@ -601,7 +601,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     </div>
                     <img src="assets/images/3d-scan-based-wall-thickness-analysis/option-card1-img.png" alt="Build In-House Capability" class="opt-img opt-img1">
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-know-more opt-btn">Talk to Product Expert</a>
+                    <a href="3d-products.php" class="btn-know-more opt-btn">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 
                 <!-- Option 2 -->
@@ -618,7 +618,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     </div>
                     <img src="assets/images/3d-scan-based-wall-thickness-analysis/option-card2-img.png" alt="Outsource as a Service" class="opt-img opt-img2">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-know-more opt-btn">Request a Quote</a>
+                    <a href="3d-services.php" class="btn-know-more opt-btn">Explore Solutions &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 
             </div>

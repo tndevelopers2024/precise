@@ -65,7 +65,7 @@ if ($_POST) {
         $_SESSION['status'] = "failure";
     }
 
-    header("Location: dynamic-tracking-3d-scanning-services-new.php");
+    header("Location: dynamic-tracking-3d-scanning-services.php");
     exit;
 }
 ?>

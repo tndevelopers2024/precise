@@ -162,7 +162,7 @@
                 </div>
                 <div class="call-text">
                     <h5>Call us now</h5>
-                    <p>+91 98404 78347 | +91 63744 06179</p>
+                    <p><a href="tel:+919840478347" style="color:inherit; text-decoration:none;">+91 98404 78347</a> | <a href="tel:+916374406179" style="color:inherit; text-decoration:none;">+91 63744 06179</a></p>
                 </div>
             </div>
 
@@ -184,7 +184,7 @@
                             </div>
                             <div class="email-text">
                                 <h5>Email Us</h5>
-                                <p>sm@precise3dm.com | sales@precise3dm.com</p>
+                                <p><a href="mailto:sm@precise3dm.com" style="color:inherit; text-decoration:none;">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com" style="color:inherit; text-decoration:none;">sales@precise3dm.com</a></p>
                             </div>
                         </div>
                     </div>

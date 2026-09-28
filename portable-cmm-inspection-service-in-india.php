@@ -173,7 +173,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="pcmm-contact-text">
                 <div class="pcmm-contact-title">Call us now</div>
                 <div class="pcmm-contact-numbers">
-                    <a href="tel:+919840478347" class="text-decoration-none">+91 98404 78347</a> |
+                    <a href="tel:+919840478347" class="text-decoration-none ">+91 98404 78347</a> |
                     <a href="tel:+919940352575" class="text-decoration-none">+91 99403 52575</a>
                 </div>
             </div>

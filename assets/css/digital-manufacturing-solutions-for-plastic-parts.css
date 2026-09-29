@@ -1,44 +1,31 @@
 /* ================== Hero Section Starts ================== */
-.mh-hero-section {
-    background-color: #000;
+/* This background photo already fades from dark (top) to near-white (bottom) on its own,
+   so — unlike the other industry pages — it needs no extra dark gradient laid on top. */
+.pp-hero-section {
+    background-color: #1a1a1a;
+    background-image: url('../images/digital-manufacturing-solutions-for-plastic-parts/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    overflow: hidden;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 120px;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-/* Photo fills the right half so the copy never runs over it */
-.mh-hero-section::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 48%;
-    background-image: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 22%), url('../images/digital-manufacturing-solutions-for-material-handling-equipment-manufacturing/hero-bg.png');
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    pointer-events: none;
-}
-
-.mh-hero-section .container-fluid {
-    position: relative;
-    z-index: 1;
+.pp-hero-image {
+    max-width: 640px;
+    width: 100%;
 }
 
 @media (max-width: 991px) {
-    .mh-hero-section {
+    .pp-hero-section {
         margin-top: 0;
-    }
-    .mh-hero-section::after {
-        display: none;
     }
 }
 
-.mh-container {
+.pp-container {
     padding: 0 5%;
 }
 
@@ -131,6 +118,12 @@
     border-radius: 16px;
     padding: 18px 24px;
     margin-bottom: 30px;
+    max-width: 88%;
+}
+@media (max-width: 767px) {
+    .hero-highlight {
+        max-width: 100%;
+    }
 }
 
 .hero-highlight-title {
@@ -300,7 +293,7 @@
 }
 
 /* ================== Challenges Section Starts ================== */
-.mh-challenges-section {
+.pp-challenges-section {
     background-color: #F6F6FA;
 }
 
@@ -420,73 +413,62 @@
     margin-bottom: 0;
 }
 
-.end-tagline {
-    color: #0F172A;
-    font-weight: 800;
-    font-size: 1.25rem;
-    line-height: 1.35;
+.pp-end-corner-box {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    max-height: 380px;
+    min-height: 220px;
 }
 
-.end-tagline-bar {
-    width: 210px;
-    max-width: 100%;
+.pp-end-corner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pp-end-overlay {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    max-width: 55%;
+}
+
+.pp-end-overlay-title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.3125rem;
+    line-height: 1.4;
+}
+
+.pp-end-overlay-bar {
+    width: 46px;
     height: 3px;
     background-color: #FF931E;
-    margin: 12px 0 16px;
+    margin: 14px 0;
 }
 
-.end-middle-img {
-    display: block;
-    width: 100%;
-    max-width: 360px;
-    height: auto;
-    margin: 0 auto;
-}
-
-.end-parts-box {
-    background-color: #F6F8FC;
-    border-radius: 20px;
-    padding: 14px 16px 16px;
-}
-
-.end-parts-title {
-    color: #334155;
+.pp-end-overlay-bottom {
+    color: #fff;
     font-weight: 700;
     font-size: 1.125rem;
-    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
-.end-parts-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+@media (max-width: 575px) {
+    .pp-end-overlay {
+        max-width: 75%;
+    }
+    .pp-end-overlay-title,
+    .pp-end-overlay-bottom {
+        font-size: 0.8125rem;
+    }
 }
 
-.end-part-tile {
-    background-color: #fff;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 8px 4px 10px;
-    text-align: center;
-}
-
-.end-part-tile img {
-    width: 100%;
-    height: 62px;
-    object-fit: contain;
-    margin-bottom: 8px;
-}
-
-.end-part-tile span {
-    color: #475569;
-    font-weight: 500;
-    font-size: 0.8125rem;
-    line-height: 1.2;
-}
-
+/* Cards Row */
 /* Cards Row */
 .end-cards-row {
     margin-top: 50px;
@@ -559,19 +541,18 @@
 
 .end-card-img {
     width: 100%;
-    aspect-ratio: 933 / 1210;
+    aspect-ratio: 912 / 1150;
     object-fit: contain;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
-/* Icon-over-label badges: two across, third centred underneath */
+/* Default: all three badges in a single row, icon on top, text centred below */
 .end-badge-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 14px;
-    column-gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
     margin-top: auto;
 }
 
@@ -580,11 +561,31 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex: 1;
+    min-width: 0;
+}
+
+/* Card 2 variant: first two badges icon-over-text, third badge icon beside text */
+.end-badge-list-mixed {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 14px;
+}
+
+.end-badge-list-mixed .end-badge-item {
     flex: 0 0 calc(50% - 5px);
 }
 
-.end-badge-item:last-child {
+.end-badge-list-mixed .end-badge-item:last-child {
     flex: 0 0 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.end-badge-list-mixed .end-badge-item:last-child .end-badge-text {
+    margin-top: 0;
 }
 
 .end-badge-icon {
@@ -599,16 +600,21 @@
 }
 
 .end-badge-icon img {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
+}
+
+.end-badge-icon i {
+    font-size: 1.0625rem;
+    color: #FF931E;
 }
 
 .end-badge-text {
     color: #1E293B;
     font-weight: 500;
-    font-size: 0.8125rem;
+    font-size: 1.0625rem;
     margin-top: 8px;
-    line-height: 1.25;
+    line-height: 1.3;
 }
 
 /* Responsive */
@@ -784,6 +790,29 @@
     margin-top: 6px;
 }
 
+/* CAPEX card 3 — plain feature bullet list */
+.capex-feature-title {
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+.capex-feature-list {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.capex-feature-list li {
+    list-style: disc;
+    color: #1f1f1f;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.capex-feature-list li::marker {
+    color: #000;
+}
+
 /* Inner List Items */
 .capex-inner-list {
     display: flex;
@@ -817,6 +846,14 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+.pp-scanner-row {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.pp-scanner-row .capex-inner-img {
+    width: 72px;
+    height: 72px;
 }
 .capex-inner-img img {
     max-width: 100%;
@@ -1138,13 +1175,13 @@
 }
 
 /* ================== Engagement Models Section ================== */
-.mh-eng-grid {
+.pp-eng-grid {
     display: grid;
     grid-template-columns: 23fr 37fr 37fr;
     gap: 24px;
     align-items: stretch;
 }
-.mh-eng-card {
+.pp-eng-card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1152,64 +1189,65 @@
     box-shadow: 0px 4px 9.6px 0px #00000026;
     padding: 36px 30px 30px;
 }
-.mh-eng-dark {
-    background: linear-gradient(180deg, #4A2C0D 0%, #2B1A0B 42%, #0B1122 100%);
+.pp-eng-dark {
+    background: linear-gradient(359.11deg, #061D53 0.77%, #2D1800 99.23%);
 }
-.mh-eng-dark-title {
+.pp-eng-dark-title {
     color: #fff;
     font-weight: 700;
     font-size: 1.875rem;
     line-height: 1.3;
     margin-bottom: 0;
 }
-.mh-eng-dark-title span {
+.pp-eng-dark-title span {
     color: #FF931E;
 }
-.mh-eng-dark-icons {
+.pp-eng-dark-icons {
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 24px;
     margin-top: auto;
     padding-top: 30px;
 }
-.mh-eng-dark-icons img {
-    height: 60px;
+.pp-eng-dark-icons img {
+    height: 90px;
     width: auto;
 }
-.mh-eng-dark-icons i {
+.pp-eng-dark-icons i {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
-.mh-eng-capex {
+.pp-eng-capex {
     background: linear-gradient(180deg, #FFE7E9 0%, #FFF4F5 55%, #fff 100%);
 }
-.mh-eng-opex {
+.pp-eng-opex {
     background: linear-gradient(180deg, #E6FBE9 0%, #F4FDF5 55%, #fff 100%);
 }
-.mh-eng-title {
+.pp-eng-title {
     font-weight: 700;
     font-size: 1.75rem;
     line-height: 1.3;
     margin-bottom: 18px;
 }
-.mh-eng-title-red {
+.pp-eng-title-red {
     color: #E31E24;
 }
-.mh-eng-title-green {
+.pp-eng-title-green {
     color: #0E9F45;
 }
-.mh-eng-subtitle {
+.pp-eng-subtitle {
     color: #1E293B;
     font-weight: 700;
     font-size: 1.375rem;
     margin-bottom: 20px;
 }
-.mh-eng-list {
+.pp-eng-list {
     list-style: none;
     padding-left: 0;
     margin-bottom: 24px;
 }
-.mh-eng-list li {
+.pp-eng-list li {
     color: #1E293B;
     font-weight: 500;
     font-size: 1.375rem;
@@ -1218,18 +1256,18 @@
     display: flex;
     align-items: flex-start;
 }
-.mh-eng-list li i {
+.pp-eng-list li i {
     color: #0E9F45;
     font-size: 1.25rem;
     margin-right: 14px;
     margin-top: 4px;
     flex-shrink: 0;
 }
-.mh-eng-card .capex-btn {
+.pp-eng-card .capex-btn {
     font-size: 1.3125rem;
     padding: 16px 20px;
 }
-.mh-eng-or {
+.pp-eng-or {
     position: absolute;
     top: 50%;
     right: -47px;
@@ -1249,16 +1287,16 @@
     z-index: 5;
 }
 @media (max-width: 1199px) {
-    .mh-eng-title { font-size: 1.5rem; }
-    .mh-eng-list li { font-size: 1.125rem; }
-    .mh-eng-dark-title { font-size: 1.5rem; }
+    .pp-eng-title { font-size: 1.5rem; }
+    .pp-eng-list li { font-size: 1.125rem; }
+    .pp-eng-dark-title { font-size: 1.5rem; }
 }
 @media (max-width: 991px) {
-    .mh-eng-grid {
+    .pp-eng-grid {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    .mh-eng-or {
+    .pp-eng-or {
         top: auto;
         right: 50%;
         bottom: -55px;
@@ -1274,14 +1312,15 @@
     background-color: #fff;
     min-height: 620px;
 }
-/* This artwork only holds the photo in its left ~58% (the rest fades to white), so the 5-column
-   panel is portrait-shaped (2:3) — that way the photo itself fills all 5 columns. */
+/* This photo already fades from solid on the left to white on its own right edge, so — unlike
+   the other industry pages — it needs no extra whiteout gradient; that was cropping the visible
+   photo down to less than the 5-column box it sits in. */
 .why-left-col {
-    background-image: url('../images/digital-manufacturing-solutions-for-material-handling-equipment-manufacturing/why-precise3dm-left-bg.png');
+    background-image: url('../images/digital-manufacturing-solutions-for-plastic-parts/why-precise-left-bg.png');
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
-    aspect-ratio: 2 / 3;
+    align-self: stretch;
 }
 .why-logo {
     bottom: 30px;

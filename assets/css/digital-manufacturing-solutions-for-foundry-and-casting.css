@@ -1282,11 +1282,9 @@
     min-height: 620px;
 }
 .why-left-col {
-    background-image:
-        radial-gradient(59.14% 116.24% at 28.21% 50.05%, rgba(255, 255, 255, 0) 50.13%, #FFFFFF 72.67%),
-        url('../images/digital-manufacturing-solutions-for-foundry-and-casting/why-left-bg.png');
-    background-size: 100% 100%, cover;
-    background-position: center, left center;
+    background-image: url('../images/digital-manufacturing-solutions-for-foundry-and-casting/why-left-bg.png');
+    background-size: cover;
+    background-position: left center;
     background-repeat: no-repeat;
     align-self: stretch;
 }

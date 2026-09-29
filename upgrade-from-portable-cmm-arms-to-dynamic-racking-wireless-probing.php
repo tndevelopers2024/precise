@@ -44,7 +44,7 @@ $meta_description = "Upgrade from Portable CMM Arms to Dynamic Tracking + Wirele
 
                     <div class="hero-cta-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cmma-orange">Book a Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cmma-orange">Request Quote</a>
+                        <a href="scanning-solution-form.php" class="btn-cmma-orange">Request Quote</a>
                     </div>
 
                     <!-- Email Contact at bottom left -->

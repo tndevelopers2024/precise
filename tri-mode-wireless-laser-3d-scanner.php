@@ -74,9 +74,9 @@
                     <!-- Action Buttons -->
                     <div class="rh-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="rh-btn rh-btn-solid">Book Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="rh-btn rh-btn-outline">Get Quotation</a>
-                        <a href="#" class="rh-btn rh-btn-solid">Download Brochure</a>
-                        <a href="#" class="rh-btn rh-btn-outline"><i class="fa-solid fa-play"></i> Watch Video</a>
+                        <a href="scanning-solution-form.php" class="rh-btn rh-btn-outline">Get Quotation</a>
+                        <a href="assets/images/einscan-rigil/einScan-rigil-brochure.pdf" target="_blank" class="rh-btn rh-btn-solid">Download Brochure</a>
+                        <a href="https://www.youtube.com/watch?v=XXXXXXX" target="_blank" class="rh-btn rh-btn-outline"><i class="fa-solid fa-play"></i> Watch Video</a>
                     </div>
 
                     <!-- Mobile/Tablet Call Us Widget (Appears under buttons) -->
@@ -256,7 +256,7 @@
                         <!-- Feature 7 -->
                         <div class="wcr-feature">
                             <div class="wcr-icon">
-                                <img src="assets/images/tri-mode-wireless-laser-3d-scanner/wcer-right-icon7.png" alt="Lightweight and Portable">
+                                <img src="assets/images/tri-mode-wireless-laser-3d-scanner/wcer-right-icon7e.png" alt="Lightweight and Portable">
                             </div>
                             <div class="wcr-text">
                                 <h5>LIGHTWEIGHT & PORTABLE</h5>
@@ -448,7 +448,7 @@
                             </ul>
                             <div class="csp-app-title">APPLICATIONS:</div>
                             <p class="csp-app-desc">Reverse Engineering Training, CAD Reconstruction Training, Certification Programs.</p>
-                            <a href="reverse-engineering-geomagic-design-x.php" class="csp-link" style="margin-top: auto; display: inline-block; font-weight: 700; color: #f68923; text-decoration: none;">Know More &rarr;</a>
+                            <a href="Digital-manufacturing-lab-for-education.php" class="csp-link" style="margin-top: auto; display: inline-block; font-weight: 700; color: #f68923; text-decoration: none;">Know More &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -482,7 +482,7 @@
                             </ul>
                             <div class="csp-app-title">APPLICATIONS:</div>
                             <p class="csp-app-desc">Vehicle Wrap Templates, PPF Patterns, Fabric & Leather Patterns, Composite Layup.</p>
-                            <a href="3d-printing-service-in-india.php" class="csp-link" style="margin-top: auto; display: inline-block; font-weight: 700; color: #f68923; text-decoration: none;">Know More &rarr;</a>
+                            <a href="exactflat.php" class="csp-link" style="margin-top: auto; display: inline-block; font-weight: 700; color: #f68923; text-decoration: none;">Know More &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -499,7 +499,7 @@
                             </ul>
                             <div class="csp-app-title">APPLICATIONS:</div>
                             <p class="csp-app-desc">Mesh Repair, STL Optimization, 3D Print Preparation, Digital Archiving.</p>
-                            <a href="3d-printing-service-in-india.php" class="csp-link" style="margin-top: auto; display: inline-block; font-weight: 700; color: #f68923; text-decoration: none;">Know More &rarr;</a>
+                            <a href="geomagic-wrap-3d-scanning-software.php" class="csp-link" style="margin-top: auto; display: inline-block; font-weight: 700; color: #f68923; text-decoration: none;">Know More &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -973,7 +973,7 @@
                         <div class="accordion-item active-faq">
                             <h2 class="accordion-header" id="headingLeftTwo">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeftTwo" aria-expanded="true" aria-controls="collapseLeftTwo">
-                                    <i class="faq-icon"></i> What is EinScan Rigil Light?
+                                    <i class="faq-icon"></i> What is EinScan Rigil Lite?
                                 </button>
                             </h2>
                             <div id="collapseLeftTwo" class="accordion-collapse collapse show" aria-labelledby="headingLeftTwo" data-bs-parent="#faqAccordionLeft">
@@ -987,7 +987,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingLeftThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeftThree" aria-expanded="false" aria-controls="collapseLeftThree">
-                                    <i class="faq-icon"></i> What is the difference between Rigil and Rigil Light?
+                                    <i class="faq-icon"></i> What is the difference between Rigil and Rigil Lite?
                                 </button>
                             </h2>
                             <div id="collapseLeftThree" class="accordion-collapse collapse" aria-labelledby="headingLeftThree" data-bs-parent="#faqAccordionLeft">

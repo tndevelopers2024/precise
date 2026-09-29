@@ -540,8 +540,8 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
             <h2 class="fw-bold mb-3" style="font-size: 2.2rem;">Don’t Decide Blindly. <span style="color: #ff931e;">See It Live</span>. Test It. Then Buy.</h2>
             <p class="mb-4" style="font-size: 1.1rem; color: #eee;">Live demo on Zoom <span style="color: #ff931e; margin: 0 10px;">&bull;</span> Expert guidance <span style="color: #ff931e; margin: 0 10px;">&bull;</span> Buy online with confidence</p>
             <div class="d-flex justify-content-center flex-wrap gap-3 mt-4" style="gap: 15px;">
-                <a href="#" class="btn-orange-gradient text-decoration-none">Buy Any Scanner Online</a>
-                <a href="#" class="btn-outline-white text-decoration-none">Meet Us Live Instantly</a>
+                <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange-gradient text-decoration-none">Buy Any Scanner Online</a>
+                <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-outline-white text-decoration-none">Meet Us Live Instantly</a>
             </div>
         </div>
     </section>

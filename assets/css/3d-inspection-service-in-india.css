@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6,p,span,b,strong,small,td,th,a{
 }
 
 .contact-info p.m-details a {
-    color: #000;
+    color: #ffffff;
 }
 
 @media screen and (max-width:700px){
@@ -155,12 +155,12 @@ h1,h2,h3,h4,h5,h6,p,span,b,strong,small,td,th,a{
 
 /* Force email widget text to black on desktop for visibility on the bright area */
 .email-widget-container .contact-info p.title {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .email-widget-container .contact-info p.details {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 

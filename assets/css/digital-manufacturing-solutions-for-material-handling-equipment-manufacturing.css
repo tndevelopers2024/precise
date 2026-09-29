@@ -1277,11 +1277,9 @@
 /* This artwork only holds the photo in its left ~58% (the rest fades to white), so the 5-column
    panel is portrait-shaped (2:3) — that way the photo itself fills all 5 columns. */
 .why-left-col {
-    background-image:
-        radial-gradient(59.14% 116.24% at 28.21% 50.05%, rgba(255, 255, 255, 0) 50.13%, #FFFFFF 72.67%),
-        url('../images/digital-manufacturing-solutions-for-material-handling-equipment-manufacturing/why-precise3dm-left-bg.png');
-    background-size: 100% 100%, cover;
-    background-position: center, left center;
+    background-image: url('../images/digital-manufacturing-solutions-for-material-handling-equipment-manufacturing/why-precise3dm-left-bg.png');
+    background-size: cover;
+    background-position: left center;
     background-repeat: no-repeat;
     aspect-ratio: 2 / 3;
 }

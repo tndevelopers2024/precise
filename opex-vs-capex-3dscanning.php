@@ -356,7 +356,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h2>OPEX vs CAPEX for 3D Scanning</h2>
             <p>What Works Best for Small and Large Businesses?</p>
             <div class="banner-btns mt-4">
-               <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"><button class="btn">Get Quote
+               <a href="https://www.precise3dm.com/scanning-solution-form.php"><button class="btn">Get Quote
                      for 3D Scanners</button></a>
                <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php"><button
                      class="btn mx-2">Get Quote for 3D Scan Service</button></a>

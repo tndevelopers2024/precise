@@ -251,7 +251,7 @@
                     <h3 class="hero-subtitle">Understand Competitor Vehicles Without Teardown.</h3>
                     <p class="hero-desc">Digital vehicle architecture intelligence for OEMs, EV manufacturers, suppliers and R&D teams.</p>
 
-                    <a href="contact-us.php" class="hero-btn" style="display:inline-block; text-decoration:none;">Request Technical Consultation</a>
+                    <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="hero-btn" style="display:inline-block; text-decoration:none;">Request Technical Consultation</a>
 
                     <!-- Bottom Left Email -->
                     <div class="email-box d-flex align-items-center">

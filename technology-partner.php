@@ -176,7 +176,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </p>
 
                         <div class="partnership-cta-group">
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-partnership btn-partnership-primary">Apply for Partnership</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSclVLWG0-rp2lQuNOW31aebPBXkPi-s53wEwAa5fImN8x1cug/viewform" class="btn-partnership btn-partnership-primary">Apply for Partnership</a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-partnership btn-partnership-outline">Book a Strategy Call</a>
                         </div>
 
@@ -521,7 +521,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <p class="cta-subtitle">Limited partner slots per region.</p>
             
             <div class="cta-btn-group">
-                <a href="Book-demo-get-quote-for-3D-scanner.php" class="cta-btn cta-btn-primary">Apply Now</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSclVLWG0-rp2lQuNOW31aebPBXkPi-s53wEwAa5fImN8x1cug/viewform" class="cta-btn cta-btn-primary">Apply Now</a>
                 <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="cta-btn cta-btn-outline">Talk to Founder</a>
             </div>
         </div>

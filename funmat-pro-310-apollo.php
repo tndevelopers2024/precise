@@ -35,11 +35,11 @@
                     
                     <div class="funmat-buttons">
                         <div class="btn-row">
-                            <a href="#" class="funmat-btn-primary">Get Price in India <i class="fa-solid fa-arrow-right-long" style="margin-left:8px;"></i></a>
-                            <a href="#" class="funmat-btn-outline">Print My Sample Part <img src="assets/images/funmat-pro-310-apollo/fp310a-hero-left-icon1.png" alt="Cube" style="margin-left:8px; font-size:14px;"></a>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="funmat-btn-primary">Get Price in India <i class="fa-solid fa-arrow-right-long" style="margin-left:8px;"></i></a>
+                            <a href="3d-printing-service-form.php" class="funmat-btn-outline">Print My Sample Part <img src="assets/images/funmat-pro-310-apollo/fp310a-hero-left-icon1.png" alt="Cube" style="margin-left:8px; font-size:14px;"></a>
                         </div>
                         <div class="btn-row mt-3">
-                            <a href="#" class="funmat-btn-outline">Watch Product Video <img src="assets/images/funmat-pro-310-apollo/fp310a-hero-left-icon2.png" alt="Play" style="margin-left:8px; font-size:14px;"></a>
+                            <a href="#apollo-video" class="funmat-btn-outline">Watch Product Video <img src="assets/images/funmat-pro-310-apollo/fp310a-hero-left-icon2.png" alt="Play" style="margin-left:8px; font-size:14px;"></a>
                         </div>
                     </div>
                     
@@ -130,7 +130,7 @@
     </section>
 
     <!-- Apollo See Print section -->
-    <section class="apollo-section">
+    <section id="apollo-video" class="apollo-section">
         <div class="apollo-container">
             
             <div class="apollo-main-card mb-4">

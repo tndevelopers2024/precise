@@ -794,7 +794,7 @@
               Book Demo</a></li>
           <li><a class="dropdown-item it1" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">
               Get Quote</a></li>
-          <li><a class="dropdown-item it1" href="assets/images/FreeScan-Combo/FreeScan-Combo-Brochure-2025.pdf">Download
+          <li><a class="dropdown-item it1" href="assets/images/FreeScan-Combo/FreeScan-Combo+Wireless.pdf">Download
               brochure</a></li>
         </ul>
       </li>
@@ -846,7 +846,7 @@
                   </p>
                   <h4>Call us now at <a href="+91 9840478347"> +91 9840478347</a> / <a href="+91 6374406179"> +91
                       6374406179</a></h4>
-                  <a class="mt-4" href="assets/images/FreeScan-Combo/FreeScan-Combo-Brochure-2025.pdf"
+                  <a class="mt-4" href="assets/images/FreeScan-Combo/FreeScan-Combo+Wireless.pdf"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Download Brochure</button></a>
                   <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Book a Demo</button></a>
@@ -871,7 +871,7 @@
                   </h3>
                   <h4>Call us now at <a href="+91 9840478347"> +91 9840478347</a> / <a href="+91 6374406179"> +91
                       6374406179</a></h4>
-                  <a class="mt-4" href="assets/images/FreeScan-Combo/FreeScan-Combo-Brochure-2025.pdf"
+                  <a class="mt-4" href="assets/images/FreeScan-Combo/FreeScan-Combo+Wireless.pdf"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Download Brochure</button></a>
                   <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Book a Demo</button></a>
@@ -898,7 +898,7 @@
                   </p>
                   <h4>Call us now at <a href="+91 9840478347"> +91 9840478347</a> / <a href="+91 6374406179"> +91
                       6374406179</a></h4>
-                  <a class="mt-4" href="assets/images/FreeScan-Combo/FreeScan-Combo-Brochure-2025.pdf"
+                  <a class="mt-4" href="assets/images/FreeScan-Combo/FreeScan-Combo+Wireless.pdf"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Download Brochure</button></a>
                   <a class="mt-4" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"
                     data-lf-fd-inspected-kn9eq4rnmrb4rlvp="true"><button class="btn">Book a Demo</button></a>

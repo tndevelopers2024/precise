@@ -140,7 +140,7 @@
           <div class="tab-main-container">
             <div class="d-flex align-items-center justify-content-between flex-wrap mb-4">
               <h2 class="sec-head">Key Feature</h2>
-              <a href="assets/images/automatic-desktop/AutoScan-Inspec2.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
+              <a href="assets/images/automatic-desktop/AutoScan-Inspec2-2026.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
             </div>
             <div class="row">
               <div class="col-12 col-lg-4 px-0">
@@ -415,7 +415,7 @@
             </table>
             </div>
             <div class="text-right mt-5">
-              <a href="assets/images/automatic-desktop/AutoScan-Inspec2.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
+              <a href="assets/images/automatic-desktop/AutoScan-Inspec2-2026.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
             </div>
           </div>
         </div>

@@ -666,34 +666,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                data-md-slide-show="1">
             <div class="blog-item">
                <div class="blog">
-                  <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
+                  <img src="assets/images/freescan-omni-vs-freescan-trak-nova/hero-left.png" alt="">
                   <h5>
-                     Industrial 3D Scanner Buying Guide 2026
+                     FreeScan Omni Vs FreeScan Trak Nova
                   </h5>
-                  <p> June 14, 2026 </p>
-                  <a href="right-metorology-grade-scanner.php" class="btn">Read
+                  <p> June 21, 2026 </p>
+                  <a href="freescan-omni-vs-freescan-trak-nova.php" class="btn">Read
                      More</a>
                </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/3d-scanner-capex-invesment/capex-invesment-right-hero-img.png" alt="">
-                  <h5>How We Help You Choose the Right 3D Scanner?</h5>
-                  <p>July 24, 2026</p>
-                  <a href="3d-scanner-for-capex-investment.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog-26-right-metorology-grade-scanner/hero-bg.png" alt="">
-                  <h5>
-                  Industrial 3D Scanner Buying Guide 2026
-                  </h5>
-                  <p>June 14, 2026</p>
-                  <a href="right-metorology-grade-scanner.php" class="btn">Read
-                  More</a>
-               </div>
-            </div>
+            </div>           
             <div class="blog-item">
                <div class="blog">
                   <img src="assets/images/blog17/img1.png" alt="">
@@ -705,17 +686,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   More</a>
                </div>
             </div>
-               <div class="blog-item">
-                  <div class="blog">
-                     <img src="assets/images/blog12/img1.png" alt="">
-                     <h5>
-                        Three Types of Reverse Engineering Technic
-                     </h5>
-                     <p> April 14, 2026 </p>
-                     <a href="three-types-of-reverse-engineering-techniques.php" class="btn">Read
-                        More</a>
-                  </div>
-               </div>
+               
                <div class="blog-item">
                   <div class="blog">
                      <img src="assets/images/blog13/3d-rev1.png" alt="">
@@ -1047,8 +1018,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       initializeDynamicSlider('#dynamicSlider');
       initializeDynamicSlider('#dynamicSlider1');
    </script>
-
-
 
 
 </body>

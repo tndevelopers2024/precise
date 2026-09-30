@@ -9,7 +9,7 @@ $page_title = "Digital Manufacturing Solutions | Precise3DM";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title><?php echo $page_title; ?></title>
     
-    <!--bootstrap css-->
+    <!--booptstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     

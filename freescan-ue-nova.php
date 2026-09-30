@@ -255,7 +255,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                       <p>The FreeScan UE Nova delivers metrology-grade performance with a significantly expanded scanning window. It supports efficient acquisition of large-scale geometries while maintaining high portability, operational throughput, and application flexibility.</p>
                       <div class="text-left">
-                        <a href="assets/images/freescan-ue-nova/FreeScan-UE-Nova-Brochure-2025.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
+                        <a href="assets/images/freescan-ue-nova/FreeScan_UE_Nova_Series.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
                       </div>
                     </div>
                   </div>

@@ -349,7 +349,7 @@
             <div class="img-div">
                 <img src="assets/images/freescan-trak-proW/img1.png" alt="">
                 <div class="btn-div">
-                    <a href="assets/images/freescan-trak-proW/FreeScan-Trak-ProW.pdf" download class="btn">Download Brochure</a>
+                    <a href="assets/images/freescan-trak-proW/FreeScan-Trak-ProW+.pdf" download class="btn">Download Brochure</a>
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Demo / Get Quote</a>
                 </div>
             </div>

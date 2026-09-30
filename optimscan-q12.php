@@ -256,7 +256,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                       <p>OptimScan Q12, equipped with 4 × 12.3 MP cameras, captures high-resolution surface geometry with consistent accuracy across complex part features. With integrated hardware acceleration and advanced 3D reconstruction algorithms, the system `delivers measurement accuracy up to 0.005 mm, ensuring consistent and repeatable scanning results.</p>
                       <div class="text-left">
-                        <a href="assets/images/optimscan-q12/OptimScan-Q12-Brochure-2025.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
+                        <a href="assets/images/optimscan-q12/OptimScan-Q12-HD.pdf" download class="btn">Download Brochure <i class="fa-solid fa-download"></i></a>
                       </div>
                     </div>
                   </div>

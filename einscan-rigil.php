@@ -585,7 +585,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </tbody>
             </table>
 
-            <a href="assets/images/einscan-rigil/einScan-rigil-brochure.pdf" download class="btn mt-5">Download Brochure <i class="fa-solid fa-download"></i></a>
+            <a href="assets/images/einscan-rigil/EinScan-rigil-series-brochure.pdf" download class="btn mt-5">Download Brochure <i class="fa-solid fa-download"></i></a>
          </div>
       </section>
 

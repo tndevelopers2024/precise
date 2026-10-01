@@ -687,7 +687,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                </div>
             </div>
                
-               <div class="blog-item">
+               <!-- <div class="blog-item">
                   <div class="blog">
                      <img src="assets/images/blog13/3d-rev1.png" alt="">
                      <h5>
@@ -750,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <p> April 20, 2026 </p>
                      <a href="geomagic-software-in-india-2026.php" class="btn">Read More</a>
                   </div>
-               </div>
+               </div> -->
 
                <!-- Add more slides as needed -->
             </div>

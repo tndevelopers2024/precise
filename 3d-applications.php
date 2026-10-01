@@ -549,7 +549,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         
                         <div class="paai-footer-block">
                             <p class="paai-bottom-text">Click any industry to explore applications, technologies,<br>and success stories.</p>
-                            <a href="#" class="btn-co-explore">View All Industries &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="digital-manufacturing.php" class="btn-co-explore">View All Industries &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

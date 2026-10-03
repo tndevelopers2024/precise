@@ -191,7 +191,7 @@ $meta_description =
     <!-- End-To-End Section -->
     <section class="aero-end-section" style="background-color: #fff; padding-top: 60px; padding-bottom: 60px;">
         <div class="container-fluid" style="padding: 0 4%;">
-            
+
             <!-- Top Content -->
             <div class="row align-items-center">
                 <!-- Left Title Area -->
@@ -200,7 +200,7 @@ $meta_description =
                     <h3 class="aero-end-subtitle">From Real Vehicles to Digital Solutions</h3>
                     <p class="aero-end-desc">Scan | Reverse Engineer | Benchmark | Validate | 3D Print | Drive Innovation</p>
                 </div>
-                
+
                 <!-- Right Image Overlay -->
                 <div class="col-lg-6">
                     <div class="end-corner-box">
@@ -216,7 +216,7 @@ $meta_description =
 
             <!-- 5 Cards Row -->
             <div class="end-cards-row">
-                
+
                 <!-- Card 1 -->
                 <div class="end-card">
                     <div class="end-card-header">
@@ -1082,7 +1082,7 @@ $meta_description =
                             </ul>
 
                             <div class="mt-4 text-start">
-                                <a href="about-us.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-inline-flex justify-content-center align-items-center" style="padding: 15px 40px;">
+                                <a href="https://www.precise3dm.com/About_us.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-inline-flex justify-content-center align-items-center" style="padding: 15px 40px;">
                                     <span>Know More About Precise 3DM</span>
                                 </a>
                             </div>

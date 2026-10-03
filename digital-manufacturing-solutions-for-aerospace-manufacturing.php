@@ -217,7 +217,7 @@ $meta_description =
                     </div>
 
                     <div class="hero-buttons d-flex flex-wrap">
-                        <a href="contact-us.php" class="btn-talk">Talk to an Aerospace Expert</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Aerospace Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a Live Demo</a>
                     </div>
                     
@@ -646,7 +646,7 @@ $meta_description =
                                     </div>
                                     <div class="capex-inner-links d-flex flex-column align-items-end" style="gap: 5px;">
                                         <a href="freescan-omni.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">FreeScan Omni <i class="fa-solid fa-arrow-right ms-1"></i></a>
-                                        <a href="freescan-combo.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">FreeScan Combo <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                        <a href="FreeScan-Combo.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">FreeScan Combo <i class="fa-solid fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -660,7 +660,7 @@ $meta_description =
                                     </div>
                                     <div class="capex-inner-links d-flex flex-column align-items-end" style="gap: 5px;">
                                         <a href="optimscan-q12.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">OptimScan Q12 <i class="fa-solid fa-arrow-right ms-1"></i></a>
-                                        <a href="autoinspect-2.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">AutoInspect 2 <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                        <a href="automatic-desktop-3d-scanner.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">AutoInspect 2 <i class="fa-solid fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -673,7 +673,7 @@ $meta_description =
                                         <div class="capex-inner-title text-dark" style="font-weight: 700; max-width: 140px;">Tracker-Based<br>3D Scanner</div>
                                     </div>
                                     <div class="capex-inner-links d-flex flex-column align-items-end" style="gap: 5px;">
-                                        <a href="freescan-trak-nova.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">FreeScan Trak Nova <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                        <a href="freescan-track-nova.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">FreeScan Trak Nova <i class="fa-solid fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -686,7 +686,7 @@ $meta_description =
                                         <div class="capex-inner-title text-dark" style="font-weight: 700; max-width: 140px;">Long-Range<br>LiDAR</div>
                                     </div>
                                     <div class="capex-inner-links d-flex flex-column align-items-end text-end" style="gap: 5px; max-width: 120px;">
-                                        <a href="epic-through-wildplants.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">EPIC Through WildPlanTS <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                                        <a href="lidar-scanners.php" class="text-decoration-none" style="color: #FF931E; font-weight: 600; font-size: 0.85rem;">EPIC Through WildPlanTS <i class="fa-solid fa-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -707,7 +707,7 @@ $meta_description =
                         <img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-2-1.png" alt="Reverse Engineering" class="img-fluid my-2 capex-main-img">
 
                         <div class="capex-inner-list flex-grow-1">
-                            <a href="reverse-engineering-software-in-india.php" class="capex-inner-item text-decoration-none">
+                            <a href="reverse-engineering-geomagic-design-x.php" class="capex-inner-item text-decoration-none">
                                 <div class="d-flex align-items-center w-100 capex-inner-content">
                                     <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-2-2.png" alt="Design X"></div>
                                     <div class="capex-inner-text-container flex-grow-1 pe-2">
@@ -717,7 +717,7 @@ $meta_description =
                                     <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
                                 </div>
                             </a>
-                            <a href="reverse-engineering-software-in-india.php" class="capex-inner-item text-decoration-none">
+                            <a href="geomagic-for-solidworks-reverse-engineering-software.php" class="capex-inner-item text-decoration-none">
                                 <div class="d-flex align-items-center w-100 capex-inner-content">
                                     <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-2-3.png" alt="Geomagic for SOLIDWORKS"></div>
                                     <div class="capex-inner-text-container flex-grow-1 pe-2">
@@ -727,7 +727,7 @@ $meta_description =
                                     <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
                                 </div>
                             </a>
-                            <a href="reverse-engineering-software-in-india.php" class="capex-inner-item text-decoration-none mb-0">
+                            <a href="exactflat.php" class="capex-inner-item text-decoration-none mb-0">
                                 <div class="d-flex align-items-center w-100 capex-inner-content">
                                     <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-2-4.png" alt="ExactFlat"></div>
                                     <div class="capex-inner-text-container flex-grow-1 pe-2">
@@ -753,7 +753,7 @@ $meta_description =
                         <img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-3-1.png" alt="Inspection Software" class="img-fluid my-2 capex-main-img" style="max-height: 250px; width: 100%; padding: 10px 0;">
 
                         <div class="capex-inner-list flex-grow-1">
-                            <a href="3d-inspection-software-in-india.php" class="capex-inner-item text-decoration-none mb-3">
+                            <a href="geomagic-control-x-3d-inspection-software.php" class="capex-inner-item text-decoration-none mb-3">
                                 <div class="d-flex align-items-center w-100 capex-inner-content">
                                     <div class="capex-inner-img"><img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-3-2.png" alt="Geomagic Control X"></div>
                                     <div class="capex-inner-text-container flex-grow-1 pe-2">
@@ -789,7 +789,7 @@ $meta_description =
                         <p class="capex-card-desc text-center mt-3 mb-4">Accelerate product development and manufacturing using industrial additive manufacturing technologies.</p>
 
                         <div class="capex-inner-list flex-grow-1">
-                            <a href="industrial-fdm-3d-printers.php" class="capex-inner-item capex-card-4-item text-decoration-none">
+                            <a href="peek-3d-printing-services.php" class="capex-inner-item capex-card-4-item text-decoration-none">
                                 <div class="d-flex align-items-center w-100 capex-inner-content">
                                     <div class="capex-inner-img capex-inner-img-xl"><img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/capex-4-1.png" alt="PEEK 3D Printer"></div>
                                     <div class="capex-inner-text-container flex-grow-1 pe-2">
@@ -811,7 +811,7 @@ $meta_description =
                             </a>
                         </div>
 
-                        <a href="industrial-fdm-3d-printers.php" class="capex-btn capex-btn-outline mt-4 text-decoration-none d-flex justify-content-center align-items-center" style="gap: 7px;">
+                        <a href="3d-printing-service-in-india.php" class="capex-btn capex-btn-outline mt-4 text-decoration-none d-flex justify-content-center align-items-center" style="gap: 7px;">
                             <span>EXPLORE INDUSTRIAL 3D PRINTERS</span> <i class="fa-solid fa-arrow-right ms-2"></i>
                         </a>
                     </div>
@@ -926,7 +926,7 @@ $meta_description =
                                 <li><i class="fa-solid fa-circle-check"></i> Reverse Engineering</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Inspection & Archiving</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-services.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>KNOW MORE</span>
                             </a>
                         </div>
@@ -943,7 +943,7 @@ $meta_description =
                                 <li><i class="fa-solid fa-circle-check"></i> STEP / IGES / Parasolid</li>
                                 <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-Reverse-Engineering-Services-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>KNOW MORE</span>
                             </a>
                         </div>
@@ -960,7 +960,7 @@ $meta_description =
                                 <li><i class="fa-solid fa-circle-check"></i> FAI / GD&T / Deviation Maps</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Supplier & Production QC</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-inspection-service.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>KNOW MORE</span>
                             </a>
                         </div>
@@ -988,7 +988,7 @@ $meta_description =
                                     <div class="opex-print-title text-center">Large-Format FDM 3D Printing</div>
                                 </div>
                             </div>
-                            <a href="3d-printing-service-request.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-printing-service-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>KNOW MORE</span>
                             </a>
                         </div>
@@ -1005,7 +1005,7 @@ $meta_description =
                                 <li><i class="fa-solid fa-circle-check"></i> Performance Analysis</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Retrofit & Modernization</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="digital-benchmarking-service-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>KNOW MORE</span>
                             </a>
                         </div>
@@ -1041,7 +1041,7 @@ $meta_description =
                             <li><i class="fa-solid fa-circle-check"></i> Production Inspection</li>
                             <li><i class="fa-solid fa-circle-check"></i> Long-Term Capability Building</li>
                         </ul>
-                        <a href="#capex" class="capex-btn capex-btn-primary w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
+                        <a href="3d-products.php" class="capex-btn capex-btn-primary w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
                             <span>EXPLORE CAPEX SOLUTIONS</span>
                         </a>
                     </div>
@@ -1059,7 +1059,7 @@ $meta_description =
                             <li><i class="fa-solid fa-circle-check"></i> Benchmarking Projects</li>
                             <li><i class="fa-solid fa-circle-check"></i> Occasional Reverse Engineering</li>
                         </ul>
-                        <a href="#opex" class="capex-btn capex-btn-black w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
+                        <a href="3d-services.php" class="capex-btn capex-btn-black w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
                             <span>EXPLORE ENGINEERING SERVICES</span>
                         </a>
                     </div>
@@ -1072,7 +1072,7 @@ $meta_description =
                             <img src="assets/images/digital-manufacturing-solutions-for-aerospace-manufacturing/talk-to-expert-image.png" alt="Talk to Expert" class="img-fluid mb-4" style="max-height: 200px;">
                             <h3 class="eng-title-black-center">Not sure which is right for your application?</h3>
                         </div>
-                        <a href="contact-us.php" class="capex-btn capex-btn-primary w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="capex-btn capex-btn-primary w-100 text-decoration-none text-white d-flex justify-content-center align-items-center mt-4 text-center">
                             <span>TALK TO AN APPLICATION ENGINEER</span>
                         </a>
                     </div>
@@ -1165,7 +1165,7 @@ $meta_description =
                             </ul>
 
                             <div class="mt-4 text-start">
-                                <a href="about-us.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-inline-flex justify-content-center align-items-center" style="padding: 15px 40px;">
+                                <a href="https://www.precise3dm.com/About_us.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-inline-flex justify-content-center align-items-center" style="padding: 15px 40px;">
                                     <span>Know More About Precise 3DM</span>
                                 </a>
                             </div>
@@ -1204,8 +1204,8 @@ $meta_description =
                 </div>
 
                 <div class="d-flex justify-content-center flex-wrap gap-4 mb-5" style="gap: 20px;">
-                    <a href="#capex" class="contact-top-btn px-5 py-3">3D Products</a>
-                    <a href="#opex" class="contact-top-btn px-5 py-3">3D Services</a>
+                    <a href="3d-products.php" class="contact-top-btn px-5 py-3">3D Products</a>
+                    <a href="3d-services.php" class="contact-top-btn px-5 py-3">3D Services</a>
                 </div>
 
                 <div class="contact-divider mb-5 mx-auto"></div>

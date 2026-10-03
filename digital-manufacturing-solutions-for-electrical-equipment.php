@@ -81,7 +81,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                     </div>
 
                     <div class="hero-buttons d-flex flex-wrap">
-                        <a href="contact-us.php" class="btn-talk">Talk to an Expert</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a live demo</a>
                     </div>
 
@@ -498,7 +498,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                             <img src="<?= $img ?>/capex-1-1.png" alt="3D Scanners for Electrical Equipment" class="img-fluid my-3 capex-main-img capex-main-img-lg">
 
                             <div class="capex-inner-list flex-grow-1">
-                                <a href="3d-scanners-in-india.php" class="capex-inner-item ee-scanner-row text-decoration-none">
+                                <a href="optimscan-q12.php" class="capex-inner-item ee-scanner-row text-decoration-none">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
                                         <div class="capex-inner-img"><img src="<?= $img ?>/capex-1-2.png" alt="Optical 3D Scanners"></div>
                                         <div class="capex-inner-text-container flex-grow-1">
@@ -518,7 +518,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                                         <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
                                     </div>
                                 </a>
-                                <a href="3d-scanners-in-india.php" class="capex-inner-item ee-scanner-row text-decoration-none">
+                                <a href="automatic-desktop-3d-scanner.php" class="capex-inner-item ee-scanner-row text-decoration-none">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
                                         <div class="capex-inner-img"><img src="<?= $img ?>/capex-1-4.png" alt="Automatic Desktop 3D Scanner"></div>
                                         <div class="capex-inner-text-container flex-grow-1">
@@ -635,7 +635,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                             <h3 class="capex-card-title text-center">3D Scanning Solution<br>to Improve QC &amp; Production<br><span style="color: #000;">for Electrical Equipment</span></h3>
 
                             <div class="capex-inner-list flex-grow-1 mt-3">
-                                <a href="3d-scanners-in-india.php" class="ee-capex4-box text-decoration-none">
+                                <a href="automatic-desktop-3d-scanner.php" class="ee-capex4-box text-decoration-none">
                                     <div class="d-flex align-items-center justify-content-between w-100">
                                         <div class="ee-capex4-label">Automatic Desktop<br>3D Scanner</div>
                                         <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
@@ -754,7 +754,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                                 <li><i class="fa-solid fa-circle-check"></i> Busbars, Connectors &amp; Terminals</li>
                                 <li><i class="fa-solid fa-circle-check"></i> On-site or In-house Scanning</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-services.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>LEARN MORE</span>
                             </a>
                         </div>
@@ -770,7 +770,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                                 <li><i class="fa-solid fa-circle-check"></i> Parametric CAD Models</li>
                                 <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-Reverse-Engineering-Services-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>LEARN MORE</span>
                             </a>
                         </div>
@@ -786,7 +786,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                                 <li><i class="fa-solid fa-circle-check"></i> Clearance &amp; Fit Analysis</li>
                                 <li><i class="fa-solid fa-circle-check"></i> First Article Inspection</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-inspection-service.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>LEARN MORE</span>
                             </a>
                         </div>
@@ -806,7 +806,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                                 <li><i class="fa-solid fa-circle-check"></i> Assembly Aids</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Custom Tooling</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-printing-service-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>LEARN MORE</span>
                             </a>
                         </div>
@@ -823,7 +823,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                                 <li><i class="fa-solid fa-circle-check"></i> PPAP Documentation</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Compliance Support</li>
                             </ul>
-                            <a href="Get-3d-scan-service-quote.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
+                            <a href="3d-inspection-service.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none text-white d-flex justify-content-center align-items-center">
                                 <span>LEARN MORE</span>
                             </a>
                         </div>
@@ -859,7 +859,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                         <li><i class="fa-solid fa-check"></i> Long-Term Cost Savings</li>
                         <li><i class="fa-solid fa-check"></i> Complete Process Control</li>
                     </ul>
-                    <a href="#capex" class="capex-btn capex-btn-primary text-decoration-none text-white d-flex justify-content-center align-items-center text-center">
+                    <a href="3d-products.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-flex justify-content-center align-items-center text-center">
                         <span>EXPLORE CAPEX SOLUTIONS</span>
                     </a>
                     <div class="ee-eng-or">OR</div>
@@ -876,7 +876,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                         <li><i class="fa-regular fa-circle-check"></i> Engineering Support</li>
                         <li><i class="fa-regular fa-circle-check"></i> Scalable Solutions</li>
                     </ul>
-                    <a href="#opex" class="capex-btn capex-btn-primary text-decoration-none text-white d-flex justify-content-center align-items-center text-center">
+                    <a href="3d-services.php" class="capex-btn capex-btn-primary text-decoration-none text-white d-flex justify-content-center align-items-center text-center">
                         <span>EXPLORE ENGINEERING SERVICES</span>
                     </a>
                 </div>
@@ -995,8 +995,8 @@ $img = "assets/images/digital-manufacturing-solutions-for-electrical-equipment";
                 </div>
 
                 <div class="d-flex justify-content-center flex-wrap gap-4 mb-5" style="gap: 20px;">
-                    <a href="#capex" class="contact-top-btn px-5 py-3">3D Products</a>
-                    <a href="#opex" class="contact-top-btn px-5 py-3">3D Services</a>
+                    <a href="3d-products.php" class="contact-top-btn px-5 py-3">3D Products</a>
+                    <a href="3d-services.php" class="contact-top-btn px-5 py-3">3D Services</a>
                 </div>
 
                 <div class="contact-divider mb-5 mx-auto"></div>

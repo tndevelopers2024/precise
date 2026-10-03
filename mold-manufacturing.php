@@ -455,7 +455,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Tracker-Based<br>3D Scanners</strong></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><span class="mm-text-orange">FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-track-nova.php"><span class="mm-text-orange">FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -465,7 +465,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Tracker-Based<br>3D Scanners</strong></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><span class="mm-text-orange">FreeScan<br>Trak ProW</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-trak-pro-w.php"><span class="mm-text-orange">FreeScan<br>Trak ProW</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -475,7 +475,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Laser Scanners<br>(for large<br>environments)</strong></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><span class="mm-text-orange">Leica<br>RTC360</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="leica-rtc360.php"><span class="mm-text-orange">Leica<br>RTC360</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -485,11 +485,11 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Laser Scanners<br>(for large<br>environments)</strong></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><span class="mm-text-orange">FARO<br>Focus Core</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="lidar-scanners.php"><span class="mm-text-orange">FARO<br>Focus Core</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
-                    <a href="#" class="mm-capex-btn solid mt-auto">Explore 3D Scanners <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanners-in-india.php" class="mm-capex-btn solid mt-auto">Explore 3D Scanners <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -504,7 +504,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Geomagic Design X</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="reverse-engineering-geomagic-design-x.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -514,7 +514,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Geomagic for SOLIDWORKS</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-for-solidworks-reverse-engineering-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -524,11 +524,11 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>ExactFlat</strong><br><small>Automotive Sheet Cover / Sheet<br>Material Flattening Software</small></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="exactflat.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="#" class="mm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="reverse-engineering-software-in-india.php" class="mm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -543,7 +543,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <span><strong>Geomagic Control X</strong><br><small>3D Inspection Software</small></span>
                         </div>
                         <div class="mm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-control-x-3d-inspection-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -560,7 +560,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         </ul>
                     </div>
 
-                    <a href="#" class="mm-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-inspection-software-in-india.php" class="mm-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 4 -->
@@ -573,7 +573,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <img src="assets/images/dms-for-mold-manufacturing/capex-card4-img1.png" alt="PEEK 3D Printer" style="max-width: 60px;">
                             <span style="font-size:14px; margin-left: 10px;"><strong>PEEK 3D Printer for<br>High-Performance Jigs<br>& Fixtures</strong><br><small style="color: #64748b;">FUNMAT PRO 310 APOLLO</small></span>
                             <div class="mm-capex-nested-right align-self-center ms-auto">
-                                <a href="#"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--mm-orange);"></i></a>
+                                <a href="peek-3d-printing-services.php"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--mm-orange);"></i></a>
                             </div>
                         </div>
                     </div>
@@ -583,12 +583,12 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                             <img src="assets/images/dms-for-mold-manufacturing/capex-card4-img2.png" alt="Large-Format FDM" style="max-width: 60px;">
                             <span style="font-size:14px; margin-left: 10px;"><strong>Large-Format<br>Industrial FDM<br>Printers</strong><br><small style="color: #64748b;">For Jigs, Fixtures, Tools,<br>Templates & Prototypes</small></span>
                             <div class="mm-capex-nested-right align-self-center ms-auto">
-                                <a href="#"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--mm-orange);"></i></a>
+                                <a href="industrial-fdm-3d-printers.php"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--mm-orange);"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <a href="#" class="mm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-printing-service-in-india.php" class="mm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -678,7 +678,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Wear & Damage Analysis</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Scan-to-CAD Ready Data</li>
                     </ul>
-                    <a href="#" class="mm-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-services.php" class="mm-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -692,7 +692,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Surface Repair & Optimization</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> 2D Manufacturing Drawings</li>
                     </ul>
-                    <a href="#" class="mm-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-Reverse-Engineering-Services-in-india.php" class="mm-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -706,7 +706,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> FAI / PPAP Support</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> First Article Inspection</li>
                     </ul>
-                    <a href="#" class="mm-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-inspection-service.php" class="mm-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 4 -->
@@ -720,7 +720,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Parting Line & Draft Analysis</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Mold Modification Support</li>
                     </ul>
-                    <a href="#" class="mm-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-services.php" class="mm-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 5 -->
@@ -733,7 +733,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> CAD Development</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Manufacturing Insights</li>
                     </ul>
-                    <a href="#" class="mm-opex-btn mt-3">LEARN MORE</a>
+                    <a href="digital-benchmarking-service-in-india.php" class="mm-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
             </div>
@@ -766,7 +766,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-solid fa-check"></i> Production Inspection</li>
                         <li><i class="fa-solid fa-check"></i> Long-Term Capability Building</li>
                     </ul>
-                    <a href="#" class="mm-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
+                    <a href="3d-products.php" class="mm-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
                     
                     <!-- OR Badge -->
                     <div class="mm-boo-or-badge">OR</div>
@@ -783,7 +783,7 @@ $page_title = "Digital Manufacturing Solutions for Mold Manufacturing | Precise3
                         <li><i class="fa-regular fa-circle-check"></i> Benchmarking Projects</li>
                         <li><i class="fa-regular fa-circle-check"></i> Occasional Reverse Engineering</li>
                     </ul>
-                    <a href="#" class="mm-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
+                    <a href="3d-services.php" class="mm-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
                 </div>
 
             </div>

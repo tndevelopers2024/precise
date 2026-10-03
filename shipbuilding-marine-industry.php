@@ -559,8 +559,8 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Handheld Laser<br>3D Scanners</strong></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center text-end">
-                            <a href="#" class="d-flex justify-content-end align-items-center mb-1"><span class="smi-text-orange me-2" style="font-size:11px;">FreeScan<br>Omni</span> <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">FreeScan<br>Combo</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-omni.php" class="d-flex justify-content-end align-items-center mb-1"><span class="smi-text-orange me-2" style="font-size:11px;">FreeScan<br>Omni</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="FreeScan-Combo.php" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">FreeScan<br>Combo</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -570,8 +570,8 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Optical 3D<br>Scanners</strong></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center text-end">
-                            <a href="#" class="d-flex justify-content-end align-items-center mb-1"><span class="smi-text-orange me-2" style="font-size:11px;">OptimScan Q12</span> <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">AutoInspect 2</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="optimscan-q12.php" class="d-flex justify-content-end align-items-center mb-1"><span class="smi-text-orange me-2" style="font-size:11px;">OptimScan Q12</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="automatic-desktop-3d-scanner.php" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">AutoInspect 2</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -581,7 +581,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Tracker-Based<br>3D Scanner</strong></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center text-end">
-                            <a href="#" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-track-nova.php" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -591,11 +591,11 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Long-Range<br>LiDAR</strong></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center text-end">
-                            <a href="#" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">EPIC<br>Wildplantts</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="lidar-scanners.php" class="d-flex justify-content-end align-items-center"><span class="smi-text-orange me-2" style="font-size:11px;">EPIC<br>Wildplantts</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
-                    <a href="#" class="smi-capex-btn solid mt-auto">EXPLORE SHIPBUILDING 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanners-in-india.php" class="smi-capex-btn solid mt-auto">EXPLORE SHIPBUILDING 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -610,7 +610,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Geomagic Design X</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="reverse-engineering-geomagic-design-x.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -620,7 +620,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Geomagic for SOLIDWORKS</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-for-solidworks-reverse-engineering-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -630,11 +630,11 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>ExactFlat</strong><br><small>Automotive Sheet Cover / Sheet<br>Material Flattening Software</small></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="exactflat.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="#" class="smi-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="reverse-engineering-software-in-india.php" class="smi-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -649,7 +649,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <span><strong>Geomagic Control X</strong><br><small>3D Inspection Software</small></span>
                         </div>
                         <div class="smi-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-control-x-3d-inspection-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -666,7 +666,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         </ul>
                     </div>
 
-                    <a href="#" class="smi-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-inspection-software-in-india.php" class="smi-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 4 -->
@@ -679,7 +679,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <img src="assets/images/dms-for-shipbuilding-marine-industry/capex-card4-img1.png" alt="PEEK 3D Printer" style="max-width: 60px;">
                             <span style="font-size:14px; margin-left: 10px;"><strong>PEEK 3D Printer<br>for EV</strong><br><small style="color: #64748b;">FUNMAT PRO<br>310 APOLLO</small></span>
                             <div class="smi-capex-nested-right align-self-center ms-auto">
-                                <a href="#"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--smi-orange);"></i></a>
+                                <a href="peek-3d-printing-services.php"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--smi-orange);"></i></a>
                             </div>
                         </div>
                     </div>
@@ -689,12 +689,12 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <img src="assets/images/dms-for-shipbuilding-marine-industry/capex-card4-img2.png" alt="Large-Format FDM" style="max-width: 60px;">
                             <span style="font-size:14px; margin-left: 10px;"><strong>Large-Format<br>Industrial FDM<br>Printers</strong><br><small style="color: #64748b;">For jigs, fixtures,<br>prototypes, body panels,<br>ducts & molds.</small></span>
                             <div class="smi-capex-nested-right align-self-center ms-auto">
-                                <a href="#"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--smi-orange);"></i></a>
+                                <a href="industrial-fdm-3d-printers.php"><i class="fa-solid fa-arrow-right" style="font-size:14px; color: var(--smi-orange);"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <a href="#" class="smi-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-printing-service-in-india.php" class="smi-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -783,7 +783,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Powertrain & Motors</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Inspection & Archiving</li>
                     </ul>
-                    <a href="#" class="smi-opex-btn mt-3">KNOW MORE</a>
+                    <a href="3d-services.php" class="smi-opex-btn mt-3">KNOW MORE</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -796,7 +796,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> STEP / IGES / Parasolid</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> 2D Manufacturing Drawings</li>
                     </ul>
-                    <a href="#" class="smi-opex-btn mt-3">KNOW MORE</a>
+                    <a href="3d-Reverse-Engineering-Services-in-india.php" class="smi-opex-btn mt-3">KNOW MORE</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -809,7 +809,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> FAI / GD&T / Deviation Maps</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Supplier & Production QC</li>
                     </ul>
-                    <a href="#" class="smi-opex-btn mt-3">KNOW MORE</a>
+                    <a href="3d-inspection-service.php" class="smi-opex-btn mt-3">KNOW MORE</a>
                 </div>
 
             </div>
@@ -835,7 +835,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                             <p style="font-size:11px; color:#475569; line-height:1.4;">Large automotive fixtures, tooling, prototype assemblies, dashboards, ducts, body panels and manufacturing aids.</p>
                         </div>
                     </div>
-                    <a href="#" class="smi-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-printing-service-in-india.php" class="smi-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 5 (Benchmarking) -->
@@ -849,7 +849,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> CAD Development</li>
                         <li><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Manufacturing Insights</li>
                     </ul>
-                    <a href="#" class="smi-opex-btn mt-3">KNOW MORE</a>
+                    <a href="digital-benchmarking-service-in-india.php" class="smi-opex-btn mt-3">KNOW MORE</a>
                 </div>
             </div>
         </div>
@@ -881,7 +881,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         <li><i class="fa-solid fa-check"></i> Production inspection</li>
                         <li><i class="fa-solid fa-check"></i> Long-term capability building</li>
                     </ul>
-                    <a href="#" class="smi-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
+                    <a href="3d-products.php" class="smi-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
                     
                     <!-- OR Badge -->
                     <div class="smi-boo-or-badge">OR</div>
@@ -898,7 +898,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         <li><i class="fa-regular fa-circle-check"></i> Benchmarking projects</li>
                         <li><i class="fa-regular fa-circle-check"></i> Occasional reverse engineering</li>
                     </ul>
-                    <a href="#" class="smi-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
+                    <a href="3d-services.php" class="smi-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
                 </div>
 
             </div>

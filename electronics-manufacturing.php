@@ -456,7 +456,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>Optical 3D<br>Scanners</strong></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><span>FreeScan<br>Q9</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="optimscan-q12.php"><span>FreeScan<br>Q9</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -466,7 +466,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>Optical 3D<br>Scanners</strong></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><span>OptimScan<br>Q12</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="optimscan-q12.php"><span>OptimScan<br>Q12</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -476,11 +476,11 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>Automatic<br>Desktop 3D<br>Scanner</strong></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><span>AutoScan<br>Inspect 2</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="automatic-desktop-3d-scanner.php"><span>AutoScan<br>Inspect 2</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
-                    <a href="#" class="em-capex-btn solid mt-auto">Explore 3D Scanners <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanners-in-india.php" class="em-capex-btn solid mt-auto">Explore 3D Scanners <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -495,7 +495,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>Geomagic Design X</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="reverse-engineering-geomagic-design-x.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -505,7 +505,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>Geomagic for SOLIDWORKS</strong><br><small>Dedicated Reverse Engineering<br>Software</small></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-for-solidworks-reverse-engineering-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -515,11 +515,11 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>ExactFlat</strong><br><small>Automotive Sheet Cover / Sheet<br>Material Flattening Software</small></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="exactflat.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="#" class="em-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="reverse-engineering-software-in-india.php" class="em-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -534,7 +534,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                             <span><strong>Geomagic Control X</strong><br><small>3D Inspection Software</small></span>
                         </div>
                         <div class="em-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="geomagic-control-x-3d-inspection-software.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -551,7 +551,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         </ul>
                     </div>
 
-                    <a href="#" class="em-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-inspection-software-in-india.php" class="em-capex-btn outline mt-auto">EXPLORE 3D INSPECTION SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 4 -->
@@ -562,7 +562,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <div class="em-capex-nested-left align-items-center w-100">
                             <span style="font-size:14px;"><strong>Automatic Desktop<br>3D Scanner</strong></span>
                             <div class="em-capex-nested-right align-self-center ms-auto">
-                                <a href="#"><i class="fa-solid fa-arrow-right" style="font-size:14px;"></i></a>
+                                <a href="automatic-desktop-3d-scanner.php"><i class="fa-solid fa-arrow-right" style="font-size:14px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -573,7 +573,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <p style="font-size:12px; font-weight:600; color:#1a202c;">Inline 3D Inspection for<br>Series Production</p>
                     </div>
 
-                    <a href="#" class="em-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-printing-service-in-india.php" class="em-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -663,7 +663,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Enclosures & Housings</li>
                         <li><i class="fa-solid fa-circle-check"></i> Assemblies & Sub-assemblies</li>
                     </ul>
-                    <a href="#" class="em-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-services.php" class="em-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -677,7 +677,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Parametric CAD Models</li>
                         <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                     </ul>
-                    <a href="#" class="em-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-Reverse-Engineering-Services-in-india.php" class="em-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -691,7 +691,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Clearance & Fit Analysis</li>
                         <li><i class="fa-solid fa-circle-check"></i> First Article Inspection</li>
                     </ul>
-                    <a href="#" class="em-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-inspection-service.php" class="em-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 4 -->
@@ -705,7 +705,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Final Assembly Inspection</li>
                         <li><i class="fa-solid fa-circle-check"></i> Vendor Quality Support</li>
                     </ul>
-                    <a href="#" class="em-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-services.php" class="em-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
                 <!-- Card 5 -->
@@ -719,7 +719,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-solid fa-circle-check"></i> Mold & Tooling Support</li>
                         <li><i class="fa-solid fa-circle-check"></i> Cost Optimization</li>
                     </ul>
-                    <a href="#" class="em-opex-btn mt-3">LEARN MORE</a>
+                    <a href="3d-services.php" class="em-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
             </div>
@@ -752,7 +752,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-solid fa-check"></i> Long-term Cost Optimization</li>
                         <li><i class="fa-solid fa-check"></i> IP Security & Data Control</li>
                     </ul>
-                    <a href="#" class="em-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
+                    <a href="3d-products.php" class="em-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
                     
                     <!-- OR Badge -->
                     <div class="em-boo-or-badge">OR</div>
@@ -769,7 +769,7 @@ $page_title = "Digital Manufacturing Solutions for Electronics | Precise3DM";
                         <li><i class="fa-regular fa-circle-check"></i> Scalable Support</li>
                         <li><i class="fa-regular fa-circle-check"></i> Lower Upfront Cost</li>
                     </ul>
-                    <a href="#" class="em-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
+                    <a href="3d-services.php" class="em-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
                 </div>
 
             </div>

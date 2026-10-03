@@ -52,8 +52,8 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                     </p>
                     
                     <div class="dms-btn-group">
-                        <a href="#" class="dms-btn-primary">Talk to an Expert</a>
-                        <a href="#" class="dms-btn-outline">Book a live demo</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dms-btn-primary">Talk to an Expert</a>
+                        <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="dms-btn-outline">Book a live demo</a>
                     </div>
                     
                     <div class="dms-contact-bottom">
@@ -504,8 +504,8 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                             <span>Handheld Laser<br>3D Scanners</span>
                         </div>
                         <div class="dms-capex-nested-right">
-                            <a href="#">FreeScan<br>Omni <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#">FreeScan<br>Combo <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-omni.php">FreeScan<br>Omni <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="FreeScan-Combo.php">FreeScan<br>Combo <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -515,8 +515,8 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                             <span>Optical 3D<br>Scanners</span>
                         </div>
                         <div class="dms-capex-nested-right">
-                            <a href="#">OptimScan Q12 <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#">AutoInspect 2 <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="optimscan-q12.php">OptimScan Q12 <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="automatic-desktop-3d-scanner.php">AutoInspect 2 <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -526,7 +526,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                             <span>Tracker-Based<br>3D Scanner</span>
                         </div>
                         <div class="dms-capex-nested-right">
-                            <a href="#">FreeScan<br>Trak Nova <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-track-nova.php">FreeScan<br>Trak Nova <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -536,11 +536,11 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                             <span>Long-Range<br>LiDAR</span>
                         </div>
                         <div class="dms-capex-nested-right">
-                            <a href="#">EPIC<br>Wildplantts <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="lidar-scanners.php">EPIC<br>Wildplantts <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="best-3d-scanners-for-automotive.php" class="dms-capex-btn solid mt-auto">EXPLORE AUTOMOTIVE 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanners-in-india.php" class="dms-capex-btn solid mt-auto">EXPLORE AUTOMOTIVE 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -579,7 +579,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                         </div>
                     </div>
 
-                    <a href="3d-scanning-and-reverse-engineering-software.php" class="dms-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="reverse-engineering-software-in-india.php" class="dms-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -641,11 +641,11 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                             <small>For jigs, fixtures,<br>prototypes, body panels,<br>ducts & molds.</small>
                         </div>
                         <div class="dms-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="industrial-fdm-3d-printers.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="industrial-fdm-3d-printers.php" class="dms-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-printing-service-in-india.php" class="dms-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -734,7 +734,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                         <li><i class="fa-solid fa-circle-check"></i> Powertrain & Motors</li>
                         <li><i class="fa-solid fa-circle-check"></i> Inspection & Archiving</li>
                     </ul>
-                    <a href="3d-scanning-services.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-services.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -747,7 +747,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                         <li><i class="fa-solid fa-circle-check"></i> STEP / IGES / Parasolid</li>
                         <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                     </ul>
-                    <a href="3d-reverse-engineering-services.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-Reverse-Engineering-Services-in-india.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -760,7 +760,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                         <li><i class="fa-solid fa-circle-check"></i> FAI / GD&T / Deviation Maps</li>
                         <li><i class="fa-solid fa-circle-check"></i> Supplier & Production QC</li>
                     </ul>
-                    <a href="3d-inspection-services.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-inspection-service.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 4 -->
@@ -784,7 +784,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                             <p>Large automotive fixtures, tooling, prototype assemblies, dashboards, ducts, body panels and manufacturing aids.</p>
                         </div>
                     </div>
-                    <a href="3d-printing-services.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
+                    <a href="3d-printing-service-in-india.php" class="dms-opex-btn mt-auto">KNOW MORE</a>
                 </div>
 
                 <!-- Card 5 -->
@@ -800,7 +800,7 @@ $page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Preci
                         <li><i class="fa-solid fa-circle-check"></i> CAD Development</li>
                         <li><i class="fa-solid fa-circle-check"></i> Manufacturing Insights</li>
                     </ul>
-                    <a href="automotive-teardown-and-benchmarking-services.php" class="dms-opex-btn mt-3">KNOW MORE</a>
+                    <a href="digital-benchmarking-service-in-india.php" class="dms-opex-btn mt-3">KNOW MORE</a>
                 </div>
 
             </div>

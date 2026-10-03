@@ -58,7 +58,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                     </div>
                     
                     <div class="amm-btn-group">
-                        <a href="#" class="amm-btn-primary">Talk to an Expert</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="amm-btn-primary">Talk to an Expert</a>
                         <a href="#" class="amm-btn-outline">Book a Live Demo</a>
                     </div>
                     
@@ -488,7 +488,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <span><strong>Tracker-Based</strong><br>3D Scanners</span>
                         </div>
                         <div class="amm-capex-nested-right">
-                            <a href="#"><span>FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-track-nova.php"><span>FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -498,7 +498,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <span><strong>Tracker-Based</strong><br>3D Scanners</span>
                         </div>
                         <div class="amm-capex-nested-right">
-                            <a href="#"><span>FreeScan<br>Trak ProW</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-trak-pro-w.php"><span>FreeScan<br>Trak ProW</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -508,7 +508,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <span><strong>Laser Scanners</strong><br><small>(for large<br>environments)</small></span>
                         </div>
                         <div class="amm-capex-nested-right">
-                            <a href="#"><span>Leica<br>RTC360</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="leica-rtc360.php"><span>Leica<br>RTC360</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -518,11 +518,11 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <span><strong>Laser Scanners</strong><br><small>(for large<br>environments)</small></span>
                         </div>
                         <div class="amm-capex-nested-right">
-                            <a href="#"><span>FARO<br>Focus<br>Core</span> <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="lidar-scanners.php"><span>FARO<br>Focus<br>Core</span> <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="best-3d-scanners-for-automotive.php" class="amm-capex-btn solid mt-auto">Explore 3D Scanners <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanners-in-india.php" class="amm-capex-btn solid mt-auto">Explore 3D Scanners <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -557,11 +557,11 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <span><strong>ExactFlat</strong><br><small>Automotive Sheet Cover / Sheet<br>Material Flattening Software</small></span>
                         </div>
                         <div class="amm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="exactflat.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="3d-scanning-and-reverse-engineering-software.php" class="amm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="reverse-engineering-software-in-india.php" class="amm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -623,11 +623,11 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <small>For Jigs, Fixtures, Tools,<br>Templates & Prototypes</small>
                         </div>
                         <div class="amm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="industrial-fdm-3d-printers.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="industrial-fdm-3d-printers.php" class="amm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-printing-service-in-india.php" class="amm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -717,7 +717,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                         <li><i class="fa-solid fa-circle-check"></i> Reverse Engineering</li>
                         <li><i class="fa-solid fa-circle-check"></i> Inspection & Archiving</li>
                     </ul>
-                    <a href="3d-scanning-services.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
+                    <a href="3d-services.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -731,7 +731,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                         <li><i class="fa-solid fa-circle-check"></i> Surface Repair & Optimization</li>
                         <li><i class="fa-solid fa-circle-check"></i> 2D Manufacturing Drawings</li>
                     </ul>
-                    <a href="3d-reverse-engineering-services.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
+                    <a href="3d-Reverse-Engineering-Services-in-india.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -745,7 +745,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                         <li><i class="fa-solid fa-circle-check"></i> FAI / PPAP Support</li>
                         <li><i class="fa-solid fa-circle-check"></i> First Article Inspection</li>
                     </ul>
-                    <a href="3d-inspection-services.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
+                    <a href="3d-inspection-service.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
                 </div>
 
                 <!-- Card 4 (Printing) -->
@@ -770,7 +770,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                             <div class="amm-opex-print-item-arrow"><i class="fa-solid fa-arrow-right"></i></div>
                         </div>
                     </div>
-                    <a href="3d-printing-services.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
+                    <a href="3d-printing-service-in-india.php" class="amm-opex-btn mt-auto">LEARN MORE</a>
                 </div>
 
                 <!-- Card 5 (Benchmarking) -->
@@ -783,7 +783,7 @@ $page_title = "Digital Manufacturing Solutions for Agricultural Machinery Manufa
                         <li><i class="fa-solid fa-circle-check"></i> Performance Analysis</li>
                         <li><i class="fa-solid fa-circle-check"></i> Spare Parts Development</li>
                     </ul>
-                    <a href="automotive-teardown-and-benchmarking-services.php" class="amm-opex-btn mt-3">LEARN MORE</a>
+                    <a href="digital-benchmarking-service-in-india.php" class="amm-opex-btn mt-3">LEARN MORE</a>
                 </div>
 
             </div>

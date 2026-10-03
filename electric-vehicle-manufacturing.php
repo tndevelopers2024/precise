@@ -540,8 +540,8 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span>Handheld Laser<br>3D Scanners</span>
                         </div>
                         <div class="evm-capex-nested-right">
-                            <a href="#">FreeScan<br>Omni <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#">FreeScan<br>Combo <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-omni.php">FreeScan<br>Omni <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="FreeScan-Combo.php">FreeScan<br>Combo <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -551,8 +551,8 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span>Optical 3D<br>Scanners</span>
                         </div>
                         <div class="evm-capex-nested-right">
-                            <a href="#">OptimScan Q12 <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#">AutoInspect 2 <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="optimscan-q12.php">OptimScan Q12 <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="automatic-desktop-3d-scanner.php">AutoInspect 2 <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     
@@ -562,11 +562,11 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <span>Tracker-Based<br>3D Scanner for<br>complete EV<br>Vehicle Scanning<br>without markers</span>
                         </div>
                         <div class="evm-capex-nested-right">
-                            <a href="#">FreeScan<br>Trak Nova <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="freescan-track-nova.php">FreeScan<br>Trak Nova <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="best-3d-scanners-for-automotive.php" class="evm-capex-btn solid mt-auto">EXPLORE AUTOMOTIVE 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanners-in-india.php" class="evm-capex-btn solid mt-auto">EXPLORE AUTOMOTIVE 3D SCANNERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 2 -->
@@ -605,7 +605,7 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                         </div>
                     </div>
 
-                    <a href="3d-scanning-and-reverse-engineering-software.php" class="evm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="reverse-engineering-software-in-india.php" class="evm-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -656,11 +656,11 @@ $page_title = "Electric Vehicle (EV) Manufacturing | Precise3DM";
                             <small>For jigs, fixtures,<br>prototypes, body panels,<br>ducts & molds.</small>
                         </div>
                         <div class="evm-capex-nested-right align-self-center">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="industrial-fdm-3d-printers.php"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <a href="industrial-fdm-3d-printers.php" class="evm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-printing-service-in-india.php" class="evm-capex-btn outline mt-auto">EXPLORE INDUSTRIAL 3D PRINTERS <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
             </div>

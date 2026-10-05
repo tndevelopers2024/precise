@@ -49,7 +49,7 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
                         Precise3DM empowers shipyards, offshore fabrication yards, marine engine manufacturers and component suppliers with advanced 3D scanning, reverse engineering, 3D printing and inspection technologies.
                     </p>
                     <p class="smi-hero-desc">
-                        From new builds to retrofits, repairs and maintenance—Precise3DM delivers a complete digital manufacturing ecosystem that improves accuracy, reduces rework and accelerates project delivery across the marine value chain.
+                        From new builds to retrofits, repairs and maintenanceâ€”Precise3DM delivers a complete digital manufacturing ecosystem that improves accuracy, reduces rework and accelerates project delivery across the marine value chain.
                     </p>
 
                     <div class="smi-hero-actions">
@@ -235,7 +235,6 @@ $page_title = "Digital Manufacturing Solutions for Shipbuilding & Marine Industr
             </div>
         </div>
     </section>
-
     <!-- Challenges Section -->
     <section class="smi-cwc-section">
         <div class="smi-container">

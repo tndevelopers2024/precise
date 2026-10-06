@@ -1769,14 +1769,14 @@
                <div class='sk-ww-google-reviews' data-embed-id='25377093'></div>
             </div>
          </div>
-         <script src='https:widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+         <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
 
          <div class="review-btn">
             <a
-               href="https:www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,3">
+               href="https://www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,3">
                <button class="btn">Review Us</button></a>
             <a
-               href="https:www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,1"><button
+               href="https://www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,1"><button
                   class="btn">View our Google reviews</button></a>
 
          </div>

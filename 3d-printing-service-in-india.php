@@ -962,7 +962,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <!-- Right: Buttons -->
                     <div class="col-lg-3 text-center text-lg-end ips-ready-btn-col">
-                        <a href="https://www.precise3dm.com/3d-printing-service-form.php" class="ips-ready-btn mb-3">Upload CAD File</a>
+                        <a href="https://www.precise3dm.com/3d-printing-service-form.php" class="ips-ready-btn mb-3">Get Quote</a>
                         <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="ips-ready-btn">Request Consultation</a>
                     </div>
 

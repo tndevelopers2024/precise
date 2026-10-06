@@ -779,11 +779,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             aria-label="Book Free Consultation">
                             Book Free Consultation
                         </a>
-                        <a href="Get-3d-scan-service-quote.php"
+                        <a href="Book-demo-get-quote-for-3D-scanner.php"
                             id="b26-cta-project-btn"
                             class="b26-cta-btn b26-cta-btn-outline"
                             aria-label="Discuss Your Project">
-                            Discuss Your Project
+                            Book a Demo
                         </a>
                     </div>
                 </div>

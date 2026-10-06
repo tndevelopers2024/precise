@@ -58,7 +58,7 @@
     })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
     <!-- End Google Tag Manager -->
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -177,7 +177,7 @@
     }
   ]
 }
-</script>
+</script> -->
 
 
 
@@ -674,12 +674,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
 
 
-    <section>
+    <!-- <section>
          <div id="FAQ" class="container pt-5 pb-5 faq">
             <h2 class="sec-head text-center">FREQUENTLY ASKED QUESTIONS</h2>
             <div id="style-3" class="row mt-4">
                <div class="accordion" id="accordionExample">
-                  <!-- 1 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -692,7 +692,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 2 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -705,7 +705,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 3 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -718,7 +718,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 4 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -731,7 +731,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 5 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -744,7 +744,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 6 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -757,7 +757,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 7 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingSeven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -770,7 +770,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 8 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingEight">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -783,7 +783,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 9 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingNine">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -796,7 +796,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 10 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingTen">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
@@ -809,7 +809,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 11 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingEleven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
@@ -822,7 +822,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 12 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingTwelve">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
@@ -835,7 +835,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 13 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingThirteen">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
@@ -848,7 +848,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-                  <!-- 14 -->
+                  
                   <div class="accordion-item">
                      <h2 class="accordion-header" id="headingFourteen">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
@@ -870,7 +870,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
 
    <!-- footer start -->
 

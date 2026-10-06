@@ -1256,7 +1256,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <script>
     const data = [
-      { name: 'Einscan HX', link: 'EinscanHX.php' },
+      /* { name: 'Einscan HX', link: 'EinscanHX.php' }, */
       { name: 'Free Scan UE 11', link: 'FreescanUE11.php' },
       { name: 'Faro Edge Arm', link: 'Faro-Edge-arm.php' },
       { name: 'Einscan Pro 2X Plus', link: 'EinScan-Pro-2X-Plus.php' },

@@ -710,7 +710,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                     We Precise3DM Uk offer a range of 3D scanners, including the Einscan H2, Einstar, Freescan
+                     We Precise3DM Uk offer a range of 3D scanners, including the Einstar, Freescan
                      Combo, and Geomagic products in the UK, tailored to various applications and budgets.
                   </div>
                </div>

@@ -40,7 +40,7 @@
                         
                         <div class="hero-buttons mb-5">
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">BOOK DEMO <i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">GET QUOTE <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="scanning-solution-form.php" class="btn-orange">GET QUOTE <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         
                         <!-- Desktop Email Widget -->
@@ -529,9 +529,8 @@
                 <!-- Right Column -->
                 <div class="col-lg-5">
                     <div class="cta-buttons-wrapper">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="shiny-btn">BOOK A FREE CONSULTATION TODAY <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="shiny-btn">BOOK DEMO <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="shiny-btn">GET QUOTE <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                        <a href="scanning-solution-form.php" class="shiny-btn">GET QUOTE <i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>

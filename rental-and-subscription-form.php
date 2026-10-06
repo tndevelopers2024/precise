@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="scanner-box">
                           <img src="assets/images/rental-and-subscription/scanner2.png" alt="">
                           <label for="scanner2">
-                            <input type="radio" name="scanner1" id="scanner2" value="Einscan H2" required>Einscan H2
+                            <!-- <input type="radio" name="scanner1" id="scanner2" value="Einscan H2" required>Einscan H2 -->
                           </label>
                         </div>                        
                       </div>

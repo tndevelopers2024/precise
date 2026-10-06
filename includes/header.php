@@ -1702,8 +1702,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     href="FreeScan-Combo.php">Freescan Combo</a></li>
                                 <li><a class="dropdown-item text-left py-2"
                                     href="einscan-rigil.php">EinScan Rigil</a></li>
-                                <!-- <li><a class="dropdown-item text-left py-2"
-                                    href="Einscanh2.php">EinScan H2</a></li> -->
+                                <!--  -->
                                 <li><a class="dropdown-item text-left py-2"
                                     href="Einstar.php">Einstar</a></li>
                                 <li><a class="dropdown-item text-left py-2"
@@ -1726,10 +1725,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2"
                                     href="https://www.precise3dm.com/FreeScan-Combo.php">Freescan Combo</a></li>
-                                <li><a class="dropdown-item text-left py-2"
-                                    href="https://www.precise3dm.com/einscan-hx.php">Einscan HX</a></li>
-                                <li><a class="dropdown-item text-left py-2"
-                                    href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a></li>
+                                
+                                
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
@@ -1882,10 +1879,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 href="einscan-pro-hd-3d-scanner-in-india.php">Einscan Pro HD</a></li>
                             <li><a class="dropdown-item text-left py-2"
                                 href="https://www.precise3dm.com/einscan-pro2xv2.php">Einscan Pro2XV2</a></li>
-                            <li><a class="dropdown-item text-left py-2"
-                                href="einscan-hx-3d-scanner-in-india.php">Einscan HX</a></li>
-                            <li><a class="dropdown-item text-left py-2"
-                                href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a></li>
+                            
+                            
                           </ul>
                         </li> -->
                         <!-- <li class="dropdown"><a class="dropdown-item  text-left py-2"
@@ -1906,7 +1901,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
                             href="handheld-color-3dscanning-service.php">Handheld Colour 3D scanning</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="Einscanh2.php">Einscan H2</a></li>
+                            
                           </ul>
                         </li> -->
 
@@ -2504,11 +2499,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <a class="nav-link" href="einscan-rigil.php">EinScan Rigil</a>
                             </div>
                           </li>
-                          <!-- <li class="nav-item">
-                            <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="Einscanh2.php">EinScan H2</a>
-                            </div>
-                          </li> -->
+                          <!--  -->
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
                               <a class="nav-link" href="Einstar.php">Einstar</a>
@@ -2554,16 +2545,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <a class="nav-link" href="https://www.precise3dm.com/FreeScan-Combo.php">Freescan Combo</a>
                         </div>
                       </li>
-                      <li class="nav-item">
-                        <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="https://www.precise3dm.com/einscan-hx.php">Einscan HX</a>
-                        </div>
-                      </li>
-                      <li class="nav-item">
-                        <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a>
-                        </div>
-                      </li>
+                      
+                      
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -2918,20 +2901,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                     </div>
                   </li>
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="https://www.precise3dm.com/einscan-hx-3d-scanner-in-india.php">Einscan HX</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
+                  
+                  
                 </ul>
               </li> -->
               <!-- <li class="nav-item">
@@ -2987,13 +2958,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
                 </div>
                 <ul class="sub-menu">
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
+                  
                 </ul>
               </li> -->
               <li class="nav-item">

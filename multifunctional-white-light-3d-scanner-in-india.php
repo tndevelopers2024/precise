@@ -228,7 +228,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </div>
                   </div>
                </div>
-               <div class="col-md-3 text-center px-2">
+               <!-- <div class="col-md-3 text-center px-2">
                <div class="quote my-2" style="background-color:#00000029;">
                      <img src="assets/images/products/chapter3-png-2.png" class="img-fluid zoom" alt="multifunctional-einscan-pro2x-2020-3d-scanner-in-india">
                      <div class="content pname">
@@ -242,7 +242,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <div class="content pname">
                         <a href="einscan-hx-3d-scanner-in-india.php" class="text-uppercase text-white  py-4">  EINSCAN HX</a>
                      </div>
-                  </div>
+                  </div> -->
                </div>
                <div class="col-md-3 text-center px-2">
                <div class="quote my-2" style="background-color:#00000029;">
@@ -728,7 +728,7 @@ BLOG</h3>
                     <h5 class="pre-colorfs " style="color: #ff931e;">What is the Einscan 3D scanner price in India?</h5>
                     
                     <div class="left-border">
-                        <p class="text-white " >The price of Einscan 3D scanner in India are listed below:(all prices are pre-tax)<br> Einscan ProHD - Rs.7,50,000 <br>Einscan Pro 2x 2020 - Rs.6,50,000<br>Einscan HX - Rs.9,25,000 <br> Einscan H - Rs.6,00,000 <br> Einscan SP - Rs.3,20,000 <br> Einscan SE - Rs.2,20,000</p>
+                        <p class="text-white " >The price of Einscan 3D scanner in India are listed below:(all prices are pre-tax)<br> Einscan ProHD - Rs.7,50,000 <br>Einscan Pro 2x 2020 - Rs.6,50,000<br> Einscan H - Rs.6,00,000 <br> Einscan SP - Rs.3,20,000 <br> Einscan SE - Rs.2,20,000</p>
                     </div>
                     
 

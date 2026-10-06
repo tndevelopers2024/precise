@@ -844,7 +844,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="video-card">
                      <a href="https://youtu.be/UhlRsD0kfX8?si=s1UGi2GU4HDtA3yk"> <img
                            src="assets/images/einstar/img29.png" alt=""></a>
-                     <p>EinScan H2 | Hybrid LED & Infrared Light Source Handheld 3D Scanner</p>
+                     <!-- <p>EinScan H2 | Hybrid LED & Infrared Light Source Handheld 3D Scanner</p>
                   </div>
                   <div class="video-card">
                      <a href="https://youtube.com/shorts/U2vUbFduSgE?si=TVt2tGU7UUaWk2GF"> <img
@@ -854,7 +854,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="video-card">
                      <a href="https://youtu.be/bNL1pv-pzeE?si=lWJDMGaExbzMKIlR"> <img
                            src="assets/images/einstar/img31.png" alt=""></a>
-                     <p>EP4: How to 3D Scan a Black Object with EinScan H2 IR Mode</p>
+                     <p>EP4: How to 3D Scan a Black Object with EinScan H2 IR Mode</p> -->
                   </div>
                </div>
 

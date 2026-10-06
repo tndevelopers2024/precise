@@ -167,22 +167,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a href="https://www.precise3dm.com/FreeScan-Combo.php" class="btn">FreeScan Combo</a>
                </div>
             </div>
-            <div class="card-box">
+            <!-- <div class="card-box">
                <div class="card-img">
                   <img src="assets/images/hybird-technology/card2.png" alt="">
                </div>
                <div class="card-btn">
                   <a href="https://www.precise3dm.com/einscan-hx.php" class="btn">EinScan HX</a>
                </div>
-            </div>
-            <div class="card-box">
+            </div> -->
+            <!-- <div class="card-box">
                <div class="card-img">
                   <img src="assets/images/hybird-technology/card3.png" alt="">
                </div>
                <div class="card-btn">
                   <a href="https://www.precise3dm.com/Einscanh2.php" class="btn">EinScan H2</a>
                </div>
-            </div>
+            </div> -->
          </div>
          <div class="mail">
             <a href="mailto:sm@precise3dm.com">
@@ -307,7 +307,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
    </section>
 
-   <section style="margin-top:60px;">
+   <!-- <section style="margin-top:60px;">
         <div class="container-fluid">
             <div class="main-div2">
                 <h2 class="sec-head"><span>EinScan HX</span> – Hybrid Blue Laser + LED Light</h2>
@@ -323,9 +323,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </div>
-   </section>
+   </section> -->
 
-   <section style="margin-top:60px;">
+   <!-- <section style="margin-top:60px;">
         <div class="container-fluid">
             <div class="main-div2">
                 <h2 class="sec-head"><span>EinScan H2</span> – Hybrid LED + Infrared for Face & Body Scanning</h2>
@@ -341,7 +341,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </div>
-   </section>
+   </section> -->
 
 
    <section style="margin-top:60px;">

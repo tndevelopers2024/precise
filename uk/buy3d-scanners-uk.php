@@ -578,7 +578,7 @@
             <h2 class="text-center mob-head">3D Scanners <span>for Reverse Engineering</span></h2>
                <div class="application-div move-left">
                   <div class="text-start">
-                     <p>Einscan H2 & FreeScan Combo</p>
+                     <!-- <p>Einscan H2 & FreeScan Combo</p> -->
                   </div>
                   <img style="width:100%;" src="assets/images/buy-scanner/scanner2.png" alt="">
                </div>
@@ -593,7 +593,7 @@
             <h2 class="text-center mob-head">3D Scanners <span> For Education</span></h2>
                <div class="application-div">
                   <div class="text-start">
-                     <p>Einscan H2 & Einstar</p>
+                     <!-- <p>Einscan H2 & Einstar</p> -->
                   </div>
                   <img src="assets/images/buy-scanner/scanner3.png" alt="">
                </div>
@@ -630,7 +630,7 @@
             <h2 class="text-center mob-head">3D Scanners <span>For Small Businesses and Individuals</span></h2>
                <div class="application-div move-left">
                   <div class="text-start">
-                     <p>Einscan H2 & Einstar</p>
+                     <!-- <p>Einscan H2 & Einstar</p> -->
                   </div>
                   <img src="assets/images/buy-scanner/scanner3.png" alt="">
                </div>
@@ -689,7 +689,7 @@
                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                     We Precise3DM Uk offer a range of 3D scanners, including the Einscan H2, Einstar, Freescan
+                     We Precise3DM Uk offer a range of 3D scanners, including the Einstar, Freescan
                      Combo, and Geomagic products in the UK, tailored to various applications and budgets.
                   </div>
                </div>

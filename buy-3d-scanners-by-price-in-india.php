@@ -483,7 +483,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                       <div class="main-div">
                         <h2>3D Scanners Between ₹5 Lakhs to ₹10 Lakhs</h2>
-                        <p>For professional users with more complex needs, our 3D scanners priced between ₹5 lakhs to ₹10 lakhs offer superb value for the money. They provide a good balance of performance and cost. The widely popular EinScan HX hybrid scanner and Einscan H2 seamlessly integrates dual light sourse technology such as LED and blue laser technology for scanning dark, reflective surfaces or intricate details with ease. This range is ideal for small manufacturers, reverse engineering teams, and product designers who need reliable results without overshooting their budget.</p>
+                        <p>For professional users with more complex needs, our 3D scanners priced between ₹5 lakhs to ₹10 lakhs offer superb value for the money. They provide a good balance of performance and cost. This range is ideal for small manufacturers, reverse engineering teams, and product designers who need reliable results without overshooting their budget.</p>
                       </div>
                       
                       <div class="main-div2">
@@ -497,85 +497,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                       </div>
 
-                      <div class="main-div2">
-                        <img src="assets/images/buy-3d-scanners/img18.png" alt="">
+                      
 
-                        <div class="main-btns">
-                          <div>
-                            <!-- <button class="btn key-feature-btn" data-target=".einstar-hx">Key Features</button> -->
-                            <a href="https://www.precise3dm.com/einscan-hx-3d-scanner-in-india.php" class="btn">Know More</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="einstar-hx mt-5">
-                        <div class="main-div2">
-                          <h2 class="text-center">Key Features</h2>
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>Scanning Accuracy up to 0.04 mm</b> under laser mode for high-end engineering Applications
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img20.png" alt="">
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>3D scan object with colour for</b> 3D Printing and Animation
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img21.png" alt="">
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>High Speed 3D</b> scanning for engineering usage
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img22.png" alt="">
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>Portable and handheld</b> for on-site 3d scanning
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img23.png" alt="">
-                        </div>
-                      </div>
-
-                      <div class="main-div2">
-                        <img src="assets/images/buy-3d-scanners/img19.png" alt="">
-
-                        <div class="main-btns">
-                          <div>
-                            <!-- <button class="btn key-feature-btn" data-target=".einstar-h2">Key Features</button> -->
-                            <a href="https://www.precise3dm.com/Einscanh2.php" class="btn">Know More</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="einstar-h2 mt-5">
-                        <div class="main-div2">
-                          <h2 class="text-center">Key Features</h2>
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>3D Scan the Human body</b> in high detail 
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img24.png" alt="">
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>Human Body 3D scanner</b> for medical applications and body parts
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img25.png" alt="">
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>For 3D scanning medium-sized</b> and large parts with a wide FOV
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img26.png" alt="">
-                        </div>
-                        <div class="main-div2">
-                          <p class="big-p">
-                            <b>3D Scan with</b> full colour for website and cultural heritage
-                          </p>
-                          <img src="assets/images/buy-3d-scanners/img27.png" alt="">
-                        </div>
-                      </div>
+                      
                       <div class="main-div2">
                         <img src="assets/images/buy-3d-scanners/img2_2.png" alt="">
 

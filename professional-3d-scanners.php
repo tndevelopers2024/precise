@@ -272,7 +272,7 @@
                             <div class="best-for">
                                 <strong>Best for:</strong> Engineering, Inspection, Reverse Engineering
                             </div>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="prof-btn prof-btn-primary w-100 mt-auto">Request Demo</a>
+                            <a href="einscan-rigil.php" class="prof-btn prof-btn-primary w-100 mt-auto">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -299,7 +299,7 @@
                             <div class="best-for">
                                 <strong>Best for:</strong> Field Scanning, Automotive, Design
                             </div>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="prof-btn prof-btn-primary w-100 mt-auto">Request Demo</a>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="prof-btn prof-btn-primary w-100 mt-auto">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
                             <div class="best-for">
                                 <strong>Best for:</strong> Healthcare, Custom Implants, Medical Modeling
                             </div>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="prof-btn prof-btn-primary w-100 mt-auto">Request Demo</a>
+                            <a href="https://graft3d.com/einscan-medixa" class="prof-btn prof-btn-primary w-100 mt-auto">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -489,7 +489,7 @@
         </div>
     </section>
 
-    <section>
+    <!--<section>
          <div id="FAQ" class="container pt-5 pb-5 faq">
             <h2 class="container-head text-center">FREQUENTLY ASKED QUESTIONS</h2>
             <div id="style-3" class="row mt-4">
@@ -581,7 +581,7 @@
                </div>
             </div>
          </div>
-    </section>
+    </section>-->
 
     <!-- footer start -->
     <?php include('includes/footer.php'); ?>

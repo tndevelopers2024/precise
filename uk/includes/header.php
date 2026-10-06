@@ -936,8 +936,7 @@ headeer top
                             <li><a class="dropdown-item text-left py-2"
                                 href="https://www.precise3dm.com/einscan-pro-2x-2020-3d-scanner-in-india.php">Einscan
                                 Pro2X 2020</a></li>
-                            <li><a class="dropdown-item text-left py-2"
-                                href="https://www.precise3dm.com/einscan-hx-3d-scanner-in-india.php">Einscan HX</a></li>
+                            
                             <li><a class="dropdown-item text-left py-2" href="https://www.precise3dm.com/einscan-h-3d-scanner-in-india.php">Einscan
                                 H</a></li>
                           </ul>
@@ -966,7 +965,7 @@ headeer top
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
                             href="https://www.precise3dm.com/handheld-3d-scanner-in-india.php">Handheld Colour 3D scanning</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a></li>
+                            
                           </ul>
                         </li>
 
@@ -1306,8 +1305,7 @@ headeer top
                             <li><a class="dropdown-item text-left py-2"
                                 href="https://www.precise3dm.com/einscan-pro-2x-2020-3d-scanner-in-india.php">Einscan
                                 Pro2X 2020</a></li>
-                            <li><a class="dropdown-item text-left py-2"
-                                href="https://www.precise3dm.com/einscan-hx-3d-scanner-in-india.php">Einscan HX</a></li>
+                            
                             <li><a class="dropdown-item text-left py-2" href="https://www.precise3dm.com/einscan-h-3d-scanner-in-india.php">Einscan
                                 H</a></li>
                           </ul>
@@ -1335,7 +1333,7 @@ headeer top
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
                             href="https://www.precise3dm.com/handheld-3d-scanner-in-india.php">Handheld Colour 3D scanning</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="https://www.precise3dm.com/Einscanh2.php">Einscan H2</a></li>
+                            
                           </ul>
                         </li>
 

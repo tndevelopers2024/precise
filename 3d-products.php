@@ -773,11 +773,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <!-- Right: CTA Buttons -->
                 <div class="col-lg-6">
                     <div class="b26-cta-btn-group">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php"
+                        <a href="scanning-solution-form.php"
                             id="b26-cta-book-btn"
                             class="b26-cta-btn"
-                            aria-label="Book Free Consultation">
-                            Book Free Consultation
+                            aria-label="Get Quote">
+                            Get Quote
                         </a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php"
                             id="b26-cta-project-btn"

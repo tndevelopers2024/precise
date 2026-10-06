@@ -126,8 +126,8 @@
 
 /* Tagline / subtitle */
 .abm-hero-tagline {
-    font-size: 15px !important;
-    font-weight: 600;
+    font-size: 18px !important;
+    font-weight: 700;
     color: rgba(255, 255, 255, 0.9);
     font-family: var(--abm-font);
     margin: 0 0 18px;
@@ -137,8 +137,8 @@
 
 /* Description paragraph */
 .abm-hero-desc {
-    font-size: 15px !important;
-    color: rgba(255, 255, 255, 0.82);
+    font-size: 1.125rem !important;
+    color: #fff;
     line-height: 1.7;
     margin: 0 0 28px;
     font-family: var(--abm-font);

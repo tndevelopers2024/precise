@@ -208,7 +208,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <li>Scan-to-Scan Inspection</li>
                             <li>Sheet Metal Spring-back Study</li>
                             <li>Airfoil Twist Study</li>
-                            <li>Digital Volume Creation</li>
+                            <li>Digital Volume Calculation</li>
                             <li>Trend Analysis</li>
                             <li>Wear & Tear Analysis</li>
                             <li>Wall Thickness Analysis</li>
@@ -266,7 +266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         ["title" => "Scan-to-Scan Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card3-img.png", "link" => "scan-to-scan-inspection.php"],
                         ["title" => "Sheet Metal Spring-<br>back Study", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card4-img.png", "link" => "sheet-metal-springback.php"],
                         ["title" => "Airfoil Twist Study", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card5-img.png", "link" => "airfoil-2d-and-3d-twist-study-analysis.php"],
-                        ["title" => "Digital Volume Creation", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card6-img.png", "link" => "3d-scan-based-digital-volume-calculation.php"],
+                        ["title" => "Digital Volume Calculation", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card6-img.png", "link" => "3d-scan-based-digital-volume-calculation.php"],
                         ["title" => "Trend Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card7-img.png", "link" => "trend-analysis.php"],
                         ["title" => "Wear & Tear Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card8-img.png", "link" => "#"],
                         ["title" => "Wall Thickness Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card9-img.png", "link" => "wall-thickness-analysis.php"],
@@ -312,7 +312,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         ["title" => "New Product Development<br>from Scan Data", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card4-img.png", "link" => "product-development-from-existing-scan.php"],
                         ["title" => "3D Scan to Hybrid<br>Modelling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card5-img.png", "link" => "3d-scan-to-hybrid-modelling.php"],
                         ["title" => "3D Scan to Flat 2D Pattern", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card6-img.png", "link" => "3d-scan-to-2d-cutting-pattern.php"],
-                        ["title" => "CT Scan to 3D Modeling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card7-img.png", "link" => "ct-scan-to-cad-modelling.php"],
+                        ["title" => "CT Scan to 3D Modeling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card7-img.png", "link" => "ct-scan-to-3d-cad-modeling.php"],
                         ["title" => "3D Scan-Based Design<br>Optimization", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card8-img.png", "link" => "design-modification-from-3d-scan.php"],
                         ["title" => "Mean Geometry Reverse<br>Engineering", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card9-img.png", "link" => "#"],
                         ["title" => "3D Scan to BIW", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card10-img.png", "link" => "biw-scan-to-cad-service-in-india.php"],

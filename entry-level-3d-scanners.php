@@ -34,7 +34,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -89,7 +89,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
     }
   ]
 }
-</script>
+</script> -->
 
 </head>
 
@@ -590,7 +590,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div id="FAQ" class="container pt-5 pb-5 faq">
             <h2 class="container-head text-center">FREQUENTLY ASKED QUESTIONS</h2>
             <div id="style-3" class="row mt-4">
@@ -667,7 +667,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
                         </div>
                     </div>
 
-                    <!--  -->
+                    
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -719,7 +719,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Include -->
     <?php include('includes/footer.php'); ?>
 

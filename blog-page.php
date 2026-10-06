@@ -242,6 +242,7 @@
                 <article class="blog-card" id="blog-card-freescan-omni-top-choice">
                     <div class="card-img-wrap">
                         <img src="assets/images/blog45/hero-bg.png" alt="Why FreeScan Omni Is a Top Choice for Professional 3D Scanning Services">
+                        <img src="assets/images/blog45/hero-img.png" alt="FreeScan Omni Scanner" class="hero-product-img" style="position: absolute; top: 5%; right: 0; width: auto; height: 90%; object-fit: contain; z-index: 1;">
                         <span class="card-category">Metrology</span>
                     </div>
                     <div class="card-body">
@@ -255,6 +256,7 @@
                 <article class="blog-card" id="blog-card-freescan-omni-vs-lite">
                     <div class="card-img-wrap">
                         <img src="assets/images/blog46/hero-bg.png" alt="FreeScan Omni vs Omni Lite: Which Omni Series Fits Your Workflow?">
+                        <img src="assets/images/blog46/hero-img.png" alt="FreeScan Omni Scanner" class="hero-product-img" style="position: absolute; top: 5%; right: 5%; width: auto; height: 90%; object-fit: contain; z-index: 1;">
                         <span class="card-category">Metrology</span>
                     </div>
                     <div class="card-body">

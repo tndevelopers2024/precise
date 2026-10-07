@@ -815,8 +815,50 @@
                     <div class="ae-img-wrapper">
                         <img src="assets/images/best-3d-scanners-for-automotive/ae-img4.png" alt="Inspection & Analysis">
                     </div>
-                    <a href="3d-scan-to-inspection.php" class="ae-btn">Inspection &amp; Analysis &rarr;</a>
+                    <a href="3d-inspection-service.php" class="ae-btn">Inspection &amp; Analysis &rarr;</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Automotive CTA Section -->
+    <section class="automotive-cta-section">
+        <div class="fss-container">
+            <div class="cta-grid">
+                
+                <div class="cta-left">
+                    <h2 class="cta-title">Ready to Build Your Automotive<br>Digital Engineering Workflow?</h2>
+                    <p class="cta-desc">Let our experts help you find the best 3D Scanners for Automotive 3D<br>Scanning, Reverse Engineering &amp; Vehicle Bench marking.</p>
+                    
+                    <div class="cta-contact-list">
+                        <!-- Phone -->
+                        <div class="cta-contact-item">
+                            <div class="cta-icon-bubble">
+                                <i class="fas fa-phone-alt" style="transform: scaleX(-1);"></i>
+                            </div>
+                            <div class="cta-contact-info">
+                                <span class="cta-contact-title">Call us now</span>
+                                <span class="cta-contact-details"><a href="tel:+91 98404 78347">+91 98404 78347</a> <span style="color: #f97316;">|</span> <a href="tel:+91 63744 06179">+91 63744 06179</a></span>
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="cta-contact-item">
+                            <div class="cta-icon-bubble">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="cta-contact-info">
+                                <span class="cta-contact-title">Email us</span>
+                                <span class="cta-contact-details"><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> <span style="color: #f97316;">|</span> <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-right">
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="cta-btn cta-solid">Book Live Demo</a>
+                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="cta-btn cta-solid">Talk to Automotive Experts</a>
+                </div>
+
             </div>
         </div>
     </section>
@@ -914,50 +956,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Automotive CTA Section -->
-    <section class="automotive-cta-section">
-        <div class="fss-container">
-            <div class="cta-grid">
-                
-                <div class="cta-left">
-                    <h2 class="cta-title">Ready to Build Your Automotive<br>Digital Engineering Workflow?</h2>
-                    <p class="cta-desc">Let our experts help you find the best 3D Scanners for Automotive 3D<br>Scanning, Reverse Engineering &amp; Vehicle Bench marking.</p>
-                    
-                    <div class="cta-contact-list">
-                        <!-- Phone -->
-                        <div class="cta-contact-item">
-                            <div class="cta-icon-bubble">
-                                <i class="fas fa-phone-alt" style="transform: scaleX(-1);"></i>
-                            </div>
-                            <div class="cta-contact-info">
-                                <span class="cta-contact-title">Call us now</span>
-                                <span class="cta-contact-details"><a href="tel:+91 98404 78347">+91 98404 78347</a> <span style="color: #f97316;">|</span> <a href="tel:+91 63744 06179">+91 63744 06179</a></span>
-                            </div>
-                        </div>
-                        <!-- Email -->
-                        <div class="cta-contact-item">
-                            <div class="cta-icon-bubble">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="cta-contact-info">
-                                <span class="cta-contact-title">Email us</span>
-                                <span class="cta-contact-details"><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> <span style="color: #f97316;">|</span> <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cta-right">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="cta-btn cta-solid">Book Live Demo</a>
-                    <a href="#" class="cta-btn cta-outline"><i class="fas fa-cloud-upload-alt cta-cloud-icon"></i> Upload Scan Data</a>
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="cta-btn cta-solid">Talk to Automotive Experts</a>
-                    <a href="contact-us.php" class="cta-btn cta-outline">Contact Precise3DM</a>
-                </div>
-
             </div>
         </div>
     </section>

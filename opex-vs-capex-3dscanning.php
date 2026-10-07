@@ -346,10 +346,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
          <div class="social">
             <div class="email1">
-               <a href="mailto:sm@precise3dm.com" class="btn mail-btn">
+               <a href="tel:+919840478347" class="btn mail-btn">
                   <i class="fa-solid fa-phone text-white"></i>
                </a>
-               <p class="text-white">Call us now <br><span>Sales:</span> +91 98404 78347 |<span>3D Service:</span> +91 73959 72777 </p>
+               <p class="text-white">Call us now <br><span>Sales:</span> <a href="tel:+919840478347" style="color:white;text-decoration:none;">+91 98404 78347</a> |<span>3D Service:</span> <a href="tel:+917395972777" style="color:white;text-decoration:none;">+91 73959 72777</a> </p>
             </div>
          </div>
          <div class="row text-center">
@@ -365,10 +365,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
          <div class="social">
             <div class="email">
-               <a href="mailto:sm@precise3dm.com" class="btn mail-btn">
+               <a href="mailto:service@precise3dm.com" class="btn mail-btn">
                   <i class="fa-solid fa-envelope text-white"></i>
                </a>
-               <p class="text-white">Email us <br>service@precise3dm.com <span>|</span> sm@precise3dm.com </p>
+               <p class="text-white">Email us <br><a href="mailto:service@precise3dm.com" style="color:white;text-decoration:none;">service@precise3dm.com</a> <span>|</span> <a href="mailto:sm@precise3dm.com" style="color:white;text-decoration:none;">sm@precise3dm.com</a> </p>
             </div>
          </div>
       </div>

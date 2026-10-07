@@ -1,3 +1,22 @@
+/* ================== Typography: Inter for every text tag ==================
+   styles.css sets `* { font-family: "firasan-normal" }` and `strong { font-family: "firasan-bold" }`, and index.css only
+   re-applies Inter to h1-h6, p, span, a and div. A universal selector matches each element directly, so putting Inter on a
+   parent section does not reach <strong>, <small>, lists, buttons or form fields. This block closes that gap for the page content. */
+section strong,
+section b,
+section small,
+section em,
+section li,
+section label,
+section button,
+section input,
+section select,
+section textarea,
+section th,
+section td {
+    font-family: "Inter", sans-serif;
+}
+
 /* ==========================================================
    Global Variables & Base Styles (IMM specific)
    ========================================================== */

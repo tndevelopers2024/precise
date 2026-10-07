@@ -1,3 +1,22 @@
+/* ================== Typography: Inter for every text tag ==================
+   styles.css sets `* { font-family: "firasan-normal" }` and `strong { font-family: "firasan-bold" }`, and index.css only
+   re-applies Inter to h1-h6, p, span, a and div. A universal selector matches each element directly, so putting Inter on a
+   parent section does not reach <strong>, <small>, lists, buttons or form fields. This block closes that gap for the page content. */
+section strong,
+section b,
+section small,
+section em,
+section li,
+section label,
+section button,
+section input,
+section select,
+section textarea,
+section th,
+section td {
+    font-family: "Inter", sans-serif;
+}
+
 /* ==========================================================
    Electric Vehicle Manufacturing - Hero Section
    ========================================================== */
@@ -5,7 +24,7 @@
 .evm-hero-section {
     background-color: #ffffff;
     padding: 150px 0 60px;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
     position: relative;
     overflow: hidden;
 }
@@ -166,7 +185,7 @@
     background-color: #ffffff;
     padding: 20px 0;
     border-bottom: 1px solid #f1f5f9;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-statusbar-wrapper {
@@ -245,7 +264,7 @@
 .evm-mrp-section {
     background-color: #f8fafc;
     padding: 80px 0;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
     overflow: hidden;
 }
 
@@ -492,7 +511,7 @@
 .evm-op-section {
     background-color: #f8fafc;
     padding: 0 0 80px;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-op-inner {
@@ -793,7 +812,7 @@
 .evm-capex-section {
     background-color: #f8fafc;
     padding: 0 0 80px;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-capex-top-label {
@@ -1081,7 +1100,7 @@
 .evm-opex-section {
     background-color: #f8fafc;
     padding: 0 0 80px;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-opex-divider {
@@ -1354,7 +1373,7 @@
 .evm-boo-section {
     background-color: #f8fafc;
     padding: 0 0 80px;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-boo-grid {
@@ -1493,7 +1512,7 @@
 .evm-why-choose-section {
     background-color: #f8fafc;
     padding: 0 0 80px;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-wev-card {
@@ -1605,7 +1624,7 @@
 .evm-otp-section {
     background-color: #f8fafc;
     padding: 0 0 80px 0;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-otp-title {
@@ -1641,7 +1660,7 @@
 .evm-cta-section {
     background-color: #f8fafc;
     padding: 0 0 80px 0;
-    font-family: "Inter", "firasan-normal", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .evm-cta-wrapper {

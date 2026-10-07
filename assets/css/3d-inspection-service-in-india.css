@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,p,span,b,strong,small,td,th,a{
     align-items: center;
     min-height: 700px;
     color: #fff;
-    padding-top: 100px; /* Accounts for header */
+    padding-top: 185px; /* Accounts for header */
     overflow: hidden;
 }
 

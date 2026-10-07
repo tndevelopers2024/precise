@@ -269,7 +269,7 @@
 
                 <article class="blog-card" id="blog-card-small-parts">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-four/img1.png" alt="Best 3D Scanners for Small Parts and Their Costs">
+                        <img src="assets/images/blog20/img1.png" alt="Best 3D Scanners for Small Parts and Their Costs">
                         <span class="card-category">Metrology</span>
                     </div>
                     <div class="card-body">
@@ -282,7 +282,7 @@
 
                 <article class="blog-card" id="blog-card-5-in-1-nova">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-three/img1.png" alt="Why is FreeScan Trak Nova called a 5-in-1 3D scanner system?">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/hero-bg.jpeg" alt="Why is FreeScan Trak Nova called a 5-in-1 3D scanner system?">
                         <span class="card-category">Metrology</span>
                     </div>
                     <div class="card-body">
@@ -424,7 +424,8 @@
                 </article>
                 <article class="blog-card" id="blog-card-vega-problems">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-five/img2.png" alt="How Einstar Vega Solves Common Problems in Educational 3D Scanning">
+                        <img src="assets/images/einstar-vega-education/hero-bg.png" alt="How Einstar Vega Solves Common Problems in Educational 3D Scanning">
+                        <img src="assets/images/einstar-vega-education/hero-right.png" alt="Einstar Vega Scanner" class="hero-product-img" style="position: absolute; top: 5%; right: 5%; width: auto; height: 90%; object-fit: contain; z-index: 1;">
                         <span class="card-category">Education</span>
                     </div>
                     <div class="card-body">
@@ -437,7 +438,7 @@
 
                 <article class="blog-card" id="blog-card-vega-education">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-five/img1.png" alt="Why Einstar Vega is one of the best 3D Scanners for Education Institutions and Students">
+                        <img src="assets/images/blog-three/img1.png" alt="Why Einstar Vega is one of the best 3D Scanners for Education Institutions and Students">
                         <span class="card-category">Education</span>
                     </div>
                     <div class="card-body">
@@ -450,7 +451,7 @@
 
                 <article class="blog-card" id="blog-card-heritage-importance">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-two/img2.png" alt="Why is 3D Scanning used for Heritage Preservation?">
+                        <img src="assets/images/blog-two/img1.png" alt="Why is 3D Scanning used for Heritage Preservation?">
                         <span class="card-category">Heritage Preservation</span>
                     </div>
                     <div class="card-body">
@@ -463,7 +464,7 @@
 
                 <article class="blog-card" id="blog-card-heritage-best">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-two/img1.png" alt="Best 3D Scanners for Art and Heritage Preservation in 2026">
+                        <img src="assets/images/blog-one/image.png" alt="Best 3D Scanners for Art and Heritage Preservation in 2026">
                         <span class="card-category">Heritage Preservation</span>
                     </div>
                     <div class="card-body">
@@ -777,7 +778,8 @@
 
                 <article class="blog-card" id="blog-card-nurbs-parametric">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog23/img1.png" alt="Difference Between Nurbs Surface and Parametric Surface">
+                        <img src="assets/images/blog54/hero-bg.png" alt="Difference Between Nurbs Surface and Parametric Surface">
+                        <img src="assets/images/blog54/hero-right.png" alt="NURBS vs Parametric CAD Modeling" class="hero-product-img" style="position: absolute; top: 5%; right: 5%; width: auto; height: 90%; object-fit: contain; z-index: 1;">
                         <span class="card-category">Reverse Engineering</span>
                     </div>
                     <div class="card-body">

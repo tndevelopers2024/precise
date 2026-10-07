@@ -281,11 +281,11 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="prof-port-card">
                         <div class="port-img">
-                            <img src="assets/images/professional-3d-scanner/scanner2.png" alt="EinScan Libre">
+                            <img src="assets/images/professional-3d-scanner/einscan-track.png" alt="EinScan Libre">
                         </div>
                         <div class="port-content">
                             <div class="port-title">
-                                <h3>EinScan Libre</h3>
+                                <h3>EinScan Trak</h3>
                                 <img src="assets/images/professional-3d-scanner/build3.png" alt="Wifi" class="wifi-icon">
                             </div>
                             <p class="subtitle">True Freedom Scanning - No Limits</p>

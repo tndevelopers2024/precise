@@ -175,7 +175,7 @@
 
                         <div class="buttons">
                             <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Quote</a>
-                            <a href="https://www.precise3dm.com/contact-us.php" class="btn">Talk to an Expert</a>
+                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn">Talk to an Expert</a>
                         </div>
 
                         <div class="email-widget">

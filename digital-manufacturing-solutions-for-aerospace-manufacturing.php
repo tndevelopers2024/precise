@@ -15,6 +15,8 @@ $meta_description =
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Digital Manufacturing Solutions for Aerospace Manufacturing</title>
     <meta name="description" content="Buy metrology-grade 3D scanners in India for industrial inspection, reverse engineering, and quality control. High-accuracy handheld & laser 3D scanners from Precise3DM."/>
     <meta name="keywords" content="metrology 3D scanner, high-accuracy 3D scanning, industrial inspection scanner, precision 3D measurement, quality control scanner, handheld metrology scanner, automated 3D inspection, micron-level accuracy, Precise3DM" />
@@ -35,11 +37,15 @@ $meta_description =
 
     <link rel="canonical" href="https://www.precise3dm.com/digital-manufacturing-solutions-for-aerospace-manufacturing.php"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1, max-snippet:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="revisit-after" content="7 days" />
 
    <!--bootstrap css-->
    <link rel="stylesheet" href="assets/css/bootstrap.css">
    <!--owl css-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
    <link rel="stylesheet" type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
    <link rel="stylesheet" type="text/css"
@@ -48,6 +54,8 @@ $meta_description =
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
    <!--custom css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="assets/css/styles.css">
    <link rel="stylesheet" href="assets/css/index.css">

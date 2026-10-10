@@ -1,0 +1,1380 @@
+/* einscan-trak-3d-scanner-in-india.css */
+.trak-hero {
+    background-image: url('assets/images/einscan-trak-3d-scanner-in-india/et3dsii-heri-banner-img.png');
+    background-size: cover;
+    background-position: center right;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    min-height: 700px;
+}
+
+.trak-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(to right, #1b1b1b 75%, transparent 100%);
+    z-index: 1;
+}
+
+.trak-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.trak-hero .hero-left h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-family: Arial, sans-serif;
+    letter-spacing: -1px;
+}
+
+.trak-hero .hero-left h1 span {
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Arial Black', sans-serif;
+    letter-spacing: 0px;
+}
+
+.trak-hero .hero-left h2 {
+    color: #f7931e;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.trak-hero .hero-left h3 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.trak-hero .hero-left h4 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.trak-hero .hero-left p {
+    color: #d1d1d1;
+    font-size: 0.95rem;
+    margin-bottom: 18px;
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+.trak-hero .btn-orange {
+    background-color: #f7931e;
+    color: black;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #f7931e;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.trak-hero .btn-orange:hover {
+    background-color: #e07f15;
+    color: white;
+    text-decoration: none;
+}
+
+.trak-hero .btn-transparent {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #888;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.trak-hero .btn-transparent:hover {
+    background-color: #f7931e;
+    color: white;
+    border-color: #f7931e;
+    text-decoration: none;
+}
+
+/* Call Icon positioned relative to container, absolute to right */
+.trak-call-top {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.trak-call-top .call-icon,
+.trak-mail-bottom .mail-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f7931e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.trak-call-top .call-icon i,
+.trak-mail-bottom .mail-icon i {
+    color: white;
+    font-size: 18px;
+}
+
+.trak-call-top .call-text h5 {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+}
+
+.trak-call-top .call-text p {
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+}
+
+.trak-mail-bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.trak-mail-bottom .mail-text h5 {
+    font-size: 0.95rem;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.trak-mail-bottom .mail-text p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.trak-mail-bottom .mail-text p span {
+    margin: 0 5px;
+    color: #f7931e;
+}
+
+/* Link Styling */
+.trak-call-top .call-text p a,
+.trak-mail-bottom .mail-text p a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.trak-call-top .call-text p a:hover,
+.trak-mail-bottom .mail-text p a:hover {
+    text-decoration: none;
+    color: #f7931e;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+    .trak-hero {
+        background-position: left center;
+        padding-top: 10px;
+    }
+
+    .trak-call-top {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .trak-call-top .call-text h5,
+    .trak-call-top .call-text p {
+        color: white;
+        /* Make white on mobile as it moves to dark bg */
+    }
+
+    .trak-call-top .call-text p span {
+        margin: 0 5px;
+        color: #f7931e;
+    }
+
+    .trak-hero::before {
+        width: 100%;
+        background: linear-gradient(to right, #1b1b1b 60%, transparent 100%);
+        background-color: rgba(27, 27, 27, 0.7);
+        /* Darken image more on mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .trak-hero .btn-transparent {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+/* --- Action Section --- */
+.trak-action-section {
+    background-color: #f4f5f7;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+
+.trak-action-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+
+.trak-action-title span:first-child {
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.trak-action-title span:last-child {
+    color: #f7931e;
+}
+
+/* Owl Carousel Coverflow Effect */
+.trak-action-carousel {
+    padding: 20px 0;
+}
+
+.trak-action-carousel .owl-item {
+    transition: all 0.4s ease;
+    transform: scale(0.85);
+    opacity: 0.5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+}
+
+.trak-action-carousel .owl-item.center {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    pointer-events: auto;
+}
+
+.trak-action-carousel iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Custom Navigation Buttons */
+.trak-action-carousel .owl-nav button.owl-prev,
+.trak-action-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px !important;
+    height: 45px !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: white !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 20px !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    transition: all 0.3s ease;
+    z-index: 20;
+}
+
+.trak-action-carousel .owl-nav button.owl-prev:hover,
+.trak-action-carousel .owl-nav button.owl-next:hover {
+    background-color: #f7931e !important;
+}
+
+.trak-action-carousel .owl-nav button.owl-prev {
+    left: -1%;
+}
+
+.trak-action-carousel .owl-nav button.owl-next {
+    right: -1%;
+}
+
+/* Custom Video Thumbnail & Play Button */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.video-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+.custom-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    border: 2px solid #f7931e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 24px;
+    z-index: 5;
+    transition: all 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.trak-action-carousel .owl-item.center .custom-play-button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.custom-play-button i {
+    margin-left: 5px;
+    /* visually center play icon */
+}
+
+.video-wrapper:hover .custom-play-button {
+    background-color: rgba(247, 147, 30, 0.8);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+@media (max-width: 991px) {
+    .trak-action-carousel .owl-nav button.owl-prev {
+        left: -1%;
+    }
+
+    .trak-action-carousel .owl-nav button.owl-next {
+        right: -1%;
+    }
+
+    .trak-action-title {
+        font-size: 2rem;
+    }
+}
+
+/* System Section */
+.trak-system-section {
+    padding: 50px 0;
+    background-color: #ffff;
+}
+
+.trak-system-header h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.trak-system-header h2 span {
+    color: #f7931e;
+}
+
+.trak-system-header h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.trak-system-header p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.trak-system-banner {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.banner-main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.system-white-card {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 15px;
+    border-top: 6px solid #f7931e;
+    padding: 20px 25px;
+    width: 360px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.card-top-left {
+    top: 5%;
+    left: 4%;
+}
+
+.card-bottom-right {
+    bottom: 5%;
+    right: 4%;
+    width: 430px;
+}
+
+.card-title-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-icon {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    object-fit: contain;
+}
+
+.system-white-card h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #111;
+    margin: 0;
+}
+
+.system-white-card h3 span {
+    color: #f7931e;
+}
+
+.system-white-card p {
+    font-size: 13px !important;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.system-white-card p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+    .system-white-card {
+        width: 420px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .trak-system-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .system-white-card {
+        width: 350px;
+        padding: 15px;
+    }
+
+    .system-white-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card-icon {
+        height: 40px;
+    }
+
+    .card-top-left {
+        top: 4%;
+        left: 2%;
+    }
+
+    .card-bottom-right {
+        bottom: 4%;
+        right: 2%;
+    }
+}
+
+@media (max-width: 767px) {
+    .system-white-card {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .trak-system-banner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Key Features Section */
+.trak-features-section {
+    padding: 60px 0 80px 0;
+    background-color: #f4f5f7;
+}
+.trak-features-header h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #111;
+}
+
+/* Tabs */
+.features-tabs-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.feature-tab {
+    background-color: transparent;
+    border: 1.5px solid #f7931e;
+    color: #f7931e;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.feature-tab.active, .feature-tab:hover {
+    background-color: #f7931e;
+    color: #fff;
+}
+
+/* Feature Card */
+.feature-content-wrapper {
+    position: relative;
+}
+
+.feature-card {
+    position: relative;
+    background: linear-gradient(135deg, #0d0d0d 0%, #1a1511 100%);
+    border-radius: 20px;
+    border-left: 6px solid #f7931e;
+    padding: 50px;
+    z-index: 2;
+}
+
+.feature-text-col {
+    color: #fff;
+}
+
+.feature-title-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.feature-icon {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+.feature-title-wrap h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.2;
+}
+.feature-title-wrap h3 span {
+    color: #f7931e;
+}
+
+.feature-desc {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #eaeaea;
+}
+
+.feature-bullet {
+    margin-top: 25px;
+}
+.feature-bullet p {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin: 0;
+    color: #eaeaea;
+}
+.feature-bullet p span {
+    color: #f7931e;
+    font-weight: 700;
+    display: inline;
+}
+
+.feature-img-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .feature-card {
+        padding: 30px;
+    }
+    .feature-title-wrap h3 {
+        font-size: 1.5rem;
+    }
+    .feature-desc, .feature-bullet p {
+        font-size: 1rem;
+    }
+    .feature-img-col {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .feature-tab {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    .feature-icon {
+        width: 40px;
+        margin-right: 15px;
+    }
+    .feature-title-wrap h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Ecosystem Section */
+.trak-ecosystem-section {
+    padding: 60px 0;
+    background-color: #f4f5f7;
+}
+
+.eco-card-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+
+
+.eco-card {
+    position: relative;
+    border-radius: 20px;
+    padding: 40px;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.eco-card-dark {
+    background: linear-gradient(135deg, #0d0d0d 0%, #1a1511 100%);
+    border-top: 6px solid #f7931e;
+}
+
+.eco-card-light {
+    background-color: #fff;
+    border-top: 6px solid #f7931e;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.eco-card h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.eco-card-dark h3 {
+    color: #fff;
+}
+.eco-card-light h3 {
+    color: #111;
+}
+.eco-card h3 span {
+    color: #f7931e;
+}
+.eco-card-light h3 i {
+    font-style: italic;
+    color: #111;
+}
+
+.eco-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.eco-card-dark .eco-subtitle {
+    color: #d1d1d1;
+}
+.eco-card-light .eco-subtitle {
+    color: #333;
+    font-weight: 500;
+}
+
+.eco-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eco-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+.eco-list li:last-child {
+    margin-bottom: 0;
+}
+
+.eco-list img {
+    width: 45px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.eco-list-text h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.eco-card-dark .eco-list-text h4 {
+    color: #fff;
+}
+.eco-card-light .eco-list-text h4 {
+    color: #111;
+}
+
+.eco-list-text p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin: 0;
+}
+.eco-card-dark .eco-list-text p {
+    color: #eaeaea;
+}
+.eco-card-light .eco-list-text p {
+    color: #555;
+}
+
+@media (max-width: 991px) {
+    .eco-card {
+        padding: 30px;
+    }
+    .eco-card h3 {
+        font-size: 1.5rem;
+    }
+    .eco-list li {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tech Specs Section */
+.trak-specs-section {
+    padding: 60px 0 80px 0;
+    background-color: #f4f5f7;
+}
+
+.specs-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.trak-specs-header h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #111;
+    margin-bottom: 0;
+}
+.trak-specs-header h2 span {
+    color: #f7931e;
+}
+
+.table-wrapper {
+    border: 1.5px solid #e6e6e6;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.trak-specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trak-specs-table td {
+    padding: 20px 25px;
+    border-bottom: 1.5px solid #e6e6e6;
+    vertical-align: top;
+    font-size: 1.05rem;
+}
+
+.trak-specs-table tr:last-child td,
+.trak-specs-table tr:nth-last-child(2) td[rowspan] {
+    border-bottom: none;
+}
+
+.border-left-col {
+    border-left: 1.5px solid #e6e6e6;
+}
+
+.spec-key {
+    font-weight: 800;
+    color: #111;
+    width: 20%;
+}
+
+.spec-value {
+    color: #444;
+    width: 30%;
+    line-height: 1.6;
+}
+
+/* Responsive Table */
+@media (max-width: 991px) {
+    .specs-card {
+        padding: 30px 20px;
+    }
+    .trak-specs-header h2 {
+        font-size: 2rem;
+    }
+    
+    .trak-specs-table, .trak-specs-table tbody, .trak-specs-table tr, .trak-specs-table td {
+        display: block;
+        width: 100%;
+    }
+    .border-left-col {
+        border-left: none;
+    }
+    .trak-specs-table td {
+        border-bottom: none;
+        padding: 10px 20px;
+    }
+    .spec-key {
+        font-size: 1.1rem;
+        padding-top: 20px !important;
+    }
+    .spec-value {
+        padding-bottom: 20px !important;
+        border-bottom: 1.5px solid #e6e6e6 !important;
+    }
+    .trak-specs-table tr:last-child .spec-value:last-child {
+        border-bottom: none !important;
+    }
+}
+
+/* Scan to CAD Section */
+.trak-stc-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.stc-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.stc-text-area {
+    flex: 0 0 300px;
+    max-width: 300px;
+}
+
+.stc-text-area h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #111;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.stc-text-area h2 span {
+    color: #f7931e;
+}
+.stc-text-area h4 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 15px;
+}
+.stc-text-area p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.stc-cards-area {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.stc-card {
+    background-color: #fafafa;
+    border: 1.5px solid #f7931e;
+    border-radius: 12px;
+    padding: 15px 12px;
+    text-align: center;
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.stc-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.stc-card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.stc-card-body h5 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.stc-card-body p {
+    font-size: 0.85rem !important;
+    color: #555;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.stc-arrow {
+    color: #f7931e;
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: 'Arial', sans-serif;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .stc-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .stc-text-area {
+        flex: none;
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .stc-cards-area {
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 20px;
+    }
+    .stc-card {
+        min-width: 200px;
+    }
+}
+@media (max-width: 767px) {
+    .stc-cards-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .stc-card {
+        width: 100%;
+        max-width: 300px;
+    }
+    .stc-arrow {
+        transform: rotate(90deg);
+        margin: 15px 0;
+    }
+}
+
+/* Professional Applications Section */
+.trak-pa-section {
+    padding: 80px 0;
+    background-color: #f4f5f7;
+}
+
+.trak-section-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #111;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.trak-section-title span {
+    color: #f7931e;
+}
+
+.pa-card {
+    background-color: #fff;
+    border: 1.5px solid #f7931e;
+    border-radius: 15px;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.pa-card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pa-card-title {
+    color: #f7931e;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.pa-card-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.pa-card-img-wrapper {
+    margin-top: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pa-card-img-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Special styling for Card 6 */
+.pa-card-6 .w-60 {
+    width: 60%;
+    z-index: 2;
+    position: relative;
+}
+
+.pa-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.pa-list li {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.pa-list li i {
+    color: #f7931e;
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+.pa-img-6 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 90%;
+    max-width: 50%;
+    object-fit: contain;
+    object-position: bottom right;
+    z-index: 1;
+}
+
+@media (max-width: 991px) {
+    .trak-section-title {
+        font-size: 2rem;
+    }
+    .pa-card {
+        padding: 20px;
+    }
+    .pa-img-6 {
+        max-height: 80%;
+        opacity: 0.9;
+    }
+}
+@media (max-width: 575px) {
+    .pa-card-6 .w-60 {
+        width: 100%;
+    }
+    .pa-img-6 {
+        opacity: 0.2;
+        max-width: 100%;
+    }
+}
+
+/* Why Buy Section */
+.trak-wb-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.trak-wb-section .trak-section-title em {
+    font-style: italic;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+/* Subtitle Badge */
+.wb-subtitle-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wb-line {
+    flex-grow: 0;
+    width: 60px;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 15px;
+}
+
+.wb-badge {
+    background-color: #f7931e;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 4px 10px rgba(247, 147, 30, 0.3);
+}
+
+.wb-badge img {
+    height: 30px;
+    width: auto;
+}
+
+.wb-badge-divider {
+    display: inline-block;
+    width: 15px;
+}
+
+/* Card Styling */
+.wb-card {
+    background-color: #fff;
+    border-top: 4px solid #f7931e;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.wb-card:hover {
+    transform: translateY(-5px);
+}
+
+.wb-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.wb-card-body {
+    padding: 25px 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.wb-card-title {
+    color: #f7931e;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.wb-card-text {
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .wb-badge {
+        font-size: 0.95rem;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wb-line {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .wb-badge img {
+        height: 20px;
+    }
+}
+
+/* CTA Section */
+.trak-cta-section {
+    padding: 60px 0 100px 0;
+    background-color: #f8f9fa;
+}
+
+.trak-cta-banner {
+    background-color: #111;
+    background-image: url('assets/images/einscan-trak-3d-scanner-in-india/cta-banner-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 60px 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.trak-cta-banner::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.trak-cta-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.trak-cta-content h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.trak-cta-content h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.trak-cta-content p.cta-subtitle {
+    font-size: 1.05rem;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.trak-cta-content p.cta-desc {
+    font-size: 1.05rem;
+    color: #ddd;
+    margin-bottom: 35px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-trak-cta {
+    background: linear-gradient(180deg, #ffb64d 0%, #f7931e 100%);
+    color: #fff !important;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(247, 147, 30, 0.4);
+}
+
+.btn-trak-cta:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(180deg, #f7931e 0%, #f7931e 100%) !important;
+}
+
+@media (max-width: 767px) {
+    .trak-cta-banner {
+        padding: 40px 20px;
+    }
+    .trak-cta-content h2 {
+        font-size: 1.8rem;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .btn-trak-cta {
+        width: 100%;
+    }
+}

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/einscan-trak-3d-scanner-in-india.css?v=7">
+    <link rel="stylesheet" href="einscan-trak-3d-scanner-in-india.css?v=9">
 </head>
 
 <body>
@@ -130,28 +130,35 @@
                 <h4>LARGE-OBJECT TRACKING + INDEPENDENT HANDHELD SCANNING</h4>
                 <p>EinScan Trak is designed around a detachable scanner architecture.</p>
             </div>
-            
+
             <div class="trak-system-banner">
-                <img src="assets/images/einscan-trak-3d-scanner-in-india/ostsm-banner-img.png" alt="EinScan Trak Two Scanning Modes" class="img-fluid banner-main-img">
-                
+                <img src="assets/images/einscan-trak-3d-scanner-in-india/ostsm-banner-img.png"
+                    alt="EinScan Trak Two Scanning Modes" class="img-fluid banner-main-img">
+
                 <!-- Top Left White Card -->
                 <div class="system-white-card card-top-left">
                     <div class="card-title-row">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/ostsm-top-left-img.png" alt="Tracking Mode Icon" class="card-icon">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/ostsm-top-left-img.png"
+                            alt="Tracking Mode Icon" class="card-icon">
                         <h3>TRACKING <span>MODE</span></h3>
                     </div>
-                    <p>Use the tracker and scanner together to digitize large objects within a tracking volume of up to 15 m³.</p>
-                    <p>The system continuously tracks the scanner position, allowing you to scan large surfaces without needing reflective tracking markers on the object.</p>
+                    <p>Use the tracker and scanner together to digitize large objects within a tracking volume of up to
+                        15 m³.</p>
+                    <p>The system continuously tracks the scanner position, allowing you to scan large surfaces without
+                        needing reflective tracking markers on the object.</p>
                 </div>
 
                 <!-- Bottom Right White Card -->
                 <div class="system-white-card card-bottom-right">
                     <div class="card-title-row">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/ostsm-bottom-right-img.png" alt="Handheld Mode Icon" class="card-icon">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/ostsm-bottom-right-img.png"
+                            alt="Handheld Mode Icon" class="card-icon">
                         <h3>HANDHELD SCANNER <span>MODE</span></h3>
                     </div>
-                    <p>Detach the scanner and use it independently for smaller components, confined areas and detailed features.</p>
-                    <p>The handheld scanner can operate without recalibration after detachment, giving you greater flexibility when moving between large-area tracking and detail capture.</p>
+                    <p>Detach the scanner and use it independently for smaller components, confined areas and detailed
+                        features.</p>
+                    <p>The handheld scanner can operate without recalibration after detachment, giving you greater
+                        flexibility when moving between large-area tracking and detail capture.</p>
                 </div>
             </div>
         </div>
@@ -163,39 +170,209 @@
             <div class="text-center mb-5 trak-features-header">
                 <h2>KEY FEATURES</h2>
             </div>
-            
+
             <!-- Features Tabs -->
             <div class="features-tabs-container">
-                <button class="feature-tab active">Wireless 3D Scanning</button>
-                <button class="feature-tab">Marker Free Scanning</button>
-                <button class="feature-tab">Three Scanning Modes</button>
-                <button class="feature-tab">Professional 3D Scanning</button>
-                <button class="feature-tab">5MP True Color</button>
+                <button class="feature-tab active" data-tab="tab-1">Wireless 3D Scanning</button>
+                <button class="feature-tab" data-tab="tab-2">Marker Free Scanning</button>
+                <button class="feature-tab" data-tab="tab-3">Three Scanning Modes</button>
+                <button class="feature-tab" data-tab="tab-4">Professional 3D Scanning</button>
+                <button class="feature-tab" data-tab="tab-5">5MP True Color</button>
             </div>
 
             <!-- Feature Content Card -->
             <div class="feature-content-wrapper">
-                <div class="feature-card">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 feature-text-col">
-                            <div class="feature-title-wrap">
-                                <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-left-icon.png" alt="Wifi Icon" class="feature-icon">
-                                <h3>Wireless 3D Scanning <span>without the cable</span></h3>
+                <!-- Tab 1: Wireless 3D Scanning -->
+                <div class="feature-tab-pane active" id="tab-1">
+                    <div class="feature-card feature-card-dark">
+                        <div class="row align-items-center g-0">
+                            <div class="col-lg-6 feature-text-col">
+                                <div class="feature-title-wrap">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-left-icon.png"
+                                        alt="Wifi Icon" class="feature-icon">
+                                    <h3>Wireless 3D Scanning <span>without the cable</span></h3>
+                                </div>
+
+                                <p class="feature-desc">EinScan Trak incorporates Wi-Fi 6 wireless connectivity for a
+                                    cable-free scanning experience.</p>
+                                <p class="feature-desc">The tracker and scanner communicate through a dedicated network,
+                                    with a router included as standard.</p>
+
+                                <div class="feature-bullet">
+                                    <p><span>Up to 15 m³ Tracking Volume</span> Freedom to move around vehicle-sized
+                                        objects and other large components.</p>
+                                </div>
+
+                                <div class="feature-bullet">
+                                    <p><span>Up to 5.5 Hours Battery Life</span> Supports up to 5.5 hours of battery
+                                        operation and hot-swappable batteries.</p>
+                                </div>
                             </div>
-                            
-                            <p class="feature-desc">EinScan Trak incorporates Wi-Fi 6 wireless connectivity for a cable-free scanning experience.</p>
-                            <p class="feature-desc">The tracker and scanner communicate through a dedicated network, with a router included as standard.</p>
-                            
-                            <div class="feature-bullet">
-                                <p><span>Up to 15 m³ Tracking Volume</span> Freedom to move around vehicle-sized objects and other large components.</p>
-                            </div>
-                            
-                            <div class="feature-bullet">
-                                <p><span>Up to 5.5 Hours Battery Life</span> Supports up to 5.5 hours of battery operation and hot-swappable batteries.</p>
+                            <div class="col-lg-6 feature-img-col p-4 text-center">
+                                <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-right-img.png"
+                                    alt="Wireless Tracking Vehicle" class="img-fluid">
                             </div>
                         </div>
-                        <div class="col-lg-6 feature-img-col">
-                            <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-right-img.png" alt="Wireless Tracking Vehicle" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- Tab 2: Marker Free Scanning -->
+                <div class="feature-tab-pane" id="tab-2">
+                    <div class="feature-card feature-card-light">
+                        <div class="row align-items-stretch g-0">
+                            <div class="col-lg-6 feature-text-col">
+                                <div class="feature-title-wrap">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab2-left-icon.png"
+                                        alt="Marker Free Icon" class="feature-icon">
+                                    <h3><span class="text-orange">Marker Free</span> 3D Scanning</h3>
+                                </div>
+
+                                <p class="feature-desc">Built-in retroreflective markers on the spheric scanner module
+                                    allow the tracker to determine the scanner's position without placing marker on the
+                                    object.</p>
+
+                                <ul class="feature-checklist">
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Less Preparation</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Faster Setup</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Greater Freedom of
+                                            Movement</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Cleaner Scanning Workflow</span>
+                                    </li>
+                                </ul>
+
+                                <p class="feature-note">Markers can still be used for large multi-pass projects or
+                                    objects with limited features.</p>
+                            </div>
+                            <div class="col-lg-6 feature-img-col">
+                                <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab2-right-img.png"
+                                    alt="Marker Free 3D Scanning" class="img-fluid feature-bleed-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Three Scanning Modes -->
+                <div class="feature-tab-pane" id="tab-3">
+                    <div class="feature-card feature-card-dark">
+                        <div class="row align-items-stretch g-0">
+                            <div class="col-lg-6 feature-text-col">
+                                <div class="feature-title-wrap">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab3-left-icon.png"
+                                        alt="Three Scanning Modes Icon" class="feature-icon">
+                                    <h3>Three Laser <span class="text-orange">Scanning Modes</span></h3>
+                                </div>
+
+                                <div class="feature-mode-list">
+                                    <div class="feature-mode-item">
+                                        <h4 class="mode-title">19 + 19 Crossed Laser Lines</h4>
+                                        <p class="mode-desc">High-Speed Scanning Designed for efficient acquisition of
+                                            large objects and surfaces.</p>
+                                    </div>
+                                    <div class="feature-mode-item">
+                                        <h4 class="mode-title">7 Parallel Laser Lines</h4>
+                                        <p class="mode-desc">Detailed Scanning Capture lines, edges and detailed
+                                            features with greater clarity.</p>
+                                    </div>
+                                    <div class="feature-mode-item">
+                                        <h4 class="mode-title">Single Laser Line</h4>
+                                        <p class="mode-desc">Deep-Pocket Scanning Reach deeper features with a 1:4
+                                            diameter-to-depth ratio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 feature-img-col">
+                                <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab3-right-img.png"
+                                    alt="Three Laser Scanning Modes" class="img-fluid feature-bleed-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Professional 3D Scanning -->
+                <div class="feature-tab-pane" id="tab-4">
+                    <div class="feature-card feature-card-light">
+                        <div class="row align-items-stretch g-0">
+                            <div class="col-lg-6 feature-text-col">
+                                <div class="feature-title-wrap">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon1.png"
+                                        alt="Professional 3D Scanning Icon" class="feature-icon">
+                                    <h3><span class="text-orange">Professional 3D Scanning<br>Performance</span></h3>
+                                </div>
+
+                                <div class="tab4-specs-list">
+                                    <div class="tab4-spec-item">
+                                        <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon2.png"
+                                            alt="Points/s Icon" class="tab4-icon">
+                                        <p><strong>Up to 2,630,000 points/s</strong> High-speed data acquisition</p>
+                                    </div>
+                                    <div class="tab4-spec-item">
+                                        <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon3.png"
+                                            alt="Resolution Icon" class="tab4-icon">
+                                        <p><strong>0.05 – 10 mm Resolution</strong> Flexible resolution selection</p>
+                                    </div>
+                                    <div class="tab4-spec-item">
+                                        <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon4.png"
+                                            alt="Accuracy Icon" class="tab4-icon">
+                                        <p><strong>Up to 0.1 mm Volumetric Accuracy</strong> Professional tracking-mode
+                                            accuracy</p>
+                                    </div>
+                                    <div class="tab4-spec-item">
+                                        <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon5.png"
+                                            alt="Texture Camera Icon" class="tab4-icon">
+                                        <p><strong>5MP HD Texture Camera</strong> High-definition colour & material
+                                            capture</p>
+                                    </div>
+                                    <div class="tab4-spec-item">
+                                        <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon6.png"
+                                            alt="Lux Icon" class="tab4-icon">
+                                        <p><strong>Up to 110,000 Lux</strong> Works in strong indoor & outdoor light</p>
+                                    </div>
+                                    <div class="tab4-spec-item">
+                                        <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-left-icon7.png"
+                                            alt="Surfaces Icon" class="tab4-icon">
+                                        <p><strong>Black & Reflective Surfaces</strong> Scan challenging materials
+                                            including black and reflective surfaces.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 feature-img-col">
+                                <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab4-right-img.png"
+                                    alt="Professional 3D Scanning Performance" class="img-fluid feature-bleed-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 5: 5MP True Color -->
+                <div class="feature-tab-pane" id="tab-5">
+                    <div class="feature-card feature-card-dark">
+                        <div class="row align-items-stretch g-0">
+                            <div class="col-lg-6 feature-text-col">
+                                <div class="feature-title-wrap">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab5-left-icon.png"
+                                        alt="5MP True Color Icon" class="feature-icon">
+                                    <h3>5MP True Color <span class="text-orange">3D Capture</span></h3>
+                                </div>
+
+                                <p class="feature-desc">EinScan Trak incorporates a <span
+                                        class="text-orange fw-bold">5MP texture camera</span> for high-definition
+                                    texture acquisition</p>
+
+                                <ul class="feature-checklist feature-checklist-dark">
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Object geometry</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Surface colour</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Material appearance</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Visual details</span></li>
+                                    <li><i class="fa-solid fa-circle-check"></i> <span>Texture information</span></li>
+                                </ul>
+
+                                <p class="feature-note">Ideal for heritage preservation, research, visualization and
+                                    AR/VR content creation.</p>
+                            </div>
+                            <div class="col-lg-6 feature-img-col">
+                                <img src="assets/images/einscan-trak-3d-scanner-in-india/kf-tab5-right-img.png"
+                                    alt="5MP True Color 3D Capture" class="img-fluid feature-bleed-img">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,52 +390,59 @@
                         <div class="eco-card eco-card-dark">
                             <h3>COMPATIBLE SOFTWARE <span>ECOSYSTEM</span></h3>
                             <p class="eco-subtitle">EinScan Trak supports workflows with:</p>
-                            
+
                             <ul class="eco-list eco-list-dark">
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon1.png" alt="EXScan Trak">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon1.png"
+                                        alt="EXScan Trak">
                                     <div class="eco-list-text">
                                         <h4>EXScan Trak</h4>
                                         <p>Scanning and 3D data acquisition</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon2.png" alt="EXMeasure">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon2.png"
+                                        alt="EXMeasure">
                                     <div class="eco-list-text">
                                         <h4>EXMeasure</h4>
                                         <p>3D measurement and dimensional analysis</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon3.png" alt="EXModel">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon3.png"
+                                        alt="EXModel">
                                     <div class="eco-list-text">
                                         <h4>EXModel</h4>
                                         <p>Reverse engineering and CAD modelling</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon4.png" alt="Geomagic Design X">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon4.png"
+                                        alt="Geomagic Design X">
                                     <div class="eco-list-text">
                                         <h4>Geomagic Design X</h4>
                                         <p>Advanced scan-to-CAD workflows</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon5.png" alt="Geomagic Control X">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon5.png"
+                                        alt="Geomagic Control X">
                                     <div class="eco-list-text">
                                         <h4>Geomagic Control X</h4>
                                         <p>3D inspection and verification</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon6.png" alt="PolyWorks Inspector">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon6.png"
+                                        alt="PolyWorks Inspector">
                                     <div class="eco-list-text">
                                         <h4>PolyWorks Inspector</h4>
                                         <p>PolyWorks InspectorProfessional dimensional inspection</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon7.png" alt="BlueStar Mapping">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-left-card-icon7.png"
+                                        alt="BlueStar Mapping">
                                     <div class="eco-list-text">
                                         <h4>BlueStar Mapping</h4>
                                         <p>Texture mapping workflows</p>
@@ -275,38 +459,44 @@
                         <div class="eco-card eco-card-light">
                             <h3>EinScan <i>TRAK</i> VS <span>CONVENTIONAL</span></h3>
                             <p class="eco-subtitle">Built Around the EinScan Trak Workflow</p>
-                            
+
                             <ul class="eco-list eco-list-light">
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon1.png" alt="Smart Mode Switching">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon1.png"
+                                        alt="Smart Mode Switching">
                                     <div class="eco-list-text">
                                         <h4>Smart Mode Switching</h4>
-                                        <p>Move between different scan patterns and scanning resolutions according to the object and application.</p>
+                                        <p>Move between different scan patterns and scanning resolutions according to
+                                            the object and application.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon2.png" alt="Cross-Mode Resolution Merging">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon2.png"
+                                        alt="Cross-Mode Resolution Merging">
                                     <div class="eco-list-text">
                                         <h4>Cross-Mode Resolution Merging</h4>
                                         <p>Combine data captured using different scanning modes and resolutions.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon3.png" alt="Real-Time Laser & Resolution Switching">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon3.png"
+                                        alt="Real-Time Laser & Resolution Switching">
                                     <div class="eco-list-text">
                                         <h4>Real-Time Laser & Resolution Switching</h4>
                                         <p>Adjust scanning parameters during the workflow.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon4.png" alt="Advanced Data Editing">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon4.png"
+                                        alt="Advanced Data Editing">
                                     <div class="eco-list-text">
                                         <h4>Advanced Data Editing</h4>
                                         <p>Process and edit captured 3D data efficiently.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon5.png" alt="Real-Time Scan Feedback">
+                                    <img src="assets/images/einscan-trak-3d-scanner-in-india/ec-right-card-icon5.png"
+                                        alt="Real-Time Scan Feedback">
                                     <div class="eco-list-text">
                                         <h4>Real-Time Scan Feedback</h4>
                                         <p>Monitor your scanning progress while capturing the object.</p>
@@ -327,7 +517,7 @@
                 <div class="text-center mb-5 trak-specs-header">
                     <h2>TECHNICAL <span>SPECIFICATIONS</span></h2>
                 </div>
-                
+
                 <div class="table-wrapper">
                     <table class="trak-specs-table">
                         <tbody>
@@ -351,9 +541,11 @@
                             </tr>
                             <tr>
                                 <td class="spec-key">Max. FOV</td>
-                                <td class="spec-value">Tracking mode: 4796 &times; 4174 mm @4000mm<br>Handheld scanner mode: 547 &times; 463 mm @500mm</td>
+                                <td class="spec-value">Tracking mode: 4796 &times; 4174 mm @4000mm<br>Handheld scanner
+                                    mode: 547 &times; 463 mm @500mm</td>
                                 <td class="spec-key border-left-col">Net weight</td>
-                                <td class="spec-value">Tracker: 1.02 kg<br>Spherical scanner: 1.46 kg<br>Handheld scanner: 0.48 kg</td>
+                                <td class="spec-value">Tracker: 1.02 kg<br>Spherical scanner: 1.46 kg<br>Handheld
+                                    scanner: 0.48 kg</td>
                             </tr>
                             <tr>
                                 <td class="spec-key" rowspan="2">Camera Resolution</td>
@@ -381,7 +573,7 @@
                     <h4>Build More Than a Mesh</h4>
                     <p>EinScan Trak works as part of a complete digital manufacturing workflow.</p>
                 </div>
-                
+
                 <div class="stc-cards-area">
                     <div class="stc-card">
                         <img src="assets/images/einscan-trak-3d-scanner-in-india/stc-img1.png" alt="Capture">
@@ -390,9 +582,9 @@
                             <p>Acquire high-quality 3D data using marker-free tracking scanning.</p>
                         </div>
                     </div>
-                    
+
                     <div class="stc-arrow">&gt;</div>
-                    
+
                     <div class="stc-card">
                         <img src="assets/images/einscan-trak-3d-scanner-in-india/stc-img2.png" alt="Process">
                         <div class="stc-card-body">
@@ -400,9 +592,9 @@
                             <p>Clean, align and prepare the scan data.</p>
                         </div>
                     </div>
-                    
+
                     <div class="stc-arrow">&gt;</div>
-                    
+
                     <div class="stc-card">
                         <img src="assets/images/einscan-trak-3d-scanner-in-india/stc-img3.png" alt="Reverse Engineer">
                         <div class="stc-card-body">
@@ -410,9 +602,9 @@
                             <p>Convert scan data into CAD geometry.</p>
                         </div>
                     </div>
-                    
+
                     <div class="stc-arrow">&gt;</div>
-                    
+
                     <div class="stc-card">
                         <img src="assets/images/einscan-trak-3d-scanner-in-india/stc-img4.png" alt="Validate">
                         <div class="stc-card-body">
@@ -420,14 +612,15 @@
                             <p>Measure and compare against models or design requirements.</p>
                         </div>
                     </div>
-                    
+
                     <div class="stc-arrow">&gt;</div>
-                    
+
                     <div class="stc-card">
                         <img src="assets/images/einscan-trak-3d-scanner-in-india/stc-img5.png" alt="Manufacture">
                         <div class="stc-card-body">
                             <h5>MANUFACTURE</h5>
-                            <p>Use the resulting CAD data for design modification, tooling, manufacturing or further engineering.</p>
+                            <p>Use the resulting CAD data for design modification, tooling, manufacturing or further
+                                engineering.</p>
                         </div>
                     </div>
                 </div>
@@ -441,75 +634,83 @@
             <div class="text-center mb-5">
                 <h2 class="trak-section-title">DESIGNED FOR PROFESSIONAL <span>APPLICATIONS</span></h2>
             </div>
-            
+
             <div class="row">
                 <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pa-card">
                         <div class="pa-card-content">
                             <h3 class="pa-card-title">REVERSE ENGINEERING</h3>
-                            <p class="pa-card-text">Capture complex mechanical components, decommissioned parts, vehicle components and large assemblies for scan-to-CAD workflows.</p>
+                            <p class="pa-card-text">Capture complex mechanical components, decommissioned parts, vehicle
+                                components and large assemblies for scan-to-CAD workflows.</p>
                             <p class="pa-card-text fw-bold">Scan &rarr; Mesh &rarr; CAD &rarr; Manufacturing</p>
                         </div>
                         <div class="pa-card-img-wrapper">
-                            <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img11.png" alt="Reverse Engineering">
+                            <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img11.png"
+                                alt="Reverse Engineering">
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pa-card">
                         <div class="pa-card-content">
                             <h3 class="pa-card-title">AUTOMOTIVE &amp; VEHICLE CUSTOMIZATION</h3>
-                            <p class="pa-card-text">Digitize vehicles, body panels, wheels, interiors, custom components and complex surfaces for modification, customization and more.</p>
+                            <p class="pa-card-text">Digitize vehicles, body panels, wheels, interiors, custom components
+                                and complex surfaces for modification, customization and more.</p>
                         </div>
                         <div class="pa-card-img-wrapper">
                             <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img12.png" alt="Automotive">
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pa-card">
                         <div class="pa-card-content">
                             <h3 class="pa-card-title">LARGE-OBJECT DIGITIZATION</h3>
-                            <p class="pa-card-text">The large tracking volume makes EinScan Trak suitable for digitizing vehicle-sized and other large industrial objects.</p>
-                            <p class="pa-card-text">For larger objects, the tracker can be repositioned to extend the scanning area.</p>
+                            <p class="pa-card-text">The large tracking volume makes EinScan Trak suitable for digitizing
+                                vehicle-sized and other large industrial objects.</p>
+                            <p class="pa-card-text">For larger objects, the tracker can be repositioned to extend the
+                                scanning area.</p>
                         </div>
                         <div class="pa-card-img-wrapper">
                             <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img13.png" alt="Large Object">
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 4 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pa-card">
                         <div class="pa-card-content">
                             <h3 class="pa-card-title">PRODUCT &amp; INDUSTRIAL DESIGN</h3>
-                            <p class="pa-card-text">Use the resulting 3D data for product development, design iteration and manufacturing workflows.</p>
+                            <p class="pa-card-text">Use the resulting 3D data for product development, design iteration
+                                and manufacturing workflows.</p>
                         </div>
                         <div class="pa-card-img-wrapper">
                             <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img14.png" alt="Product Design">
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 5 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pa-card">
                         <div class="pa-card-content">
                             <h3 class="pa-card-title">CULTURAL HERITAGE &amp; ART</h3>
-                            <p class="pa-card-text">Capture sculptures, artefacts, reliefs and architectural details without needing to apply markers directly across valuable surfaces.</p>
+                            <p class="pa-card-text">Capture sculptures, artefacts, reliefs and architectural details
+                                without needing to apply markers directly across valuable surfaces.</p>
                         </div>
                         <div class="pa-card-img-wrapper">
-                            <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img15.png" alt="Cultural Heritage">
+                            <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img15.png"
+                                alt="Cultural Heritage">
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 6 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pa-card pa-card-6">
@@ -525,7 +726,8 @@
                                 <li><i class="fa-solid fa-circle-check"></i> Interactive experiences</li>
                             </ul>
                         </div>
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img16.png" class="pa-img-6" alt="AR VR">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/pa-img16.png" class="pa-img-6"
+                            alt="AR VR">
                     </div>
                 </div>
             </div>
@@ -538,7 +740,7 @@
             <div class="text-center mb-4">
                 <h2 class="trak-section-title">WHY BUY EinScan <em>TRAK</em> FROM <span>PRECISE3DM INDIA?</span></h2>
             </div>
-            
+
             <div class="wb-subtitle-wrapper mb-5">
                 <div class="wb-line"></div>
                 <div class="wb-badge">
@@ -549,70 +751,81 @@
                 </div>
                 <div class="wb-line"></div>
             </div>
-            
+
             <div class="row">
                 <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
                     <div class="wb-card w-100">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img1.png" class="wb-card-img" alt="Local Product Demonstrations">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img1.png" class="wb-card-img"
+                            alt="Local Product Demonstrations">
                         <div class="wb-card-body">
                             <h3 class="wb-card-title">Local Product<br>Demonstrations</h3>
-                            <p class="wb-card-text">See EinScan Trak scanning your actual component before making a purchase decision.</p>
+                            <p class="wb-card-text">See EinScan Trak scanning your actual component before making a
+                                purchase decision.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
                     <div class="wb-card w-100">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img2.png" class="wb-card-img" alt="Application Engineering">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img2.png" class="wb-card-img"
+                            alt="Application Engineering">
                         <div class="wb-card-body">
                             <h3 class="wb-card-title">Application Engineering</h3>
-                            <p class="wb-card-text">Our team can help determine whether EinScan Trak is suitable for your project, workflows and dimension/ CAD inspection requirements.</p>
+                            <p class="wb-card-text">Our team can help determine whether EinScan Trak is suitable for
+                                your project, workflows and dimension/ CAD inspection requirements.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
                     <div class="wb-card w-100">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img3.png" class="wb-card-img" alt="Scan-to-CAD Support">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img3.png" class="wb-card-img"
+                            alt="Scan-to-CAD Support">
                         <div class="wb-card-body">
                             <h3 class="wb-card-title">Scan-to-CAD Support</h3>
-                            <p class="wb-card-text">Get expert help selecting the scanner. Build a complete workflow from 3D scanning to reverse engineering and CAD.</p>
+                            <p class="wb-card-text">Get expert help selecting the scanner. Build a complete workflow
+                                from 3D scanning to reverse engineering and CAD.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 4 -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
                     <div class="wb-card w-100">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img4.png" class="wb-card-img" alt="Software Integration">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img4.png" class="wb-card-img"
+                            alt="Software Integration">
                         <div class="wb-card-body">
                             <h3 class="wb-card-title">Software Integration</h3>
-                            <p class="wb-card-text">We can help configure the appropriate software environment for reverse engineering, measurement and inspection.</p>
+                            <p class="wb-card-text">We can help configure the appropriate software environment for
+                                reverse engineering, measurement and inspection.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 5 -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
                     <div class="wb-card w-100">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img5.png" class="wb-card-img" alt="Training & Deployment">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img5.png" class="wb-card-img"
+                            alt="Training & Deployment">
                         <div class="wb-card-body">
                             <h3 class="wb-card-title">Training &amp; Deployment</h3>
                             <p class="wb-card-text">Get practical training for engineering and scanning teams.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 6 -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
                     <div class="wb-card w-100">
-                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img6.png" class="wb-card-img" alt="Service & Technical Support">
+                        <img src="assets/images/einscan-trak-3d-scanner-in-india/wb-img6.png" class="wb-card-img"
+                            alt="Service & Technical Support">
                         <div class="wb-card-body">
                             <h3 class="wb-card-title">Service &amp; Technical<br>Support</h3>
-                            <p class="wb-card-text">Local support for installation, workflow configuration, troubleshooting and application requirements.</p>
+                            <p class="wb-card-text">Local support for installation, workflow configuration,
+                                troubleshooting and application requirements.</p>
                         </div>
                     </div>
                 </div>
@@ -628,12 +841,13 @@
                     <h2>BOOK A LIVE EINSCAN TRAK DEMONSTRATION</h2>
                     <h4>See the New Wireless Tracking System on Your Own Component.</h4>
                     <p class="cta-subtitle">Don't decide based only on specifications.</p>
-                    <p class="cta-desc">Bring your actual component, vehicle part, prototype or industrial object and see how EinScan Trak performs in a real application.</p>
-                    
+                    <p class="cta-desc">Bring your actual component, vehicle part, prototype or industrial object and
+                        see how EinScan Trak performs in a real application.</p>
+
                     <div class="cta-buttons">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-trak-cta">SCHEDULE A LIVE DEMO</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-trak-cta">REQUEST A TECHNICAL CONSULTATION</a>
-                        <a href="scanning-solution-form.php" class="btn btn-trak-cta">REQUEST INDIA PRICING</a>
+                        <a href="#" class="btn btn-trak-cta">SCHEDULE A LIVE DEMO</a>
+                        <a href="#" class="btn btn-trak-cta">REQUEST A TECHNICAL CONSULTATION</a>
+                        <a href="#" class="btn btn-trak-cta">REQUEST INDIA PRICING</a>
                     </div>
                 </div>
             </div>
@@ -671,6 +885,41 @@
                 $(this).html(iframeHtml);
             });
         });
+
+        // Features Tabs Switching (Independent Pure JS)
+        (function () {
+            function initFeatureTabs() {
+                var featureTabBtns = document.querySelectorAll('.feature-tab');
+                var featureTabPanes = document.querySelectorAll('.feature-tab-pane');
+
+                featureTabBtns.forEach(function (btn) {
+                    btn.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        var targetId = this.getAttribute('data-tab');
+                        if (!targetId) return;
+
+                        featureTabBtns.forEach(function (b) {
+                            b.classList.remove('active');
+                        });
+                        this.classList.add('active');
+
+                        featureTabPanes.forEach(function (pane) {
+                            pane.classList.remove('active');
+                        });
+                        var targetPane = document.getElementById(targetId);
+                        if (targetPane) {
+                            targetPane.classList.add('active');
+                        }
+                    });
+                });
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initFeatureTabs);
+            } else {
+                initFeatureTabs();
+            }
+        })();
     </script>
 </body>
 

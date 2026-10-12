@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="einscan-trak-3d-scanner-in-india.css?v=7">
+    <link rel="stylesheet" href="assets/css/einscan-trak-3d-scanner-in-india.css?v=7">
 </head>
 
 <body>
@@ -631,9 +631,9 @@
                     <p class="cta-desc">Bring your actual component, vehicle part, prototype or industrial object and see how EinScan Trak performs in a real application.</p>
                     
                     <div class="cta-buttons">
-                        <a href="#" class="btn btn-trak-cta">SCHEDULE A LIVE DEMO</a>
-                        <a href="#" class="btn btn-trak-cta">REQUEST A TECHNICAL CONSULTATION</a>
-                        <a href="#" class="btn btn-trak-cta">REQUEST INDIA PRICING</a>
+                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-trak-cta">SCHEDULE A LIVE DEMO</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-trak-cta">REQUEST A TECHNICAL CONSULTATION</a>
+                        <a href="scanning-solution-form.php" class="btn btn-trak-cta">REQUEST INDIA PRICING</a>
                     </div>
                 </div>
             </div>

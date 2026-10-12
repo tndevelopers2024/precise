@@ -282,7 +282,7 @@
 
                 <article class="blog-card" id="blog-card-5-in-1-nova">
                     <div class="card-img-wrap">
-                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/hero-bg.jpeg" alt="Why is FreeScan Trak Nova called a 5-in-1 3D scanner system?">
+                        <img src="assets/images/blog-26-freescan-trak-nova-5-functionality-in-1-device/hero-bg.png" alt="Why is FreeScan Trak Nova called a 5-in-1 3D scanner system?">
                         <span class="card-category">Metrology</span>
                     </div>
                     <div class="card-body">

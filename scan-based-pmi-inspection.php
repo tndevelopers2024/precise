@@ -84,13 +84,11 @@ ini_set('max_execution_time', '-1');
                         on Scan Data
                     </p>
 
-                    <div class="sbpi-hero-buttons d-flex flex-wrap mb-4">
-                        <a href="Get-3d-scan-service-quote.php" style="text-decoration: none;">
-                            <button type="button" class="sbpi-btn-primary">Request Inspection Service</button>
-                        </a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" style="text-decoration: none;">
-                            <button type="button" class="sbpi-btn-primary">Schedule Live Demo</button>
-                        </a>
+                    <!-- Buttons -->
+                    <div class="d-flex flex-wrap gap-3 mb-5" style="gap: 12px;">
+                        <a href="3d-inspection-software-in-india.php" class="sca-hero-btn">3D Inspection software</a>
+                        <a href="Get-3d-scan-service-quote.php" class="sca-hero-btn">Request a Quote</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="sca-hero-btn">Book a Live Demo</a>
                     </div>
 
                     <!-- Email Section Directly Below Buttons -->

@@ -92,30 +92,30 @@
     margin-bottom: 35px;
 }
 
-.hero-cta-buttons {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 45px;
-    flex-wrap: wrap;
-}
-
-.btn-live-demo {
-    background: linear-gradient(to bottom, #ffaa45, #f68923);
-    color: #ffffff;
-    padding: 12px 26px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 700;
+/* Hero Buttons */
+.sca-hero-btn {
+    background-color: #FF931E;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
     text-decoration: none;
-    box-shadow: 0 4px 15px rgba(246, 137, 35, 0.4);
-    transition: all 0.3s ease;
-    border: none;
-    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.btn-live-demo:hover {
+.sca-hero-btn:hover {
+    background-color: #e58219;
+    color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(246, 137, 35, 0.6);
-    color: #ffffff;
+    text-decoration: none;
+}
+@media (max-width: 991px) {
+    .sca-hero-btn {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .flex-row-center {

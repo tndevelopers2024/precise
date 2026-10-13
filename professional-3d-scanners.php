@@ -299,7 +299,7 @@
                             <div class="best-for">
                                 <strong>Best for:</strong> Field Scanning, Automotive, Design
                             </div>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="prof-btn prof-btn-primary w-100 mt-auto">Know More</a>
+                            <a href="einscan-trak-3d-scanner-in-india.php" class="prof-btn prof-btn-primary w-100 mt-auto">Know More</a>
                         </div>
                     </div>
                 </div>

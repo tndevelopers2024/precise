@@ -489,42 +489,49 @@ $img = "assets/images/digital-manufacturing-solutions-for-material-handling-equi
                             <h3 class="capex-card-title text-center">3D Scanners<br><span style="color: #000;">for Material Handling</span></h3>
                             <p class="capex-card-desc text-center mt-2 mb-1">Large Parts. No Limits.</p>
 
-                            <img src="<?= $img ?>/capex-1-1.png" alt="3D Scanners for Material Handling Equipment" class="img-fluid my-3 capex-main-img capex-main-img-lg">
+                            <img src="<?= $img ?>/capex-1-1.png" alt="3D Scanners for Material Handling Equipment" class="img-fluid my-3 capex-main-img">
 
                             <div class="capex-inner-list flex-grow-1">
-                                <div class="capex-inner-item capex-scanner-item">
-                                    <div class="d-flex align-items-center justify-content-between w-100 capex-inner-content">
-                                        <div class="d-flex align-items-center">
-                                            <div class="capex-scanner-icons">
-                                                <img src="<?= $img ?>/capex-1-2.png" alt="Tracker-Based 3D Scanner">
-                                                <img src="<?= $img ?>/capex-1-3.png" alt="Tracker-Based 3D Scanner">
-                                            </div>
-                                            <div class="capex-inner-text-container">
-                                                <div class="capex-inner-title capex-scanner-title text-dark">Tracker-Based<br>3D Scanners</div>
-                                            </div>
+                                <a href="freescan-track-nova.php" class="capex-inner-item text-decoration-none">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-1-2.png" alt="Tracker-Based 3D Scanners"></div>
+                                        <div class="capex-inner-text-container flex-grow-1">
+                                            <div class="capex-inner-title text-dark">Tracker-Based<br>3D Scanners</div>
                                         </div>
-                                        <div class="capex-scanner-links">
-                                            <a href="freescan-track-nova.php" class="text-decoration-none">FreeScan Trak Nova <i class="fa-solid fa-arrow-right ms-1"></i></a>
-                                            <a href="freescan-trak-pro-w.php" class="text-decoration-none">FreeScan Trak ProW <i class="fa-solid fa-arrow-right ms-1"></i></a>
-                                        </div>
+                                        <div class="capex-inner-subtitle text-end me-2">FreeScan<br>Trak Nova</div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
                                     </div>
-                                </div>
-                                <div class="capex-inner-item capex-scanner-item mb-0">
-                                    <div class="d-flex align-items-center justify-content-between w-100 capex-inner-content">
-                                        <div class="d-flex align-items-center">
-                                            <div class="capex-scanner-icons">
-                                                <img src="<?= $img ?>/capex-1-4.png" alt="Leica RTC360">
-                                                <img src="<?= $img ?>/capex-1-5.png" alt="Laser Scanner">
-                                            </div>
-                                            <div class="capex-inner-text-container">
-                                                <div class="capex-inner-title capex-scanner-title text-dark">Laser Scanners (for large environments)</div>
-                                            </div>
+                                </a>
+                                <a href="freescan-trak-pro-w.php" class="capex-inner-item text-decoration-none">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-1-3.png" alt="Tracker-Based 3D Scanners"></div>
+                                        <div class="capex-inner-text-container flex-grow-1">
+                                            <div class="capex-inner-title text-dark">Tracker-Based<br>3D Scanners</div>
                                         </div>
-                                        <div class="capex-scanner-links">
-                                            <a href="leica-rtc360.php" class="text-decoration-none">Leica RTC360 <i class="fa-solid fa-arrow-right ms-1"></i></a>
-                                        </div>
+                                        <div class="capex-inner-subtitle text-end me-2">FreeScan<br>Trak ProW</div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
                                     </div>
-                                </div>
+                                </a>
+                                <a href="leica-rtc360.php" class="capex-inner-item text-decoration-none">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-1-4.png" alt="Laser Scanners (for large environments)"></div>
+                                        <div class="capex-inner-text-container flex-grow-1">
+                                            <div class="capex-inner-title text-dark">Laser Scanners<br>(for large environments)</div>
+                                        </div>
+                                        <div class="capex-inner-subtitle text-end me-2">Leica<br>RTC360</div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
+                                    </div>
+                                </a>
+                                <a href="lidar-scanners.php" class="capex-inner-item text-decoration-none mb-0">
+                                    <div class="d-flex align-items-center w-100 capex-inner-content">
+                                        <div class="capex-inner-img"><img src="<?= $img ?>/capex-1-5.png" alt="Laser Scanners (for large environments)"></div>
+                                        <div class="capex-inner-text-container flex-grow-1">
+                                            <div class="capex-inner-title text-dark">Laser Scanners<br>(for large environments)</div>
+                                        </div>
+                                        <div class="capex-inner-subtitle text-end me-2">FARO<br>Focus Core</div>
+                                        <i class="fa-solid fa-arrow-right capex-inner-icon"></i>
+                                    </div>
+                                </a>
                             </div>
 
                             <a href="3d-scanners-in-india.php" class="capex-btn capex-btn-primary mt-4 text-decoration-none d-flex justify-content-center align-items-center" style="gap: 7px;">
@@ -539,7 +546,7 @@ $img = "assets/images/digital-manufacturing-solutions-for-material-handling-equi
                             <h3 class="capex-card-title text-center">3D Reverse<br>Engineering Software<br><span style="color: #000;">for Material Handling</span></h3>
                             <p class="capex-card-desc text-center mt-3 mb-2">Convert scan data into editable, manufacturing-ready CAD models for redesign, product development and manufacturing.</p>
 
-                            <img src="<?= $img ?>/capex-2-1.png" alt="Reverse Engineering" class="img-fluid my-2 capex-main-img capex-main-img-lg">
+                            <img src="<?= $img ?>/capex-2-1.png" alt="Reverse Engineering" class="img-fluid my-2 capex-main-img">
 
                             <div class="capex-inner-list flex-grow-1">
                                 <a href="reverse-engineering-geomagic-design-x.php" class="capex-inner-item text-decoration-none">
@@ -584,10 +591,12 @@ $img = "assets/images/digital-manufacturing-solutions-for-material-handling-equi
                     <div class="col-xl-3 col-lg-6">
                         <div class="capex-card">
                             <h3 class="capex-card-title text-center">3D Inspection<br>Software<br><span style="color: #000;">for Material Handling</span></h3>
-                            <p class="capex-card-desc text-center mt-3 mb-3">Perform dimensional inspection by comparing scanned material handling components against their original CAD models.</p>
+                            <p class="capex-card-desc text-center mt-3 mb-2">Perform dimensional inspection by comparing scanned material handling components against their original CAD models.</p>
+
+                            <img src="<?= $img ?>/capex-3-1.png" alt="Inspection Report" class="img-fluid my-2 capex-main-img">
 
                             <div class="capex-inner-list flex-grow-1">
-                                <a href="geomagic-control-x-3d-inspection-software.php" class="capex-inner-item text-decoration-none mb-2">
+                                <a href="geomagic-control-x-3d-inspection-software.php" class="capex-inner-item text-decoration-none mb-3">
                                     <div class="d-flex align-items-center w-100 capex-inner-content">
                                         <div class="capex-inner-img"><img src="<?= $img ?>/capex-3-2.png" alt="Geomagic Control X"></div>
                                         <div class="capex-inner-text-container flex-grow-1 pe-2">
@@ -597,7 +606,19 @@ $img = "assets/images/digital-manufacturing-solutions-for-material-handling-equi
                                         <i class="fa-solid fa-arrow-right capex-inner-icon mt-auto"></i>
                                     </div>
                                 </a>
-                                <img src="<?= $img ?>/capex-3-1.png" alt="Inspection Report" class="capex-inspect-img">
+
+                                <div class="capex-features-list">
+                                    <div class="capex-features-title">Features:</div>
+                                    <ul class="capex-features-items">
+                                        <li>CAD vs Scan Comparison</li>
+                                        <li>GD&amp;T</li>
+                                        <li>First Article Inspection (FAI)</li>
+                                        <li>Deviation Analysis</li>
+                                        <li>Colour Deviation Reports</li>
+                                        <li>Process &amp; Supplier Quality</li>
+                                        <li>Production QC</li>
+                                    </ul>
+                                </div>
                             </div>
 
                             <a href="3d-inspection-software-in-india.php" class="capex-btn capex-btn-outline mt-4 text-decoration-none d-flex justify-content-center align-items-center" style="gap: 7px;">

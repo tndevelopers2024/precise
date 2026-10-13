@@ -567,7 +567,7 @@ $meta_description =
                     <h3 class="ffm-capex-card-title"><span class="ffm-text-orange">3D Scanners</span><br>for Forging Manufacturing</h3>
                     <img src="assets/images/dms-for-forging-manufacturing/capex-card1-img1.png" alt="3D Scanners for Forging Manufacturing" class="ffm-capex-hero-img">
                     
-                    <div class="ffm-capex-nested border-gray mt-2">
+                    <!--<div class="ffm-capex-nested border-gray mt-2">
                         <div class="ffm-capex-nested-left">
                             <img src="assets/images/dms-for-forging-manufacturing/capex-card1-img2.png" alt="Optical 3D Scanners">
                             <span><strong>Optical 3D<br>Scanners</strong></span>
@@ -578,7 +578,7 @@ $meta_description =
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                     
                     <div class="ffm-capex-nested border-gray mt-2">
                         <div class="ffm-capex-nested-left">

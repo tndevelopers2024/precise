@@ -173,9 +173,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>Measure Material Thickness Across Entire Components<br>Without Cutting, Sectioning or Destroying Parts</h3>
                 <p>Using industrial 3D scanners and Geomagic Control X software, engineers can<br>digitally evaluate wall thickness, identify thin sections, excessive material build-up,<br>sink-prone areas, wear zones, casting inconsistencies and manufacturing defects<br>across the entire part.</p>
                 
-                <div class="hero-buttons">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Schedule Live Demo</a>
-                    <a href="Get-3d-scan-service-quote.php" class="btn-orange">Request Inspection Service</a>
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-3 mb-5" style="gap: 12px;">
+                    <a href="3d-inspection-software-in-india.php" class="sca-hero-btn">3D Inspection software</a>
+                    <a href="Get-3d-scan-service-quote.php" class="sca-hero-btn">Request a Quote</a>
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="sca-hero-btn">Book a Live Demo</a>
                 </div>
                 
                 <div class="hero-features">

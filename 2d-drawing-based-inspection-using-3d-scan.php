@@ -64,9 +64,11 @@ $meta_description = "Compare Manufactured Parts Directly Against Engineering Dra
                     </div>
                 </div>
 
-                <div class="hero-cta-buttons">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-live-demo">Book a Live Demo</a>
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-req-quote">Request Quote</a>
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-3 mb-5" style="gap: 12px;">
+                    <a href="3d-inspection-software-in-india.php" class="sca-hero-btn">3D Inspection software</a>
+                    <a href="Get-3d-scan-service-quote.php" class="sca-hero-btn">Request a Quote</a>
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="sca-hero-btn">Book a Live Demo</a>
                 </div>
 
                 <div class="hero-contact-email">

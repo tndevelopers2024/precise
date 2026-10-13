@@ -8,3 +8,5 @@ pnpm-lock.yaml
 *.py
 CLAUDE.md
 docs/
+.zed
+.DS_Store

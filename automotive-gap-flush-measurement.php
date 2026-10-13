@@ -45,10 +45,11 @@ $meta_description = "Perfect Vehicle Panel Alignment Starts with Digital Gap & F
                     <p>Measure door gaps, hood alignment, panel flushness<br>and body fitment using industrial 3D scanning and<br>automated inspection software.</p>
                 </div>
 
-                <div class="hero-cta-buttons">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-live-demo">Book a Live Demo</a>
-                    <a href="#" class="btn-live-demo btn-req-quote">Get Sample Report</a>
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-live-demo btn-req-quote">Get Quote</a>
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-3 mb-5" style="gap: 12px;">
+                    <a href="3d-inspection-software-in-india.php" class="sca-hero-btn">3D Inspection software</a>
+                    <a href="Get-3d-scan-service-quote.php" class="sca-hero-btn">Request a Quote</a>
+                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="sca-hero-btn">Book a Live Demo</a>
                 </div>
 
                 <div class="hero-contact-email flex-row-center">

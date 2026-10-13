@@ -268,38 +268,38 @@ $meta_description =
             <div class="dms-industry-grid">
                 <?php
                 $industries = [
-                    ['img' => 'inws-img1.png', 'icon' => 'inws-icon1.png', 'name' => 'Automotive'],
-                    ['img' => 'inws-img2.png', 'icon' => 'inws-icon2.png', 'name' => 'Auto Components &<br>Tier Suppliers'],
-                    ['img' => 'inws-img3.png', 'icon' => 'inws-icon3.png', 'name' => 'Electric Vehicle (EV)'],
-                    ['img' => 'inws-img4.png', 'icon' => 'inws-icon4.png', 'name' => 'Railway & Locomotive'],
-                    ['img' => 'inws-img5.png', 'icon' => 'inws-icon5.png', 'name' => 'Shipbuilding & Marine'],
+                    ['img' => 'inws-img1.png', 'icon' => 'inws-icon1.png', 'name' => 'Automotive', 'url' => 'precise3dm-digital-manufacturing-solutions-for-automotive-industry.php'],
+                    ['img' => 'inws-img2.png', 'icon' => 'inws-icon2.png', 'name' => 'Auto Components &<br>Tier Suppliers', 'url' => 'digital-manufacturing-solutions-for-auto-components-and-tier-suppliers.php'],
+                    ['img' => 'inws-img3.png', 'icon' => 'inws-icon3.png', 'name' => 'Electric Vehicle (EV)', 'url' => 'electric-vehicle-manufacturing.php'],
+                    ['img' => 'inws-img4.png', 'icon' => 'inws-icon4.png', 'name' => 'Railway & Locomotive', 'url' => 'railway-locomotive-industry.php'],
+                    ['img' => 'inws-img5.png', 'icon' => 'inws-icon5.png', 'name' => 'Shipbuilding & Marine', 'url' => 'shipbuilding-marine-industry.php'],
                     
-                    ['img' => 'inws-img6.png', 'icon' => 'inws-icon6.png', 'name' => 'Aerospace'],
-                    ['img' => 'inws-img7.png', 'icon' => 'inws-icon7.png', 'name' => 'Defence'],
-                    ['img' => 'inws-img8.png', 'icon' => 'inws-icon8.png', 'name' => 'Medical Device'],
-                    ['img' => 'inws-img9.png', 'icon' => 'inws-icon9.png', 'name' => 'Orthopaedic Implant'],
-                    ['img' => 'inws-img10.png', 'icon' => 'inws-icon10.png', 'name' => 'Industrial Machinery'],
+                    ['img' => 'inws-img6.png', 'icon' => 'inws-icon6.png', 'name' => 'Aerospace', 'url' => 'digital-manufacturing-solutions-for-aerospace-manufacturing.php'],
+                    ['img' => 'inws-img7.png', 'icon' => 'inws-icon7.png', 'name' => 'Defence', 'url' => 'defense-manufacturing.php'],
+                    ['img' => 'inws-img8.png', 'icon' => 'inws-icon8.png', 'name' => 'Medical Device', 'url' => 'digital-manufacturing-solutions-for-medical-device-manufacturing.php'],
+                    ['img' => 'inws-img9.png', 'icon' => 'inws-icon9.png', 'name' => 'Orthopaedic Implant', 'url' => 'digital-manufacturing-solutions-for-medical-device-manufacturing.php'],
+                    ['img' => 'inws-img10.png', 'icon' => 'inws-icon10.png', 'name' => 'Industrial Machinery', 'url' => 'industrial-machinery-manufacturing.php'],
                     
-                    ['img' => 'inws-img11.png', 'icon' => 'inws-icon11.png', 'name' => 'Heavy Engineering'],
-                    ['img' => 'inws-img12.png', 'icon' => 'inws-icon12.png', 'name' => 'Construction &<br>Earthmoving Equipment'],
-                    ['img' => 'inws-img13.png', 'icon' => 'inws-icon13.png', 'name' => 'Agricultural Machinery'],
-                    ['img' => 'inws-img14.png', 'icon' => 'inws-icon14.png', 'name' => 'Material Handling<br>Equipment<br>Manufacturing'],
-                    ['img' => 'inws-img15.png', 'icon' => 'inws-icon15.png', 'name' => 'Tool & Die'],
+                    ['img' => 'inws-img11.png', 'icon' => 'inws-icon11.png', 'name' => 'Heavy Engineering', 'url' => 'digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php'],
+                    ['img' => 'inws-img12.png', 'icon' => 'inws-icon12.png', 'name' => 'Construction &<br>Earthmoving Equipment', 'url' => 'digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php'],
+                    ['img' => 'inws-img13.png', 'icon' => 'inws-icon13.png', 'name' => 'Agricultural Machinery', 'url' => 'agricultural-machinery-manufacturing.php'],
+                    ['img' => 'inws-img14.png', 'icon' => 'inws-icon14.png', 'name' => 'Material Handling<br>Equipment<br>Manufacturing', 'url' => 'digital-manufacturing-solutions-for-material-handling-equipment-manufacturing.php'],
+                    ['img' => 'inws-img15.png', 'icon' => 'inws-icon15.png', 'name' => 'Tool & Die', 'url' => 'tool-die-manufacturing.php'],
                     
-                    ['img' => 'inws-img16.png', 'icon' => 'inws-icon16.png', 'name' => 'Mold'],
-                    ['img' => 'inws-img17.png', 'icon' => 'inws-icon17.png', 'name' => 'Foundry & Casting'],
-                    ['img' => 'inws-img18.png', 'icon' => 'inws-icon18.png', 'name' => 'Forging'],
-                    ['img' => 'inws-img19.png', 'icon' => 'inws-icon19.png', 'name' => 'Plastic Parts'],
-                    ['img' => 'inws-img20.png', 'icon' => 'inws-icon20.png', 'name' => 'Sheet Metal & Metal<br>Fabrication'],
+                    ['img' => 'inws-img16.png', 'icon' => 'inws-icon16.png', 'name' => 'Mold', 'url' => 'mold-manufacturing.php'],
+                    ['img' => 'inws-img17.png', 'icon' => 'inws-icon17.png', 'name' => 'Foundry & Casting', 'url' => 'digital-manufacturing-solutions-for-foundry-and-casting.php'],
+                    ['img' => 'inws-img18.png', 'icon' => 'inws-icon18.png', 'name' => 'Forging', 'url' => 'forging-manufacturing.php'],
+                    ['img' => 'inws-img19.png', 'icon' => 'inws-icon19.png', 'name' => 'Plastic Parts', 'url' => 'digital-manufacturing-solutions-for-plastic-parts.php'],
+                    ['img' => 'inws-img20.png', 'icon' => 'inws-icon20.png', 'name' => 'Sheet Metal & Metal<br>Fabrication', 'url' => 'sheet-metal-springback.php'],
                     
-                    ['img' => 'inws-img21.png', 'icon' => 'inws-icon21.png', 'name' => 'Electrical Equipment'],
-                    ['img' => 'inws-img22.png', 'icon' => 'inws-icon22.png', 'name' => 'Electronics'],
-                    ['img' => 'inws-img23.png', 'icon' => 'inws-icon23.png', 'name' => 'Pumps, Valves & Flow<br>Control Equipment<br>Manufacturing'],
-                    ['img' => 'inws-img24.png', 'icon' => 'inws-icon24.png', 'name' => 'Energy Equipment &mdash;<br>Wind, Solar & Power<br>Equipment']
+                    ['img' => 'inws-img21.png', 'icon' => 'inws-icon21.png', 'name' => 'Electrical Equipment', 'url' => 'digital-manufacturing-solutions-for-electrical-equipment.php'],
+                    ['img' => 'inws-img22.png', 'icon' => 'inws-icon22.png', 'name' => 'Electronics', 'url' => 'electronics-manufacturing.php'],
+                    ['img' => 'inws-img23.png', 'icon' => 'inws-icon23.png', 'name' => 'Pumps, Valves & Flow<br>Control Equipment<br>Manufacturing', 'url' => 'pumps-valves-manufacturing.php'],
+                    ['img' => 'inws-img24.png', 'icon' => 'inws-icon24.png', 'name' => 'Energy Equipment &mdash;<br>Wind, Solar & Power<br>Equipment', 'url' => 'digital-manufacturing-solutions-for-energy-equipment.php']
                 ];
                 
                 foreach ($industries as $item) {
-                    echo '<div class="dms-industry-card">';
+                    echo '<a href="' . $item['url'] . '" class="dms-industry-card">';
                     echo '    <div class="dms-industry-img-wrap">';
                     echo '        <img src="assets/images/digital-manufacturing-solutions-for-every-industry/' . $item['img'] . '" alt="' . strip_tags($item['name']) . '">';
                     echo '        <div class="dms-industry-icon">';
@@ -307,7 +307,7 @@ $meta_description =
                     echo '        </div>';
                     echo '    </div>';
                     echo '    <div class="dms-industry-label">' . $item['name'] . '</div>';
-                    echo '</div>';
+                    echo '</a>';
                 }
                 ?>
             </div>

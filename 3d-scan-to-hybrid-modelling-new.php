@@ -46,7 +46,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="sth-hero-cta">
-                            <a href="scanning-solution-form.php" class="btn-sth-primary">
+                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-sth-primary">
                                 Upload Scan Data <i class="fa-solid fa-arrow-right"></i>
                             </a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-sth-secondary">
@@ -637,8 +637,8 @@
                         </div>
 
                         <!-- CTA Button -->
-                        <a href="scanning-solution-form.php" class="btn-wf-card">
-                            Book a Live Demo <i class="fa-solid fa-arrow-right"></i>
+                        <a href="3d-products.php" class="btn-wf-card">
+                            EXPLORE SOLUTION <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -679,8 +679,8 @@
                         </div>
 
                         <!-- CTA Button -->
-                        <a href="scanning-solution-form.php" class="btn-wf-card">
-                            Book a Live Demo <i class="fa-solid fa-arrow-right"></i>
+                        <a href="3d-services.php" class="btn-wf-card">
+                            EXPLORE SOLUTION <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>

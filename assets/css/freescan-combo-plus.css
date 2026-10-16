@@ -1,0 +1,1946 @@
+/* ==========================================================================
+   FreeScan Combo+ Wireless 3D Scanner Page Styles
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+.fcp-hero-section {
+    position: relative;
+    background-color: #2F2B2A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 120px;
+    overflow: hidden;
+    min-height: 700px;
+}
+
+/* Background carousel / layers on the right */
+.fcp-hero-bg-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 65%;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.fcp-hero-slide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fcp-hero-slide.active {
+    opacity: 1;
+}
+
+/* Solid base to guarantee left copy readability */
+.fcp-hero-base-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    bottom: 0;
+    background-color: #2F2B2A;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Gradient overlay on the left side of the image */
+.fcp-hero-gradient-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 65%;
+    z-index: 2;
+    pointer-events: none;
+    background: linear-gradient(89.44deg, #2F2B2A 14.71%, rgba(47, 43, 42, 0) 34.69%), 
+                linear-gradient(27.1deg, #2F2B2A 13.57%, rgba(47, 43, 42, 0) 20.81%);
+}
+
+/* Hero Content Area */
+.fcp-hero-content-wrap {
+    position: relative;
+    z-index: 3;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+/* Top Call Row */
+.fcp-call-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.fcp-call-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.fcp-call-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff931e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(255, 147, 30, 0.4);
+}
+
+.fcp-call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fcp-call-label {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: color 0.4s ease;
+    color: #fff;
+}
+
+.fcp-call-numbers {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.4;
+    transition: color 0.4s ease;
+    color: #fff;
+}
+
+.fcp-call-numbers a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.fcp-call-numbers a:hover {
+    text-decoration: underline;
+}
+
+.fcp-call-divider {
+    margin: 0 6px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+/* Light background state for slide 2 */
+.fcp-hero-section.fcp-light-header .fcp-call-label {
+    color: #000;
+}
+
+.fcp-hero-section.fcp-light-header .fcp-call-numbers {
+    color: #000;
+}
+
+/* Left Hero Column */
+.fcp-hero-left {
+    max-width: 680px;
+}
+
+.fcp-hero-logo {
+    max-width: 380px;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.fcp-hero-title {
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.fcp-hero-title .fcp-text-orange {
+    color: #ff931e;
+}
+
+.fcp-hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.fcp-hero-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 18px;
+    max-width: 620px;
+}
+
+.fcp-hero-tag {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #ff931e;
+    margin-bottom: 30px;
+}
+
+/* Hero CTA Buttons */
+.fcp-hero-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.fcp-btn-primary {
+    background-color: #FF931E;
+    color: #1e1e1e !important;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fcp-btn-primary:hover {
+    background-color: #e58219;
+    color: #000 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 147, 30, 0.4);
+    text-decoration: none;
+}
+
+.fcp-btn-outline {
+    background: transparent;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #FFFFFF9C;
+    transition: all 0.3s ease;
+}
+
+.fcp-btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #fff;
+    color: #fff !important;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+/* Email Contact Bottom Left */
+.fcp-email-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fcp-email-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff931e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(255, 147, 30, 0.4);
+}
+
+.fcp-email-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fcp-email-label {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.fcp-email-addresses {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.fcp-email-addresses a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.fcp-email-addresses a:hover {
+    color: #ff931e;
+    text-decoration: underline;
+}
+
+.fcp-email-divider {
+    margin: 0 6px;
+    font-weight: 400;
+    color: #ff931e;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 1200px) {
+    .fcp-hero-title {
+        font-size: 3.2rem;
+    }
+    .fcp-hero-subtitle {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .fcp-hero-section {
+        margin-top: 0;
+        min-height: auto;
+    }
+    
+    .fcp-hero-bg-container {
+        width: 100%;
+        opacity: 0.35;
+    }
+
+    .fcp-hero-base-overlay {
+        width: 100%;
+        opacity: 0.85;
+    }
+    
+    .fcp-hero-gradient-overlay {
+        width: 100%;
+        background: rgba(47, 43, 42, 0.7);
+    }
+    
+    .fcp-hero-content-wrap {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .fcp-call-row {
+        justify-content: flex-start;
+        margin-bottom: 30px;
+    }
+    
+    /* Ensure phone text is always white on mobile since background is darkened */
+    .fcp-hero-section.fcp-light-header .fcp-call-label,
+    .fcp-hero-section.fcp-light-header .fcp-call-numbers {
+        color: #fff;
+    }
+    
+    .fcp-hero-title {
+        font-size: 2.6rem;
+    }
+    
+    .fcp-hero-logo {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fcp-hero-title {
+        font-size: 2.1rem;
+    }
+    
+    .fcp-hero-subtitle {
+        font-size: 1.15rem;
+    }
+    
+    .fcp-hero-tag {
+        font-size: 1.2rem;
+    }
+    
+    .fcp-hero-logo {
+        max-width: 240px;
+    }
+    
+    .fcp-hero-btns {
+        flex-direction: column;
+    }
+    
+    .fcp-btn-primary,
+    .fcp-btn-outline {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .fcp-email-addresses,
+    .fcp-call-numbers {
+        font-size: 0.875rem;
+    }
+}
+
+/* ==========================================================================
+   2. Video Gallery Section
+   ========================================================================== */
+.fcp-video-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-video-header {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+
+.fcp-section-title {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0A0A0A;
+    margin-bottom: 12px;
+}
+
+.fcp-section-title .fcp-text-orange {
+    color: #ff931e;
+}
+
+.fcp-video-subtitle {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #0a0a0a;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.fcp-video-desc {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+/* Video Player + Playlist Layout */
+.fcp-video-gallery-card {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+}
+
+.fcp-video-main-wrap {
+    flex: 1 1 65%;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.fcp-video-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 14px;
+}
+
+/* Video Playlist Container (Right Side) */
+.fcp-video-playlist-wrap {
+    flex: 0 0 35%;
+    max-height: 520px;
+    overflow-y: auto;
+    padding-right: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Custom Scrollbar with #ff931e scroller */
+.fcp-video-playlist-wrap::-webkit-scrollbar {
+    width: 6px;
+}
+
+.fcp-video-playlist-wrap::-webkit-scrollbar-track {
+    background: #e5e5ea;
+    border-radius: 10px;
+}
+
+.fcp-video-playlist-wrap::-webkit-scrollbar-thumb {
+    background: #ff931e;
+    border-radius: 10px;
+}
+
+.fcp-video-playlist-wrap::-webkit-scrollbar-thumb:hover {
+    background: #e58219;
+}
+
+/* Firefox scrollbar */
+.fcp-video-playlist-wrap {
+    scrollbar-width: thin;
+    scrollbar-color: #ff931e #e5e5ea;
+}
+
+/* Playlist Item */
+.fcp-playlist-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #ffffff;
+    border: 1px solid #EBEBF0;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.fcp-playlist-item:hover,
+.fcp-playlist-item.active {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border-color: #ff931e;
+}
+
+.fcp-playlist-thumb-wrap {
+    position: relative;
+    width: 120px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.fcp-playlist-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fcp-playlist-badge {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    padding: 1px 4px;
+    border-radius: 3px;
+    line-height: 1.2;
+}
+
+.fcp-playlist-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fcp-playlist-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #0F0F0F;
+    line-height: 1.35;
+    margin-bottom: 4px;
+    transition: color 0.2s ease;
+}
+
+.fcp-playlist-item:hover .fcp-playlist-title {
+    color: #ff931e;
+}
+
+.fcp-playlist-duration {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #606060;
+    line-height: 1.2;
+}
+
+/* ==========================================================================
+   3. Core Feature Section
+   ========================================================================== */
+.fcp-core-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-core-header-row {
+    border-bottom: 1px solid #C9C9C9;
+    padding-bottom: 25px;
+    margin-bottom: 45px;
+}
+
+.fcp-core-title {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #0a0a0a;
+    margin-bottom: 0;
+}
+
+.fcp-core-title .fcp-text-orange {
+    color: #ff931e;
+}
+
+.fcp-core-header-desc {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #0a0a0a;
+    margin-bottom: 0;
+}
+
+/* Core Features Container: 3 left, middle scanner image, 3 right */
+.fcp-core-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fcp-core-column {
+    flex: 1 1 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fcp-core-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.fcp-core-icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #ff931e;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(255, 147, 30, 0.3);
+}
+
+.fcp-core-icon-box img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.fcp-core-content {
+    flex: 1;
+}
+
+.fcp-core-item-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #0a0a0a;
+    margin-bottom: 8px;
+}
+
+.fcp-core-item-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.55;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+.fcp-core-center-image {
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fcp-core-center-image img {
+    max-width: 100%;
+    max-height: 520px;
+    object-fit: contain;
+    filter: drop-shadow(0 15px 30px rgba(255, 147, 30, 0.2));
+}
+
+/* Responsive Overrides for Section 2 & 3 */
+@media (max-width: 1200px) {
+    .fcp-video-playlist-wrap {
+        flex: 0 0 40%;
+    }
+    .fcp-core-column {
+        flex: 1 1 36%;
+        gap: 30px;
+    }
+    .fcp-core-center-image {
+        flex: 0 0 28%;
+    }
+}
+
+@media (max-width: 991px) {
+    .fcp-video-gallery-card {
+        flex-direction: column;
+    }
+    .fcp-video-playlist-wrap {
+        flex: 1 1 100%;
+        max-height: 380px;
+        padding-right: 8px;
+    }
+    .fcp-core-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .fcp-core-column {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    .fcp-core-center-image {
+        order: -1;
+        width: 100%;
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+    .fcp-core-center-image img {
+        max-height: 380px;
+    }
+    .fcp-core-header-row {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fcp-section-title,
+    .fcp-core-title {
+        font-size: 1.75rem;
+    }
+    .fcp-video-subtitle,
+    .fcp-video-desc,
+    .fcp-core-header-desc {
+        font-size: 1rem;
+    }
+    .fcp-playlist-thumb-wrap {
+        width: 95px;
+        height: 54px;
+    }
+    .fcp-playlist-title {
+        font-size: 0.8125rem;
+    }
+    .fcp-core-item {
+        gap: 14px;
+    }
+    .fcp-core-icon-box {
+        width: 44px;
+        height: 44px;
+    }
+    .fcp-core-icon-box img {
+        width: 24px;
+        height: 24px;
+    }
+    .fcp-core-item-title {
+        font-size: 1rem;
+    }
+    .fcp-core-item-desc {
+        font-size: 0.9375rem;
+    }
+}
+
+/* ==========================================================================
+   4. Key Features Section
+   ========================================================================== */
+.fcp-kf-section {
+    padding: 70px 0;
+    background-color: #f6f6fa;
+}
+
+.fcp-kf-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.fcp-kf-header-logo {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+}
+
+.fcp-kf-header-title {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin: 0;
+    line-height: 1.25;
+}
+
+.fcp-kf-left-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.fcp-kf-panel {
+    display: none;
+}
+
+.fcp-kf-panel.active {
+    display: block;
+    animation: fcpKfFadeIn 0.35s ease;
+}
+
+@keyframes fcpKfFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fcp-kf-main-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 22px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    object-fit: cover;
+    max-height: 440px;
+}
+
+.fcp-kf-ld-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.fcp-kf-ld-num {
+    width: 40px;
+    height: 40px;
+    background-color: #ff931e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.fcp-kf-ld-text h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #222;
+    margin: 0;
+    line-height: 1.25;
+}
+
+.fcp-kf-ld-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    margin: 4px 0 0 0;
+}
+
+.fcp-kf-desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+
+.fcp-kf-stat-center {
+    text-align: center;
+    margin: 18px 0;
+}
+
+.fcp-kf-stat-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.fcp-kf-stat-val {
+    font-size: 24px;
+    font-weight: 800;
+    color: #ff931e;
+}
+
+.fcp-kf-pill-tag {
+    display: inline-block;
+    background-color: #ff931e;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.fcp-kf-highlight {
+    background-color: #fdf5ec;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-left: 5px solid #ff931e;
+}
+
+.fcp-kf-highlight p {
+    margin: 0;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+/* 5 column helper for desktop */
+@media (min-width: 992px) {
+    .fcp-col-5 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.fcp-kf-minis {
+    margin-top: 12px;
+}
+
+.fcp-kf-mini-card {
+    background: #fff;
+    border: 1px solid #eef0f4;
+    border-radius: 10px;
+    padding: 14px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.fcp-kf-mini-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border-color: rgba(255, 147, 30, 0.4);
+}
+
+.fcp-kf-mini-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.fcp-kf-mode-img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.fcp-kf-mini-title {
+    color: #ff931e;
+    font-weight: 700;
+    font-size: 13.5px;
+    line-height: 1.35;
+    margin-bottom: 3px;
+}
+
+.fcp-kf-mini-sub {
+    color: #111;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 1.3;
+    margin-bottom: 3px;
+}
+
+.fcp-kf-mini-desc {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Right Side Navigation Timeline */
+.fcp-kf-right {
+    padding-left: 20px;
+}
+
+.fcp-kf-right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.fcp-kf-rh-title {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.fcp-kf-rh-title strong {
+    font-size: 32px;
+    font-weight: 800;
+    color: #222;
+}
+
+.fcp-kf-rh-title span {
+    font-size: 16px;
+    color: #888;
+    font-weight: 600;
+    margin-left: -8px;
+}
+
+.fcp-kf-rh-title h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    margin-left: 6px;
+}
+
+.fcp-kf-rh-arrows {
+    display: flex;
+    gap: 10px;
+}
+
+.fcp-kf-arrow-btn {
+    width: 34px;
+    height: 34px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.fcp-kf-arrow-btn:hover {
+    background-color: #ff931e;
+    color: #fff;
+}
+
+/* Timeline */
+.fcp-kf-timeline {
+    position: relative;
+    max-height: 720px;
+    overflow-y: auto;
+    padding-right: 15px;
+    padding-left: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: #ff931e #eee;
+}
+
+.fcp-kf-timeline::-webkit-scrollbar {
+    width: 6px;
+}
+
+.fcp-kf-timeline::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 4px;
+}
+
+.fcp-kf-timeline::-webkit-scrollbar-thumb {
+    background: #ff931e;
+    border-radius: 4px;
+}
+
+.fcp-kf-tl-item {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 22px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fcp-kf-tl-item::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 20px;
+    height: calc(100% + 22px);
+    width: 2px;
+    background-color: #333;
+    z-index: -1;
+}
+
+.fcp-kf-tl-item:last-child::before {
+    display: none;
+}
+
+.fcp-kf-tl-dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff931e;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+    transition: all 0.25s ease;
+    border: 2px solid #ff931e;
+}
+
+.fcp-kf-tl-dot.inactive {
+    background-color: #fff;
+    color: #555;
+    border: 2px solid #ff931e;
+}
+
+.fcp-kf-tl-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-grow: 1;
+    transition: all 0.25s ease;
+    border: 1.5px solid #fafafa;
+    min-height: 82px;
+}
+
+.fcp-kf-tl-item:hover .fcp-kf-tl-card {
+    border-color: rgba(255, 147, 30, 0.4);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.fcp-kf-tl-item.active .fcp-kf-tl-card {
+    border-color: #ff931e;
+    box-shadow: 0 8px 24px rgba(255, 147, 30, 0.12);
+}
+
+.fcp-kf-tl-card img {
+    width: 110px;
+    height: 68px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.fcp-kf-tl-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fcp-kf-tl-text h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    line-height: 1.3;
+}
+
+.fcp-kf-tl-text p {
+    font-size: 13.5px;
+    color: #666;
+    line-height: 1.35;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .fcp-kf-right {
+        padding-left: 0;
+        margin-top: 45px;
+    }
+    .fcp-kf-tl-item::before {
+        left: 15px;
+        top: 16px;
+        height: calc(100% + 22px);
+    }
+    .fcp-kf-tl-dot {
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+    }
+    .fcp-kf-tl-card img {
+        width: 90px;
+        height: 58px;
+    }
+    .fcp-kf-tl-text h5 {
+        font-size: 15px;
+    }
+    .fcp-kf-tl-text p {
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fcp-kf-header-title {
+        font-size: 1.75rem;
+    }
+    .fcp-kf-ld-title h3 {
+        font-size: 20px;
+    }
+    .fcp-kf-tl-card {
+        padding: 8px 10px;
+        gap: 10px;
+    }
+    .fcp-kf-tl-card img {
+        width: 75px;
+        height: 52px;
+    }
+}
+
+/* ==========================================================================
+   5. Technical Specifications Section
+   ========================================================================== */
+.fcp-tech-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-tech-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.fcp-tech-header img {
+    height: 38px;
+    object-fit: contain;
+}
+
+.fcp-tech-title {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin: 0;
+}
+
+.fcp-tech-table-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    border: 1px solid #ebebf0;
+    height: 100%;
+}
+
+.fcp-tech-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.fcp-tech-table thead th {
+    background-color: #ff931e;
+    color: #f6f6fa;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 16px 20px;
+    border: none;
+}
+
+.fcp-tech-table thead th:first-child {
+    width: 44%;
+}
+
+.fcp-tech-table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.fcp-tech-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.fcp-tech-table tbody td {
+    padding: 13px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343434;
+    vertical-align: middle;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.fcp-tech-table tbody td:first-child {
+    font-weight: 500;
+    color: #343434;
+    border-right: 1px solid #f0f0f4;
+}
+
+/* ==========================================================================
+   6. Freescan Combo Wireless vs Previous FreeScan Combo Section
+   ========================================================================== */
+.fcp-compare-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-compare-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.fcp-compare-header img {
+    height: 38px;
+    object-fit: contain;
+}
+
+.fcp-compare-title {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin: 0;
+}
+
+.fcp-compare-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    border: 1px solid #ebebf0;
+}
+
+.fcp-compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.fcp-compare-table thead th {
+    background-color: #0a0a0a;
+    color: #f6f6fa;
+    font-weight: 600;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 18px 24px;
+    border: none;
+}
+
+.fcp-compare-table thead th:first-child {
+    text-align: left;
+    width: 32%;
+}
+
+.fcp-compare-table thead th:nth-child(2) {
+    width: 34%;
+}
+
+.fcp-compare-table thead th:nth-child(3) {
+    width: 34%;
+}
+
+.fcp-compare-table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.fcp-compare-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.fcp-compare-table tbody td {
+    padding: 16px 22px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343434;
+    vertical-align: middle;
+}
+
+.fcp-compare-table tbody td:first-child {
+    text-align: left;
+    font-weight: 500;
+    color: #343434;
+    border-right: 1px solid #f0f0f4;
+}
+
+.fcp-compare-table tbody td:nth-child(2),
+.fcp-compare-table tbody td:nth-child(3) {
+    text-align: center;
+}
+
+.fcp-compare-table tbody td:nth-child(2) {
+    border-right: 1px solid #f0f0f4;
+}
+
+/* ==========================================================================
+   7. Social Proof Banner Section
+   ========================================================================== */
+.fcp-proof-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-proof-banner {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px 50px 45px 50px;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.fcp-proof-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000066;
+    z-index: 1;
+}
+
+.fcp-proof-content {
+    position: relative;
+    z-index: 2;
+}
+
+.fcp-proof-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.15;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    margin-bottom: 20px;
+}
+
+.fcp-proof-title .fcp-text-orange {
+    color: #ff931e;
+}
+
+.fcp-proof-subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.fcp-proof-desc {
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 580px;
+}
+
+.fcp-proof-btns {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.fcp-proof-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff931e;
+    color: #1e1e1e !important;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fcp-proof-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 147, 30, 0.45);
+}
+
+.fcp-proof-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.61);
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.fcp-proof-btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #fff;
+}
+
+.fcp-proof-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.fcp-proof-list-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.fcp-proof-list-item i {
+    color: #ff931e;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.fcp-proof-pill-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fcp-proof-pill {
+    display: inline-block;
+    border: 0.5px solid #FF931E;
+    background: rgba(255, 147, 30, 0.15);
+    border-radius: 28px;
+    padding: 12px 36px;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ==========================================================================
+   8. From Physical Part to CAD Section
+   ========================================================================== */
+.fcp-part-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-part-header {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 45px auto;
+}
+
+.fcp-part-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.fcp-part-card {
+    background: #FFFEFE;
+    border-top: 4px solid #FF931E;
+    border-radius: 16px;
+    padding: 22px 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.fcp-part-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.fcp-part-step-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.fcp-part-step-label {
+    color: #ff931e;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1;
+}
+
+.fcp-part-step-badge {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff931e;
+    color: #fffefe;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.fcp-part-title {
+    color: #0a0a0a;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.fcp-part-desc {
+    color: #343434;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+    min-height: 48px;
+    margin-bottom: 16px;
+}
+
+.fcp-part-img-wrap {
+    margin-top: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.fcp-part-img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    display: block;
+}
+
+/* ==========================================================================
+   9. Why Buy FreeScan Combo+ from Precise3DM India Section
+   ========================================================================== */
+.fcp-why-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-why-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e1e1e;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.fcp-why-title img {
+    height: 34px;
+    object-fit: contain;
+}
+
+.fcp-why-badge-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.fcp-why-badge-line {
+    flex: 1;
+    max-width: 140px;
+    height: 1px;
+    background-color: #d1d5d8;
+}
+
+.fcp-why-badge {
+    background-color: #ff931e;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.fcp-why-badge img {
+    height: 24px;
+    vertical-align: middle;
+}
+
+.fcp-why-card {
+    background: #ffffff;
+    border-top: 5px solid #FF931E;
+    border-radius: 12px;
+    padding-bottom: 40px;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.fcp-why-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
+}
+
+.fcp-why-img-wrap {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 260px;
+}
+
+.fcp-why-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+}
+
+.fcp-why-card-title {
+    color: #ff931e;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.fcp-why-card-desc {
+    color: #1e1e1e;
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding: 0 12px;
+}
+
+/* ==========================================================================
+   10. Frequently Asked Questions Section
+   ========================================================================== */
+.fcp-faq-section {
+    background-color: #f6f6fa;
+    padding: 30px 0;
+}
+
+.fcp-faq-heading {
+    font-weight: 700;
+    font-size: 2.1875rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.auto-faq-item {
+    border-radius: 16px !important;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.auto-faq-btn {
+    position: relative;
+    background: transparent !important;
+    color: #000 !important;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.125rem !important;
+    font-weight: 600;
+    box-shadow: none !important;
+    padding: 20px 25px;
+}
+
+.auto-faq-btn:focus {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.auto-faq-btn span {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.auto-faq-btn::after {
+    content: "+";
+    background-image: none !important;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 32px;
+    color: #ff931e;
+    font-weight: 700;
+}
+
+.auto-faq-btn:not(.collapsed) {
+    background: #fff !important;
+}
+
+.auto-faq-btn:not(.collapsed)::after {
+    content: "-";
+    background-image: none !important;
+}
+
+.auto-faq-item:has(.auto-faq-btn:not(.collapsed)) {
+    border-left: 6px solid #FF931E !important;
+    border-radius: 8px !important;
+}
+
+.auto-faq-body {
+    padding: 0 25px 25px 55px;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   Responsive Overrides for Sections 5 - 10
+   ========================================================================== */
+@media (max-width: 1200px) {
+    .fcp-proof-title {
+        font-size: 2.8rem;
+    }
+    .fcp-part-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .fcp-proof-banner {
+        padding: 40px 30px;
+    }
+    .fcp-proof-title {
+        font-size: 2.4rem;
+    }
+    .fcp-part-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fcp-why-title {
+        font-size: 1.6rem;
+    }
+    .fcp-why-badge {
+        font-size: 1rem;
+        padding: 8px 18px;
+    }
+    .fcp-why-badge-line {
+        display: none;
+    }
+    .fcp-why-card-title {
+        font-size: 1.4rem;
+    }
+    .fcp-why-card-desc {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .fcp-tech-title,
+    .fcp-compare-title,
+    .fcp-faq-heading {
+        font-size: 1.75rem;
+    }
+    .fcp-proof-title {
+        font-size: 2rem;
+    }
+    .fcp-proof-subtitle {
+        font-size: 1.25rem;
+    }
+    .fcp-proof-list-item {
+        font-size: 1rem;
+    }
+    .fcp-part-grid {
+        grid-template-columns: 1fr;
+    }
+    .auto-faq-btn {
+        font-size: 1rem !important;
+        padding: 16px;
+    }
+    .auto-faq-btn span {
+        margin-left: 25px;
+    }
+    .auto-faq-btn::after {
+        left: 12px;
+        font-size: 24px;
+    }
+    .auto-faq-body {
+        padding: 0 16px 20px 42px;
+    }
+}

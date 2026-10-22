@@ -1605,6 +1605,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <a class="dropdown-item text-left py-2" href="FreeScan-Combo.php">FreeScan Combo</a>                              
                             </li>
                             <li class="dropdown-submenu">
+                              <a class="dropdown-item text-left py-2" href="freescan-combo-plus.php">Freescan Combo+</a>                              
+                            </li>
+                            <li class="dropdown-submenu">
                               <a class="dropdown-item text-left py-2" href="freescan-ue-pro2.php">FreeScan UE Pro 2</a>
                             </li>
                             <li class="dropdown-submenu">
@@ -1641,6 +1644,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </li>
                             <li class="dropdown-submenu">
                               <a class="dropdown-item text-left py-2" href="tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                              <a class="dropdown-item text-left py-2" href="einscan-trak-3d-scanner-in-india.php">Einscan Trak</a>
                             </li>
                           </ul>
                         </li>
@@ -2000,6 +2006,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item text-left py-2" href="figure-4-standalone-3d-printer.php">Figure 4 Standalone</a></li>
                         <li><a class="dropdown-item text-left py-2" href="funmat-pro.php">Funmat Pro</a></li>
+                        <li><a class="dropdown-item text-left py-2" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a></li>
                         <li><a class="dropdown-item text-left py-2" href="industrial-fdm-3d-printers.php">Industrial FDM 3D Printers</a></li>
                       </ul>
                     </li>
@@ -2188,6 +2195,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
+                        href="geomagic-software-in-sri-lanka.php">
+                        Geomagic Software in Sri Lanka</a>
+
+                    </li>
+                    <li class="dropdown"><a class="dropdown-item  text-left py-2"
                         href="3D_scanning_and_Printing_events_in_india_2021.php">
                         Geomagic Software Events</a>
 
@@ -2286,6 +2298,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
+                          <a class="nav-link" href="freescan-combo-plus.php">Freescan Combo+</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="mob-down-list sub-down-list">
                           <a class="nav-link"  href="freescan-ue-pro2.php">FreeScan UE Pro 2</a>
                         </div>
                       </li>
@@ -2369,6 +2386,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
                       <a class="nav-link" href="tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="einscan-trak-3d-scanner-in-india.php">Einscan Trak</a>
                     </div>
                   </li>
                 </ul>
@@ -3181,6 +3203,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
+                  <a class="nav-link" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="mob-down-list sub-down-list">
                   <a class="nav-link" href="industrial-fdm-3d-printers.php">Industrial FDM 3D Printers</a>
                 </div>
               </li>
@@ -3556,6 +3583,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
               <a class="nav-link" href="https://www.precise3dm.com/geomagic-software.php">Geomagic Software</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="mob-down-list sub-down-list">
+              <a class="nav-link" href="geomagic-software-in-sri-lanka.php">Geomagic Software in Sri Lanka</a>
             </div>
           </li>
           <li class="nav-item">

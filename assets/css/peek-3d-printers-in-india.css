@@ -1,0 +1,1722 @@
+/* ==========================================================================
+   PEEK 3D Printers in India Page Styles
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A0A0A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Common Highlight Helpers */
+.peek-text-orange {
+    color: #ff931e;
+}
+
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
+.font-weight-800 {
+    font-weight: 800 !important;
+}
+
+.peek-piper {
+    color: #ff931e;
+    font-weight: 400;
+    margin: 0 6px;
+}
+
+/* ==========================================================================
+   1. Hero Section
+   ========================================================================== */
+.peek-hero-section {
+    position: relative;
+    background: radial-gradient(104.43% 173.59% at 100% 50%, rgba(30, 30, 40, 0.8) 0%, #0A0A0A 70%), linear-gradient(0deg, #1E1E1E, #1E1E1E);
+    margin-top: 120px;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+/* Container spacing matching 5% on both sides */
+.peek-hero-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Top Call Row */
+.peek-hero-topbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.peek-call-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.peek-call-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FFB74D 0%, #F7941D 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(247, 148, 29, 0.35);
+}
+
+.peek-call-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.peek-call-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 3px;
+}
+
+.peek-call-numbers {
+    font-size: 0.9875rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 0;
+}
+
+.peek-call-numbers a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.peek-call-numbers a:hover {
+    color: #ff931e;
+    text-decoration: underline;
+}
+
+/* Main Layout */
+.peek-hero-layout {
+    display: flex;
+    align-items: center;
+}
+
+.peek-hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* Title */
+.peek-hero-title {
+    font-size: 4.375rem; /* 70px */
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.12;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+/* Subtitle */
+.peek-hero-subtitle {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 600;
+    color: #ff931e;
+    line-height: 1.35;
+    margin-bottom: 22px;
+}
+
+/* Description */
+.peek-hero-desc {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 28px;
+    max-width: 680px;
+}
+
+/* Trust Badge */
+.peek-trust-badge {
+    background: #FFFFFF14;
+    border: 1px solid #000000;
+    box-shadow: 0px 2px 4px 1px #0000000D inset;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 18px;
+    margin-bottom: 32px;
+    max-width: fit-content;
+}
+
+.peek-trust-icon {
+    width: 27px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.peek-trust-text {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.35;
+}
+
+/* Buttons Group - Stacked vertically */
+.peek-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 36px;
+    max-width: 540px;
+}
+
+/* Button 1: Explore FUNMAT PRO 310 APOLLO */
+.peek-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #FF931E, #FF931E), radial-gradient(63.11% 63.11% at 31.97% 19.67%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 1.5625rem; /* 25px */
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none !important;
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    box-shadow: 0 4px 15px rgba(255, 147, 30, 0.3);
+    gap: 12px;
+}
+
+.peek-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 147, 30, 0.45);
+    color: #ffffff;
+    filter: brightness(1.05);
+}
+
+.peek-btn-primary i,
+.peek-btn-primary svg {
+    font-size: 1.35rem;
+    transition: transform 0.2s ease;
+}
+
+.peek-btn-primary:hover i,
+.peek-btn-primary:hover svg {
+    transform: translateX(4px);
+}
+
+/* Button 2: Talk to a PEEK Application Engineer */
+.peek-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #00000033;
+    border: 1px solid #FF931E;
+    box-shadow: 0px 72px 20px 0px #00000000;
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 1.5625rem; /* 25px */
+    font-weight: 600;
+    color: #ff931e;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    gap: 12px;
+}
+
+.peek-btn-secondary:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 147, 30, 0.12);
+    box-shadow: 0 8px 24px rgba(255, 147, 30, 0.2);
+    color: #ff931e;
+}
+
+.peek-btn-secondary svg,
+.peek-btn-secondary i {
+    flex-shrink: 0;
+}
+
+/* Email Box */
+.peek-email-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.peek-email-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FFB74D 0%, #F7941D 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(247, 148, 29, 0.35);
+}
+
+.peek-email-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.peek-email-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.25;
+    margin-bottom: 3px;
+}
+
+.peek-email-addresses {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.35;
+    margin-bottom: 0;
+}
+
+.peek-email-addresses a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.peek-email-addresses a:hover {
+    color: #ff931e;
+    text-decoration: underline;
+}
+
+/* Right Column Image Wrap */
+.peek-hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.peek-hero-image-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peek-hero-img {
+    width: 100%;
+    height: auto;
+    max-width: 760px;
+    object-fit: contain;
+    display: block;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 1400px) {
+    .peek-hero-title {
+        font-size: 3.8rem;
+    }
+    .peek-hero-subtitle,
+    .peek-hero-desc {
+        font-size: 1.35rem;
+    }
+    .peek-btn-primary,
+    .peek-btn-secondary {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .peek-hero-title {
+        font-size: 3.2rem;
+    }
+    .peek-hero-subtitle,
+    .peek-hero-desc {
+        font-size: 1.2rem;
+    }
+    .peek-trust-text {
+        font-size: 1.1rem;
+    }
+    .peek-btn-primary,
+    .peek-btn-secondary {
+        font-size: 1.25rem;
+        padding: 12px 22px;
+    }
+}
+
+@media (max-width: 991px) {
+    .peek-hero-section {
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .peek-hero-topbar {
+        justify-content: flex-start;
+        margin-bottom: 30px;
+    }
+    .peek-hero-layout {
+        flex-direction: column;
+    }
+    .peek-hero-left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .peek-hero-right {
+        width: 100%;
+    }
+    .peek-hero-title {
+        font-size: 2.8rem;
+    }
+    .peek-hero-subtitle {
+        font-size: 1.25rem;
+    }
+    .peek-hero-desc {
+        font-size: 1.15rem;
+    }
+    .peek-btn-group {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .peek-hero-title {
+        font-size: 2.2rem;
+    }
+    .peek-hero-subtitle {
+        font-size: 1.1rem;
+    }
+    .peek-hero-desc {
+        font-size: 1rem;
+    }
+    .peek-trust-badge {
+        padding: 10px 14px;
+        gap: 10px;
+    }
+    .peek-trust-text {
+        font-size: 0.95rem;
+    }
+    .peek-btn-primary,
+    .peek-btn-secondary {
+        font-size: 1.1rem;
+        padding: 12px 18px;
+        width: 100%;
+    }
+    .peek-call-title,
+    .peek-email-title {
+        font-size: 1.1rem;
+    }
+    .peek-call-numbers,
+    .peek-email-addresses {
+        font-size: 0.875rem;
+    }
+    .peek-call-icon,
+    .peek-email-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 16px;
+    }
+}
+
+
+/* ==========================================================================
+   Common Section Helpers
+   ========================================================================== */
+.peek-section-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.peek-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.peek-section-subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.35;
+    margin-bottom: 24px;
+}
+
+/* ==========================================================================
+   2. FDM vs PEEK Comparison Section
+   ========================================================================== */
+.peek-comparison-section {
+    background-color: #F6F6FA;
+    padding: 85px 0;
+}
+
+.peek-comp-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peek-comp-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #1e1e1e;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.peek-comp-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #020617;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.peek-comp-tables-wrap {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.peek-comp-tables-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+}
+
+.peek-comp-card {
+    flex: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.peek-comp-card-standard {
+    border: 1px solid #E2E8F0;
+}
+
+.peek-comp-card-high {
+    border: 2px solid rgba(255, 147, 30, 0.3);
+}
+
+.peek-comp-header {
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.peek-comp-header-standard {
+    background: linear-gradient(90deg, #43474D 0%, #303338 100%);
+}
+
+.peek-comp-header-high {
+    background: linear-gradient(90deg, #FF931E 0%, #F97316 100%);
+}
+
+.peek-comp-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.peek-comp-list li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 15px 22px;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.peek-comp-list li:last-child {
+    border-bottom: none;
+}
+
+.peek-comp-icon-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.peek-comp-icon-circle.standard {
+    background-color: #F1F5F9;
+}
+
+.peek-comp-icon-circle.high {
+    background-color: #FFEDD5;
+}
+
+.peek-comp-icon-circle img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.peek-comp-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1e1e1e;
+    line-height: 1.35;
+}
+
+.peek-comp-card-high .peek-comp-text {
+    font-weight: 600;
+}
+
+.peek-vs-badge {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #111827;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    margin: 0 -22px;
+}
+
+/* ==========================================================================
+   3. Supported Materials Section
+   ========================================================================== */
+.peek-materials-section {
+    background-color: #F6F6FA;
+    padding: 80px 0;
+}
+
+.peek-materials-grid {
+    display: flex;
+    gap: 18px;
+    width: 100%;
+}
+
+.peek-material-col {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+}
+
+.peek-material-col-wide {
+    flex: 1.8 1 0;
+}
+
+.peek-material-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 24px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.peek-material-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.peek-material-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.peek-material-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+
+.peek-orange-line {
+    width: 32px;
+    height: 3px;
+    background-color: #F25A1B;
+    border-radius: 2px;
+    margin: 10px 0 12px 0;
+}
+
+.peek-material-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1e1e1e;
+    line-height: 1.45;
+    margin-bottom: 14px;
+    min-height: 52px;
+}
+
+.peek-material-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    height: 170px;
+    width: 100%;
+}
+
+.peek-material-img {
+    height: 160px;
+    max-height: 160px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* ==========================================================================
+   4. Product Lineup Section
+   ========================================================================== */
+.peek-lineup-section {
+    background-color: #F6F6FA;
+    padding: 85px 0;
+}
+
+.peek-lineup-grid {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.peek-lineup-col {
+    flex: 1;
+    display: flex;
+}
+
+.peek-lineup-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 24px 18px 20px 18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    transition: border 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.peek-lineup-card:hover {
+    border: 2px solid #FF931E !important;
+    box-shadow: 0px 8px 24px rgba(255, 147, 30, 0.15);
+    transform: translateY(-3px);
+}
+
+.peek-lineup-card.featured {
+    border: 2px solid #FF931E;
+}
+
+.peek-new-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: linear-gradient(90deg, #FF931E 0%, #EE8718 100%);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    z-index: 2;
+}
+
+.peek-lineup-img-wrap {
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.peek-lineup-img {
+    max-height: 180px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.peek-lineup-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.peek-lineup-name {
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: #1e1e1e;
+    text-align: center;
+    line-height: 1.25;
+}
+
+.peek-lineup-model {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ff931e;
+    text-align: center;
+    line-height: 1.25;
+    margin-top: 2px;
+}
+
+.peek-lineup-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #71717A;
+    text-align: center;
+    line-height: 1.35;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    min-height: 42px;
+}
+
+.peek-lineup-specs {
+    border-top: 1px solid #F3F4F6;
+    padding-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 6px;
+}
+
+.peek-spec-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.peek-spec-item img {
+    height: 20px;
+    width: auto;
+    object-fit: contain;
+}
+
+.peek-spec-item span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #52525B;
+    line-height: 1.2;
+}
+
+.peek-lineup-btn {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    color: #1E1E1E;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 14px;
+    margin-top: 20px;
+    text-decoration: none !important;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.peek-lineup-btn .arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    margin-left: 4px;
+}
+
+.peek-lineup-btn:hover,
+.peek-lineup-btn.active-btn {
+    background: rgba(255, 255, 255, 0.01);
+    border: 2px solid #FF931E;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #FF931E;
+}
+
+.peek-lineup-btn:hover .arrow {
+    transform: translateX(4px);
+}
+
+/* ==========================================================================
+   5. Product Hero Section
+   ========================================================================== */
+.peek-product-hero-section {
+    background-color: #07090E;
+    border-bottom: 1px solid #1F2937;
+    padding: 85px 0;
+}
+
+.peek-prodhero-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peek-prodhero-img {
+    max-height: 520px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0px 0px 45px rgba(245, 158, 11, 0.18));
+}
+
+.peek-prodhero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.peek-prodhero-tag {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #D1D5DB;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+}
+
+.peek-prodhero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 1.15;
+    margin-bottom: 12px;
+}
+
+.peek-prodhero-desc {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #D1D5DB;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+.peek-prodhero-specs-grid {
+    border-top: 1px solid rgba(31, 41, 55, 0.8);
+    padding-top: 24px;
+    margin-bottom: 36px;
+    display: flex;
+}
+
+.peek-prodhero-spec-item {
+    flex: 1;
+    padding: 0 16px;
+    border-right: 1px solid rgba(31, 41, 55, 0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+.peek-prodhero-spec-item:first-child {
+    padding-left: 0;
+}
+
+.peek-prodhero-spec-item:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.peek-prodhero-spec-icon {
+    height: 28px;
+    margin-bottom: 12px;
+}
+
+.peek-prodhero-spec-icon img {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
+}
+
+.peek-prodhero-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9CA3AF;
+    line-height: 1.25;
+    margin-bottom: 4px;
+}
+
+.peek-prodhero-spec-item:nth-child(n+3) .peek-prodhero-label {
+    color: #E5E7EB;
+    font-weight: 600;
+}
+
+.peek-prodhero-val {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ff931e;
+    line-height: 1.25;
+    margin-bottom: 4px;
+}
+
+.peek-prodhero-sub {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #D1D5DB;
+    line-height: 1.35;
+}
+
+.peek-prodhero-btn-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.peek-prodhero-btn-orange {
+    background: #FF931E;
+    box-shadow: 0px 4px 6px -4px rgba(234, 88, 12, 0.3), 0px 10px 15px -3px rgba(234, 88, 12, 0.3);
+    border-radius: 9999px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 14px 28px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.peek-prodhero-btn-orange:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.06);
+    color: #FFFFFF;
+}
+
+.peek-prodhero-btn-outline {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 9999px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px 28px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+}
+
+.peek-prodhero-btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   6. Process Workflow Section
+   ========================================================================== */
+.peek-process-section {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+}
+
+.peek-process-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peek-process-title {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #1e1e1e;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.peek-process-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0D1424;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.peek-workflow-chain {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.peek-workflow-card {
+    background: #F6F6FA;
+    border: 1px solid #FF931E;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 22px 12px;
+    text-align: center;
+    flex: 1;
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.peek-workflow-card:hover {
+    transform: translateY(-3px);
+}
+
+.peek-workflow-icon {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.peek-workflow-icon img {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+}
+
+.peek-workflow-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.peek-workflow-arrow {
+    color: #ff931e;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   7. Industry Application Section
+   ========================================================================== */
+.peek-industries-section {
+    background-color: #F6F6FA;
+    padding: 85px 0;
+}
+
+.peek-industries-grid {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.peek-ind-col {
+    flex: 1;
+    display: flex;
+}
+
+.peek-ind-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.peek-ind-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.peek-ind-img-wrap {
+    height: 175px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.peek-ind-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.peek-ind-body {
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.peek-ind-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.peek-ind-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.peek-ind-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 0;
+    line-height: 1.25;
+}
+
+.peek-ind-desc {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #1e1e1e;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* ==========================================================================
+   8. End to End Workflow Section
+   ========================================================================== */
+.peek-endtoend-section {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+}
+
+.peek-e2e-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peek-e2e-title {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #1e1e1e;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.peek-e2e-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0D1424;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.peek-e2e-chain {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.peek-e2e-card {
+    background: #F6F6FA;
+    border: 1px solid #FF931E;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 20px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease;
+}
+
+.peek-e2e-card:hover {
+    transform: translateY(-3px);
+}
+
+.peek-e2e-step {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #0F172A;
+    line-height: 1;
+}
+
+.peek-e2e-tag {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ff931e;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 6px;
+}
+
+.peek-e2e-subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0F172A;
+    line-height: 1.3;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.peek-e2e-text {
+    font-size: 0.925rem;
+    font-weight: 400;
+    color: #64748B;
+    line-height: 1.35;
+    margin-bottom: 14px;
+    min-height: 38px;
+}
+
+.peek-e2e-img-box {
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.peek-e2e-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.peek-e2e-arrow {
+    color: #ff931e;
+    font-size: 1.2rem;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   9. Implementation Service Section
+   ========================================================================== */
+.peek-impl-section {
+    background-color: #F6F6FA;
+    padding: 80px 0;
+}
+
+.peek-impl-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peek-impl-title {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #1e1e1e;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.peek-impl-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0D1424;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.peek-impl-grid {
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+}
+
+.peek-impl-card {
+    background: #FFFFFF;
+    border: 1px solid #FF931E;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 24px 14px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.peek-impl-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 20px rgba(255, 147, 30, 0.12);
+}
+
+.peek-impl-icon {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.peek-impl-icon img {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
+
+.peek-impl-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.peek-impl-card-desc {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #64748B;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* ==========================================================================
+   10. Polymer Ecosystem Section
+   ========================================================================== */
+.peek-ecosystem-section {
+    background-color: #F6F6FA;
+    padding: 70px 0;
+}
+
+.peek-ecosystem-banner {
+    background: linear-gradient(90deg, #02050E 0%, #071124 50%, #030712 100%);
+    border: 1px solid #1E293B;
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 48px 42px;
+    overflow: hidden;
+}
+
+.peek-eco-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peek-eco-title {
+    font-size: 2.125rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.peek-eco-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #94A3B8;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.peek-eco-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peek-eco-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ==========================================================================
+   11. Frequently Asked Questions Section
+   ========================================================================== */
+.peek-faq-section {
+    background-color: #F6F6FA;
+    padding: 85px 0 95px 0;
+}
+
+.peek-faq-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.01em;
+}
+
+.peek-faq-accordion-wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.peek-faq-item {
+    background: #FFFFFF !important;
+    border: none !important;
+    border-radius: 9999px !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04) !important;
+    margin-bottom: 16px;
+    overflow: hidden;
+    transition: border-radius 0.2s ease, box-shadow 0.2s ease;
+}
+
+.peek-faq-item.is-open,
+.peek-faq-item:has(.accordion-collapse.show) {
+    border-radius: 20px !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08) !important;
+}
+
+.peek-faq-button {
+    background: #FFFFFF !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 18px 28px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+    cursor: pointer;
+}
+
+.peek-faq-button::after {
+    display: none !important; /* Hide default bootstrap arrow */
+}
+
+.peek-faq-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff931e;
+    font-size: 1.25rem;
+    font-weight: 900;
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+}
+
+.peek-faq-button:not(.collapsed) .peek-faq-icon {
+    transform: rotate(45deg);
+}
+
+.peek-faq-question {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000000;
+    flex: 1;
+    text-align: left;
+}
+
+.peek-faq-body {
+    padding: 4px 32px 24px 68px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #334155;
+    line-height: 1.65;
+}
+
+.peek-faq-body ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.peek-faq-body li {
+    margin-bottom: 6px;
+}
+
+/* ==========================================================================
+   Responsive Adaptations for Sections 2-11
+   ========================================================================== */
+@media (max-width: 1200px) {
+    .peek-materials-grid {
+        flex-wrap: wrap;
+    }
+    
+    .peek-material-col {
+        flex: 0 0 calc(50% - 9px) !important;
+    }
+    
+    .peek-material-col-wide {
+        flex: 0 0 100% !important;
+    }
+
+    .peek-lineup-grid,
+    .peek-industries-grid,
+    .peek-impl-grid {
+        flex-wrap: wrap;
+    }
+    
+    .peek-lineup-col {
+        flex: 0 0 calc(33.333% - 12px);
+    }
+    
+    .peek-ind-col,
+    .peek-impl-card {
+        flex: 0 0 calc(33.333% - 10px);
+    }
+    
+    .peek-workflow-chain,
+    .peek-e2e-chain {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    
+    .peek-workflow-card,
+    .peek-e2e-card {
+        flex: 0 0 calc(33.333% - 12px);
+    }
+    
+    .peek-workflow-arrow,
+    .peek-e2e-arrow {
+        display: none;
+    }
+    
+    .peek-prodhero-specs-grid {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .peek-prodhero-spec-item {
+        flex: 0 0 calc(33.333% - 15px);
+        border-right: none;
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .peek-comp-tables-row {
+        flex-direction: column;
+    }
+    
+    .peek-vs-badge {
+        margin: -10px auto;
+    }
+    
+    .peek-material-col {
+        flex: 0 0 calc(50% - 10px);
+    }
+    
+    .peek-material-col-wide {
+        flex: 0 0 100% !important;
+    }
+    
+    .peek-lineup-col,
+    .peek-ind-col,
+    .peek-impl-card,
+    .peek-workflow-card,
+    .peek-e2e-card {
+        flex: 0 0 calc(50% - 10px);
+    }
+    
+    .peek-prodhero-img {
+        max-height: 380px;
+        margin-bottom: 30px;
+    }
+    
+    .peek-prodhero-title {
+        font-size: 2.4rem;
+    }
+    
+    .peek-ecosystem-banner {
+        padding: 36px 24px;
+    }
+    
+    .peek-eco-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .peek-material-col,
+    .peek-material-col-wide,
+    .peek-lineup-col,
+    .peek-ind-col,
+    .peek-impl-card,
+    .peek-workflow-card,
+    .peek-e2e-card {
+        flex: 0 0 100% !important;
+    }
+    
+    .peek-material-img-wrap {
+        height: 150px;
+    }
+    
+    .peek-material-img {
+        height: 140px;
+        max-height: 140px;
+    }
+    
+    .peek-prodhero-spec-item {
+        flex: 0 0 100%;
+    }
+    
+    .peek-prodhero-btn-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .peek-prodhero-btn-orange,
+    .peek-prodhero-btn-outline {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .peek-comp-title,
+    .peek-section-title,
+    .peek-process-title,
+    .peek-e2e-title,
+    .peek-impl-title {
+        font-size: 1.6rem;
+    }
+    
+    .peek-section-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .peek-faq-title {
+        font-size: 1.8rem;
+    }
+    
+    .peek-faq-button {
+        padding: 16px 20px !important;
+    }
+    
+    .peek-faq-body {
+        padding: 0 20px 20px 48px !important;
+    }
+}

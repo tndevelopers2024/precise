@@ -110,7 +110,7 @@ $img = "assets/images/freescan-combo-plus";
                                 <span>Request a Live Demo</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="fcp-btn-outline">
+                            <a href="scanning-solution-form.php" class="fcp-btn-outline">
                                 <span>Get India Pricing</span>
                             </a>
                         </div>
@@ -155,70 +155,53 @@ $img = "assets/images/freescan-combo-plus";
 
             <!-- Video Player & Playlist Card -->
             <div class="fcp-video-gallery-card">
-                <!-- Main Video Thumbnail / Player -->
+                <!-- Main Video Player -->
                 <div class="fcp-video-main-wrap">
-                    <img src="<?= $img ?>/experience-video-main.png" alt="FreeScan Combo+ Wireless Video" class="fcp-video-main-img img-fluid">
+                    <iframe id="fcpMainVideoIframe" 
+                            src="https://www.youtube.com/embed/PJQOiyc-ViI?rel=0" 
+                            title="FreeScan Combo+ Wireless | Metrology 3D Scanner" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen 
+                            class="fcp-video-iframe">
+                    </iframe>
                 </div>
 
                 <!-- Video Playlist -->
                 <div class="fcp-video-playlist-wrap">
                     <!-- Item 1 -->
-                    <div class="fcp-playlist-item active">
+                    <div class="fcp-playlist-item active" data-video-id="PJQOiyc-ViI" data-video-title="FreeScan Combo+ Wireless | Metrology 3D Scanner">
                         <div class="fcp-playlist-thumb-wrap">
-                            <img src="<?= $img ?>/experience-1.png" alt="FreeScan Combo+ Wireless" class="fcp-playlist-thumb">
-                            <span class="fcp-playlist-badge">12:31</span>
+                            <img src="<?= $img ?>/video-thumb-1.jpg" alt="FreeScan Combo+ Wireless | Metrology 3D Scanner" class="fcp-playlist-thumb">
+                            <span class="fcp-playlist-badge">1:37</span>
                         </div>
                         <div class="fcp-playlist-info">
-                            <div class="fcp-playlist-title">FreeScan Combo+ Wireless</div>
-                            <div class="fcp-playlist-duration">5:00</div>
+                            <div class="fcp-playlist-title">FreeScan Combo+ Wireless | Metrology 3D Scanner</div>
+                            <div class="fcp-playlist-duration">1:37</div>
                         </div>
                     </div>
 
                     <!-- Item 2 -->
-                    <div class="fcp-playlist-item">
+                    <div class="fcp-playlist-item" data-video-id="Z6Yqx6f_oWc" data-video-title="Large-Scale Measurement with VPG | FreeScan Combo+ Wireless">
                         <div class="fcp-playlist-thumb-wrap">
-                            <img src="<?= $img ?>/experience-2.png" alt="FreeScan Combo+ Wireless Versatile Scanning Modes" class="fcp-playlist-thumb">
-                            <span class="fcp-playlist-badge">12:31</span>
+                            <img src="<?= $img ?>/video-thumb-2.jpg" alt="Large-Scale Measurement with VPG | FreeScan Combo+ Wireless" class="fcp-playlist-thumb">
+                            <span class="fcp-playlist-badge">2:12</span>
                         </div>
                         <div class="fcp-playlist-info">
-                            <div class="fcp-playlist-title">FreeScan Combo+ Wireless Versatile Scanning Modes</div>
-                            <div class="fcp-playlist-duration">5:00</div>
+                            <div class="fcp-playlist-title">Large-Scale Measurement with VPG | FreeScan Combo+ Wireless</div>
+                            <div class="fcp-playlist-duration">2:12</div>
                         </div>
                     </div>
 
                     <!-- Item 3 -->
-                    <div class="fcp-playlist-item">
+                    <div class="fcp-playlist-item" data-video-id="XVt8zTZyBis" data-video-title="Narrow-Space 3D Scanning in VR with FreeScan Combo+ Wireless">
                         <div class="fcp-playlist-thumb-wrap">
-                            <img src="<?= $img ?>/experience-3.png" alt="FreeScan Combo+ Wireless Compact and Powerful" class="fcp-playlist-thumb">
-                            <span class="fcp-playlist-badge">12:31</span>
+                            <img src="<?= $img ?>/video-thumb-3.jpg" alt="Narrow-Space 3D Scanning in VR with FreeScan Combo+ Wireless" class="fcp-playlist-thumb">
+                            <span class="fcp-playlist-badge">1:58</span>
                         </div>
                         <div class="fcp-playlist-info">
-                            <div class="fcp-playlist-title">FreeScan Combo+ Wireless Compact and Powerful</div>
-                            <div class="fcp-playlist-duration">5:00</div>
-                        </div>
-                    </div>
-
-                    <!-- Item 4 -->
-                    <div class="fcp-playlist-item">
-                        <div class="fcp-playlist-thumb-wrap">
-                            <img src="<?= $img ?>/experience-4.png" alt="Marker-Free Infrared Scanning" class="fcp-playlist-thumb">
-                            <span class="fcp-playlist-badge">12:31</span>
-                        </div>
-                        <div class="fcp-playlist-info">
-                            <div class="fcp-playlist-title">Marker-Free Infrared Scanning</div>
-                            <div class="fcp-playlist-duration">5:00</div>
-                        </div>
-                    </div>
-
-                    <!-- Item 5 -->
-                    <div class="fcp-playlist-item">
-                        <div class="fcp-playlist-thumb-wrap">
-                            <img src="<?= $img ?>/experience-5.png" alt="Inspection-Ready Workflow" class="fcp-playlist-thumb">
-                            <span class="fcp-playlist-badge">12:31</span>
-                        </div>
-                        <div class="fcp-playlist-info">
-                            <div class="fcp-playlist-title">Inspection-Ready Workflow</div>
-                            <div class="fcp-playlist-duration">5:00</div>
+                            <div class="fcp-playlist-title">Narrow-Space 3D Scanning in VR with FreeScan Combo+ Wireless</div>
+                            <div class="fcp-playlist-duration">1:58</div>
                         </div>
                     </div>
                 </div>
@@ -2064,6 +2047,33 @@ $img = "assets/images/freescan-combo-plus";
             if (btnUp) {
                 btnUp.addEventListener('click', function () {
                     switchFeature(currentIndex - 1, true);
+                });
+            }
+        });
+
+        // Video Gallery Playlist Switcher
+        document.addEventListener('DOMContentLoaded', function () {
+            const playlistItems = document.querySelectorAll('.fcp-playlist-item');
+            const mainIframe = document.getElementById('fcpMainVideoIframe');
+
+            if (playlistItems.length && mainIframe) {
+                playlistItems.forEach(function (item) {
+                    item.addEventListener('click', function () {
+                        const videoId = this.getAttribute('data-video-id');
+                        const videoTitle = this.getAttribute('data-video-title');
+
+                        if (!videoId) return;
+
+                        playlistItems.forEach(function (i) {
+                            i.classList.remove('active');
+                        });
+                        this.classList.add('active');
+
+                        mainIframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0';
+                        if (videoTitle) {
+                            mainIframe.setAttribute('title', videoTitle);
+                        }
+                    });
                 });
             }
         });

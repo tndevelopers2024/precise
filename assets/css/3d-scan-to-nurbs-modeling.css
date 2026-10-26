@@ -1,0 +1,1380 @@
+/* ==========================================================================
+   3D SCAN TO NURBS MODELING - STYLESHEET
+   Page: 3d-scan-to-nurbs-modeling.php
+   ========================================================================== */
+
+:root {
+    --primary-orange: #FF931E;
+    --primary-orange-light: #FF931E1A;
+    --dark-heading: #1E1E1E;
+    --dark-alt: #1B1B1D;
+    --body-text: #434655;
+    --muted-slate: #475569;
+    --section-bg: #F6F6FA;
+    --white: #FFFFFF;
+    --border-subtle: #C7C6CD4D;
+    --border-gray: #C4C5D7;
+    --btn-orange-gradient: linear-gradient(0deg, #FF931E, #FF931E), radial-gradient(63.11% 63.11% at 31.97% 19.67%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    --btn-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* Base resets & typography */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--dark-heading);
+    background-color: var(--section-bg);
+    overflow-x: hidden;
+}
+
+.scan-nurbs-section {
+    background-color: var(--section-bg);
+    padding: 70px 0;
+    position: relative;
+}
+
+.scan-nurbs-section.bg-white {
+    background-color: var(--white) !important;
+}
+
+.scan-nurbs-section.bg-tinted-orange {
+    background-color: var(--primary-orange-light) !important;
+}
+
+/* Standard Section Headings */
+.nurbs-sec-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--dark-heading);
+    margin-bottom: 2rem;
+    line-height: 1.25;
+}
+
+/* ==========================================================================
+   1. HERO SECTION
+   ========================================================================== */
+.nurbs-hero-section {
+    position: relative;
+    background: url('../images/3d-scan-to-nurbs-modeling/hero-bg.png') no-repeat center top;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.nurbs-hero-top-contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.nurbs-contact-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+
+.nurbs-contact-icon-circle {
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+}
+
+.nurbs-contact-info-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.nurbs-contact-label {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.nurbs-contact-val {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    margin-top: 3px;
+    letter-spacing: 0.3px;
+}
+
+.nurbs-hero-title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+
+.nurbs-hero-title .highlight-orange {
+    color: var(--primary-orange);
+}
+
+.nurbs-hero-subtitle {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.nurbs-hero-subtag {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    margin-bottom: 16px;
+}
+
+.nurbs-hero-desc {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+.nurbs-hero-img-wrap {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nurbs-hero-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.nurbs-hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.btn-nurbs-gradient {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: var(--btn-orange-gradient);
+    box-shadow: var(--btn-shadow);
+    border-radius: 10px;
+    color: var(--white) !important;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    padding: 14px 28px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    line-height: 1.2;
+}
+
+.btn-nurbs-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 14px 0px rgba(255, 147, 30, 0.35);
+}
+
+.btn-nurbs-gradient .upload-svg-icon {
+    width: 28px;
+    height: 22px;
+    object-fit: contain;
+}
+
+/* Hero Bottom Strip */
+.nurbs-hero-bottom-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.nurbs-features-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.nurbs-feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 155px;
+}
+
+.nurbs-feature-icon-circle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.nurbs-feature-icon-circle img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.nurbs-feature-label {
+    color: var(--dark-heading);
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.3;
+}
+
+.nurbs-hero-email-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+
+.nurbs-email-icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.nurbs-email-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.nurbs-email-title {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.nurbs-email-val {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin-top: 2px;
+}
+
+/* ==========================================================================
+   2. WHAT IS SCAN TO NURBS MODELING SECTION
+   ========================================================================== */
+.nurbs-whatis-title {
+    color: var(--dark-heading);
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.nurbs-whatis-desc-box {
+    background-color: var(--primary-orange-light);
+    border-left: 4px solid var(--primary-orange);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 36px 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nurbs-whatis-desc-box p {
+    color: var(--body-text);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.nurbs-why-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    box-shadow: 0px 4px 12px 0px rgba(15, 23, 42, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.nurbs-why-header {
+    text-align: center;
+    color: var(--primary-orange);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.nurbs-why-body {
+    padding: 24px 30px;
+}
+
+.nurbs-why-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nurbs-why-list li {
+    color: var(--dark-heading);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 0;
+}
+
+.nurbs-whatis-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+    gap: 20px;
+}
+
+.nurbs-whatis-img-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nurbs-whatis-img-box {
+    width: 100%;
+    max-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.nurbs-whatis-img-box img {
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: contain;
+}
+
+.nurbs-whatis-caption {
+    color: var(--dark-heading);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nurbs-arrow-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-orange);
+    font-size: 2.5rem;
+    padding: 0 10px;
+}
+
+/* ==========================================================================
+   3. HOW THE WORKFLOW WORKS SECTION
+   ========================================================================== */
+.nurbs-workflow-title {
+    text-align: center;
+    color: var(--dark-heading);
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.nurbs-workflow-row {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+    gap: 12px;
+}
+
+.nurbs-workflow-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+}
+
+.nurbs-step-box {
+    position: relative;
+    background: var(--primary-orange-light);
+    border-radius: 12px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(255, 147, 30, 0.25);
+}
+
+.nurbs-step-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(255, 147, 30, 0.35);
+    z-index: 2;
+}
+
+.nurbs-step-img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.nurbs-step-info {
+    text-align: center;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.nurbs-step-title {
+    color: var(--primary-orange);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.nurbs-step-desc {
+    color: var(--body-text);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.nurbs-workflow-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-orange);
+    font-size: 1.8rem;
+    padding-top: 100px;
+    align-self: flex-start;
+}
+
+/* ==========================================================================
+   4. MODELING COMPARISON AND APPLICATION SECTION
+   ========================================================================== */
+.nurbs-col-heading {
+    text-align: center;
+    color: var(--dark-heading);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.nurbs-comparison-table-wrap {
+    border: 1px solid var(--dark-heading);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--white);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.nurbs-comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.nurbs-comparison-table th {
+    background-color: var(--primary-orange);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 16px 20px;
+    border: 1px solid var(--dark-heading);
+}
+
+.nurbs-comparison-table td {
+    background-color: var(--white);
+    color: var(--dark-heading);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    padding: 16px 18px;
+    border: 1px solid var(--dark-heading);
+    line-height: 1.4;
+}
+
+.nurbs-apps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.nurbs-app-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nurbs-app-box {
+    background: var(--primary-orange-light);
+    border: 0.93px solid var(--primary-orange);
+    border-radius: 14.92px;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    transition: transform 0.3s ease;
+}
+
+.nurbs-app-card:hover .nurbs-app-box {
+    transform: translateY(-3px);
+}
+
+.nurbs-app-img {
+    max-width: 100%;
+    max-height: 145px;
+    object-fit: contain;
+}
+
+.nurbs-app-caption {
+    color: var(--primary-orange);
+    font-weight: 700;
+    font-size: 1.1656rem;
+    margin-top: 12px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+/* ==========================================================================
+   5. HYBRID MODELING WORKFLOW SECTION
+   ========================================================================== */
+.nurbs-hybrid-title {
+    text-align: center;
+    color: var(--dark-heading);
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.nurbs-hybrid-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.nurbs-hybrid-card {
+    background: var(--white);
+    border: 1px solid var(--border-subtle);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 24px;
+    flex: 1;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nurbs-hybrid-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    height: 100%;
+}
+
+.nurbs-hybrid-text-col {
+    flex: 1;
+}
+
+.nurbs-hybrid-card-title {
+    color: var(--dark-alt);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.nurbs-hybrid-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nurbs-hybrid-list li {
+    color: var(--dark-alt);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nurbs-hybrid-img-col {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nurbs-hybrid-img {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+}
+
+.nurbs-operator-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-orange);
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0 5px;
+}
+
+.nurbs-hybrid-result-card {
+    background: var(--white);
+    border: 1px solid var(--border-subtle);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 24px;
+    flex: 0.9;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nurbs-hybrid-result-title {
+    color: var(--dark-heading);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.nurbs-hybrid-result-img-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nurbs-hybrid-result-img {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+}
+
+/* ==========================================================================
+   6. CT SCANS TO NURBS MODELING SECTION
+   ========================================================================== */
+.nurbs-ct-title {
+    color: var(--dark-heading);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.nurbs-ct-desc {
+    color: var(--muted-slate);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.nurbs-ct-img-wrap {
+    text-align: center;
+}
+
+.nurbs-ct-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* ==========================================================================
+   7. SOFTWARE USED SECTION
+   ========================================================================== */
+.nurbs-soft-title {
+    color: var(--dark-heading);
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nurbs-soft-card {
+    background: var(--white);
+    border: 1px solid var(--border-subtle);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 30px 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nurbs-soft-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.nurbs-soft-banner-img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 24px;
+}
+
+.nurbs-soft-name {
+    color: var(--dark-alt);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.nurbs-soft-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nurbs-soft-list li {
+    color: var(--dark-alt);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nurbs-soft-compatible-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nurbs-compatible-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.nurbs-cad-logo {
+    max-width: 80%;
+    max-height: 48px;
+    object-fit: contain;
+}
+
+.nurbs-soft-more-text {
+    color: var(--dark-alt);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ==========================================================================
+   8. RECOMMENDED SCANNERS SECTION
+   ========================================================================== */
+.nurbs-scanners-title {
+    color: #1C1B1B;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nurbs-scanner-card {
+    background: var(--white);
+    border: 1px solid var(--border-subtle);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.nurbs-scanner-name {
+    color: var(--dark-alt);
+    font-weight: 700;
+    font-size: 2.1875rem;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.nurbs-scanner-img-box {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.nurbs-scanner-img {
+    max-height: 280px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.nurbs-scanner-desc {
+    color: var(--dark-heading);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    max-width: 440px;
+}
+
+.btn-scanner-action {
+    display: inline-block;
+    background: var(--btn-orange-gradient);
+    box-shadow: var(--btn-shadow);
+    border-radius: 10px;
+    color: var(--white) !important;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    padding: 12px 60px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-scanner-action:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 14px 0px rgba(255, 147, 30, 0.35);
+}
+
+/* ==========================================================================
+   9. ENGAGEMENT MODELS SECTION
+   ========================================================================== */
+.nurbs-engagement-card {
+    border: 1px solid var(--primary-orange);
+    border-radius: 16px;
+    padding: 36px 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nurbs-engagement-card.opex {
+    background-color: var(--primary-orange-light);
+}
+
+.nurbs-engagement-card.capex {
+    background-color: var(--white);
+}
+
+.nurbs-eng-title {
+    color: var(--dark-heading);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.nurbs-eng-desc {
+    color: var(--muted-slate);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.55;
+    margin-bottom: 24px;
+}
+
+.nurbs-eng-body-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.nurbs-eng-list-col {
+    flex: 1;
+}
+
+.nurbs-eng-img-col {
+    flex: 1.2;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nurbs-eng-img {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+}
+
+.nurbs-eng-check-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nurbs-eng-check-list li {
+    color: var(--dark-heading);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nurbs-eng-disc-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.nurbs-eng-disc-list li {
+    color: var(--dark-heading);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.nurbs-eng-disc-list li::marker {
+    color: var(--primary-orange);
+    font-size: 1.1rem;
+}
+
+.btn-eng-solid {
+    display: inline-block;
+    background-color: var(--primary-orange);
+    color: var(--white) !important;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    padding: 12px 28px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.btn-eng-solid:hover {
+    background-color: #e07f15;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 147, 30, 0.3);
+}
+
+/* ==========================================================================
+   10. FREQUENTLY ASKED QUESTIONS SECTION
+   ========================================================================== */
+.nurbs-faq-title {
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.nurbs-faq-item {
+    background-color: var(--white);
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+    margin-bottom: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nurbs-faq-item.active {
+    border-left: 4px solid var(--primary-orange);
+    border-radius: 16px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.nurbs-faq-header {
+    padding: 18px 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    user-select: none;
+}
+
+.nurbs-faq-icon {
+    color: var(--primary-orange);
+    font-size: 1.4rem;
+    font-weight: 700;
+    min-width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.nurbs-faq-question {
+    color: var(--dark-heading);
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 0;
+}
+
+.nurbs-faq-body {
+    display: none;
+    padding: 0 24px 20px 58px;
+    color: var(--body-text);
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.nurbs-faq-item.active .nurbs-faq-body {
+    display: block;
+}
+
+/* ==========================================================================
+   11. CONTACT SECTION
+   ========================================================================== */
+.nurbs-contact-sec-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.nurbs-contact-sec-desc {
+    color: var(--dark-heading);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    margin-bottom: 35px;
+    max-width: 580px;
+}
+
+.nurbs-contact-info-row {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.nurbs-contact-info-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+
+.nurbs-contact-info-card .nurbs-icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.nurbs-contact-info-card .nurbs-text-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.nurbs-contact-info-card .nurbs-lbl {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.nurbs-contact-info-card .nurbs-str {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    margin-top: 2px;
+}
+
+.nurbs-contact-btn-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.btn-contact-orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: var(--btn-orange-gradient);
+    box-shadow: var(--btn-shadow);
+    border-radius: 10px;
+    color: var(--white) !important;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    padding: 16px 24px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-contact-orange:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 14px 0px rgba(255, 147, 30, 0.35);
+}
+
+.btn-contact-outline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: transparent;
+    border: 1px solid var(--primary-orange);
+    border-radius: 10px;
+    color: var(--primary-orange) !important;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    padding: 16px 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-contact-outline:hover {
+    background-color: var(--primary-orange);
+    color: var(--white) !important;
+    transform: translateY(-2px);
+}
+
+.btn-contact-outline:hover .upload-orange-icon {
+    filter: brightness(0) invert(1);
+}
+
+.upload-orange-icon {
+    width: 28px;
+    height: 22px;
+    object-fit: contain;
+    /* CSS filter to turn white SVG into #ff931e */
+    filter: invert(61%) sepia(87%) saturate(1478%) hue-rotate(352deg) brightness(101%) contrast(102%);
+    transition: filter 0.3s ease;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN BREAKPOINTS
+   ========================================================================== */
+@media (max-width: 1200px) {
+    .nurbs-hero-title {
+        font-size: 2.5rem;
+    }
+    .btn-nurbs-gradient,
+    .btn-scanner-action,
+    .btn-contact-orange,
+    .btn-contact-outline {
+        font-size: 1.3rem;
+        padding: 12px 20px;
+    }
+    .nurbs-whatis-title,
+    .nurbs-faq-title,
+    .nurbs-contact-sec-title {
+        font-size: 2rem;
+    }
+    .nurbs-sec-title,
+    .nurbs-workflow-title,
+    .nurbs-hybrid-title,
+    .nurbs-soft-title,
+    .nurbs-scanners-title {
+        font-size: 1.85rem;
+    }
+    .nurbs-whatis-caption {
+        font-size: 1.6rem;
+    }
+    .nurbs-step-box {
+        height: 210px;
+    }
+    .nurbs-step-img {
+        max-height: 160px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nurbs-hero-top-contact {
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+    .nurbs-hero-img-wrap {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .nurbs-hero-bottom-strip {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nurbs-workflow-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nurbs-workflow-arrow {
+        display: none;
+    }
+    .nurbs-step-box {
+        height: auto;
+        padding: 40px 20px 20px;
+    }
+    .nurbs-whatis-gallery {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nurbs-arrow-col {
+        transform: rotate(90deg);
+        padding: 10px 0;
+    }
+    .nurbs-hybrid-row {
+        flex-direction: column;
+    }
+    .nurbs-operator-col {
+        padding: 10px 0;
+    }
+    .nurbs-hybrid-card,
+    .nurbs-hybrid-result-card {
+        width: 100%;
+    }
+    .nurbs-apps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nurbs-contact-btn-stack {
+        margin-top: 40px;
+    }
+    .nurbs-eng-body-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nurbs-eng-img-col {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nurbs-hero-title {
+        font-size: 2rem;
+    }
+    .nurbs-hero-subtitle {
+        font-size: 1.4rem;
+    }
+    .nurbs-hero-subtag,
+    .nurbs-hero-desc {
+        font-size: 1.1rem;
+    }
+    .nurbs-features-row {
+        gap: 15px;
+        justify-content: center;
+    }
+    .nurbs-feature-item {
+        width: 130px;
+    }
+    .nurbs-feature-label {
+        font-size: 0.95rem;
+    }
+    .nurbs-whatis-title,
+    .nurbs-faq-title,
+    .nurbs-contact-sec-title {
+        font-size: 1.6rem;
+    }
+    .nurbs-whatis-desc-box p,
+    .nurbs-ct-desc {
+        font-size: 1.15rem;
+    }
+    .nurbs-why-list li {
+        font-size: 1.05rem;
+    }
+    .nurbs-apps-grid {
+        grid-template-columns: 1fr;
+    }
+    .btn-nurbs-gradient,
+    .btn-scanner-action,
+    .btn-contact-orange,
+    .btn-contact-outline {
+        font-size: 1.1rem;
+        padding: 12px 18px;
+        width: 100%;
+    }
+}

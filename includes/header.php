@@ -2002,7 +2002,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </ul>
                     </li>
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="https://www.precise3dm.com/3d-printing-service-in-india.php">3D Printer</a>
+                        href="industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item text-left py-2" href="figure-4-standalone-3d-printer.php">Figure 4 Standalone</a></li>
                         <li><a class="dropdown-item text-left py-2" href="funmat-pro.php">Funmat Pro</a></li>
@@ -3185,7 +3185,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="https://www.precise3dm.com/3d-printing-service-in-india.php">3D Printer</a>
+              <a class="nav-link" href="industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>

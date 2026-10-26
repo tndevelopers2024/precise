@@ -275,6 +275,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         ["title" => "Gap and Flush<br>Measurement", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card12-img.png", "link" => "automotive-gap-flush-measurement.php"],
                         ["title" => "Small Batch Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card13-img.png" , "link" => "#"],
                         ["title" => "First Article Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card14-img.png", "link" => "#"],
+                        ["title" => "Surface Damage", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-placeholder.svg", "link" => "3d-scan-based-surface-damage-inspection.php"],
+                        ["title" => "Class A Application", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-placeholder.svg", "link" => "class-a-surfaces-application.php"],
                     ];
 
                     foreach ($iqes_cards as $card) {

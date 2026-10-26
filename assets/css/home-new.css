@@ -3426,12 +3426,16 @@ body.home-new-body {
   flex-direction: column;
   transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.28s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.28s ease;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .iws-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
   border-color: #ffd8b3;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Image Area */

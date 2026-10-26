@@ -686,6 +686,29 @@ Under OPEX, minimise your investment risk before committing to high-cost CAPEX e
                      </div>
                   </div>
 
+                  <!-- Card 7 -->
+                  <div class="engg-service-card">
+                     <div
+                        class="engg-card-top d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3">
+                        <div class="engg-card-info">
+                           <h3 class="engg-card-title">Scan to <span class="highlight">Class-A Surface</span></h3>
+                           <p class="engg-card-desc">How 3D scan data becomes visually refined, engineering-ready Class-A NURBS surfaces.</p>
+                        </div>
+                        <div class="engg-card-action">
+                           <a href="scan-to-class-a-surface.php" class="engg-know-more-btn">Know More <svg
+                                 width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M5 12h14" />
+                                 <path d="m12 5 7 7-7 7" />
+                              </svg></a>
+                        </div>
+                     </div>
+                     <div class="engg-card-image">
+                        <img src="assets/images/3d-scan-based-engineering-service-company/service-7.png"
+                           class="img-fluid w-100" alt="Scan to Class-A Surface">
+                     </div>
+                  </div>
+
                </div>
             </div>
          </section>

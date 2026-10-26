@@ -47,12 +47,12 @@
       },
       "headline": "Precise3DM - Global Leading 3D Scan Based Solution Providers",
       "description": "Precise3DM Offers 3D Scanners and 3D Software for manufacturing companies' Capex investments. We also Offer 3D Scanning Services to assess the technology before investing.",
-      "image": "https://www.precise3dm.com/assets/images/about-logo.png",  
+      "image": "https://www.precise3dm.com/assets/images/about-logo.png",
       "author": {
          "@type": "Organization",
          "name": "Precise3DM",
          "url": "https://www.precise3dm.com/"
-      },  
+      },
       "publisher": {
          "@type": "Organization",
          "name": "Precise3DM",
@@ -68,7 +68,7 @@
 <body class="home-new-body">
 
    <!-- Header Start -->
-   <?php include('includes/header.php'); ?>
+   <?php include "includes/header.php"; ?>
    <!-- Header End -->
 
    <!-- ==========================================================================
@@ -76,7 +76,7 @@
         ========================================================================== -->
    <section class="nh-hero-section" id="nh-hero-section">
       <div class="nh-hero-carousel" id="nhHeroCarousel">
-         
+
          <!-- Previous & Next Arrow Controls -->
          <button class="nh-carousel-arrow nh-arrow-prev" id="nhPrevBtn" aria-label="Previous Slide">
             <i class="fa-solid fa-chevron-left"></i>
@@ -90,7 +90,7 @@
             <!-- ==================== SLIDE 1 ==================== -->
             <div class="nh-slide nh-slide-1 active" data-slide-index="0">
                <div class="container nh-hero-container">
-                  
+
                   <!-- Top Bar: Badge & Phone Contact -->
                   <div class="nh-hero-top-row">
                      <!-- India's No. 1 Badge -->
@@ -133,9 +133,9 @@
 
                         <!-- 4 Step Process Flow Pills (Clickable) -->
                         <div class="nh-flow-pills-wrap">
-                           <a href="3d-scanners-in-india.php" class="nh-flow-pill">3D Scan</a>
+                           <a href="3d-scanning-services-in-india.php" class="nh-flow-pill">3D Scan</a>
                            <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
-                           <a href="3d-reverse-engineering-services-in-india.php" class="nh-flow-pill">Design</a>
+                           <a href="3d-Reverse-Engineering-Services-in-india.php" class="nh-flow-pill">Design</a>
                            <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
                            <a href="3d-printing-service-in-india.php" class="nh-flow-pill">3D Print</a>
                            <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
@@ -148,7 +148,7 @@
 
                         <!-- Action Buttons -->
                         <div class="nh-hero-actions">
-                           <a href="Book-demo-get-quote-for-3D-scanner.php" class="nh-btn-primary">Get Quote</a>
+                           <a href="scanning-solution-form.php" class="nh-btn-primary">Get Quote</a>
                            <a href="contact-us.php" class="nh-btn-outline">Talk to an Expert</a>
                         </div>
 
@@ -197,7 +197,7 @@
             <!-- ==================== SLIDE 2 ==================== -->
             <div class="nh-slide nh-slide-2" data-slide-index="1">
                <div class="container nh-hero-container">
-                  
+
                   <!-- Top Bar: Badge & Phone Contact -->
                   <div class="nh-hero-top-row">
                      <!-- Global Leader Badge -->
@@ -287,7 +287,7 @@
             <!-- ==================== SLIDE 3 ==================== -->
             <div class="nh-slide nh-slide-3" data-slide-index="2">
                <div class="container nh-hero-container">
-                  
+
                   <!-- Top Bar: Badge & Phone Contact -->
                   <div class="nh-hero-top-row">
                      <!-- Global Leader Badge -->
@@ -541,7 +541,7 @@
                      </div>
 
                      <!-- Primary CTA Button -->
-                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="wwp-main-btn wwp-btn-orange">
+                     <a href="3d-products.php" class="wwp-main-btn wwp-btn-orange">
                         Explore Our 3D Scanners, Software &amp; Printers <i class="fa-solid fa-arrow-right ms-2"></i>
                      </a>
 
@@ -551,11 +551,11 @@
                            <span>3D Scanners</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
-                        <a href="geomagicsoftware.php" class="wwp-subpill wwp-subpill-orange">
+                        <a href="3d-scanning-software.php" class="wwp-subpill wwp-subpill-orange">
                            <span>Software</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
-                        <a href="industrial-fdm-3d-printers.php" class="wwp-subpill wwp-subpill-orange">
+                        <a href="peek-3d-printers-in-india.php" class="wwp-subpill wwp-subpill-orange">
                            <span>3D Printers</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
@@ -660,8 +660,8 @@
                      </div>
 
                      <!-- Primary CTA Button -->
-                     <a href="Get-3d-scan-service-quote.php" class="wwp-main-btn wwp-btn-navy">
-                        Get Your 3D Scanning &amp; Engineering Project Done <i class="fa-solid fa-arrow-right ms-2"></i>
+                     <a href="3d-services.php" class="wwp-main-btn wwp-btn-navy">
+                        Explore Our 3D Services &amp; Engineering Project Done <i class="fa-solid fa-arrow-right ms-2"></i>
                      </a>
 
                      <!-- Sub-pills Quick Links -->
@@ -768,8 +768,8 @@
                      </div>
 
                      <!-- Button -->
-                     <a href="buy-einstar-and-einscan-3d-scanner-online-in-india.php" class="eg-btn">
-                        <i class="fa-solid fa-cart-shopping me-2"></i> BUY ONLINE <i class="fa-solid fa-arrow-right ms-1"></i>
+                     <a href="entry-level-3d-scanners.php" class="eg-btn">
+                        Know More <i class="fa-solid fa-arrow-right ms-2"></i>
                      </a>
                   </div>
                </div>
@@ -829,8 +829,8 @@
                      </div>
 
                      <!-- Button -->
-                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="eg-btn">
-                        <i class="fa-solid fa-cart-shopping me-2"></i> GET DEMO &amp; QUOTE <i class="fa-solid fa-arrow-right ms-1"></i>
+                     <a href="professional-3d-scanners.php" class="eg-btn">
+                        Know More <i class="fa-solid fa-arrow-right ms-2"></i>
                      </a>
                   </div>
                </div>
@@ -890,8 +890,8 @@
                      </div>
 
                      <!-- Button -->
-                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="eg-btn">
-                        <i class="fa-solid fa-cart-shopping me-2"></i> GET DEMO &amp; QUOTE <i class="fa-solid fa-arrow-right ms-1"></i>
+                     <a href="metrology-grade-3d-scanners.php" class="eg-btn">
+                        Know More <i class="fa-solid fa-arrow-right ms-2"></i>
                      </a>
                   </div>
                </div>
@@ -927,7 +927,7 @@
             <!-- Left Column: Rotating 7-Step Orbit Diagram -->
             <div class="col-lg-6 col-12 sss-wheel-col">
                <div class="sss-wheel-wrapper" id="sssWheelWrapper">
-                  
+
                   <!-- Radial dashed connector lines in SVG -->
                   <svg class="sss-wheel-svg" id="sssWheelSvg" viewBox="0 0 500 500">
                      <g id="sssSvgLinesGroup">
@@ -1322,7 +1322,7 @@
             <!-- Left Column: Rotating 7-Step Orbit Diagram -->
             <div class="col-lg-6 col-12 wf-wheel-col">
                <div class="wf-wheel-wrapper" id="wfWheelWrapper">
-                  
+
                   <!-- Radial dashed connector lines in SVG -->
                   <svg class="wf-wheel-svg" id="wfWheelSvg" viewBox="0 0 500 500">
                      <g id="wfSvgLinesGroup">
@@ -1437,7 +1437,7 @@
                         For those looking to incorporate this technology into their OPEX model or assess the technology and its benefits before investing, we also offer value-driven advanced <span class="about-orange">3D services, encompassing 3D scanning, Reverse Engineering, printing, and inspection solutions</span>.
                      </p>
                      <div class="about-btn-wrap">
-                        <a href="about-us.php" class="about-btn">Know More About Us</a>
+                        <a href="About_us.php" class="about-btn">Know More About Us</a>
                      </div>
                   </div>
                </div>
@@ -1504,7 +1504,7 @@
 
          <div class="iws-cards-grid">
             <!-- Card 1 -->
-            <div class="iws-card">
+            <a href="precise3dm-digital-manufacturing-solutions-for-automotive-industry.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img1.png" alt="Automotive" class="iws-card-img">
                   <div class="iws-badge">
@@ -1514,10 +1514,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Automotive</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 2 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-auto-components-and-tier-suppliers.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img2.png" alt="Auto Components &amp; Tier Suppliers" class="iws-card-img">
                   <div class="iws-badge">
@@ -1527,10 +1527,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Auto Components &amp; Tier Suppliers</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 3 -->
-            <div class="iws-card">
+            <a href="electric-vehicle-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img3.png" alt="Electric Vehicle (EV)" class="iws-card-img">
                   <div class="iws-badge">
@@ -1540,10 +1540,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Electric Vehicle (EV)</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 4 -->
-            <div class="iws-card">
+            <a href="railway-locomotive-industry.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img4.png" alt="Railway &amp; Locomotive" class="iws-card-img">
                   <div class="iws-badge">
@@ -1553,10 +1553,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Railway &amp; Locomotive</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 5 -->
-            <div class="iws-card">
+            <a href="shipbuilding-marine-industry.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img5.png" alt="Shipbuilding &amp; Marine" class="iws-card-img">
                   <div class="iws-badge">
@@ -1566,10 +1566,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Shipbuilding &amp; Marine</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 6 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-aerospace-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img6.png" alt="Aerospace" class="iws-card-img">
                   <div class="iws-badge">
@@ -1579,10 +1579,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Aerospace</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 7 -->
-            <div class="iws-card">
+            <a href="defense-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img7.png" alt="Defence" class="iws-card-img">
                   <div class="iws-badge">
@@ -1592,10 +1592,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Defence</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 8 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-medical-device-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img8.png" alt="Medical Device" class="iws-card-img">
                   <div class="iws-badge">
@@ -1605,10 +1605,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Medical Device</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 9 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-medical-device-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img9.png" alt="Orthopaedic Implant" class="iws-card-img">
                   <div class="iws-badge">
@@ -1618,10 +1618,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Orthopaedic Implant</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 10 -->
-            <div class="iws-card">
+            <a href="industrial-machinery-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img10.png" alt="Industrial Machinery" class="iws-card-img">
                   <div class="iws-badge">
@@ -1631,10 +1631,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Industrial Machinery</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 11 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img11.png" alt="Heavy Engineering" class="iws-card-img">
                   <div class="iws-badge">
@@ -1644,10 +1644,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Heavy Engineering</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 12 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img12.png" alt="Construction &amp; Earthmoving Equipment" class="iws-card-img">
                   <div class="iws-badge">
@@ -1657,10 +1657,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Construction &amp; Earthmoving Equipment</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 13 -->
-            <div class="iws-card">
+            <a href="agricultural-machinery-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img13.png" alt="Agricultural Machinery" class="iws-card-img">
                   <div class="iws-badge">
@@ -1670,10 +1670,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Agricultural Machinery</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 14 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-material-handling-equipment-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img14.png" alt="Material Handling Equipment Manufacturing" class="iws-card-img">
                   <div class="iws-badge">
@@ -1683,10 +1683,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Material Handling Equipment Manufacturing</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 15 -->
-            <div class="iws-card">
+            <a href="tool-die-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img15.png" alt="Tool &amp; Die" class="iws-card-img">
                   <div class="iws-badge">
@@ -1696,10 +1696,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Tool &amp; Die</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 16 -->
-            <div class="iws-card">
+            <a href="mold-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img16.png" alt="Mold" class="iws-card-img">
                   <div class="iws-badge">
@@ -1709,10 +1709,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Mold</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 17 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-foundry-and-casting.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img17.png" alt="Foundry &amp; Casting" class="iws-card-img">
                   <div class="iws-badge">
@@ -1722,10 +1722,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Foundry &amp; Casting</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 18 -->
-            <div class="iws-card">
+            <a href="forging-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img18.png" alt="Forging" class="iws-card-img">
                   <div class="iws-badge">
@@ -1735,10 +1735,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Forging</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 19 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-plastic-parts.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img19.png" alt="Plastic Parts" class="iws-card-img">
                   <div class="iws-badge">
@@ -1748,10 +1748,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Plastic Parts</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 20 -->
-            <div class="iws-card">
+            <a href="sheet-metal-springback.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img20.png" alt="Sheet Metal &amp; Metal Fabrication" class="iws-card-img">
                   <div class="iws-badge">
@@ -1761,10 +1761,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Sheet Metal &amp; Metal Fabrication</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 21 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-electrical-equipment.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img21.png" alt="Electrical Equipment" class="iws-card-img">
                   <div class="iws-badge">
@@ -1774,10 +1774,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Electrical Equipment</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 22 -->
-            <div class="iws-card">
+            <a href="electronics-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img22.png" alt="Electronics" class="iws-card-img">
                   <div class="iws-badge">
@@ -1787,10 +1787,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Electronics</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 23 -->
-            <div class="iws-card">
+            <a href="pumps-valves-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img23.png" alt="Pumps, Valves &amp; Flow Control Equipment Manufacturing" class="iws-card-img">
                   <div class="iws-badge">
@@ -1800,10 +1800,10 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Pumps, Valves &amp; Flow Control Equipment Manufacturing</h3>
                </div>
-            </div>
+            </a>
 
             <!-- Card 24 -->
-            <div class="iws-card">
+            <a href="digital-manufacturing-solutions-for-energy-equipment.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img24.png" alt="Energy Equipment — Wind, Solar &amp; Power Equipment" class="iws-card-img">
                   <div class="iws-badge">
@@ -1813,7 +1813,7 @@
                <div class="iws-card-body">
                   <h3 class="iws-card-title">Energy Equipment — Wind, Solar &amp; Power Equipment</h3>
                </div>
-            </div>
+            </a>
 
          </div>
       </div>
@@ -1844,7 +1844,7 @@
                      <h3 class="fc-card-title">3D Scanning Services</h3>
                      <p class="fc-card-desc">Have physical parts or machines but unable to measure for design or quality control</p>
                      <div class="fc-card-btn-wrap">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="fc-btn">Explore Scanning Service</a>
+                        <a href="3d-scanning-services-in-india.php" class="fc-btn">Explore Scanning Service</a>
                      </div>
                   </div>
                </div>
@@ -1864,7 +1864,7 @@
                      <h3 class="fc-card-title">3D Reverse Engineering Services</h3>
                      <p class="fc-card-desc">Want to create CAD models from physical objects for manufacturing or benchmarking?</p>
                      <div class="fc-card-btn-wrap">
-                        <a href="3d-scan-to-hybrid-modelling.php" class="fc-btn">Explore Reverse Engineering Service</a>
+                        <a href="3d-Reverse-Engineering-Services-in-india.php" class="fc-btn">Explore Reverse Engineering Service</a>
                      </div>
                   </div>
                </div>
@@ -1904,7 +1904,7 @@
                      <h3 class="fc-card-title">3D Reverse Engineering &amp; Inspection Software</h3>
                      <p class="fc-card-desc">Already have 3D scanners? Looking to add inspection or reverse engineering software such as Geomagic(Hexagon) to your workflow?</p>
                      <div class="fc-card-btn-wrap">
-                        <a href="geomagicsoftware.php" class="fc-btn">Explore Inspection Software</a>
+                        <a href="3d-inspection-service.php" class="fc-btn">Explore Inspection Software</a>
                      </div>
                   </div>
                </div>
@@ -1915,7 +1915,7 @@
    </section>
 
    <!-- Footer Start -->
-   <?php include('includes/footer.php'); ?>
+   <?php include "includes/footer.php"; ?>
    <!-- Footer End -->
 
    <!-- Scripts -->
@@ -2030,7 +2030,7 @@
                subtitle: "Tell us about your requirement",
                headerIcon: "assets/images/home-new/sss-card1-img.png",
                btnText: "Get Rapid Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "scanning-solution-form.php",
                pills: [
                   { icon: "assets/images/home-new/sss-card1-icon1.png", label: "Part Size" },
                   { icon: "assets/images/home-new/sss-card1-icon2.png", label: "Application" },
@@ -2084,7 +2084,7 @@
                subtitle: "Receive proposal and move forward with order.",
                headerIcon: "assets/images/home-new/sss-card5-img.png",
                btnText: "Get Rapid Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "scanning-solution-form.php",
                pills: [
                   { icon: "assets/images/home-new/sss-card5-icon1.png", label: "Commercial Proposal" },
                   { icon: "assets/images/home-new/sss-card5-icon2.png", label: "Delivery Timeline" },
@@ -2097,7 +2097,7 @@
                subtitle: "Get fully trained and ready to deliver results.",
                headerIcon: "assets/images/home-new/sss-card6-img.png",
                btnText: "Meet Us Live Online",
-               btnLink: "contact-us.php",
+               btnLink: "https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09",
                pills: [
                   { icon: "assets/images/home-new/sss-card6-icon1.png", label: "Hardware Setup" },
                   { icon: "assets/images/home-new/sss-card6-icon2.png", label: "Software Training" },
@@ -2110,7 +2110,7 @@
                subtitle: "We support your growth long after the purchase.",
                headerIcon: "assets/images/home-new/sss-card7-img.png",
                btnText: "Meet Us Live Online",
-               btnLink: "contact-us.php",
+               btnLink: "https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09",
                pills: [
                   { icon: "assets/images/home-new/sss-card7-icon1.png", label: "Remote Support" },
                   { icon: "assets/images/home-new/sss-card7-icon2.png", label: "Application Support" },
@@ -2422,7 +2422,7 @@
                desc: "Share photos, drawings, CAD files, or inspection requirements.<br>Our team reviews your requirements and recommends the best solution.",
                headerIcon: "assets/images/home-new/wf-card1-img.png",
                btnText: "Get a Service Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "Get-3d-scan-service-quote.php",
                type: "simple"
             },
             {
@@ -2431,7 +2431,7 @@
                desc: "Visit our lab, ship your components, or schedule an on-site scanning service.",
                headerIcon: "assets/images/home-new/wf-card2-img.png",
                btnText: "Get a Service Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "Get-3d-scan-service-quote.php",
                type: "thumbs3",
                thumbs: [
                   { img: "assets/images/home-new/wf-card2-img1.png", caption: "Walk-in Scanning Lab" },
@@ -2445,7 +2445,7 @@
                desc: "Our metrology engineers capture precise 3D data using high-end industrial scanners.",
                headerIcon: "assets/images/home-new/wf-card3-img.png",
                btnText: "Get a Service Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "Get-3d-scan-service-quote.php",
                type: "thumbs4",
                thumbs: [
                   { img: "assets/images/home-new/wf-card3-img1.png", caption: "Handheld Scanners" },
@@ -2461,7 +2461,7 @@
                subheading: "Processing Services:",
                headerIcon: "assets/images/home-new/wf-card4-img.png",
                btnText: "Get a Service Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "Get-3d-scan-service-quote.php",
                type: "pills",
                pills: [
                   { icon: "assets/images/home-new/wf-card4-icon1.png", text: "Data Cleaning" },
@@ -2476,7 +2476,7 @@
                desc: "Convert scanned data into editable CAD models and engineering drawings.",
                headerIcon: "assets/images/home-new/wf-card5-img.png",
                btnText: "Get a Service Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "Get-3d-scan-service-quote.php",
                type: "pills",
                pills: [
                   { icon: "assets/images/home-new/wf-card5-icon1.png", text: "Reverse Engineering" },
@@ -2491,7 +2491,7 @@
                desc: "Compare with CAD, check dimensions, and get detailed inspection reports",
                headerIcon: "assets/images/home-new/wf-card6-img.png",
                btnText: "Get a Service Quote",
-               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               btnLink: "Get-3d-scan-service-quote.php",
                type: "pills",
                pills: [
                   { icon: "assets/images/home-new/wf-card6-icon1.png", text: "3D Inspection" },

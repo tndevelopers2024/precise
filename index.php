@@ -29,19 +29,28 @@
       content="Precise3DM Offers 3D Scanners and 3D Software for manufacturing companies' Capex investments. We also Offer 3D Scanning Services to assess the technology before investing." />
    <meta property="twitter:url" content="https:www.precise3dm.com/" />
 
-   <!--bootstrap css-->
+   <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="assets/css/bootstrap.css">
-   <!--owl css-->
-   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-   <link rel="stylesheet" type="text/css" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-   <link rel="stylesheet" type="text/css"
-      href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-   <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+   <!-- Font Awesome 6 -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <!--custom css-->
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+   <!-- Sliders CSS -->
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+   <!-- Core Base Styles -->
    <link rel="stylesheet" href="assets/css/styles.css">
    <link rel="stylesheet" href="assets/css/index.css">
+
+   <!-- New Home Page Custom Stylesheet -->
+   <link rel="stylesheet" href="assets/css/home-new.css?v=3.7">
    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
    <link rel="canonical" href="https:www.precise3dm.com/index.php" />
 
@@ -229,2208 +238,2788 @@
 
 </head>
 
-<body>
-
-   <!--Google Tag Manager (noscript) -->
-   <noscript><iframe src="https:www.googletagmanager.com/ns.html?id=GTM-5FX95R9" height="0" width="0"
-         style="display:none;visibility:hidden"></iframe></noscript>
-   <!--End Google Tag Manager (noscript) -->
-
-   <!-- header start -->
-   <?php include('includes/header.php'); ?>
-   <!-- header End -->
-
-   <!-- ==========================
-          Hero Section start
-       ========================== -->
-   <style>
-      :root {
-         --backgroundcolor: #101010;
-         --whitecolor: #fff;
-         --maincolor: #ff931e;
-         --subbackground: #0A0A0A;
-         --subcotent: #bbb;
-         --list: #DFEEFF;
-         --light-bg: #FFE1C3;
-      }
-
-      body {
-         background: var(--backgroundcolor);
-         color: var(--whitecolor);
-         margin: 0;
-         padding: 0;
-         text-decoration: none;
-         transition: background 0.5s;
-         /* Add a smooth transition effect */
-      }
-
-      .form-img-img img {
-         width: 60%;
-         z-index: 99;
-      }
-
-      .form-img-img {
-         position: relative;
-         width: 170px;
-         height: 166px;
-         background: rgba(255, 147, 30, 0.4);
-         border-radius: 50%;
-         display: grid;
-         place-items: center;
-         margin-left: 10px;
-         margin-top: -10px;
-      }
-
-      .form-img-img span {
-         position: absolute;
-         width: 60%;
-         height: 60%;
-         background: inherit;
-         border-radius: inherit;
-         opacity: 0.8;
-         animation: pulseAnimate 4s ease-out infinite;
-         animation-delay: calc(1s* var(--i));
-      }
-
-      button {
-         background-color: var(--maincolor);
-         color: var(--whitecolor);
-         padding: 10px;
-         cursor: pointer;
-      }
-
-      .carousel-control-prev,
-      .carousel-control-next {
-         background-color: transparent !important;
-         border: none;
-      }
-
-      .custom-switch,
-      .address-con {
-         z-index: 9;
-      }
-
-      .carousel-control-prev-icon,
-      .carousel-control-next-icon {
-         background-color: black;
-         border-radius: 50%;
-         background-size: 100% 75%;
-         padding: 20px;
-      }
-
-      .custom-slider:before {
-         background: url(assets/images/new-home/sun.svg) no-repeat center center;
-         background-size: contain;
-      }
-
-      .custom-slider.on:before {
-         background: url(assets/images/new-home/moon.svg) no-repeat center center;
-         background-size: contain;
-         content: '';
-      }
-
-      .banner-img1 {
-         background-size: 100% 100%;
-         height: 350px;
-         width: 350px;
-         margin-top: 40px;
-      }
-
-      .main-banner {
-         padding-top: 150px;
-      }
-
-      .test-section a {
-         padding: 14px 23px;
-         background-color: transparent !important;
-         border-radius: 10px;
-         margin: 20px;
-         color: #fff;
-         font-size: 16px;
-         transition: 0.3s all;
-      }
-
-      .swiper-button-next,
-      .swiper-button-prev {
-         background-color: #ff931e !important;
-      }
-
-
-
-      body .sk-ww-google-reviews .swiper-button-prev {
-         left: 0px;
-         height: 40px;
-         width: 40px;
-         border-radius: 50%;
-      }
-
-      body .sk-ww-google-reviews .swiper-button-next {
-         right: 20px;
-         height: 40px;
-         width: 40px;
-         border-radius: 50%;
-      }
-
-      .sk-arrow-left {
-         border: solid rgb(255, 255, 255) !important;
-         border-width: 0 3px 3px 0 !important;
-         display: inline-block;
-         height: 17px;
-         width: 17px;
-         margin-top: -2px;
-         margin-left: 2px;
-         padding: 0px !important;
-      }
-
-      .sk-arrow-right {
-         border: solid rgb(255, 255, 255) !important;
-         border-width: 0 3px 3px 0 !important;
-         display: inline-block;
-         height: 17px;
-         width: 17px;
-         margin-top: 0px;
-         margin-left: -7px;
-         padding: 0px !important;
-      }
-
-      .test-section a {
-         padding: 0px;
-         background-color: transparent !important;
-         border-radius: 10px;
-         margin: 2px;
-         color: #fff;
-         font-size: 16px;
-         transition: 0.3s all;
-      }
-
-      #carouselExampleIndicators {
-         margin-top: -100px;
-      }
-
-      .mid-banner a {
-         border-radius: 10px;
-         border: 1px solid var(--maincolor);
-         margin: 20px 0px 10px 0px !important;
-         background: var(--maincolor);
-         backdrop-filter: blur(1px);
-         font-size: 16px;
-         text-align: center;
-      }
-
-      @media (max-width:600px) {
-         .main-banner {
-            padding-top: 20px;
-         }
-
-         .banner-img1 {
-            display: block;
-            background-size: contain !important;
-         }
-
-         .banner-content {
-            padding-top: 90px !important;
-         }
-
-         body .sk-ww-google-reviews .swiper-button-prev {
-            left: 0px !important;
-         }
-
-         .form-img-img {
-            margin-left: 95px !important;
-         }
-
-         .product-item img {
-            width: 100%;
-            height: 120px !important;
-         }
-
-         .banner,
-         .banner1 {
-            padding: 80px 0 0px !important;
-         }
-
-         .mid-banner a {
-            margin: 8px !important;
-         }
-
-         .theme-con,
-         .address-con {
-            padding-top: 30px;
-         }
-      }
-
-      .main-event-banner h2 {
-         font-size: 45px;
-         font-family: Impact, Haettenschweiler, "Arial Narrow Bold" !important;
-         color: #000 !important;
-      }
-
-      .hidden-img {
-         display: none;
-      }
-
-      .main-event-banner span {
-         color: #ff931e;
-         font-family: Impact, Haettenschweiler, "Arial Narrow Bold" !important;
-      }
-
-      .main-event-bannerp {
-         font-size: 28px !important;
-         color: rgba(80, 80, 80, 1) !important;
-      }
-
-      .event-banner-discount h6 {
-         font-size: 18px;
-         color: #000;
-      }
-
-      .event-banner-discount {
-         border: 2px solid #ff931e;
-         display: inline-block;
-         padding: 10px;
-         border-radius: 10px;
-         margin-top: 20px;
-      }
-
-      .event-banner-discount span {
-         color: #ff931e;
-      }
-
-      .event-phone-btn {
-         padding: 19px 20px !important;
-      }
-
-      .main-event-banner {
-         padding: 180px 0;
-      }
-
-      .email {
-         align-items: center !important;
-      }
-
-      .mid-banner p {
-         margin: 0 0 0px 0 !important;
-      }
-
-      @media(max-width:600px) {
-         .main-event-banner h2 {
-            font-size: 30px !important;
-         }
-
-         .main-event-bannerp {
-            font-size: 16px !important;
-            color: rgba(80, 80, 80, 1) !important;
-         }
-
-         .main-event-banner-sec {
-            background-image: url(assets/images/events/banglore-mob.png) !important;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-         }
-
-         .hidden-img {
-            display: block !important;
-            text-align: center !important;
-            padding: 15px !important;
-         }
-
-         .main-event-banner {
-            padding: 180px 25px 100px 25px !important;
-         }
-
-         .hero-img {
-            display: none !important;
-         }
-
-         .geomagic-bg2 {
-            width: 100% !important;
-         }
-
-         .geomagic-banner-img img {
-            width: 100% !important;
-         }
-
-         .bg-banner {
-            background-color: transparent !important;
-         }
-      }
-
-      .geomagic-bannerp {
-         border: 1px solid #ff931e;
-         padding: 10px;
-         display: inline-block;
-      }
-
-      .mobile-banner {
-         display: none;
-      }
-
-      .h2-center h2 {
-         font-size: 40px !important;
-      }
-
-      @media(max-width:600px) {
-         .desktop-banner {
-            display: none;
-         }
-
-         .mobile-banner {
-            display: block;
-         }
-
-         .banner-mob {
-            background-color: #FFE9D2;
-         }
-
-         .banner1-mob {
-            background-color: #FFE9D2;
-         }
-
-         .bg-banner-mob {
-            background-color: #FFE9D2;
-         }
-
-         .carousel-control-prev,
-         .carousel-control-next {
-            width: auto;
-         }
-
-         .h2-center h2 {
-            font-size: 22px !important;
-         }
-
-         .bg-4-right.text-center {
-            margin-top: 0px;
-         }
-
-      }
-
-      .ban-img {
-         text-align: center;
-      }
-
-      .ban-img img {
-         width: 100%;
-      }
-
-      .omni-banner {
-         padding-bottom: 80px;
-         background: url('assets/images/new-home/omni-bg.png');
-         background-size: cover;
-      }
-
-      b {
-         font-family: 'Inter', sans-serif;
-      }
-   </style>
-
-
-   <!-- banner -->
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6 col-4 theme-con">
-            <label class="custom-switch" id="customSwitchContainer">
-               <input type="checkbox" id="customToggleSwitch">
-               <span class="custom-slider round"></span>
-            </label>
+<body class="home-new-body">
+
+   <!-- Header Start -->
+   <?php include "includes/header.php"; ?>
+   <!-- Header End -->
+
+   <!-- ==========================================================================
+          NEW HERO BANNER SLIDER SECTION (3 SLIDES)
+        ========================================================================== -->
+   <section class="nh-hero-section" id="nh-hero-section">
+      <div class="nh-hero-carousel" id="nhHeroCarousel">
+
+         <!-- Previous & Next Arrow Controls -->
+         <button class="nh-carousel-arrow nh-arrow-prev" id="nhPrevBtn" aria-label="Previous Slide">
+            <i class="fa-solid fa-chevron-left"></i>
+         </button>
+         <button class="nh-carousel-arrow nh-arrow-next" id="nhNextBtn" aria-label="Next Slide">
+            <i class="fa-solid fa-chevron-right"></i>
+         </button>
+
+         <div class="nh-carousel-inner">
+
+            <!-- ==================== SLIDE 1 ==================== -->
+            <div class="nh-slide nh-slide-1 active" data-slide-index="0">
+               <div class="container nh-hero-container">
+
+                  <!-- Top Bar: Badge & Phone Contact -->
+                  <div class="nh-hero-top-row">
+                     <!-- India's No. 1 Badge -->
+                     <div class="nh-badge-box">
+                        <div class="nh-badge-num-box">
+                           <span class="nh-badge-country">INDIA'S</span>
+                           <span class="nh-badge-num">NO.1</span>
+                        </div>
+                        <div class="nh-badge-divider"></div>
+                        <div class="nh-badge-text-box">
+                           <span class="nh-badge-title">LARGEST 3D SCAN–BASED</span>
+                           <span class="nh-badge-sub">SOLUTION PROVIDERS</span>
+                        </div>
+                     </div>
+
+                     <!-- Call Us Now Contact (Desktop) -->
+                     <div class="nh-top-contact">
+                        <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                           <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="nh-contact-info">
+                           <span class="nh-contact-label">Call us now</span>
+                           <div class="nh-contact-val">
+                              <a href="tel:+919840478347">+91 98404 78347</a>
+                              <span class="nh-contact-pipe">|</span>
+                              <a href="tel:+916374406179">+91 63744 06179</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Body: Content & Image -->
+                  <div class="row align-items-center nh-hero-body-row">
+                     <!-- Left Content Column -->
+                     <div class="col-lg-7 col-md-12 nh-hero-left-col">
+                        <h1 class="nh-hero-heading">
+                           Industrial 3D Scanning &amp;<br>
+                           Digital Manufacturing <span class="nh-text-orange">Solutions</span>
+                        </h1>
+
+                        <!-- 4 Step Process Flow Pills (Clickable) -->
+                        <div class="nh-flow-pills-wrap">
+                           <a href="3d-scanning-services-in-india.php" class="nh-flow-pill">3D Scan</a>
+                           <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
+                           <a href="3d-Reverse-Engineering-Services-in-india.php" class="nh-flow-pill">Design</a>
+                           <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
+                           <a href="3d-printing-service-in-india.php" class="nh-flow-pill">3D Print</a>
+                           <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
+                           <a href="3d-inspection-service.php" class="nh-flow-pill">3D Inspect</a>
+                        </div>
+
+                        <p class="nh-hero-desc">
+                           Empowering manufacturers with metrology-grade 3D scanners, reverse engineering, inspection and 3D printing solutions.
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="nh-hero-actions">
+                           <a href="scanning-solution-form.php" class="nh-btn-primary">Get Quote</a>
+                           <a href="contact-us.php" class="nh-btn-outline">Talk to an Expert</a>
+                        </div>
+
+                        <!-- Bottom Left Email Contact -->
+                        <div class="nh-bottom-contact">
+                           <a href="mailto:sm@precise3dm.com" class="nh-contact-icon-circle" aria-label="Email Us">
+                              <i class="fa-solid fa-envelope"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Email us</span>
+                              <div class="nh-contact-val">
+                                 <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Mobile & Tablet Call Us Now (below Email us on screens < 992px) -->
+                        <div class="nh-bottom-contact nh-mobile-call">
+                           <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                              <i class="fa-solid fa-phone"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Call us now</span>
+                              <div class="nh-contact-val">
+                                 <a href="tel:+919840478347">+91 98404 78347</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="tel:+916374406179">+91 63744 06179</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Right Image Column -->
+                     <div class="col-lg-5 col-md-12 nh-hero-right-col">
+                        <div class="nh-hero-image-wrap">
+                           <img src="assets/images/home-new/nh-banner1-right-img.png" alt="Industrial 3D Scanning & Digital Manufacturing Solutions" class="nh-hero-img img-fluid">
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+            <!-- ==================== SLIDE 2 ==================== -->
+            <div class="nh-slide nh-slide-2" data-slide-index="1">
+               <div class="container nh-hero-container">
+
+                  <!-- Top Bar: Badge & Phone Contact -->
+                  <div class="nh-hero-top-row">
+                     <!-- Global Leader Badge -->
+                     <div class="nh-badge-inline">
+                        <span class="nh-badge-bar"></span>
+                        <span class="nh-badge-highlight">GLOBAL LEADER</span>
+                        <span class="nh-badge-inline-text">3D SCAN-BASED SOLUTION PROVIDER</span>
+                     </div>
+
+                     <!-- Call Us Now Contact (Desktop) -->
+                     <div class="nh-top-contact">
+                        <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                           <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="nh-contact-info">
+                           <span class="nh-contact-label">Call us now</span>
+                           <div class="nh-contact-val">
+                              <a href="tel:+919840478347">+91 98404 78347</a>
+                              <span class="nh-contact-pipe">|</span>
+                              <a href="tel:+916374406179">+91 63744 06179</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Body: Content & Image -->
+                  <div class="row align-items-center nh-hero-body-row">
+                     <!-- Left Content Column -->
+                     <div class="col-lg-6 col-md-12 nh-hero-left-col">
+                        <h1 class="nh-hero-heading">
+                           Shaping Ideas.<br>
+                           <span class="nh-text-orange">Building the Future.</span>
+                        </h1>
+
+                        <p class="nh-hero-desc">
+                           Advanced 3D Scanning, Inspection &amp; Additive Manufacture Solutions for Every Industry.
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="nh-hero-actions">
+                           <a href="3d-scanners-in-india.php" class="nh-btn-primary">Explore Our scanners</a>
+                           <a href="contact-us.php" class="nh-btn-outline">Talk to an Expert</a>
+                        </div>
+
+                        <!-- Bottom Left Email Contact -->
+                        <div class="nh-bottom-contact">
+                           <a href="mailto:sm@precise3dm.com" class="nh-contact-icon-circle" aria-label="Email Us">
+                              <i class="fa-solid fa-envelope"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Email us</span>
+                              <div class="nh-contact-val">
+                                 <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Mobile & Tablet Call Us Now (below Email us on screens < 992px) -->
+                        <div class="nh-bottom-contact nh-mobile-call">
+                           <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                              <i class="fa-solid fa-phone"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Call us now</span>
+                              <div class="nh-contact-val">
+                                 <a href="tel:+919840478347">+91 98404 78347</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="tel:+916374406179">+91 63744 06179</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Right Image Column -->
+                     <div class="col-lg-6 col-md-12 nh-hero-right-col">
+                        <div class="nh-hero-image-wrap">
+                           <img src="assets/images/home-new/nh-banner2-right-img.png" alt="Shaping Ideas Building the Future" class="nh-hero-img img-fluid">
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+            <!-- ==================== SLIDE 3 ==================== -->
+            <div class="nh-slide nh-slide-3" data-slide-index="2">
+               <div class="container nh-hero-container">
+
+                  <!-- Top Bar: Badge & Phone Contact -->
+                  <div class="nh-hero-top-row">
+                     <!-- Global Leader Badge -->
+                     <div class="nh-badge-inline">
+                        <span class="nh-badge-bar"></span>
+                        <span class="nh-badge-highlight">GLOBAL LEADER</span>
+                        <span class="nh-badge-inline-text">3D SCAN-BASED SOLUTION PROVIDER</span>
+                     </div>
+
+                     <!-- Call Us Now Contact -->
+                     <div class="nh-top-contact">
+                        <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                           <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="nh-contact-info">
+                           <span class="nh-contact-label">Call us now</span>
+                           <div class="nh-contact-val">
+                              <a href="tel:+919840478347">+91 98404 78347</a>
+                              <span class="nh-contact-pipe">|</span>
+                              <a href="tel:+916374406179">+91 63744 06179</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Body: Content & Image -->
+                  <div class="row align-items-center nh-hero-body-row">
+                     <!-- Left Content Column -->
+                     <div class="col-lg-6 col-md-12 nh-hero-left-col">
+                        <h1 class="nh-hero-heading">
+                           Welcome to<br>
+                           Precise<span class="nh-text-orange">3DM</span>
+                        </h1>
+
+                        <p class="nh-hero-desc">
+                           Empowering Innovators Worldwide with Advanced 3D Scanning, Inspection &amp; Additive Manufacturing Solutions.
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="nh-hero-actions">
+                           <a href="3d-scanners-in-india.php" class="nh-btn-primary">Explore Our scanners</a>
+                           <a href="contact-us.php" class="nh-btn-outline">Talk to an Expert</a>
+                        </div>
+
+                        <!-- 4 Features 2x2 Grid -->
+                        <div class="nh-features-grid">
+                           <!-- Feature 1: Precision -->
+                           <div class="nh-feature-item">
+                              <img src="assets/images/home-new/nh-banner3-left-icon1-img.png" alt="Precision" class="nh-feature-icon">
+                              <div class="nh-feature-text">
+                                 <span class="nh-feature-title">Precision</span>
+                                 <span class="nh-feature-sub">You Can Trust</span>
+                              </div>
+                           </div>
+
+                           <!-- Feature 2: Global Service Network -->
+                           <div class="nh-feature-item">
+                              <img src="assets/images/home-new/nh-banner3-left-icon2-img.png" alt="Global Network" class="nh-feature-icon">
+                              <div class="nh-feature-text">
+                                 <span class="nh-feature-title">Global</span>
+                                 <span class="nh-feature-sub">Service Network</span>
+                              </div>
+                           </div>
+
+                           <!-- Feature 3: Advanced Technology -->
+                           <div class="nh-feature-item">
+                              <img src="assets/images/home-new/nh-banner3-left-icon3-img.png" alt="Advanced Technology" class="nh-feature-icon">
+                              <div class="nh-feature-text">
+                                 <span class="nh-feature-title">Advanced</span>
+                                 <span class="nh-feature-sub">Technology</span>
+                              </div>
+                           </div>
+
+                           <!-- Feature 4: Dedicated Support -->
+                           <div class="nh-feature-item">
+                              <img src="assets/images/home-new/nh-banner3-left-icon4-img.png" alt="Dedicated Support" class="nh-feature-icon">
+                              <div class="nh-feature-text">
+                                 <span class="nh-feature-title">Dedicated</span>
+                                 <span class="nh-feature-sub">Support</span>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Bottom Left Email Contact -->
+                        <div class="nh-bottom-contact">
+                           <a href="mailto:sm@precise3dm.com" class="nh-contact-icon-circle" aria-label="Email Us">
+                              <i class="fa-solid fa-envelope"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Email us</span>
+                              <div class="nh-contact-val">
+                                 <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Mobile & Tablet Call Us Now (below Email us on screens < 992px) -->
+                        <div class="nh-bottom-contact nh-mobile-call">
+                           <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                              <i class="fa-solid fa-phone"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Call us now</span>
+                              <div class="nh-contact-val">
+                                 <a href="tel:+919840478347">+91 98404 78347</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="tel:+916374406179">+91 63744 06179</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Right Image Column -->
+                     <div class="col-lg-6 col-md-12 nh-hero-right-col">
+                        <div class="nh-hero-image-wrap">
+                           <img src="assets/images/home-new/nh-banner3-right-img.png" alt="Welcome to Precise3DM Worldwide" class="nh-hero-img img-fluid">
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
          </div>
-         <div class="col-lg-6 col-8 address-con">
-            <a href="tel:9940352575"><i class="fa-solid fa-phone"></i></a>
-            <p class="dm-n">Talk to us now at <br>Sales: 9840478347 <span>|</span> 3D Service: 9940352575
-               <span>|</span> <br>3D Printing: 9025700192
+
+         <!-- Bottom Navigation Indicators -->
+         <div class="nh-carousel-indicators" id="nhIndicators">
+            <button class="nh-indicator-dot active" id="nhDot0" data-slide-to="0" aria-label="Go to Slide 1"></button>
+            <button class="nh-indicator-dot" id="nhDot1" data-slide-to="1" aria-label="Go to Slide 2"></button>
+            <button class="nh-indicator-dot" id="nhDot2" data-slide-to="2" aria-label="Go to Slide 3"></button>
+         </div>
+
+      </div>
+   </section>
+
+   <!-- ==========================================================================
+          WORK WITH PRECISE3DM? SECTION (CAPEX vs OPEX)
+        ========================================================================== -->
+   <section class="wwp-section" id="work-with-precise3dm">
+      <div class="container wwp-container">
+
+         <!-- Section Header -->
+         <div class="wwp-header text-center">
+            <h2 class="wwp-title">
+               How Do You Want to Work with <span class="wwp-brand-orange">Precise3DM</span>?
+            </h2>
+            <p class="wwp-subtitle">
+               Choose the right approach for your needs — Own the Technology or Get Results from Our Experts.
             </p>
-            <p class="dd-n">98404 78347 <br> 9025700192 </p>
          </div>
-      </div>
-   </div>
 
-   <!-- Desktop view -->
+         <!-- Two Main Columns Card Box Wrapper -->
+         <div class="wwp-box-wrapper">
+            <div class="row g-0 wwp-cards-row">
 
-   <div id="carouselExampleIndicators" data-interval="4000" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner desktop-banner">
-         <div class="carousel-item active">
-            <section style="background-size: 100% 100% !important;" class="omni-banner bg-4">
-               <section class="theme-section">
+               <!-- ==================== LEFT CARD: CAPEX ==================== -->
+               <div class="col-lg-6 wwp-card-col wwp-col-left">
+                  <div class="wwp-card-inner">
 
-               </section>
-               <div class="container">
-                  <div class="above-banner">
-                     <p>LEADING <br><span>NO.1 </span></p>
-                     <h5></h5>
-                     <p class="text-uppercase">largest 3D scan-based <br> solution providers </p>
-                  </div>
-                  <h2 class="mt-3">Introducing <span>Freescan Omni</span> <br> In <span>India</span></h2>
-                  <div class="row">
-                     <div class="col-lg-8">
-                        <div class="bg-4-left">
-                           <h3><b>World’s First Standalone</b> Inspection-Ready Metrology 3D Scanner</h3>
-                           <ul>
-                              <li>
-                                 <p>On-Scanner Scan-To-Inspect</p>
-                              </li>
-                              <li>
-                                 <p>Certified Accuracy (VDI/VDE 2634 & ISO 10360) of 0.02 mm</p>
-                              </li>
-                              <li>
-                                 <p>Multi-Mode & High-Performance</p>
-                              </li>
-                              <li>
-                                 <p>Scalable Platform with Modular Expansion</p>
-                              </li>
-                           </ul>
-                           <div>
-                              <a href="freescan-omni.php" class="btn rounded-3xl">Know More</a>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
+                     <!-- Header Banner -->
+                     <div class="wwp-banner wwp-banner-orange">
+                        <div class="wwp-banner-icon">
+                           <img src="assets/images/home-new/wwp-card1-ticon.png" alt="Buy Technology Icon">
+                        </div>
+                        <span class="wwp-banner-title">BUY THE TECHNOLOGY (CAPEX)</span>
+                     </div>
 
-                                 </a>
-                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
-                              </div>
+                     <!-- Card Title & Description -->
+                     <h3 class="wwp-card-title">
+                        3D Scanners, Software and Printers<br class="d-none d-sm-block">for Your Business
+                     </h3>
+                     <p class="wwp-card-desc">
+                        Invest in the right 3D scanning, metrology and 3D printing solutions and build your in-house capability.
+                     </p>
+
+                     <!-- 3 Image Gallery Grid -->
+                     <div class="wwp-gallery-grid">
+                        <div class="wwp-gallery-item">
+                           <div class="wwp-gallery-img-wrap">
+                              <img src="assets/images/home-new/wwp-card1-img1.png" alt="On-Site Demo" class="wwp-gallery-img">
                            </div>
+                           <div class="wwp-gallery-label wwp-label-orange">ON-SITE DEMO</div>
                         </div>
-                     </div>
-                     <div class="col-lg-4">
-                        <div class="bg-4-right ">
 
+                        <div class="wwp-gallery-item">
+                           <div class="wwp-gallery-img-wrap">
+                              <img src="assets/images/home-new/wwp-card1-img2.png" alt="Training & Installation" class="wwp-gallery-img">
+                           </div>
+                           <div class="wwp-gallery-label wwp-label-orange">TRAINING &amp; INSTALLATION</div>
+                        </div>
+
+                        <div class="wwp-gallery-item">
+                           <div class="wwp-gallery-img-wrap">
+                              <img src="assets/images/home-new/wwp-card1-img3.png" alt="Our Technology Your Asset" class="wwp-gallery-img">
+                           </div>
+                           <div class="wwp-gallery-label wwp-label-orange">OUR TECHNOLOGY YOUR ASSET</div>
                         </div>
                      </div>
+
+                     <!-- 4-Step Process Flow -->
+                     <div class="wwp-steps-wrap">
+                        <!-- Step 1 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-orange">
+                              <img src="assets/images/home-new/wwp-card1-icon1.png" alt="Pre-Sales On-Site Demos">
+                           </div>
+                           <h4 class="wwp-step-title">1. PRE- SALES ON-SITE DEMOS</h4>
+                           <p class="wwp-step-desc">See the technology in action with your own parts.</p>
+                        </div>
+
+                        <div class="wwp-step-arrow wwp-arrow-orange">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-orange">
+                              <img src="assets/images/home-new/wwp-card1-icon2.png" alt="Post-Sales Training & SOP Support">
+                           </div>
+                           <h4 class="wwp-step-title">2. POST-SALES TRAINING &amp; SOP SUPPORT</h4>
+                           <p class="wwp-step-desc">Complete installation, hands-on training and ongoing support.</p>
+                        </div>
+
+                        <div class="wwp-step-arrow wwp-arrow-orange">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-orange">
+                              <img src="assets/images/home-new/wwp-card1-icon3.png" alt="Your Investment, Your Asset">
+                           </div>
+                           <h4 class="wwp-step-title">3. YOUR INVESTMENT, YOUR ASSET</h4>
+                           <p class="wwp-step-desc">Own the equipment and build your in-house capability.</p>
+                        </div>
+
+                        <div class="wwp-step-arrow wwp-arrow-orange">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-orange">
+                              <img src="assets/images/home-new/wwp-card1-icon4.png" alt="Long-Term ROI">
+                           </div>
+                           <h4 class="wwp-step-title">4. LONG-TERM ROI</h4>
+                           <p class="wwp-step-desc">Improve efficiency, quality and reduce project costs over time.</p>
+                        </div>
+                     </div>
+
+                     <!-- Primary CTA Button -->
+                     <a href="3d-products.php" class="wwp-main-btn wwp-btn-orange">
+                        Explore Our 3D Scanners, Software &amp; Printers <i class="fa-solid fa-arrow-right ms-2"></i>
+                     </a>
+
+                     <!-- Sub-pills Quick Links -->
+                     <div class="wwp-subpills-wrap">
+                        <a href="3d-scanners-in-india.php" class="wwp-subpill wwp-subpill-orange">
+                           <span>3D Scanners</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="3d-scanning-software.php" class="wwp-subpill wwp-subpill-orange">
+                           <span>Software</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="peek-3d-printers-in-india.php" class="wwp-subpill wwp-subpill-orange">
+                           <span>3D Printers</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                     </div>
+
                   </div>
                </div>
-            </section>
-         </div>
-         <div class="carousel-item ">
-            <section style="background-size: 100% 100% !important;" class="banner">
-               <section class="theme-section">
 
-               </section>
-               <div class="container main-banner">
-                  <div class="row">
-                     <div class="col-md-7">
-                        <div class="banner-content">
-                           <div class="above-banner">
-                              <p>LEADING <br><span>NO.1 </span></p>
-                              <h5></h5>
-                              <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
-                           </div>
-                           <div class="mid-banner">
-                              <h2 style="font-size:50px !important; color:var(--maincolor);" id="midbanner">Welcome to
-                                 Precise3DM
-                              </h2>
-                              <p>Discover our exciting Campaigns, Products & Offerings below.</p>
-                              <a href="geomagicsoftware.php" class="btn">Geomagic Products</a>
-                              <a href="FreeScan-Combo.php" class="btn">Freescan Combo</a>
-                              <a href="3d-services.php" class="btn">3D services</a>
-                              <br>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
+               <!-- ==================== RIGHT CARD: OPEX ==================== -->
+               <div class="col-lg-6 wwp-card-col wwp-col-right">
+                  <div class="wwp-card-inner">
 
-                                 </a>
-                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
-                              </div>
+                     <!-- Header Banner -->
+                     <div class="wwp-banner wwp-banner-navy">
+                        <div class="wwp-banner-icon">
+                           <img src="assets/images/home-new/wwp-card2-ticon.png" alt="Engineering Services Icon">
+                        </div>
+                        <span class="wwp-banner-title">GET 3D ENGINEERING SERVICES (OPEX)</span>
+                     </div>
+
+                     <!-- Card Title & Description -->
+                     <h3 class="wwp-card-title">
+                        3D Scanning, Reverse Engineering, Inspection<br class="d-none d-sm-block">&amp; CAD Services
+                     </h3>
+                     <p class="wwp-card-desc">
+                        Get our 3D services, and you pay us per project.<br class="d-none d-md-block">No equipment investment required.
+                     </p>
+
+                     <!-- 3 Image Gallery Grid -->
+                     <div class="wwp-gallery-grid">
+                        <div class="wwp-gallery-item">
+                           <div class="wwp-gallery-img-wrap">
+                              <img src="assets/images/home-new/wwp-card2-img1.png" alt="On-Site 3D Scanning" class="wwp-gallery-img">
                            </div>
-                           <div class="banner-img">
-                              <img src="assets/images/new-home/banner-img2.png" alt="">
+                           <div class="wwp-gallery-label wwp-label-navy">ON-SITE 3D SCANNING</div>
+                        </div>
+
+                        <div class="wwp-gallery-item">
+                           <div class="wwp-gallery-img-wrap">
+                              <img src="assets/images/home-new/wwp-card2-img2.png" alt="In-House/Walk-In Scanning" class="wwp-gallery-img">
                            </div>
+                           <div class="wwp-gallery-label wwp-label-navy">IN-HOUSE/WALK-IN SCANNING</div>
+                        </div>
+
+                        <div class="wwp-gallery-item">
+                           <div class="wwp-gallery-img-wrap">
+                              <img src="assets/images/home-new/wwp-card2-img3.png" alt="Project Engineering Services" class="wwp-gallery-img">
+                           </div>
+                           <div class="wwp-gallery-label wwp-label-navy">PROJECT ENGINEERING SERVICES</div>
                         </div>
                      </div>
-                  </div>
 
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="banner1">
-               <section class="theme-section">
+                     <!-- 4-Step Process Flow -->
+                     <div class="wwp-steps-wrap">
+                        <!-- Step 1 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-blue">
+                              <img src="assets/images/home-new/wwp-card2-icon1.png" alt="We Choose The Right Solution">
+                           </div>
+                           <h4 class="wwp-step-title">1. WE CHOOSE THE RIGHT SOLUTION</h4>
+                           <p class="wwp-step-desc">We select the best 3D scanner and software to execute your project.</p>
+                        </div>
 
-               </section>
-               <div class="container main-banner">
-                  <div class="row">
-                     <div class="col-md-7">
-                        <div class="banner-content">
-                           <div class="above-banner">
-                              <p>LEADING <br><span>NO.1 </span></p>
-                              <h5></h5>
-                              <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
-                           </div>
-                           <div class="mid-banner">
-                              <h2 style="font-size:50px !important;" id="midbanner">End to End Digital <br>
-                                 Manufacturing Solution
-                              </h2>
-                              <p style="font-weight:700;">“Capex Investment Products For Manufacturing Companies”</p>
-                              <a href="3d-scanners-in-india.php" class="btn">3D
-                                 Scanner </a>
-                              <a href="3d-scanning-and-reverse-engineering-software.php"
-                                 class="btn">3D Reverse Engineering
-                                 Software</a>
-                              <a href="figure-4-standalone-3d-printer.php" class="btn">3D
-                                 Printer</a>
-                              <br>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
+                        <div class="wwp-step-arrow wwp-arrow-blue">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
 
-                                 </a>
-                                 <p style="font-weight:700;">Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
-                              </div>
+                        <!-- Step 2 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-blue">
+                              <img src="assets/images/home-new/wwp-card2-icon2.png" alt="3D Scanning On-Site or In-House">
                            </div>
-                           <div class="banner-img1">
+                           <h4 class="wwp-step-title">2. 3D SCANNING ON-SITE OR IN-HOUSE</h4>
+                           <p class="wwp-step-desc">We perform 3D scanning at your site or at our facility.</p>
+                        </div>
+
+                        <div class="wwp-step-arrow wwp-arrow-blue">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-blue">
+                              <img src="assets/images/home-new/wwp-card2-icon3.png" alt="Quality Check & Processing">
                            </div>
+                           <h4 class="wwp-step-title">3. QUALITY CHECK &amp; PROCESSING</h4>
+                           <p class="wwp-step-desc">Data cleaning, inspection and engineering analysis by our experts.</p>
+                        </div>
+
+                        <div class="wwp-step-arrow wwp-arrow-blue">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="wwp-step-item">
+                           <div class="wwp-step-icon-wrap wwp-icon-blue">
+                              <img src="assets/images/home-new/wwp-card2-icon4.png" alt="Deliverables To You">
+                           </div>
+                           <h4 class="wwp-step-title">4. DELIVERABLES TO YOU</h4>
+                           <p class="wwp-step-desc">Get CAD models, inspection reports and all project deliverables.</p>
                         </div>
                      </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="bg-banner">
-               <section class="theme-section">
 
-               </section>
-               <div class="container main-banner">
-                  <div class="row">
-                     <div class="geomagic-banner">
-                        <div class="row row-cols-lg-2 row-cols-1">
-                           <div class="col">
-                              <p class="geomagic-bannerp rounded-pill text">Market-leading Reverse Engineering software
-                              </p><br>
-                              <img class="geomagic-bg" src="assets/images/geomagic/geomagic-logo.png" alt="">
-                              <p class="mt-4 text-left text">Free Trial, Live Demos, Workflow Insights, and Expert
-                                 Guidance! Visit our Geomagic Design X information page to get started</p>
+                     <!-- Primary CTA Button -->
+                     <a href="3d-services.php" class="wwp-main-btn wwp-btn-navy">
+                        Explore Our 3D Services &amp; Engineering Project Done <i class="fa-solid fa-arrow-right ms-2"></i>
+                     </a>
 
-                              <a href="geomagic-designx.php" class="btn">Know more</a>
-                              <div class="social">
-                                 <div class="email">
-                                    <a href="mailto:sm@precise3dm.com" class="mail-btn" style="border-radius:50%;">
-                                       <i class="fa-solid fa-envelope text-white"></i>
-                                    </a>
-                                    <p class="text"><b>Email Us at</b> <br><a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a> | <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- <div class="col">
-                              <div class="geomagic-banner-img">
-                                 <img style="width:100%;" src="assets/images/geomagic/banner.png" alt="">
-                              </div>
-                           </div> -->
-                        </div>
+                     <!-- Sub-pills Quick Links -->
+                     <div class="wwp-subpills-wrap">
+                        <a href="3d-reverse-engineering-services-in-india.php" class="wwp-subpill wwp-subpill-navy">
+                           <span>Reverse Engineering</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="3d-inspection-service.php" class="wwp-subpill wwp-subpill-navy">
+                           <span>3D Inspection</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="3d-scan-based-new-product-development-solutions.php" class="wwp-subpill wwp-subpill-navy">
+                           <span>Product Development</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="long-range-3d-scanning-service-india.php" class="wwp-subpill wwp-subpill-navy">
+                           <span>Large Part</span>
+                           <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
                      </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="bg-banner bg-4">
-               <section class="theme-section">
 
-               </section>
-               <div class="container">
-                  <div class="above-banner">
-                     <p>LEADING <br><span>NO.1 </span></p>
-                     <h5></h5>
-                     <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
-                  </div>
-                  <h2 class="mt-3">Introducing <span>AutoScan Inspec 2</span> <br> In <span>India</span></h2>
-                  <div class="row">
-                     <div class="col-lg-8">
-                        <div class="bg-4-left">
-                           <h3>Automatic Desktop Scanner</h3>
-                           <ul>
-                              <li>
-                                 <p>One-Click Scan</p>
-                              </li>
-                              <li>
-                                 <p>0.01 mm Accuracy</p>
-                              </li>
-                              <li>
-                                 <p>Full Color Scanning</p>
-                              </li>
-                              <li>
-                                 <p>Compact & Lightweight</p>
-                              </li>
-                           </ul>
-                           <div>
-                              <h5>Experience the Future of Metrology with <img
-                                    src="assets/images/new-home/precise-logo.png" alt=""> & <img
-                                    src="assets/images/new-home/shining-logo.png" alt=""></h5>
-                              <a href="automatic-desktop-3d-scanner.php" class="btn rounded-3xl">Know More</a>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
-
-                                 </a>
-                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4">
-                        <div class="bg-4-right ">
-                           <img src="assets/images/new-home/hero-banner-img4.png" alt="">
-                           <div class="d-flex right-img" style="gap:20px;">
-                              <img src="assets/images/new-home/precise-logo.png" alt="">
-                              <img src="assets/images/new-home/shining-logo.png" alt="">
-                           </div>
-                        </div>
-                     </div>
                   </div>
                </div>
-            </section>
-         </div>
-      </div>
-      <button class="carousel-control-prev desktop-banner" type="button" data-target="#carouselExampleIndicators"
-         data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next desktop-banner" type="button" data-target="#carouselExampleIndicators"
-         data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-      </button>
 
-
-
-   </div>
-
-   <!-- Mobile view -->
-
-   <div id="carouselExampleIndicators2" data-interval="4000" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators2">
-         <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-         <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-         <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-         <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
-         <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
-         <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
-      </ol>
-      <div class="carousel-inner mobile-banner">
-         <div class="carousel-item active">
-            <section style="background-size: 100% 100% !important;" class="bg-4">
-               <section class="theme-section">
-
-               </section>
-               <div class="container">
-                  <div class="above-banner">
-                     <p>LEADING <br><span>NO.1 </span></p>
-                     <h5></h5>
-                     <p class="text-uppercase">largest 3D scan-based <br>solution providers </p>
-                  </div>
-                  <h2 class="mt-3">Introducing <span>Freescan Omni</span> In <span>India</span></h2>
-                  <div class="row">
-                     <div class="col-lg-8">
-                        <div class="bg-4-left">
-                           <h3><b>World’s First Standalone</b> Inspection-Ready Metrology 3D Scanner</h3>
-                           <ul>
-                              <li>
-                                 <p>On-Scanner Scan-To-Inspect</p>
-                              </li>
-                              <li>
-                                 <p>Certified Accuracy (VDI/VDE 2634 & ISO 10360) of 0.02 mm</p>
-                              </li>
-                              <li>
-                                 <p>Multi-Mode & High-Performance</p>
-                              </li>
-                              <li>
-                                 <p>Scalable Platform with Modular Expansion</p>
-                              </li>
-                           </ul>
-                           <div>
-                              <a href="freescan-omni.php" class="btn rounded-3xl">Know More</a>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
-
-                                 </a>
-                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4">
-                        <div class="bg-4-right text-right">
-                           <img src="assets/images/new-home/mob-omni-bg.png" alt="">
-
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="banner-mob">
-               <section class="theme-section">
-
-               </section>
-               <div class="container main-banner">
-                  <div class="row row-cols-1">
-                     <div class="col">
-                        <div class="banner-content">
-                           <div class="above-banner">
-                              <p>LEADING <br><span>NO.1 </span></p>
-                              <h5></h5>
-                              <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
-                           </div>
-                           <div class="mid-banner">
-                              <h1 id="midbanner">Welcome to Precise3DM
-                              </h1>
-                              <p>Discover our exciting Campaigns, Products & Offerings below.</p>
-                              <a href="geomagicsoftware.php" class="btn">Geomagic Products</a>
-                              <a href="FreeScan-Combo.php" class="btn">Freescan Combo</a>
-                              <a href="3d-services.php" class="btn">3D services</a>
-                              <br>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
-                                 </a>
-                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col">
-                        <div class="ban-img">
-                           <img src="assets/images/new-home/mobile-banner-1.png" alt="">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="banner1-mob">
-               <section class="theme-section">
-
-               </section>
-               <div class="container main-banner">
-                  <div class="row row-cols-1">
-                     <div class="col">
-                        <div class="banner-content">
-                           <div class="above-banner">
-                              <p>LEADING <br><span>NO.1 </span></p>
-                              <h5></h5>
-                              <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
-                           </div>
-                           <div class="mid-banner">
-                              <h2 style="font-size:20px !important;" id="midbanner">End to End Digital <br>
-                                 Manufacturing Solution
-                              </h2>
-                              <p style="font-weight:700;">“Capex Investment Products For Manufacturing Companies”</p>
-                              <a href="3d-scanners-in-india.php" class="btn">3D
-                                 Scanner </a>
-                              <a href="3d-scanning-and-reverse-engineering-software.php"
-                                 class="btn">3D Reverse Engineering
-                                 Software</a>
-                              <a href="figure-4-standalone-3d-printer.php" class="btn">3D
-                                 Printer</a>
-                              <br>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
-
-                                 </a>
-                                 <p style="font-weight:700;">Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col">
-                        <div class="ban-img pb-2">
-                           <img class="ban-img-2" src="assets/images/new-home/mobile-banner-2.png" alt="">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="bg-banner-mob px-2">
-               <section class="theme-section">
-
-               </section>
-               <div class="container main-banner">
-                  <div class="row">
-                     <div class="geomagic-banner">
-                        <div class="rowrow-cols-1">
-                           <div class="col mt-5">
-                              <p class="geomagic-bannerp rounded-pill text">Market-leading Reverse Engineering software
-                              </p><br>
-                              <img class="geomagic-bg2" src="assets/images/geomagic/geomagic-logo.png" alt="">
-                              <p class="mt-4 text-left text">Free Trial, Live Demos, Workflow Insights, and Expert
-                                 Guidance! Visit our Geomagic Design X information page to get started</p>
-
-                              <a href="geomagic-designx.php" class="btn">Know more</a>
-                              <div class="social">
-                                 <div class="email">
-                                    <a href="mailto:sm@precise3dm.com" class="mail-btn" style="border-radius:50%;">
-                                       <i class="fa-solid fa-envelope text-white"></i>
-                                    </a>
-                                    <p class="text"><b>Email Us at</b> <br><a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a> | <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a></p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col">
-                              <div class="ban-img" style="margin-bottom:240px;">
-                                 <img src="assets/images/new-home/mobile-banner-3.png" alt="">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section style="background-size: 100% 100% !important;" class="bg-4">
-               <section class="theme-section">
-
-               </section>
-               <div class="container">
-                  <div class="above-banner">
-                     <p>LEADING <br><span>NO.1 </span></p>
-                     <h5></h5>
-                     <p>GLOBAL 3D SCAN-BASED <br> SOLUTION PROVIDER</p>
-                  </div>
-                  <h2 class="mt-3">Introducing <span>AutoScan Inspec 2</span> In <span>India</span></h2>
-                  <div class="row">
-                     <div class="col-lg-8">
-                        <div class="bg-4-left">
-                           <h3>Automatic Desktop Scanner</h3>
-                           <ul>
-                              <li>
-                                 <p>One-Click Scan</p>
-                              </li>
-                              <li>
-                                 <p>0.01 mm Accuracy</p>
-                              </li>
-                              <li>
-                                 <p>Full Color Scanning</p>
-                              </li>
-                              <li>
-                                 <p>Compact & Lightweight</p>
-                              </li>
-                           </ul>
-                           <div>
-                              <h5>Experience the Future of Metrology with <img
-                                    src="assets/images/new-home/precise-logo.png" alt=""> & <img
-                                    src="assets/images/new-home/shining-logo.png" alt=""></h5>
-                              <a href="automatic-desktop-3d-scanner.php" class="btn rounded-3xl">Know More</a>
-                              <div class="email">
-                                 <a href="mailto:sm@precise3dm.com" class=" mail-btn">
-                                    <i class="fa-solid fa-envelope text-white"></i>
-
-                                 </a>
-                                 <p>Email Us at <br><a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a> | <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4">
-                        <div class="bg-4-right text-center">
-                           <img src="assets/images/new-home/hero-banner-img4.png" alt="">
-                           <div class="d-flex right-img" style="gap:20px; flex-wrap:wrap;">
-                              <img src="assets/images/new-home/precise-logo.png" alt="">
-                              <img src="assets/images/new-home/shining-logo.png" alt="">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+            </div>
          </div>
 
       </div>
-      <button class="carousel-control-prev mobile-banner" type="button" data-target="#carouselExampleIndicators2"
-         data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next mobile-banner" type="button" data-target="#carouselExampleIndicators2"
-         data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-      </button>
+   </section>
 
+   <!-- ==========================================================================
+          EXPERT GUIDANCE SECTION (3D Scanners Category Comparison)
+        ========================================================================== -->
+   <section class="eg-section" id="expert-guidance">
+      <div class="container eg-container">
 
+         <!-- Top Accent Line & Header -->
+         <div class="eg-header text-center">
+            <div class="eg-accent-bar"></div>
+            <h2 class="eg-title">
+               <span class="eg-title-orange">3D Scanners</span> – Buy the Right 3D Scanner with Expert Guidance
+            </h2>
+            <h3 class="eg-subheading">India’s Leading 3D Scanner Master Reseller</h3>
+            <p class="eg-desc">
+               From affordable entry-level scanning to high-accuracy metrology systems, we help you choose the right scanner for your application.
+            </p>
+         </div>
 
-   </div>
+         <!-- 3 Cards Row -->
+         <div class="row g-4 eg-cards-row">
 
+            <!-- Card 1: Entry-Level -->
+            <div class="col-lg-4 col-md-6 col-12 d-flex">
+               <div class="eg-card">
+                  <div class="eg-card-top">
+                     <!-- Header info with avatar -->
+                     <div class="eg-card-header">
+                        <div class="eg-avatar-icon">
+                           <img src="assets/images/home-new/eg-common-top-icon.png" alt="Entry-Level Icon">
+                        </div>
+                        <div class="eg-header-text">
+                           <span class="eg-tier-name">ENTRY-LEVEL</span>
+                           <h4 class="eg-tier-sub">3D SCANNERS</h4>
+                           <span class="eg-tier-tag">For Hobbyists &amp; First-Time Users</span>
+                        </div>
+                     </div>
 
+                     <!-- Description -->
+                     <p class="eg-card-desc">
+                        Easy to use, affordable 3D scanners to kickstart your 3D scanning journey.
+                     </p>
 
+                     <!-- Main Product Image -->
+                     <div class="eg-img-wrapper">
+                        <img src="assets/images/home-new/eg-card1-img.png" alt="Entry-Level 3D Scanners" class="eg-product-img">
+                     </div>
+                  </div>
 
+                  <!-- Bottom Area: 3 Feature Badges + Button -->
+                  <div class="eg-card-bottom">
+                     <!-- 3 Feature Metrics Row -->
+                     <div class="eg-metrics-box">
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card1-icon1.png" alt="Easy to Use">
+                           </div>
+                           <span class="eg-metric-label">Easy<br>to Use</span>
+                        </div>
+                        <div class="eg-metric-divider"></div>
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card1-icon2.png" alt="Price Icon">
+                           </div>
+                           <span class="eg-metric-label">Price starting<br>from<br><strong class="eg-price-val">₹1,30,000</strong></span>
+                        </div>
+                        <div class="eg-metric-divider"></div>
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card1-icon3.png" alt="Learning and Prototyping">
+                           </div>
+                           <span class="eg-metric-label">Perfect for<br>Learning &amp;<br>Prototyping</span>
+                        </div>
+                     </div>
 
-   <!-- ==========================
-          About Section start
-       ========================== -->
-   <section class="pad-60 about-section">
-      <div class="container">
-         <h2 class="about-head">
-            ABOUT US
-         </h2>
-         <div class="row">
-            <div class="col-lg-8 col-md-6">
-               <p class="about-content">
-                  At Precise3DM, "We provide manufacturing companies with a comprehensive package, including <span
-                     style="color:#FF931E;">3D Scanners, 3D
-                     Printers, 3D Reverse Engineering, and 3D Inspection</span> software, tailored for their unique
-                  requirements as part
-                  of their<span style="color:#FF931E;"> CAPEX</span> investments. For those looking to incorporate this
-                  technology into their <span style="color:#FF931E;">OPEX module</span> or
-                  assess the technology and its benefits before investing, we also offer value-driven advanced <span
-                     style="color:#FF931E;">3D services,
-                     encompassing 3D scanning, Reverse Engineering, printing, and inspection solutions</span>."
-               </p>
+                     <!-- Button -->
+                     <a href="entry-level-3d-scanners.php" class="eg-btn">
+                        Know More <i class="fa-solid fa-arrow-right ms-2"></i>
+                     </a>
+                  </div>
+               </div>
             </div>
 
-            <div class=" col-lg-4 col-md-6 about-img">
-               <img src="assets/images/new-home/Precise Logo.png" alt="about-img">
-               <p>
-                  Digital Manufacturing Solutions </p>
+            <!-- Card 2: Professional -->
+            <div class="col-lg-4 col-md-6 col-12 d-flex">
+               <div class="eg-card">
+                  <div class="eg-card-top">
+                     <!-- Header info with avatar -->
+                     <div class="eg-card-header">
+                        <div class="eg-avatar-icon">
+                           <img src="assets/images/home-new/eg-common-top-icon.png" alt="Professional Icon">
+                        </div>
+                        <div class="eg-header-text">
+                           <span class="eg-tier-name">PROFESSIONAL</span>
+                           <h4 class="eg-tier-sub">3D SCANNERS</h4>
+                           <span class="eg-tier-tag">For Reverse Engineering &amp; 3D Design</span>
+                        </div>
+                     </div>
+
+                     <!-- Description -->
+                     <p class="eg-card-desc">
+                        High-performance scanners for product development, reverse engineering and design applications.
+                     </p>
+
+                     <!-- Main Product Image -->
+                     <div class="eg-img-wrapper">
+                        <img src="assets/images/home-new/eg-card2-img.png" alt="Professional 3D Scanners" class="eg-product-img">
+                     </div>
+                  </div>
+
+                  <!-- Bottom Area: 3 Feature Badges + Button -->
+                  <div class="eg-card-bottom">
+                     <!-- 3 Feature Metrics Row -->
+                     <div class="eg-metrics-box">
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card2-icon1.png" alt="High Accuracy & Detail">
+                           </div>
+                           <span class="eg-metric-label">High<br>Accuracy<br>&amp; Detail</span>
+                        </div>
+                        <div class="eg-metric-divider"></div>
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card2-icon2.png" alt="Reverse Engineering">
+                           </div>
+                           <span class="eg-metric-label">Ideal for<br>Reverse<br>Engineering</span>
+                        </div>
+                        <div class="eg-metric-divider"></div>
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card2-icon3.png" alt="On-site Demo">
+                           </div>
+                           <span class="eg-metric-label">On-site Demo<br>+ Expert<br>Recommendation</span>
+                        </div>
+                     </div>
+
+                     <!-- Button -->
+                     <a href="professional-3d-scanners.php" class="eg-btn">
+                        Know More <i class="fa-solid fa-arrow-right ms-2"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Card 3: Metrology-Grade -->
+            <div class="col-lg-4 col-md-6 col-12 d-flex">
+               <div class="eg-card">
+                  <div class="eg-card-top">
+                     <!-- Header info with avatar -->
+                     <div class="eg-card-header">
+                        <div class="eg-avatar-icon">
+                           <img src="assets/images/home-new/eg-common-top-icon.png" alt="Metrology-Grade Icon">
+                        </div>
+                        <div class="eg-header-text">
+                           <span class="eg-tier-name">METROLOGY-GRADE</span>
+                           <h4 class="eg-tier-sub">3D SCANNERS</h4>
+                           <span class="eg-tier-tag">For Quality Control, Inspection &amp; Automation</span>
+                        </div>
+                     </div>
+
+                     <!-- Description -->
+                     <p class="eg-card-desc">
+                        High-accuracy, reliable scanners for industrial inspection, quality control and automated measurement.
+                     </p>
+
+                     <!-- Main Product Image -->
+                     <div class="eg-img-wrapper eg-img-framed">
+                        <img src="assets/images/home-new/eg-card3-img.png" alt="Metrology-Grade 3D Scanners" class="eg-product-img">
+                     </div>
+                  </div>
+
+                  <!-- Bottom Area: 3 Feature Badges + Button -->
+                  <div class="eg-card-bottom">
+                     <!-- 3 Feature Metrics Row -->
+                     <div class="eg-metrics-box">
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card3-icon1.png" alt="High Accuracy & Reliability">
+                           </div>
+                           <span class="eg-metric-label">High<br>Accuracy<br>&amp; Reliability</span>
+                        </div>
+                        <div class="eg-metric-divider"></div>
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card3-icon2.png" alt="Quality Control">
+                           </div>
+                           <span class="eg-metric-label">For Quality<br>Control,<br>Inspection<br>&amp; Automation</span>
+                        </div>
+                        <div class="eg-metric-divider"></div>
+                        <div class="eg-metric-col">
+                           <div class="eg-metric-icon">
+                              <img src="assets/images/home-new/eg-card3-icon3.png" alt="On-site Demo">
+                           </div>
+                           <span class="eg-metric-label">On-site Demo +<br>Application<br>Evaluation</span>
+                        </div>
+                     </div>
+
+                     <!-- Button -->
+                     <a href="metrology-grade-3d-scanners.php" class="eg-btn">
+                        Know More <i class="fa-solid fa-arrow-right ms-2"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+
+   <!-- ==========================================================================
+          7 SIMPLE STEPS SECTION (CAPEX PURCHASE JOURNEY)
+        ========================================================================== -->
+   <section class="sss-section" id="seven-simple-steps">
+      <div class="container sss-container">
+
+         <!-- Top Capsule Badge & Header -->
+         <div class="sss-header text-center">
+            <div class="sss-badge-pill">
+               YOUR CAPEX PURCHASE JOURNEY WITH PRECISE3DM
+            </div>
+            <h2 class="sss-title">
+               From Requirement to Productivity in 7 Simple Steps
+            </h2>
+            <p class="sss-subtitle">
+               Our experts help you choose the right 3D scanning solution, validate it with your components, and support you long-term for maximum success.
+            </p>
+         </div>
+
+         <!-- Main Interactive Row: Rotating 7-Step Wheel & Cards Display -->
+         <div class="row align-items-center sss-main-row">
+
+            <!-- Left Column: Rotating 7-Step Orbit Diagram -->
+            <div class="col-lg-6 col-12 sss-wheel-col">
+               <div class="sss-wheel-wrapper" id="sssWheelWrapper">
+
+                  <!-- Radial dashed connector lines in SVG -->
+                  <svg class="sss-wheel-svg" id="sssWheelSvg" viewBox="0 0 500 500">
+                     <g id="sssSvgLinesGroup">
+                        <!-- Connecting lines rotated synchronously with orbit -->
+                     </g>
+                  </svg>
+
+                  <!-- Stationary Center Circle -->
+                  <div class="sss-center-circle">
+                     <img src="assets/images/home-new/sss-left-center-img.png" alt="Your 3D Scanning Investment Journey" class="sss-center-img">
+                  </div>
+
+                  <!-- Rotating Satellite Orbit Ring (anticlockwise) -->
+                  <div class="sss-orbit-ring" id="sssOrbitRing">
+                     <!-- Node 1 -->
+                     <button type="button" class="sss-node-btn active" data-step="1" id="sssNode1" aria-label="Step 1: Submit Requirement">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card1-img.png" alt="Submit Requirement">
+                        </div>
+                     </button>
+                     <!-- Node 2 -->
+                     <button type="button" class="sss-node-btn" data-step="2" id="sssNode2" aria-label="Step 2: Expert Recommendation">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card2-img.png" alt="Expert Recommendation">
+                        </div>
+                     </button>
+                     <!-- Node 3 -->
+                     <button type="button" class="sss-node-btn" data-step="3" id="sssNode3" aria-label="Step 3: Online Demo">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card3-img.png" alt="Online Demo">
+                        </div>
+                     </button>
+                     <!-- Node 4 -->
+                     <button type="button" class="sss-node-btn" data-step="4" id="sssNode4" aria-label="Step 4: Onsite Demo & POC">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card4-img.png" alt="Onsite Demo & POC">
+                        </div>
+                     </button>
+                     <!-- Node 5 -->
+                     <button type="button" class="sss-node-btn" data-step="5" id="sssNode5" aria-label="Step 5: Quotation & Order">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card5-img.png" alt="Quotation & Order">
+                        </div>
+                     </button>
+                     <!-- Node 6 -->
+                     <button type="button" class="sss-node-btn" data-step="6" id="sssNode6" aria-label="Step 6: Training & Installation">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card6-img.png" alt="Training & Installation">
+                        </div>
+                     </button>
+                     <!-- Node 7 -->
+                     <button type="button" class="sss-node-btn" data-step="7" id="sssNode7" aria-label="Step 7: Lifetime Support">
+                        <div class="sss-node-inner">
+                           <img src="assets/images/home-new/sss-card7-img.png" alt="Lifetime Support">
+                        </div>
+                     </button>
+                  </div>
+
+               </div>
+            </div>
+
+            <!-- Right Column: Active Card & Next Card Stack -->
+            <div class="col-lg-6 col-12 sss-cards-col">
+               <div class="sss-display-wrap">
+
+                  <!-- Step Dots Navigation -->
+                  <div class="sss-step-nav-bar">
+                     <div class="sss-step-dots" id="sssStepDots">
+                        <button type="button" class="sss-step-dot active" data-step="1" aria-label="Go to step 1">1</button>
+                        <button type="button" class="sss-step-dot" data-step="2" aria-label="Go to step 2">2</button>
+                        <button type="button" class="sss-step-dot" data-step="3" aria-label="Go to step 3">3</button>
+                        <button type="button" class="sss-step-dot" data-step="4" aria-label="Go to step 4">4</button>
+                        <button type="button" class="sss-step-dot" data-step="5" aria-label="Go to step 5">5</button>
+                        <button type="button" class="sss-step-dot" data-step="6" aria-label="Go to step 6">6</button>
+                        <button type="button" class="sss-step-dot" data-step="7" aria-label="Go to step 7">7</button>
+                     </div>
+                     <span class="sss-step-counter" id="sssStepCounter">Step 1 of 7</span>
+                  </div>
+
+                  <!-- Active Card Slot -->
+                  <div class="sss-card-slot sss-active-card-slot" id="sssActiveCardSlot">
+                     <!-- Rendered by JS -->
+                  </div>
+
+                  <!-- Next Card Slot (Clickable Preview) -->
+                  <div class="sss-card-slot sss-next-card-slot" id="sssNextCardSlot" title="Click to view next step">
+                     <!-- Rendered by JS -->
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+
+   <!-- ==========================================================================
+          END-TO-END 3D SCANNING SERVICE PORTFOLIO SECTION
+        ========================================================================== -->
+   <section class="ete-section" id="end-to-end-portfolio">
+      <div class="container ete-container">
+
+         <!-- Header -->
+         <div class="ete-header text-center">
+            <h2 class="ete-title">
+               End-To-End <span class="ete-title-orange">3D Scanning</span> Service Portfolio
+            </h2>
+            <h3 class="ete-subheading">
+               3D Scanning for Every Manufacturing Need
+            </h3>
+            <p class="ete-desc">
+               From tiny screws to large machines, Vehicles, aircraft, and entire factories—we have the right 3D scanning technology to scan it all, then deliver 3D CAD models or 3D inspection reports based on your needs.
+            </p>
+         </div>
+
+         <!-- Interactive Gallery Container (3 Sets) -->
+         <div class="ete-gallery-viewport" id="eteGalleryViewport">
+
+            <!-- ==================== Set 1: Tiny screws ==================== -->
+            <div class="ete-gallery-set active" data-set="0" id="eteSet0">
+               <div class="ete-gallery-row">
+                  <!-- Col 1: Left Outer -->
+                  <div class="ete-col ete-col-outer-left">
+                     <div class="ete-img-wrap ete-h-sm">
+                        <img src="assets/images/home-new/ete-card1-img1.png" alt="Tiny Screws Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 2: Mid Left (2 Stacked) -->
+                  <div class="ete-col ete-col-mid-left">
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card1-img2.png" alt="Inspection Setup" class="ete-img">
+                     </div>
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card1-img3.png" alt="Optical Scanner" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 3: Center Hero (Tall) -->
+                  <div class="ete-col ete-col-hero">
+                     <div class="ete-img-wrap ete-h-hero">
+                        <img src="assets/images/home-new/ete-card1-img4.png" alt="Turntable 3D Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 4: Mid Right (2 Stacked) -->
+                  <div class="ete-col ete-col-mid-right">
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card1-img5.png" alt="Component Fixture" class="ete-img">
+                     </div>
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card1-img6.png" alt="Rotary Table Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 5: Right Outer -->
+                  <div class="ete-col ete-col-outer-right">
+                     <div class="ete-img-wrap ete-h-sm">
+                        <img src="assets/images/home-new/ete-card1-img7.png" alt="Measurement Software" class="ete-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ==================== Set 2: Entire Aircraft ==================== -->
+            <div class="ete-gallery-set" data-set="1" id="eteSet1">
+               <div class="ete-gallery-row">
+                  <!-- Col 1: Left Outer -->
+                  <div class="ete-col ete-col-outer-left">
+                     <div class="ete-img-wrap ete-h-sm">
+                        <img src="assets/images/home-new/ete-card2-img1.png" alt="Propeller Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 2: Mid Left (2 Stacked) -->
+                  <div class="ete-col ete-col-mid-left">
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card2-img2.png" alt="Jet Engine Turbine" class="ete-img">
+                     </div>
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card2-img3.png" alt="Blade Measurement" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 3: Center Hero (Tall) -->
+                  <div class="ete-col ete-col-hero">
+                     <div class="ete-img-wrap ete-h-hero">
+                        <img src="assets/images/home-new/ete-card2-img4.png" alt="Aircraft Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 4: Mid Right (2 Stacked) -->
+                  <div class="ete-col ete-col-mid-right">
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card2-img5.png" alt="Hangar Inspection" class="ete-img">
+                     </div>
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card2-img6.png" alt="Wing Aerodynamics" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 5: Right Outer -->
+                  <div class="ete-col ete-col-outer-right">
+                     <div class="ete-img-wrap ete-h-sm">
+                        <img src="assets/images/home-new/ete-card2-img7.png" alt="Cockpit Scanning" class="ete-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ==================== Set 3: Factories ==================== -->
+            <div class="ete-gallery-set" data-set="2" id="eteSet2">
+               <div class="ete-gallery-row">
+                  <!-- Col 1: Left Outer -->
+                  <div class="ete-col ete-col-outer-left">
+                     <div class="ete-img-wrap ete-h-sm">
+                        <img src="assets/images/home-new/ete-card3-img1.png" alt="Plant Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 2: Mid Left (2 Stacked) -->
+                  <div class="ete-col ete-col-mid-left">
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card3-img2.png" alt="Industrial Tanks" class="ete-img">
+                     </div>
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card3-img3.png" alt="On-Site Survey" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 3: Center Hero (Tall) -->
+                  <div class="ete-col ete-col-hero">
+                     <div class="ete-img-wrap ete-h-hero">
+                        <img src="assets/images/home-new/ete-card3-img4.png" alt="Factory Pipeline Laser Scanning" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 4: Mid Right (2 Stacked) -->
+                  <div class="ete-col ete-col-mid-right">
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card3-img5.png" alt="Structure Metrology" class="ete-img">
+                     </div>
+                     <div class="ete-img-wrap ete-h-half">
+                        <img src="assets/images/home-new/ete-card3-img6.png" alt="Piping Retrofit" class="ete-img">
+                     </div>
+                  </div>
+                  <!-- Col 5: Right Outer -->
+                  <div class="ete-col ete-col-outer-right">
+                     <div class="ete-img-wrap ete-h-sm">
+                        <img src="assets/images/home-new/ete-card3-img7.png" alt="Facility Infrastructure" class="ete-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+         <!-- Interactive Scale Ruler & Category Controls -->
+         <div class="ete-slider-control">
+
+            <!-- 3 Category Navigation Tabs -->
+            <div class="ete-tabs-row">
+
+               <!-- Tab 1: Tiny screws -->
+               <div class="ete-tab-item active" data-index="0" id="eteTab0">
+                  <div class="ete-tab-icon-badge">
+                     <img src="assets/images/home-new/ete-card1-icon1.png" alt="Tiny screws Icon">
+                  </div>
+                  <button type="button" class="ete-tab-pill">
+                     Tiny screws
+                  </button>
+               </div>
+
+               <!-- Tab 2: Entire Aircraft -->
+               <div class="ete-tab-item" data-index="1" id="eteTab1">
+                  <div class="ete-tab-icon-badge">
+                     <img src="assets/images/home-new/ete-card2-icon1.png" alt="Entire Aircraft Icon">
+                  </div>
+                  <button type="button" class="ete-tab-pill">
+                     Entire Aircraft
+                  </button>
+               </div>
+
+               <!-- Tab 3: Factories -->
+               <div class="ete-tab-item" data-index="2" id="eteTab2">
+                  <div class="ete-tab-icon-badge">
+                     <img src="assets/images/home-new/ete-card3-icon1.png" alt="Factories Icon">
+                  </div>
+                  <button type="button" class="ete-tab-pill">
+                     Factories
+                  </button>
+               </div>
+
+            </div>
+
+            <!-- Ruler / Scale Bar Graphic -->
+            <div class="ete-ruler-wrapper">
+               <div class="ete-ruler-track">
+                  <!-- Vector Ruler Scale matching reference design -->
+                  <svg class="ete-ruler-svg" viewBox="0 0 1200 22" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Orange Scale Line -->
+                    <line x1="80" y1="2" x2="1120" y2="2" stroke="#f7931e" stroke-width="2.5" />
+                    <!-- Orange Arrow Tip -->
+                    <polygon points="1124,2 1114,-2.5 1114,6.5" fill="#f7931e" />
+                    <!-- Hanging Scale Ticks -->
+                    <line x1="80" y1="2" x2="80" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="100" y1="2" x2="100" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="120" y1="2" x2="120" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="140" y1="2" x2="140" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="160" y1="2" x2="160" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="180" y1="2" x2="180" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="200" y1="2" x2="200" y2="12" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="220" y1="2" x2="220" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="240" y1="2" x2="240" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="260" y1="2" x2="260" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="280" y1="2" x2="280" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="300" y1="2" x2="300" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="320" y1="2" x2="320" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="340" y1="2" x2="340" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="360" y1="2" x2="360" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="380" y1="2" x2="380" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="400" y1="2" x2="400" y2="15" stroke="#94a3b8" stroke-width="1.75" stroke-linecap="round" />
+                    <line x1="420" y1="2" x2="420" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="440" y1="2" x2="440" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="460" y1="2" x2="460" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="480" y1="2" x2="480" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="500" y1="2" x2="500" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="520" y1="2" x2="520" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="540" y1="2" x2="540" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="560" y1="2" x2="560" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="580" y1="2" x2="580" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="600" y1="2" x2="600" y2="12" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="620" y1="2" x2="620" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="640" y1="2" x2="640" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="660" y1="2" x2="660" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="680" y1="2" x2="680" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="700" y1="2" x2="700" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="720" y1="2" x2="720" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="740" y1="2" x2="740" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="760" y1="2" x2="760" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="780" y1="2" x2="780" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="800" y1="2" x2="800" y2="15" stroke="#94a3b8" stroke-width="1.75" stroke-linecap="round" />
+                    <line x1="820" y1="2" x2="820" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="840" y1="2" x2="840" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="860" y1="2" x2="860" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="880" y1="2" x2="880" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="900" y1="2" x2="900" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="920" y1="2" x2="920" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="940" y1="2" x2="940" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="960" y1="2" x2="960" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="980" y1="2" x2="980" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="1000" y1="2" x2="1000" y2="12" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="1020" y1="2" x2="1020" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="1040" y1="2" x2="1040" y2="10" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="1060" y1="2" x2="1060" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="1080" y1="2" x2="1080" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                    <line x1="1100" y1="2" x2="1100" y2="7" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+                  </svg>
+               </div>
+
+               <!-- 3 Scale Markers positioned right under the tabs -->
+               <div class="ete-ruler-markers">
+                  <div class="ete-marker-col active" data-index="0" id="eteMarker0">
+                     <span class="ete-marker-dot"></span>
+                     <span class="ete-marker-unit">mm</span>
+                  </div>
+                  <div class="ete-marker-col" data-index="1" id="eteMarker1">
+                     <span class="ete-marker-dot"></span>
+                     <span class="ete-marker-unit">m</span>
+                  </div>
+                  <div class="ete-marker-col" data-index="2" id="eteMarker2">
+                     <span class="ete-marker-dot"></span>
+                     <span class="ete-marker-unit">100+ m</span>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+
+   <!-- ==========================================================================
+          WORKFLOW OF END-TO-END 3D SCANNING SERVICE SECTION
+        ========================================================================== -->
+   <section class="wf-section" id="workflow-section">
+      <div class="container wf-container">
+
+         <!-- Header -->
+         <div class="wf-header text-center">
+            <h2 class="wf-title">
+               Workflow of <span class="wf-title-orange">End-to-End 3D Scanning</span> Service
+            </h2>
+            <p class="wf-subtitle">
+               From your requirement to accurate digital deliverables — we handle everything.
+            </p>
+         </div>
+
+         <!-- Main Interactive Row: Rotating 7-Step Wheel & Cards Display -->
+         <div class="row align-items-center wf-main-row">
+
+            <!-- Left Column: Rotating 7-Step Orbit Diagram -->
+            <div class="col-lg-6 col-12 wf-wheel-col">
+               <div class="wf-wheel-wrapper" id="wfWheelWrapper">
+
+                  <!-- Radial dashed connector lines in SVG -->
+                  <svg class="wf-wheel-svg" id="wfWheelSvg" viewBox="0 0 500 500">
+                     <g id="wfSvgLinesGroup">
+                        <!-- Connecting lines rotated synchronously with orbit -->
+                     </g>
+                  </svg>
+
+                  <!-- Stationary Center Circle -->
+                  <div class="wf-center-circle">
+                     <img src="assets/images/home-new/wf-left-center-img.png" alt="End-to-end 3D Scanning Service" class="wf-center-img">
+                  </div>
+
+                  <!-- Rotating Satellite Orbit Ring (anticlockwise) -->
+                  <div class="wf-orbit-ring" id="wfOrbitRing">
+                     <!-- Node 1 -->
+                     <button type="button" class="wf-node-btn active" data-step="1" id="wfNode1" aria-label="Step 1: Tell Us What You Need to Scan">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card1-img.png" alt="Tell Us What You Need to Scan">
+                        </div>
+                     </button>
+                     <!-- Node 2 -->
+                     <button type="button" class="wf-node-btn" data-step="2" id="wfNode2" aria-label="Step 2: Choose How We Scan">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card2-img.png" alt="Choose How We Scan">
+                        </div>
+                     </button>
+                     <!-- Node 3 -->
+                     <button type="button" class="wf-node-btn" data-step="3" id="wfNode3" aria-label="Step 3: 3D Scanning Process">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card3-img.png" alt="3D Scanning Process">
+                        </div>
+                     </button>
+                     <!-- Node 4 -->
+                     <button type="button" class="wf-node-btn" data-step="4" id="wfNode4" aria-label="Step 4: Data Processing">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card4-img.png" alt="Data Processing">
+                        </div>
+                     </button>
+                     <!-- Node 5 -->
+                     <button type="button" class="wf-node-btn" data-step="5" id="wfNode5" aria-label="Step 5: Reverse Engineering & CAD Modelling">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card5-img.png" alt="Reverse Engineering & CAD Modelling">
+                        </div>
+                     </button>
+                     <!-- Node 6 -->
+                     <button type="button" class="wf-node-btn" data-step="6" id="wfNode6" aria-label="Step 6: Inspection Analysis">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card6-img.png" alt="Inspection Analysis">
+                        </div>
+                     </button>
+                     <!-- Node 7 -->
+                     <button type="button" class="wf-node-btn" data-step="7" id="wfNode7" aria-label="Step 7: Final Deliverables & Support">
+                        <div class="wf-node-inner">
+                           <img src="assets/images/home-new/wf-card7-img.png" alt="Final Deliverables & Support">
+                        </div>
+                     </button>
+                  </div>
+
+               </div>
+            </div>
+
+            <!-- Right Column: Active Card & Next Card Stack -->
+            <div class="col-lg-6 col-12 wf-cards-col">
+               <div class="wf-display-wrap">
+
+                  <!-- Step Dots Navigation -->
+                  <div class="wf-step-nav-bar">
+                     <div class="wf-step-dots" id="wfStepDots">
+                        <button type="button" class="wf-step-dot active" data-step="1" aria-label="Go to step 1">1</button>
+                        <button type="button" class="wf-step-dot" data-step="2" aria-label="Go to step 2">2</button>
+                        <button type="button" class="wf-step-dot" data-step="3" aria-label="Go to step 3">3</button>
+                        <button type="button" class="wf-step-dot" data-step="4" aria-label="Go to step 4">4</button>
+                        <button type="button" class="wf-step-dot" data-step="5" aria-label="Go to step 5">5</button>
+                        <button type="button" class="wf-step-dot" data-step="6" aria-label="Go to step 6">6</button>
+                        <button type="button" class="wf-step-dot" data-step="7" aria-label="Go to step 7">7</button>
+                     </div>
+                     <span class="wf-step-counter" id="wfStepCounter">Step 1 of 7</span>
+                  </div>
+
+                  <!-- Active Card Slot -->
+                  <div class="wf-card-slot wf-active-card-slot" id="wfActiveCardSlot">
+                     <!-- Rendered dynamically by JavaScript -->
+                  </div>
+
+                  <!-- Next Card Slot (Clickable Preview) -->
+                  <div class="wf-card-slot wf-next-card-slot" id="wfNextCardSlot" title="Click to view next step">
+                     <!-- Rendered dynamically by JavaScript -->
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+
+   <!-- ==================== ABOUT US SECTION ==================== -->
+   <section class="about-section" id="about-section">
+      <div class="container about-container">
+         <div class="about-card">
+            <div class="row g-0 align-items-stretch">
+
+               <!-- Left Column: Image Background & About Text -->
+               <div class="col-lg-6 col-12 about-left-col">
+                  <div class="about-left-content">
+                     <h2 class="about-title">About Us</h2>
+                     <p class="about-desc">
+                        At <span class="about-orange">Precise3DM</span>, we provide manufacturing companies with a comprehensive package, including <span class="about-orange">3D Scanners, 3D Printers, 3D Reverse Engineering, and 3D Inspection software</span>, tailored for their unique requirements as part of their <span class="about-orange">CAPEX investments</span>.
+                     </p>
+                     <p class="about-desc">
+                        For those looking to incorporate this technology into their OPEX model or assess the technology and its benefits before investing, we also offer value-driven advanced <span class="about-orange">3D services, encompassing 3D scanning, Reverse Engineering, printing, and inspection solutions</span>.
+                     </p>
+                     <div class="about-btn-wrap">
+                        <a href="About_us.php" class="about-btn">Know More About Us</a>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Right Column: Logo & 6 Stats Grid -->
+               <div class="col-lg-6 col-12 about-right-col">
+                  <div class="about-right-content">
+                     <div class="about-logo-wrap">
+                        <img src="assets/images/home-new/about-right-logo.png" alt="Precise3DM Logo" class="about-logo-img">
+                     </div>
+
+                     <div class="about-stats-grid">
+                        <!-- Stat 1 -->
+                        <div class="about-stat-item">
+                           <div class="about-stat-num" data-target="10" data-suffix="+">10+</div>
+                           <div class="about-stat-label">Years In<br>3D Scanning Business</div>
+                        </div>
+
+                        <!-- Stat 2 -->
+                        <div class="about-stat-item">
+                           <div class="about-stat-num" data-target="3000" data-suffix="+">3000+</div>
+                           <div class="about-stat-label">Successful 3D Scan Based<br>Projects Completed</div>
+                        </div>
+
+                        <!-- Stat 3 -->
+                        <div class="about-stat-item">
+                           <div class="about-stat-num" data-target="10000" data-suffix="+">10000+</div>
+                           <div class="about-stat-label">Objects and Items are<br>3D scanned</div>
+                        </div>
+
+                        <!-- Stat 4 -->
+                        <div class="about-stat-item">
+                           <div class="about-stat-num" data-target="3000" data-suffix="+">3000+</div>
+                           <div class="about-stat-label">Happy<br>customers served</div>
+                        </div>
+
+                        <!-- Stat 5 -->
+                        <div class="about-stat-item">
+                           <div class="about-stat-num" data-target="8" data-suffix="+">8+</div>
+                           <div class="about-stat-label">Pan India<br>Direct Presence</div>
+                        </div>
+
+                        <!-- Stat 6 -->
+                        <div class="about-stat-item">
+                           <div class="about-stat-num" data-target="15" data-suffix="+">15+</div>
+                           <div class="about-stat-label">Countries Served<br>Worldwide</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
             </div>
          </div>
       </div>
    </section>
-   <!-- ==========================
-          counter Section start
-       ========================== -->
-   <section class="counter-section">
-      <div class="container">
-         <div class="row counter-container">
-            <div class="col-md-3 col-6">
-               <ul id="counter">
-                  <li>
-                     <span class="count percent" data-count="8">
-                        0
-                     </span>
-                  </li>
-                  <li>
-                     <p>Years In 3D scanning Business</p>
-                  </li>
-               </ul>
-            </div>
-            <div class="col-md-3 col-6">
-               <ul id="counter">
-                  <li>
-                     <span class="count percent" data-count="1500">
-                        0
-                     </span>
-                  </li>
-                  <li>
-                     <p>Successful 3D Scan Based Projects Completed</p>
-                  </li>
-               </ul>
-            </div>
-            <div class="col-md-3 col-6">
-               <ul id="counter">
-                  <li>
-                     <span class="count percent" data-count="2500">
-                        0
-                     </span>
-                  </li>
-                  <li>
-                     <p>Objects and Items are 3D scanned</p>
-                  </li>
-               </ul>
-            </div>
-            <div class="col-md-3 col-6">
-               <ul id="counter">
-                  <li>
-                     <span class="count percent" data-count="2000">
-                        0
-                     </span>
-                  </li>
-                  <li>
-                     <p>Happy customers served</p>
-                  </li>
-               </ul>
-            </div>
+
+   <!-- ==================== INDUSTRIES WE SERVE SECTION ==================== -->
+   <section class="iws-section" id="industries-we-serve">
+      <div class="container iws-container">
+         <div class="iws-header text-center">
+            <h2 class="iws-title">Industries We Serve</h2>
+            <p class="iws-subtitle">Tailored digital manufacturing solutions for diverse industry needs</p>
          </div>
-      </div>
-      <div class="a">
-         <a href="About_us.php" class="btn">Know More</a>
-      </div>
-   </section>
-   <!-- ==========================
-          Product Section start
-       ========================== -->
-   <section class="products-section pad-60">
-      <div class="container">
-         <div class="head-group">
-            <h2>One Stop 3D Scanning Solution</h2>
-            <p>3D scanners for any size of the objects</p>
-         </div>
-         <div class="row">
-            <div class="col-md-4 col-6 padd-left">
-               <div class="product-item">
-                  <h3>Structured Light 3D Scanning</h3>
-                  <img src="assets/images/optimscan-plus/img1.png" alt="">
-                  <a href="structured-light-3d-scanner-in-india.php" class="btn">Buy 3D
-                     Scanner</a>
-                  <a class="btn" href="3d-scanning-services-in-india.php">3D
-                     Scanning
-                     Service</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-right">
-               <div class="product-item">
-                  <h3>Industrial Handheld Metrology 3D Scanning(Metrology Grade)</h3>
-                  <img style="height: 175px;" src="assets/images/new-home/product2.png" alt="">
-                  <a href="handheld-3d-scanner-in-india.php" class="btn">Buy 3D Scanner</a>
-                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
-                     Service</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-left">
-               <div class="product-item">
-                  <h3>Handheld Colour 3D scanning(Human body & Texture )</h3>
-                  <img style="height: 175px;" src="assets/images/new-home/product9.png" alt="">
-                  <a href="handheld-color-3dscanning-service.php" class="btn">Buy 3D
-                     Scanner</a>
-                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
-                     Service</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-right">
-               <div class="product-item">
-                  <h3>Long Range 3D Scanning(Lidar)</h3>
-                  <img src="assets/images/new-home/card-img1.png" alt="">
-                  <a href="lidar-scanners.php" class="btn">Buy 3D
-                     Scanner</a>
-                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
-                     Service</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-left">
-               <div class="product-item">
-                  <h3>Freescan Trio Triple Camera - Handheld Laser 3D Scanner</h3>
-                  <img style="height: 175px;" src="assets/images/new-home/product10.png" alt="">
-                  <a href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php"
-                     class="btn">Buy 3D
-                     Scanner</a>
-                  <a class="btn" href="3d-scanning-services-in-india.php">3D Scanning
-                     Service</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-right">
-               <div class="product-item">
-                  <h3>Arm Based 3D Scanning</h3>
-                  <img src="assets/images/new-home/card-img2.png" alt="">
-                  <a href="3d-laser-scanners.php" class="btn">Buy 3D
-                     Scanner</a>
-                  <a class="btn" href="3d-scanning-services-in-india.php">3D
-                     Scanning Service</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
 
-   <!-- ==========================
-          Product Section start
-       ========================== -->
-   <section class="products-section pad-60">
-      <div class="container">
-         <div class="head-group">
-            <h2>End-To-End Digital Manufacturing Portfolio</h2>
-            <p>Technology Product Bundle For Your CAPEX Investment</p>
-         </div>
-         <div class="row">
-            <div class="col-md-4 col-6 padd-left">
-               <div class="product-item">
-                  <h3>3D SCANNERS</h3>
-
-                  <img src="assets/images/new-home/product11.png" alt="">
-                  <p>Solutions for Bringing the Physical into 3D Digital</p>
-                  <a href="3d-scanners-in-india.php" class="btn">Know more</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-right">
-               <div class="product-item">
-                  <h3>3D SOFTWARE</h3>
-                  <img src="assets/images/new-home/product7.png" alt="">
-                  <p>Software for 3D Reverse Engineering, 3D Inspection & 3D Printing</p>
-                  <a href="3d-scanning-software.php" class="btn">Know more</a>
-               </div>
-            </div>
-            <div class="col-md-4 col-6 padd-left">
-               <div class="product-item">
-                  <h3>3D PRINTERS</h3>
-                  <img style="height: 225px;" src="assets/images/new-home/product8.png" alt="">
-                  <p>Solutions for Production 3D Printing</p>
-                  <a href="industrial-fdm-3d-printers.php" class="btn">Know more</a>
-               </div>
-            </div>
-
-         </div>
-      </div>
-   </section>
-
-
-   <!-- ==========================
-          Quote Section start
-       ========================== -->
-   <section id="listsec" class="list-secc pad-140">
-      <div class="tab-head">
-         <h2><span> Explore Our Range of 3D Scanners</span> with Powerful <br> Reverse Engineering and Inspection
-            Software.
-         </h2>
-         <p>Our 3D scanner equipment sales workflow ensures a seamless experience tailored to your needs:</p>
-      </div>
-      <div class="container tab-container">
-         <div class="row">
-            <div class="col-md-1">
-               <ul class="tabs" onclick="handleTabClick(event)">
-                  <li data-tab="tab1" class="active">01</li>
-                  <li data-tab="tab2">02</li>
-                  <li data-tab="tab3">03</li>
-                  <li data-tab="tab4">04</li>
-                  <li data-tab="tab5">05</li>
-                  <li data-tab="tab6">06</li>
-               </ul>
-            </div>
-            <div class="col-md-11 d-gridcen">
-               <div id="tab1" class="content active-content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Fill out the Form</h2>
-                        <p style="text-align:left;">Provide details about your requirements,<br> including component
-                           size,
-                           application, and budget.</p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="Book-demo-get-quote-for-3D-scanner.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list1.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
+         <div class="iws-cards-grid">
+            <!-- Card 1 -->
+            <a href="precise3dm-digital-manufacturing-solutions-for-automotive-industry.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img1.png" alt="Automotive" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon1.png" alt="Automotive Icon" class="iws-badge-icon">
                   </div>
                </div>
-
-               <div id="tab2" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Tailored Selection</h2>
-                        <p style="text-align:left;">Based on your information, we will identify the ideal 3D Scanner
-                           <br> and
-                           Geomagic software bundle
-                           that
-                           aligns with <br> your budget and application needs.
-                        </p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="Book-demo-get-quote-for-3D-scanner.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list2.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
-                  </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Automotive</h3>
                </div>
-
-               <div id="tab3" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Online Demo & Presentation</h2>
-                        <p style="text-align:left;">We'll schedule an online demo and presentation <br>to showcase the
-                           capabilities of the selected
-                           bundle.
-                        </p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="Book-demo-get-quote-for-3D-scanner.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list3.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div id="tab4" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Onsite Demo and POC</h2>
-                        <p style="text-align:left;">We can arrange an onsite demonstration and<br> Proof of Concept
-                           (POC) to
-                           address specific
-                           requirements upon your request.<br>
-                           Order Processing: Once you're satisfied and send us the Order</p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="Book-demo-get-quote-for-3D-scanner.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list4.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div id="tab5" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Post-sales Training</h2>
-                        <p style="text-align:left;">We go beyond the sale by providing comprehensive training to <br>
-                           ensure you
-                           maximize the potential
-                           of
-                           your 3D scanning solution.</p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
-                           Rapid
-                           Quote</a>
-                     </div>
-
-                     <a href="Book-demo-get-quote-for-3D-scanner.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list5.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div id="tab6" class="content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Post-Sales Support:</h2>
-                        <p style="text-align:left;">Our commitment doesn't end with the sale – expect ongoing, <br>
-                           long-lasting
-                           post-sales support to
-                           keep<br>
-                           your operations running smoothly.</p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get
-                           Rapid Quote</a>
-                     </div>
-
-                     <a href="Book-demo-get-quote-for-3D-scanner.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list6.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-            </div>
-            <div class="arrows">
-               <button class="arrow-btn" onclick="moveTabs(-1)"><i class="fa-solid fa-chevron-left"></i></button>
-               <button class="arrow-btn" onclick="moveTabs(1)"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-         </div>
-      </div>
-   </section>
-
-
-   <section class="portfolio-sec">
-      <div class="container">
-         <div style="display:block;" class="row">
-            <a href="Get-3d-scan-service-quote.php" class="h2-center">
-               <h2 style="color:#ff931e;">End-To-End 3D Scanning Service Portfolio</h2>
             </a>
-            <h5>3D Scan Anything & Anywhere</h5>
-            <p>Precise 3DM has a large variety of scanning technology for our clients to choose from.
-               Our diverse range of 3D scanners empowers us to capture 3D data,
-               from <span style="color:#FF8D1E;">“Tiny screws”</span> to <span style="color:#FF8D1E;">“Entire
-                  Aircraft”</span> and <span style="color:#F7941D;">“Factories” </span>, in any location.</p>
-            <div class="portfolio-img">
-               <img src="assets/images/new-home/portfolio.png" alt="">
-            </div>
-         </div>
-      </div>
-   </section>
 
-   <section class="option-sec">
-      <div class="container option-con">
-         <div class="row">
-            <div class="col-lg-2 col-md-2">
-               <a href="Get-3d-scan-service-quote.php">
-                  <div class="form-img-img">
-                     <img src="assets/images/new-home/option6.png" alt="">
-                     <span style="--i:0"></span>
-                     <span style="--i:1"></span>
-                     <span style="--i:2"></span>
-                     <span style="--i:3"></span>
+            <!-- Card 2 -->
+            <a href="digital-manufacturing-solutions-for-auto-components-and-tier-suppliers.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img2.png" alt="Auto Components &amp; Tier Suppliers" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon2.png" alt="Auto Components Icon" class="iws-badge-icon">
                   </div>
-               </a>
-               <p>Send us the picture or Fill out the form & Get Quote</p>
-            </div>
-            <div class="col-lg-2 col-md-2">
-               <img src="assets/images/new-home/option2.png" alt="">
-               <p>Walk into our 3D Scanning locations</p>
-            </div>
-            <div class="col-lg-2 col-md-2">
-               <img src="assets/images/new-home/option1.png" alt="">
-               <p>Ship the parts to our address</p>
-            </div>
-            <div class="col-lg-2 col-md-2">
-               <img src="assets/images/new-home/option3.png" alt="">
-               <p>We bring the right 3D scanner equipment to your place.</p>
-            </div>
-            <div class="col-lg-2 col-md-2">
-               <img src="assets/images/new-home/option4.png" alt="">
-               <p>We do 3D scan</p>
-            </div>
-            <div class="col-lg-2 col-md-2">
-               <img src="assets/images/new-home/option5.png" alt="">
-               <p>Our experts will either design or inspect and send the files securely.</p>
-            </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Auto Components &amp; Tier Suppliers</h3>
+               </div>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="electric-vehicle-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img3.png" alt="Electric Vehicle (EV)" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon3.png" alt="EV Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Electric Vehicle (EV)</h3>
+               </div>
+            </a>
+
+            <!-- Card 4 -->
+            <a href="railway-locomotive-industry.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img4.png" alt="Railway &amp; Locomotive" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon4.png" alt="Railway Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Railway &amp; Locomotive</h3>
+               </div>
+            </a>
+
+            <!-- Card 5 -->
+            <a href="shipbuilding-marine-industry.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img5.png" alt="Shipbuilding &amp; Marine" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon5.png" alt="Marine Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Shipbuilding &amp; Marine</h3>
+               </div>
+            </a>
+
+            <!-- Card 6 -->
+            <a href="digital-manufacturing-solutions-for-aerospace-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img6.png" alt="Aerospace" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon6.png" alt="Aerospace Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Aerospace</h3>
+               </div>
+            </a>
+
+            <!-- Card 7 -->
+            <a href="defense-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img7.png" alt="Defence" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon7.png" alt="Defence Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Defence</h3>
+               </div>
+            </a>
+
+            <!-- Card 8 -->
+            <a href="digital-manufacturing-solutions-for-medical-device-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img8.png" alt="Medical Device" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon8.png" alt="Medical Device Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Medical Device</h3>
+               </div>
+            </a>
+
+            <!-- Card 9 -->
+            <a href="digital-manufacturing-solutions-for-medical-device-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img9.png" alt="Orthopaedic Implant" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon9.png" alt="Orthopaedic Implant Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Orthopaedic Implant</h3>
+               </div>
+            </a>
+
+            <!-- Card 10 -->
+            <a href="industrial-machinery-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img10.png" alt="Industrial Machinery" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon10.png" alt="Industrial Machinery Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Industrial Machinery</h3>
+               </div>
+            </a>
+
+            <!-- Card 11 -->
+            <a href="digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img11.png" alt="Heavy Engineering" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon11.png" alt="Heavy Engineering Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Heavy Engineering</h3>
+               </div>
+            </a>
+
+            <!-- Card 12 -->
+            <a href="digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img12.png" alt="Construction &amp; Earthmoving Equipment" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon12.png" alt="Construction Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Construction &amp; Earthmoving Equipment</h3>
+               </div>
+            </a>
+
+            <!-- Card 13 -->
+            <a href="agricultural-machinery-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img13.png" alt="Agricultural Machinery" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon13.png" alt="Agricultural Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Agricultural Machinery</h3>
+               </div>
+            </a>
+
+            <!-- Card 14 -->
+            <a href="digital-manufacturing-solutions-for-material-handling-equipment-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img14.png" alt="Material Handling Equipment Manufacturing" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon14.png" alt="Material Handling Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Material Handling Equipment Manufacturing</h3>
+               </div>
+            </a>
+
+            <!-- Card 15 -->
+            <a href="tool-die-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img15.png" alt="Tool &amp; Die" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon15.png" alt="Tool &amp; Die Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Tool &amp; Die</h3>
+               </div>
+            </a>
+
+            <!-- Card 16 -->
+            <a href="mold-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img16.png" alt="Mold" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon16.png" alt="Mold Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Mold</h3>
+               </div>
+            </a>
+
+            <!-- Card 17 -->
+            <a href="digital-manufacturing-solutions-for-foundry-and-casting.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img17.png" alt="Foundry &amp; Casting" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon17.png" alt="Foundry &amp; Casting Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Foundry &amp; Casting</h3>
+               </div>
+            </a>
+
+            <!-- Card 18 -->
+            <a href="forging-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img18.png" alt="Forging" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon18.png" alt="Forging Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Forging</h3>
+               </div>
+            </a>
+
+            <!-- Card 19 -->
+            <a href="digital-manufacturing-solutions-for-plastic-parts.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img19.png" alt="Plastic Parts" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon19.png" alt="Plastic Parts Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Plastic Parts</h3>
+               </div>
+            </a>
+
+            <!-- Card 20 -->
+            <a href="sheet-metal-springback.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img20.png" alt="Sheet Metal &amp; Metal Fabrication" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon20.png" alt="Sheet Metal Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Sheet Metal &amp; Metal Fabrication</h3>
+               </div>
+            </a>
+
+            <!-- Card 21 -->
+            <a href="digital-manufacturing-solutions-for-electrical-equipment.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img21.png" alt="Electrical Equipment" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon21.png" alt="Electrical Equipment Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Electrical Equipment</h3>
+               </div>
+            </a>
+
+            <!-- Card 22 -->
+            <a href="electronics-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img22.png" alt="Electronics" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon22.png" alt="Electronics Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Electronics</h3>
+               </div>
+            </a>
+
+            <!-- Card 23 -->
+            <a href="pumps-valves-manufacturing.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img23.png" alt="Pumps, Valves &amp; Flow Control Equipment Manufacturing" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon23.png" alt="Pumps &amp; Valves Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Pumps, Valves &amp; Flow Control Equipment Manufacturing</h3>
+               </div>
+            </a>
+
+            <!-- Card 24 -->
+            <a href="digital-manufacturing-solutions-for-energy-equipment.php" class="iws-card">
+               <div class="iws-card-img-wrap">
+                  <img src="assets/images/home-new/iws-img24.png" alt="Energy Equipment — Wind, Solar &amp; Power Equipment" class="iws-card-img">
+                  <div class="iws-badge">
+                     <img src="assets/images/home-new/iws-icon24.png" alt="Energy Equipment Icon" class="iws-badge-icon">
+                  </div>
+               </div>
+               <div class="iws-card-body">
+                  <h3 class="iws-card-title">Energy Equipment — Wind, Solar &amp; Power Equipment</h3>
+               </div>
+            </a>
+
          </div>
       </div>
    </section>
 
-   <!-- ==========================
-          Quote Section start
-       ========================== -->
-   <section class="list-secc pad-140">
-      <div class="container">
-         <h2 class="text-center" style="color:#ff931e;">3D Scanning Service Workflow</h2>
-         <p>We Offer A Comprehensive 3D Scanning Service.</p>
-         <div class="row mt-5">
-            <div class="col-md-1">
-               <ul class="custom-tabs" onclick="handleCustomTabClick(event)">
-                  <li data-tab="custom-tab1" class="active">01</li>
-                  <li data-tab="custom-tab2">02</li>
-                  <li data-tab="custom-tab3">03</li>
-                  <li data-tab="custom-tab4">04</li>
-                  <li data-tab="custom-tab5">05</li>
-               </ul>
-            </div>
-            <div class="col-md-11 d-gridcen">
-               <div id="custom-tab1" class="custom-content active-contents">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Receive RFQ</h2>
-                        <p style="text-align:left;">Click the button below to fill out the form so we<br> will receive
-                           the
-                           complete information on the<br>
-                           project requirements.
-                        </p>
-                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
-                           Quote</a>
+   <!-- ==================== FROM CHALLENGES TO 3D SOLUTIONS SECTION ==================== -->
+   <section class="fc-section" id="challenges-section">
+      <div class="container fc-container">
+         <div class="fc-header text-center">
+            <span class="fc-eyebrow">From Challenges To</span>
+            <h2 class="fc-title">3D <span class="fc-title-orange">Solutions</span></h2>
+            <p class="fc-subtitle">Discover Our Products, Services &amp; solutions Supporting Digital Manufacturing</p>
+         </div>
+
+         <div class="row g-4 fc-cards-row">
+
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 col-12">
+               <div class="fc-card">
+                  <div class="fc-badge-num">1</div>
+                  <div class="fc-card-img-wrap">
+                     <img src="assets/images/home-new/fc-img1.png" alt="3D Scanning Services" class="fc-card-img">
+                     <div class="fc-icon-badge">
+                        <img src="assets/images/home-new/fc-icon1.png" alt="Scanning Services Icon" class="fc-icon-img">
                      </div>
-
-                     <a href="Get-3d-scan-service-quote.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list1.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
                   </div>
-               </div>
-
-               <div id="custom-tab2" class="custom-content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Select 3D Scanner</h2>
-                        <p style="text-align:left;">We will select the appropriate Scanner that <br> fits your specific
-                           application.</p>
-                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
-                           Quote</a>
+                  <div class="fc-card-body">
+                     <h3 class="fc-card-title">3D Scanning Services</h3>
+                     <p class="fc-card-desc">Have physical parts or machines but unable to measure for design or quality control</p>
+                     <div class="fc-card-btn-wrap">
+                        <a href="3d-scanning-services-in-india.php" class="fc-btn">Explore Scanning Service</a>
                      </div>
-
-                     <a href="Get-3d-scan-service-quote.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list7.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
                   </div>
                </div>
+            </div>
 
-               <div id="custom-tab3" class="custom-content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>3D Scan</h2>
-                        <p style="text-align:left;">Modeling and 3D Inspection Benchmarking can<br>also be done on-site.
-                        </p>
-                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
-                           Quote</a>
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 col-12">
+               <div class="fc-card">
+                  <div class="fc-badge-num">2</div>
+                  <div class="fc-card-img-wrap">
+                     <img src="assets/images/home-new/fc-img2.png" alt="3D Reverse Engineering Services" class="fc-card-img">
+                     <div class="fc-icon-badge">
+                        <img src="assets/images/home-new/fc-icon2.png" alt="Reverse Engineering Icon" class="fc-icon-img">
                      </div>
-
-                     <a href="Get-3d-scan-service-quote.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list11.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
                   </div>
-               </div>
-
-               <div id="custom-tab4" class="custom-content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>Post-scan 3D Design or Inspection</h2>
-                        <p style="text-align:left;">we will either create a CAD model or perform <br> an inspection
-                           post-3D
-                           scanning</p>
-                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
-                           Quote</a>
+                  <div class="fc-card-body">
+                     <h3 class="fc-card-title">3D Reverse Engineering Services</h3>
+                     <p class="fc-card-desc">Want to create CAD models from physical objects for manufacturing or benchmarking?</p>
+                     <div class="fc-card-btn-wrap">
+                        <a href="3d-Reverse-Engineering-Services-in-india.php" class="fc-btn">Explore Reverse Engineering Service</a>
                      </div>
-
-                     <a href="Get-3d-scan-service-quote.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list9.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
                   </div>
                </div>
-               <div id="custom-tab5" class="custom-content">
-                  <div class="quote">
-                     <div class="quote-content">
-                        <h2>File Transfer</h2>
-                        <p style="text-align:left;">We will securely transfer the <br>processed output to you.
-                        </p>
-                        <a href="Get-3d-scan-service-quote.php" class="btn">Get Rapid
-                           Quote</a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 col-12">
+               <div class="fc-card">
+                  <div class="fc-badge-num">3</div>
+                  <div class="fc-card-img-wrap">
+                     <img src="assets/images/home-new/fc-img3.png" alt="3D Scanners" class="fc-card-img">
+                     <div class="fc-icon-badge">
+                        <img src="assets/images/home-new/fc-icon3.png" alt="3D Scanners Icon" class="fc-icon-img">
                      </div>
-
-                     <a href="Get-3d-scan-service-quote.php">
-                        <div class="quote-img">
-                           <img src="assets/images/new-home/list10.png" alt="">
-                           <span style="--i:0"></span>
-                           <span style="--i:1"></span>
-                           <span style="--i:2"></span>
-                           <span style="--i:3"></span>
-                        </div>
-                     </a>
+                  </div>
+                  <div class="fc-card-body">
+                     <h3 class="fc-card-title">3D Scanners</h3>
+                     <p class="fc-card-desc">Planning to invest in 3D scanners to set up an in-house scanning facility for reverse engineering and inspection?</p>
+                     <div class="fc-card-btn-wrap">
+                        <a href="3d-scanners-in-india.php" class="fc-btn">Explore 3D Scanners</a>
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="arrows">
-               <button class="arrow-btn" onclick="moveTabs1(-1)"><i class="fa-solid fa-chevron-left"></i></button>
-               <button class="arrow-btn" onclick="moveTabs1(1)"><i class="fa-solid fa-chevron-right"></i></button>
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 col-12">
+               <div class="fc-card">
+                  <div class="fc-badge-num">4</div>
+                  <div class="fc-card-img-wrap">
+                     <img src="assets/images/home-new/fc-img4.png" alt="3D Reverse Engineering &amp; Inspection Software" class="fc-card-img">
+                     <div class="fc-icon-badge">
+                        <img src="assets/images/home-new/fc-icon4.png" alt="Software Icon" class="fc-icon-img">
+                     </div>
+                  </div>
+                  <div class="fc-card-body">
+                     <h3 class="fc-card-title">3D Reverse Engineering &amp; Inspection Software</h3>
+                     <p class="fc-card-desc">Already have 3D scanners? Looking to add inspection or reverse engineering software such as Geomagic(Hexagon) to your workflow?</p>
+                     <div class="fc-card-btn-wrap">
+                        <a href="3d-inspection-service.php" class="fc-btn">Explore Inspection Software</a>
+                     </div>
+                  </div>
+               </div>
             </div>
+
          </div>
       </div>
    </section>
 
-   <!-- ==========================
-          testimonials Section start
-       ========================== -->
+   <!-- Footer Start -->
+   <?php include "includes/footer.php"; ?>
+   <!-- Footer End -->
 
-   <section class="test-section ">
-      <div class="container">
-         <div class="head-group">
-            <h2>What Our Users Says About Us</h2>
-            <p>Our users' feedback speaks volumes about the quality of our products </p>
-         </div>
-
-         <div class="reviews-slider">
-            <div id="style-4" class="">
-               <div class='sk-ww-google-reviews' data-embed-id='25377093'></div>
-            </div>
-         </div>
-         <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
-
-         <div class="review-btn">
-            <a
-               href="https://www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,3">
-               <button class="btn">Review Us</button></a>
-            <a
-               href="https://www.google.com/search?q=precise3dm&rlz=1C1CHBF_enIN961IN961&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNzg4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3a525e9ea2925a9f:0x40634932298feafa,1"><button
-                  class="btn">View our Google reviews</button></a>
-
-         </div>
-      </div>
-   </section>
-   <!--  -->
-
-   <section class="logo-sec mt-5">
-      <div class="head-group">
-         <h2>Industries We Serve</h2>
-      </div>
-      <div class="container">
-         <div class="row">
-            <div class="logo-img">
-               <div class="div">
-                  <img src="assets/images/new-home/ind-1.png" alt="Image 1"><br><span>Automotive</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-2.png" alt="Image 1"><br><span>Aerospace</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-3.png" alt="Image 1"><br><span>Education</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-4.png" alt="Image 1"><br><span>Die Casting</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-5.png" alt="Image 1"><br><span>EV</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-6.png" alt="Image 1"><br><span>Mining</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-7.png" alt="Image 1"><br><span>Die and molds</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-8.png" alt="Image 1"><br><span>Plastic
-                     Components</span><br>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="logo-img">
-               <div class="div">
-                  <img src="assets/images/new-home/ind-9.png" alt="Image 1"><br><span>Pumps and
-                     Valves</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-10.png" alt="Image 1"><br><span>Consumer
-                     Products</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-11.png" alt="Image 1"><br><span>Heavy
-                     Engineering</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-12.png" alt="Image 1"><br><span>Textile
-                     Industry</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-13.png" alt="Image 1"><br><span>Construction
-                     Machinery</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-14.png" alt="Image 1"><br><span>Visual FX
-                     Industry</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-15.png" alt="Image 1"><br><span>Press Tools and
-                     Sheet Metals</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-16.png" alt="Image 1"><br><span>Power and
-                     Energy</span><br>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="logo-img">
-               <div class="div">
-                  <img src="assets/images/new-home/ind-17.png" alt="Image 1"><br><span>Defence</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-18.png" alt="Image 1"><br><span>Jewellery</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-19.png" alt="Image 1"><br><span>Engineering
-                     Service</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-20.png" alt="Image 1"><br><span>Archeology and
-                     Heritage Preservation</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-21.png" alt="Image 1"><br><span>Agriculture
-                     Machinery</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-22.png" alt="Image 1"><br><span>Tire Industry</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-23.png" alt="Image 1"><br><span>Foundry</span><br>
-               </div>
-               <div class="div">
-                  <img src="assets/images/new-home/ind-24.png" alt="Image 1"><br><span>AR / VR</span><br>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- ==========================
-          Industries Section start
-       ========================== -->
-
-   <section style="display:none;" class="test-section pad-60">
-      <div class="container">
-         <div class="head-group">
-            <h2>Industries We Serve</h2>
-         </div>
-
-         <!-- Slider with Responsive Settings -->
-         <div class="slider" id="dynamicSlider2" data-slide-show="5" data-ml-slide-show="5" data-lg-slide-show="3"
-            data-md-slide-show="2">
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries1.svg" alt="Image 1">
-                  <h2>Automotive</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries2.svg" alt="Image 1">
-                  <h2>Aerospace</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries3.svg" alt="Image 1">
-                  <h2>Education</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries4.svg" alt="Image 1">
-                  <h2>Die Casting</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries5.svg" alt="Image 1">
-                  <h2>EV</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries6.svg" alt="Image 1">
-                  <h2>Mining</h2>
-               </div>
-            </div>
-
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries7.svg" alt="Image 1">
-                  <h2>Automotive</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries8.svg" alt="Image 1">
-                  <h2>Plastic Components</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries9.svg" alt="Image 1">
-                  <h2>Pumps and Valves</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries10.svg" alt="Image 1">
-                  <h2>Consumer Products</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries11.svg" alt="Image 1">
-                  <h2>Heavy Engineering</h2>
-               </div>
-            </div>
-            <div class="industries-item">
-               <div class="industries">
-                  <img src="assets/images/new-home/industries12.svg" alt="Image 1">
-                  <h2>Textile Industry</h2>
-               </div>
-            </div>
-
-            <!-- Add more slides as needed -->
-         </div>
-
-      </div>
-   </section>
-
-
-   <!-- ==========================
-          Blog Section start
-       ========================== -->
-
-   <section class="blog-section">
-      <div class="container">
-         <div class="head-group">
-            <h2>Blog</h2>
-            <p>You can explore our exclusive blog platform to learn more about 3D scanning, 3D reverse engineering, 3D
-               Printing, and 3D Inspection applications. Subscribe for updates on technology advancements, key features,
-               case
-               studies, application-based solutions, and more.</p>
-         </div>
-
-         <!-- Slider with Responsive Settings -->
-         <div class="slider" id="dynamicSlider1" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="1"
-            data-md-slide-show="1">
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog12/img1.png" alt="">
-                  <h5>
-                     Three Types of Reverse Engineering Technic
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="three-types-of-reverse-engineering-techniques.php" class="btn">Read
-                     More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog13/3d-rev1.png" alt="">
-                  <h5>
-                     3D Reverse Engineering Workflow in Geomagic Design X Software
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="3d-reverse-engineering-workflow-in-geomagic-design-x.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog14/img1.png" alt="">
-                  <h5>
-                     3D Scanning and Reverse engineering Deliverables & Their use cases
-                  </h5>
-                  <p> April 14, 2026 </p>
-                  <a href="3d-scanning-and-reverse-engineering-deliverables.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog15/unique1.png" alt="">
-                  <h5>
-                     Unique Key features of Freescan Combo
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="unique-key-features-of-freescan-combo.php" class="btn">Read
-                     More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog16/img1.png" alt="">
-                  <h5>
-                     Exploring Four Different 3D Scanning Modes in Freescan Combo
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="exploring-four-different-3d-scanning-modes-in-freescan-combo.php" class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog18/img1.png" alt="">
-                  <h5>
-                     How can 3D scanning service providers save cost & increase profit with Freescan Combo 3D scanner
-                     India?
-                  </h5>
-                  <p> April 14, 2026 • </p>
-                  <a href="how-3d-scanning-service-providers-save-cost-increase-profit-freescan-combo-india.php"
-                     class="btn">Read More</a>
-               </div>
-            </div>
-            <div class="blog-item">
-               <div class="blog">
-                  <img src="assets/images/blog19/img1.png" alt="">
-                  <h5>
-                     Geomagic software in India 2026
-                  </h5>
-                  <p> April 20, 2026 </p>
-                  <a href="geomagic-software-in-india-2026.php" class="btn">Read More</a>
-               </div>
-            </div>
-
-            <!-- Add more slides as needed -->
-         </div>
-
-      </div>
-   </section>
-
-   <!--separator start-->
-   <hr class="separator">
-   <!--separator end-->
-
-
-   <!-- footer start -->
-   <?php include('includes/footer.php'); ?>
-   <!-- footer end -->
-
-   <!-- bootstrap links-->
+   <!-- Scripts -->
    <script src="assets/js/jquery-3.6.0.min.js"></script>
    <script src="assets/js/bootstrap.bundle.js"></script>
-   <script src="cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <!-- bootstrap links-->
 
-   <script src="assets/js/owl.carousel.min.js"></script>
-   <script src="assets/js/custom-owl.js" type="text/javascript"></script>
-   <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-   <script src="assets/js/counter.js"></script>
+   <!-- Hero Slider Interactive Controller -->
    <script>
-      let counted = 0;
+      (function() {
+         const slides = document.querySelectorAll('.nh-slide');
+         const indicators = document.querySelectorAll('.nh-indicator-dot');
+         const prevBtn = document.getElementById('nhPrevBtn');
+         const nextBtn = document.getElementById('nhNextBtn');
+         const heroSection = document.getElementById('nh-hero-section');
+         let currentSlide = 0;
+         let slideInterval = null;
+         const totalSlides = slides.length;
+         const AUTO_PLAY_DELAY = 7000;
 
-      window.addEventListener('scroll', function () {
-         const counter = document.getElementById('counter');
-         const oTop = counter.offsetTop - window.innerHeight;
+         function goToSlide(index) {
+            slides[currentSlide].classList.remove('active');
+            indicators[currentSlide].classList.remove('active');
 
-         if (counted === 0 && window.scrollY > oTop) {
-            const countElements = document.querySelectorAll('.count');
-            const duration = 5000;
+            currentSlide = (index + totalSlides) % totalSlides;
 
-            countElements.forEach(function (element) {
-               const countTo = element.getAttribute('data-count');
-               let countNum = parseInt(element.textContent);
-               const increment = (countTo - countNum) / (duration / 20);
-               const animation = setInterval(function () {
-                  countNum += increment;
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+         }
 
-                  element.textContent = Math.floor(countNum);
+         window.nhGoToSlide = goToSlide;
 
-                  if (countNum >= countTo) {
-                     clearInterval(animation);
-                     element.textContent = countTo;
+         function nextSlide() {
+            goToSlide(currentSlide + 1);
+         }
+
+         function prevSlide() {
+            goToSlide(currentSlide - 1);
+         }
+
+         function startAutoPlay() {
+            stopAutoPlay();
+            slideInterval = setInterval(nextSlide, AUTO_PLAY_DELAY);
+         }
+
+         function stopAutoPlay() {
+            if (slideInterval) {
+               clearInterval(slideInterval);
+               slideInterval = null;
+            }
+         }
+
+         if (nextBtn) {
+            nextBtn.addEventListener('click', function(e) {
+               e.preventDefault();
+               nextSlide();
+               startAutoPlay();
+            });
+         }
+
+         if (prevBtn) {
+            prevBtn.addEventListener('click', function(e) {
+               e.preventDefault();
+               prevSlide();
+               startAutoPlay();
+            });
+         }
+
+         indicators.forEach(function(dot) {
+            dot.addEventListener('click', function() {
+               const slideIndex = parseInt(this.getAttribute('data-slide-to'), 10);
+               goToSlide(slideIndex);
+               startAutoPlay();
+            });
+         });
+
+         if (heroSection) {
+            heroSection.addEventListener('mouseenter', stopAutoPlay);
+            heroSection.addEventListener('mouseleave', startAutoPlay);
+
+            // Touch swipe support
+            let startX = 0;
+            heroSection.addEventListener('touchstart', function(e) {
+               startX = e.touches[0].clientX;
+            }, { passive: true });
+
+            heroSection.addEventListener('touchend', function(e) {
+               const endX = e.changedTouches[0].clientX;
+               const diff = startX - endX;
+               if (Math.abs(diff) > 40) {
+                  if (diff > 0) {
+                     nextSlide();
+                  } else {
+                     prevSlide();
                   }
-               }, 20);
+                  startAutoPlay();
+               }
+            }, { passive: true });
+         }
+
+         // Start on load
+         startAutoPlay();
+      })();
+   </script>
+
+   <!-- 7 Simple Steps Rotating Stepper Interactive Script -->
+   <script>
+      (function() {
+         const SSS_DATA = [
+            {
+               step: 1,
+               title: "Submit Requirement",
+               subtitle: "Tell us about your requirement",
+               headerIcon: "assets/images/home-new/sss-card1-img.png",
+               btnText: "Get Rapid Quote",
+               btnLink: "scanning-solution-form.php",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card1-icon1.png", label: "Part Size" },
+                  { icon: "assets/images/home-new/sss-card1-icon2.png", label: "Application" },
+                  { icon: "assets/images/home-new/sss-card1-icon3.png", label: "Accuracy" },
+                  { icon: "assets/images/home-new/sss-card1-icon4.png", label: "Budget" }
+               ]
+            },
+            {
+               step: 2,
+               title: "Expert Recommendation",
+               subtitle: "We identify the ideal solution for your needs.",
+               headerIcon: "assets/images/home-new/sss-card2-img.png",
+               btnText: "Talk to an Expert",
+               btnLink: "contact-us.php",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card2-icon1.png", label: "Best Scanner" },
+                  { icon: "assets/images/home-new/sss-card2-icon2.png", label: "Best Software" },
+                  { icon: "assets/images/home-new/sss-card2-icon3.png", label: "Accessories" },
+                  { icon: "assets/images/home-new/sss-card2-icon4.png", label: "Training Package" }
+               ]
+            },
+            {
+               step: 3,
+               title: "Online Demo",
+               subtitle: "See the technology in action with real workflows.",
+               headerIcon: "assets/images/home-new/sss-card3-img.png",
+               btnText: "Book Demo",
+               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card3-icon1.png", label: "Live Scanning" },
+                  { icon: "assets/images/home-new/sss-card3-icon2.png", label: "Design X Workflow" },
+                  { icon: "assets/images/home-new/sss-card3-icon3.png", label: "Control X Inspection" }
+               ]
+            },
+            {
+               step: 4,
+               title: "Onsite Demo & POC",
+               subtitle: "Validate the solution with your own parts",
+               headerIcon: "assets/images/home-new/sss-card4-img.png",
+               btnText: "Book Demo",
+               btnLink: "Book-demo-get-quote-for-3D-scanner.php",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card4-icon1.png", label: "Your Component" },
+                  { icon: "assets/images/home-new/sss-card4-icon2.png", label: "Your Environment" },
+                  { icon: "assets/images/home-new/sss-card4-icon3.png", label: "Required Accuracy" }
+               ]
+            },
+            {
+               step: 5,
+               title: "Quotation & Order",
+               subtitle: "Receive proposal and move forward with order.",
+               headerIcon: "assets/images/home-new/sss-card5-img.png",
+               btnText: "Get Rapid Quote",
+               btnLink: "scanning-solution-form.php",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card5-icon1.png", label: "Commercial Proposal" },
+                  { icon: "assets/images/home-new/sss-card5-icon2.png", label: "Delivery Timeline" },
+                  { icon: "assets/images/home-new/sss-card5-icon3.png", label: "ROI Recommendation" }
+               ]
+            },
+            {
+               step: 6,
+               title: "Training & Installation",
+               subtitle: "Get fully trained and ready to deliver results.",
+               headerIcon: "assets/images/home-new/sss-card6-img.png",
+               btnText: "Meet Us Live Online",
+               btnLink: "https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card6-icon1.png", label: "Hardware Setup" },
+                  { icon: "assets/images/home-new/sss-card6-icon2.png", label: "Software Training" },
+                  { icon: "assets/images/home-new/sss-card6-icon3.png", label: "Application Guidance" }
+               ]
+            },
+            {
+               step: 7,
+               title: "Lifetime Support",
+               subtitle: "We support your growth long after the purchase.",
+               headerIcon: "assets/images/home-new/sss-card7-img.png",
+               btnText: "Meet Us Live Online",
+               btnLink: "https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09",
+               pills: [
+                  { icon: "assets/images/home-new/sss-card7-icon1.png", label: "Remote Support" },
+                  { icon: "assets/images/home-new/sss-card7-icon2.png", label: "Application Support" },
+                  { icon: "assets/images/home-new/sss-card7-icon3.png", label: "Software Updates" },
+                  { icon: "assets/images/home-new/sss-card7-icon4.png", label: "Expert Assistance" }
+               ]
+            }
+         ];
+
+         const TOTAL_STEPS = SSS_DATA.length;
+         const STEP_ANGLE = 360 / TOTAL_STEPS;
+         const R_ORBIT = 185;
+         const CX = 250;
+         const CY = 250;
+
+         const orbitRing = document.getElementById('sssOrbitRing');
+         const svgLinesGroup = document.getElementById('sssSvgLinesGroup');
+         const activeSlot = document.getElementById('sssActiveCardSlot');
+         const nextSlot = document.getElementById('sssNextCardSlot');
+         const counterEl = document.getElementById('sssStepCounter');
+         const nodeButtons = document.querySelectorAll('.sss-node-btn');
+         const stepDots = document.querySelectorAll('.sss-step-dot');
+         const sectionEl = document.getElementById('seven-simple-steps');
+
+         let currentStepIdx = 0;
+         let rotationDegrees = 0;
+         let autoTimer = null;
+         const AUTO_INTERVAL = 4500;
+
+         // Initialize node positions and radial dashed lines in SVG
+         function initOrbitGeometry() {
+            if (!svgLinesGroup) return;
+            svgLinesGroup.innerHTML = '';
+
+            nodeButtons.forEach((node, i) => {
+               const angleDeg = -90 + (i * STEP_ANGLE);
+               const rad = angleDeg * (Math.PI / 180);
+               const nx = CX + R_ORBIT * Math.cos(rad);
+               const ny = CY + R_ORBIT * Math.sin(rad);
+
+               // Percentage positions ensure perfect alignment at all responsive screen widths
+               node.style.left = `${(nx / 500) * 100}%`;
+               node.style.top = `${(ny / 500) * 100}%`;
+
+               // Create SVG radial dashed line
+               const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+               line.setAttribute('x1', CX);
+               line.setAttribute('y1', CY);
+               line.setAttribute('x2', nx);
+               line.setAttribute('y2', ny);
+               line.setAttribute('stroke', '#f7931e');
+               line.setAttribute('stroke-width', '1.8');
+               line.setAttribute('stroke-dasharray', '4 4');
+               line.setAttribute('stroke-opacity', '0.75');
+               svgLinesGroup.appendChild(line);
+            });
+         }
+
+         function buildCardHTML(data, isActive = true) {
+            const pillsCount = data.pills.length;
+            const gridClass = pillsCount === 4 ? 'sss-pills-4' : 'sss-pills-3';
+
+            const pillsHTML = data.pills.map(p => `
+               <div class="sss-pill">
+                  <div class="sss-pill-icon-wrap">
+                     <img src="${p.icon}" alt="${p.label}" class="sss-pill-icon">
+                  </div>
+                  <span class="sss-pill-label">${p.label}</span>
+               </div>
+            `).join('');
+
+            const actionBtnHTML = isActive ? `
+               <div class="sss-card-action">
+                  <a href="${data.btnLink}" class="sss-card-btn">
+                     ${data.btnText} <i class="fa-solid fa-arrow-right ms-1"></i>
+                  </a>
+               </div>
+            ` : '';
+
+            const badgeHTML = !isActive ? `
+               <span class="sss-next-badge"><i class="fa-solid fa-arrow-down-long me-1"></i> Next Step Preview</span>
+            ` : '';
+
+            return `
+               <div class="sss-card ${isActive ? 'is-active' : 'is-next'}" data-step="${data.step}">
+                  ${badgeHTML}
+                  <div class="sss-card-header">
+                     <div class="sss-card-header-left">
+                        <span class="sss-step-num">${data.step}</span>
+                        <div class="sss-step-title-wrap">
+                           <h3 class="sss-card-title">${data.title}</h3>
+                           <p class="sss-card-subtitle">${data.subtitle}</p>
+                        </div>
+                     </div>
+                     <div class="sss-card-header-icon">
+                        <img src="${data.headerIcon}" alt="${data.title}">
+                     </div>
+                  </div>
+
+                  <div class="sss-pills-grid ${gridClass}">
+                     ${pillsHTML}
+                  </div>
+
+                  ${actionBtnHTML}
+               </div>
+            `;
+         }
+
+         function renderCards(idx) {
+            const activeData = SSS_DATA[idx];
+            const nextIdx = (idx + 1) % TOTAL_STEPS;
+            const nextData = SSS_DATA[nextIdx];
+
+            if (activeSlot) {
+               activeSlot.innerHTML = buildCardHTML(activeData, true);
+            }
+            if (nextSlot) {
+               nextSlot.innerHTML = buildCardHTML(nextData, false);
+            }
+            if (counterEl) {
+               counterEl.textContent = `Step ${idx + 1} of ${TOTAL_STEPS}`;
+            }
+
+            // Update Progress Dots
+            stepDots.forEach((dot, dIdx) => {
+               if (dIdx === idx) {
+                  dot.classList.add('active');
+               } else {
+                  dot.classList.remove('active');
+               }
+            });
+         }
+
+         function rotateToStep(idx) {
+            currentStepIdx = idx;
+            // Negative rotation = counter-clockwise (anticlockwise) movement
+            rotationDegrees = -idx * STEP_ANGLE;
+
+            if (orbitRing) {
+               orbitRing.style.transform = `rotate(${rotationDegrees}deg)`;
+            }
+
+            if (svgLinesGroup) {
+               svgLinesGroup.setAttribute('transform', `rotate(${rotationDegrees} ${CX} ${CY})`);
+            }
+
+            // Counter-rotate the inner icon of each node so images remain upright
+            nodeButtons.forEach((node, nIdx) => {
+               const inner = node.querySelector('.sss-node-inner');
+               if (inner) {
+                  inner.style.transform = `rotate(${-rotationDegrees}deg)`;
+               }
+               if (nIdx === idx) {
+                  node.classList.add('active');
+               } else {
+                  node.classList.remove('active');
+               }
             });
 
-            counted = 1;
+            renderCards(idx);
          }
-      });
 
-   </script>
-   <script>
-      let currentIndex = 0;
-      function handleTabClick(event) {
-         if (event.target.tagName === 'LI') {
-            const selectedTab = event.target.dataset.tab;
-            updateTabs(selectedTab);
+         function nextStep() {
+            const nextIdx = (currentStepIdx + 1) % TOTAL_STEPS;
+            rotateToStep(nextIdx);
          }
-      }
-      function moveTabs(direction) {
-         const tabs = document.querySelectorAll('.tabs li');
-         const newIndex = currentIndex + direction;
-         if (newIndex >= 0 && newIndex < tabs.length) {
-            const selectedTab = tabs[newIndex].dataset.tab;
-            updateTabs(selectedTab);
+
+         function startAuto() {
+            stopAuto();
+            autoTimer = setInterval(nextStep, AUTO_INTERVAL);
          }
-      }
-      function updateTabs(selectedTab) {
-         document.querySelectorAll('.content').forEach(function (div) {
-            div.classList.remove('active-content');
-         });
-         document.querySelectorAll('.tabs li').forEach(function (tab) {
-            tab.classList.remove('active');
-         });
-         document.getElementById(selectedTab).classList.add('active-content');
-         document.querySelector(`[data-tab="${selectedTab}"]`).classList.add('active');
-         currentIndex = Array.from(document.querySelectorAll('.tabs li')).findIndex(tab => tab.dataset.tab === selectedTab);
-      }
-   </script>
-   <script>
-      let currentIndex1 = 0;
-      function handleCustomTabClick(event) {
-         if (event.target.tagName === 'LI') {
-            const selectedTab = event.target.dataset.tab;
-            updateTabs1(selectedTab);
-         }
-      }
-      function moveTabs1(direction) {
-         const tabs = document.querySelectorAll('.custom-tabs li');
-         const newIndex = currentIndex1 + direction;
 
-         if (newIndex >= 0 && newIndex < tabs.length) {
-            const selectedTab = tabs[newIndex].dataset.tab;
-            updateTabs1(selectedTab);
-         }
-      }
-      function updateTabs1(selectedTab) {
-         document.querySelectorAll('.custom-content').forEach(function (div) {
-            div.classList.remove('active-contents');
-         });
-         document.querySelectorAll('.custom-tabs li').forEach(function (tab) {
-            tab.classList.remove('active');
-         });
-         document.getElementById(selectedTab).classList.add('active-contents');
-         document.querySelector(`[data-tab="${selectedTab}"]`).classList.add('active');
-         currentIndex1 = Array.from(document.querySelectorAll('.custom-tabs li')).findIndex(tab => tab.dataset.tab === selectedTab);
-      }
-   </script>
-
-   <script>
-      /* Function to initialize the slider */
-      function initializeSlider(selector, options) {
-         const defaultOptions = {
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            arrows: true
-            /* Add other default options as needed */
-         };
-
-         const mergedOptions = { ...defaultOptions, ...options };
-
-         $(document).ready(function () {
-            $(selector).slick(mergedOptions);
-         });
-      }
-
-      /* Function to fetch slide data and initialize the slider */
-      function initializeDynamicSlider(selector) {
-         /* Make an API request or fetch data dynamically */
-         /* Here, we are using dummy data for demonstration */
-         const fetchData = {
-            slideShow: 3,
-            mlSlideShow: 2,
-            lgSlideShow: 1,
-            mdSlideShow: 1
-         };
-
-         /* Set the fetched data to the corresponding data attributes */
-         $(selector).attr('data-slide-show', fetchData.slideShow);
-         $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
-         $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
-         $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
-
-         /* Initialize the slider with the fetched data */
-         initializeSlider(selector, {
-            slidesToShow: fetchData.slideShow,
-            slidesToScroll: 1,
-            responsive: [
-               {
-                  breakpoint: 991,
-                  settings: {
-                     slidesToShow: fetchData.mdSlideShow
-                  }
-               },
-               {
-                  breakpoint: 768,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               },
-               {
-                  breakpoint: 576,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               }
-            ]
-         });
-      }
-
-      /* Initialize the dynamic slider */
-      initializeDynamicSlider('#dynamicSlider');
-      initializeDynamicSlider('#dynamicSlider1');
-   </script>
-   <script>
-      /* Function to initialize the slider */
-      function initializeSlider(selector, options) {
-         const defaultOptions = {
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            arrows: true
-            /* Add other default options as needed */
-         };
-
-         const mergedOptions = { ...defaultOptions, ...options };
-
-         $(document).ready(function () {
-            $(selector).slick(mergedOptions);
-         });
-      }
-
-      /* Function to fetch slide data and initialize the slider */
-      function initializeDynamicSlider(selector) {
-         /* Make an API request or fetch data dynamically */
-         /* Here, we are using dummy data for demonstration */
-         const fetchData = {
-            slideShow: 5,
-            mlSlideShow: 2,
-            lgSlideShow: 3,
-            mdSlideShow: 2
-         };
-
-         /* Set the fetched data to the corresponding data attributes */
-         $(selector).attr('data-slide-show', fetchData.slideShow);
-         $(selector).attr('data-ml-slide-show', fetchData.mlSlideShow);
-         $(selector).attr('data-lg-slide-show', fetchData.lgSlideShow);
-         $(selector).attr('data-md-slide-show', fetchData.mdSlideShow);
-
-         /* Initialize the slider with the fetched data */
-         initializeSlider(selector, {
-            slidesToShow: fetchData.slideShow,
-            slidesToScroll: 1,
-            responsive: [
-               {
-                  breakpoint: 991,
-                  settings: {
-                     slidesToShow: fetchData.mdSlideShow
-                  }
-               },
-               {
-                  breakpoint: 768,
-                  settings: {
-                     slidesToShow: 1
-                  }
-               },
-               {
-                  breakpoint: 576,
-                  settings: {
-                     slidesToShow: 2
-                  }
-               }
-            ]
-         });
-      }
-
-      /* Initialize the dynamic slider */
-      initializeDynamicSlider('#dynamicSlider2');
-   </script>
-   <script>
-      const customSwitchContainer = document.getElementById('customSwitchContainer');
-      const customToggleSwitch = document.getElementById('customToggleSwitch');
-      const root = document.documentElement;
-      const body = document.body;
-      var banner = document.querySelector(".banner");
-      var eventbanner = document.querySelector(".main-event-banner-sec");
-      var banner1 = document.querySelector(".banner1");
-      var bannerimg1 = document.querySelector(".banner-img1");
-      var midbanner = document.getElementById("midbanner");
-      var listsecc = document.getElementsByClassName("list-secc");
-      var geoMagic = document.querySelector(".geomagic-bg");
-      var geoMagicMob = document.querySelector(".geomagic-bg2");
-      var bgBanner = document.querySelector(".bg-banner");
-      var bannerMob1 = document.querySelector(".banner-mob");
-      var bannerMob2 = document.querySelector(".banner1-mob");
-      var bannerMob3 = document.querySelector(".bg-banner-mob");
-      var banImg2 = document.querySelector(".ban-img-2");
-      /* var heroImg = document.querySelector(".hero-img"); */
-      function toggleStyles() {
-         if (customToggleSwitch.checked) {
-            customSwitchContainer.querySelector('.custom-slider').classList.add('on');
-            root.style.setProperty('--backgroundcolor', '#101010');
-            root.style.setProperty('--subbackground', '#0A0A0A');
-            root.style.setProperty('--subcontent', '#bbb');
-            root.style.setProperty('--counter', '#0A0A0A');
-            root.style.setProperty('--img-filter', 'none');
-            root.style.setProperty('--list', '#DFEEFF');
-            root.style.setProperty('--list-black', '#0a0a0a');
-            root.style.setProperty('--whitecolor', '#fff');
-            root.style.setProperty('--maincolor', '#ff931e');
-            root.style.setProperty('--light-bg', '#1E1E1E');
-            body.style.background = 'var(--backgroundcolor)';
-            banner.style.background = 'url(assets/images/new-home/hero-banner-1-dark.png)';
-            /* heroImg.setAttribute("src","assets/images/new-home/hero-banner-img-dark.png"); */
-            /* eventbanner.style.background = 'url(assets/images/new-home/banner.png)'; */
-            banner.style.backgroundSize = '100% 100%';
-            banner1.style.background = 'url(assets/images/new-home/banner2-dark.png)';
-            bannerimg1.style.background = 'url(assets/images/product-gallery/moblight.png)';
-            bannerimg1.style.backgroundSize = '100% 100%';
-            banner1.style.backgroundSize = '100% 100%';
-            banner1.style.backgroundRepeat = 'no-repeat';
-            geoMagic.setAttribute("src", "assets/images/geomagic/geomagic-White.png");
-            geoMagicMob.setAttribute("src", "assets/images/geomagic/geomagic-White.png");
-            bgBanner.style.background = 'url(assets/images/new-home/banner3-dark.png)';
-            bgBanner.style.backgroundSize = '100% 100%';
-            bgBanner.style.backgroundRepeat = 'no-repeat';
-            bannerMob1.style.background = "#000";
-            bannerMob2.style.background = "#000";
-            bannerMob3.style.background = "#000";
-            banImg2.setAttribute("src", "assets/images/new-home/hero-banner-img-dark.png")
-
-            for (var i = 0; i < listsecc.length; i++) {
-               listsecc[i].style.padding = '80px 0 0';
-               listsecc[i].style.background = 'none';
+         function stopAuto() {
+            if (autoTimer) {
+               clearInterval(autoTimer);
+               autoTimer = null;
             }
-            midbanner.style['-webkit-text-fill-color'] = 'transparent';
+         }
+
+         // Event Listeners for Orbit Nodes
+         nodeButtons.forEach((node, idx) => {
+            node.addEventListener('click', function(e) {
+               e.preventDefault();
+               rotateToStep(idx);
+               startAuto();
+            });
+         });
+
+         // Event Listeners for Step Dots
+         stepDots.forEach((dot, idx) => {
+            dot.addEventListener('click', function(e) {
+               e.preventDefault();
+               rotateToStep(idx);
+               startAuto();
+            });
+         });
+
+         // Event Listener for Next Card click
+         if (nextSlot) {
+            nextSlot.addEventListener('click', function() {
+               nextStep();
+               startAuto();
+            });
+         }
+
+         // Hover pause
+         if (sectionEl) {
+            sectionEl.addEventListener('mouseenter', stopAuto);
+            sectionEl.addEventListener('mouseleave', startAuto);
+         }
+
+         // Initialize on DOM load
+         initOrbitGeometry();
+         rotateToStep(0);
+         startAuto();
+      })();
+   </script>
+
+   <!-- End-To-End 3D Scanning Portfolio Controller Script -->
+   <script>
+      (function() {
+         const tabs = document.querySelectorAll('.ete-tab-item');
+         const markers = document.querySelectorAll('.ete-marker-col');
+         const sets = document.querySelectorAll('.ete-gallery-set');
+         const section = document.getElementById('end-to-end-portfolio');
+         let currentIdx = 0;
+         const totalSets = tabs.length;
+         let autoTimer = null;
+         const AUTO_DELAY = 4500;
+
+         function switchSet(idx) {
+            currentIdx = idx;
+
+            tabs.forEach((tab, i) => {
+               if (i === idx) {
+                  tab.classList.add('active');
+               } else {
+                  tab.classList.remove('active');
+               }
+            });
+
+            markers.forEach((m, i) => {
+               if (i === idx) {
+                  m.classList.add('active');
+               } else {
+                  m.classList.remove('active');
+               }
+            });
+
+            sets.forEach((s, i) => {
+               if (i === idx) {
+                  s.classList.add('active');
+               } else {
+                  s.classList.remove('active');
+               }
+            });
+         }
+
+         function nextSet() {
+            const nextIdx = (currentIdx + 1) % totalSets;
+            switchSet(nextIdx);
+         }
+
+         function startAuto() {
+            stopAuto();
+            autoTimer = setInterval(nextSet, AUTO_DELAY);
+         }
+
+         function stopAuto() {
+            if (autoTimer) {
+               clearInterval(autoTimer);
+               autoTimer = null;
+            }
+         }
+
+         tabs.forEach((tab, i) => {
+            tab.addEventListener('click', function(e) {
+               e.preventDefault();
+               switchSet(i);
+               startAuto();
+            });
+         });
+
+         markers.forEach((m, i) => {
+            m.addEventListener('click', function(e) {
+               e.preventDefault();
+               switchSet(i);
+               startAuto();
+            });
+         });
+
+         if (section) {
+            section.addEventListener('mouseenter', stopAuto);
+            section.addEventListener('mouseleave', startAuto);
+         }
+
+         // Start on load
+         startAuto();
+      })();
+   </script>
+
+   <!-- Workflow of End-to-End 3D Scanning Service Interactive Controller -->
+   <script>
+      (function() {
+         const WF_DATA = [
+            {
+               step: 1,
+               title: "Tell Us What You Need to Scan",
+               desc: "Share photos, drawings, CAD files, or inspection requirements.<br>Our team reviews your requirements and recommends the best solution.",
+               headerIcon: "assets/images/home-new/wf-card1-img.png",
+               btnText: "Get a Service Quote",
+               btnLink: "Get-3d-scan-service-quote.php",
+               type: "simple"
+            },
+            {
+               step: 2,
+               title: "Choose How We Scan",
+               desc: "Visit our lab, ship your components, or schedule an on-site scanning service.",
+               headerIcon: "assets/images/home-new/wf-card2-img.png",
+               btnText: "Get a Service Quote",
+               btnLink: "Get-3d-scan-service-quote.php",
+               type: "thumbs3",
+               thumbs: [
+                  { img: "assets/images/home-new/wf-card2-img1.png", caption: "Walk-in Scanning Lab" },
+                  { img: "assets/images/home-new/wf-card2-img2.png", caption: "Ship Your Components" },
+                  { img: "assets/images/home-new/wf-card2-img3.png", caption: "On-site Scanning Service" }
+               ]
+            },
+            {
+               step: 3,
+               title: "3D Scanning Process",
+               desc: "Our metrology engineers capture precise 3D data using high-end industrial scanners.",
+               headerIcon: "assets/images/home-new/wf-card3-img.png",
+               btnText: "Get a Service Quote",
+               btnLink: "Get-3d-scan-service-quote.php",
+               type: "thumbs4",
+               thumbs: [
+                  { img: "assets/images/home-new/wf-card3-img1.png", caption: "Handheld Scanners" },
+                  { img: "assets/images/home-new/wf-card3-img2.png", caption: "Metrology-grade Scanners" },
+                  { img: "assets/images/home-new/wf-card3-img3.png", caption: "Large Object Scanning" },
+                  { img: "assets/images/home-new/wf-card3-img4.png", caption: "LiDAR for Facilities" }
+               ]
+            },
+            {
+               step: 4,
+               title: "Data Processing",
+               desc: "The scan data is cleaned, aligned and converted into accurate digital models.",
+               subheading: "Processing Services:",
+               headerIcon: "assets/images/home-new/wf-card4-img.png",
+               btnText: "Get a Service Quote",
+               btnLink: "Get-3d-scan-service-quote.php",
+               type: "pills",
+               pills: [
+                  { icon: "assets/images/home-new/wf-card4-icon1.png", text: "Data Cleaning" },
+                  { icon: "assets/images/home-new/wf-card4-icon2.png", text: "Alignment & Merging" },
+                  { icon: "assets/images/home-new/wf-card4-icon3.png", text: "Mesh Processing" },
+                  { icon: "assets/images/home-new/wf-card4-icon4.png", text: "Accuracy Validation" }
+               ]
+            },
+            {
+               step: 5,
+               title: "Reverse Engineering & CAD Modelling",
+               desc: "Convert scanned data into editable CAD models and engineering drawings.",
+               headerIcon: "assets/images/home-new/wf-card5-img.png",
+               btnText: "Get a Service Quote",
+               btnLink: "Get-3d-scan-service-quote.php",
+               type: "pills",
+               pills: [
+                  { icon: "assets/images/home-new/wf-card5-icon1.png", text: "Reverse Engineering" },
+                  { icon: "assets/images/home-new/wf-card5-icon2.png", text: "Parametric CAD Modelling" },
+                  { icon: "assets/images/home-new/wf-card5-icon3.png", text: "2D Drawing" },
+                  { icon: "assets/images/home-new/wf-card5-icon4.png", text: "Design Support" }
+               ]
+            },
+            {
+               step: 6,
+               title: "Inspection Analysis",
+               desc: "Compare with CAD, check dimensions, and get detailed inspection reports",
+               headerIcon: "assets/images/home-new/wf-card6-img.png",
+               btnText: "Get a Service Quote",
+               btnLink: "Get-3d-scan-service-quote.php",
+               type: "pills",
+               pills: [
+                  { icon: "assets/images/home-new/wf-card6-icon1.png", text: "3D Inspection" },
+                  { icon: "assets/images/home-new/wf-card6-icon2.png", text: "Deviation Analysis" },
+                  { icon: "assets/images/home-new/wf-card6-icon3.png", text: "GD&T (As per Scope)" },
+                  { icon: "assets/images/home-new/wf-card6-icon4.png", text: "Inspection Reports" }
+               ]
+            },
+            {
+               step: 7,
+               title: "Final Deliverables & Support",
+               desc: "Receive CAD models, inspection reports, deviation analysis, or BIM-ready files.",
+               headerIcon: "assets/images/home-new/wf-card7-img.png",
+               subheading: "Supported Engineering Software:",
+               type: "deliverables",
+               pills: [
+                  { icon: "assets/images/home-new/wf-card7-icon1.png", text: "3D Mesh / Point Cloud" },
+                  { icon: "assets/images/home-new/wf-card7-icon2.png", text: "CAD Models" },
+                  { icon: "assets/images/home-new/wf-card7-icon3.png", text: "Inspection report" },
+                  { icon: "assets/images/home-new/wf-card7-icon4.png", text: "Ongoing Support" }
+               ],
+               logos: [
+                  { img: "assets/images/home-new/wf-card7-logo1.jpg", alt: "CATIA" },
+                  { img: "assets/images/home-new/wf-card7-logo2.png", alt: "Siemens NX" },
+                  { img: "assets/images/home-new/wf-card7-logo3.png", alt: "Autodesk" },
+                  { img: "assets/images/home-new/wf-card7-logo4.png", alt: "Creo" },
+                  { img: "assets/images/home-new/wf-card7-logo5.png", alt: "SolidWorks" }
+               ]
+            }
+         ];
+
+         const TOTAL_STEPS = WF_DATA.length;
+         const STEP_ANGLE = 360 / TOTAL_STEPS;
+         const R_ORBIT = 185;
+         const CX = 250;
+         const CY = 250;
+
+         const orbitRing = document.getElementById('wfOrbitRing');
+         const svgLinesGroup = document.getElementById('wfSvgLinesGroup');
+         const activeSlot = document.getElementById('wfActiveCardSlot');
+         const nextSlot = document.getElementById('wfNextCardSlot');
+         const counterEl = document.getElementById('wfStepCounter');
+         const nodeButtons = document.querySelectorAll('.wf-node-btn');
+         const stepDots = document.querySelectorAll('.wf-step-dot');
+         const sectionEl = document.getElementById('workflow-section');
+
+         let currentStepIdx = 0;
+         let rotationDegrees = 0;
+         let autoTimer = null;
+         const AUTO_INTERVAL = 4500;
+
+         // Initialize node positions and radial dashed lines in SVG
+         function initOrbitGeometry() {
+            if (!svgLinesGroup) return;
+            svgLinesGroup.innerHTML = '';
+
+            nodeButtons.forEach((node, i) => {
+               const angleDeg = -90 + (i * STEP_ANGLE);
+               const rad = angleDeg * (Math.PI / 180);
+               const nx = CX + R_ORBIT * Math.cos(rad);
+               const ny = CY + R_ORBIT * Math.sin(rad);
+
+               node.style.left = `${(nx / 500) * 100}%`;
+               node.style.top = `${(ny / 500) * 100}%`;
+
+               const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+               line.setAttribute('x1', CX);
+               line.setAttribute('y1', CY);
+               line.setAttribute('x2', nx);
+               line.setAttribute('y2', ny);
+               line.setAttribute('stroke', '#f7931e');
+               line.setAttribute('stroke-width', '1.5');
+               line.setAttribute('stroke-dasharray', '4 4');
+               line.setAttribute('opacity', '0.65');
+               svgLinesGroup.appendChild(line);
+            });
+         }
+
+         // HTML Card Template Generator
+         function buildCardHtml(data, isNext) {
+            let bodyContent = '';
+
+            if (data.type === 'thumbs3') {
+               bodyContent = `
+                  <div class="wf-thumbs-grid wf-thumbs-3">
+                     ${data.thumbs.map(t => `
+                        <div class="wf-thumb-box">
+                           <div class="wf-thumb-img-wrap">
+                              <img src="${t.img}" alt="${t.caption}">
+                           </div>
+                           <div class="wf-thumb-caption">${t.caption}</div>
+                        </div>
+                     `).join('')}
+                  </div>
+               `;
+            } else if (data.type === 'thumbs4') {
+               bodyContent = `
+                  <div class="wf-thumbs-grid wf-thumbs-4">
+                     ${data.thumbs.map(t => `
+                        <div class="wf-thumb-box">
+                           <div class="wf-thumb-img-wrap">
+                              <img src="${t.img}" alt="${t.caption}">
+                           </div>
+                           <div class="wf-thumb-caption">${t.caption}</div>
+                        </div>
+                     `).join('')}
+                  </div>
+               `;
+            } else if (data.type === 'pills') {
+               bodyContent = `
+                  <div class="wf-pills-grid">
+                     ${data.pills.map(p => `
+                        <div class="wf-pill-box">
+                           <div class="wf-pill-icon"><img src="${p.icon}" alt="${p.text}"></div>
+                           <div class="wf-pill-text">${p.text}</div>
+                        </div>
+                     `).join('')}
+                  </div>
+               `;
+            } else if (data.type === 'deliverables') {
+               bodyContent = `
+                  <div class="wf-pills-grid">
+                     ${data.pills.map(p => `
+                        <div class="wf-pill-box">
+                           <div class="wf-pill-icon"><img src="${p.icon}" alt="${p.text}"></div>
+                           <div class="wf-pill-text">${p.text}</div>
+                        </div>
+                     `).join('')}
+                  </div>
+                  <div class="wf-card-subheading">${data.subheading}</div>
+                  <div class="wf-logos-row">
+                     ${data.logos.map(l => `
+                        <div class="wf-logo-item"><img src="${l.img}" alt="${l.alt}"></div>
+                     `).join('')}
+                  </div>
+               `;
+            }
+
+            const actionBtn = (data.btnText && !isNext) ? `
+               <div class="wf-card-action">
+                  <a href="${data.btnLink}" class="wf-btn">${data.btnText}</a>
+               </div>
+            ` : '';
+
+            const nextBadge = isNext ? `<span class="wf-next-badge">Next Step</span>` : '';
+
+            return `
+               <div class="wf-card ${isNext ? 'is-next' : 'is-active'}">
+                  ${nextBadge}
+                  <div class="wf-card-header">
+                     <div class="wf-card-header-left">
+                        <span class="wf-card-num">${data.step}</span>
+                        <h3 class="wf-card-title">${data.title}</h3>
+                     </div>
+                     <div class="wf-card-header-icon">
+                        <img src="${data.headerIcon}" alt="${data.title}">
+                     </div>
+                  </div>
+                  <p class="wf-card-desc">${data.desc}</p>
+                  ${(data.subheading && data.type !== 'deliverables') ? `<div class="wf-card-subheading">${data.subheading}</div>` : ''}
+                  ${bodyContent}
+                  ${actionBtn}
+               </div>
+            `;
+         }
+
+         function renderCards(idx) {
+            const activeData = WF_DATA[idx];
+            const nextIdx = (idx + 1) % TOTAL_STEPS;
+            const nextData = WF_DATA[nextIdx];
+
+            if (activeSlot) {
+               activeSlot.style.opacity = '0';
+               activeSlot.style.transform = 'translateY(10px)';
+               setTimeout(() => {
+                  activeSlot.innerHTML = buildCardHtml(activeData, false);
+                  activeSlot.style.opacity = '1';
+                  activeSlot.style.transform = 'translateY(0)';
+               }, 150);
+            }
+
+            if (nextSlot) {
+               nextSlot.innerHTML = buildCardHtml(nextData, true);
+            }
+
+            if (counterEl) {
+               counterEl.textContent = `Step ${activeData.step} of ${TOTAL_STEPS}`;
+            }
+
+            stepDots.forEach((dot, i) => {
+               if (i === idx) {
+                  dot.classList.add('active');
+               } else {
+                  dot.classList.remove('active');
+               }
+            });
+
+            nodeButtons.forEach((node, i) => {
+               if (i === idx) {
+                  node.classList.add('active');
+               } else {
+                  node.classList.remove('active');
+               }
+            });
+         }
+
+         function goToStep(idx) {
+            currentStepIdx = idx;
+            // Anticlockwise rotation bringing active node towards top (-90deg)
+            rotationDegrees = -(idx * STEP_ANGLE);
+
+            if (orbitRing) {
+               orbitRing.style.transform = `rotate(${rotationDegrees}deg)`;
+            }
+            if (svgLinesGroup) {
+               svgLinesGroup.style.transform = `rotate(${rotationDegrees}deg)`;
+               svgLinesGroup.style.transformOrigin = `${CX}px ${CY}px`;
+            }
+
+            // Counter-rotate each node inner icon so icons remain upright
+            nodeButtons.forEach(node => {
+               const inner = node.querySelector('.wf-node-inner');
+               if (inner) {
+                  inner.style.transform = `rotate(${-rotationDegrees}deg)`;
+               }
+            });
+
+            renderCards(idx);
+         }
+
+         function nextStep() {
+            const next = (currentStepIdx + 1) % TOTAL_STEPS;
+            goToStep(next);
+         }
+
+         function startAuto() {
+            stopAuto();
+            autoTimer = setInterval(nextStep, AUTO_INTERVAL);
+         }
+
+         function stopAuto() {
+            if (autoTimer) {
+               clearInterval(autoTimer);
+               autoTimer = null;
+            }
+         }
+
+         // Event Listeners
+         nodeButtons.forEach((btn, i) => {
+            btn.addEventListener('click', function(e) {
+               e.preventDefault();
+               goToStep(i);
+               startAuto();
+            });
+         });
+
+         stepDots.forEach((dot, i) => {
+            dot.addEventListener('click', function(e) {
+               e.preventDefault();
+               goToStep(i);
+               startAuto();
+            });
+         });
+
+         if (nextSlot) {
+            nextSlot.addEventListener('click', function(e) {
+               e.preventDefault();
+               nextStep();
+               startAuto();
+            });
+         }
+
+         if (sectionEl) {
+            sectionEl.addEventListener('mouseenter', stopAuto);
+            sectionEl.addEventListener('mouseleave', startAuto);
+         }
+
+         // Init
+         initOrbitGeometry();
+         goToStep(0);
+         startAuto();
+      })();
+   </script>
+
+   <!-- About Us Statistics Animated Synchronized Counter -->
+   <script>
+      (function() {
+         const statsGrid = document.querySelector('.about-stats-grid');
+         const statEls = document.querySelectorAll('.about-stat-num');
+         if (!statEls.length) return;
+
+         // Initialize elements to 0+
+         const items = Array.from(statEls).map(el => {
+            const target = parseInt(el.getAttribute('data-target'), 10) || 0;
+            const suffix = el.getAttribute('data-suffix') || '+';
+            el.textContent = '0' + suffix;
+            return { el, target, suffix, lastVal: 0 };
+         });
+
+         let animated = false;
+
+         // Organic sine ease-in-out: starts gently, rolls steadily, settles cleanly with zero lag/stall
+         function easeInOutSine(t) {
+            return -(Math.cos(Math.PI * t) - 1) / 2;
+         }
+
+         function runCounters() {
+            if (animated) return;
+            animated = true;
+
+            const DURATION = 1750; // Perfectly paced: 1.75 seconds synchronized
+            let startTime = null;
+
+            function frame(now) {
+               if (!startTime) startTime = now;
+               const elapsed = now - startTime;
+               const progress = Math.min(elapsed / DURATION, 1);
+               const ease = easeInOutSine(progress);
+
+               items.forEach(item => {
+                  const current = (progress >= 1) ? item.target : Math.round(ease * item.target);
+                  if (current !== item.lastVal || progress >= 1) {
+                     item.lastVal = current;
+                     item.el.textContent = current + item.suffix;
+                  }
+               });
+
+               if (progress < 1) {
+                  requestAnimationFrame(frame);
+               }
+            }
+
+            requestAnimationFrame(frame);
+         }
+
+         // Trigger when the stats grid is in clear view
+         const observeTarget = statsGrid || document.getElementById('about-section');
+         if ('IntersectionObserver' in window && observeTarget) {
+            const observer = new IntersectionObserver((entries) => {
+               entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                     runCounters();
+                     observer.unobserve(entry.target);
+                  }
+               });
+            }, {
+               threshold: 0.35,
+               rootMargin: '0px 0px -30px 0px'
+            });
+
+            observer.observe(observeTarget);
          } else {
-            customSwitchContainer.querySelector('.custom-slider').classList.remove('on');
-            root.style.setProperty('--backgroundcolor', '#fff');
-            root.style.setProperty('--subcotent', '#000');
-            root.style.setProperty('--counter', '#F0EAE4');
-            root.style.setProperty('--img-filter', 'invert(1)');
-            root.style.setProperty('--list', '#000');
-            root.style.setProperty('--subbackground', '#fff');
-            root.style.setProperty('--whitecolor', '#101010');
-            root.style.setProperty('--maincolor', '#ff931e');
-            root.style.setProperty('--backgroundimage', 'url(/assets/images/new-home/p-140bg.png)');
-            body.style.background = '#fff';
-            banner.style.background = 'url(assets/images/new-home/hero-banner-1.png)';
-            /* eventbanner.style.background = 'url(assets/images/new-home/banner.png)'; */
-            banner.style.backgroundSize = '100% 100%';
-            banner.style.backgroundRepeat = 'no-repeat';
-            banner1.style.background = 'url(assets/images/new-home/banner2.png)';
-            banner1.style.backgroundSize = '100% 100%';
-            banner1.style.backgroundRepeat = 'no-repeat';
-            midbanner.style.color = "#ff931e"
-            bannerimg1.style.background = 'url(assets/images/product-gallery/mobdark.png)';
-            bannerimg1.style.backgroundSize = '100% 100%';
-            geoMagic.setAttribute("src", "assets/images/geomagic/geomagic-logo.png");
-            geoMagicMob.setAttribute("src", "assets/images/geomagic/geomagic-logo.png");
-            /* heroImg.setAttribute("src","assets/images/new-home/hero-banner-img.png"); */
-            bgBanner.style.background = 'url(assets/images/new-home/banner3.png)';
-            bgBanner.style.backgroundSize = '100% 100%';
-            bgBanner.style.backgroundRepeat = 'no-repeat';
-            bannerMob1.style.background = "#FFE9D2";
-            bannerMob2.style.background = "#FFE9D2";
-            bannerMob3.style.background = "#FFE9D2";
-            banImg2.setAttribute("src", "assets/images/new-home/mobile-banner-2.png");
-            root.style.setProperty('--light-bg', '#FFE1C3');
-
-            for (var i = 0; i < listsecc.length; i++) {
-               listsecc[i].style.padding = '150px 0';
-
-               listsecc[i].style.background = 'url(assets/images/new-home/p-140bg.png) 0% 0% / 100% 100% no-repeat';
-            }
-            midbanner.style['-webkit-text-fill-color'] = 'currentColor';
+            runCounters();
          }
-      }
-
-      /* Initial setup */
-      toggleStyles();
-
-      /* Event listener for the custom switch */
-      customSwitchContainer.addEventListener('click', function () {
-         customToggleSwitch.checked = !customToggleSwitch.checked;
-         toggleStyles();
-      });
+      })();
    </script>
 </body>
 

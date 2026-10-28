@@ -405,7 +405,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                <div class="mini-card d-flex align-items-center">
                                    <img src="assets/images/metrology-3d-scanners/handled1.png" alt="">
                                    <div>
-                                       <h6>FreeScan Combo Series</h6>
+                                       <h6>FreeScan Combo+ wireless</h6>
                                        <p>Entry-level, lightweight scanners for daily inspection with reliable accuracy.</p>
                                    </div>
                                </div>

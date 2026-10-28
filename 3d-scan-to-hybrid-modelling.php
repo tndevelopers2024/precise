@@ -16,15 +16,19 @@
     <meta property="twitter:description" content="Hybrid modeling is a combination of parametric features and a large patch of mesh. Scan data identifies auto-segmenting features and converts them into a hybrid model." />
     <meta property="twitter:image" content="https://www.precise3dm.com/assets/images/hybrid-modelling/new.png"/>
     <link rel="canonical" href="https://www.precise3dm.com/3d-scan-to-hybrid-modelling.php"/>
-    <!--bootstrap css-->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!-- custom css-->
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Base styles -->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/optical-blue-light.css">
-
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/parametric-cad.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- Custom Page CSS -->
+    <link rel="stylesheet" href="assets/css/3d-scan-to-hybrid-modelling-new.css?v=14">
     <title>Reverse engineering software- Geomagic Design X and Freeform-3D scan to Hybrid Modeling</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96527116-1"></script>
@@ -140,598 +144,1004 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 </head>
-<style>
-    .need-to-fixtop{
-        position:fixed;
-        top:86px;
-    }
-    #myTabnew li a i{
-        float:right;
-        padding-top:4px;
-    }
-</style>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <!-- header start -->
+    <!-- Header Start -->
     <?php include('includes/header.php'); ?>
-    <!-- header end -->
+    <!-- Header End -->
 
-    <!--about us banner section start-->
-    <section id="hybrid_model_banner" class="pt-4">
+    <!-- Hero Section Start -->
+    <section class="sth-hero-section">
         <div class="container">
-            <div class="row h-300">
-            </div>
-        </div>
-        <div class="heading m-320">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-6 aboutus-herohead pl-0">
-                        <h1>3D scan to Hybrid Modeling</h1>
+            <div class="row align-items-center">
+                <!-- Left Content Column -->
+                <div class="col-lg-7 col-xl-7">
+                    <div class="sth-hero-left">
+                        <span class="sth-hero-eyebrow">REVERSE ENGINEERING &bull; HYBRID CAD</span>
+                        <h1 class="sth-hero-title">
+                            3D Scan to
+                            <span class="highlight-orange">Hybrid Modelling</span>
+                        </h1>
+                        <p class="sth-hero-desc">
+                            Combine editable parametric features with accurate NURBS surfaces.
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="sth-hero-cta">
+                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-sth-primary">
+                                Upload Scan Data <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-sth-secondary">
+                                Talk to a 3D Expert
+                                <svg class="sth-cube-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Feature Badges -->
+                        <div class="sth-badges-wrap">
+                            <!-- Badges Row 1 -->
+                            <div class="sth-badges-row">
+                                <div class="sth-badge-pill">
+                                    <img src="assets/images/3d-scan-to-hybrid-modelling/3dsthm-hero-left-icon1.png" alt="Parametric + NURBS" class="badge-icon">
+                                    <span>Parametric + NURBS</span>
+                                </div>
+                                <div class="sth-badge-pill">
+                                    <img src="assets/images/3d-scan-to-hybrid-modelling/3dsthm-hero-left-icon2.png" alt="Validated Against Scan" class="badge-icon">
+                                    <span>Validated Against Scan</span>
+                                </div>
+                            </div>
+                            <!-- Badges Row 2 -->
+                            <div class="sth-badges-row">
+                                <div class="sth-badge-pill">
+                                    <img src="assets/images/3d-scan-to-hybrid-modelling/3dsthm-hero-left-icon3.png" alt="Manufacturing-Ready" class="badge-icon">
+                                    <span>Manufacturing-Ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email Us Box (Bottom Left) -->
+                        <div class="sth-email-box">
+                            <div class="mail-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="mail-text">
+                                <h5>Email us</h5>
+                                <p>
+                                    <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                    <span class="sep">|</span>
+                                    <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual Column -->
+                <div class="col-lg-5 col-xl-5">
+                    <div class="sth-hero-right">
+                        <!-- Call Us Now Box (Top Right) -->
+                        <div class="sth-call-box-wrap">
+                            <div class="sth-call-box">
+                                <div class="call-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="call-text">
+                                    <h5>Call us now</h5>
+                                    <p>
+                                        <a href="tel:+919840478347">+91 98404 78347</a>
+                                        <span class="sep">|</span>
+                                        <a href="tel:+916374406179">+91 63744 06179</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3D Hybrid Product Visual -->
+                        <div class="sth-product-visual">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/3dsthm-hero-right-img.png" alt="3D Scan to Hybrid Modelling" class="sth-product-img">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- about us banner section end-->
+    <!-- Hero Section End -->
 
-    <!-- about us section starts-->
-    <section id="aboutus-bg" class="pb-3">
-        <div class="aboutus-sec2">
+    <!-- What Is 3D Scan to Hybrid Modelling Section Start -->
+    <section class="hm-overview-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="hm-sec-header">
+                <h2 class="hm-main-title">
+                    What Is 3D Scan to <span class="hm-highlight-orange">Hybrid Modelling?</span>
+                </h2>
+                <p class="hm-main-desc">
+                    Hybrid modelling combines the design intent of parametric features with the flexibility of NURBS surfaces to accurately represent complex parts. The result is a clean, editable CAD model that is validated against the original scan and ready for downstream engineering and manufacturing.
+                </p>
+            </div>
 
-        </div>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-md-4 cad-left-pills">
-                    <div class="w-100">
-                        <div class="my-stick-nav">
-                            <ul class="nav" id="myTabnew">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="overview-tab" href="#overview">OVERVIEW <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="workflow-tab" href="#workflow">WORKFLOW <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="imagegallery-tab" href="#imagegallery">IMAGE GALLERY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="videogallery-tab" href="#videogallery">VIDEO GALLERY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" id="cadindustry-tab" href="#cadindustry">INDUSTRY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="whatsnext-tab" href="#whatsnext">WHAT'S NEXT <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="cadblog-tab" href="#rel_blog">BLOGS<i class="fas fa-angle-right"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
+            <!-- Visual Comparison: Parametric Features | Center Image | NURBS Surfaces -->
+            <div class="row hm-comparison-row">
+                <!-- Left: Parametric Features -->
+                <div class="col-lg-3 col-md-6 col-12 hm-features-col left-col">
+                    <h3 class="hm-features-title orange">
+                        PARAMETRIC<br>FEATURES
+                    </h3>
+                    <ul class="hm-features-list">
+                        <li>Holes</li>
+                        <li>Slots</li>
+                        <li>Planes</li>
+                        <li>Patterns</li>
+                        <li>Dimensions</li>
+                    </ul>
                 </div>
-                <div class="col-md-8 mt-3">
-                    <div class="" id="myTabContentnew">
-                        <div class="" id="overview">
-                            <h4>Overview</h4>
-                            <div class="overview-cont">
-                                <h6>Hybrid Modeling</h6>
-                                <p>Hybrid modeling is a method of using different modeling techniques in the same workflow in Computer-Aided Design. A Hybrid model is a combination of parametric features and a large patch of mesh that uses rapid surfacing and traditional solid modeling when basic geometric features merge with complex contours. Normally, a simulation on a polygon model using point-cloud data will be simulated and the insights of that simulation are used to make changes to the original polygon data. But this is a time-consuming process. To overcome this, hybrid modeling allows designers and engineers to seamlessly hop back-and-forth between modeling types without losing any data in the process. It allows engineers to run any simulation on their polygon files, and take those insights back to automatically adjust their models.</p>
-                                <h6>3D scan to Hybrid Modeling</h6>
-                                <p>After initial alignment, the scan data is duplicated before any changes are made. The key features are removed using commands like Defeature, Erase, and Fill Holes and it will produce better surfacing results. We can use automated surfacing tools including the Loft Wizard and the Mesh Fit tool. This Auto-surfacing tool wraps the entire model in NURB surfaces (4-sided patches), producing a surface solid, or dumb solid. Auto-segmenting is a type of feature that can analyze the scan data and identify standard features like cylinders, cones, planes, etc dividing them into distinct regions denoted by randomly assigned colors.  By using the Solid Primitive feature we can extract the region, define sketch planes, and cut planes for more advanced modeling.  The accuracy analyzer checks the accuracy of the model. The hybrid model can now be exported as one of many available file types, or live transferred into a CAD program.</p>
-                            </div>
-                        </div>
-                        <!-- workflow tabs -->
-                        <div class="mt-5" id="workflow">
-                            <h4>WORKFLOW</h4>
-                            <div class="col-12 wf-phase">
-                                <h6>PHASE 1</h6>
-                            </div>
-                            <div class="owl-carousel owl-theme chennai-carousel-box owl-prev-set">
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/1) import mesh file.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>1</span>
-                                        </div>
-                                        <p>import mesh file</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/2) segmenting feature regions on mesh.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>2</span>
-                                        </div>
-                                        <p>segmenting feature regions on mesh</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/3) creating  freeform surface  by dedicated tools.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>3</span>
-                                        </div>
-                                        <p>creating  freeform surface  by dedicated tools</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/4) Extracting  surface from parametric features.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>4</span>
-                                        </div>
-                                        <p>Extracting  surface from parametric features</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/5) adding more features.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>5</span>
-                                        </div>
-                                        <p>Adding more features</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/6) converted the surface into hybrid solid.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>6</span>
-                                        </div>
-                                        <p>converted the surface into hybrid solid</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/hybrid-modelling/7) final CAD MODEL.png" alt="3d mesh" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>7</span>
-                                        </div>
-                                        <p>final CAD MODEL</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- workflow tabs end-->
-                        <!-- image tabs -->
-                        <div class="mt-5" id="imagegallery">
-                            <h4>IMAGE</h4>
-                            <div id="demo" class="carousel slide" data-ride="carousel">
 
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo" data-slide-to="1"></li>
-                                    <li data-target="#demo" data-slide-to="2"></li>
-                                </ul>
+                <!-- Center: Hybrid CAD Model (Car Seats) -->
+                <div class="col-lg-6 col-md-12 col-12 hm-center-visual">
+                    <img src="assets/images/3d-scan-to-hybrid-modelling/hm-center-img.png" alt="3D Scan to Hybrid Modelling Car Seats" class="img-fluid" loading="lazy">
+                </div>
 
-                                <!-- The slideshow -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/images/hybrid-modelling/new.png" alt="sw">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>3D scan to Hybrid Modeling</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/images/hybrid-modelling/new.png" alt="sw">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>3D scan to Hybrid Modeling</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/images/hybrid-modelling/new.png" alt="sw">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>3D scan to Hybrid Modeling</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- image tabs end-->
-                        <!-- video tabs -->
-                        <div class="mt-5" id="videogallery">
-                            <h4>IMAGE</h4>
-                            <div id="demo1" class="carousel slide" data-ride="carousel">
+                <!-- Right: NURBS Surfaces -->
+                <div class="col-lg-3 col-md-6 col-12 hm-features-col right-col">
+                    <h3 class="hm-features-title green">
+                        NURBS<br>SURFACES
+                    </h3>
+                    <ul class="hm-features-list">
+                        <li>Complex Curves</li>
+                        <li>Organic Surfaces</li>
+                        <li>Freeform Shapes</li>
+                        <li>Smooth Blends</li>
+                    </ul>
+                </div>
+            </div>
 
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo1" data-slide-to="1"></li>
-                                    <li data-target="#demo1" data-slide-to="2"></li>
-                                </ul>
+            <!-- Sub-Section: When Is Hybrid Modelling Required? -->
+            <div class="hm-required-wrap">
+                <h2 class="hm-req-title">When Is Hybrid Modelling Required?</h2>
 
-                                <!-- The slideshow -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p>3D scan to Hybrid Modeling</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p>3D scan to Hybrid Modeling</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p>3D scan to Hybrid Modeling</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo1" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo1" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
+                <!-- 4 Application Cards Grid -->
+                <div class="row hm-cards-row">
+                    <!-- Card 1: Plastic Housings -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hm-req-card">
+                            <div class="hm-card-frame">
+                                <img src="assets/images/3d-scan-to-hybrid-modelling/hm-card1-img.png" alt="Plastic Housings" loading="lazy">
                             </div>
-                        </div>
-                        <!-- video tabs end-->
-                        <div class="mt-5" id="cadindustry">
-                            <h4>INDUSTRIES WE SERVE</h4>
-                            <!--industry serve section start -->
-                            <div class="container indus-bg">
-                                <div class="row ">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-1.svg" class="img-fluid" alt="Automative"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Automotive</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-2.svg" class="img-fluid" alt="Aerospace"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Aerospace</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-3.svg" class="img-fluid" alt="Education"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Education</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-4.svg" class="img-fluid" alt="Die Casting"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Die Casting</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-5.svg" class="img-fluid" alt="EV"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">EV</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-6.svg" class="img-fluid" alt="Mining"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Mining</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-7.svg" class="img-fluid" alt="Die and Moulds"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Die and molds</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-8.svg" class="img-fluid" alt="Plastic Components"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Plastic Components</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--row end-->
-                                <!--row start-->
-                                <div class="row ">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-9.svg" class="img-fluid" alt="Pumps and Valves"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Pumps and Valves</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-10.svg" class="img-fluid" alt="Consumer Products"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Consumer Products</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-11.svg" class="img-fluid" alt="Heavy Engineering"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Heavy Engineering</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-12.svg" class="img-fluid" alt="Textile Industry"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Textile Industry</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-13.svg" class="img-fluid" alt="Constrution Machienry"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Construction Machinery</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-23.svg" class="img-fluid" alt="Foundry"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Foundry</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-15.svg" class="img-fluid" alt="Press Tools and Sheet Metals"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Press Tools and Sheet Metals</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-16.svg" class="img-fluid" alt="Power and Energy"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Power and Energy</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--row end-->
-                                <!--row start-->
-                                <div class="row ">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-17.svg" class="img-fluid" alt="Defence"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Defence</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-18.svg" class="img-fluid" alt="Jewellery"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Jewellery</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-19.svg" class="img-fluid" alt="Enginering Service"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Enginering Service</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-20.svg" class="img-fluid" alt="Archeology and Heritage Preservation"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Archeology</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-21.svg" class="img-fluid" alt="Agricultural Machinery"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Agricultural Machinery</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-22.svg" class="img-fluid" alt="Tire Industry"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Tire Industry</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--row end-->
-                            </div>
-                            <!--industry serve section end -->
-                        </div>
-                        <div class="mt-5" id="whatsnext">
-                            <h4>WHAT'S NEXT?</h4>
-                            <div class="overview-cont">
-                                <div class="row">
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/Sw.png" alt="sw">
-                                        <a href="https://precise3dm.com/reverse-engineering-geomagic-design-x.php">Buy dedicated Reverse Engineering software</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/upload.png" alt="upload">
-                                        <a href="scan-to-cad-service.php">Upload your 3D Scan for converting into Hybrid Modeling</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/Quote.png" alt="quote">
-                                        <a href="javascript:" data-toggle="modal" data-target=".bd-example-modal-sm">Submit your Request for Quote</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/system.png" alt="system">
-                                        <a href="javascript:" data-toggle="modal" data-target=".related-services-modal-sm">Related services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Small modal -->
-                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-sm modal-dialog-centered">
-                            <div class="modal-content">
-                                <h5 class="mt-4 text-dark text-center">Get Quote</h5>
-                                 <?php
-                                    if (isset($_SESSION['status'])) {
-                                        if ($_SESSION['status'] == "success") {
-                                            echo "<div class='row status-div'>
-                                                    <p class='status-message'>Thanks for your interest in our 3d scanning cad service. You will receive the call and the quote from our business executives.</p>
-                                                    <div style='width: 100%'><a href='https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php'><button class='step-form-btn'>Back</button></a></div></div>";
-                                        } else {
-                                            echo "<div class='row status-div'>
-                                                    <p class='status-message'>Oops...Something went wrong, please try again
-                                                </p><div style='width: 100%'><a href='javascript:void(0);'><button class='step-form-btn'>Back</button></a></div></div>";
-                                        }
-                                        unset($_SESSION['status']);
-                                    }else { ?>
-                                <form method="POST" action="webinar_submit.php" id="web_form" autocomplete="off">
-                                <div class="form-group cad-input-fields">
-                                    <input type="text" name="cadName" id="cadName" class="form-control" placeholder="Name*">
-                                    <input type="email" name="cadEmail" id="cadEmail" class="form-control" placeholder="Email*">
-                                    <input type="text" name="cadContnum" id="cadContnum" class="form-control" placeholder="Contact number*" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10">
-                                    <input type="text" name="cadLocation" id="cadLocation" placeholder="Location" class="form-control">
-                                    <input type="text" name="cadCompanyname" id="cadCompanyname" placeholder="Company name" class="form-control">
-                                </div>
-                                <div class="text-center mb-4">
-                                    <button type="submit" class="btn" id="cadsubmit">Submit</button>
-                                </div>
-                            </form>
-                            <?php } ?>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Small modal -->
-                        <!-- Related services Small modal -->
-                         <div class="modal fade related-services-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-sm modal-dialog-centered">
-                            <div class="modal-content" style="padding:25px;">
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-scanning-services-in-india.php" target="_blank">3D scanning Service</a>
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-scanners-in-india.php" target="_blank">3D Scanner</a>
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-software-provider-in-india.php" target="_blank">3D Software</a>
-                                     
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Related services Small modal -->
-                        <!--related blogs-->
-                        
-                        <div class="mt-5" id="rel_blog">
-                            <div class="row">
-                                <div class="col-12 mt-4">
-                                    <h4 class="">RELATED BLOGS</h4>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="3d mesh" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="3d mesh" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="3d mesh" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
+                            <div class="hm-card-info">
+                                <h4 class="hm-card-title">Plastic Housings</h4>
+                                <p class="hm-card-desc">Complex shapes with mounting & alignment features.</p>
                             </div>
                         </div>
                     </div>
-                    
+
+                    <!-- Card 2: Automotive Trim -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hm-req-card">
+                            <div class="hm-card-frame">
+                                <img src="assets/images/3d-scan-to-hybrid-modelling/hm-card2-img.png" alt="Automotive Trim" loading="lazy">
+                            </div>
+                            <div class="hm-card-info">
+                                <h4 class="hm-card-title">Automotive Trim</h4>
+                                <p class="hm-card-desc">Aesthetic surfaces with functional mounting geometry.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Ergonomic Products -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hm-req-card">
+                            <div class="hm-card-frame">
+                                <img src="assets/images/3d-scan-to-hybrid-modelling/hm-card3-img.png" alt="Ergonomic Products" loading="lazy">
+                            </div>
+                            <div class="hm-card-info">
+                                <h4 class="hm-card-title">Ergonomic Products</h4>
+                                <p class="hm-card-desc">Organic forms that require smooth surfaces and functional features.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Medical Components -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hm-req-card">
+                            <div class="hm-card-frame card-dark-frame">
+                                <img src="assets/images/3d-scan-to-hybrid-modelling/hm-card4-img.png" alt="Medical Components" loading="lazy">
+                            </div>
+                            <div class="hm-card-info">
+                                <h4 class="hm-card-title">Medical Components</h4>
+                                <p class="hm-card-desc">Complex anatomical shapes with critical dimensional requirements.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Who we are division start -->
     </section>
-    <!-- Workflow Section Starts Here -->
-    <hr class="separator">
+    <!-- What Is 3D Scan to Hybrid Modelling Section End -->
+
+    <!-- Physical Part to Manufacturing-Ready Hybrid CAD Section Start -->
+    <section class="rhcad-process-section" id="ready-hybrid-cad">
+        <div class="container">
+            <h2 class="rhcad-sec-title">Physical Part to Manufacturing-Ready Hybrid CAD</h2>
+
+            <div class="rhcad-steps-wrapper">
+                <!-- Step 1 -->
+                <div class="rhcad-step-item">
+                    <div class="rhcad-img-box">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/rhcad-img1.png" alt="3D Scan" loading="lazy">
+                    </div>
+                    <h3 class="rhcad-step-title">3D Scan</h3>
+                    <p class="rhcad-step-desc">Capture high-density scan data</p>
+                    <div class="rhcad-arrow">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="rhcad-step-item">
+                    <div class="rhcad-img-box">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/rhcad-img2.png" alt="Prepare Mesh" loading="lazy">
+                    </div>
+                    <h3 class="rhcad-step-title">Prepare Mesh</h3>
+                    <p class="rhcad-step-desc">Clean, reduce noise and optimise the mesh for downstream processing.</p>
+                    <div class="rhcad-arrow">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="rhcad-step-item">
+                    <div class="rhcad-img-box">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/rhcad-img3.png" alt="Segment Regions" loading="lazy">
+                    </div>
+                    <h3 class="rhcad-step-title">Segment Regions</h3>
+                    <p class="rhcad-step-desc">Identify and segment areas into feature-rich and freeform regions.</p>
+                    <div class="rhcad-arrow">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="rhcad-step-item">
+                    <div class="rhcad-img-box">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/rhcad-img4.png" alt="Extract Features" loading="lazy">
+                    </div>
+                    <h3 class="rhcad-step-title">Extract Features</h3>
+                    <p class="rhcad-step-desc">Extract design intent features such as holes, planes and bosses.</p>
+                    <div class="rhcad-arrow">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="rhcad-step-item">
+                    <div class="rhcad-img-box">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/rhcad-img5.png" alt="Create NURBS" loading="lazy">
+                    </div>
+                    <h3 class="rhcad-step-title">Create NURBS</h3>
+                    <p class="rhcad-step-desc">Build smooth NURBS surfaces for organic and complex geometries</p>
+                    <div class="rhcad-arrow">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+
+                <!-- Step 6 (Last item - no arrow) -->
+                <div class="rhcad-step-item last-step">
+                    <div class="rhcad-img-box">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/rhcad-img6.png" alt="Connect Geometry and Export">
+                    </div>
+                    <h3 class="rhcad-step-title">Connect Geometry and Export</h3>
+                    <p class="rhcad-step-desc">Seamlessly connect parametric features with NURBS surfaces &amp; Export Manufacture ready CAD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Physical Part to Manufacturing-Ready Hybrid CAD Section End -->
+
+    <!-- CAD Approach Section Start -->
+    <section class="ccada-section" id="cad-approach">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="ccada-sec-header">
+                <h2 class="ccada-main-title">Choose the Right Scan-to-CAD Approach</h2>
+            </div>
+
+            <!-- Cards Row -->
+            <div class="row ccada-row justify-content-center">
+                <!-- Card 1: Parametric CAD -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="ccada-card-wrapper">
+                        <div class="ccada-card">
+                            <div class="ccada-card-header">
+                                <h3 class="ccada-card-title">Parametric CAD</h3>
+                            </div>
+                            <div class="ccada-card-inner">
+                                <div class="ccada-img-wrap">
+                                    <img src="assets/images/3d-scan-to-hybrid-modelling/ccada-img1.png" alt="Parametric CAD">
+                                </div>
+                                <ul class="ccada-checklist">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Ideal for prismatic parts</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Fully editable</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Fast and lightweight</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Limited for organic shapes</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: NURBS Modelling -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="ccada-card-wrapper">
+                        <div class="ccada-card">
+                            <div class="ccada-card-header">
+                                <h3 class="ccada-card-title">NURBS Modelling</h3>
+                            </div>
+                            <div class="ccada-card-inner">
+                                <div class="ccada-img-wrap">
+                                    <img src="assets/images/3d-scan-to-hybrid-modelling/ccada-img2.png" alt="NURBS Modelling">
+                                </div>
+                                <ul class="ccada-checklist">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Ideal for complex, organic shapes</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>High surface continuity</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Great for aesthetics</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Limited design intent</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Hybrid CAD -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="ccada-card-wrapper">
+                        <div class="ccada-card">
+                            <div class="ccada-card-header">
+                                <h3 class="ccada-card-title">Hybrid CAD</h3>
+                            </div>
+                            <div class="ccada-card-inner">
+                                <div class="ccada-img-wrap">
+                                    <img src="assets/images/3d-scan-to-hybrid-modelling/ccada-img3.png" alt="Hybrid CAD">
+                                </div>
+                                <ul class="ccada-checklist">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Combines features + surfaces</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Editable and accurate</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Manufacturing-ready</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>Best for real-world components</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CAD Approach Section End -->
+
+    <!-- Geomagic Design X Section Start -->
+    <section class="gdx-section" id="geomagic-design-x">
+        <div class="container">
+            <div class="row align-items-center gdx-row">
+                <!-- Left Image Column -->
+                <div class="col-lg-6 col-12">
+                    <div class="gdx-image-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cad-img.png" alt="Geomagic Design X for Hybrid Scan-to-CAD" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- Right Content Column -->
+                <div class="col-lg-6 col-12">
+                    <div class="gdx-content-wrap">
+                        <h2 class="gdx-title">Geomagic Design X for Hybrid Scan-to-CAD</h2>
+                        <p class="gdx-desc">Powerful reverse-engineering software that streamlines the creation of accurate hybrid models from scan data.</p>
+
+                        <div class="gdx-features">
+                            <!-- Feature Group 1 -->
+                            <div class="gdx-feature-group">
+                                <div class="gdx-feature-item title-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Feature-Based Modeling</span>
+                                </div>
+                                <div class="gdx-feature-item desc-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Extract and build parametric features with ease.</span>
+                                </div>
+                            </div>
+
+                            <!-- Feature Group 2 -->
+                            <div class="gdx-feature-group">
+                                <div class="gdx-feature-item title-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>NURBS Surfacing</span>
+                                </div>
+                                <div class="gdx-feature-item desc-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Build smooth, precise surfaces.</span>
+                                </div>
+                            </div>
+
+                            <!-- Feature Group 3 -->
+                            <div class="gdx-feature-group">
+                                <div class="gdx-feature-item title-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Accuracy Analysis</span>
+                                </div>
+                                <div class="gdx-feature-item desc-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Compare and validate models with color maps.</span>
+                                </div>
+                            </div>
+
+                            <!-- Feature Group 4 -->
+                            <div class="gdx-feature-group">
+                                <div class="gdx-feature-item title-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Direct CAD Integration</span>
+                                </div>
+                                <div class="gdx-feature-item desc-item">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span>Work with leading CAD formats natively.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <div class="gdx-cta-wrap">
+                            <a href="reverse-engineering-geomagic-design-x.php" class="btn-gdx-primary">
+                                Explore Software <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Geomagic Design X Section End -->
+
+    <!-- Manufacturing-Ready CAD Deliverables Section Start -->
+    <section class="mcd-section" id="cad-deliverables">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="mcd-sec-header">
+                <h2 class="mcd-main-title">Manufacturing-Ready CAD Deliverables</h2>
+            </div>
+
+            <!-- Deliverables Row / Grid -->
+            <div class="mcd-grid">
+                <!-- 1. STEP -->
+                <div class="mcd-card">
+                    <h3 class="mcd-card-title">STEP</h3>
+                    <div class="mcd-card-icon-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img1.png" alt="STEP Format" class="mcd-card-icon">
+                    </div>
+                    <p class="mcd-card-ext">ISO 10303</p>
+                </div>
+
+                <!-- 2. IGES -->
+                <div class="mcd-card">
+                    <h3 class="mcd-card-title">IGES</h3>
+                    <div class="mcd-card-icon-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img2.png" alt="IGES Format" class="mcd-card-icon">
+                    </div>
+                    <p class="mcd-card-ext">igs / .iges</p>
+                </div>
+
+                <!-- 3. SAT -->
+                <div class="mcd-card">
+                    <h3 class="mcd-card-title">SAT</h3>
+                    <div class="mcd-card-icon-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img3.png" alt="SAT Format" class="mcd-card-icon">
+                    </div>
+                    <p class="mcd-card-ext">.sat</p>
+                </div>
+
+                <!-- 4. Parasolid -->
+                <div class="mcd-card">
+                    <h3 class="mcd-card-title">Parasolid</h3>
+                    <div class="mcd-card-icon-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img4.png" alt="Parasolid Format" class="mcd-card-icon">
+                    </div>
+                    <p class="mcd-card-ext">.x_t / .x_b</p>
+                </div>
+
+                <!-- 5. STL -->
+                <div class="mcd-card">
+                    <h3 class="mcd-card-title">STL</h3>
+                    <div class="mcd-card-icon-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img5.png" alt="STL Format" class="mcd-card-icon">
+                    </div>
+                    <p class="mcd-card-ext">.stl</p>
+                </div>
+
+                <!-- 6. Native CAD -->
+                <div class="mcd-card">
+                    <h3 class="mcd-card-title">Native CAD</h3>
+                    <div class="mcd-card-icon-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img6.png" alt="Native CAD Format" class="mcd-card-icon">
+                    </div>
+                    <p class="mcd-card-ext">Native Files</p>
+                </div>
+
+                <!-- 7. Deviation Analysis Report -->
+                <div class="mcd-report-card">
+                    <h3 class="mcd-report-title">deviation analysis report</h3>
+                    <div class="mcd-report-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/cadd-img7.png" alt="Deviation Analysis Report" class="mcd-report-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Manufacturing-Ready CAD Deliverables Section End -->
+
+    <!-- Choose How You Want to Adopt the Workflow Section Start -->
+    <section class="wf-section" id="adopt-workflow">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="wf-sec-header">
+                <h2 class="wf-main-title">Choose How You Want to Adopt the Workflow</h2>
+            </div>
+
+            <!-- Two Main Cards Row -->
+            <div class="row wf-cards-row">
+                <!-- 1. CAPEX Card (In-House) -->
+                <div class="col-lg-6 col-12">
+                    <div class="wf-card capex-card">
+                        <div>
+                            <h3 class="wf-card-title">CAPEX - Build the Capability In-House</h3>
+                            <div class="wf-sub-grid">
+                                <!-- Sub-item 1: 3D Scanners -->
+                                <div class="wf-sub-item">
+                                    <div class="wf-sub-img-wrap">
+                                        <img src="assets/images/3d-scan-to-hybrid-modelling/capex-img1.png" alt="3D Scanners">
+                                    </div>
+                                    <h4 class="wf-sub-title">3D Scanners</h4>
+                                    <p class="wf-sub-desc">High-accuracy metrology-grade equipment.</p>
+                                </div>
+
+                                <!-- Sub-item 2: Training & Implementation -->
+                                <div class="wf-sub-item">
+                                    <div class="wf-sub-img-wrap">
+                                        <img src="assets/images/3d-scan-to-hybrid-modelling/capex-img2.png" alt="Training & Implementation">
+                                    </div>
+                                    <h4 class="wf-sub-title">Training &amp; Implementation</h4>
+                                    <p class="wf-sub-desc">End-to-end support to build your CAD capability.</p>
+                                </div>
+
+                                <!-- Sub-item 3: Geomagic Design X -->
+                                <div class="wf-sub-item">
+                                    <div class="wf-sub-img-wrap">
+                                        <img src="assets/images/3d-scan-to-hybrid-modelling/capex-img3.png" alt="Geomagic Design X">
+                                    </div>
+                                    <h4 class="wf-sub-title">Geomagic Design X</h4>
+                                    <p class="wf-sub-desc">Professional reverse engineering software.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <a href="3d-products.php" class="btn-wf-card">
+                            EXPLORE SOLUTION <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 2. OPEX Card (Outsource) -->
+                <div class="col-lg-6 col-12">
+                    <div class="wf-card opex-card">
+                        <div>
+                            <h3 class="wf-card-title">OPEX &mdash; Outsource to Precise3DM</h3>
+                            <div class="wf-sub-grid">
+                                <!-- Sub-item 1: 3D Scanning -->
+                                <div class="wf-sub-item">
+                                    <div class="wf-sub-img-wrap">
+                                        <img src="assets/images/3d-scan-to-hybrid-modelling/opex-img1.png" alt="3D Scanning">
+                                    </div>
+                                    <h4 class="wf-sub-title">3D Scanning</h4>
+                                    <p class="wf-sub-desc">State-of-the-art scanning facilities.</p>
+                                </div>
+
+                                <!-- Sub-item 2: Hybrid CAD Modelling -->
+                                <div class="wf-sub-item">
+                                    <div class="wf-sub-img-wrap">
+                                        <img src="assets/images/3d-scan-to-hybrid-modelling/opex-img2.png" alt="Hybrid CAD Modelling">
+                                    </div>
+                                    <h4 class="wf-sub-title">Hybrid CAD Modelling</h4>
+                                    <p class="wf-sub-desc">Expert engineers, accurate deliverables.</p>
+                                </div>
+
+                                <!-- Sub-item 3: Validation & Delivery -->
+                                <div class="wf-sub-item">
+                                    <div class="wf-sub-img-wrap">
+                                        <img src="assets/images/3d-scan-to-hybrid-modelling/opex-img3.png" alt="Validation & Delivery">
+                                    </div>
+                                    <h4 class="wf-sub-title">Validation &amp; Delivery</h4>
+                                    <p class="wf-sub-desc">Quality-assured models, on-time delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <a href="3d-services.php" class="btn-wf-card">
+                            EXPLORE SOLUTION <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Evaluation Banner -->
+            <div class="wf-eval-banner">
+                <!-- Left: Target icon & text -->
+                <div class="wf-eval-left">
+                    <img src="assets/images/3d-scan-to-hybrid-modelling/workflow-icon1.png" alt="Evaluate Technology" class="wf-eval-target-icon">
+                    <div class="wf-eval-text-wrap">
+                        <h4 class="wf-eval-title">Evaluate the Technology Before You Invest</h4>
+                        <p class="wf-eval-desc">Start with a pilot project to evaluate accuracy, workflow and ROI on your parts.</p>
+                    </div>
+                </div>
+
+                <!-- Middle: 4 Workflow Steps -->
+                <div class="wf-eval-steps">
+                    <!-- Step 1 -->
+                    <div class="wf-eval-step">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/workflow-icon2.png" alt="Share Your Part" class="wf-eval-step-icon">
+                        <span>Share Your Part</span>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="wf-eval-step">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/workflow-icon3.png" alt="Free Feasibility" class="wf-eval-step-icon">
+                        <span>Free Feasibility</span>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="wf-eval-step">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/workflow-icon4.png" alt="Pilot Project Execution" class="wf-eval-step-icon">
+                        <span>Pilot Project Execution</span>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="wf-eval-step">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/workflow-icon5.png" alt="Review Results & Recommendation" class="wf-eval-step-icon">
+                        <span>Review Results &amp; Recommendation</span>
+                    </div>
+                </div>
+
+                <!-- Right: CTA Button -->
+                <a href="scanning-solution-form.php" class="btn-wf-eval">
+                    Request a Technical Evaluation
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Choose How You Want to Adopt the Workflow Section End -->
+
+    <!-- Industries We Serve Section Start -->
+    <section class="iws-section" id="industries-we-serve">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="iws-sec-header">
+                <h2 class="iws-main-title">Industries We Serve</h2>
+                <p class="iws-main-desc">Tailored digital manufacturing solutions for diverse industry needs</p>
+            </div>
+
+            <!-- 10-Card Grid -->
+            <div class="iws-grid">
+                <!-- 1. Automotive -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card1-img.png" alt="Automotive" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card1-icon.png" alt="Automotive Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Automotive</h3>
+                    </div>
+                </div>
+
+                <!-- 2. Auto Components & Tier Suppliers -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card2-img.png" alt="Auto Components &amp; Tier Suppliers" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card2-icon.png" alt="Auto Components Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Auto Components &amp; Tier Suppliers</h3>
+                    </div>
+                </div>
+
+                <!-- 3. Electric Vehicle (EV) -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card3-img.png" alt="Electric Vehicle (EV)" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card3-icon.png" alt="Electric Vehicle Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Electric Vehicle (EV)</h3>
+                    </div>
+                </div>
+
+                <!-- 4. Railway & Locomotive -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card4-img.png" alt="Railway &amp; Locomotive" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card4-icon.png" alt="Railway Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Railway &amp; Locomotive</h3>
+                    </div>
+                </div>
+
+                <!-- 5. Shipbuilding & Marine -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card5-img.png" alt="Shipbuilding &amp; Marine" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card5-icon.png" alt="Marine Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Shipbuilding &amp; Marine</h3>
+                    </div>
+                </div>
+
+                <!-- 6. Aerospace -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card6-img.png" alt="Aerospace" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card6-icon.png" alt="Aerospace Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Aerospace</h3>
+                    </div>
+                </div>
+
+                <!-- 7. Defence -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card7-img.png" alt="Defence" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card7-icon.png" alt="Defence Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Defence</h3>
+                    </div>
+                </div>
+
+                <!-- 8. Medical Device -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card8-img.png" alt="Medical Device" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card8-icon.png" alt="Medical Device Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Medical Device</h3>
+                    </div>
+                </div>
+
+                <!-- 9. Orthopaedic Implant -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card9-img.png" alt="Orthopaedic Implant" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card9-icon.png" alt="Orthopaedic Implant Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Orthopaedic Implant</h3>
+                    </div>
+                </div>
+
+                <!-- 10. Industrial Machinery -->
+                <div class="iws-card">
+                    <div class="iws-card-img-wrap">
+                        <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card10-img.png" alt="Industrial Machinery" class="iws-card-img">
+                        <div class="iws-card-icon-badge">
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/iws-card10-icon.png" alt="Industrial Machinery Icon">
+                        </div>
+                    </div>
+                    <div class="iws-card-body">
+                        <h3 class="iws-card-title">Industrial Machinery</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Industries We Serve Section End -->
+
+    <!-- Why Precise Section Start -->
+    <section class="whyp-section" id="why-precise">
+        <div class="container">
+            <div class="whyp-card">
+                <!-- Left Content Area -->
+                <div class="whyp-content">
+                    <!-- Title with Logo -->
+                    <div class="whyp-header">
+                        <h2 class="whyp-title">
+                            <span class="whyp-title-text">Why</span>
+                            <img src="assets/images/3d-scan-to-hybrid-modelling/whyp-left-logo.png" alt="Precise3DM" class="whyp-logo">
+                            <span class="whyp-title-qm">?</span>
+                        </h2>
+                    </div>
+
+                    <!-- 4 Statistics Columns with Dividers -->
+                    <div class="whyp-stats-row">
+                        <div class="whyp-stat-col">
+                            <div class="whyp-stat-num">10+</div>
+                            <div class="whyp-stat-lbl">Years of<br>Experience</div>
+                        </div>
+                        <div class="whyp-stat-divider"></div>
+                        <div class="whyp-stat-col">
+                            <div class="whyp-stat-num">3000+</div>
+                            <div class="whyp-stat-lbl">Projects<br>Delivered</div>
+                        </div>
+                        <div class="whyp-stat-divider"></div>
+                        <div class="whyp-stat-col">
+                            <div class="whyp-stat-num">10000+</div>
+                            <div class="whyp-stat-lbl">Objects<br>Scanned</div>
+                        </div>
+                        <div class="whyp-stat-divider"></div>
+                        <div class="whyp-stat-col">
+                            <div class="whyp-stat-num">8+</div>
+                            <div class="whyp-stat-lbl">Locations<br>Worldwide</div>
+                        </div>
+                    </div>
+
+                    <!-- Description Text -->
+                    <div class="whyp-desc-wrap">
+                        <p class="whyp-desc-p">Global leader in 3D scanning, reverse engineering and metrology solutions.</p>
+                        <p class="whyp-desc-p">Trusted by engineering teams worldwide for accuracy, reliability and speed.</p>
+                    </div>
+                </div>
+
+                <!-- Right Media Area -->
+                <div class="whyp-media">
+                    <img src="assets/images/3d-scan-to-hybrid-modelling/whyp-right-img.png" alt="Precise3DM Engineering Team with 3D Scanner" class="whyp-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Precise Section End -->
+
+    <!-- Frequently Asked Questions (FAQ) Section Start -->
+    <section class="shm-faq-section" id="faq-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="shm-faq-sec-header">
+                <h2 class="shm-faq-main-title">FREQUENTLY ASKED QUESTIONS</h2>
+            </div>
+
+            <!-- FAQ List -->
+            <div class="shm-faq-list">
+                <!-- FAQ Item 1 -->
+                <div class="shm-faq-item">
+                    <div class="shm-faq-header">
+                        <span class="shm-faq-icon" aria-hidden="true"></span>
+                        <h3 class="shm-faq-title">What is scan to hybrid modelling?</h3>
+                    </div>
+                    <div class="shm-faq-body">
+                        <p>Scan-to-Hybrid Modelling is a CAD modelling approach that combines <strong>parametric modelling with surface modelling based on 3D scan data</strong>. We use the scanned geometry to recreate the required surfaces using our proprietary scan-to-CAD process and seamlessly connect them with parametric CAD features. This creates a hybrid CAD model that combines the benefits of both surface and parametric modelling.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="shm-faq-item">
+                    <div class="shm-faq-header">
+                        <span class="shm-faq-icon" aria-hidden="true"></span>
+                        <h3 class="shm-faq-title">What scan data formats do you accept?</h3>
+                    </div>
+                    <div class="shm-faq-body">
+                        <p>We accept commonly used 3D scan data formats, including <strong>STL and ASC files</strong>, as inputs for Scan-to-Hybrid Modelling.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="shm-faq-item">
+                    <div class="shm-faq-header">
+                        <span class="shm-faq-icon" aria-hidden="true"></span>
+                        <h3 class="shm-faq-title">How accurate are the hybrid CAD models?</h3>
+                    </div>
+                    <div class="shm-faq-body">
+                        <p>The achievable accuracy depends on the <strong>quality and accuracy of the original scan data, part geometry, and surface complexity</strong>. Based on the scan data, we can fit and recreate surfaces with deviations typically ranging from approximately <strong>20 microns (0.02 mm) to 0.1 mm</strong>, depending on the application and geometry.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="shm-faq-item">
+                    <div class="shm-faq-header">
+                        <span class="shm-faq-icon" aria-hidden="true"></span>
+                        <h3 class="shm-faq-title">Which industries benefit the most?</h3>
+                    </div>
+                    <div class="shm-faq-body">
+                        <p>The cost depends primarily on the <strong>complexity, size, geometry, and modelling requirements of the scanned part</strong>. Modelling time can range from approximately <strong>1 hour to 100+ hours per part</strong> for highly complex components. We provide project-specific quotations based on the scan data and modelling requirements.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="shm-faq-item">
+                    <div class="shm-faq-header">
+                        <span class="shm-faq-icon" aria-hidden="true"></span>
+                        <h3 class="shm-faq-title">What file formats do you deliver?</h3>
+                    </div>
+                    <div class="shm-faq-body">
+                        <p>We can deliver the completed hybrid CAD models in commonly used engineering CAD formats, including <strong>IGES, STEP, SAT, and Parasolid</strong>, depending on your downstream CAD software and requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Frequently Asked Questions (FAQ) Section End -->
+
+    <!-- Footer Start -->
     <?php include('includes/footer.php'); ?>
+    <!-- Footer End -->
 
-    <!-- bootstrap links-->
-    <!--<script type="text/javascript" src="assets/js/bootstrap.js"></script>-->
-    <!--<script type="text/javascript" src="assets/js/slim.min.js"></script>-->
-    <!--<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>-->
-    <!-- bootstrap links-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/highlight.js"></script>
-    <script src="assets/js/counter.js"></script>
-    <script src="assets/js/parametric-cad.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.shm-faq-header').on('click', function() {
+                $(this).closest('.shm-faq-item').toggleClass('collapsed');
+            });
+        });
+    </script>
 </body>
 
 </html>

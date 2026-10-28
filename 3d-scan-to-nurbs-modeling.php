@@ -33,7 +33,7 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
 
     <!-- Page Specific CSS -->
-    <link rel="stylesheet" href="assets/css/3d-scan-to-nurbs-modeling.css?v=1.0">
+    <link rel="stylesheet" href="assets/css/3d-scan-to-nurbs-modeling.css?v=1.1">
 </head>
 
 <body>
@@ -82,10 +82,10 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
 
             <!-- 3 CTA Buttons -->
             <div class="nurbs-hero-buttons">
-                <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-nurbs-gradient">
+                <a href="scanning-solution-form.php" class="btn-nurbs-gradient">
                     Request Technical Review
                 </a>
-                <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-nurbs-gradient">
+                <a href="Get-3d-scan-service-quote.php" class="btn-nurbs-gradient">
                     <img src="<?= $img ?>/upload-icon.svg" alt="Upload Icon" class="upload-svg-icon">
                     <span>Upload Scan Data</span>
                 </a>
@@ -572,7 +572,7 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
                         <p class="nurbs-scanner-desc">
                             Precision scanning for engineering and reverse engineering projects.
                         </p>
-                        <a href="freescan-combo-plus.php" class="btn-scanner-action">
+                        <a href="FreeScan-Combo.php" class="btn-scanner-action">
                             Know More
                         </a>
                     </div>
@@ -588,7 +588,7 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
                         <p class="nurbs-scanner-desc">
                             Tri-mode 3D scanner for statues and organic shapes.
                         </p>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-scanner-action">
+                        <a href="einscan-rigil.php" class="btn-scanner-action">
                             Know More
                         </a>
                     </div>
@@ -628,7 +628,7 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
                             </div>
                         </div>
                         <div>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-eng-solid">
+                            <a href="3d-services.php" class="btn-eng-solid">
                                 OUTSOURCE YOUR PROJECT
                             </a>
                         </div>
@@ -661,7 +661,7 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
                             </div>
                         </div>
                         <div>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-eng-solid">
+                            <a href="3d-products.php" class="btn-eng-solid">
                                 BUILD YOUR LAB
                             </a>
                         </div>
@@ -845,13 +845,13 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
                         </a>
 
                         <!-- Button 2: Outline Orange with Upload Icon -->
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-contact-outline">
+                        <a href="Get-3d-scan-service-quote.php" class="btn-contact-outline">
                             <img src="<?= $img ?>/upload-icon.svg" alt="Upload Icon" class="upload-orange-icon">
                             <span>Upload Scan Data</span>
                         </a>
 
                         <!-- Button 3: Solid Gradient -->
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-contact-orange">
+                        <a href="scanning-solution-form.php" class="btn-contact-orange">
                             Request Technical Review
                         </a>
 

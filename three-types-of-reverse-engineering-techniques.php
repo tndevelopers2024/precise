@@ -1117,7 +1117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         starting your reverse engineering project.
                     </p>
                     <div class="hero-buttons d-flex gap-3 flex-wrap">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-primary-custom">Talk to Our Experts</a>
+                        <a href="contact-us.php" class="btn btn-primary-custom">Talk to Our Experts</a>
                         <a href="#" class="btn btn-outline-custom">Upload Your Component</a>
                     </div>
 

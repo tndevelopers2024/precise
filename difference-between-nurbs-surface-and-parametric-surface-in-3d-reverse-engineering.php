@@ -37,7 +37,7 @@
                     <p class="description">
                         When should you choose NURBS surfaces? When is parametric CAD modeling better? A practical industrial guide for reverse engineering workflows.
                     </p>
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-orange">Talk to Reverse Engineering Expert</a>
+                    <a href="contact-us.php" class="btn-orange">Talk to Reverse Engineering Expert</a>
                     
                     <div class="contact-info">
                         <div class="icon">
@@ -453,7 +453,7 @@
                                 <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange w-100 text-center">Schedule Live Demo</a>
                             </div>
                             <div class="col-sm-5">
-                                <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-outline-orange w-100 text-center">Talk to Experts</a>
+                                <a href="contact-us.php" class="btn-outline-orange w-100 text-center">Talk to Experts</a>
                             </div>
                             <div class="col-sm-5 mb-3 mt-3 mt-lg-0">
                                 <a href="geomagicsoftware.php" class="btn-orange w-100 text-center">Buy Geomagic Software</a>

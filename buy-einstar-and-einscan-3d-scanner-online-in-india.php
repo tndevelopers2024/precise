@@ -874,7 +874,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                             </p>
                             <div class="cta-buttons">
                                 <button class="btn-cta-primary">BUY NOW</button>
-                                <button class="btn-cta-secondary">TALK TO EXPERT</button>
+                                <a href="contact-us.php" class="btn-cta-secondary d-inline-block">TALK TO EXPERT</a>
                             </div>
                         </div>
                         <div class="col-lg-6 text-lg-end text-center mt-4 mt-lg-0 pe-lg-0">

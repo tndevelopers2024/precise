@@ -109,6 +109,14 @@
     text-decoration: none;
 }
 
+.trak-hero .trak-hero-btns {
+    gap: 15px;
+}
+
+.trak-hero .trak-hero-btns .btn-transparent {
+    margin-left: 0;
+}
+
 /* Call Icon positioned relative to container, absolute to right */
 .trak-call-top {
     position: absolute;
@@ -228,6 +236,13 @@
     .trak-hero .btn-transparent {
         margin-left: 0;
         margin-top: 15px;
+    }
+
+    .trak-hero .trak-hero-btns .btn-orange,
+    .trak-hero .trak-hero-btns .btn-transparent {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
     }
 }
 

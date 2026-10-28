@@ -81,7 +81,7 @@
             <div class="hero-bottom-row">
                 <div class="hero-buttons">
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Request Live Demo</a>
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-outline">Talk to Experts</a>
+                    <a href="contact-us.php" class="btn-outline">Talk to Experts</a>
                 </div>
                 
                 <div class="hero-contact-wrapper">
@@ -856,7 +856,7 @@
 
                 <div class="cta-right">
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="cta-btn cta-solid">Book Live Demo</a>
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="cta-btn cta-solid">Talk to Automotive Experts</a>
+                    <a href="contact-us.php" class="cta-btn cta-solid">Talk to Automotive Experts</a>
                 </div>
 
             </div>

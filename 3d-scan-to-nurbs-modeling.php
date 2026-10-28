@@ -856,7 +856,7 @@ $img = "assets/images/3d-scan-to-nurbs-modeling";
                         </a>
 
                         <!-- Button 4: Outline Orange -->
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-contact-outline">
+                        <a href="contact-us.php" class="btn-contact-outline">
                             Talk to Reverse Engineering Experts
                         </a>
                     </div>

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="einscan-trak-3d-scanner-in-india.css?v=9">
+    <link rel="stylesheet" href="assets/css/einscan-trak-3d-scanner-in-india.css?v=9">
 </head>
 
 <body>
@@ -57,10 +57,12 @@
                             the ability to move from large-area tracking to detailed handheld scanning without changing
                             systems.</p>
 
-                        <div class="d-flex flex-column flex-sm-row mt-4 align-items-sm-center">
+                        <div class="d-flex flex-column flex-sm-row flex-wrap mt-4 align-items-sm-center trak-hero-btns">
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Request a Live Demo <i
                                     class="fa-solid fa-arrow-right ml-2"></i></a>
                             <a href="scanning-solution-form.php" class="btn-transparent">Get India Pricing</a>
+                            <a href="brochures/EinScan-Trak-Brochure.pdf" download target="_blank" class="btn-transparent">Download Brochure <i
+                                    class="fa-solid fa-download ml-2"></i></a>
                         </div>
 
                         <div class="trak-mail-bottom">

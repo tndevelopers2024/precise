@@ -77,7 +77,7 @@ ini_set('max_execution_time', '-1');
                             Convert Point Clouds into Production-Ready Mesh Models for VFX, Color 3D Printing, Architecture, AR/VR, Digital Twins and Engineering Applications.
                         </p>
                         <div class="stm-btn-group">
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="stm-btn">Talk to 3D Experts</a>
+                            <a href="contact-us.php" class="stm-btn">Talk to 3D Experts</a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="stm-btn">Schedule Live Demo</a>
                         </div>
 
@@ -893,7 +893,7 @@ ini_set('max_execution_time', '-1');
                     <div class="col-lg-5">
                         <div class="stm-contact-actions">
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="stm-contact-btn stm-btn-solid">Request Consultation</a>
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="stm-contact-btn stm-btn-outline">Talk to an Expert</a>
+                            <a href="contact-us.php" class="stm-contact-btn stm-btn-outline">Talk to an Expert</a>
                         </div>
                     </div>
                 </div>

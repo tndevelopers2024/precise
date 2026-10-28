@@ -235,7 +235,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <!-- Buttons -->
                     <div class="hero-buttons mb-4">
                         <a href="3d-printing-service-request.php" class="btn-hero-orange me-3 mb-2">Get Quote</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-hero-orange mb-2">Talk to Experts</a>
+                        <a href="contact-us.php" class="btn-hero-orange mb-2">Talk to Experts</a>
                     </div>
 
                     <!-- Email Contact -->
@@ -893,7 +893,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="col-lg-5 mb-5 mb-lg-0">
                         <h2 class="ips-trust-title">WHY INDUSTRIES TRUST<br>PRECISE3DM</h2>
                         <p class="ips-trust-desc">Engineering excellence, Advanced technology,<br>Trusted by innovators across India</p>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="ips-trust-btn">Talk to an Expert</a>
+                        <a href="contact-us.php" class="ips-trust-btn">Talk to an Expert</a>
                     </div>
 
                     <!-- Right Grid -->

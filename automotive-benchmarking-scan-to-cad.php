@@ -46,7 +46,7 @@
 
                         <!-- CTA Buttons -->
                         <div class="absts-hero-cta">
-                            <a href="scanning-solution-form.php" class="btn-absts-primary">
+                            <a href="Get-3d-scan-service-quote.php" class="btn-absts-primary">
                                 Discuss Your Vehicle Project
                             </a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-absts-outline">
@@ -1052,7 +1052,7 @@
                         </div>
                     </div>
                     <div class="plc-dark-btn-wrap">
-                        <a href="#contact" class="plc-btn plc-btn-orange">Book a Live Demo &rarr;</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="plc-btn plc-btn-orange">Book a Live Demo &rarr;</a>
                     </div>
                 </div>
 
@@ -1073,7 +1073,7 @@
                         </div>
                     </div>
                     <div class="plc-opex-btn-wrap">
-                        <a href="#contact" class="plc-btn plc-btn-orange">Request a Project Quote <i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                        <a href="3d-services.php" class="plc-btn plc-btn-orange">Request a Project Quote <i class="fa-solid fa-arrow-up-from-bracket"></i></a>
                     </div>
                 </div>
 
@@ -1084,7 +1084,7 @@
                         <p class="plc-pilot-desc">Evaluate our process, accuracy and deliverables with a pilot before full-scale rollout.</p>
                     </div>
                     <div class="plc-pilot-btn-wrap">
-                        <a href="#contact" class="plc-btn plc-btn-orange plc-btn-block">Request a Technical Evaluation</a>
+                        <a href="contact-us.php" class="plc-btn plc-btn-orange plc-btn-block">Request a Technical Evaluation</a>
                     </div>
                 </div>
 

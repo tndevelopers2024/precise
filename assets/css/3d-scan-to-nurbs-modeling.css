@@ -56,7 +56,7 @@ body {
     position: relative;
     background: url('../images/3d-scan-to-nurbs-modeling/hero-bg.png') no-repeat center top;
     background-size: cover;
-    padding-top: 30px;
+    padding-top: 155px;
     padding-bottom: 50px;
     overflow: hidden;
 }
@@ -1274,6 +1274,10 @@ body {
 }
 
 @media (max-width: 991px) {
+    .nurbs-hero-section {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
     .nurbs-hero-top-contact {
         justify-content: flex-start;
         margin-top: 15px;

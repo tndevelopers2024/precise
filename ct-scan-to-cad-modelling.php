@@ -29,13 +29,16 @@
     <link rel="canonical" href="https://www.precise3dm.com/ct-scan-to-cad-modelling.php" />
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!-- custom css-->
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+    <!--custom css-->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/optical-blue-light.css">
-
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/parametric-cad.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    
+    <!-- page specific css -->
+    <link rel="stylesheet" href="assets/css/ct-scan-to-3d-cad-modeling.css?v=1.0">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96527116-1"></script>
@@ -148,16 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 </head>
-<style>
-    .need-to-fixtop{
-        position:fixed;
-        top:195px;
-    }
-    #myTabnew li a i{
-        float:right;
-        padding-top:4px;
-    }
-</style>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
@@ -166,363 +160,653 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- header start -->
     <?php include('includes/header.php'); ?>
-    <!-- header end -->
+    <!-- header End -->
 
-    <!--about us banner section start-->
-    <section id="ct_scan_cad_banner" class="pt-4">
-        <div class="container">
-            <div class="row h-300">
+    <!-- hero section -->
+    <section class="ct3d-hero-section">
+        <div class="ct3d-container">
+            <div class="ct3d-hero-layout">
+                <!-- Left Info -->
+                <div class="ct3d-hero-left">
+                    <h1 class="hero-title">
+                        <span class="text-white">CT Scan to</span><br>
+                        <span class="text-orange">3D CAD Modeling</span>
+                    </h1>
+                    
+                    <p class="hero-desc">Convert CT Scan Data and Segmented Mesh Models into<br>Fully Editable CAD Models for Manufacturing, Product<br>Development, Medical Devices, Aerospace Components,<br>Tooling, and Reverse Engineering Applications.</p>
+
+                    <div class="hero-cta-buttons">
+                        <a href="#" class="btn-ct3d-orange outline">Book a Live Demo</a>
+                        <a href="#" class="btn-ct3d-orange solid">Request Quote</a>
+                    </div>
+
+                    <!-- Email Contact at bottom left -->
+                    <div class="bottom-email-contact">
+                        <div class="contact-icon email-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-info email-info">
+                            <span class="contact-label">Email Us</span>
+                            <div class="contact-links-group">
+                                <a href="mailto:sm@precise3dm.com" class="contact-link text-white">sm@precise3dm.com</a>
+                                <span class="divider">|</span>
+                                <a href="mailto:service@precise3dm.com" class="contact-link text-white">service@precise3dm.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Info -->
+                <div class="ct3d-hero-right">
+                    <!-- Telephone Contact at top right -->
+                    <div class="ct3d-top-call-contact">
+                        <div class="contact-icon call-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-info call-info">
+                            <span class="contact-label">Call us now</span>
+                            <div class="contact-links-group">
+                                <a href="tel:+919840478347" class="contact-link">+91 98404 78347</a> 
+                                <span class="divider">|</span> 
+                                <a href="tel:+919025700192" class="contact-link">+91 90257 00192</a>
+                                <span class="divider">|</span> 
+                                <a href="tel:+919940352575" class="contact-link">+91 99403 52575</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="assets/images/ct-scan-to-3d-cad-modeling/3dcadm-hero-right-img.png" alt="CT Scan to 3D CAD Modeling" class="hero-main-img">
+                </div>
             </div>
         </div>
-        <div class="heading m-320">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-6 aboutus-herohead pl-0">
-                        <h1>CT Scan to CAD Model</h1>
+    </section>
+
+    <!-- What is CT Scan Section -->
+    <section class="whatis-ct-section section-padding">
+        <div class="ct3d-container">
+            <div class="whatis-ct-layout">
+                <!-- Left Image -->
+                <div class="whatis-left">
+                    <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcad-left-img.png" alt="CT Scanner">
+                </div>
+
+                <!-- Center Content -->
+                <div class="whatis-center">
+                    <h2 class="whatis-title">What is <span class="text-orange">CT Scan to CAD?</span></h2>
+                    <p class="whatis-desc">Industrial CT scanners capture both internal and external geometry of components using X-ray technology. The data is reconstructed into a 3D volume, segmented to isolate the part, and converted into a mesh model. This mesh is then used to create an accurate, editable CAD model.</p>
+                    
+                    <div class="whatis-features-grid">
+                        <div class="feature-item">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcad-center-img1.png" alt="Icon 1" class="feature-icon">
+                            <span class="feature-text">Capture hidden<br>internal features</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcad-center-img2.png" alt="Icon 2" class="feature-icon">
+                            <span class="feature-text">Non-destructive<br>inspection</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcad-center-img3.png" alt="Icon 3" class="feature-icon">
+                            <span class="feature-text">High accuracy<br>and detail</span>
+                        </div>
+                        <div class="feature-item">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcad-center-img4.png" alt="Icon 4" class="feature-icon">
+                            <span class="feature-text">Supports complex<br>assemblies</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="whatis-right">
+                    <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcad-right-img.png" alt="CAD Model">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CT Scan Data to CAD Process Flow Section -->
+    <section class="fcts-cad-section section-padding">
+        <div class="ct3d-container">
+            <div class="fcts-header text-center">
+                <h2 class="fcts-main-title">From CT Scan Data to <span class="text-orange">Engineering CAD</span></h2>
+            </div>
+            
+            <div class="fcts-process-wrap">
+                <!-- Step 1 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img1.png" alt="CT Scanning"></div>
+                    <h3 class="fcts-step-title">CT<br>Scanning</h3>
+                    <p class="fcts-step-desc">Capture the<br>component using<br>an industrial CT<br>scanner.</p>
+                </div>
+                
+                <div class="fcts-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <!-- Step 2 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img2.png" alt="Volumetric Reconstruction"></div>
+                    <h3 class="fcts-step-title">Volumetric<br>Reconstruction<br>& Segmentation</h3>
+                    <p class="fcts-step-desc">Generate a 3D<br>volume from X-<br>ray slices.</p>
+                </div>
+                
+                <div class="fcts-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <!-- Step 3 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img3.png" alt="STL Mesh Generation"></div>
+                    <h3 class="fcts-step-title">STL Mesh<br>Generation</h3>
+                    <p class="fcts-step-desc">Create a high-<br>resolution mesh<br>model.</p>
+                </div>
+                
+                <div class="fcts-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <!-- Step 4 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img4.png" alt="Mesh Optimization"></div>
+                    <h3 class="fcts-step-title">Mesh<br>Optimization</h3>
+                    <p class="fcts-step-desc">Clean and optimize<br>the mesh for<br>accurate modeling.</p>
+                </div>
+                
+                <div class="fcts-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <!-- Step 5 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img5.png" alt="Feature Recognition"></div>
+                    <h3 class="fcts-step-title">Feature<br>Recognition</h3>
+                    <p class="fcts-step-desc">Detect design<br>intent & engineering<br>features.</p>
+                </div>
+                
+                <div class="fcts-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <!-- Step 6 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img6.png" alt="Parametric CAD Modeling"></div>
+                    <h3 class="fcts-step-title">Parametric<br>CAD Modeling</h3>
+                    <p class="fcts-step-desc">Build editable<br>CAD models with<br>parametric<br>features.</p>
+                </div>
+                
+                <div class="fcts-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <!-- Step 7 -->
+                <div class="fcts-step-card">
+                    <div class="fcts-img-wrap"><img src="assets/images/ct-scan-to-3d-cad-modeling/fcts-img7.png" alt="Manufacturing Outputs"></div>
+                    <h3 class="fcts-step-title">Manufacturing<br>Outputs</h3>
+                    <p class="fcts-step-desc">Export CAD<br>formats ready for<br>manufacturing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CT Scan vs 3D Scanning Section -->
+    <section class="ct-vs-3d-section section-padding">
+        <div class="ct3d-container">
+            <div class="vs-header text-center">
+                <h2 class="vs-main-title">CT Scan vs <span class="text-orange">3D Scanning</span></h2>
+            </div>
+            
+            <div class="vs-comparison-card">
+                <!-- Left Side: CT Scan -->
+                <div class="vs-left-side">
+                    <div class="vs-content-box">
+                        <h3 class="vs-title">CT Scan</h3>
+                        <ul class="vs-feature-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Captures internal and external geometry</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Captures hidden channels and cavities</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Works with assembled components</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Detects porosity and internal defects</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Measures wall thickness</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Ideal for reverse engineering</li>
+                        </ul>
+                    </div>
+                    <div class="vs-image-wrap">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctvs3d-left-img.png" alt="CT Scan Component">
+                    </div>
+                </div>
+                
+                <!-- Divider -->
+                <div class="vs-divider">
+                    <div class="vs-line"></div>
+                    <div class="vs-circle">VS</div>
+                </div>
+                
+                <!-- Right Side: 3D Scanning -->
+                <div class="vs-right-side">
+                    <div class="vs-image-wrap">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctvs3d-right-img.png" alt="3D Scanned Component">
+                    </div>
+                    <div class="vs-content-box">
+                        <h3 class="vs-title">3D Scanning</h3>
+                        <ul class="vs-feature-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Captures external geometry only</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Faster scanning process</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Lower cost</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Best for surface inspection</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Ideal for large object digitization</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Not suitable for internal features</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- about us banner section end-->
 
-    <!-- about us section starts-->
-    <section id="aboutus-bg" class="pb-3">
-        <div class="aboutus-sec2">
-
+    <!-- Where is CT Scan Used Section -->
+    <section class="wct-used-section section-padding">
+        <div class="ct3d-container">
+            <div class="wct-header text-center">
+                <h2 class="wct-main-title">Where is <span class="text-orange">CT Scan to CAD Used?</span></h2>
+            </div>
+            
+            <div class="wct-grid">
+                <!-- Card 1 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img1.png" alt="Medical Devices"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Medical Devices</h3>
+                        <p class="wct-desc">Implants, prosthetics, and patient-specific solutions.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img2.png" alt="Aerospace"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Aerospace</h3>
+                        <p class="wct-desc">Turbine blades, castings, and critical components.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img3.png" alt="Automotive"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Automotive</h3>
+                        <p class="wct-desc">Engine parts, housings, and transmission components.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img4.png" alt="Injection Molding"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Injection Molding</h3>
+                        <p class="wct-desc">Plastic parts, housings, and consumer products.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 5 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img5.png" alt="Additive Manufacturing"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Additive Manufacturing</h3>
+                        <p class="wct-desc">Lattice structures, conformal cooling, and optimized designs.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 6 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img6.png" alt="Foundry & Casting"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Foundry & Casting</h3>
+                        <p class="wct-desc">Cast components & internal defect reconstruction.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 7 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img7.png" alt="Tooling"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Tooling</h3>
+                        <p class="wct-desc">Mold inserts, dies, and tooling validation.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 8 -->
+                <div class="wct-card">
+                    <div class="wct-img-box"><img src="assets/images/ct-scan-to-3d-cad-modeling/wct-img8.png" alt="Research & Development"></div>
+                    <div class="wct-content">
+                        <h3 class="wct-title">Research & Development</h3>
+                        <p class="wct-desc">Innovation, testing, and product improvement.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-md-4 cad-left-pills">
-                    <div class="w-100">
-                        <div class="my-stick-nav">
-                            <ul class="nav" id="myTabnew">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="overview-tab" href="#overview">OVERVIEW <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="workflow-tab" href="#workflow">WORKFLOW <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="imagegallery-tab" href="#imagegallery">IMAGE GALLERY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="videogallery-tab" href="#videogallery">VIDEO GALLERY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" id="cadindustry-tab" href="#cadindustry">INDUSTRY <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="whatsnext-tab" href="#whatsnext">WHAT'S NEXT <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="cadblog-tab" href="#rel_blog">BLOGS<i class="fas fa-angle-right"></i></a>
-                                </li>
+    </section>
+
+    <!-- CT Scan to CAD Modeling Section -->
+    <section class="cad-modeling-section section-padding">
+        <div class="ct3d-container">
+            <div class="cad-mod-header text-center">
+                <h2 class="cad-mod-maintitle"><span class="text-orange">CT Scan</span> to <span class="text-orange">CAD Modeling</span></h2>
+                <p class="cad-mod-subtitle">Transform CT-generated STL - data into accurate, CAD - ready geometry.<br>Create an optimised patch network. Generate accurate NURBS surfaces</p>
+            </div>
+            
+            <!-- Wide Card 1 -->
+            <div class="cad-wide-card">
+                <div class="cad-process-flow">
+                    <div class="cad-intro-step">
+                        <h3>Industrial CT<br><span class="text-orange">Parametric CAD</span><br>using</h3>
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-1part-img1.png" alt="Geomagic Design X" class="software-logo">
+                    </div>
+                    
+                    <div class="cad-arrow" style="color: #111;"><i class="fa-solid fa-arrow-right"></i></div>
+                    
+                    <div class="cad-process-step">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-1part-im2.png" alt="Import STL">
+                        <p>Import STL</p>
+                    </div>
+                    
+                    <div class="cad-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    
+                    <div class="cad-process-step">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-1part-img3.png" alt="Segmentation Internal + External">
+                        <p>Segmentation<br>Internal + External</p>
+                    </div>
+                    
+                    <div class="cad-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    
+                    <div class="cad-process-step">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-1part-img4.png" alt="Parametric CAD">
+                        <p>Parametric CAD</p>
+                    </div>
+                </div>
+                <!-- Button securely centered under the flow -->
+                <div class="text-center mt-4">
+                    <a href="#" class="btn-cad-know">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Wide Card 2 -->
+            <div class="cad-wide-card mt-5">
+                <div class="cad-process-flow">
+                    <div class="cad-intro-step">
+                        <h3>Medical CT<br><span class="text-orange">NURBS Surface</span><br>using</h3>
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-2part-img1.png" alt="Geomagic Wrap" class="software-logo">
+                    </div>
+                    
+                    <div class="cad-arrow" style="color: #111;"><i class="fa-solid fa-arrow-right"></i></div>
+                    
+                    <div class="cad-process-step">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-2part-img2.png" alt="Import STL">
+                        <p>Import STL</p>
+                    </div>
+                    
+                    <div class="cad-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    
+                    <div class="cad-process-step">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-2part-img3.png" alt="Mesh Cleanup">
+                        <p>Mesh Cleanup</p>
+                    </div>
+                    
+                    <div class="cad-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    
+                    <div class="cad-process-step">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-2part-img4.png" alt="NURBS Surface">
+                        <p>NURBS Surface</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="#" class="btn-cad-know">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Bottom Grid Outputs -->
+            <div class="cad-outputs-grid mt-4">
+                <!-- Output Card 1 -->
+                <div class="cad-output-card">
+                    <h4 class="output-title">Mesh Outputs</h4>
+                    <div class="output-icons-wrap">
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img1.png" alt="STL">
+                            <span>STL</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img2.png" alt="OBJ">
+                            <span>OBJ</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img3.png" alt="PLY">
+                            <span>PLY</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Output Card 2 -->
+                <div class="cad-output-card">
+                    <h4 class="output-title">Surface Outputs</h4>
+                    <div class="output-icons-wrap">
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img4.png" alt="NURBS">
+                            <span>NURBS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Output Card 3 -->
+                <div class="cad-output-card output-large-card">
+                    <h4 class="output-title">CAD Outputs</h4>
+                    <div class="output-icons-wrap">
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img5.png" alt="STEP">
+                            <span>STEP</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img6.png" alt="IGES">
+                            <span>IGES</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img7.png" alt="Parasolid">
+                            <span>Parasolid (X_T)</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img8.png" alt="SolidWorks">
+                            <span>SolidWorks</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img9.png" alt="Creo">
+                            <span>Creo</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img10.png" alt="CATIA">
+                            <span>CATIA</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Output Card 4 -->
+                <div class="cad-output-card">
+                    <h4 class="output-title">Mesh Outputs</h4>
+                    <div class="output-icons-wrap">
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img11.png" alt="2D Drawings">
+                            <span>2D<br>Drawings</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img12.png" alt="GD&T">
+                            <span>GD&T</span>
+                        </div>
+                        <div class="output-icon">
+                            <img src="assets/images/ct-scan-to-3d-cad-modeling/ctstcadm-3part-img13.png" alt="Inspection Report">
+                            <span>Inspection<br>Report</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Support Section -->
+    <section class="workflow-section section-padding">
+        <div class="ct3d-container">
+            <div class="wf-header text-center">
+                <h2 class="wf-title">How Precise3DM<br>Supports <span class="text-orange">This Workflow</span></h2>
+            </div>
+            <div class="row g-4 mt-2">
+                <!-- Card 1 -->
+                <div class="col-lg-6">
+                    <div class="wf-card wf-blue">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/wf-img1.png" alt="In-House Workflow" class="wf-bg-img">
+                        <div class="wf-content">
+                            <h3 class="wf-card-title">Implement In-<br>House Workflow</h3>
+                            <ul class="wf-list">
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> Geomagic Design X Software or Geomagic Wrap</li>
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> Training & Certification</li>
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> Workflow Development</li>
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> Technical Support</li>
                             </ul>
+                            <div class="wf-btn-box mt-4">
+                                <a href="#" class="btn-wf-orange">Build Your In - House Capability</a>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
-                <div class="col-md-8 mt-3">
-                    <div class="" id="myTabContentnew">
-                        <div class="" id="overview">
-                            <h4>Overview</h4>
-                            <div class="overview-cont">
-                                <h6>Industrial CT Scan</h6>
-                                <p>
-                                    A Computerized Tomography (CT) scan combines data from several X-rays to produce a detailed image of structures inside the body or any object. It is a medical imaging technique used in radiology to get detailed images of the body noninvasively for diagnostic purposes. CT scans produce 2D images of a section of the body or object, but the data can also be used to construct 3D images. Industrial CT scanning has been used in many areas of industry for the internal inspection of components. Some of the key uses for industrial CT scanning have been flaw detection, failure analysis, metrology, assembly analysis, and reverse engineering applications.CT scan images are used to provide fine-grain details on the condition and allow for the detection of objects as small as human medical device needles. CT scanning found its applications in medical ultrasonography, materials analysis, explosives detection, geological studies, conservation, and preservation of objects of cultural heritage.
-                                </p>
-                                <h6>CT Scan to CAD Model</h6>
-                                <p>
-                                    Normally, industrial manufacturers face troubles measuring internal and external surfaces for accurate and design-intent geometry creation. With the help of a CT scanner, we can get a CT 3D scan and get the exact internal and external surface geometry at a very high degree of accuracy using 3D inspection software and model the same in reverse engineering software.The scanning process collects millions of XYZ data points in a short amount of time. With the  3D scan data and reverse engineering software, we can create design-intent CAD geometry in an effective manner and edit areas with missing data at the existing area where it is difficult to scan. Data created by 3D scanning is in STL format. We can convert it to file format usable by 3D CAD and deliver according to the customer's requirement.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- workflow tabs -->
-                        <div class="mt-5" id="workflow">
-                            <h4>WORKFLOW</h4>
-                            <div class="col-12 wf-phase">
-                                <h6>PHASE 1</h6>
-                            </div>
-                            <div class="owl-carousel owl-theme chennai-carousel-box owl-prev-set">
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/ct-scan-cad/1) CT Scan data.png" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>1</span>
-                                        </div>
-                                        <p>CT Scan data</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/ct-scan-cad/2) Ct Scan jar cap.png" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>2</span>
-                                        </div>
-                                        <p>Ct Scan jar cap</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/ct-scan-cad/3) CT Scan jar inner.png" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>3</span>
-                                        </div>
-                                        <p>CT Scan jar inner</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/ct-scan-cad/4) CT scan to cad data.png" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>4</span>
-                                        </div>
-                                        <p>CT scan to cad data</p>
-                                    </div>
-                                </div>
-                                <div class="item chennai-car-item">
-                                    <div class="wf-cadcont">
-                                        <img src="assets/images/ct-scan-cad/5) Final Cad data.png" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                        <div class="text-center mt-2">
-                                            <span>5</span>
-                                        </div>
-                                        <p>Final Cad data</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- workflow tabs end-->
-                        <!-- image tabs -->
-                        <div class="mt-5" id="imagegallery">
-                            <h4>IMAGE</h4>
-                            <div id="demo" class="carousel slide" data-ride="carousel">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo" data-slide-to="1"></li>
-                                    <li data-target="#demo" data-slide-to="2"></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/images/ct-scan-cad/Cad data.png" alt="ct-scan-to-cad-modelling">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>CT Scan to CAD Model</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/images/ct-scan-cad/CT Scan data.png" alt="ct-scan-to-cad-modelling">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>CT Scan to CAD Model</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/images/ct-scan-cad/Scan Cad.png" alt="ct-scan-to-cad-modelling">
-                                        <div class="text-center py-4 bg-white">
-                                            <p>CT Scan to CAD Model</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- image tabs end-->
-                        <!-- video tabs -->
-                        <div class="mt-5" id="videogallery">
-                            <h4>VIDEO</h4>
-                            <div id="demo1" class="carousel slide" data-ride="carousel">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo1" data-slide-to="1"></li>
-                                    <li data-target="#demo1" data-slide-to="2"></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/4Y5IIChMBr8" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p>CT Scan to CAD Model</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p>CT Scan to CAD Model</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/E5VhABS2rPY" allow="autoplay" id="einscan_h_vdo">
-                                        </iframe>
-                                        <div class="text-center py-4 bg-white">
-                                            <p>CT Scan to CAD Model</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo1" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo1" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- video tabs end-->
-                        <div class="mt-5" id="cadindustry">
-                            <h4>INDUSTRIES WE SERVE</h4>
-                            <!--industry serve section start -->
-                            <div class="container indus-bg">
-                                <div class="row ">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-3 col-6 text-center px-2 ind-icon">
-                                                <div class=" my-2">
-                                                    <a href=""><img src="assets/images/icons/ind-8.svg" class="img-fluid" alt="ct-scan-to-cad-modelling-Plastic-Components"></a>
-                                                    <a href="">
-                                                        <p class="name text-white">Plastic Components</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--row end-->
-                            </div>
-                            <!--industry serve section end -->
-                        </div>
-                        <div class="mt-5" id="whatsnext">
-                            <h4>WHAT'S NEXT?</h4>
-                            <div class="overview-cont">
-                                <div class="row">
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/Sw.png" alt="ct-scan-to-cad-modelling">
-                                        <a href="https://precise3dm.com/reverse-engineering-geomagic-design-x.php">Buy dedicated Reverse Engineering software</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/upload.png" alt="ct-scan-to-cad-modelling">
-                                        <a href="scan-to-cad-service.php">Upload your CT scan data for 3D model</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/Quote.png" alt="ct-scan-to-cad-modelling">
-                                        <a href="javascript:" data-toggle="modal" data-target=".bd-example-modal-sm">Submit your Request for Quote</a>
-                                    </div>
-                                    <div class="col-sm-12 whatnext-cont">
-                                        <img src="assets/images/Scanto_parametric_CAD/system.png" alt="ct-scan-to-cad-modelling">
-                                        <a href="javascript:" data-toggle="modal" data-target=".related-services-modal-sm">Related services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Small modal -->
-                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-sm modal-dialog-centered">
-                            <div class="modal-content">
-                                <h5 class="mt-4 text-dark text-center">Get Quote</h5>
-                                 <?php
-                                    if (isset($_SESSION['status'])) {
-                                        if ($_SESSION['status'] == "success") {
-                                            echo "<div class='row status-div'>
-                                                    <p class='status-message'>Thanks for your interest in our 3d scanning cad service. You will receive the call and the quote from our business executives.</p>
-                                                    <div style='width: 100%'><a href='https://www.precise3dm.com/reverse-engineering-geomagic-design-x.php'><button class='step-form-btn'>Back</button></a></div></div>";
-                                        } else {
-                                            echo "<div class='row status-div'>
-                                                    <p class='status-message'>Oops...Something went wrong, please try again
-                                                </p><div style='width: 100%'><a href='javascript:void(0);'><button class='step-form-btn'>Back</button></a></div></div>";
-                                        }
-                                        unset($_SESSION['status']);
-                                    }else { ?>
-                                <form method="POST" action="webinar_submit.php" id="web_form" autocomplete="off">
-                                <div class="form-group cad-input-fields">
-                                    <input type="text" name="cadName" id="cadName" class="form-control" placeholder="Name*">
-                                    <input type="email" name="cadEmail" id="cadEmail" class="form-control" placeholder="Email*">
-                                    <input type="text" name="cadContnum" id="cadContnum" class="form-control" placeholder="Contact number*" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10">
-                                    <input type="text" name="cadLocation" id="cadLocation" placeholder="Location" class="form-control">
-                                    <input type="text" name="cadCompanyname" id="cadCompanyname" placeholder="Company name" class="form-control">
-                                </div>
-                                <div class="text-center mb-4">
-                                    <button type="submit" class="btn" id="cadsubmit">Submit</button>
-                                </div>
-                            </form>
-                            <?php } ?>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Small modal -->
-                        <!-- Related services Small modal -->
-                         <div class="modal fade related-services-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-sm modal-dialog-centered">
-                            <div class="modal-content" style="padding:25px;">
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-scanning-services-in-india.php" target="_blank">3D scanning Service</a>
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-scanners-in-india.php" target="_blank">3D Scanner</a>
-                            <a class="btn pre-btn my-2" href="https://precise3dm.com/3d-software-provider-in-india.php" target="_blank">3D Software</a>
-                                     
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Related services Small modal -->
-                        <!--related blogs-->
-                        <div class="mt-5" id="rel_blog">
-                            <div class="row">
-                                <div class="col-12 mt-4">
-                                    <h4 class="">RELATED BLOGS</h4>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
-                                <div class="col-sm-6 mt-4 blog-cont">
-                                    <img src="assets/images/Scanto_parametric_CAD/1 import 3D mesh file.PNG" alt="ct-scan-to-cad-modelling" class="img-fluid">
-                                    <h5>Scan To Parametric CAD</h5>
-                                    <p>Parametric cad consists of a history-based feature
-                                        modeling tree that can be edited to make design
-                                    </p>
-                                    <a href="#">Read more</a>
-                                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-6">
+                    <div class="wf-card wf-green">
+                        <img src="assets/images/ct-scan-to-3d-cad-modeling/wf-img2.png" alt="Outsource Engineering" class="wf-bg-img">
+                        <div class="wf-content">
+                            <h3 class="wf-card-title">Outsource<br>Engineering Projects</h3>
+                            <ul class="wf-list">
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> CT STL Cleanup</li>
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> Reverse Engineering</li>
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> CAD Modeling</li>
+                                <li><i class="fa-solid fa-circle-check text-wf-green"></i> Manufacturing Drawings</li>
+                            </ul>
+                            <div class="wf-btn-box mt-4">
+                                <a href="#" class="btn-wf-orange">Outsource Your Project</a>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
-        <!-- Who we are division start -->
     </section>
-    <!-- Workflow Section Starts Here -->
-    <hr class="separator">
-    <?php include('includes/footer.php'); ?>
-    <!-- bootstrap links-->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/highlight.js"></script>
-    <script src="assets/js/counter.js"></script>
-    <script src="assets/js/parametric-cad.js"></script>
-</body>
 
+    <!-- FAQ Section -->
+    <section class="faq-section section-padding">
+        <div class="ct3d-container">
+            <div class="faq-header text-center">
+                <h2 class="faq-main-title">FREQUENTLY ASKED QUESTIONS</h2>
+            </div>
+            
+            <div class="faq-accordion-wrap">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        <h4 class="faq-title">What is the cost of handheld colour 3D scanning services?</h4>
+                    </div>
+                    <div class="faq-body-wrapper">
+                        <div class="faq-body">
+                            <div class="faq-body-inner">
+                                <p>The cost depends on the size and complexity of the object. Please contact us for a customized quote tailored to your specific requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 (Active Demo) -->
+                <div class="faq-item active">
+                    <div class="faq-head">
+                        <span class="faq-icon"><i class="fa-solid fa-minus"></i></span>
+                        <h4 class="faq-title">What is colour 3D Scanning, and how does it differ from industrial 3D Scanning?</h4>
+                    </div>
+                    <div class="faq-body-wrapper">
+                        <div class="faq-body">
+                            <div class="faq-body-inner">
+                                <p>Colour 3D scanning captures both the geometry and the colour/texture of the object, while industrial 3D Scanning only captures the shape.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        <h4 class="faq-title">How long does it take when you do a 3D Scan with colour?</h4>
+                    </div>
+                    <div class="faq-body-wrapper">
+                        <div class="faq-body">
+                            <div class="faq-body-inner">
+                                <p>Scanning time varies based on the object's size and detail level, ranging from a few minutes to several hours for complex assemblies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        <h4 class="faq-title">Who benefits from Precise3DM's Handheld Color 3D Scanning Services?</h4>
+                    </div>
+                    <div class="faq-body-wrapper">
+                        <div class="faq-body">
+                            <div class="faq-body-inner">
+                                <p>Industries such as healthcare, aerospace, automotive, and consumer goods greatly benefit from the high accuracy and texture capture of color scanning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        <h4 class="faq-title">Is your Colour 3D scanning service available for outdoor or indoor objects?</h4>
+                    </div>
+                    <div class="faq-body-wrapper">
+                        <div class="faq-body">
+                            <div class="faq-body-inner">
+                                <p>Yes, our equipment is highly versatile and capable of capturing precise data both indoors and outdoors in various lighting conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Superior Vanilla JS CSS-Grid Triggers -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqHeads = document.querySelectorAll('.faq-head');
+            faqHeads.forEach(head => {
+                head.addEventListener('click', function() {
+                    const parent = this.parentElement;
+                    const icon = this.querySelector('.faq-icon i');
+                    
+                    // Is it already active?
+                    if (parent.classList.contains('active')) {
+                        parent.classList.remove('active');
+                        icon.classList.remove('fa-minus');
+                        icon.classList.add('fa-plus');
+                    } else {
+                        // Close all others
+                        document.querySelectorAll('.faq-item').forEach(item => {
+                            if (item !== parent) {
+                                item.classList.remove('active');
+                                const otherIcon = item.querySelector('.faq-icon i');
+                                if (otherIcon) {
+                                    otherIcon.classList.remove('fa-minus');
+                                    otherIcon.classList.add('fa-plus');
+                                }
+                            }
+                        });
+                        
+                        // Open this one
+                        parent.classList.add('active');
+                        icon.classList.remove('fa-plus');
+                        icon.classList.add('fa-minus');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- footer start -->
+    <?php include('includes/footer.php'); ?>
+    <!-- footer end -->
+    
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>

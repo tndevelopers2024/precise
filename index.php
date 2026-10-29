@@ -50,7 +50,7 @@
    <link rel="stylesheet" href="assets/css/index.css">
 
    <!-- New Home Page Custom Stylesheet -->
-   <link rel="stylesheet" href="assets/css/home-new.css?v=3.7">
+   <link rel="stylesheet" href="assets/css/home-new.css?v=4.1">
    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-01.png">
    <link rel="canonical" href="https:www.precise3dm.com/index.php" />
 
@@ -586,6 +586,250 @@
                </div>
             </div>
 
+            <!-- ==================== SLIDE 4: EINSCAN TRAK ==================== -->
+            <div class="nh-slide nh-slide-4" data-slide-index="3">
+               <div class="container nh-hero-container">
+
+                  <!-- Top Bar: Badge & Phone Contact -->
+                  <div class="nh-hero-top-row">
+                     <!-- Now Introducing in India Badge -->
+                     <div class="nh-badge-india">
+                        <span>NOW INTRODUCING IN INDIA</span>
+                        <img src="assets/images/home-new/india-flag.svg" alt="India Flag" class="nh-flag-icon">
+                     </div>
+
+                     <!-- Call Us Now Contact (Desktop) -->
+                     <div class="nh-top-contact">
+                        <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                           <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="nh-contact-info">
+                           <span class="nh-contact-label">Call us now</span>
+                           <div class="nh-contact-val">
+                              <a href="tel:+919840478347">+91 98404 78347</a>
+                              <span class="nh-contact-pipe">|</span>
+                              <a href="tel:+916374406179">+91 63744 06179</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Body: Content & Image -->
+                  <div class="row align-items-center nh-hero-body-row">
+                     <!-- Left Content Column -->
+                     <div class="col-lg-6 col-md-12 nh-hero-left-col">
+                        <!-- SHINING 3D Logo -->
+                        <div class="nh-shining-logo-wrap">
+                           <img src="assets/images/home-new/shining-3d-image.png" alt="SHINING 3D" class="nh-shining-logo">
+                        </div>
+
+                        <!-- Main Title Logo Image -->
+                        <h1 class="nh-hero-title-logo-wrap">
+                           <img src="assets/images/home-new/einscan-trak-logo.png" alt="EinScan TRAK" class="nh-hero-title-logo nh-trak-title-logo">
+                        </h1>
+
+                        <!-- Subheading & Tagline -->
+                        <div class="nh-trak-subhead">
+                           Wireless Tracking &amp; 3D Scanning System
+                        </div>
+                        <div class="nh-trak-tagline">
+                           Tracking &amp; Handheld Dual Modes | Marker - Free | Full Colour Scanning
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="nh-hero-actions">
+                           <a href="Book-demo-get-quote-for-3D-scanner.php" class="nh-btn-primary">Request a Live Demo &rarr;</a>
+                           <a href="brochures/EinScan-Trak-Brochure.pdf" download target="_blank" class="nh-btn-outline-orange">Download Brochure &darr;</a>
+                        </div>
+
+                        <!-- 6 Feature Icons Row -->
+                        <div class="nh-features-banner-row nh-features-trak-row">
+                           <div class="nh-feature-card">
+                              <img src="assets/images/home-new/einscan-icon-1.png" alt="Tracking & Handheld Dual Modes" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Tracking &amp; Handheld<br>Dual Modes</span>
+                           </div>
+                           <div class="nh-feature-card">
+                              <img src="assets/images/home-new/einscan-icon-2.png" alt="Marker Free Wireless 3D Scanning" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Marker Free<br>Wireless 3D<br>Scanning</span>
+                           </div>
+                           <div class="nh-feature-card">
+                              <img src="assets/images/home-new/einscan-icon-3.png" alt="38+7+1 Laser Lines" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">38+7+ 1<br>Laser Lines</span>
+                           </div>
+                           <div class="nh-feature-card">
+                              <img src="assets/images/home-new/einscan-icon-4.png" alt="Full Color 3D Scanning" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Full Color<br>3D<br>Scanning</span>
+                           </div>
+                           <div class="nh-feature-card">
+                              <img src="assets/images/home-new/einscan-icon-5.svg" alt="Scan large & Complex Components" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Scan large &amp;<br>Complex<br>Components</span>
+                           </div>
+                           <div class="nh-feature-card">
+                              <img src="assets/images/home-new/einscan-icon-6.svg" alt="Ideal for Reverse Engineering & Inspection" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Ideal for<br>Reverse Engineering<br>&amp; Inspection</span>
+                           </div>
+                        </div>
+
+                        <!-- Bottom Left Email Contact -->
+                        <div class="nh-bottom-contact">
+                           <a href="mailto:sm@precise3dm.com" class="nh-contact-icon-circle" aria-label="Email Us">
+                              <i class="fa-solid fa-envelope"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Email us</span>
+                              <div class="nh-contact-val">
+                                 <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Mobile & Tablet Call Us Now (below Email us on screens < 992px) -->
+                        <div class="nh-bottom-contact nh-mobile-call">
+                           <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                              <i class="fa-solid fa-phone"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Call us now</span>
+                              <div class="nh-contact-val">
+                                 <a href="tel:+919840478347">+91 98404 78347</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="tel:+916374406179">+91 63744 06179</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Right Image Column (Mobile / Tablet) -->
+                     <div class="col-lg-6 col-md-12 nh-hero-right-col">
+                        <div class="nh-hero-image-wrap">
+                           <img src="assets/images/home-new/einscan-trak-right-bg.png" alt="EinScan TRAK Wireless Tracking & 3D Scanning System" class="nh-hero-img img-fluid">
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+            <!-- ==================== SLIDE 5: FREESCAN COMBO+ WIRELESS ==================== -->
+            <div class="nh-slide nh-slide-5" data-slide-index="4">
+               <div class="container nh-hero-container">
+
+                  <!-- Top Bar: Badge & Phone Contact -->
+                  <div class="nh-hero-top-row">
+                     <!-- Launching FreeScan Combo+ Wireless Badge -->
+                     <div class="nh-badge-india">
+                        <span>LAUNCHING FREESCAN COMBO+ WIRELESS</span>
+                        <img src="assets/images/home-new/india-flag.svg" alt="India Flag" class="nh-flag-icon">
+                        <span>NOW IN INDIA</span>
+                     </div>
+
+                     <!-- Call Us Now Contact (Desktop) -->
+                     <div class="nh-top-contact">
+                        <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                           <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="nh-contact-info">
+                           <span class="nh-contact-label">Call us now</span>
+                           <div class="nh-contact-val">
+                              <a href="tel:+919840478347">+91 98404 78347</a>
+                              <span class="nh-contact-pipe">|</span>
+                              <a href="tel:+916374406179">+91 63744 06179</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Body: Content & Image -->
+                  <div class="row align-items-center nh-hero-body-row">
+                     <!-- Left Content Column -->
+                     <div class="col-lg-6 col-md-12 nh-hero-left-col">
+                        <!-- SHINING 3D Logo -->
+                        <div class="nh-shining-logo-wrap">
+                           <img src="assets/images/home-new/shining-3d-image.png" alt="SHINING 3D" class="nh-shining-logo">
+                        </div>
+
+                        <!-- Main Title Logo Image & Wireless -->
+                        <h1 class="nh-hero-title-logo-wrap nh-freescan-title-wrap">
+                           <img src="assets/images/home-new/freescan-combo-plus-logo.png" alt="FREESCAN COMBO+" class="nh-hero-title-logo nh-freescan-title-logo">
+                           <span class="nh-wireless-text">Wireless</span>
+                        </h1>
+
+                        <!-- Subheading -->
+                        <div class="nh-freescan-subhead">
+                           Wireless Hybrid Light Source<br>
+                           Metrology Handheld 3D Scanner
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="nh-hero-actions">
+                           <a href="Book-demo-get-quote-for-3D-scanner.php" class="nh-btn-primary">Request a Live Demo &rarr;</a>
+                           <a href="brochures/FreeScan Combo+ Wireless.pdf" download target="_blank" class="nh-btn-outline-orange">Download Brochure &darr;</a>
+                        </div>
+
+                        <!-- 4 Feature Icons Row -->
+                        <div class="nh-features-banner-row nh-features-combo-row">
+                           <div class="nh-feature-card nh-feature-card-wide">
+                              <img src="assets/images/home-new/freescan-icon-1.svg" alt="Integrated Video Photogrammetry (VPG)" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Integrated Video<br>Photogrammetry<br>(VPG)</span>
+                           </div>
+                           <div class="nh-feature-card nh-feature-card-wide">
+                              <img src="assets/images/home-new/freescan-icon-2.svg" alt="Faster speed & Higher performance" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Faster speed &amp;<br>Higher<br>performance</span>
+                           </div>
+                           <div class="nh-feature-card nh-feature-card-wide">
+                              <img src="assets/images/home-new/freescan-icon-3.svg" alt="Metrology - Grade Accuracy" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Metrology -<br>Grade<br>Accuracy</span>
+                           </div>
+                           <div class="nh-feature-card nh-feature-card-wide">
+                              <img src="assets/images/home-new/freescan-icon-4.svg" alt="Wireless Freedom" class="nh-feature-card-icon">
+                              <span class="nh-feature-card-text">Wireless<br>Freedom</span>
+                           </div>
+                        </div>
+
+                        <!-- Bottom Left Email Contact -->
+                        <div class="nh-bottom-contact">
+                           <a href="mailto:sm@precise3dm.com" class="nh-contact-icon-circle" aria-label="Email Us">
+                              <i class="fa-solid fa-envelope"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Email us</span>
+                              <div class="nh-contact-val">
+                                 <a href="mailto:sm@precise3dm.com">sm@precise3dm.com</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="mailto:sales@precise3dm.com">sales@precise3dm.com</a>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Mobile & Tablet Call Us Now (below Email us on screens < 992px) -->
+                        <div class="nh-bottom-contact nh-mobile-call">
+                           <a href="tel:+919840478347" class="nh-contact-icon-circle" aria-label="Call Us Now">
+                              <i class="fa-solid fa-phone"></i>
+                           </a>
+                           <div class="nh-contact-info">
+                              <span class="nh-contact-label">Call us now</span>
+                              <div class="nh-contact-val">
+                                 <a href="tel:+919840478347">+91 98404 78347</a>
+                                 <span class="nh-contact-pipe">|</span>
+                                 <a href="tel:+916374406179">+91 63744 06179</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Right Image Column (Mobile / Tablet) -->
+                     <div class="col-lg-6 col-md-12 nh-hero-right-col">
+                        <div class="nh-hero-image-wrap">
+                           <img src="assets/images/home-new/freescan-combo-right-bg.png" alt="FREESCAN COMBO+ Wireless Handheld 3D Scanner" class="nh-hero-img img-fluid">
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
          </div>
 
          <!-- Bottom Navigation Indicators -->
@@ -593,6 +837,8 @@
             <button class="nh-indicator-dot active" id="nhDot0" data-slide-to="0" aria-label="Go to Slide 1"></button>
             <button class="nh-indicator-dot" id="nhDot1" data-slide-to="1" aria-label="Go to Slide 2"></button>
             <button class="nh-indicator-dot" id="nhDot2" data-slide-to="2" aria-label="Go to Slide 3"></button>
+            <button class="nh-indicator-dot" id="nhDot3" data-slide-to="3" aria-label="Go to Slide 4"></button>
+            <button class="nh-indicator-dot" id="nhDot4" data-slide-to="4" aria-label="Go to Slide 5"></button>
          </div>
 
       </div>

@@ -2004,11 +2004,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
                         href="industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-left py-2" href="figure-4-standalone-3d-printer.php">Figure 4 Standalone</a></li>
-                        <li><a class="dropdown-item text-left py-2" href="funmat-pro.php">Funmat Pro 410</a></li>
-                        <li><a class="dropdown-item text-left py-2" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a></li>
-                        <li><a class="dropdown-item text-left py-2" href="industrial-fdm-3d-printers.php">Industrial FDM 3D Printers</a></li>
-                        <li><a class="dropdown-item text-left py-2" href="peek-3d-printers-in-india.php">PEEK 3D Printers</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
+                            href="peek-3d-printers-in-india.php">PEEK 3D Printers</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-left py-2" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a></li>
+                            <li><a class="dropdown-item text-left py-2" href="funmat-pro.php">Funmat Pro 410</a></li>
+                          </ul>
+                        </li>
+                        <li><a class="dropdown-item text-left py-2" href="industrial-fdm-3d-printers.php">Industrial FDM Printers</a></li>
+                        <li><a class="dropdown-item text-left py-2" href="figure-4-standalone-3d-printer.php">DLP 3D Printers</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -3194,27 +3198,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="https://www.precise3dm.com/figure-4-standalone-3d-printer.php">Figure4 Standalone</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="funmat-pro.php">Funmat Pro 410</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="industrial-fdm-3d-printers.php">Industrial FDM 3D Printers</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
                   <a class="nav-link" href="peek-3d-printers-in-india.php">PEEK 3D Printers</a>
+                  <div class="down-icon">
+                    <i class="fa-solid fa-sort-down"></i>
+                  </div>
+                </div>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="funmat-pro.php">Funmat Pro 410</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <div class="mob-down-list sub-down-list">
+                  <a class="nav-link" href="industrial-fdm-3d-printers.php">Industrial FDM Printers</a>
+                  <div class="down-icon">
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="mob-down-list sub-down-list">
+                  <a class="nav-link" href="figure-4-standalone-3d-printer.php">DLP 3D Printers</a>
+                  <div class="down-icon">
+                  </div>
                 </div>
               </li>
             </ul>

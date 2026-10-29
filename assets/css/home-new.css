@@ -80,6 +80,16 @@ body.home-new-body {
   background-image: url('../images/home-new/nh-banner3-left-bg-img.png');
 }
 
+/* Slide 4 Background */
+.nh-slide-4 {
+  background-image: url('../images/home-new/nh-banner1-left-bg-img.png');
+}
+
+/* Slide 5 Background */
+.nh-slide-5 {
+  background-image: url('../images/home-new/nh-banner1-left-bg-img.png');
+}
+
 .nh-hero-container {
   position: relative;
   z-index: 5;
@@ -457,6 +467,218 @@ body.home-new-body {
   font-weight: 500;
   color: var(--nh-body-text);
 }
+
+/* ==========================================================================
+   Slides 4 & 5 Custom Components (EinScan TRAK & FreeScan Combo+ Wireless)
+   ========================================================================== */
+.nh-badge-india {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.nh-badge-india .nh-flag-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nh-shining-logo-wrap {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.nh-shining-logo {
+  height: 28px;
+  width: auto;
+  display: inline-block;
+}
+
+/* Title Logo Images for Slides 4 & 5 */
+.nh-hero-title-logo-wrap {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.nh-hero-title-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.nh-trak-title-logo {
+  max-width: 480px;
+  max-height: 58px;
+}
+
+.nh-freescan-title-wrap {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.nh-freescan-title-logo {
+  width: auto !important;
+  max-width: none !important;
+  height: 72px;
+  max-height: 72px;
+  flex: 0 0 auto;
+  display: block;
+  margin-right: -4px;
+}
+
+.nh-wireless-text {
+  font-family: var(--nh-font-family, 'Inter', sans-serif);
+  font-size: 44px;
+  font-weight: 500;
+  color: #111827;
+  line-height: 1;
+  margin-top: 6px;
+  margin-left: 0;
+  letter-spacing: -0.5px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.nh-trak-heading {
+  font-size: 52px;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.08;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.nh-trak-word {
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.nh-trak-subhead {
+  font-size: 21px;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.nh-trak-tagline {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--nh-primary-orange, #FF931E);
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.nh-freescan-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #111827;
+  line-height: 1.08;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.nh-wireless-word {
+  font-weight: 400;
+  font-size: 44px;
+  color: #111827;
+  margin-left: 6px;
+}
+
+.nh-combo-badge {
+  display: inline-block;
+  background-color: #111827;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 3px 18px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-top: 4px;
+}
+
+.nh-freescan-subhead {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--nh-primary-orange, #FF931E);
+  margin-bottom: 18px;
+  line-height: 1.35;
+}
+
+.nh-btn-outline-orange {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: var(--nh-primary-orange, #FF931E) !important;
+  border: 2px solid var(--nh-primary-orange, #FF931E);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.nh-btn-outline-orange:hover {
+  background-color: var(--nh-primary-orange, #FF931E);
+  color: #ffffff !important;
+  border-color: var(--nh-primary-orange, #FF931E);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 147, 30, 0.25);
+}
+
+.nh-features-banner-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+  margin-bottom: 18px;
+  align-items: flex-start;
+}
+
+.nh-feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  flex: 0 0 auto;
+}
+
+.nh-feature-card-wide {
+  width: 124px;
+}
+
+.nh-feature-card-icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.nh-feature-card-text {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2F2F2F;
+  line-height: 1.25;
+}
 /* Bottom Left Contact: Email Us */
 .nh-bottom-contact {
   display: inline-flex;
@@ -666,6 +888,38 @@ body.home-new-body {
       auto 100%;
   }
 
+  /* Slide 4: Dual Background (EinScan TRAK Right Banner + Left Background) */
+  .nh-slide-4 {
+    background-image: 
+      url('../images/home-new/einscan-trak-right-bg.png'), 
+      url('../images/home-new/nh-banner1-left-bg-img.png');
+    background-position: 
+      right center, 
+      left top;
+    background-repeat: 
+      no-repeat, 
+      no-repeat;
+    background-size: 
+      auto 100%, 
+      auto 100%;
+  }
+
+  /* Slide 5: Dual Background (FreeScan Combo+ Right Banner + Left Background) */
+  .nh-slide-5 {
+    background-image: 
+      url('../images/home-new/freescan-combo-right-bg.png'), 
+      url('../images/home-new/nh-banner1-left-bg-img.png');
+    background-position: 
+      right center, 
+      left top;
+    background-repeat: 
+      no-repeat, 
+      no-repeat;
+    background-size: 
+      auto 100%, 
+      auto 100%;
+  }
+
   /* Hide the inline right image column on desktop so it doesn't duplicate */
   .nh-hero-right-col {
     display: none !important;
@@ -740,6 +994,31 @@ body.home-new-body {
   }
 
   .nh-slide-2 .nh-top-contact .nh-contact-val a:hover {
+    color: var(--nh-primary-orange) !important;
+  }
+
+  /* Slide 4 & 5 Call Us Now on desktop: White background pill card with shadow */
+  .nh-slide-4 .nh-top-contact,
+  .nh-slide-5 .nh-top-contact {
+    background: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+    padding: 8px 18px !important;
+    border-radius: 10px !important;
+    margin-right: 20px !important;
+  }
+
+  .nh-slide-4 .nh-top-contact .nh-contact-label,
+  .nh-slide-5 .nh-top-contact .nh-contact-label,
+  .nh-slide-4 .nh-top-contact .nh-contact-val,
+  .nh-slide-4 .nh-top-contact .nh-contact-val a,
+  .nh-slide-5 .nh-top-contact .nh-contact-val,
+  .nh-slide-5 .nh-top-contact .nh-contact-val a {
+    color: #111827 !important;
+    font-weight: 700 !important;
+  }
+
+  .nh-slide-4 .nh-top-contact .nh-contact-val a:hover,
+  .nh-slide-5 .nh-top-contact .nh-contact-val a:hover {
     color: var(--nh-primary-orange) !important;
   }
 }
@@ -842,10 +1121,61 @@ body.home-new-body {
     width: 100%;
   }
   .nh-btn-primary,
-  .nh-btn-outline {
+  .nh-btn-outline,
+  .nh-btn-outline-orange {
     font-size: 14px;
     padding: 10px 20px;
     width: 100%;
+  }
+  .nh-trak-heading {
+    font-size: 34px;
+  }
+  .nh-freescan-heading {
+    font-size: 32px;
+  }
+  .nh-wireless-word {
+    font-size: 26px;
+  }
+  .nh-combo-badge {
+    font-size: 18px;
+    padding: 2px 12px;
+  }
+  .nh-hero-title-logo-wrap {
+    margin-bottom: 10px;
+  }
+  .nh-trak-title-logo {
+    max-width: 300px;
+    max-height: 40px;
+  }
+  .nh-freescan-title-wrap {
+    gap: 0;
+  }
+  .nh-freescan-title-logo {
+    height: 50px;
+    max-height: 50px;
+    width: auto !important;
+    max-width: none !important;
+    margin-right: -3px;
+  }
+  .nh-wireless-text {
+    font-size: 30px;
+    margin-top: 4px;
+  }
+  .nh-trak-subhead {
+    font-size: 17px;
+  }
+  .nh-freescan-subhead {
+    font-size: 16px;
+  }
+  .nh-features-banner-row {
+    justify-content: center;
+    gap: 10px;
+  }
+  .nh-feature-card,
+  .nh-feature-card-wide {
+    width: 44%;
+    max-width: 130px;
+    margin-bottom: 8px;
   }
   .nh-hero-img {
     max-height: 280px;

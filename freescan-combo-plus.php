@@ -113,6 +113,10 @@ $img = "assets/images/freescan-combo-plus";
                             <a href="scanning-solution-form.php" class="fcp-btn-outline">
                                 <span>Get India Pricing</span>
                             </a>
+                            <a href="brochures/FreeScan Combo+ Wireless.pdf" download target="_blank" class="fcp-btn-outline">
+                                <span>Download Brochure</span>
+                                <i class="fa-solid fa-download ml-2"></i>
+                            </a>
                         </div>
 
                         <!-- Email Us Contact -->

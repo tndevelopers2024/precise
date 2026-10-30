@@ -76,7 +76,7 @@ $meta_description =
                     </p>
 
                     <div class="mm-hero-actions">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="mm-btn-solid">Talk to an Expert</a>
+                        <a href="contact-us.php" class="mm-btn-solid">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="mm-btn-outline">Book a live demo</a>
                     </div>
 

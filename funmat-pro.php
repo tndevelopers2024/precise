@@ -529,7 +529,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <p class="cta-text">Talk to our experts and discover how FUNMAT PRO 410 can accelerate your production</p>
                       <div class="cta-btns">
                           <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-demo me-3">Request a Demo</a>
-                          <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-quote">Talk to an Expert</a>
+                          <a href="contact-us.php" class="btn btn-quote">Talk to an Expert</a>
                       </div>
                   </div>
               </div>

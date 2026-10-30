@@ -74,7 +74,7 @@ $pageKeywords = "3d scanning services india, 3d scanning company, precise3dm, 3d
                     
                     <div class="hero-buttons">
                         <a href="contact-us.php" class="btn-orange">Upload Your Project Image & Get Instant Project Estimation</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-white">Talk to 3D Scanning Expert</a>
+                        <a href="contact-us.php" class="btn-white">Talk to 3D Scanning Expert</a>
                     </div>
                     
                     <div class="features-row">

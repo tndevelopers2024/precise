@@ -97,7 +97,7 @@ $meta_description =
 
                         <!-- Action Buttons -->
                         <div class="ffm-hero-actions">
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" target="_blank" class="btn-ffm-orange">
+                            <a href="contact-us.php" target="_blank" class="btn-ffm-orange">
                                 Talk to an Expert
                             </a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-ffm-outline">

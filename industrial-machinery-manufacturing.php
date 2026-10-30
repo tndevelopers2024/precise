@@ -85,7 +85,7 @@ $meta_description =
                     </p>
                     
                     <div class="imm-hero-buttons">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="imm-btn imm-btn-primary">Talk to an Expert</a>
+                        <a href="contact-us.php" class="imm-btn imm-btn-primary">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="imm-btn imm-btn-outline">Book a Live Demo</a>
                     </div>
                     

@@ -225,7 +225,7 @@ $meta_description =
                     </div>
 
                     <div class="hero-buttons d-flex flex-wrap">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Aerospace Expert</a>
+                        <a href="contact-us.php" class="btn-talk">Talk to an Aerospace Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a Live Demo</a>
                     </div>
                     

@@ -385,7 +385,7 @@
                         </div>
 
                         <div class="cta-btn-group">
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="prof-btn prof-btn-primary">Talk to an Expert</a>
+                            <a href="contact-us.php" class="prof-btn prof-btn-primary">Talk to an Expert</a>
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="prof-btn prof-btn-outline-white">Book Your Onsite Demo Today</a>
                         </div>
                     </div>

@@ -75,7 +75,7 @@ $meta_description = "Precise3DM empowers sheet metal and metal fabrication manuf
 
                     <!-- CTA Buttons -->
                     <div class="smmf-hero-buttons d-flex flex-wrap" style="gap: 15px;">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Expert</a>
+                        <a href="contact-us.php" class="btn-talk">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a live demo</a>
                     </div>
 
@@ -656,7 +656,7 @@ $meta_description = "Precise3DM empowers sheet metal and metal fabrication manuf
                         </div>
                     </div>
 
-                    <a href="reverse-engineering-software-in-india.php" class="smmf-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="3d-scanning-and-reverse-engineering-software.php" class="smmf-capex-btn outline mt-auto">EXPLORE REVERSE ENGINEERING SOFTWARE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
                 <!-- Card 3 -->
@@ -900,11 +900,11 @@ $meta_description = "Precise3DM empowers sheet metal and metal fabrication manuf
                     <h3 class="smmf-boo-card-title text-danger">BUILD IN-HOUSE (CAPEX)</h3>
                     <strong>Best for:</strong>
                     <ul class="smmf-boo-list green-check-small">
-                        <li><i class="fa-solid fa-check"></i> Frequent 3D scanning and reverse engineering</li>
-                        <li><i class="fa-solid fa-check"></i> Daily quality control and inspection</li>
-                        <li><i class="fa-solid fa-check"></i> Internal new-product development and tool rooms</li>
-                        <li><i class="fa-solid fa-check"></i> Production inspection</li>
-                        <li><i class="fa-solid fa-check"></i> Long-term capability building</li>
+                        <li><i class="fa-solid fa-check"></i> High Production Volumes</li>
+                        <li><i class="fa-solid fa-check"></i> Long-term Cost Savings</li>
+                        <li><i class="fa-solid fa-check"></i> Complete Process Control</li>
+                        <li><i class="fa-solid fa-check"></i> Faster Turnaround</li>
+                        <li><i class="fa-solid fa-check"></i> Confidentiality & IP Security</li>
                     </ul>
                     <a href="3d-products.php" class="smmf-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
                     
@@ -917,11 +917,11 @@ $meta_description = "Precise3DM empowers sheet metal and metal fabrication manuf
                     <h3 class="smmf-boo-card-title text-success">USE OUR ENGINEERING TEAM (OPEX)</h3>
                     <strong>Best for:</strong>
                     <ul class="smmf-boo-list green-check-circle-small">
-                        <li><i class="fa-regular fa-circle-check"></i> One-time projects and immediate requirements</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Technology evaluation</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Specialized inspections</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Benchmarking projects</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Occasional reverse engineering</li>
+                        <li><i class="fa-regular fa-circle-check"></i> One-Time Projects &amp; Immediate Needs</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Technology Access Without Investment</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Specialized Expertise</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Scalable Support</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Lower Upfront Cost</li>
                     </ul>
                     <a href="3d-services.php" class="smmf-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
                 </div>

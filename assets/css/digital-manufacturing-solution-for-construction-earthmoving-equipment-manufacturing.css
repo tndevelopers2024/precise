@@ -615,6 +615,76 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.02);
 }
 
+/* Dual-scanner layout for Capex Card 1 */
+.ceem-nested-dual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 12px 10px;
+}
+
+.ceem-dual-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex: 0 0 46px;
+    width: 46px;
+}
+
+.ceem-dual-img {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+}
+
+.ceem-dual-title {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0 4px;
+}
+
+.ceem-dual-title span {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.3;
+    display: block;
+}
+
+.ceem-dual-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    flex: 0 0 auto;
+}
+
+.ceem-dual-links a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    text-decoration: none !important;
+    color: #FF931E;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: right;
+    transition: all 0.2s ease;
+}
+
+.ceem-dual-links a:hover {
+    color: #e07d0d;
+}
+
+.ceem-dual-links a i {
+    font-size: 11px;
+    color: #FF931E;
+}
+
 .ceem-capex-nested-left {
     display: flex;
     align-items: flex-start;
@@ -725,14 +795,21 @@
 }
 
 .ceem-capex-btn.solid {
-    background: #FF931E;
+    background: linear-gradient(90deg, #ff9f30 0%, #ff810d 100%);
     color: #fff;
-    border: 1px solid #FF931E;
+    border: none;
+    border-radius: 8px;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-transform: none;
+    padding: 12px 10px;
+    box-shadow: 0 4px 12px rgba(255, 147, 30, 0.2);
 }
 
 .ceem-capex-btn.solid:hover {
-    background: #d97706;
+    background: linear-gradient(90deg, #ff8c1a 0%, #e06c00 100%);
     color: #fff;
+    transform: translateY(-1px);
 }
 
 .ceem-capex-btn.outline {
@@ -2179,7 +2256,6 @@
 }
 
 .ceem-capex-features-list {
-    list-style: none;
     padding-left: 0;
     margin-bottom: 20px;
 }
@@ -2191,16 +2267,6 @@
     margin-bottom: 6px;
     line-height: 1.4;
 }
-.ceem-capex-features-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #475569;
-    font-size: 14px;
-    line-height: 1;
-    top: 1px;
-}
-
 
 /* ==========================================================
    OPEX Section Grids & Cards

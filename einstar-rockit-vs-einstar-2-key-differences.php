@@ -415,7 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="cta-flex-buttons">
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="cta-btn solid">Schedule Live Demo</a>
-                    <a href="tel:+919840478347" class="cta-btn outline">Talk to Inspection Expert</a>
+                    <a href="contact-us.php" class="cta-btn outline">Talk to Inspection Expert</a>
                 </div>
             </div>
 

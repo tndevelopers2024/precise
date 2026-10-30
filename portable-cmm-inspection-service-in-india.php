@@ -1143,7 +1143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <!-- Right Side -->
                 <div class="pcmm-contact-right">
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="pcmm-contact-btn pcmm-contact-btn-solid">Book Inspection</a>
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="pcmm-contact-btn pcmm-contact-btn-solid">Talk to Metrology Expert</a>
+                    <a href="contact-us.php" class="pcmm-contact-btn pcmm-contact-btn-solid">Talk to Metrology Expert</a>
                     <a href="rental-and-subscription-form.php" class="pcmm-contact-btn pcmm-contact-btn-outline">Request Rental Quote</a>
                 </div>
 

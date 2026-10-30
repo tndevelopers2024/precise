@@ -78,7 +78,7 @@ $meta_description =
                     </p>
                     
                     <div class="dms-btn-group">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dms-btn-primary">Talk to an Expert</a>
+                        <a href="contact-us.php" class="dms-btn-primary">Talk to an Expert</a>
                         <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="dms-btn-outline">Book a live demo</a>
                     </div>
                     

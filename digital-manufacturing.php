@@ -75,7 +75,7 @@ $meta_description =
                     </p>
                     
                     <div class="dms-btn-group">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dms-btn-primary">Talk to an Expert</a>
+                        <a href="contact-us.php" class="dms-btn-primary">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="dms-btn-outline">Book a live demo</a>
                     </div>
                     
@@ -281,7 +281,7 @@ $meta_description =
                     ['img' => 'inws-img10.png', 'icon' => 'inws-icon10.png', 'name' => 'Industrial Machinery', 'url' => 'industrial-machinery-manufacturing.php'],
                     
                     ['img' => 'inws-img11.png', 'icon' => 'inws-icon11.png', 'name' => 'Heavy Engineering', 'url' => 'digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php'],
-                    ['img' => 'inws-img12.png', 'icon' => 'inws-icon12.png', 'name' => 'Construction &<br>Earthmoving Equipment', 'url' => 'digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php'],
+                    ['img' => 'inws-img12.png', 'icon' => 'inws-icon12.png', 'name' => 'Construction &<br>Earthmoving Equipment', 'url' => 'digital-manufacturing-solution-for-construction-earthmoving-equipment-manufacturing.php'],
                     ['img' => 'inws-img13.png', 'icon' => 'inws-icon13.png', 'name' => 'Agricultural Machinery', 'url' => 'agricultural-machinery-manufacturing.php'],
                     ['img' => 'inws-img14.png', 'icon' => 'inws-icon14.png', 'name' => 'Material Handling<br>Equipment<br>Manufacturing', 'url' => 'digital-manufacturing-solutions-for-material-handling-equipment-manufacturing.php'],
                     ['img' => 'inws-img15.png', 'icon' => 'inws-icon15.png', 'name' => 'Tool & Die', 'url' => 'tool-die-manufacturing.php'],
@@ -290,7 +290,7 @@ $meta_description =
                     ['img' => 'inws-img17.png', 'icon' => 'inws-icon17.png', 'name' => 'Foundry & Casting', 'url' => 'digital-manufacturing-solutions-for-foundry-and-casting.php'],
                     ['img' => 'inws-img18.png', 'icon' => 'inws-icon18.png', 'name' => 'Forging', 'url' => 'forging-manufacturing.php'],
                     ['img' => 'inws-img19.png', 'icon' => 'inws-icon19.png', 'name' => 'Plastic Parts', 'url' => 'digital-manufacturing-solutions-for-plastic-parts.php'],
-                    ['img' => 'inws-img20.png', 'icon' => 'inws-icon20.png', 'name' => 'Sheet Metal & Metal<br>Fabrication', 'url' => 'sheet-metal-springback.php'],
+                    ['img' => 'inws-img20.png', 'icon' => 'inws-icon20.png', 'name' => 'Sheet Metal & Metal<br>Fabrication', 'url' => 'digital-manufacturing-solutions-for-sheet-metal-metal-fabrication.php'],
                     
                     ['img' => 'inws-img21.png', 'icon' => 'inws-icon21.png', 'name' => 'Electrical Equipment', 'url' => 'digital-manufacturing-solutions-for-electrical-equipment.php'],
                     ['img' => 'inws-img22.png', 'icon' => 'inws-icon22.png', 'name' => 'Electronics', 'url' => 'electronics-manufacturing.php'],
@@ -379,7 +379,7 @@ $meta_description =
                     </div>
                 </div>
                 <div class="dms-cta-right">
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="dms-cta-btn-primary">Talk to an Expert</a>
+                    <a href="contact-us.php" class="dms-cta-btn-primary">Talk to an Expert</a>
                     <a href="Book-demo-get-quote-for-3D-scanner.php" class="dms-cta-btn-outline">Book a Demo</a>
                 </div>
             </div>

@@ -49,7 +49,7 @@
                             <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-sth-primary">
                                 Upload Scan Data <i class="fa-solid fa-arrow-right"></i>
                             </a>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-sth-secondary">
+                            <a href="contact-us.php" class="btn-sth-secondary">
                                 Talk to a 3D Expert
                                 <svg class="sth-cube-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>

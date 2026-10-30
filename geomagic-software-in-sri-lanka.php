@@ -74,7 +74,7 @@ $meta_description = "The World's Most Trusted Reverse Engineering & 3D Inspectio
                     <div class="hero-cta-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-gsisl-orange">Request Free Demo</a>
                         <a href="software-sales-form.php" class="btn-gsisl-outline">Download Trial</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-gsisl-outline">Talk to Product Expert</a>
+                        <a href="contact-us.php" class="btn-gsisl-outline">Talk to Product Expert</a>
                     </div>
 
                     <!-- Telephone Contact (Moved in flow for Mobile) -->

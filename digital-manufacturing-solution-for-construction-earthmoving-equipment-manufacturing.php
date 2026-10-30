@@ -88,7 +88,7 @@ $meta_description =
                     <p class="ceem-hero-desc text-white">Construction & earthmoving equipment faces extreme environments, heavy loads, and tight project timelines. Precise3DM empowers manufacturers to capture large, complex components with high accuracy, accelerate production, reduce rework, and ensure reliability in the toughest conditions.</p>
 
                     <div class="ceem-hero-buttons d-flex flex-wrap mt-3" style="gap: 15px;">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Expert</a>
+                        <a href="contact-us.php" class="btn-talk">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a live demo</a>
                     </div>
 
@@ -466,7 +466,7 @@ $meta_description =
                                 <div class="ceem-ete-feat-icon-box">
                                     <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/ete-card-icon2.png" alt="Dimensional Analysis">
                                 </div>
-                                <span class="ceem-ete-feat-title">Dimensional<br>Analysis</span>
+                                <span class="ceem-ete-feat-title">Inspection<br>Report</span>
                             </div>
                             <div class="ceem-ete-feat-col">
                                 <div class="ceem-ete-feat-icon-box">
@@ -619,46 +619,46 @@ $meta_description =
                 
                 <!-- Card 1 -->
                 <div class="ceem-capex-card">
-                    <h3 class="ceem-capex-card-title"><span class="ceem-text-orange">3D Scanners</span><br>for Construction &amp; Earthmoving<br>Equipment</h3>
+                    <h3 class="ceem-capex-card-title text-center"><span class="ceem-text-orange">3D Scanners</span><br>for Construction &amp; Earthmoving<br>Equipment</h3>
                     <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img1.png" alt="3D Scanners for Construction &amp; Earthmoving Equipment" class="ceem-capex-hero-img">
                     
-                    <div class="ceem-capex-nested border-gray mt-2">
-                        <div class="ceem-capex-nested-left">
-                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img2.png" alt="Tracker-Based 3D Scanners">
-                            <span><strong>Tracker-Based<br>3D Scanners</strong></span>
+                    <div class="ceem-capex-nested ceem-nested-dual border-gray mt-2">
+                        <div class="ceem-dual-imgs">
+                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img2.png" alt="FreeScan Trak Nova" class="ceem-dual-img">
+                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img3.png" alt="FreeScan Trak ProW" class="ceem-dual-img">
                         </div>
-                        <div class="ceem-capex-nested-right align-self-center text-end">
-                            <a href="freescan-track-nova.php" class="d-flex justify-content-end align-items-center"><span class="ceem-text-orange me-2" style="font-size:11px;">FreeScan<br>Trak Nova</span> <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="ceem-dual-title">
+                            <span>Tracker-Based<br>3D Scanners</span>
                         </div>
-                    </div>
-                    
-                    <div class="ceem-capex-nested border-gray mt-2">
-                        <div class="ceem-capex-nested-left">
-                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img3.png" alt="Tracker-Based 3D Scanners">
-                            <span><strong>Tracker-Based<br>3D Scanners</strong></span>
-                        </div>
-                        <div class="ceem-capex-nested-right align-self-center text-end">
-                            <a href="freescan-trak-prow.php" class="d-flex justify-content-end align-items-center"><span class="ceem-text-orange me-2" style="font-size:11px;">FreeScan<br>Trak ProW</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    
-                    <div class="ceem-capex-nested border-gray mt-2">
-                        <div class="ceem-capex-nested-left">
-                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img4.png" alt="Laser Scanners">
-                            <span><strong>Laser Scanners</strong><br><small>(for large<br>environments)</small></span>
-                        </div>
-                        <div class="ceem-capex-nested-right align-self-center text-end">
-                            <a href="leica-rtc360-3d-laser-scanner.php" class="d-flex justify-content-end align-items-center"><span class="ceem-text-orange me-2" style="font-size:11px;">Leica<br>RTC360</span> <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="ceem-dual-links">
+                            <a href="freescan-track-nova.php">
+                                <span>FreeScan<br>Trak Nova</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="freescan-trak-prow.php">
+                                <span>FreeScan<br>Trak ProW</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
                     
-                    <div class="ceem-capex-nested border-gray mt-2 mb-3">
-                        <div class="ceem-capex-nested-left">
-                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img5.png" alt="Laser Scanners">
-                            <span><strong>Laser Scanners</strong><br><small>(for large<br>environments)</small></span>
+                    <div class="ceem-capex-nested ceem-nested-dual border-gray mt-2 mb-3">
+                        <div class="ceem-dual-imgs">
+                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img4.png" alt="EPIC T150" class="ceem-dual-img">
+                            <img src="assets/images/dms-for-construction-earthmoving-equipment-manufacturing/capex-card1-img5.png" alt="FARO Focus Core" class="ceem-dual-img">
                         </div>
-                        <div class="ceem-capex-nested-right align-self-center text-end">
-                            <a href="faro-focus-core-laser-scanner.php" class="d-flex justify-content-end align-items-center"><span class="ceem-text-orange me-2" style="font-size:11px;">FARO<br>Focus<br>Core</span> <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="ceem-dual-title">
+                            <span>Laser Scanners<br>(for large<br>environments)</span>
+                        </div>
+                        <div class="ceem-dual-links">
+                            <a href="https://wildplantts.com/high-precision-terrestrial-laser-scanner.html" target="_blank">
+                                <span>EPIC<br>T150</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="faro-focus-core-laser-scanner.php">
+                                <span>FARO<br>Focus<br>Core</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
                     
@@ -959,11 +959,11 @@ $meta_description =
                     <h3 class="ceem-boo-card-title text-danger">BUILD IN-HOUSE (CAPEX)</h3>
                     <strong>Best for:</strong>
                     <ul class="ceem-boo-list green-check-small">
-                        <li><i class="fa-solid fa-check"></i> Frequent 3D scanning and reverse engineering</li>
-                        <li><i class="fa-solid fa-check"></i> Daily quality control and inspection</li>
-                        <li><i class="fa-solid fa-check"></i> Internal new-product development and tool rooms</li>
-                        <li><i class="fa-solid fa-check"></i> Production inspection</li>
-                        <li><i class="fa-solid fa-check"></i> Long-term capability building</li>
+                        <li><i class="fa-solid fa-check"></i> Frequent Scanning and Reverse Engineering</li>
+                        <li><i class="fa-solid fa-check"></i> Daily QC &amp; Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> Internal NPD &amp; Tool Rooms</li>
+                        <li><i class="fa-solid fa-check"></i> Production Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> Long-Term Capability Building</li>
                     </ul>
                     <a href="3d-products.php" class="ceem-boo-btn orange">EXPLORE CAPEX SOLUTIONS</a>
                     
@@ -976,11 +976,11 @@ $meta_description =
                     <h3 class="ceem-boo-card-title text-success">USE OUR ENGINEERING TEAM (OPEX)</h3>
                     <strong>Best for:</strong>
                     <ul class="ceem-boo-list green-check-circle-small">
-                        <li><i class="fa-regular fa-circle-check"></i> One-time projects and immediate requirements</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Technology evaluation</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Specialized inspections</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Benchmarking projects</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Occasional reverse engineering</li>
+                        <li><i class="fa-regular fa-circle-check"></i> One-Time Projects &amp; Immediate Requirements</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Technology Evaluation</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Specialized Inspections</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Benchmarking Projects</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Occasional Reverse Engineering</li>
                     </ul>
                     <a href="3d-services.php" class="ceem-boo-btn orange">EXPLORE ENGINEERING SERVICES</a>
                 </div>

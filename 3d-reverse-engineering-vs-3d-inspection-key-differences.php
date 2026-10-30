@@ -82,7 +82,7 @@
                     
                     <div class="hero-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-primary-orange">Schedule Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-outline-orange">Talk to Inspection Expert</a>
+                        <a href="contact-us.php" class="btn btn-outline-orange">Talk to Inspection Expert</a>
                     </div>
                     
                     <div class="contact-info">
@@ -649,7 +649,7 @@
                 <div class="col-lg-5 d-flex justify-content-lg-center mt-4 mt-lg-0">
                     <div class="hero-buttons-2" style="margin-bottom: 0;">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-primary-orange">Schedule Live Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-outline-orange">Talk to Inspection Expert</a>
+                        <a href="contact-us.php" class="btn btn-outline-orange">Talk to Inspection Expert</a>
                     </div>
                 </div>
             </div>

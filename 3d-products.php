@@ -149,7 +149,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 aria-label="Explore 3D Scanners">
                                 Explore Scanners
                             </a>
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"
+                            <a href="contact-us.php"
                                 id="b26-btn-expert"
                                 class="b26-btn b26-btn-secondary"
                                 aria-label="Talk to an Expert">

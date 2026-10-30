@@ -90,7 +90,7 @@
                        <!-- Interactive Buttons -->
                        <div class="tracker-hero-buttons">
                            <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="tracker-btn">Book Live Demo</a>
-                           <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="tracker-btn">Talk to Metrology Expert</a>
+                           <a href="contact-us.php" class="tracker-btn">Talk to Metrology Expert</a>
                        </div>
                        
                        <!-- Horizontal Bottom Icons checklist -->

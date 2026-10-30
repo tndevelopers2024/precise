@@ -1215,7 +1215,7 @@
                     <div class="rcta-btn-group ms-lg-auto me-lg-0 mx-auto">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn rcta-btn-solid">Schedule Live Demo</a>
                         <a href="buy-einstar-and-einscan-3d-scanner-online-in-india.php" class="btn rcta-btn-solid">Get Pricing</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn rcta-btn-outline">Talk to an Expert</a>
+                        <a href="contact-us.php" class="btn rcta-btn-outline">Talk to an Expert</a>
                         <a href="#" class="btn rcta-btn-outline">Download Brochure</a>
                     </div>
                 </div>

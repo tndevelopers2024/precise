@@ -257,7 +257,7 @@
                     <h2>FreeScan Omni Lite: <br>If You Want Flexibility</h2>
                     <p>FreeScan Omni Lite is a modular version built on the same platform. You can start with the base system and unlock additional features as your requirements grow. It's useful if you want to scale gradually instead of investing everything up front.</p>
                     <div class="cta-btns">
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cta-primary">Talk to an Expert</a>
+                        <a href="contact-us.php" class="btn-cta-primary">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cta-outline">Schedule a Demo</a>
                     </div>
                 </div>
@@ -346,7 +346,7 @@
             <p class="sub-text">Because once you experience a full on-site workflow, it's very hard to go back.</p>
             
             <div class="use-case-btns">
-                <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-use-primary">Talk to an Expert</a>
+                <a href="contact-us.php" class="btn-use-primary">Talk to an Expert</a>
                 <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-use-dark">Schedule a Demo</a>
             </div>
         </div>

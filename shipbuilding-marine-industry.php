@@ -79,7 +79,7 @@ $meta_description =
                     </p>
 
                     <div class="smi-hero-actions">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="smi-btn-solid">Talk to an Expert</a>
+                        <a href="contact-us.php" class="smi-btn-solid">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="smi-btn-outline">Book a live demo</a>
                     </div>
 

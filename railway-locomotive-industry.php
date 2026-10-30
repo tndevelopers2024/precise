@@ -89,7 +89,7 @@ $meta_description =
                     <p class="rli-hero-desc text-white">From new product development to refurbishment, modification, spare-part manufacturing and quality controlâ€”Precise3DM delivers a complete digital manufacturing ecosystem built for the rail industry.</p>
 
                     <div class="rli-hero-buttons d-flex flex-wrap mt-4" style="gap: 20px;">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Expert</a>
+                        <a href="contact-us.php" class="btn-talk">Talk to an Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a live demo</a>
                     </div>
 

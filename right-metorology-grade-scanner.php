@@ -74,7 +74,7 @@ $keywords = "Industrial 3D Scanner, Shining 3D, Metrology Scanner, Inspection So
 
                     <div class="hero-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" type="button" class="hero-btn active-btn">Book Live Demo</a>
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" type="button" class="hero-btn inactive-btn">Talk to a Metrology Expert</a>
+                        <a href="contact-us.php" type="button" class="hero-btn inactive-btn">Talk to a Metrology Expert</a>
                     </div>
 
                     <!-- Stat Icons Row -->

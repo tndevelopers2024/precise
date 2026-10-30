@@ -673,7 +673,7 @@ ini_set('max_execution_time', '-1');
                             <li><span class="sbpi-capex-tick">&#10004;</span> Long Term ROI</li>
                         </ul>
 
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="sbpi-co-btn">Talk to Product Expert</a>
+                        <a href="contact-us.php" class="sbpi-co-btn">Talk to Product Expert</a>
                     </div>
                 </div>
 

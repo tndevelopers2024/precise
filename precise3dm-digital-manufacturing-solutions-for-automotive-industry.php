@@ -87,7 +87,7 @@ $meta_description =
                     <p class="hero-desc text-white">Empowering OEMs, Tier-1 & Tier-2 suppliers, EV manufacturers and component makers with 3D scanning, reverse engineering, 3D printing and inspection solutions to accelerate innovation, ensure quality and stay ahead in a competitive market.</p>
 
                     <div class="hero-buttons d-flex flex-wrap mt-4" style="gap: 20px;">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-talk">Talk to an Automotive Expert</a>
+                        <a href="contact-us.php" class="btn-talk">Talk to an Automotive Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-demo">Book a live demo</a>
                     </div>
 

@@ -81,7 +81,7 @@ $meta_description =
                     </p>
                     
                     <div class="evm-btn-group">
-                        <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="evm-btn-primary">Talk to an EV Manufacturing Expert</a>
+                        <a href="contact-us.php" class="evm-btn-primary">Talk to an EV Manufacturing Expert</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="evm-btn-outline">Book a Live Demo</a>
                     </div>
                     

@@ -107,7 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <div class="fvtdb-hero-btns d-flex flex-wrap gap-4 mb-5">
                             <a href="contact-us.php" class="fvtdb-btn-primary">Request Teardown Proposal</a>
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="fvtdb-btn-primary">Talk to Metrology Expert</a>
+                            <a href="contact-us.php" class="fvtdb-btn-primary">Talk to Metrology Expert</a>
                         </div>
 
                         <!-- Email Info -->

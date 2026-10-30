@@ -593,7 +593,7 @@ $meta_description = "Compare Manufactured Parts Directly Against Engineering Dra
                                 <li><i class="fa-solid fa-circle-check"></i> Technical Support</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Long-Term ROI</li>
                             </ul>
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="opt-btn">Talk to Product Expert</a>
+                            <a href="contact-us.php" class="opt-btn">Talk to Product Expert</a>
                         </div>
                         <div class="opt-img-box">
                             <img src="assets/images/2d-drawing-based-inspection-using-3d-scan/option-card1-img.png" alt="CAPEX Option">

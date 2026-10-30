@@ -175,7 +175,7 @@
 
                         <div class="buttons">
                             <a href="https://www.precise3dm.com/Get-3d-scan-service-quote.php" class="btn">Get Quote</a>
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn">Talk to an Expert</a>
+                            <a href="contact-us.php" class="btn">Talk to an Expert</a>
                         </div>
 
                         <div class="email-widget">
@@ -707,7 +707,7 @@
                         <h2 class="cta-title text-white mb-3">Ready to scan large assets without<br><span class="text-orange">markers, delays or downtime?</span></h2>
                         <p class="cta-desc text-white mb-4">Talk to Precise3DM and plan your onsite dynamic<br>tracking 3D scanning project with confidence.</p>
                         <div class="d-flex flex-wrap gap-3">
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn btn-cta-primary">Talk to an Expert</a>
+                            <a href="contact-us.php" class="btn btn-cta-primary">Talk to an Expert</a>
                             <a href="https://wa.me/c/919840478347" class="btn btn-cta-secondary d-flex align-items-center">
                                 <span class="whatsapp-icon"><i class="fab fa-whatsapp"></i></span> Chat on whatsapp
                             </a>

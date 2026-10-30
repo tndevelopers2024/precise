@@ -269,7 +269,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 aria-label="Explore Scanners">
                                 Explore Scanners
                             </a>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php"
+                            <a href="contact-us.php"
                                 class="rental-btn rental-btn-outline"
                                 aria-label="Talk to an Expert">
                                 Talk to an Expert

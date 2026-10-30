@@ -89,7 +89,7 @@ $meta_description = "Industrial 3D Scanning, Reverse Engineering & 3D Inspection
                             <a href="Get-3d-scan-service-quote.php" class="btn-orange-outline">Book Onsite Demo</a>
                         </div>
                         <div class="cta-row-2">
-                            <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-orange-full">
+                            <a href="contact-us.php" class="btn-orange-full">
                                 <i class="fa-solid fa-phone-volume"></i> Talk to 3D Scanning Expert
                             </a>
                         </div>

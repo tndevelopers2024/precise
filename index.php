@@ -310,7 +310,7 @@
                            <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
                            <a href="3d-Reverse-Engineering-Services-in-india.php" class="nh-flow-pill">Design</a>
                            <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
-                           <a href="3d-printing-service-in-india.php" class="nh-flow-pill">3D Print</a>
+                           <a href="industrial-3d-printers-for-real-world-manufacturing.php" class="nh-flow-pill">3D Print</a>
                            <i class="fa-solid fa-arrow-right nh-flow-arrow"></i>
                            <a href="3d-inspection-service.php" class="nh-flow-pill">3D Inspect</a>
                         </div>
@@ -723,7 +723,7 @@
                         <span>LAUNCHING FREESCAN COMBO+ WIRELESS</span>
                         <img src="assets/images/home-new/india-flag.svg" alt="India Flag" class="nh-flag-icon">
                         <span>NOW IN INDIA</span>
-                     </div>
+                      </div>
 
                      <!-- Call Us Now Contact (Desktop) -->
                      <div class="nh-top-contact">
@@ -974,7 +974,7 @@
                            <span>Software</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
-                        <a href="peek-3d-printers-in-india.php" class="wwp-subpill wwp-subpill-orange">
+                        <a href="industrial-3d-printers-for-real-world-manufacturing.php" class="wwp-subpill wwp-subpill-orange">
                            <span>3D Printers</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
@@ -1093,12 +1093,12 @@
                            <span>3D Inspection</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
-                        <a href="3d-scan-based-new-product-development-solutions.php" class="wwp-subpill wwp-subpill-navy">
-                           <span>Product Development</span>
+                        <a href="3d-scanning-services-in-india.php" class="wwp-subpill wwp-subpill-navy">
+                           <span>3D Scanning</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
-                        <a href="long-range-3d-scanning-service-india.php" class="wwp-subpill wwp-subpill-navy">
-                           <span>Large Part</span>
+                        <a href="3d-printing-service-in-india.php" class="wwp-subpill wwp-subpill-navy">
+                           <span>3D Printing</span>
                            <span class="wwp-subpill-arrow"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
                      </div>

@@ -2066,7 +2066,7 @@
             </a>
 
             <!-- Card 12 -->
-            <a href="digital-manufacturing-solutions-for-heavy-engineering-manufacturing.php" class="iws-card">
+            <a href="digital-manufacturing-solution-for-construction-earthmoving-equipment-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img12.png" alt="Construction &amp; Earthmoving Equipment" class="iws-card-img">
                   <div class="iws-badge">

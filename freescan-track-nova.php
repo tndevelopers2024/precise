@@ -324,7 +324,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="col-head">
                         <h3>Dynamic Tracking in a Compact, Portable Unit (It's unlike traditional tracking systems)</h3>
                       </div>
-                      <p>In traditional laser tracker scanners, the tracker is fixed on the tripod while the 3D scanner moves for position tracking to scan without a marker. With Track Nova dynamic tracking, both the scanner and tracker can move, enabling accurate 3D point data acquisition in confined spaces and harsh factory environments.</p>
+                      <p>In traditional laser tracker scanners, the tracker is fixed on the tripod while the 3D scanner moves for position tracking to scan without a marker. With Trak Nova dynamic tracking, both the scanner and tracker can move, enabling accurate 3D point data acquisition in confined spaces and harsh factory environments.</p>
                     </div>
                   </div>
                   <div class="col col-12 col-lg-4">
@@ -435,7 +435,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="col-head mt-4">
                   <h3 class="text-center">Lightweight Design and Field Portability</h3>
                </div>
-               <p class="text-center">Track Nova is made using carbon fiber materials, both modules are lightweight and engineered for transport. The full system is housed in a compact carrying case for field readiness.</p>
+               <p class="text-center">Trak Nova is made using carbon fiber materials, both modules are lightweight and engineered for transport. The full system is housed in a compact carrying case for field readiness.</p>
                <div class="weight-img">
                 <img src="assets/images/freescan-track-nova/weight1.png" alt="">
                </div>
@@ -458,9 +458,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="col">
                 <div class="col-box">
                   <div class="col-head">
-                    <h3>Buy Track scan Nova from Precise3DM</h3>
+                    <h3>Buy Trak scan Nova from Precise3DM</h3>
                   </div>
-                  <p>At Precise3DM, we are an authorised master reseller for Shining3D metrology-grade 3D scanners. We offer an on-site POC demonstration of Freescan Track Nova in India. Once you become a user of Track Nova or UE Nova, you will be a premium customer of Precise3DM. We offer very good on-site training in two different phases, an SOP for scanner usage, and peace-of-mind warranty coverage. Our Goal is to equip our customers with the right 3D scanner for metrology applications..</p>
+                  <p>At Precise3DM, we are an authorised master reseller for Shining3D metrology-grade 3D scanners. We offer an on-site POC demonstration of Freescan Trak Nova in India. Once you become a user of Trak Nova or UE Nova, you will be a premium customer of Precise3DM. We offer very good on-site training in two different phases, an SOP for scanner usage, and peace-of-mind warranty coverage. Our Goal is to equip our customers with the right 3D scanner for metrology applications..</p>
                   <div class="btns" style="display:flex; flex-wrap:wrap; gap:20px;">
                     <a href="About_us.php" class="btn">Learn more</a>
                     <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Your Demo Today</a>

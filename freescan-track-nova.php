@@ -156,6 +156,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
+
+<style>
+   .blog img{
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background: wheat;
+   }
+</style>
 </head>
 
 <body>
@@ -246,7 +255,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h2 class="container-head text-center mb-3">Compact In Size Yet High <br> Measurement Performance</h2>
             <p class="text-center">Engineered for high-precision measurement across industries such as construction machinery, rail systems, aerospace, and energy, the FreeScan Trak Nova is optimised for portable, accurate, large-scale 3D data acquisition. Its performance-driven design enables seamless use in both confined and open-field environments.</p>
             <div class="text-center">
-              <a href="assets/images/freescan-track-nova/FreeScan-Trak-Nova-Brochure-2025.pdf" download class="btn">Download Brochure</a>
+              <a href="assets/images/freescan-track-nova/FreeScan-Trak-Nova-Series.pdf" download class="btn">Download Brochure</a>
             </div>
             <div class="row row-cols-1 row-cols-lg-3 mt-5">
               <div class="col">

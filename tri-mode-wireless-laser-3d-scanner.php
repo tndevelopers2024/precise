@@ -1216,7 +1216,7 @@
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn rcta-btn-solid">Schedule Live Demo</a>
                         <a href="buy-einstar-and-einscan-3d-scanner-online-in-india.php" class="btn rcta-btn-solid">Get Pricing</a>
                         <a href="contact-us.php" class="btn rcta-btn-outline">Talk to an Expert</a>
-                        <a href="#" class="btn rcta-btn-outline">Download Brochure</a>
+                        <a href="assets/images/tri-mode-wireless-laser-3d-scanner/EinScan-rigil-series-brochure.pdf" class="btn rcta-btn-outline">Download Brochure</a>
                     </div>
                 </div>
 

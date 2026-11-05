@@ -640,6 +640,7 @@
                         <div class="nh-hero-actions">
                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="nh-btn-primary">Request a Live Demo &rarr;</a>
                            <a href="brochures/EinScan-Trak-Brochure.pdf" download target="_blank" class="nh-btn-outline-orange">Download Brochure &darr;</a>
+                           <a href="einscan-trak-3d-scanner-in-india.php" download target="_blank" class="nh-btn-outline-orange">Know More</a>
                         </div>
 
                         <!-- 6 Feature Icons Row -->
@@ -766,6 +767,7 @@
                         <div class="nh-hero-actions">
                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="nh-btn-primary">Request a Live Demo &rarr;</a>
                            <a href="brochures/FreeScan Combo+ Wireless.pdf" download target="_blank" class="nh-btn-outline-orange">Download Brochure &darr;</a>
+                           <a href="freescan-combo-plus.php" download target="_blank" class="nh-btn-outline-orange">Know More</a>
                         </div>
 
                         <!-- 4 Feature Icons Row -->

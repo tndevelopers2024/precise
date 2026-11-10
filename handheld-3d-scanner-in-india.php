@@ -193,6 +193,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5FX95R9');</script>
 <!-- End Google Tag Manager -->
+
+<style>
+    .scanner-cards-wrapper{
+        grid-template-columns: repeat(6,1fr);
+    }
+</style>
 </head>
 
 <body>
@@ -302,6 +308,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <h2 class="text-center choose-heading">Choose the Right <span class="text-orange">Handheld Scanner</span></h2>
             
             <div class="scanner-cards-wrapper mt-5">
+                <!-- Card 0 -->
+                <div class="scanner-card">
+                    <div class="scanner-img-box">
+                        <img src="assets/images/freescan-combo-plus/scanner-image.png" alt="FreeScan Combo Series" class="img-fluid">
+                    </div>
+                    <div class="scanner-card-body">
+                        <h4 class="scanner-title">FreeScan Combo Plus</h4>
+                        <div class="badge-outline-pill">Entry Level Metrology</div>
+                        <ul class="scanner-features">
+                            <li>Lightweight</li>
+                            <li>Blue laser</li>
+                            <li>Inspection</li>
+                        </ul>
+                    </div>
+                    <div class="scanner-card-footer">
+                        <a href="freescan-combo-plus.php" class="btn-know-more">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
                 <!-- Card 1 -->
                 <div class="scanner-card">
                     <div class="scanner-img-box">

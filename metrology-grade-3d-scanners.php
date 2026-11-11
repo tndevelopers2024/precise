@@ -397,7 +397,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                            <img src="assets/images/metrology-3d-scanners/top1.png" alt="">
                        </div>
                        <div class="category-content">
-                           <h3>A. Handheld Leaser <span>3D Scanners</span></h3>
+                           <h3>A. Handheld Laser <span>3D Scanners</span></h3>
                            <p class="description">Flexible, portable, and built for on-site inspection of medium to large parts.</p>
                            <p class="description">Move around the part. Capture from every angle. Get accurate data without setup limitations.</p>
                            
@@ -443,7 +443,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                            <img src="assets/images/metrology-3d-scanners/top2.png" alt="">
                        </div>
                        <div class="category-content">
-                           <h3>B. Tracking Based<span>3D Scanner</span></h3>
+                           <h3>B. Tracked Based<span>3D Scanner</span></h3>
                            <p class="description">For large parts where stability and scale matter.</p>
                            <p class="description">Scan without markers. Track in real time. Measure large volumes with confidence.</p>
                            

@@ -173,7 +173,7 @@
                         </div>
 
                         <!-- CTA Button -->
-                        <a href="funmat-pro.php" class="btn-mpt-action">
+                        <a href="peek-3d-printers-in-india.php" class="btn-mpt-action">
                             Explore PEEK 3D Printers <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -657,7 +657,7 @@
                 </a>
 
                 <!-- Card 12: Construction & Earthmoving Equipment -->
-                <a href="#" class="bfma-card">
+                <a href="digital-manufacturing-solution-for-construction-earthmoving-equipment-manufacturing.php" class="bfma-card">
                     <div class="bfma-card-img-wrap">
                         <img src="assets/images/industrial-3d-printers-for-real-world-manufacturing/bfma-card12-img.png" alt="Construction & Earthmoving Equipment" class="img-fluid" loading="lazy">
                     </div>

@@ -63,7 +63,7 @@ $meta_description =
                 <div class="col-lg-7 col-md-12 dms-hero-left z-2">
                     <h1 class="dms-title">
                         Digital Manufacturing<br>
-                        Solutions for <span class="dms-text-orange">Defense<br>Manufacturing</span>
+                        Solutions for <span class="dms-text-orange">Defence<br>Manufacturing</span>
                     </h1>
                     
                     <h2 class="dms-subtitle">

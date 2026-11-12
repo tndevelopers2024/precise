@@ -1,5 +1,5 @@
 <?php
-$page_title = "Digital Manufacturing Solutions for Defense Manufacturing | Precise3DM";
+$page_title = "Digital Manufacturing Solutions for Defence Manufacturing | Precise3DM";
 $meta_description =
     "Precise3DM empowers defence OEMs, DPSUs, weapon manufacturers and component suppliers with advanced 3D scanning, reverse engineering, 3D printing and inspection technologies to improve quality and indigenization.";
 ?>

@@ -229,7 +229,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         
                         <div class="hero-buttons">
                             <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-orange">Book Live Demo</a>
-                            <a href="assets/images/precise_brochure_pdf/HANDHELD%20METROLOGY%203D%20SCANNING.pdf" target="_blank" class="btn-orange">Download Brochure</a>
+                            <a href="brochures/Metrology-Products-Application-Catalogue.pdf" download target="_blank" class="btn-orange">Download Brochure</a>
                         </div>
 
                         <div class="contact-widget email-widget-container">
@@ -317,9 +317,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <h4 class="scanner-title">FreeScan Combo Plus</h4>
                         <div class="badge-outline-pill">Entry Level Metrology</div>
                         <ul class="scanner-features">
-                            <li>Lightweight</li>
-                            <li>Blue laser</li>
-                            <li>Inspection</li>
+                            <li>Wireless 3D scanning</li>
+                            <li>Portable on-site scanning and measurement</li>
+                            <li>Direct scanning in sunlight</li>
+                            <li>Inbuilt VPG for large parts</li>
                         </ul>
                     </div>
                     <div class="scanner-card-footer">
@@ -671,7 +672,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                 
                 <div class="cta-middle">
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn-solid-orange">
+                    <a href="contact-us.php" class="btn-solid-orange">
                         <img src="assets/images/3d-handheld-scanner/c3sse_right_member.png" class="btn-icon" alt="User"> 
                         Talk to an Application Engineer
                     </a>

@@ -1,7 +1,7 @@
 <?php
 $title = "Entry Level 3D Scanners in India | Affordable Beginner 3D Scanners";
 $description = "Affordable entry-level 3D scanners for education, design, art, product development, and beginners. Easy-to-use scanners with reliable accuracy.";
-$keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, Einscan Rigil Lite, Precise3DM";
+$keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rockit, Einscan Rigil Lite, Precise3DM";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -134,7 +134,7 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
                     <h1 class="hero-title">Entry-Level <span>3D Scanners</span></h1>
                     <h2 class="hero-subtitle">Buy Entry-Level 3D Scanners Online in India Demo Live Before You Decide
                     </h2>
-                    <p class="hero-desc">Explore Einstar 2, Einstar Vega, Einscan Rock It & Einscan Rigil Lite.</p>
+                    <p class="hero-desc">Explore Einstar 2, Einstar Vega, Einscan Rockit & Einscan Rigil Lite.</p>
 
                     <ul class="list-unstyled hero-list">
                         <li><i class="fa-solid fa-check"></i> See live demo on Zoom in your language</li>
@@ -287,10 +287,10 @@ $keywords = "Entry-Level 3D Scanners, Einstar 2, Einstar Vega, Einscan Rock It, 
                 <div class="item">
                     <div class="scanner-card">
                         <div class="scanner-img-wrapper">
-                            <img src="assets/images/entry-level/img3.png" alt="Einscan Rock It">
+                            <img src="assets/images/entry-level/img3.png" alt="Einscan Rockit">
                         </div>
                         <div class="scanner-details">
-                            <h3 class="scanner-name">Einscan Rock It</h3>
+                            <h3 class="scanner-name">Einscan Rockit</h3>
                             <h4 class="scanner-type">Smart & Fast 3D Scanner</h4>
                             <ul class="scanner-features">
                                 <li>Fast scanning for productivity</li>

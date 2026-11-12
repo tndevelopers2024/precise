@@ -275,7 +275,7 @@ $meta_description =
                     ['img' => 'inws-img5.png', 'icon' => 'inws-icon5.png', 'name' => 'Shipbuilding & Marine', 'url' => 'shipbuilding-marine-industry.php'],
                     
                     ['img' => 'inws-img6.png', 'icon' => 'inws-icon6.png', 'name' => 'Aerospace', 'url' => 'digital-manufacturing-solutions-for-aerospace-manufacturing.php'],
-                    ['img' => 'inws-img7.png', 'icon' => 'inws-icon7.png', 'name' => 'Defence', 'url' => 'defense-manufacturing.php'],
+                    ['img' => 'inws-img7.png', 'icon' => 'inws-icon7.png', 'name' => 'Defence', 'url' => 'defence-manufacturing.php'],
                     ['img' => 'inws-img8.png', 'icon' => 'inws-icon8.png', 'name' => 'Medical Device', 'url' => 'digital-manufacturing-solutions-for-medical-device-manufacturing.php'],
                     ['img' => 'inws-img9.png', 'icon' => 'inws-icon9.png', 'name' => 'Orthopaedic Implant', 'url' => 'digital-manufacturing-solutions-for-medical-device-manufacturing.php'],
                     ['img' => 'inws-img10.png', 'icon' => 'inws-icon10.png', 'name' => 'Industrial Machinery', 'url' => 'industrial-machinery-manufacturing.php'],

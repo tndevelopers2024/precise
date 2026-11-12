@@ -592,7 +592,7 @@
                 </a>
 
                 <!-- Card 7: Defence -->
-                <a href="defense-manufacturing.php" class="bfma-card">
+                <a href="defence-manufacturing.php" class="bfma-card">
                     <div class="bfma-card-img-wrap">
                         <img src="assets/images/industrial-3d-printers-for-real-world-manufacturing/bfma-card7-img.png" alt="Defence" class="img-fluid" loading="lazy">
                     </div>

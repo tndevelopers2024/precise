@@ -1828,7 +1828,7 @@
             </a>
 
             <!-- Card 7 -->
-            <a href="defense-manufacturing.php" class="iws-card">
+            <a href="defence-manufacturing.php" class="iws-card">
                <div class="iws-card-img-wrap">
                   <img src="assets/images/home-new/iws-img7.png" alt="Defence" class="iws-card-img">
                   <div class="iws-badge">

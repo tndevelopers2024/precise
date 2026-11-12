@@ -11,3 +11,5 @@ docs/
 .zed
 .DS_Store
 prompt.md
+graphify-out
+.graphifyignore

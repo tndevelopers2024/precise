@@ -215,7 +215,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               
               <div class="row row-cols-lg-2 row-cols-1 hero-row">
               
-                <div class="col mt-3">
+                <div class="col col-lg-8 mt-3">
                   <div class="hero-left">  
                     <h1 class="hero-head "><span>Metrology-Grade</span> 3D Scanners You Can Trust</h1>
                     <div class="d-flex align-items-center">
@@ -229,6 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="d-flex flex-wrap">
                         <a href="3d-scanners-in-india.php" class="btn">Explore Scanners</a>
                         <a class="ml-lg-2 mt-2 mt-lg-0 btn" href="Book-demo-get-quote-for-3D-scanner.php">Book a Demo</a>
+                        <a class="ml-lg-2 mt-2 mt-lg-0 btn" href="brochures/Metrology-Products-Application-Catalogue.pdf">Download Brochure</a>
                     </div>
                     <div class="mail mt-5">
                       <a href="mailto:sm@precise3dm.com" class="btn">

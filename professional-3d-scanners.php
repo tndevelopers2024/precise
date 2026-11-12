@@ -72,6 +72,7 @@
                         <div class="prof-cta-group">
                             <a href="3d-scanners-in-india.php" class="prof-btn prof-btn-primary">Explore Scanners</a>
                             <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="prof-btn prof-btn-outline">Book a Live Demo</a>
+                            <a href="brochures/EinScan-Einstar-Product-Application-Catalogue.pdf" class="prof-btn prof-btn-outline">Download Brochure</a>
                         </div>
 
                         <div class="prof-contact-bottom">

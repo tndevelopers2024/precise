@@ -555,7 +555,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <a id="mainVideoLink" href="http://youtube.com/watch?v=qfbQfVtBm8E">
                         <img id="mainVideo" src="assets/images/freescan-track-nova/yt1.png" alt="">
                      </a>
-                     <p id="mainVideoTitle">FreeScan Trak Pro2 in the Real World</p>
+                     <p id="mainVideoTitle">Unboxing EINSTAR VEGA - the new Shining 3D wireless 3D scanner</p>
                      <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
                      <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
                   </div>
@@ -567,7 +567,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                            <a href="https://www.youtube.com/watch?v=ZSjOrjzOjRU">
                               <img src="assets/images/freescan-track-nova/yt2.png" alt="">
                            </a>
-                           <p>FreeScan Trak Pro2: A Brief Product Introduction</p>
+                           <p>EINSTAR VEGA | The New Wireless All-in-One 3D Scanner</p>
                         </div>
                      </div>
                      <div class="col mt-0 mt-lg-3">
@@ -575,7 +575,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                            <a href="https://www.youtube.com/watch?v=A_2FAK2JbV8">
                               <img src="assets/images/freescan-track-nova/yt3.png" alt="">
                            </a>
-                           <p>How the FreeScan Trak Pro2 Accelerates EV Battery Tray Inspection</p>
+                           <p>All-In-One 3D Scanner: Testing the Einstar VEGA</p>
                         </div>                        
                      </div>
                   </div>

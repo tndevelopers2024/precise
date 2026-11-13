@@ -304,7 +304,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   First Marker-Free Laser 3D Scanner
                </p>
                <div class="buttons">
-                  <a class="button1" href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php">Get Quote</a>
+                  <a class="button1" href="scanning-solution-form.php">Get Quote</a>
                   <a class="button2" href="assets/images/product-gallery/FreeScan-Trio-Brochure-2025.pdf">Download Brochure</a>
                </div>
                <div class="mail">
@@ -654,7 +654,6 @@ In addition to its primary 98-laser-line mode, the FreeScan Trio offers versatil
             <div class="col-lg-4">
                <img src="assets/images/new-page/img18.png" alt="">
             </div>
-            <a class=" view-more-img mt-4" href="">View More <img src="assets/images/new-page/img19.svg" alt=""></a>
          </div>
       </div>
    </section>

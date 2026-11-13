@@ -6,7 +6,7 @@
    <meta name text-white="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <title>FreeScan UE Pro 2 | High-Precision Portable 3D Scanner</title>
+   <title>FreeScan UE Pro2 | High-Precision Portable 3D Scanner</title>
    <meta name="description"
       content="Discover the FreeScan UE, a high-precision portable 3D scanner. Perfect for industrial applications with exceptional accuracy, speed, and reliability.">
    <meta name="keywords"
@@ -22,7 +22,7 @@
    <meta name="twitter:description"
       content="Discover the FreeScan UE, a high-precision portable 3D scanner. Perfect for industrial applications with exceptional accuracy, speed, and reliability." />
    <meta property="og:type" content="3D Scanning" />
-   <meta property="og:title" content="FreeScan UE Pro 2 | High-Precision Portable 3D Scanner | Precise3D" />
+   <meta property="og:title" content="FreeScan UE Pro2 | High-Precision Portable 3D Scanner | Precise3D" />
    <meta property="og:url" content="https://www.precise3dm.com/freescan-ue-pro2.php" />
    <meta property="og:image" content="https://www.precise3dm.com/assets/images/about-logo.png" />
    <meta property="og:description"
@@ -78,7 +78,7 @@
         "@type": "WebPage",
         "@id": "https://www.precise3dm.com/freescan-ue-pro2.php"
       },
-      "headline": "FreeScan UE Pro 2 | High-Precision Portable 3D Scanner | Precise3D",
+      "headline": "FreeScan UE Pro2 | High-Precision Portable 3D Scanner | Precise3D",
       "description": "Discover the FreeScan UE, a high-precision portable 3D scanner. Perfect for industrial applications with exceptional accuracy, speed, and reliability.",
       "image": "https://www.precise3dm.com/assets/images/freescan-ue/img1.png",  
       "author": {
@@ -573,7 +573,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <h2 class="about-head">Overview</h2>
                   <a href="assets/images/freescan-ue/FreeScan-UE-Pro2-Brochure-2025.pdf"> <button class="btn">Download Brochure</button></a>
                </div>
-               <p class="pt-5">The FreeScan UE Pro 2 is an industrial handheld 3D scanner designed for professionals who
+               <p class="pt-5">The FreeScan UE Pro2 is an industrial handheld 3D scanner designed for professionals who
                   require high-precision scans without sacrificing mobility. With cutting-edge wireless technology and a
                   lightweight design, this scanner allows you to capture detailed 3D data efficiently, even in
                   challenging environments.
@@ -686,7 +686,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     background-repeat: no-repeat;
     background-size: cover; border-radius:20px;" class="before1 text-left mx-5 px-5 mt-5">
       <h2 class="text-white ban-head"><img src="assets/images/freescan-ue/icon4.png" alt=""> Elevated Accuracy for Large-Scale Scans </h2>
-      <p>UE Pro 2 uses binocular photogrammetry which is more easily and accurately determine three-dimensional space,  so No need of coded targets and can quickly obtain more photos in more angles and hence obtain high accuracy in data calculation.
+      <p>UE Pro2 uses binocular photogrammetry which is more easily and accurately determine three-dimensional space,  so No need of coded targets and can quickly obtain more photos in more angles and hence obtain high accuracy in data calculation.
       </p>
    </section>
 
@@ -694,7 +694,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     background-repeat: no-repeat;
     background-size: cover; border-radius:20px;" class="before1 text-left mx-5 px-5 mt-5">
       <h2 class="text-white ban-head"><img src="assets/images/freescan-ue/icon5.png" alt=""> Certified and Guaranteed Results </h2>
-      <p>UE Pro 2 uses binocular photogrammetry which is more easily and accurately determine three-dimensional space,  so No need of coded targets and can quickly obtain more photos in more angles and hence obtain high accuracy in data calculation.
+      <p>UE Pro2 uses binocular photogrammetry which is more easily and accurately determine three-dimensional space,  so No need of coded targets and can quickly obtain more photos in more angles and hence obtain high accuracy in data calculation.
       </p>
    </section>
 
@@ -703,13 +703,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     background-position: center;
     background-size: cover; border-radius:20px;" class="before1 text-left mx-5 px-5 mt-5">
       <h2 class="text-white ban-head">Scan Indoors and Outdoors </h2>
-      <p>UE Pro 2 uses binocular photogrammetry which is more easily and accurately determine three-dimensional space,  so No need of coded targets and can quickly obtain more photos in more angles and hence obtain high accuracy in data calculation.
+      <p>UE Pro2 uses binocular photogrammetry which is more easily and accurately determine three-dimensional space,  so No need of coded targets and can quickly obtain more photos in more angles and hence obtain high accuracy in data calculation.
       </p>
    </section>
 
 
    <section class="advance-features">
-      <h2>Some Advance Features of <span>Freescan UE Pro 2 as</span></h2>
+      <h2>Some Advance Features of <span>Freescan UE Pro2 as</span></h2>
    </section>
 
    <section style="background-image: url(assets/images/freescan-ue/sbg6.png);
@@ -820,13 +820,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                      aria-expanded="true" aria-controls="collapseOne">
-                     <span style="margin-left:10px;">What is the accuracy of the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">What is the accuracy of the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  The FreeScan UE Pro 2 delivers a high-precision accuracy of up to 0.02mm, making it suitable for applications requiring detailed and accurate 3D data capture, such as quality inspection and reverse engineering.
+                  The FreeScan UE Pro2 delivers a high-precision accuracy of up to 0.02mm, making it suitable for applications requiring detailed and accurate 3D data capture, such as quality inspection and reverse engineering.
                   </div>
                </div>
             </div>
@@ -834,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     <span style="margin-left:10px;">How fast can the FreeScan UE Pro 2 scan objects?</span>
+                     <span style="margin-left:10px;">How fast can the FreeScan UE Pro2 scan objects?</span>
                   </button>
                </h2>
                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -848,13 +848,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <span style="margin-left:10px;"> Does the FreeScan UE Pro 2 support wireless scanning?</span>
+                     <span style="margin-left:10px;"> Does the FreeScan UE Pro2 support wireless scanning?</span>
                   </button>
                </h2>
                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  Yes, the FreeScan UE Pro 2 features an integrated wireless module for seamless data transmission without the need for cumbersome cables, making it ideal for on-site and fieldwork.
+                  Yes, the FreeScan UE Pro2 features an integrated wireless module for seamless data transmission without the need for cumbersome cables, making it ideal for on-site and fieldwork.
                   </div>
                </div>
             </div>
@@ -862,13 +862,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                     <span style="margin-left:10px;">How much does the FreeScan UE Pro 2 weigh?</span>
+                     <span style="margin-left:10px;">How much does the FreeScan UE Pro2 weigh?</span>
                   </button>
                </h2>
                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  The FreeScan UE Pro 2 weighs only 950g, making it lightweight and easy to use during prolonged scanning sessions or in the field.
+                  The FreeScan UE Pro2 weighs only 950g, making it lightweight and easy to use during prolonged scanning sessions or in the field.
                   </div>
                </div>
             </div>
@@ -878,13 +878,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingFive">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                     <span style="margin-left:10px;">What kind of surfaces can the FreeScan UE Pro 2 scan?</span>
+                     <span style="margin-left:10px;">What kind of surfaces can the FreeScan UE Pro2 scan?</span>
                   </button>
                </h2>
                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  Thanks to its blue laser technology, the FreeScan UE Pro 2 performs well on a variety of surfaces, including dark, reflective, or complex materials, delivering consistent, high-quality scans.
+                  Thanks to its blue laser technology, the FreeScan UE Pro2 performs well on a variety of surfaces, including dark, reflective, or complex materials, delivering consistent, high-quality scans.
                   </div>
                </div>
             </div>
@@ -893,13 +893,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingsix">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                     <span style="margin-left:10px;">Can the FreeScan UE Pro 2 be used in harsh environments?</span>
+                     <span style="margin-left:10px;">Can the FreeScan UE Pro2 be used in harsh environments?</span>
                   </button>
                </h2>
                <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  Yes, the FreeScan UE Pro 2 is designed for rugged conditions, making it ideal for industries like construction, aerospace, and automotive, where scanning in challenging environments is necessary.
+                  Yes, the FreeScan UE Pro2 is designed for rugged conditions, making it ideal for industries like construction, aerospace, and automotive, where scanning in challenging environments is necessary.
                   </div>
                </div>
             </div>
@@ -908,13 +908,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingseven">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                     <span style="margin-left:10px;">What types of objects can be scanned with the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">What types of objects can be scanned with the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  The FreeScan UE Pro 2 is versatile enough to scan a wide range of objects, from small, intricate parts to large-scale structures. It supports various industries, including manufacturing, medical, and research.
+                  The FreeScan UE Pro2 is versatile enough to scan a wide range of objects, from small, intricate parts to large-scale structures. It supports various industries, including manufacturing, medical, and research.
                   </div>
                </div>
             </div>
@@ -923,7 +923,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingeight">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-                     <span style="margin-left:10px;">Does the FreeScan UE Pro 2 require markers for scanning?</span>
+                     <span style="margin-left:10px;">Does the FreeScan UE Pro2 require markers for scanning?</span>
                   </button>
                </h2>
                <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight"
@@ -938,13 +938,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingnine">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                     <span style="margin-left:10px;">How easy is it to use the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">How easy is it to use the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                  The FreeScan UE Pro 2 is user-friendly, featuring an intuitive interface and automatic alignment and registration, which reduces manual setup and streamlines the scanning process
+                  The FreeScan UE Pro2 is user-friendly, featuring an intuitive interface and automatic alignment and registration, which reduces manual setup and streamlines the scanning process
                   </div>
                </div>
             </div>
@@ -953,7 +953,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingten">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
-                     <span style="margin-left:10px;">How accurate is the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">How accurate is the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten"
@@ -972,7 +972,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingtens">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsetens" aria-expanded="false" aria-controls="collapsetens">
-                     <span style="margin-left:10px;">What is the measurement area covered by the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">What is the measurement area covered by the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapsetens" class="accordion-collapse collapse" aria-labelledby="headingtens"
@@ -1001,7 +1001,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingtwelve">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
-                     <span style="margin-left:10px;">What are the dimensions and weight of the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">What are the dimensions and weight of the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapsetwelve" class="accordion-collapse collapse" aria-labelledby="headingtwelve"
@@ -1016,7 +1016,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingthirteen">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsethirteen" aria-expanded="false" aria-controls="collapsethirteen">
-                     <span style="margin-left:10px;">What is the power input requirement for the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">What is the power input requirement for the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapsethirteen" class="accordion-collapse collapse" aria-labelledby="headingthirteen"
@@ -1030,7 +1030,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingfourteen">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsefourteen" aria-expanded="false" aria-controls="collapsefourteen">
-                     <span style="margin-left:10px;"> Is the FreeScan UE Pro 2 certified for accuracy?</span>
+                     <span style="margin-left:10px;"> Is the FreeScan UE Pro2 certified for accuracy?</span>
                   </button>
                </h2>
                <div id="collapsefourteen" class="accordion-collapse collapse" aria-labelledby="headingfourteen"
@@ -1045,7 +1045,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="accordion-header" id="headingfifteen">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                      data-bs-target="#collapsefifteen" aria-expanded="false" aria-controls="collapsefifteen">
-                     <span style="margin-left:10px;">What operating system is compatible with the FreeScan UE Pro 2?</span>
+                     <span style="margin-left:10px;">What operating system is compatible with the FreeScan UE Pro2?</span>
                   </button>
                </h2>
                <div id="collapsefifteen" class="accordion-collapse collapse" aria-labelledby="headingfifteen"

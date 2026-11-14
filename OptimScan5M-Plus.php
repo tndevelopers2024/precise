@@ -464,9 +464,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         font-size: 50px;
                        font-weight: 800;" class="about-head">OptimScan 5M Plus</h1>
                <p>OptimScan 5M Plus:  Elevating High-Precision 3D Scanning for 3D Inspection.</p>
-               <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"> <button class="btn">Get a
+               <a href="scanning-solution-form.php"> <button class="btn">Get a
                      Quote Now</button></a>
-               <a href="https://www.precise3dm.com/Book-demo-get-quote-for-3D-scanner.php"><button class="btn">Book
+               <a href="Book-demo-get-quote-for-3D-scanner.php"><button class="btn">Book
                      Demo</button></a>
                <!-- <div class="email">
                   <a href="mailto:sm@precise3dm.com" class="btn mail-btn">
@@ -545,8 +545,85 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
    <section id="technical" class="technical text-center pt-5">
       <h2 class="about-head">Technical <span>Specifications</span></h2>
-      <div class="container pt-3">
-         <img id="specification-img" src="assets/images/optimscan-plus/img3.jpg" alt="">
+      <div class="container pt-4">
+         <div class="optimscan-specs-container">
+            <div class="table-responsive optimscan-specs-table-wrap">
+               <table class="table optimscan-specs-table">
+                  <tbody>
+                     <tr>
+                        <td class="spec-name">Product Type</td>
+                        <td class="spec-model">5M Plus-400</td>
+                        <td class="spec-model">5M Plus-200</td>
+                        <td class="spec-model">5M Plus-100</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Single Scan Range</td>
+                        <td>400 mm &times; 300 mm</td>
+                        <td>200 mm &times; 150 mm</td>
+                        <td>100 mm &times; 75 mm</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Single Shot Accuracy</td>
+                        <td>0.015 mm</td>
+                        <td>0.01 mm</td>
+                        <td>0.005 mm</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Point Distance</td>
+                        <td>0.16 mm</td>
+                        <td>0.08 mm</td>
+                        <td>0.04 mm</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Working Distance</td>
+                        <td colspan="3">560 mm</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Camera Resolution</td>
+                        <td colspan="3">5.0 MP &times; 2</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Light Source</td>
+                        <td colspan="3">Blue light ( LED )</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Scan Speed</td>
+                        <td colspan="3">&lt; 1.5 s</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Scan Method</td>
+                        <td colspan="3">Non-contact structured light scanning</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Output Data Format</td>
+                        <td colspan="3">.asc, .stl, .obj, etc., and compatible with mainstream 3D software</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Working Temperature</td>
+                        <td colspan="3">0&deg; C &ndash; 40&deg; C</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Working Humidity</td>
+                        <td colspan="3">10% RH &ndash; 90% RH</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Scanner Weight</td>
+                        <td colspan="3">6.8 kg</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Size</td>
+                        <td colspan="3">432 mm &times; 300 mm &times; 200 mm</td>
+                     </tr>
+                     <tr>
+                        <td class="spec-name">Recommended Computer Configuration</td>
+                        <td colspan="3" class="spec-config">
+                           Graphics card: NVIDIA GTX 1080 or above; Video memory: &gt; 4 G; Processor: above i7 8700; Memory: &gt; 32 GB; Port: USB 3.0
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
       </div>
    </section>
 
@@ -1481,9 +1558,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             root.style.setProperty('--maincolor', '#ff931e');
             body.style.background = 'var(--backgroundcolor)';
             document.getElementById("overview-bg").style.backgroundColor = "#242424";
-            document.getElementById('specification-img').src = 'assets/images/optimscan-plus/img27.jpg';
+            var specImg = document.getElementById('specification-img');
+            if (specImg) {
+               specImg.src = 'assets/images/optimscan-plus/img27.jpg';
+               specImg.style.borderRadius = "15px";
+            }
             document.getElementById('overview-img').src = 'assets/images/optimscan-plus/img29.png';
-            document.getElementById('specification-img').style.borderRadius = "15px";
             document.getElementById('workflow').style.backgroundImage = 'url(assets/images/optimscan-plus/img28.png)';
             document.getElementById('bundle').style.backgroundImage = 'url(assets/images/optimscan-plus/img28.png)';
 
@@ -1499,7 +1579,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             root.style.setProperty('--maincolor', '#ff931e');
             body.style.background = '#fff';
             document.getElementById("overview-bg").style.backgroundColor = "#fff4e8";
-            document.getElementById('specification-img').src = 'assets/images/optimscan-plus/img3.jpg'
+            var specImg = document.getElementById('specification-img');
+            if (specImg) {
+               specImg.src = 'assets/images/optimscan-plus/img3.jpg';
+            }
             document.getElementById('overview-img').src = 'assets/images/optimscan-plus/img2.png';
             document.getElementById('workflow').style.backgroundImage = 'url(assets/images/optimscan-plus/img18.png)';
             document.getElementById('bundle').style.backgroundImage = 'url(assets/images/optimscan-plus/img18.png)';

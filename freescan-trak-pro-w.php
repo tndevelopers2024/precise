@@ -254,7 +254,7 @@
                 
               </div>
               <div class="mt-4">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Get Quote</a>
+                    <a href="scanning-solution-form.php" class="btn">Get Quote</a>
                 </div>
             </div>
         </section>

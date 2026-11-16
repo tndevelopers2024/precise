@@ -585,96 +585,78 @@
         <div class="container py-5">
             <h2 class="text-center mb-5 vg-main-title">Video Gallery &ndash; Watch Einscan Rigil In Action</h2>
             
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3 g-lg-4">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5 g-3 g-lg-4 justify-content-center">
                 
                 <!-- Video 1 -->
                 <div class="col mb-4">
-                    <a href="#" class="vg-video-card text-decoration-none">
+                    <a href="https://youtu.be/pughsI-V0Wc" target="_blank" class="vg-video-card text-decoration-none">
                         <div class="vg-thumb-wrapper">
-                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img1.png" alt="EinScan Rigil Official Overview">
+                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img1.png" alt="EinScan Rigil IR Texture Scanning | Full-Color High-Accuracy 3D Scanner Demo">
                             <div class="vg-play-btn">
                                 <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
-                            <div class="vg-duration">02:46</div>
+                            <div class="vg-duration">00:39</div>
                         </div>
-                        <h4 class="vg-title">EinScan Rigil &ndash;<br>Official Overview</h4>
+                        <h4 class="vg-title">EinScan Rigil IR Texture Scanning | Full-Color High-Accuracy 3D Scanner Demo</h4>
                     </a>
                 </div>
 
                 <!-- Video 2 -->
                 <div class="col mb-4">
-                    <a href="#" class="vg-video-card text-decoration-none">
+                    <a href="https://youtu.be/omc75oBn7hw" target="_blank" class="vg-video-card text-decoration-none">
                         <div class="vg-thumb-wrapper">
-                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img2.png" alt="Tri-Mode Scanning Explained">
+                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img2.png" alt="Einscan Rigil marker free laser scan">
                             <div class="vg-play-btn">
                                 <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
-                            <div class="vg-duration">02:46</div>
+                            <div class="vg-duration">00:11</div>
                         </div>
-                        <h4 class="vg-title">Tri-Mode Scanning<br>Explained</h4>
+                        <h4 class="vg-title">Einscan Rigil marker free laser scan</h4>
                     </a>
                 </div>
 
                 <!-- Video 3 -->
                 <div class="col mb-4">
-                    <a href="#" class="vg-video-card text-decoration-none">
+                    <a href="https://youtu.be/MYhGpJamu0I" target="_blank" class="vg-video-card text-decoration-none">
                         <div class="vg-thumb-wrapper">
-                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img3.png" alt="Automotive Scanning Workflow">
+                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img3.png" alt="EinScan Rigil Outdoor IR Rapid Scanning">
                             <div class="vg-play-btn">
                                 <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
-                            <div class="vg-duration">02:46</div>
+                            <div class="vg-duration">00:52</div>
                         </div>
-                        <h4 class="vg-title">Automotive Scanning<br>Workflow</h4>
+                        <h4 class="vg-title">EinScan Rigil Outdoor IR Rapid Scanning</h4>
                     </a>
                 </div>
 
                 <!-- Video 4 -->
                 <div class="col mb-4">
-                    <a href="#" class="vg-video-card text-decoration-none">
+                    <a href="https://youtu.be/ZA3adF0XHmw" target="_blank" class="vg-video-card text-decoration-none">
                         <div class="vg-thumb-wrapper">
-                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img4.png" alt="Reverse Engineering Workflow">
+                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img4.png" alt="Einscan Rigil marker free motorcycle">
                             <div class="vg-play-btn">
                                 <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
-                            <div class="vg-duration">02:46</div>
+                            <div class="vg-duration">00:33</div>
                         </div>
-                        <h4 class="vg-title">Reverse Engineering<br>Workflow</h4>
+                        <h4 class="vg-title">Einscan Rigil marker free motorcycle</h4>
                     </a>
                 </div>
 
                 <!-- Video 5 -->
-                <div class="col">
-                    <a href="#" class="vg-video-card text-decoration-none">
+                <div class="col mb-4">
+                    <a href="https://youtu.be/SynMdgrwC_E" target="_blank" class="vg-video-card text-decoration-none">
                         <div class="vg-thumb-wrapper">
-                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img5.png" alt="Vinyl Wrapping with ExactFlat">
+                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img5.png" alt="Einscan Rigil TVC Shortcut">
                             <div class="vg-play-btn">
                                 <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
-                            <div class="vg-duration">04:10</div>
+                            <div class="vg-duration">00:22</div>
                         </div>
-                        <h4 class="vg-title">Vinyl Wrapping with<br>ExactFlat</h4>
+                        <h4 class="vg-title">Einscan Rigil TVC Shortcut</h4>
                     </a>
                 </div>
 
-                <!-- Video 6 -->
-                <div class="col">
-                    <a href="#" class="vg-video-card text-decoration-none">
-                        <div class="vg-thumb-wrapper">
-                            <img src="assets/images/tri-mode-wireless-laser-3d-scanner/vg-img6.png" alt="Industrial Part Scanning">
-                            <div class="vg-play-btn">
-                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                            </div>
-                            <div class="vg-duration">04:10</div>
-                        </div>
-                        <h4 class="vg-title">Industrial Part Scanning</h4>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="text-center vg-btn-wrapper">
-                <a href="#" class="vg-btn">View All Videos</a>
             </div>
 
         </div>

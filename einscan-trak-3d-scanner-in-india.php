@@ -847,9 +847,8 @@
                         see how EinScan Trak performs in a real application.</p>
 
                     <div class="cta-buttons">
-                        <a href="#" class="btn btn-trak-cta">SCHEDULE A LIVE DEMO</a>
-                        <a href="#" class="btn btn-trak-cta">REQUEST A TECHNICAL CONSULTATION</a>
-                        <a href="#" class="btn btn-trak-cta">REQUEST INDIA PRICING</a>
+                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn btn-trak-cta">BOOK A DEMO</a>
+                        <a href="scanning-solution-form.php" class="btn btn-trak-cta">GET A QUOTE</a>
                     </div>
                 </div>
             </div>

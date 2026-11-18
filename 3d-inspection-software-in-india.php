@@ -241,7 +241,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <!-- CTA Buttons -->
                         <div class="ind-hero-btns">
                             <a href="contact-us.php" class="btn-ind btn-ind-primary">Talk to Our Experts</a>
-                            <a href="#" class="btn-ind btn-ind-secondary">Download Brochure</a>
+                            <a href="assets/images/industrial-3d/Geomagic-ControlX-Hexagon-Brochure.pdf" download class="btn-ind btn-ind-secondary">Download Brochure</a>
                         </div>
 
                         <!-- Bottom-left Email Info -->
@@ -619,7 +619,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="ind-bundle-details">                            
                             <p class="ind-bundle-desc">Medium-sized parts shop floor inspection</p>
-                            <a href="FreeScan-Combo.php" class="btn-bundle btn-bundle-green">Know More</a>
+                            <a href="freescan-combo-plus.php" class="btn-bundle btn-bundle-green">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -662,12 +662,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <a href="assets/images/industrial-3d/Geomagic-Cx_Essential_Connect Comparision.pdf" download class="btn-download">
                         <i class="fa-solid fa-download"></i> Geomagic Control X and essential comparisons
                     </a>
-                   <a href="assets/images/industrial-3d/Truprop-Brochure.pdf" class="btn-download">
+                   <a href="assets/images/industrial-3d/Truprop-Brochure.pdf" download class="btn-download">
                         <i class="fa-solid fa-download"></i> Trueprop Brochure
                     </a>
                 </div>
                 <div class="ind-download-row mt-3">
-                    <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-download">
+                    <a href="assets/images/industrial-3d/Geomagic+Control+X+2025.0+-+System+Requirements+Guide_en-US.pdf" download class="btn-download">
                         <i class="fa-solid fa-download"></i> Systems requirement guide
                     </a>
                 </div>

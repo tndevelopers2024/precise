@@ -76,7 +76,7 @@
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="rh-btn rh-btn-solid">Book Live Demo</a>
                         <a href="scanning-solution-form.php" class="rh-btn rh-btn-outline">Get Quotation</a>
                         <a href="assets/images/einscan-rigil/einScan-rigil-brochure.pdf" target="_blank" class="rh-btn rh-btn-solid">Download Brochure</a>
-                        <a href="https://www.youtube.com/watch?v=XXXXXXX" target="_blank" class="rh-btn rh-btn-outline"><i class="fa-solid fa-play"></i> Watch Video</a>
+                        <a href="#video-gallery" class="rh-btn rh-btn-outline"><i class="fa-solid fa-play"></i> Watch Video</a>
                     </div>
 
                     <!-- Mobile/Tablet Call Us Widget (Appears under buttons) -->
@@ -581,7 +581,7 @@
     </section>
 
     <!-- Video Gallery Section -->
-    <section class="video-gallery-section">
+    <section class="video-gallery-section" id="video-gallery">
         <div class="container py-5">
             <h2 class="text-center mb-5 vg-main-title">Video Gallery &ndash; Watch Einscan Rigil In Action</h2>
             

@@ -338,7 +338,7 @@
                                     <li><i class="fas fa-check"></i> Cost-Effective Solution</li>
                                     <li><i class="fas fa-check"></i> Perfect for Everyday Scanning Needs</li>
                                 </ul>
-                                <a href="einscan-rigil.php" class="btn-bundle">Know More</a>
+                                <a href="tri-mode-wireless-laser-3d-scanner.php" class="btn-bundle">Know More</a>
                             </div>
                             <div class="col-sm-5 text-right pl-0 mt-4 mt-sm-0">
                                 <img src="assets/images/transform-complex/scanner1.png" alt="EinScan Rigil Lite" class="bundle-img">
@@ -492,7 +492,6 @@
             <h2 class="cta-title">Ready to Transform your Workflow</h2>
             <p class="cta-desc">Book a live demo with our experts and see how Precise3DM,<br>ExactFlat & EinScan Rigil can help your business grow.</p>
             <div>
-                <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cta-orange">Book a Live Demo</a>
                 <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-cta-white">Book a Live Demo</a>
             </div>
         </div>

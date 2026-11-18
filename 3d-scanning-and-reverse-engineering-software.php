@@ -212,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </a>
                       <div class="mail-text">
                         <h5>Email us</h5>
-                        <p>sm@precise3dm.com <span>|</span> sales@precisd3dm.com</p>
+                        <p>sm@precise3dm.com <span>|</span> sales@precise3dm.com</p>
                       </div>
                     </div>
                   </div>

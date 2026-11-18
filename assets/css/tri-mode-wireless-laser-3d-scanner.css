@@ -806,6 +806,7 @@ h1,h2,h3,h4,h5,h6,p,span,b,strong,small,td,th,div,a {
 /* Video Gallery Section */
 .video-gallery-section {
     background-color: #f6f8fb;
+    scroll-margin-top: 80px;
 }
 
 .vg-main-title {

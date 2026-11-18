@@ -273,9 +273,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <ul>
                                       <li><p>Option A: Import a 2D concept image as a reference and begin sculpting the 3D form manually.</li>
                                       <img src="assets/images/3d-sculpting/how1.png" alt="">
-                                      <li><p>Option A: Import a 2D concept image as a reference and begin sculpting the 3D form manually.</li>
+                                      <li><p>Option B: Import a 2D concept image as a reference and begin sculpting the 3D form manually.</li>
                                       <img src="assets/images/3d-sculpting/how2.png" alt="">
-                                      <li><p>Option A: Import a 2D concept image as a reference and begin sculpting the 3D form manually.</li>
+                                      <li><p>Option C: Import a 2D concept image as a reference and begin sculpting the 3D form manually.</li>
                                       <img src="assets/images/3d-sculpting/how3.png" alt="">
                                     </ul>
                                   </div>

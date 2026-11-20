@@ -1101,8 +1101,13 @@ body{
 .accordion {
   width: 100%;
 }
+.accordion-header {
+  margin-bottom: 0 !important;
+}
 .accordion-button {
   position: relative;
+  display: flex !important;
+  align-items: center;
   border-radius: 20px !important;
   background: #fff !important;
   color: #000 !important;
@@ -1111,13 +1116,18 @@ body{
   width: 100%;
   text-align: left;
   font-size: 22px !important;
+  padding: 16px 24px !important;
+  box-shadow: none !important;
 }
 .accordion-button:focus{
   border: none;
   outline: none;
+  box-shadow: none !important;
 }
 .accordion-button span{
-  margin-left: 25px;
+  flex: 1;
+  margin-left: 0 !important;
+  line-height: 1.4;
 }
 .accordion-item{
   width: 100% !important;
@@ -1125,23 +1135,37 @@ body{
 .accordion-button::after {
   content: "+";
   background-image: none !important;
-  position: absolute;
-  left: 0;
+  position: static !important;
+  order: -1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 32px;
-  margin-left: 5px;
-  margin-top: -10px;
+  line-height: 1;
+  width: 24px;
+  min-width: 24px;
+  margin: 0 18px 0 0 !important;
   color: #ff931e;
+  flex-shrink: 0;
+  transform: none !important;
 }
 
 .accordion-button:not(.collapsed)::after {
   content: "-";
   background-image: none !important;
-  position: absolute;
-  left: 0;
+  position: static !important;
+  order: -1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 32px;
-  margin-left: 10px;
-  margin-top:-8px;
+  line-height: 1;
+  width: 24px;
+  min-width: 24px;
+  margin: 0 18px 0 0 !important;
   color: #ff931e;
+  flex-shrink: 0;
+  transform: none !important;
 }
 .accordion-item:first-of-type{
   border-top-left-radius:20px !important;
@@ -1184,14 +1208,19 @@ body{
   font-weight: 600;
 }
 @media screen and (max-width:700px){
-      .faq h3{
+  .faq h3{
     font-size: 2rem !important;
   }
   .accordion-button{
     font-size: 16px !important;
+    padding: 14px 18px !important;
   }
   .accordion-button span{
-    display: inline-block;
-    margin-left: 25px;
+    margin-left: 0 !important;
+  }
+  .accordion-button::after,
+  .accordion-button:not(.collapsed)::after {
+    font-size: 24px;
+    margin: 0 12px 0 0 !important;
   }
 }

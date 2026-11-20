@@ -536,13 +536,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                            aria-expanded="true" aria-controls="collapseOne">
-                           <span>What is TrueProp used for?</span>
+                           <span>How much additional revenue can I generate by partnering with Precise3DM?</span>
                         </button>
                      </h2>
                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        <P>It is used for marine propeller inspection and repair analysis by converting 3D scan data into measurable parameters like pitch, blade angles, and profiles. </P>
+                           <p>You can generate an additional 15–25% revenue per month/year by partnering with Precise3DM. For example, if you own a FreeScan Combo and generate about ₹1.5 lakh in revenue per month from your scanner, you could earn an additional ₹18,000 to ₹60,000 per month through rental projects from Precise3DM. This means you can generate more revenue from the scanner you have already invested in.</p>
                         </div>
                      </div>
                   </div>
@@ -550,13 +550,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                           <span>Can it work with any scanner?</span>
+                           <span>How will Precise3DM bring rental projects and customers to utilise my scanner?</span>
                         </button>
                      </h2>
                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Yes. TrueProp is hardware-independent and supports all metrology-grade 3D scanners.</p>
+                           <p>Precise3DM is a 10+ year-old company with a customer base of over 5,000 customers across India. We have a dedicated sales team working across India, backed by a strong marketing team that continuously generates leads for 3D scanning products and services. Through our existing customer network, sales activities and marketing campaigns, we will identify project opportunities and connect them with our Technology Partners to improve scanner utilisation.</p>
                         </div>
                      </div>
                   </div>
@@ -564,13 +564,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           <span>Is 3D scanning better than pitchometers?</span>
+                           <span>How much will Precise3DM pay for using my scanner, and how are rental rates decided?</span>
                         </button>
                      </h2>
                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Yes. It captures the full surface instead of limited curves, improving accuracy and reducing inspection time.</p>
+                           <p>The rental amount will depend on the type of scanner you own and its technical capabilities. We have different rental rates for different scanner models, and the per-day rental cost will be mutually discussed and agreed upon. Please discuss this with our team or express your interest by filling out the partnership form. Our team will contact you to discuss the rental rates.</p>
                         </div>
                      </div>
                   </div>
@@ -578,13 +578,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                           <span>Can inspections be done on-site?</span>
+                           <span>Who will handle customer coordination, project execution, scanner transportation, operator costs and equipment safety?</span>
                         </button>
                      </h2>
                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Yes. With portable scanners, inspections can be performed directly on the vessel.</p>
+                           <p>We will assign a dedicated Operations and Channel Manager to coordinate with all our Technology Partners. Our team will handle customer coordination, project requirements, scanner transportation, and project execution in coordination with the respective partners. We will discuss and agree on responsibilities and operational arrangements before each project.</p>
                         </div>
                      </div>
                   </div>
@@ -592,27 +592,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <h2 class="accordion-header" id="headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                           <span>Where can I get this solution?</span>
+                           <span>How can I access Precise3DM’s advanced 3D scanning technologies, CAD projects and technical expertise at discounted partner rates?</span>
                         </button>
                      </h2>
                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Through Precise3DM, an authorised reseller of SHINING3D systems, offering bundled hardware and software solutions.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="accordion-item">
-                     <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                           data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                           <span>What support do you provide?</span>
-                        </button>
-                     </h2>
-                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                           <p>Complete support—consultation, demo, training, and ongoing technical assistance.</p>
+                           <p>Once you become our Technology Partner, we will share our partner price list and provide access to our complete range of 3D scanning technologies. This includes handheld 3D scanners, structured light scanners, dynamic tracking scanners, LiDAR scanners and other specialised scanning technologies. We regularly receive enquiries for different types of scanning projects. However, we may not always have every scanner technology available at every location. Through our Technology Partnership Program, you can access our scanner network, take on projects based on your requirements, and get opportunities for 3D scan-to-CAD modelling projects, workflows, and technical support at discounted partner rates.</p>
                         </div>
                      </div>
                   </div>

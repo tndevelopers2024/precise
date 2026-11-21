@@ -688,7 +688,7 @@ color: #000000;
             if (isset($_SESSION['status'])) {
                 if ($_SESSION['status'] == "success") {
                     echo "<div class='row status-div'>
-                        <div style='width: 100%'><a target='_blank' href='assets/images/precise_brochure_pdf/Purchase guide.pdf''><button class='btn pre-btn my-2'>Download Brochure</button></a></div>
+                        <div style='width: 100%'><a target='_blank' href='brochures/reverse-engineering-software-purchase-guide.pdf'><button class='btn pre-btn my-2'>Download Brochure</button></a></div>
                     </div>";
                 } else {
                     echo "<div class='row status-div'>
@@ -710,7 +710,7 @@ color: #000000;
                                <div class="form-group">
                                 <input type="text" class="form-control required" id="contactnumber_one" name="contactnumber_pop"  onblur="validate()" placeholder="Mobile Number *" required oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10"/>
                                             </div>
-                           <a href=""><button type="submit" class="btn btn-success submit_pop"  id="submit" onclick="window.open('assets/images/precise_brochure_pdf/Purchase guide.pdf')" style="margin-top:10px;" disabled>Submit and Download</button></a>
+                           <a href=""><button type="submit" class="btn btn-success submit_pop"  id="submit" onclick="window.open('brochures/reverse-engineering-software-purchase-guide.pdf')" style="margin-top:10px;" disabled>Submit and Download</button></a>
                     </form>
                 	<?php } ?>
                 	
@@ -823,7 +823,7 @@ color: #000000;
             <div class="row">
                 <div class="col-md-12 down-con mb-5">
                     <h4 class="para">Download reverse engineering software purchase Guide</h4>
-                    <a class="btn pre-btn my-2" id="btnOpenForm">Download</a>
+                    <a href="brochures/reverse-engineering-software-purchase-guide.pdf" download target="_blank" class="btn pre-btn my-2" id="btnOpenForm">Download</a>
                 </div>
             </div>
             <div class="row" id="online-demo-btn">

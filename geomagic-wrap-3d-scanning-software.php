@@ -538,15 +538,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                  Texture mapping on 3D scan
                                 </a>-->
  <div class="row">
-    <div class="col-md-4"> <a  class="btn pre-btn my-2"  href="https://www.precise3dm.com/scan-to-nurbs-modelling.php" target=_blank  style="font-size:13px;width:100%;">Scan to Nurbs modelling</a></div>
-    <div class="col-md-4"> <a  class="btn pre-btn my-2"  href="#" target=_blank  style="font-size:13px;width:100%;">Design modification</a></div>
-    <div class="col-md-4"><a  class="btn pre-btn my-2"  href="#" target=_blank  style="font-size:13px;width:100%;"> Polygon Modelling </a></div>
-     <div class="col-md-4"><a  class="btn pre-btn my-2"  href="#" target=_blank  style="font-size:13px;width:100%;"> 3D Scan Volume calculation</a></div>
-    <div class="col-md-4"> <a  class="btn pre-btn my-2"  href="#" target=_blank  style="font-size:13px;width:100%;"> Texture mapping on 3D scan</a></div>
-     <div class="col-md-4">  <a  class="btn pre-btn my-2"  href="https://www.precise3dm.com/digital-vehicle-development.php" target=_blank  style="font-size:13px;width:100%;"> Digital vehicle development</a> </div>
-     <div class="col-md-4">   <a  class="btn pre-btn my-2"  href="#" target=_blank  style="font-size:13px;width:100%;"> Long Range laser scan data processing</a></div>
-         <div class="col-md-4"> <a  class="btn pre-btn my-2"  href="https://www.precise3dm.com/automotive-benchmarking-services-in-india.php" target=_blank  style="font-size:13px;width:100%;">Automotive digital transformation </a></div>
-  </div>
+    <div class="col-md-6"> <a class="btn pre-btn my-2" href="scan-to-nurbs-modelling.php" target="_blank" style="font-size:13px;width:100%;">Scan to Nurbs modelling</a></div>
+    <div class="col-md-6"> <a class="btn pre-btn my-2" href="3d-scan-to-mesh-model.php" target="_blank" style="font-size:13px;width:100%;">3D SCAN TO MESH MODEL</a></div>
+ </div>
             <!--<ul class="app-list">
                 <li>Scan to Nurbs modelling</li>
                 <li>Design modification</li>
@@ -811,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             if (isset($_SESSION['status'])) {
                 if ($_SESSION['status'] == "success") {
                     echo "<div class='row status-div'>
-                        <div style='width: 100%'><a target='_blank' href='assets/images/precise_brochure_pdf/Purchase guide.pdf''><button class='btn pre-btn my-2'>Download Brochure</button></a></div>
+                        <div style='width: 100%'><a target='_blank' href='brochures/reverse-engineering-software-purchase-guide.pdf'><button class='btn pre-btn my-2'>Download Brochure</button></a></div>
                     </div>";
                 } else {
                     echo "<div class='row status-div'>
@@ -833,7 +827,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                <div class="form-group">
                                 <input type="text" class="form-control required" id="contactnumber_one" name="contactnumber_pop"  onblur="validate()" placeholder="Mobile Number *" required oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10"/>
                                             </div>
-                           <a href=""><button type="submit" class="btn btn-success submit_pop"  id="submit" onclick="window.open('assets/images/precise_brochure_pdf/Purchase guide.pdf')" style="margin-top:10px;" disabled>Submit and Download</button></a>
+                           <a href=""><button type="submit" class="btn btn-success submit_pop"  id="submit" onclick="window.open('brochures/reverse-engineering-software-purchase-guide.pdf')" style="margin-top:10px;" disabled>Submit and Download</button></a>
                     </form>
                 	<?php } ?>
                 	
@@ -944,7 +938,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-12">
                     <h3 class="para">Not sure what reverse engineering software from Geomagic will suit your requirement?</h3><br>
                     <h4 class="para">Download reverse engineering software purchase Guide</h4>
-                    <a class="btn pre-btn my-2" id="btnOpenForm">Download</a>
+                    <a href="brochures/reverse-engineering-software-purchase-guide.pdf" download target="_blank" class="btn pre-btn my-2" id="btnOpenForm">Download</a>
                 </div>
             </div>
             <div class="row" id="online-demo-btn">

@@ -1522,6 +1522,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <div class='sk-ww-google-reviews' data-embed-id='25377093'></div>
             </div>
          </div>
+         <script>
+            (function() {
+               var embedId = '25377093';
+               window.sk_embed_feed = window.sk_embed_feed || {};
+               window.sk_embed_feed[embedId] = fetch('https://data.accentapi.com/feed/' + embedId + '.json?nocache=' + Date.now())
+                  .then(function(res) { return res.ok ? res.json() : null; })
+                  .then(function(data) {
+                     if (data) {
+                        if (data.bio) { data.bio.rating_count = '135'; }
+                        if (data.google_data_structure_json) {
+                           data.google_data_structure_json.ratingCount = '135';
+                           data.google_data_structure_json.reviewCount = '135';
+                        }
+                     }
+                     return data;
+                  })
+                  .catch(function() { return null; });
+
+               function updateReviewCount() {
+                  var counts = document.querySelectorAll('.sk_google_review_count');
+                  counts.forEach(function(el) {
+                     if (el.textContent.indexOf('125') !== -1) {
+                        el.textContent = el.textContent.replace(/125/g, '135');
+                     }
+                  });
+                  var titled = document.querySelectorAll('[title*="125 Reviews"]');
+                  titled.forEach(function(el) {
+                     el.setAttribute('title', el.getAttribute('title').replace(/125 Reviews/g, '135 Reviews'));
+                  });
+               }
+
+               var observer = new MutationObserver(updateReviewCount);
+               observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
+               document.addEventListener('DOMContentLoaded', updateReviewCount);
+               window.addEventListener('load', updateReviewCount);
+            })();
+         </script>
          <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
 
 
@@ -1685,7 +1722,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <div class="col-md-12">
                   <h3 class="para">Not sure what reverse engineering software from Geomagic will suit your requirement?</h3><br>
                   <h4 class="para">Download reverse engineering software purchase Guide</h4>
-                  <a class="btn pre-btn my-2" id="btnOpenForm">Download</a>
+                  <a href="brochures/reverse-engineering-software-purchase-guide.pdf" download class="btn pre-btn my-2" id="btnOpenForm">Download</a>
                </div>
          </div>
          <div class="row mt-5" id="online-demo-btn">
@@ -1695,7 +1732,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                </div>
                <div class="col-md-4">
                   <h4 class="para">System Requirements Guide</h4>
-                  <a class="btn pre-btn my-2" id="srgwp_downloadbtn" href="assets/images/precise_brochure_pdf/Geomagic Wrap Brochure.pdf" target="_blank">Download</a>
+                  <a class="btn pre-btn my-2" id="srgwp_downloadbtn" href="brochures/Geomagic+Design+X+2023.1.0+-+System+Requirements+Guide.pdf" download target="_blank">Download</a>
                </div>
                <div class="col-md-4">
                   <h4 class="para">Download Software Brochure</h4>

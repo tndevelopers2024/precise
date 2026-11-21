@@ -302,7 +302,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <!-- Call To Action Buttons -->
                     <div class="controlx-hero-buttons">
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-controlx-orange me-md-2" aria-label="Schedule a Demo for Geomagic Control X">Schedule a Demo</a>
-                        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-controlx-orange" aria-label="Download Geomagic Control X Brochure">Download Brochure</a>
+                        <a href="brochures/Geomagic-ControlX-Hexagon-Brochure.pdf" class="btn-controlx-orange" aria-label="Download Geomagic Control X Brochure" download>Download Brochure</a>
                     </div>
                 </div>
 

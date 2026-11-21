@@ -388,7 +388,7 @@
                 <div class="col-md-6">
 
                     <h4 class="para">System Requirements Guide</h4>
-                    <a class="btn pre-btn my-2">Download</a>
+                    <a href="brochures/Geomagic+Control+X+2025.0+-+System+Requirements+Guide_en-US.pdf" download target="_blank" class="btn pre-btn my-2">Download</a>
                 </div>
             </div>
         </div>

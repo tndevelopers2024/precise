@@ -1,0 +1,2310 @@
+/* ==========================================================================
+   3D Scan Based Digital Sculpting - Dedicated Stylesheet
+   Precise3DM Digital Manufacturing
+   ========================================================================== */
+
+:root {
+    --primary-orange: #f37021;
+    --primary-orange-hover: #e05e10;
+    --primary-orange-gradient: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    --dark-bg: #05060b;
+    --text-white: #ffffff;
+    --text-muted: #cbd5e1;
+    --border-orange: #f37021;
+}
+
+/* ==========================================================================
+   Hero Section Styling
+   ========================================================================== */
+.dsbss-hero-section {
+    position: relative;
+    background-color: var(--dark-bg);
+    background-image: url('../images/3d-scan-based-digital-sculpting/3dsbss-hero-banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 140px;
+    padding-bottom: 45px;
+    min-height: 720px;
+    overflow: hidden;
+    color: var(--text-white);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.dsbss-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    /*padding: 0 40px;*/
+    width: 100%;
+}
+
+/* Top Right Contact Badge */
+.dsbss-top-contact-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.dsbss-contact-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--text-white);
+    transition: transform 0.2s ease;
+}
+
+.dsbss-contact-badge:hover {
+    transform: translateY(-2px);
+    color: var(--text-white);
+}
+
+.dsbss-contact-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--primary-orange-gradient);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(243, 112, 33, 0.4);
+}
+
+.dsbss-contact-info {
+    text-align: left;
+}
+
+.dsbss-contact-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #e2e8f0;
+    line-height: 1.2;
+}
+
+.dsbss-contact-val {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.2px;
+}
+
+.dsbss-contact-val a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.dsbss-contact-val a:hover {
+    color: var(--primary-orange);
+}
+
+/* ==========================================================================
+   Left Side Content
+   ========================================================================== */
+.dsbss-hero-left {
+    /*padding-right: 25px;*/
+    z-index: 2;
+}
+
+.dsbss-hero-title {
+    font-size: 3.25rem;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #ffffff;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.dsbss-hero-title .text-orange {
+    color: var(--primary-orange);
+}
+
+.dsbss-hero-subtitle {
+    font-size: 1.65rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.dsbss-hero-subtitle .text-orange {
+    color: var(--primary-orange);
+}
+
+.dsbss-hero-desc {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: #e2e8f0;
+    margin-bottom: 14px;
+    max-width: 580px;
+    font-weight: 400;
+}
+
+/* Action Buttons Group */
+.dsbss-hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.btn-dsbss-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-orange);
+    background: var(--primary-orange-gradient);
+    color: #ffffff !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.35);
+}
+
+.btn-dsbss-solid:hover {
+    background: var(--primary-orange-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(243, 112, 33, 0.5);
+    color: #ffffff !important;
+}
+
+.btn-dsbss-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(8, 10, 18, 0.6);
+    color: var(--primary-orange) !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1.5px solid var(--primary-orange);
+    transition: all 0.25s ease;
+    backdrop-filter: blur(4px);
+}
+
+.btn-dsbss-outline:hover {
+    background: var(--primary-orange);
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.35);
+}
+
+/* Bottom Email Contact Badge */
+.dsbss-email-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+/* ==========================================================================
+   Right Side Content: Workflow Steps & Scanner Showcase
+   ========================================================================== */
+.dsbss-hero-right {
+    position: relative;
+    z-index: 2;
+    padding-left: 15px;
+}
+
+.dsbss-workflow-container {
+    width: 100%;
+    position: relative;
+}
+
+/* 3-Step Process Row */
+.dsbss-workflow-steps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.dsbss-step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.dsbss-step-header {
+    min-height: 46px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dsbss-step-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+
+.dsbss-step-subtitle {
+    font-size: 0.82rem;
+    font-weight: 400;
+    color: #cbd5e1;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.dsbss-step-img-box {
+    width: 100%;
+    max-width: 140px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsbss-step-img-box img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4));
+    transition: transform 0.3s ease;
+}
+
+.dsbss-step-item:hover .dsbss-step-img-box img {
+    transform: scale(1.05);
+}
+
+/* Connecting Arrow */
+.dsbss-step-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    margin-top: 95px;
+}
+
+.arrow-circle {
+    width: 32px;
+    height: 32px;
+    background: var(--primary-orange-gradient);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 8px rgba(243, 112, 33, 0.45);
+    flex-shrink: 0;
+}
+
+/* Bottom Scanner Showcase */
+.dsbss-scanner-showcase {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    right: -75px;
+    top:45px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dsbss-scanner-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.6));
+    mix-blend-mode: screen;
+    opacity: 0.98;
+}
+
+/* Fallback blend mode adjustment if screen is too bright */
+@supports not (mix-blend-mode: screen) {
+    .dsbss-scanner-img {
+        opacity: 1;
+    }
+}
+
+/* ==========================================================================
+   Status Bar Section (Features / Value Proposition Strip)
+   ========================================================================== */
+.dsbss-status-section {
+    background-color: #ffffff;
+    padding: 30px 0;
+    position: relative;
+    z-index: 3;
+    border-bottom: 1px solid #f1f3f7;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+}
+
+.dsbss-status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dsbss-status-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex: 1;
+    justify-content: center;
+    padding: 4px 8px;
+}
+
+.dsbss-status-icon-wrap {
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+    background-color: #FFF1E5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.dsbss-status-item:hover .dsbss-status-icon-wrap {
+    transform: scale(1.06);
+    background-color: #FFE6D1;
+}
+
+.dsbss-status-icon {
+    max-width: 32px;
+    max-height: 32px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.dsbss-status-text {
+    color: #1a1a1a;
+    font-size: 0.94rem;
+    font-weight: 700;
+    line-height: 1.35;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.dsbss-status-divider {
+    width: 1px;
+    height: 48px;
+    background: linear-gradient(180deg, rgba(243, 112, 33, 0.1) 0%, rgba(243, 112, 33, 0.6) 50%, rgba(243, 112, 33, 0.1) 100%);
+    flex-shrink: 0;
+    margin: 0 8px;
+}
+
+/* ==========================================================================
+   Unlimited Design Possibilities Section
+   ========================================================================== */
+.dsbss-udp-section {
+    background-color: #F6F5FA;
+    padding: 70px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.dsbss-udp-title {
+    color: #111827;
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin-bottom: 30px;
+}
+
+.dsbss-udp-left {
+    padding-right: 30px;
+}
+
+.dsbss-udp-desc {
+    color: #374151;
+    font-size: 1.02rem;
+    line-height: 1.65;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.dsbss-udp-btn-wrap {
+    margin-top: 24px;
+}
+
+.btn-udp-orange {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    color: #ffffff !important;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 6px 18px rgba(243, 112, 33, 0.35);
+    border: none;
+}
+
+.btn-udp-orange:hover {
+    background: #e05e10;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(243, 112, 33, 0.5);
+    color: #ffffff !important;
+}
+
+/* 3 Cards */
+.dsbss-udp-right {
+    padding-left: 15px;
+}
+
+.dsbss-udp-cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    row-gap: 20px;
+    column-gap: 18px;
+    width: 100%;
+}
+
+.dsbss-udp-card-col {
+    flex: 1 1 calc(33.333% - 12px);
+    max-width: calc(33.333% - 12px);
+    min-width: 0;
+    display: flex;
+}
+
+.dsbss-udp-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px 14px 20px 14px;
+    border: 1px solid #ECEEF3;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dsbss-udp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+}
+
+.dsbss-udp-card-img {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.dsbss-udp-card-img img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.dsbss-udp-card:hover .dsbss-udp-card-img img {
+    transform: scale(1.03);
+}
+
+.dsbss-udp-card-title {
+    font-size: 0.96rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.35;
+    margin: 0;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Real-World Applications Section
+   ========================================================================== */
+.dsbss-rwa-section {
+    background-color: #F8F9FD;
+    padding: 75px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.rwa-eyebrow {
+    color: #f37021;
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.rwa-sec-title {
+    color: #0d172e;
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 48px;
+    letter-spacing: -0.5px;
+}
+
+.rwa-cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+
+.rwa-card-col {
+    flex: 1 1 calc(33.333% - 16px);
+    max-width: calc(33.333% - 16px);
+    min-width: 0;
+    display: flex;
+}
+
+.rwa-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 28px 24px 28px 24px;
+    border: 1px solid #ECEEF3;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.rwa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.rwa-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+}
+
+.rwa-number-badge {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 50%;
+    background-color: #FFF1E5;
+    border: 1.5px solid #ff931e;
+    color: #f37021;
+    font-weight: 700;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.rwa-card-title {
+    color: #111827;
+    font-size: 1.15rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.rwa-card-subtitle {
+    color: #6b7280;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin-bottom: 20px;
+    min-height: 40px;
+}
+
+.rwa-card-visual {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #f1f5f9;
+    padding: 10px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+
+.rwa-card-visual img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.rwa-card:hover .rwa-card-visual img {
+    transform: scale(1.02);
+}
+
+.rwa-feature-list {
+    margin-top: auto;
+    padding-left: 0;
+}
+
+.rwa-feature-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 11px;
+    color: #4b5563;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+.rwa-feature-list li:last-child {
+    margin-bottom: 0;
+}
+
+.rwa-check-icon {
+    color: #f37021;
+    font-size: 0.85rem;
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   More Applications Areas Section
+   ========================================================================== */
+.dsbss-maa-section {
+    background-color: #F6F5FA;
+    padding: 70px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.maa-sec-title {
+    color: #1f2937;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.maa-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    width: 100%;
+}
+
+.maa-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px 12px 20px 12px;
+    border: 1px solid #ECEEF3;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.maa-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.maa-card-img {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    background: #ffffff;
+}
+
+.maa-card-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.maa-card:hover .maa-card-img img {
+    transform: scale(1.04);
+}
+
+.maa-card-title {
+    color: #111827;
+    font-size: 0.94rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Enhanced Digital Design Section (From Physical Object to Enhanced Digital Design)
+   ========================================================================== */
+.dsbss-edd-section {
+    background-color: #060D1D;
+    padding: 75px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.edd-sec-title {
+    color: #ffffff;
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin-bottom: 45px;
+    text-align: left;
+}
+
+.edd-cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+}
+
+.edd-card-item {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    height: 100%;
+}
+
+.edd-card {
+    background-color: #0D1929;
+    border-radius: 14px;
+    padding: 22px 16px 20px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.edd-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+    border-color: rgba(243, 112, 33, 0.4);
+}
+
+.edd-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    min-height: 48px;
+}
+
+.edd-number-badge {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 50%;
+    background-color: #f37021;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.edd-card-title {
+    color: #ffffff;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0;
+    text-align: left;
+}
+
+.edd-card-desc {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin-bottom: 18px;
+    min-height: 60px;
+    text-align: left;
+}
+
+.edd-card-img-box {
+    width: 100%;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.edd-card-item:not(:first-child) .edd-card-img-box {
+    background-color: #ffffff;
+}
+
+.edd-card-item:first-child .edd-card-img-box {
+    background-color: #070e1b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.edd-card-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.edd-card:hover .edd-card-img-box img {
+    transform: scale(1.04);
+}
+
+.edd-arrow-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0 2px;
+    margin-top: 50px;
+}
+
+.edd-arrow-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #f37021;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    box-shadow: 0 2px 8px rgba(243, 112, 33, 0.4);
+}
+
+/* ==========================================================================
+   7. Technology & Software Section
+   ========================================================================== */
+.dsbss-ts-section {
+    background-color: #F5F6FA;
+    padding: 75px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.ts-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    margin-bottom: 32px;
+}
+
+.ts-cards-row {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.ts-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px 20px 22px 20px;
+    border: 1px solid #ECEEF3;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ts-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.07);
+}
+
+/* Card 1: Scanners */
+.ts-card-scanners {
+    flex: 1.85 1 0;
+    min-width: 0;
+}
+
+.ts-card-title {
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #0c1929;
+    margin: 0 0 16px 0;
+    line-height: 1.3;
+}
+
+.ts-subcards-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+    flex: 1;
+}
+
+.ts-subcard {
+    flex: 1 1 0;
+    min-width: 0;
+    background-color: #FEF6E9;
+    border: 1px solid rgba(243, 112, 33, 0.12);
+    border-radius: 12px;
+    padding: 16px 10px 14px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ts-subcard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(243, 112, 33, 0.15);
+}
+
+.ts-subcard-img-box {
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ts-subcard-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.ts-subcard:hover .ts-subcard-img-box img {
+    transform: scale(1.05);
+}
+
+.ts-subcard-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #0c1929;
+    margin: 12px 0 14px 0;
+    line-height: 1.25;
+}
+
+.btn-ts-know-more {
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    background: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(243, 112, 33, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-ts-know-more:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(243, 112, 33, 0.45);
+    background: linear-gradient(135deg, #f37021 0%, #e05b0d 100%);
+    text-decoration: none;
+}
+
+/* Card 2: Geomagic Freeform */
+.ts-card-freeform {
+    flex: 1.1 1 0;
+    min-width: 0;
+}
+
+.ts-card-header-freeform {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.ts-ff-badge {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    background-color: #42b6a7;
+    color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.95rem;
+    font-family: inherit;
+    line-height: 1;
+}
+
+.ts-card-title-freeform {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0c1929;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.ts-card-title-freeform span {
+    font-weight: 400;
+    color: #64748b;
+}
+
+.ts-freeform-body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0 16px 0;
+}
+
+.ts-freeform-body img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.ts-card-freeform:hover .ts-freeform-body img {
+    transform: scale(1.02);
+}
+
+.btn-ts-freeform-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 9px 18px;
+    background: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    color: #ffffff;
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(243, 112, 33, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-ts-freeform-more:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(243, 112, 33, 0.5);
+    background: linear-gradient(135deg, #f37021 0%, #e05b0d 100%);
+    text-decoration: none;
+}
+
+/* Card 3: Manufacturing Outputs */
+.ts-card-outputs {
+    flex: 1.05 1 0;
+    min-width: 0;
+}
+
+.ts-card-outputs .ts-card-title {
+    margin-bottom: 8px;
+    line-height: 1.25;
+}
+
+.ts-outputs-body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ts-outputs-body img {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.ts-card-outputs:hover .ts-outputs-body img {
+    transform: scale(1.03);
+}
+
+/* ==========================================================================
+   8. CAPEX & OPEX Solutions Section
+   ========================================================================== */
+.dsbss-co-section {
+    background-color: #F5F6FA;
+    padding: 20px 0 75px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.co-cards-row {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.co-card {
+    flex: 1 1 0;
+    min-width: 0;
+    border-radius: 18px;
+    padding: 30px 26px 26px 26px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.co-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Card 1: CAPEX */
+.co-card-capex {
+    background-color: #0D1834;
+    box-shadow: 0 10px 30px rgba(13, 24, 52, 0.25);
+}
+
+.co-card-capex:hover {
+    box-shadow: 0 16px 40px rgba(13, 24, 52, 0.4);
+}
+
+/* Card 2: OPEX */
+.co-card-opex {
+    background-color: #05231B;
+    box-shadow: 0 10px 30px rgba(5, 35, 27, 0.25);
+}
+
+.co-card-opex:hover {
+    box-shadow: 0 16px 40px rgba(5, 35, 27, 0.4);
+}
+
+.co-card-header {
+    margin-bottom: 20px;
+}
+
+.co-eyebrow {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.co-card-title {
+    color: #ffffff;
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.co-card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+.co-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.co-checklist li {
+    color: #f1f5f9;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.co-checklist li:last-child {
+    margin-bottom: 0;
+}
+
+.co-checklist li i {
+    color: #209e5e;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+
+.co-visual {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.co-visual-capex {
+    max-width: 230px;
+}
+
+.co-visual-capex img {
+    max-width: 100%;
+    max-height: 190px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.co-card-capex:hover .co-visual-capex img {
+    transform: scale(1.04);
+}
+
+.co-visual-opex {
+    max-width: 185px;
+}
+
+.co-visual-opex img {
+    max-width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.co-card-opex:hover .co-visual-opex img {
+    transform: scale(1.04);
+}
+
+.btn-co-orange {
+    display: block;
+    width: 100%;
+    padding: 11px 20px;
+    background: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    margin-top: auto;
+}
+
+.btn-co-orange:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(243, 112, 33, 0.5);
+    background: linear-gradient(135deg, #f37021 0%, #e05b0d 100%);
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   9. CTA Section (Have a Complex Shape You Want to Improve?)
+   ========================================================================== */
+.dsbss-cta-section {
+    background-color: #F7EDE4;
+    padding: 65px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cta-banner-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+.cta-banner-left {
+    flex: 1.3 1 0;
+    min-width: 0;
+}
+
+.cta-title {
+    color: #0c1929;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.22;
+    letter-spacing: -0.5px;
+    margin: 0 0 14px 0;
+}
+
+.cta-desc {
+    color: #475569;
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin: 0 0 26px 0;
+    max-width: 680px;
+}
+
+.cta-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.cta-contact-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    box-shadow: 0 3px 10px rgba(243, 112, 33, 0.35);
+}
+
+.cta-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-contact-label {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #0c1929;
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+.cta-contact-val {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #0c1929;
+}
+
+.cta-contact-val a {
+    color: #0c1929;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.cta-contact-val a:hover {
+    color: #f37021;
+    text-decoration: underline;
+}
+
+.cta-banner-right {
+    flex: 0.85 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.btn-cta-solid {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #ff9a33 0%, #f37021 100%);
+    color: #ffffff;
+    font-size: 1.02rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-cta-solid:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(243, 112, 33, 0.5);
+    background: linear-gradient(135deg, #f37021 0%, #e05b0d 100%);
+    text-decoration: none;
+}
+
+.btn-cta-outline {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    padding: 13px 24px;
+    background: transparent;
+    border: 1.5px solid #f37021;
+    color: #f37021;
+    font-size: 1.02rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.btn-cta-outline:hover {
+    background-color: #f37021;
+    color: #ffffff;
+    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.3);
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+
+/* Large screens down to 1200px */
+@media (max-width: 1200px) {
+    .dsbss-hero-title {
+        font-size: 2.75rem;
+    }
+
+    .dsbss-hero-subtitle {
+        font-size: 1.45rem;
+    }
+
+    .dsbss-step-title {
+        font-size: 0.88rem;
+    }
+
+    .dsbss-step-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .dsbss-step-img-box {
+        max-width: 130px;
+        height: 140px;
+    }
+
+    /* Status Bar */
+    .dsbss-status-item {
+        gap: 10px;
+        padding: 4px 4px;
+    }
+
+    .dsbss-status-icon-wrap {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+
+    .dsbss-status-icon {
+        max-width: 26px;
+        max-height: 26px;
+    }
+
+    .dsbss-status-text {
+        font-size: 0.82rem;
+    }
+
+    .dsbss-status-divider {
+        margin: 0 4px;
+        height: 40px;
+    }
+
+    /* Real-World Applications 1200px */
+    .rwa-sec-title {
+        font-size: 2.15rem;
+    }
+    .rwa-card {
+        padding: 24px 20px;
+    }
+    .rwa-card-title {
+        font-size: 1.05rem;
+    }
+
+    /* More Applications Areas 1200px */
+    .maa-cards-grid {
+        gap: 12px;
+    }
+    .maa-card {
+        padding: 14px 10px 18px 10px;
+    }
+    .maa-card-title {
+        font-size: 0.86rem;
+    }
+    .maa-card-img {
+        height: 145px;
+    }
+
+    /* Enhanced Digital Design 1200px */
+    .edd-sec-title {
+        font-size: 2.15rem;
+    }
+    .edd-card {
+        padding: 18px 12px;
+    }
+    .edd-card-title {
+        font-size: 0.92rem;
+    }
+    .edd-card-desc {
+        font-size: 0.8rem;
+        min-height: 65px;
+        margin-bottom: 14px;
+    }
+    .edd-card-img-box {
+        height: 155px;
+    }
+    .edd-number-badge {
+        width: 28px;
+        height: 28px;
+        min-width: 28px;
+        font-size: 0.85rem;
+    }
+    .edd-arrow-circle {
+        width: 24px;
+        height: 24px;
+        font-size: 0.7rem;
+    }
+
+    /* Technology & Software 1200px */
+    .ts-sec-title {
+        font-size: 2.15rem;
+    }
+    .ts-card {
+        padding: 20px 14px 18px 14px;
+    }
+    .ts-subcard {
+        padding: 12px 6px 12px 6px;
+    }
+    .ts-subcard-img-box {
+        height: 125px;
+    }
+    .ts-subcard-title {
+        font-size: 0.85rem;
+        margin: 8px 0 10px 0;
+    }
+    .btn-ts-know-more {
+        font-size: 0.75rem;
+        padding: 6px 8px;
+    }
+    .ts-card-title-freeform {
+        font-size: 1.1rem;
+    }
+    .ts-freeform-body img {
+        max-height: 175px;
+    }
+    .ts-outputs-body img {
+        max-height: 195px;
+    }
+
+    /* CAPEX & OPEX 1200px */
+    .co-card {
+        padding: 24px 18px 20px 18px;
+    }
+    .co-card-title {
+        font-size: 1.25rem;
+    }
+    .co-checklist li {
+        font-size: 0.84rem;
+        margin-bottom: 8px;
+    }
+    .co-visual-capex {
+        max-width: 180px;
+    }
+    .co-visual-opex {
+        max-width: 150px;
+    }
+    .btn-co-orange {
+        font-size: 0.88rem;
+        padding: 10px 14px;
+    }
+
+    /* CTA Section 1200px */
+    .cta-title {
+        font-size: 2rem;
+    }
+    .cta-desc {
+        font-size: 0.96rem;
+    }
+    .btn-cta-solid,
+    .btn-cta-outline {
+        font-size: 0.95rem;
+        padding: 12px 20px;
+        max-width: 340px;
+    }
+}
+
+/* Tablets (max-width: 991px) */
+@media (max-width: 991px) {
+    .dsbss-hero-section {
+        padding-top: 110px;
+        padding-bottom: 50px;
+        min-height: auto;
+    }
+
+    .dsbss-container {
+        padding: 0 15px;
+    }
+
+    .dsbss-top-contact-row {
+        justify-content: flex-start;
+        margin-bottom: 25px;
+    }
+
+    .dsbss-step-arrow {
+        margin-top: 80px;
+    }
+
+    .dsbss-hero-left {
+        /*padding-right: 0;*/
+        margin-bottom: 40px;
+    }
+
+    .dsbss-hero-title {
+        font-size: 2.35rem;
+    }
+
+    .dsbss-hero-subtitle {
+        font-size: 1.35rem;
+    }
+
+    .dsbss-hero-desc {
+        max-width: 100%;
+    }
+
+    .dsbss-hero-right {
+        /*padding-left: 0;*/
+    }
+
+    .dsbss-workflow-steps {
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+    }
+
+    .dsbss-scanner-showcase {
+        justify-content: center;
+        top: 0;
+        right: 0;
+    }
+
+    /* Status Bar Tablet */
+    .dsbss-status-section {
+        padding: 24px 0;
+    }
+
+    .dsbss-status-bar {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 20px 24px;
+    }
+
+    .dsbss-status-divider {
+        display: none;
+    }
+
+    .dsbss-status-item {
+        flex: 0 0 calc(50% - 12px);
+        justify-content: flex-start;
+    }
+
+    .dsbss-status-text {
+        font-size: 0.88rem;
+        white-space: normal;
+    }
+
+    /* Unlimited Design Possibilities Tablet */
+    .dsbss-udp-section {
+        padding: 50px 0;
+    }
+
+    .dsbss-udp-title {
+        font-size: 2rem;
+        margin-bottom: 22px;
+    }
+
+    .dsbss-udp-left {
+        padding:0 15px;
+        margin-bottom: 35px;
+    }
+
+    .dsbss-udp-right {
+        /*padding-left: 0;*/
+    }
+
+    .dsbss-udp-cards-row {
+        gap: 16px;
+        row-gap: 18px;
+        column-gap: 16px;
+        width: 100%;
+    }
+
+    .dsbss-udp-card-col {
+        flex: 1 1 calc(33.333% - 11px);
+        max-width: calc(33.333% - 11px);
+    }
+
+    /* Real-World Applications Tablet */
+    .dsbss-rwa-section {
+        padding: 55px 0;
+    }
+    .rwa-sec-title {
+        font-size: 1.95rem;
+        margin-bottom: 35px;
+    }
+    .rwa-cards-row {
+        gap: 20px;
+    }
+    .rwa-card-col {
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+    .rwa-card-subtitle {
+        min-height: auto;
+    }
+
+    /* More Applications Areas Tablet */
+    .dsbss-maa-section {
+        padding: 50px 0;
+    }
+    .maa-sec-title {
+        font-size: 1.95rem;
+        margin-bottom: 22px;
+    }
+    .maa-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+    .maa-card-img {
+        height: 155px;
+    }
+    .maa-card-title {
+        font-size: 0.92rem;
+    }
+
+    /* Enhanced Digital Design Tablet */
+    .dsbss-edd-section {
+        padding: 55px 0;
+    }
+    .edd-sec-title {
+        font-size: 1.95rem;
+        margin-bottom: 25px;
+    }
+    .edd-cards-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+    .edd-arrow-item {
+        display: none;
+    }
+    .edd-card-item {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+    .edd-card {
+        padding: 20px 16px;
+    }
+    .edd-card-title {
+        font-size: 1rem;
+    }
+    .edd-card-desc {
+        min-height: auto;
+        margin-bottom: 16px;
+    }
+    .edd-card-img-box {
+        height: 180px;
+    }
+
+    /* Technology & Software Tablet */
+    .dsbss-ts-section {
+        padding: 55px 0;
+    }
+    .ts-sec-title {
+        font-size: 1.95rem;
+        margin-bottom: 24px;
+    }
+    .ts-cards-row {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .ts-card-scanners {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .ts-card-freeform {
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+    .ts-card-outputs {
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+    .ts-freeform-body img {
+        max-height: 190px;
+    }
+    .ts-outputs-body img {
+        max-height: 200px;
+    }
+
+    /* CAPEX & OPEX Tablet */
+    .dsbss-co-section {
+        padding: 10px 0 55px 0;
+    }
+    .co-cards-row {
+        flex-direction: column;
+        gap: 22px;
+    }
+    .co-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+        padding: 26px 22px;
+    }
+    .co-card-title {
+        font-size: 1.35rem;
+    }
+    .co-visual-capex {
+        max-width: 220px;
+    }
+    .co-visual-opex {
+        max-width: 180px;
+    }
+
+    /* CTA Section Tablet */
+    .dsbss-cta-section {
+        padding: 50px 0;
+    }
+    .cta-banner-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+    }
+    .cta-banner-left {
+        width: 100%;
+    }
+    .cta-banner-right {
+        width: 100%;
+        align-items: stretch;
+        gap: 14px;
+    }
+    .btn-cta-solid,
+    .btn-cta-outline {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* Medium & Small Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .dsbss-udp-cards-row {
+        flex-direction: column;
+        gap: 20px;
+        row-gap: 20px;
+        width: 100%;
+    }
+
+    .dsbss-udp-card-col {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .dsbss-udp-card {
+        width: 100%;
+    }
+
+    /* Real-World Applications 767px */
+    .rwa-cards-row {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .rwa-card-col {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* Enhanced Digital Design 767px */
+    .edd-cards-wrapper {
+        flex-direction: column;
+        gap: 18px;
+        width: 100%;
+    }
+    .edd-card-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* Technology & Software 767px */
+    .ts-cards-row {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .ts-card-scanners,
+    .ts-card-freeform,
+    .ts-card-outputs {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* CAPEX & OPEX 767px */
+    .co-card {
+        padding: 22px 18px;
+    }
+    .co-card-title {
+        font-size: 1.22rem;
+    }
+
+    /* CTA Section 767px */
+    .cta-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile Devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .dsbss-hero-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .dsbss-container {
+        padding: 0 15px;
+    }
+
+    .dsbss-hero-title {
+        font-size: 1.95rem;
+    }
+
+    .dsbss-hero-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .dsbss-hero-desc {
+        font-size: 0.95rem;
+    }
+
+    .dsbss-hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-dsbss-solid,
+    .btn-dsbss-outline {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dsbss-step-header {
+        min-height: 38px;
+    }
+
+    .dsbss-step-arrow {
+        margin-top: 55px;
+    }
+
+    .dsbss-step-title {
+        font-size: 0.72rem;
+        white-space: normal;
+    }
+
+    .dsbss-step-subtitle {
+        font-size: 0.68rem;
+        white-space: normal;
+    }
+
+    .dsbss-step-img-box {
+        max-width: 85px;
+        height: 95px;
+    }
+
+    .arrow-circle {
+        width: 24px;
+        height: 24px;
+        font-size: 0.7rem;
+    }
+
+    .dsbss-contact-val {
+        font-size: 0.85rem;
+    }
+
+    /* Status Bar Mobile */
+    .dsbss-status-section {
+        padding: 20px 0;
+    }
+
+    .dsbss-status-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .dsbss-status-item {
+        flex: 1 1 100%;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .dsbss-status-text {
+        font-size: 0.88rem;
+        white-space: normal;
+    }
+
+    /* Unlimited Design Possibilities Mobile */
+    .dsbss-udp-section {
+        padding: 40px 0;
+    }
+
+    .dsbss-udp-title {
+        font-size: 1.65rem;
+        line-height: 1.25;
+        margin-bottom: 18px;
+    }
+
+    .dsbss-udp-desc {
+        font-size: 0.95rem;
+    }
+
+    .btn-udp-orange {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dsbss-udp-cards-row {
+        gap: 20px;
+        row-gap: 20px;
+        width: 100%;
+    }
+
+    .dsbss-udp-card-col {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .dsbss-udp-card {
+        width: 100%;
+        padding: 16px 14px 20px 14px;
+    }
+
+    .dsbss-udp-card-title {
+        font-size: 0.9rem;
+    }
+
+    /* Real-World Applications Mobile */
+    .dsbss-rwa-section {
+        padding: 40px 0;
+    }
+
+    .rwa-sec-title {
+        font-size: 1.65rem;
+        margin-bottom: 28px;
+    }
+
+    .rwa-card {
+        padding: 20px 16px;
+    }
+
+    .rwa-card-title {
+        font-size: 1rem;
+    }
+
+    .rwa-card-visual {
+        height: 190px;
+    }
+
+    /* More Applications Areas Mobile */
+    .dsbss-maa-section {
+        padding: 40px 0;
+    }
+
+    .maa-sec-title {
+        font-size: 1.65rem;
+        margin-bottom: 20px;
+    }
+
+    .maa-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .maa-card {
+        padding: 12px 8px 16px 8px;
+    }
+
+    .maa-card-img {
+        height: 130px;
+    }
+
+    .maa-card-title {
+        font-size: 0.82rem;
+        min-height: 36px;
+    }
+
+    /* Enhanced Digital Design Mobile */
+    .dsbss-edd-section {
+        padding: 40px 0;
+    }
+
+    .edd-sec-title {
+        font-size: 1.65rem;
+        margin-bottom: 22px;
+    }
+
+    .edd-card {
+        padding: 18px 14px;
+    }
+
+    .edd-card-title {
+        font-size: 0.95rem;
+    }
+
+    .edd-card-desc {
+        font-size: 0.82rem;
+        min-height: auto;
+    }
+
+    .edd-card-img-box {
+        height: 180px;
+    }
+
+    /* Technology & Software Mobile */
+    .dsbss-ts-section {
+        padding: 40px 0;
+    }
+    .ts-sec-title {
+        font-size: 1.65rem;
+        margin-bottom: 20px;
+    }
+    .ts-card {
+        padding: 18px 14px;
+    }
+    .ts-card-title {
+        font-size: 1.02rem;
+    }
+    .ts-subcards-wrapper {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .ts-subcard {
+        padding: 16px 12px;
+    }
+    .ts-subcard-img-box {
+        height: 140px;
+    }
+    .ts-subcard-title {
+        font-size: 0.95rem;
+    }
+    .btn-ts-know-more {
+        font-size: 0.82rem;
+        padding: 8px 14px;
+    }
+    .ts-freeform-body img {
+        max-height: 160px;
+    }
+    .ts-outputs-body img {
+        max-height: 180px;
+    }
+
+    /* CAPEX & OPEX Mobile */
+    .dsbss-co-section {
+        padding: 10px 0 40px 0;
+    }
+    .co-card {
+        padding: 20px 14px;
+        border-radius: 14px;
+    }
+    .co-eyebrow {
+        font-size: 0.88rem;
+    }
+    .co-card-title {
+        font-size: 1.15rem;
+    }
+    .co-card-body {
+        flex-direction: column-reverse;
+        gap: 16px;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .co-visual {
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        margin: 5px 0 10px 0;
+    }
+    .co-visual-capex img {
+        max-height: 160px;
+    }
+    .co-visual-opex img {
+        max-height: 160px;
+    }
+    .co-checklist {
+        width: 100%;
+    }
+    .co-checklist li {
+        font-size: 0.85rem;
+        margin-bottom: 8px;
+    }
+    .btn-co-orange {
+        font-size: 0.85rem;
+        padding: 10px 14px;
+    }
+
+    /* CTA Section Mobile */
+    .dsbss-cta-section {
+        padding: 40px 0;
+    }
+    .cta-title {
+        font-size: 1.6rem;
+        line-height: 1.25;
+    }
+    .cta-desc {
+        font-size: 0.92rem;
+        margin-bottom: 22px;
+    }
+    .cta-contact-val {
+        font-size: 0.84rem;
+        white-space: normal;
+    }
+    .btn-cta-solid,
+    .btn-cta-outline {
+        font-size: 0.92rem;
+        padding: 12px 16px;
+    }
+}

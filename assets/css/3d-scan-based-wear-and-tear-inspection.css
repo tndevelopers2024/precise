@@ -1,0 +1,1307 @@
+/* ==========================================================================
+   3D Scan-Based Wear & Tear Inspection Page Stylesheet
+   ========================================================================== */
+
+:root {
+  --wti-orange: #ff8d1e;
+  --wti-orange-dark: #e6760c;
+  --wti-bg: #f6f6fa;
+  --wti-heading: #2F2F2F;
+  --wti-text: #1E1E1E;
+}
+
+body.wti-page {
+  background-color: var(--wti-bg);
+  color: var(--wti-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+.wti-page section,
+.wti-page section p,
+.wti-page section h1,
+.wti-page section h2,
+.wti-page section h3,
+.wti-page section h4,
+.wti-page section li,
+.wti-page section span,
+.wti-page section a {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.wti-container {
+  width: 100%;
+  padding: 0 3% !important;
+  position: relative;
+  z-index: 3;
+}
+
+.wti-section {
+  background-color: var(--wti-bg) !important;
+  padding: 56px 0;
+  position: relative;
+}
+
+.text-orange {
+  color: var(--wti-orange) !important;
+}
+
+.wti-section-heading {
+  color: #2F2F2F;
+  font-size: 2.625rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+.wti-section-subheading {
+  color: #2F2F2F;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 36px;
+}
+
+/* Shared Buttons */
+.wti-btn-orange {
+  background: linear-gradient(180deg, #ff9d38 0%, #ff8212 100%);
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 4px 14px rgba(255, 141, 30, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  white-space: nowrap;
+}
+
+.wti-btn-orange:hover {
+  filter: brightness(0.96);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 141, 30, 0.45);
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.wti-btn-outline {
+  background: transparent;
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 3px solid #FFFFFF;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.wti-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   1. HERO SECTION
+   ========================================================================== */
+.wti-hero-section {
+  position: relative;
+  background-color: #000000 !important;
+  padding-top: 145px;
+  padding-bottom: 48px;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.wti-hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.wti-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180.04deg, rgba(0, 0, 0, 0) 0.03%, #F6F6FA 99.97%),
+    linear-gradient(90.08deg, #000000 39.38%, rgba(0, 0, 0, 0) 99.57%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.wti-hero-top-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+
+.wti-contact-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.wti-contact-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--wti-orange);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(255, 141, 30, 0.35);
+}
+
+.wti-contact-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.wti-contact-label {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.wti-contact-links {
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.wti-contact-links a {
+  text-decoration: none;
+}
+
+.wti-contact-links a:hover {
+  text-decoration: underline;
+}
+
+.wti-divider {
+  margin: 0 6px;
+  color: var(--wti-orange);
+  font-weight: 600;
+}
+
+.wti-call-box .wti-contact-label,
+.wti-call-box .wti-contact-links,
+.wti-call-box .wti-contact-links a {
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.65);
+}
+
+.wti-email-box {
+  margin-top: 26px;
+}
+
+.wti-email-box .wti-contact-label,
+.wti-email-box .wti-contact-links,
+.wti-email-box .wti-contact-links a {
+  color: #000000;
+}
+
+.wti-hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.wti-hero-title {
+  font-size: 3.6875rem;
+  font-weight: 700;
+  line-height: 1.12;
+  color: #ffffff;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.wti-hero-subtitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.wti-hero-desc {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: #f3f4f6;
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.wti-hero-btns {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 14px;
+  margin-bottom: 34px;
+}
+
+.wti-hero-btn {
+  font-weight: 600;
+  font-size: 1.5625rem;
+  border-radius: 10px;
+  padding: 12px 22px;
+}
+
+.wti-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(110px, 1fr));
+  gap: 16px;
+  max-width: 680px;
+  align-items: start;
+}
+
+.wti-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wti-stat-icon-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #00000099;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.wti-stat-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wti-stat-label {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #000000;
+  text-align: center;
+}
+
+.wti-hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wti-hero-visual {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+  display: block;
+}
+
+/* ==========================================================================
+   2. PROBLEM / SOLUTION OVERVIEW
+   ========================================================================== */
+.wti-problem-section {
+  padding-top: 52px;
+  padding-bottom: 64px;
+}
+
+.wti-problem-grid {
+  display: grid;
+  grid-template-columns: 0.92fr 1.28fr;
+  gap: 36px;
+  align-items: center;
+}
+
+.wti-problem-heading {
+  color: #2F2F2F;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 22px;
+}
+
+.wti-problem-text {
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #2F2F2F;
+  margin-bottom: 22px;
+}
+
+.wti-problem-right {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 36px 28px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+.wti-matter-heading {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: #2F2F2F;
+  margin-bottom: 30px;
+}
+
+.wti-matter-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.wti-matter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wti-matter-icon-circle {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: #f6f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  padding: 20px;
+}
+
+.wti-matter-icon-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wti-matter-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.wti-matter-desc {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* ==========================================================================
+   3. HOW 3D SCAN-BASED WEAR INSPECTION WORKS
+   ========================================================================== */
+.wti-how-section {
+  background-color: #ffffff !important;
+}
+
+.wti-how-track {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr auto 1fr;
+  align-items: stretch;
+  gap: 0;
+  margin-top: 40px;
+}
+
+.wti-how-card {
+  position: relative;
+  background-color: #f6f6fa;
+  border-radius: 10px;
+  padding: 36px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.wti-how-badge {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wti-how-body {
+  padding: 0 4px;
+  margin-bottom: 18px;
+}
+
+.wti-how-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 12px;
+  min-height: 2.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wti-how-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.wti-how-img-box {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.wti-how-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.03);
+  display: block;
+}
+
+.wti-how-connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+  margin: 0 -10px;
+}
+
+.wti-how-connector i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--wti-orange);
+  color: #ffffff;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(255, 141, 30, 0.4);
+}
+
+/* ==========================================================================
+   4. REAL-WORLD EXAMPLE: MINING CRUSHER LINER
+   ========================================================================== */
+.wti-example-section {
+  padding: 40px 0;
+}
+
+.wti-example-dark-box {
+  background-color: #010101;
+  border-radius: 16px;
+  padding: 46px 44px 40px;
+  color: #F6F6FA;
+}
+
+.wti-example-heading {
+  font-size: 2.625rem;
+  font-weight: 700;
+  color: #F6F6FA;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.wti-example-subheading {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #f6f6fa;
+  margin-bottom: 36px;
+}
+
+.wti-example-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.wti-example-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.wti-example-img-wrap {
+  width: 100%;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.wti-example-img-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.wti-example-white-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 6px;
+  height: 210px;
+  margin-top: 12px;
+  margin-bottom: 31px;
+}
+
+.wti-example-white-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.03);
+}
+
+.wti-example-caption {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #f6f6fa;
+  line-height: 1.35;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   5. APPLICATIONS ACROSS INDUSTRIES
+   ========================================================================== */
+.wti-app-row-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.wti-app-row-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.wti-app-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 12px 12px 18px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.wti-app-img-box {
+  width: 100%;
+  aspect-ratio: 772 / 1028;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  background-color: #e5e7eb;
+}
+
+.wti-app-img-box.wti-app-img-wide {
+  aspect-ratio: 936 / 1028;
+}
+
+.wti-app-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.wti-app-title {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.wti-app-desc {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   6. WHAT CAN YOU MEASURE?
+   ========================================================================== */
+.wti-measure-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 42px 38px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+.wti-measure-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.95fr;
+  gap: 36px;
+  align-items: center;
+}
+
+.wti-measure-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.wti-check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wti-check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #1e1e1e;
+  margin-bottom: 16px;
+}
+
+.wti-check-list li:last-child {
+  margin-bottom: 0;
+}
+
+.wti-check-badge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--wti-orange);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 3px;
+  font-size: 0.75rem;
+}
+
+.wti-check-dark-tick {
+  color: #111827;
+}
+
+.wti-check-white-tick {
+  color: #ffffff;
+}
+
+.wti-measure-img-frame {
+  background-color: #ffffff;
+  overflow: visible;
+  padding: 0;
+}
+
+.wti-measure-img-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* ==========================================================================
+   7. APPLICATION OPTIONS FOR WEAR ANALYSIS
+   ========================================================================== */
+.wti-options-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.wti-option-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+.wti-option-title {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  min-height: 2.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wti-option-img-box {
+  width: 100%;
+  height: 185px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 6px;
+}
+
+.wti-option-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.wti-option-lead {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #2F2F2F;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.wti-option-list li {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #1E1E1E;
+  margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   8. SOFTWARE USED & RECOMMENDED 3D SCANNERS
+   ========================================================================== */
+.wti-software-outer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.wti-software-card-panel {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px 28px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+.wti-software-main-panel {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.wti-software-brand {
+  margin-bottom: 14px;
+}
+
+.wti-cx-logo-full {
+  width: 100%;
+  max-width: 310px;
+  height: auto;
+  display: block;
+}
+
+.wti-software-desc {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #1E1E1E;
+  margin-bottom: 18px;
+}
+
+.wti-software-preview {
+  background-color: #ffffff;
+  overflow: visible;
+  padding: 0;
+}
+
+.wti-software-preview img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.wti-software-col-heading {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #2F2F2F;
+  margin-bottom: 18px;
+}
+
+.wti-capabilities-list {
+  margin-bottom: 24px;
+}
+
+.wti-capabilities-list li {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #1E1E1E;
+  margin-bottom: 13px;
+}
+
+.wti-know-more-btn {
+  width: 100%;
+  max-width: 270px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF !important;
+}
+
+.wti-scanners-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.wti-scanner-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-items: stretch;
+  flex: 1;
+}
+
+.wti-scanner-card {
+  background-color: #FF931E1A;
+  border: 1px solid #FF931E40;
+  border-radius: 16px;
+  padding: 16px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wti-scanner-img-box {
+  height: 170px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.wti-scanner-img-box img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.wti-scanner-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1E1E1E;
+  margin-bottom: 14px;
+  min-height: 2.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wti-scanner-btn {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  margin-top: auto;
+}
+
+/* ==========================================================================
+   9. DELIVERABLES
+   ========================================================================== */
+.wti-deliverables-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.wti-deliv-item {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.wti-deliv-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: var(--wti-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.wti-deliv-icon img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.wti-deliv-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.wti-deliv-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   10. CAPEX & OPEX SECTION
+   ========================================================================== */
+.wti-capex-opex-section {
+  padding-bottom: 72px;
+}
+
+.wti-co-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.wti-co-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+  padding: 36px 34px 30px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.wti-opex-bg-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 68%;
+  height: 78%;
+  background-size: cover;
+  background-position: center bottom;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.wti-opex-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(125deg, rgba(9, 19, 31, 0.85) 35%, rgba(9, 19, 31, 0.55) 75%, rgba(9, 19, 31, 0.35) 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.wti-co-content {
+  position: relative;
+  z-index: 3;
+}
+
+.wti-co-title {
+  font-size: 2.0625rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.wti-co-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #f6f6fa;
+  margin-bottom: 26px;
+}
+
+.wti-co-list-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.wti-co-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wti-co-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+
+.wti-green-check {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #36c436;
+  color: #09131f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.wti-capex-body {
+  display: grid;
+  grid-template-columns: 0.94fr 1.06fr;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.wti-capex-img-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wti-opex-columns {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.wti-co-cta-btn {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS (320px - 1360px)
+   ========================================================================== */
+@media (max-width: 1360px) {
+  .wti-hero-btn {
+    font-size: 1.2rem;
+    padding: 12px 18px;
+  }
+  .wti-software-outer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wti-hero-bg {
+    background-size: cover;
+    background-position: right top;
+  }
+  .wti-hero-title {
+    font-size: 2.85rem;
+  }
+  .wti-hero-btns {
+    flex-wrap: wrap;
+  }
+  .wti-problem-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .wti-how-track {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px 18px;
+  }
+  .wti-how-connector {
+    display: none;
+  }
+  .wti-app-row-6,
+  .wti-app-row-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .wti-options-grid,
+  .wti-deliverables-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wti-co-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 991px) {
+  .wti-hero-section {
+    padding-top: 120px;
+  }
+  .wti-hero-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.72) 65%, #F6F6FA 100%);
+  }
+  .wti-hero-grid,
+  .wti-measure-grid,
+  .wti-software-main-panel {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .wti-matter-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 16px;
+  }
+  .wti-example-grid,
+  .wti-how-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .wti-section {
+    padding: 40px 0;
+  }
+  .wti-section-heading,
+  .wti-problem-heading,
+  .wti-example-heading {
+    font-size: 1.85rem;
+  }
+  .wti-section-subheading,
+  .wti-problem-text,
+  .wti-example-subheading {
+    font-size: 1.05rem;
+    margin-bottom: 24px;
+  }
+  .wti-hero-top-bar {
+    justify-content: flex-start;
+  }
+  .wti-hero-title {
+    font-size: 2.25rem;
+  }
+  .wti-hero-subtitle {
+    font-size: 1.3rem;
+  }
+  .wti-hero-btn {
+    font-size: 1.125rem;
+  }
+  .wti-hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .wti-matter-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wti-measure-card,
+  .wti-software-card-panel {
+    padding: 24px 20px;
+  }
+  .wti-how-track,
+  .wti-example-grid,
+  .wti-options-grid,
+  .wti-scanner-cards,
+  .wti-deliverables-grid,
+  .wti-measure-lists,
+  .wti-capex-body,
+  .wti-opex-columns {
+    grid-template-columns: 1fr;
+  }
+  .wti-app-row-6,
+  .wti-app-row-5 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .wti-example-dark-box,
+  .wti-co-card {
+    padding: 28px 20px;
+  }
+  .wti-co-title {
+    font-size: 1.65rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wti-hero-btns {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .wti-hero-btn,
+  .wti-btn-orange,
+  .wti-btn-outline {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
+  .wti-contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .wti-app-row-6,
+  .wti-app-row-5 {
+    grid-template-columns: 1fr;
+  }
+  .wti-matter-grid {
+    grid-template-columns: 1fr;
+  }
+}

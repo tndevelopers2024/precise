@@ -1,0 +1,2153 @@
+/* ==========================================================================
+   Automated 3D Scanning & Inspection Solutions for Smart Manufacturing
+   Dedicated Page Stylesheet
+   Compatible with Bootstrap 4.5.3
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   General Container & Global Helpers
+   -------------------------------------------------------------------------- */
+.asis-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------
+   1. Hero Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-hero-section {
+    background-color: #03060c;
+    background-image: url('../images/automated-3d-scanning-inspection-solutions-for-smart-manufacturing/a3dsissm-hero-banner-img.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    min-height: 720px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Subtle left-side dark scrim for ultra-wide monitors */
+.asis-hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(3, 6, 12, 0.85) 0%, rgba(3, 6, 12, 0.6) 60%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.asis-hero-section .asis-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+/* Top Right Contact Badge (Desktop) */
+.asis-top-contact-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.asis-contact-badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.asis-contact-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff8a00 0%, #f37021 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    box-shadow: 0 4px 12px rgba(243, 112, 33, 0.45);
+}
+
+.asis-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.asis-contact-label {
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 500;
+    opacity: 0.9;
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+.asis-contact-val {
+    color: #ffffff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.asis-contact-val a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.asis-contact-val a:hover {
+    color: #ff8a00;
+    text-decoration: underline;
+}
+
+/* Left Content Column */
+.asis-hero-left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.asis-hero-eyebrow {
+    color: #f37021;
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+
+.asis-hero-title {
+    color: #ffffff;
+    font-size: 2.85rem;
+    font-weight: 800;
+    line-height: 1.18;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+}
+
+.asis-hero-subtitle {
+    color: #ffffff;
+    font-size: 1.22rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 18px;
+    letter-spacing: -0.2px;
+}
+
+.asis-hero-desc {
+    color: #cbd5e1;
+    font-size: 1.02rem;
+    line-height: 1.68;
+    margin-bottom: 30px;
+    max-width: 620px;
+}
+
+/* Action Buttons */
+.asis-hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 38px;
+}
+
+.btn-asis-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 13px 26px;
+    background: linear-gradient(135deg, #ff9a33 0%, #f37021 100%);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-asis-solid:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(243, 112, 33, 0.55);
+    background: linear-gradient(135deg, #f37021 0%, #e05b0d 100%);
+    text-decoration: none;
+}
+
+.btn-asis-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 26px;
+    background: transparent;
+    border: 1.5px solid #f37021;
+    color: #f37021;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.btn-asis-outline:hover {
+    background-color: #f37021;
+    color: #ffffff;
+    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.35);
+}
+
+/* Email Badge (Bottom Left) */
+.asis-email-badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* --------------------------------------------------------------------------
+   2. RobotScan Series Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-rss-section {
+    background-color: #F6F5FA;
+    padding: 75px 0 65px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.rss-top-row {
+    margin-bottom: 50px;
+}
+
+.rss-workstation-box {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rss-workstation-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.rss-workstation-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.rss-content-col {
+    padding-left: 35px;
+}
+
+.rss-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin: 0 0 10px 0;
+}
+
+.rss-sec-subtitle {
+    color: #0c1929;
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 22px 0;
+    letter-spacing: -0.2px;
+}
+
+.rss-desc {
+    color: #475569;
+    font-size: 1.02rem;
+    line-height: 1.68;
+    margin: 0 0 18px 0;
+}
+
+.rss-desc:last-child {
+    margin-bottom: 0;
+}
+
+/* 5 Key Features Grid */
+.rss-features-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    align-items: flex-start;
+    padding-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.rss-feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.rss-feature-icon-box {
+    width: 62px;
+    height: 66px;
+    min-width: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.rss-feature-icon {
+    max-width: 100%;
+    max-height: 60px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.25s ease;
+}
+
+.rss-feature-item:hover .rss-feature-icon {
+    transform: scale(1.1);
+}
+
+.rss-feature-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.rss-feature-title {
+    color: #0c1929;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 4px 0;
+}
+
+.rss-feature-desc {
+    color: #475569;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   3. Standard Automation Solutions Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-sas-section {
+    background-color: #F6F5FA;
+    padding: 75px 0 85px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.sas-header {
+    margin-bottom: 38px;
+    max-width: 860px;
+}
+
+.sas-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+}
+
+.sas-sec-subtitle {
+    color: #0c1929;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+    margin: 0 0 16px 0;
+}
+
+.sas-desc {
+    color: #475569;
+    font-size: 1.02rem;
+    line-height: 1.65;
+    margin: 0;
+}
+
+/* 3-Column Solution Cards Grid */
+.sas-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    align-items: stretch;
+}
+
+.sas-card {
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #ECEEF3;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    padding: 16px 16px 22px 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.sas-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    border-color: #dbe1eb;
+}
+
+/* Image Container */
+.sas-card-img-box {
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #edf2f7;
+    position: relative;
+}
+
+.sas-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.sas-card:hover .sas-card-img {
+    transform: scale(1.03);
+}
+
+/* Card Body */
+.sas-card-body {
+    padding: 16px 6px 0 6px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.sas-card-title {
+    color: #0c1929;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+}
+
+/* Badge */
+.sas-card-badge-wrap {
+    margin-bottom: 18px;
+}
+
+.sas-card-badge {
+    display: inline-block;
+    background-color: #FEF2E8;
+    color: #f37021;
+    font-size: 0.84rem;
+    font-weight: 600;
+    padding: 4px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(243, 112, 33, 0.15);
+}
+
+/* Feature List */
+.sas-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.sas-features-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.94rem;
+    line-height: 1.5;
+    color: #334155;
+}
+
+.sas-check {
+    color: #f37021;
+    font-weight: 800;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    flex-shrink: 0;
+}
+
+/* Card Action */
+.sas-card-action {
+    margin-top: auto;
+    padding-top: 4px;
+}
+
+.btn-sas-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #ff982f 0%, #f37021 100%);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(243, 112, 33, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-sas-cta:hover {
+    color: #ffffff;
+    background: linear-gradient(135deg, #f37021 0%, #d8570b 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(243, 112, 33, 0.48);
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   4. Key Advantages Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-ka-section {
+    background-color: #080d1a;
+    padding: 75px 0 85px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.ka-header {
+    margin-bottom: 38px;
+}
+
+.ka-sec-title {
+    color: #ffffff;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* 4-Column Grid */
+.ka-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+    align-items: stretch;
+}
+
+.ka-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ka-img-box {
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #151d2f;
+    position: relative;
+}
+
+.ka-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.ka-item:hover .ka-img {
+    transform: scale(1.04);
+}
+
+.ka-content {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.ka-item-title {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+}
+
+.ka-item-desc {
+    color: #94a3b8;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   5. Customized Solutions Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-cs-section {
+    background-color: #ffffff;
+    padding: 80px 0 90px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cs-header {
+    margin-bottom: 42px;
+}
+
+.cs-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0 0 14px 0;
+}
+
+.cs-sec-desc {
+    color: #475569;
+    font-size: 1.02rem;
+    line-height: 1.65;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Large Diagram Box */
+.cs-diagram-box {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 55px;
+    background-color: #f8fafc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cs-diagram-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 38px rgba(0, 0, 0, 0.12);
+}
+
+.cs-diagram-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Solution Feature Rows */
+.cs-feature-row {
+    margin-bottom: 48px;
+}
+
+.cs-feature-row:last-child {
+    margin-bottom: 0;
+}
+
+.cs-feature-text-col {
+    padding-right: 35px;
+}
+
+.cs-feature-title {
+    color: #0c1929;
+    font-size: 2.15rem;
+    font-weight: 800;
+    line-height: 1.25;
+    margin: 0 0 20px 0;
+    letter-spacing: -0.02em;
+}
+
+.cs-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cs-feature-list li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 1.02rem;
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.cs-feature-list li:last-child {
+    margin-bottom: 0;
+}
+
+.cs-feature-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: -2px;
+    color: #0c1929;
+    font-size: 1.35rem;
+    line-height: 1.4;
+    font-weight: 900;
+}
+
+/* Video Card */
+.cs-video-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #080d1a;
+}
+
+.cs-video-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.14);
+}
+
+.cs-video-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.cs-video-card:hover .cs-video-img {
+    transform: scale(1.02);
+}
+
+/* --------------------------------------------------------------------------
+   6. Software and Inspection Workflow Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-siw-section {
+    background-color: #F6F5FA;
+    padding: 75px 0 85px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.siw-header {
+    margin-bottom: 26px;
+}
+
+.siw-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+}
+
+.siw-sec-subtitle {
+    color: #0c1929;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+    margin: 0 0 16px 0;
+}
+
+.siw-desc {
+    color: #475569;
+    font-size: 1.02rem;
+    line-height: 1.6;
+    max-width: 680px;
+    margin: 0;
+}
+
+/* Software Screen Box */
+.siw-screen-box {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    background-color: #2b2e38;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.siw-screen-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 38px rgba(0, 0, 0, 0.12);
+}
+
+.siw-screen-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Right Column Features Stack */
+.siw-right-col {
+    padding-left: 45px;
+}
+
+.siw-features-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.siw-feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.siw-icon-box {
+    width: 72px;
+    min-width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.siw-icon-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.siw-feature-item:hover .siw-icon-img {
+    transform: scale(1.08);
+}
+
+.siw-feature-text {
+    flex: 1;
+}
+
+.siw-feature-title {
+    color: #0c1929;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 8px 0;
+    letter-spacing: -0.01em;
+}
+
+.siw-feature-desc {
+    color: #475569;
+    font-size: 0.94rem;
+    line-height: 1.55;
+    margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   7. Technical Specifications Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-ts-section {
+    background-color: #ffffff;
+    padding: 80px 0 90px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.ts-left-col {
+    padding-right: 36px;
+}
+
+.ts-header {
+    margin-bottom: 28px;
+}
+
+.ts-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+}
+
+.ts-sec-subtitle {
+    color: #0c1929;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.32;
+    margin: 0;
+}
+
+/* Specifications Table Card */
+.ts-table-card {
+    border: 1px solid #e6e9f0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+}
+
+.ts-spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.ts-spec-table tbody tr {
+    border-bottom: 1px solid #edf0f5;
+    transition: background-color 0.2s ease;
+}
+
+.ts-spec-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.ts-spec-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.ts-spec-table tbody tr:nth-child(even) {
+    background-color: #f7f8fb;
+}
+
+.ts-spec-table th {
+    width: 44%;
+    padding: 15px 24px;
+    color: #0c1929;
+    font-size: 0.98rem;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.ts-spec-table td {
+    width: 56%;
+    padding: 15px 24px;
+    color: #475569;
+    font-size: 0.98rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+/* Right Column Diagram Card */
+.ts-visual-box {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #eef1f6;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ts-visual-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.ts-visual-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --------------------------------------------------------------------------
+   8. Software and Inspection Workflow - 5-Card Grid (Exact Match to Reference)
+   -------------------------------------------------------------------------- */
+.asis-swf-section {
+    background-color: #F6F5FA;
+    padding: 75px 0 85px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.swf-header {
+    margin-bottom: 36px;
+    max-width: 980px;
+}
+
+.swf-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+}
+
+.swf-sec-subtitle {
+    color: #0c1929;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+    margin: 0 0 16px 0;
+}
+
+.swf-desc {
+    color: #475569;
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* 5-Column Cards Grid (Shared layout for SWF & FCC) */
+.swf-cards-grid,
+.fcc-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+    align-items: stretch;
+}
+
+.swf-card,
+.fcc-card {
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #ECEEF3;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.swf-card:hover,
+.fcc-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+    border-color: #dbe1eb;
+}
+
+/* Flush Top Image Container */
+.swf-card-img-box,
+.fcc-card-img-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #edf2f7;
+    flex-shrink: 0;
+}
+
+.swf-card-img,
+.fcc-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.swf-card:hover .swf-card-img,
+.fcc-card:hover .fcc-card-img {
+    transform: scale(1.04);
+}
+
+/* Card Body */
+.swf-card-body,
+.fcc-card-body {
+    padding: 16px 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.swf-card-title {
+    color: #0c1929;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.32;
+    margin: 0 0 8px 0;
+    letter-spacing: -0.01em;
+}
+
+.swf-card-desc,
+.fcc-card-desc {
+    color: #475569;
+    font-size: 0.87rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   9. Five Core Components Section (Exact Match to Reference Design)
+   -------------------------------------------------------------------------- */
+.asis-fcc-section {
+    background-color: #F6F5FA;
+    padding: 55px 0 85px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.fcc-header {
+    margin-bottom: 34px;
+}
+
+.fcc-sec-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.fcc-card-title-row {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    margin-bottom: 8px;
+}
+
+.fcc-num {
+    color: #ff8c1a;
+    font-size: 1.08rem;
+    font-weight: 800;
+    line-height: 1.2;
+    flex-shrink: 0;
+}
+
+.fcc-card-title {
+    color: #0c1929;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.28;
+    margin: 0;
+    letter-spacing: -0.015em;
+}
+
+/* --------------------------------------------------------------------------
+   10. CTA Section (Ready to Automate Your 3D Inspection Process?)
+   -------------------------------------------------------------------------- */
+.asis-cta-section {
+    background-color: #F7EDE4;
+    padding: 65px 0;
+    position: relative;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cta-banner-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+.cta-banner-left {
+    flex: 1.35 1 0;
+    min-width: 0;
+}
+
+.cta-title {
+    color: #0c1929;
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+    margin: 0 0 14px 0;
+}
+
+.cta-desc {
+    color: #334155;
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin: 0 0 26px 0;
+    max-width: 660px;
+}
+
+.cta-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.cta-contact-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 52px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #ffb35c 0%, #ff9327 38%, #f37021 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.12rem;
+    box-shadow: 0 4px 12px rgba(243, 112, 33, 0.35);
+}
+
+.cta-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-contact-label {
+    font-size: 0.96rem;
+    font-weight: 700;
+    color: #0c1929;
+    line-height: 1.25;
+    margin-bottom: 3px;
+}
+
+.cta-contact-val {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #0c1929;
+    line-height: 1.35;
+}
+
+.cta-contact-val a {
+    color: #0c1929;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.cta-contact-val a:hover {
+    color: #f37021;
+    text-decoration: underline;
+}
+
+.cta-sep {
+    color: #f37021;
+    font-weight: 700;
+    margin: 0 7px;
+}
+
+.cta-banner-right {
+    flex: 0.85 1 0;
+    min-width: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.btn-cta-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 32px;
+    background: radial-gradient(circle at 50% 15%, #ffb457 0%, #ff9327 42%, #f37021 100%);
+    color: #ffffff;
+    font-size: 1.06rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(243, 112, 33, 0.38);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    white-space: nowrap;
+}
+
+.btn-cta-solid:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(243, 112, 33, 0.5);
+    background: linear-gradient(135deg, #f37021 0%, #dc5a0b 100%);
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+
+/* Large screens down to 1200px */
+@media (max-width: 1200px) {
+    .asis-hero-title {
+        font-size: 2.45rem;
+    }
+
+    .asis-hero-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .asis-hero-desc {
+        font-size: 0.98rem;
+    }
+
+    .btn-asis-solid,
+    .btn-asis-outline {
+        font-size: 0.95rem;
+        padding: 12px 22px;
+    }
+
+    /* RobotScan Series 1200px */
+    .rss-content-col {
+        padding-left: 20px;
+    }
+    .rss-sec-title {
+        font-size: 2.1rem;
+    }
+    .rss-sec-subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 18px;
+    }
+    .rss-desc {
+        font-size: 0.96rem;
+    }
+    .rss-features-grid {
+        gap: 18px;
+    }
+    .rss-feature-icon-box {
+        width: 52px;
+        height: 56px;
+        min-width: 52px;
+    }
+    .rss-feature-icon {
+        max-height: 50px;
+    }
+    .rss-feature-title {
+        font-size: 0.92rem;
+    }
+    .rss-feature-desc {
+        font-size: 0.82rem;
+    }
+
+    /* Standard Automation Solutions 1200px */
+    .sas-sec-title {
+        font-size: 2.1rem;
+    }
+    .sas-sec-subtitle {
+        font-size: 1.3rem;
+    }
+    .sas-cards-grid {
+        gap: 20px;
+    }
+    .sas-card-img-box {
+        height: 200px;
+    }
+    .sas-card-title {
+        font-size: 1.22rem;
+    }
+    .sas-features-list li {
+        font-size: 0.9rem;
+    }
+
+    /* Key Advantages 1200px */
+    .ka-sec-title {
+        font-size: 2.1rem;
+    }
+    .ka-cards-grid {
+        gap: 20px;
+    }
+    .ka-img-box {
+        height: 180px;
+    }
+    .ka-item-title {
+        font-size: 1.12rem;
+    }
+    .ka-item-desc {
+        font-size: 0.88rem;
+    }
+
+    /* Customized Solutions 1200px */
+    .cs-sec-title {
+        font-size: 2.1rem;
+    }
+    .cs-feature-title {
+        font-size: 1.85rem;
+    }
+    .cs-feature-list li {
+        font-size: 0.98rem;
+    }
+
+    /* Software and Inspection Workflow 1200px */
+    .siw-sec-title {
+        font-size: 2.1rem;
+    }
+    .siw-sec-subtitle {
+        font-size: 1.3rem;
+    }
+    .siw-right-col {
+        padding-left: 25px;
+    }
+    .siw-features-stack {
+        gap: 28px;
+    }
+    .siw-feature-title {
+        font-size: 1.18rem;
+    }
+    .siw-feature-desc {
+        font-size: 0.9rem;
+    }
+
+    /* Technical Specifications 1200px */
+    .ts-left-col {
+        padding-right: 20px;
+    }
+    .ts-sec-title {
+        font-size: 2.1rem;
+    }
+    .ts-sec-subtitle {
+        font-size: 1.3rem;
+    }
+    .ts-spec-table th,
+    .ts-spec-table td {
+        padding: 13px 18px;
+        font-size: 0.94rem;
+    }
+
+    /* Software Workflow & Five Core Components - 5-Card Grids 1200px */
+    .swf-sec-title,
+    .fcc-sec-title {
+        font-size: 2.1rem;
+    }
+    .swf-sec-subtitle {
+        font-size: 1.3rem;
+    }
+    .swf-cards-grid,
+    .fcc-cards-grid {
+        gap: 14px;
+    }
+    .swf-card-body,
+    .fcc-card-body {
+        padding: 14px 12px 16px 12px;
+    }
+    .swf-card-title {
+        font-size: 0.96rem;
+    }
+    .fcc-num {
+        font-size: 0.98rem;
+    }
+    .fcc-card-title {
+        font-size: 0.9rem;
+    }
+    .swf-card-desc,
+    .fcc-card-desc {
+        font-size: 0.83rem;
+    }
+
+    /* CTA Section 1200px */
+    .cta-title {
+        font-size: 2.1rem;
+    }
+    .btn-cta-solid {
+        font-size: 1rem;
+        padding: 14px 26px;
+    }
+}
+
+/* Tablets (max-width: 991px) */
+@media (max-width: 991px) {
+    .asis-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .asis-hero-section {
+        padding-top: 110px;
+        padding-bottom: 50px;
+        min-height: auto;
+        background: linear-gradient(to bottom, rgba(3, 6, 12, 0.9) 0%, rgba(3, 6, 12, 0.95) 100%),
+                    url('../images/automated-3d-scanning-inspection-solutions-for-smart-manufacturing/a3dsissm-hero-banner-img.png') no-repeat right center / cover;
+    }
+
+    .asis-hero-section::before {
+        display: none;
+    }
+
+    .asis-hero-title {
+        font-size: 2.15rem;
+    }
+
+    .asis-hero-buttons {
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    /* RobotScan Series Tablet */
+    .asis-rss-section {
+        padding: 55px 0 50px 0;
+    }
+    .rss-top-row {
+        margin-bottom: 35px;
+    }
+    .rss-visual-col {
+        margin-bottom: 30px;
+    }
+    .rss-workstation-box {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+    .rss-content-col {
+        /*padding-left: 0;*/
+    }
+    .rss-sec-title {
+        font-size: 1.95rem;
+    }
+    .rss-sec-subtitle {
+        font-size: 1.25rem;
+    }
+    .rss-features-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .rss-feature-icon-box {
+        width: 44px;
+        height: 48px;
+        min-width: 44px;
+    }
+    .rss-feature-icon {
+        max-height: 44px;
+    }
+
+    /* Standard Automation Solutions Tablet */
+    .asis-sas-section {
+        padding: 55px 0 60px 0;
+    }
+    .sas-sec-title {
+        font-size: 1.95rem;
+    }
+    .sas-sec-subtitle {
+        font-size: 1.25rem;
+    }
+    .sas-desc {
+        font-size: 0.95rem;
+    }
+    .sas-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 540px;
+        margin: 0 auto;
+        gap: 24px;
+    }
+    .sas-card-img-box {
+        height: 230px;
+    }
+
+    /* Key Advantages Tablet */
+    .asis-ka-section {
+        padding: 55px 0 60px 0;
+    }
+    .ka-sec-title {
+        font-size: 1.95rem;
+    }
+    .ka-header {
+        margin-bottom: 28px;
+    }
+    .ka-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 26px;
+    }
+    .ka-img-box {
+        height: 210px;
+    }
+
+    /* Customized Solutions Tablet */
+    .asis-cs-section {
+        padding: 55px 0 60px 0;
+    }
+    .cs-sec-title {
+        font-size: 1.95rem;
+    }
+    .cs-sec-desc {
+        font-size: 0.96rem;
+        margin-bottom: 30px;
+    }
+    .cs-diagram-box {
+        margin-bottom: 40px;
+    }
+    .cs-feature-row {
+        margin-bottom: 36px;
+    }
+    .cs-feature-text-col {
+        padding-right: 15px;
+        margin-bottom: 24px;
+    }
+    .cs-feature-title {
+        font-size: 1.7rem;
+        margin-bottom: 14px;
+    }
+    .cs-video-card {
+        max-width: 560px;
+        margin: 0 auto;
+    }
+
+    /* Software and Inspection Workflow Tablet */
+    .asis-siw-section {
+        padding: 55px 0 60px 0;
+    }
+    .siw-sec-title {
+        font-size: 1.95rem;
+    }
+    .siw-sec-subtitle {
+        font-size: 1.25rem;
+    }
+    .siw-desc {
+        font-size: 0.96rem;
+        margin-bottom: 24px;
+    }
+    .siw-left-col {
+        margin-bottom: 40px;
+    }
+    .siw-screen-box {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    .siw-right-col {
+        padding-left: 15px;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    /* Technical Specifications Tablet */
+    .asis-ts-section {
+        padding: 55px 0 60px 0;
+    }
+    .ts-left-col {
+        padding-right: 15px;
+        margin-bottom: 35px;
+    }
+    .ts-sec-title {
+        font-size: 1.95rem;
+    }
+    .ts-sec-subtitle {
+        font-size: 1.25rem;
+    }
+    .ts-visual-box {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+
+    /* Software Workflow & Five Core Components - 5-Card Grids Tablet */
+    .asis-swf-section {
+        padding: 55px 0 60px 0;
+    }
+    .asis-fcc-section {
+        padding: 45px 0 60px 0;
+    }
+    .swf-header,
+    .fcc-header {
+        margin-bottom: 28px;
+    }
+    .swf-sec-title,
+    .fcc-sec-title {
+        font-size: 1.95rem;
+    }
+    .swf-sec-subtitle {
+        font-size: 1.25rem;
+    }
+    .swf-desc {
+        font-size: 0.96rem;
+    }
+    .swf-cards-grid,
+    .fcc-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .swf-card-body,
+    .fcc-card-body {
+        padding: 16px 16px 20px 16px;
+    }
+    .swf-card-title,
+    .fcc-card-title {
+        font-size: 1.05rem;
+    }
+    .fcc-num {
+        font-size: 1.08rem;
+    }
+    .swf-card-desc,
+    .fcc-card-desc {
+        font-size: 0.88rem;
+    }
+
+    /* CTA Section Tablet */
+    .asis-cta-section {
+        padding: 50px 0;
+    }
+    .cta-banner-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+    }
+    .cta-banner-left {
+        width: 100%;
+    }
+    .cta-title {
+        font-size: 1.95rem;
+    }
+    .cta-banner-right {
+        width: 100%;
+        justify-content: flex-start;
+        padding-top: 0;
+    }
+    .btn-cta-solid {
+        width: 100%;
+        max-width: 420px;
+    }
+}
+
+/* Medium & Small Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .asis-hero-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .asis-hero-title {
+        font-size: 1.85rem;
+    }
+
+    .asis-hero-subtitle {
+        font-size: 1.05rem;
+    }
+
+    .asis-hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-asis-solid,
+    .btn-asis-outline {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* RobotScan Series 767px */
+    .rss-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    /* Standard Automation Solutions 767px */
+    .asis-sas-section {
+        padding: 45px 0 50px 0;
+    }
+    .sas-sec-title {
+        font-size: 1.7rem;
+    }
+    .sas-sec-subtitle {
+        font-size: 1.15rem;
+    }
+    .sas-desc {
+        font-size: 0.92rem;
+    }
+    .sas-cards-grid {
+        max-width: 100%;
+    }
+    .sas-card-img-box {
+        height: 210px;
+    }
+
+    /* Key Advantages 767px */
+    .asis-ka-section {
+        padding: 45px 0 50px 0;
+    }
+    .ka-sec-title {
+        font-size: 1.7rem;
+    }
+    .ka-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .ka-img-box {
+        height: 180px;
+    }
+
+    /* Customized Solutions 767px */
+    .asis-cs-section {
+        padding: 45px 0 50px 0;
+    }
+    .cs-sec-title {
+        font-size: 1.7rem;
+    }
+    .cs-feature-title {
+        font-size: 1.5rem;
+    }
+    .cs-feature-list li {
+        font-size: 0.94rem;
+        padding-left: 18px;
+    }
+    .cs-video-card {
+        max-width: 100%;
+    }
+
+    /* Software and Inspection Workflow 767px */
+    .asis-siw-section {
+        padding: 45px 0 50px 0;
+    }
+    .siw-sec-title {
+        font-size: 1.7rem;
+    }
+    .siw-sec-subtitle {
+        font-size: 1.15rem;
+    }
+    .siw-features-stack {
+        gap: 24px;
+    }
+    .siw-icon-box {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+    }
+
+    /* Technical Specifications 767px */
+    .asis-ts-section {
+        padding: 45px 0 50px 0;
+    }
+    .ts-sec-title {
+        font-size: 1.7rem;
+    }
+    .ts-sec-subtitle {
+        font-size: 1.15rem;
+    }
+    .ts-spec-table th,
+    .ts-spec-table td {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+
+    /* Software Workflow & Five Core Components - 5-Card Grids 767px */
+    .asis-swf-section,
+    .asis-fcc-section {
+        padding: 45px 0 50px 0;
+    }
+    .swf-sec-title,
+    .fcc-sec-title {
+        font-size: 1.7rem;
+    }
+    .swf-sec-subtitle {
+        font-size: 1.15rem;
+    }
+    .swf-desc {
+        font-size: 0.92rem;
+    }
+    .swf-cards-grid,
+    .fcc-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    /* CTA Section 767px */
+    .cta-title {
+        font-size: 1.7rem;
+    }
+    .cta-desc {
+        font-size: 0.95rem;
+    }
+    .btn-cta-solid {
+        max-width: 100%;
+    }
+}
+
+/* Mobile Devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .asis-hero-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .asis-hero-eyebrow {
+        font-size: 0.85rem;
+    }
+
+    .asis-hero-title {
+        font-size: 1.65rem;
+        line-height: 1.25;
+        margin-bottom: 14px;
+    }
+
+    .asis-hero-subtitle {
+        font-size: 0.98rem;
+        margin-bottom: 14px;
+    }
+
+    .asis-hero-desc {
+        font-size: 0.92rem;
+        line-height: 1.6;
+        margin-bottom: 24px;
+    }
+
+    .asis-contact-val {
+        font-size: 0.84rem;
+        white-space: normal;
+    }
+
+    .btn-asis-solid,
+    .btn-asis-outline {
+        font-size: 0.92rem;
+        padding: 12px 18px;
+    }
+
+    /* RobotScan Series Mobile */
+    .asis-rss-section {
+        padding: 40px 0 40px 0;
+    }
+    .rss-sec-title {
+        font-size: 1.65rem;
+    }
+    .rss-sec-subtitle {
+        font-size: 1.15rem;
+        margin-bottom: 16px;
+    }
+    .rss-desc {
+        font-size: 0.92rem;
+    }
+    .rss-features-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding-top: 20px;
+    }
+    .rss-feature-item {
+        gap: 12px;
+    }
+    .rss-feature-icon-box {
+        width: 36px;
+        height: 40px;
+        min-width: 36px;
+    }
+    .rss-feature-title {
+        font-size: 0.92rem;
+    }
+    .rss-feature-desc {
+        font-size: 0.82rem;
+    }
+
+    /* Standard Automation Solutions Mobile */
+    .asis-sas-section {
+        padding: 40px 0 45px 0;
+    }
+    .sas-header {
+        margin-bottom: 26px;
+    }
+    .sas-sec-title {
+        font-size: 1.55rem;
+    }
+    .sas-sec-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+    .sas-card {
+        padding: 14px 14px 18px 14px;
+        border-radius: 14px;
+    }
+    .sas-card-img-box {
+        height: 190px;
+        border-radius: 10px;
+    }
+    .sas-card-title {
+        font-size: 1.18rem;
+    }
+    .sas-features-list {
+        margin-bottom: 18px;
+        gap: 10px;
+    }
+    .sas-features-list li {
+        font-size: 0.88rem;
+    }
+    .btn-sas-cta {
+        font-size: 0.95rem;
+        padding: 11px 16px;
+    }
+
+    /* Key Advantages Mobile */
+    .asis-ka-section {
+        padding: 40px 0 45px 0;
+    }
+    .ka-sec-title {
+        font-size: 1.55rem;
+    }
+    .ka-header {
+        margin-bottom: 22px;
+    }
+    .ka-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .ka-img-box {
+        height: 210px;
+    }
+    .ka-item-title {
+        font-size: 1.15rem;
+        margin-bottom: 8px;
+    }
+    .ka-item-desc {
+        font-size: 0.88rem;
+    }
+
+    /* Customized Solutions Mobile */
+    .asis-cs-section {
+        padding: 40px 0 45px 0;
+    }
+    .cs-header {
+        margin-bottom: 24px;
+    }
+    .cs-sec-title {
+        font-size: 1.55rem;
+    }
+    .cs-sec-desc {
+        font-size: 0.9rem;
+    }
+    .cs-diagram-box {
+        border-radius: 12px;
+        margin-bottom: 30px;
+    }
+    .cs-feature-title {
+        font-size: 1.35rem;
+        margin-bottom: 12px;
+    }
+    .cs-feature-list li {
+        font-size: 0.88rem;
+        margin-bottom: 10px;
+    }
+    .cs-video-card {
+        border-radius: 12px;
+    }
+
+    /* Software and Inspection Workflow Mobile */
+    .asis-siw-section {
+        padding: 40px 0 45px 0;
+    }
+    .siw-sec-title {
+        font-size: 1.55rem;
+    }
+    .siw-sec-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+    .siw-desc {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    .siw-screen-box {
+        border-radius: 12px;
+    }
+    .siw-feature-item {
+        gap: 16px;
+    }
+    .siw-icon-box {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+    }
+    .siw-feature-title {
+        font-size: 1.12rem;
+        margin-bottom: 6px;
+    }
+    .siw-feature-desc {
+        font-size: 0.86rem;
+    }
+
+    /* Technical Specifications Mobile */
+    .asis-ts-section {
+        padding: 40px 0 45px 0;
+    }
+    .ts-header {
+        margin-bottom: 20px;
+    }
+    .ts-sec-title {
+        font-size: 1.55rem;
+    }
+    .ts-sec-subtitle {
+        font-size: 1.1rem;
+    }
+    .ts-table-card {
+        border-radius: 10px;
+    }
+    .ts-spec-table th,
+    .ts-spec-table td {
+        padding: 11px 12px;
+        font-size: 0.85rem;
+    }
+    .ts-spec-table th {
+        width: 46%;
+    }
+    .ts-spec-table td {
+        width: 54%;
+    }
+    .ts-visual-box {
+        border-radius: 12px;
+    }
+
+    /* Software Workflow & Five Core Components - 5-Card Grids Mobile */
+    .asis-swf-section,
+    .asis-fcc-section {
+        padding: 40px 0 45px 0;
+    }
+    .swf-header,
+    .fcc-header {
+        margin-bottom: 22px;
+    }
+    .swf-sec-title,
+    .fcc-sec-title {
+        font-size: 1.55rem;
+    }
+    .swf-sec-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+    .swf-desc {
+        font-size: 0.9rem;
+    }
+    .swf-cards-grid,
+    .fcc-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .swf-card-body,
+    .fcc-card-body {
+        padding: 16px;
+    }
+    .swf-card-title,
+    .fcc-card-title {
+        font-size: 1.12rem;
+    }
+    .fcc-num {
+        font-size: 1.15rem;
+    }
+    .swf-card-desc,
+    .fcc-card-desc {
+        font-size: 0.88rem;
+    }
+
+    /* CTA Section Mobile */
+    .asis-cta-section {
+        padding: 40px 0;
+    }
+    .cta-title {
+        font-size: 1.55rem;
+        line-height: 1.25;
+    }
+    .cta-desc {
+        font-size: 0.9rem;
+        margin-bottom: 22px;
+    }
+    .cta-contact-icon {
+        width: 60px;
+        height: 60px;
+        min-width: 46px;
+        font-size: 1rem;
+    }
+    .cta-contact-label {
+        font-size: 0.9rem;
+    }
+    .cta-contact-val {
+        font-size: 0.84rem;
+        white-space: normal;
+    }
+    .btn-cta-solid {
+        font-size: 0.95rem;
+        padding: 13px 20px;
+        white-space: normal;
+    }
+}

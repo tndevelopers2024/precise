@@ -163,8 +163,7 @@
     "name": "What are the minimum system requirements for Geomagic Design X?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Operating System-Windows 8, Processor-2GHz clock speed 8GB of RAM, Space- 30GB HDD, Graphic Card-NVIDIA GeForce 900 Series or AMD RADEON 400 Series with 4GB Video Card RAM (GPU must support Open GL 4.0), Display-64-bit true-color with 1280x960 resolution.
-We recommend going for higher configurations to handle extensive scan data and better performance as per your applications."
+      "text": "Operating System-Windows 8, Processor-2GHz clock speed 8GB of RAM, Space- 30GB HDD, Graphic Card-NVIDIA GeForce 900 Series or AMD RADEON 400 Series with 4GB Video Card RAM (GPU must support Open GL 4.0), Display-64-bit true-color with 1280x960 resolution. We recommend going for higher configurations to handle extensive scan data and better performance as per your applications."
     }
   },{
     "@type": "Question",
@@ -660,10 +659,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                <div class="social">
                   <div class="email">
-                     <a href="tel:+91 98404 78347" class="btn mail-btn">
+                     <div class="btn mail-btn">
                         <i class="fa-solid fa-phone text-white"></i>
-                     </a>
-                     <p><b>Call us now</b> <br>Sales: +91 98404 78347 | +91 73959 72777 </p>
+                     </div>
+                     <p><b>Call us now</b> <br>Sales: <a href="tel:+919840478347">+91 98404 78347</a> | <a href="tel:+917395972777">+91 73959 72777</a> </p>
                   </div>
                </div>
                <div class="geomagic-banner-img">
@@ -2019,8 +2018,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <div id="collapsefiveteen" class="accordion-collapse collapse" aria-labelledby="headingfiveteen"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                     Yes, we offer comprehensive training sessions, onsite and online, user guides to practise the
-                     software, and technical support to help you get started and make better use of Geomagic Design X.
+                      Yes, we provide comprehensive 3 to 10 days of onsite training, tailored to the customer's actual applications and components. We also provide user guides for continued learning and practice, along with unlimited access to our online support portal to help users resolve any queries or difficulties they may encounter while using the software
                   </div>
                </div>
             </div>

@@ -13,3 +13,5 @@ docs/
 prompt.md
 graphify-out
 .graphifyignore
+.agents/
+skills-lock.json

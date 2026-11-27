@@ -158,9 +158,6 @@ $img = "assets/images/einstar-ez-go";
               <a href="Book-demo-get-quote-for-3D-scanner.php" class="ez-btn-primary">
                 <span>Book a Live Demo & Quote</span> <i class="fa-solid fa-arrow-right"></i>
               </a>
-              <a href="Book-demo-get-quote-for-3D-scanner.php" class="ez-btn-secondary">
-                <span>Book a Live Demonstration</span>
-              </a>
               <a href="brochures/EINSTAR_EZ_GO_Brochure_EN_20261109.pdf" download target="_blank" class="ez-btn-secondary">
                 <span>Download Brochure</span> <i class="fa-solid fa-download ml-2"></i>
               </a>

@@ -114,9 +114,9 @@
                 <p>Inspect, validate, and verify parts with high-accuracy 3D measurement built for real manufacturing
                     environments.</p>
                 <div class="tp-buttons">
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"
+                    <a href="Book-demo-get-quote-for-3D-scanner.php"
                         class="btn tp-btn-demo">Schedule a Demo</a>
-                    <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"
+                    <a href="Book-demo-get-quote-for-3D-scanner.php"
                         class="btn tp-btn-talk">Talk with Our Experts</a>
                 </div>
             </div>
@@ -543,7 +543,7 @@
                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Through Precise3DM, an authorised reseller of SHINING3D systems, offering bundled hardware and software solutions.</p>
+                           <p>Through Precise3DM, an authorised reseller of Shining 3D and TruePro Software, offering integrated hardware and software solutions. Purchasing the complete package through Precise3DM ensures seamless compatibility, along with dedicated pre-sales and post-sales support from a single trusted partner.</p>
                         </div>
                      </div>
                   </div>
@@ -557,7 +557,7 @@
                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>Complete support—consultation, demo, training, and ongoing technical assistance.</p>
+                           <p>We provide comprehensive 3 to 10 days of onsite training, tailored to the customer's actual applications and components. We also provide user guides for continued learning and practice, along with unlimited access to our online support portal to help users resolve any queries or difficulties they may encounter while using the software.</p>
                         </div>
                      </div>
                   </div>

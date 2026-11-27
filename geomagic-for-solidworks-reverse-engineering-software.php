@@ -158,9 +158,7 @@ Geomagic Classroom Suite for SOLIDWORKS: Geomagic for SOLIDWORKS with three-year
     "name": "Why choose geomagic design X for Solidworks?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "GFSW is the only Scan to SolidWorks solution for Solidworks software.
-It enables 25 % more accurate parts to reverse engineering than SolidWorks alone.
-Price is competitive than the standard revere engineering software."
+      "text": "Geomagic for Solidworks is the only Scan to SolidWorks solution for Solidworks software. It enables 25 % more accurate parts to reverse engineering than SolidWorks alone. Price is competitive than the standard revere engineering software."
     }
   },{
     "@type": "Question",
@@ -280,7 +278,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <p class="text-white text-uppercase">Reverse engineering in SOLIDWORKS </p>
                                 <p class="software-header-list">
                                 <p class="no-margin-bottom"><embed src="assets/images/download-icon-2-02.svg" height="38px" class="header-arrows"> <span class="header-pointer"> Get Quick Quotation</span></p>
-                                <p class="no-margin-bottom"><embed src="assets/images/download-icon-2-02.svg" height="38px" class="header-arrows"> <span class="header-pointer">Talk to our sales Team @ +91-73595972777</span></p>
+                                <p class="no-margin-bottom"><embed src="assets/images/download-icon-2-02.svg" height="38px" class="header-arrows"> <span class="header-pointer">Talk to our sales Team @ +91-7395972777</span></p>
                                 </p>
                             </div>
                             <div class="col-md-4">
@@ -633,11 +631,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <h5 class="pre-color" >Why choose geomagic for Solidworks?</h5>
                     <div class="left-border">
-                        <p class="text-white ">GFSW is the only Scan to SolidWorks solution for Solidworks software.<br>It enables 25 % more accurate parts to reverse engineering than SolidWorks alone.<br>Price is competitive than the standard revere engineering software.</p>
+                        <p class="text-white ">Geomagic for Solidworks is the only Scan to SolidWorks solution for Solidworks software.<br>It enables 25 % more accurate parts to reverse engineering than SolidWorks alone.<br>Price is competitive than the standard revere engineering software.</p>
                     </div>
                     <h5 class="pre-color" >Can we Extract Reference Geometry and Parametric Features in geomagic for Solidworks?</h5>
                     <div class="left-border">
-                        <p class="text-white ">Yes, in Geomagic for SOLIDWORKS, you can extract Ref. Geometry and create editable, parametric features directly from the scan data. </p>
+                        <p class="text-white ">Yes, in Geomagic for Solidworks, you can extract Ref. Geometry and create editable, parametric features directly from the scan data. </p>
                     </div>
                     <h5 class="pre-color" >Do I need to have a Solidworks license to use this plugin?</h5>
                     <div class="left-border">
@@ -645,7 +643,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <h5 class="pre-color" > Is Geomagic for SolidWorks software a perpetual or a year subscription license?</h5>
                     <div class="left-border">
-                        <p class="text-white ">Geomagic for SolidWorks has both yearly subscriptions and perpetual license options. To know more, fill out the book demo form</p>
+                        <p class="text-white ">Geomagic for SolidWorks has both yearly subscriptions and perpetual license options. To know more, fill out the <a href="Book-demo-get-quote-for-3D-scanner.php" style="color: #ff931e;" target="_blank">Book Demo Form</a></p>
                     </div>
 
 

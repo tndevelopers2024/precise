@@ -1,9 +1,9 @@
 <?php
 session_start();
-ini_set('upload_max_filesize', '40000M');
-ini_set('post_max_size', '40000M');
-ini_set('max_input_time', 300000);
-ini_set('max_execution_time', '-1');
+ini_set("upload_max_filesize", "40000M");
+ini_set("post_max_size", "40000M");
+ini_set("max_input_time", 300000);
+ini_set("max_execution_time", "-1");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +37,7 @@ ini_set('max_execution_time', '-1');
     <!--bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- custom css-->
-    
+
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/figure4.css">
@@ -100,18 +100,18 @@ ini_set('max_execution_time', '-1');
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
   "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
+    "@type": "ListItem",
+    "position": 1,
     "name": "Precise3DM",
-    "item": "https://www.precise3dm.com/"  
+    "item": "https://www.precise3dm.com/"
   },{
-    "@type": "ListItem", 
-    "position": 2, 
+    "@type": "ListItem",
+    "position": 2,
     "name": "Figure 4 Standalone 3D Printer",
-    "item": "https://www.precise3dm.com/figure-4-standalone-3d-printer.php"  
+    "item": "https://www.precise3dm.com/figure-4-standalone-3d-printer.php"
   }]
 }
 </script>
@@ -126,12 +126,12 @@ ini_set('max_execution_time', '-1');
   },
   "headline": "Best 3D Scanner for 3D Printing at Low Cost | Figure 4 Standalone 3D Printer",
   "description": "Discover the best 3D scanner for 3D printing with Figure 4, a Stand-Alone 3D Printer from Precise 3DM. Our advanced 3D printing solutions achieve high-quality results at low cost.",
-  "image": "https://www.precise3dm.com/assets/images/figure4/Group%2011600.webp",  
+  "image": "https://www.precise3dm.com/assets/images/figure4/Group%2011600.webp",
   "author": {
     "@type": "Organization",
     "name": "Precise3DM",
     "url": "https://www.precise3dm.com/"
-  },  
+  },
   "publisher": {
     "@type": "Organization",
     "name": "Precise3DM",
@@ -153,7 +153,7 @@ ini_set('max_execution_time', '-1');
                 var val = $(this).val();
                 $(this).val($.trim(val));
         });
-    
+
         function disablebutton()
         {
             $('#loader').show();
@@ -184,10 +184,10 @@ ini_set('max_execution_time', '-1');
             }
         });
     })
-        
+
     </script>
     <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.10.4.js"></script>
-        
+
 <noscript>
 <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2283548&fmt=gif" />
 </noscript>
@@ -212,10 +212,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FX95R9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <!-- header start -->   
-    <?php include('includes/header.php');?>
+    <!-- header start -->
+    <?php include "includes/header.php"; ?>
       <!-- header end -->
-    
+
     <hr class="separator">
     <section id="figurematerialban-banner" class="pt-4 pb-5">
         <div class="container">
@@ -232,7 +232,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="col-md-5 mt-5">
                             <h1 class="    mt-5" style="color: #fff; font-sixe:45px">FIGURE 4 STANDALONE<br> 3D PRINTER</h1>
                 <p class=" text-uppercase mt-3" style="color: #FFF2D4;font-weight:bolder;">PLASTIC PARTS LOW VOLUME PRODUCTION 3D PRINTER</p>
-                
+
                                 <a class="btn pre-btn mt-4" href="figure-4-standalone-3d-printer-material.php" target=_blank> MATERIALS </a>
                                 <a class="btn btn-info btn-lg ml-3 mt-4" data-toggle="modal" data-target="#myModal">GET A QUOTE NOW</a>
 
@@ -247,17 +247,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </section>
-    
-    
+
+
        <div class="container-fluid">
            <div class="row coverpage">
                <!--<div class="col-md-4 mt-5 pl-200px covercon  ">
-                   
+
                    <div class="col-md-12 d-flex justify-content-center coverdep">
                    <div class="row ">
                            <div class="col-md-12">
                            <ul class="thumbnails">
-                    
+
                     <li> <a href="#slide2"><img src="assets/images/solutionix c500/slidepicnew/img3.webp" width="100px" height="100px" class="img-fluid" /></a> </li>
                     <li> <a href="#slide1"><img src="assets/images/solutionix c500/slidepic/img1.webp" width="100px" height="100px" class="img-fluid"/></a> </li>
                     <li> <a href="#slide3"><img src="assets/images/solutionix c500/slidepicnew/img2.webp" width="100px" height="100px" class="img-fluid" /></a> </li>
@@ -266,20 +266,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </ul>
 
                            </div>
-                       
+
                        </div>
                    </div>
                </div>
                <div class="col-md-4 d-flex justify-content-center mt-5 poslide ">
                  <ul class="slides mt-5">
-                    
+
                     <li id="slide2"><img src="assets/images/solutionix c500/slidepicnew/img7.webp"  width="80%"   alt="Industrial 3D scanner"  class="img-fluid "></li>
                     <li id="slide1"><img src="assets/images/solutionix c500/slidemain/img4.webp" width="80%"  alt="Industrial 3D scanner"   class="img-fluid"></li>
                     <li id="slide3"><img src="assets/images/solutionix c500/slidepicnew/img10.webp"  width="80%"  alt="Industrial 3D scanner"   class="img-fluid"></li>
                     <li id="slide4"><img src="assets/images/solutionix c500/slidemain/img2.webp" width="80%"  alt="Industrial 3D scanner"   class="img-fluid	"></li>
                     <li id="slide5"><img src="assets/images/solutionix c500/slidepicnew/img12.webp" width="80%"  alt="Industrial 3D scanner"   class="img-fluid	"></li>
-                    
-                    
+
+
                   </ul>
 
                </div>
@@ -293,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         HIGH PRECISION <br>
                         STABLE REPEATABILITY
                     </p>
-                    
+
                 </div>
                 <div class="col-12 but" >
                     <!--<a class="btn pre-btn my-2" href="" target="_blank">BOOK A DEMO </a>-->
@@ -309,11 +309,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <i class="fas fa-phone-square-alt " style="font-size:20px;color: #FFF2D4;"></i>
                 <a style="color: #FFF2D4; padding-left:5px; font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> Call us at 1800 202 0036 </a>
                 </div>
-                
-                    
+
+
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">GET A QUOTE NOW</button>
                 </div>
-                
+
                </div>-->
 
 
@@ -325,7 +325,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    </div>
                    <div class="col-md-2 mt-2 mb-2 posstick">
                    <a href="#keyfeature" class="" style="color: #FE8D1D;">KEY FEATURES</a>
-</div>  
+</div>
 <div class="col-md-2 mt-2 mb-2">
                    <a href="#Specification" class="" style="color: #FE8D1D;">SPECIFICATIONS</a>
                    </div>
@@ -347,18 +347,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    <div class="col-md-1 mt-2 mb-2 posstick5">
                    <a href="#faq" class="" style="color: #FE8D1D;">FAQ</a>
                    </div>
-               
-               </div>
-               
-
-                   </div> 
-               
-                   
-               
 
                </div>
 
 
+                   </div>
+
+
+
+
+               </div>
 
 
 
@@ -374,8 +372,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-               
-               
+
+
+
+
 
 
 
@@ -384,56 +384,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-11  mt-5 " id="overview" >
                 <h3 class=" " style="color: #FE8D1D;">OVERVIEW</h3>
 
-                
+
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-6  mt-3 " id="overview" >
-            <h3 style="color: #FFF2D4;  font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+            <h3 style="color: #FFF2D4;  font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
             Figure 4 Standalone is an industrial-grade 3D Printer appropriate for low-volume plastic parts production and prototyping. Figure 4 3D prints plastic, biocompatible, and rubber parts directly without injection machine molds. Figure 4 3D printing is the latest method of producing industrial plastic parts at a lower cost with a fast turnaround time than the traditional manufacturing method of manufacturing a hand mold for injection machine molding production.
             </h3>
             <div class="col-md-12 mt-4">
-                        
+
                         <img src="assets/images/figure4/Grouptriangle.webp" width="20px" height="20px" alt="Handheld Industrial 3D scanner">
                         <div style="margin-left:38px; position: relative;bottom: 22px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Economical solution for functional prototype and low volume production                    </a>
-                    
-    
+
+
                         </div>
             </div>
             <div class="col-md-12 ">
-                        
+
                         <img src="assets/images/figure4/Grouptriangle.webp" width="20px" height="20px" alt="Handheld Industrial 3D scanner">
                         <div style="margin-left:38px; position: relative;bottom: 22px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         High-speed production 3D printing                    </a>
-                    
-    
+
+
                         </div>
             </div>
             <div class="col-md-12 ">
-                        
+
                         <img src="assets/images/figure4/Grouptriangle.webp" width="20px" height="20px" alt="Handheld Industrial 3D scanner">
                         <div style="margin-left:38px; position: relative;bottom: 22px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         High-quality industrial-grade 3D printing                    </a>
-                    
-    
+
+
                         </div>
             </div>
             <div class="col-md-12 ">
-                        
+
                         <img src="assets/images/figure4/Grouptriangle.webp" width="20px" height="20px" alt="Handheld Industrial 3D scanner">
                         <div style="margin-left:38px; position: relative;bottom: 22px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Print up to 250 parts a day                </a>
-                    
-    
+
+
                         </div>
             </div>
                 </div>
 
-                
+
 
                 <div class="col-md-4 mt-5">
                 <iframe width="100%" height="250" src="https://www.youtube.com/embed/6_gySmOfKLw" allow="autoplay">
@@ -444,37 +444,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-            
+
             <div id="myModal" class="modal fade" role="dialog">
               <div class="modal-dialog">
-            
+
                 <!-- Modal content-->
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    
+
                   </div>
                   <div class="modal-body">
-                    <?php
-                if (isset($_SESSION['status'])) {
-                    if ($_SESSION['status'] == "success") {
-                        echo "<div class='row status-div'>
-                              
+                    <?php if (isset($_SESSION["status"])) {
+                        if ($_SESSION["status"] == "success") {
+                            echo "<div class='row status-div'>
+
                                 <div style='width: 100%'>Thanks for submitting the form.. We ll get back to you shortly!</div>
-                               
+
                         </div>";
-                    } else {
-                        echo "<div class='row status-div'>
+                        } else {
+                            echo "<div class='row status-div'>
                                 <p class='status-message'>Oops...Something went wrong, please try again
                             </p><div style='width: 100%'><a href='javascript:void(0);'><button class='step-form-btn'>Back</button></a></div></div>";
-                    }
-                    unset($_SESSION['status']);
-                } else { ?>
+                        }
+                        unset($_SESSION["status"]);
+                    } else {
+                         ?>
                     <form method="POST" action="figure4printerform.php" id="regForm" enctype="multipart/form-data" onsubmit="disablebutton();">
 
                         <div class="tab-step-form" data-form-type="contact">
-                              
-                           
+
+
                             <h5 style="margin-bottom:10px" >Contact Information</h5>
                             <div class="form-group">
                                 <input type="text" class="form-control required" id="name" name="name" placeholder="Name *" required />
@@ -513,19 +513,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <label><input type="radio" class="technical-checkbox" id="geomagicdesignx" name="geomagic" value="geomagicdesignx"> Reverse engineering software - Geomagic Design X</label>
                                 <label><input type="radio" class="technical-checkbox" name="geomagic" value="geomagiccontrolx">  3d inspection software - Geomagic Control x</label>
                             </div>-->
-                            
+
                         </div>
                         <button type="submit" class="btn btn-success" id="submit" style="margin-top:10px;">Submit <img src="loader2.gif" id="loader" width="25" style="display: none;" /></button>
-                       
+
 
                     </form>
-                <?php } ?>
+                <?php
+                    } ?>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                   </div>
                 </div>
-            
+
               </div>
             </div>
             <div class="col-md-1"></div>
@@ -537,21 +538,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11592.webp" width="80px" height="80px" alt="Affordable-3d-printer">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Affordable initial investment          </a>
-                    
-    
+
+
                         </div>
 
 
-                </div>               
+                </div>
                  <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11593.webp" width="80px" height="80px" alt="3D-printing-technologies-figure-4">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         High throughput vs. competitive 3D printing technologies          </a>
-                    
-    
+
+
                         </div>
 
 
@@ -559,24 +560,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11594.webp" width="80px" height="80px" alt="Industrial-figure-4-3d-printer">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Industrial-grade durability          </a>
-                    
-    
+
+
                         </div>
                 </div>
                 <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11595.webp" width="80px" height="80px" alt="print-figure4">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Print and use same day          </a>
-                    
-    
+
+
                         </div>
 
 
                 </div>
-                
+
             </div>
 
 
@@ -584,21 +585,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11596.webp" width="80px" height="80px" alt="3d-printer-low-cost">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         The low total cost of operations        </a>
-                    
-    
+
+
                         </div>
 
 
-                </div>               
+                </div>
                  <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11597.webp" width="80px" height="80px" alt="printer-3d-flexibility">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Application flexibility</a>
-                    
-    
+
+
                         </div>
 
 
@@ -606,28 +607,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11598.webp" width="80px" height="80px" alt="Efficient-design-figure-4-standalone">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Efficient design iteration          </a>
-                    
-    
+
+
                         </div>
                 </div>
                 <div class="col-md-12">
                 <img src="assets/images/figure4/keyFeatures/Group 11599.webp" width="80px" height="80px" alt="figure-4-standalone-Six-Sigma-quality">
                 <div style="margin-left:112px; position: relative;bottom: 55px;">
-                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> 
+                        <a style="color: #FFF2D4; font-size: 17px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
                         Six Sigma quality and repeatability          </a>
-                    
-    
+
+
                         </div>
 
 
                 </div>
-                
+
             </div>
 
 
-            
+
 
 
             <div class="col-md-1"></div>
@@ -658,71 +659,71 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <td style="text-align:center;color:#FFF2D4; ">Build Volume</td>
                             <td style="text-align:center;color:#FFF2D4; "> 124.8 x 70.2 x 196 mm / 4.9 x 2.8 x 7.7 in</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">XY Pixel Pitch ( Resolution )</td>
                             <td style="text-align:center;color:#FFF2D4; "> 65 microns</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Layer Thickness</td>
                             <td style="text-align:center;color:#FFF2D4; "> 10 – 100 microns</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Light Wavelength</td>
                             <td style="text-align:center;color:#FFF2D4; "> 405 nm</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Printer Size</td>
                             <td style="text-align:center;color:#FFF2D4; "> 42.6 x 48.9 x 97.1 cm/16.7 x 19.25 x 38.22 in</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Size With Pedestal</td>
                             <td style="text-align:center;color:#FFF2D4; "> 68.1 x 70.4 x 135.6 cm / 26.8 x 27.71 x 53.38 in</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Weight With Pedestal</td>
                             <td style="text-align:center;color:#FFF2D4; "> 54.4 kg/ 120 lbs</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Size ( crated)</td>
                             <td style="text-align:center;color:#FFF2D4; "> 73.7 x 68.6 x 129.5 cm/ 29 x 27 x 51 in</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Weight ( crated)</td>
                             <td style="text-align:center;color:#FFF2D4; "> 59 kg / 130 lbs</td>
 
-                            
-                        
+
+
                         </tr>
                         <tr>
                             <td style="text-align:center;color:#FFF2D4; ">Software</td>
                             <td style="text-align:center;color:#FFF2D4; "> 3D Sprint, 3D Connect capable</td>
 
-                            
-                        
+
+
                         </tr>
                         </tbody>
                     </table>
@@ -740,10 +741,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row ">
             <div class="col-md-8 mt-3 " id="ulinclude"  >
             <ul>
-  <li>Printer; 110/240V, regional power cord </li>
+  <li>Printer; 110/240V, regional power cord</li>
   <li>Pedestal </li>
   <li>2 - Print Platforms</li>
-  <li>1 - Print Tray Kit 3D Sprint software licenses </li>
+  <li>1 - Print Tray Kit 3D</li>
   <li>3D Sprint software licenses</li>
   <li>Ethernet cable</li>
 
@@ -770,7 +771,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="col-md-5 mt-2 " id="ulincludee" >
             <ul>
-  <li><a style="position:relative;left:10px;">Print Tray Print Tray Storage Garage Catch Tray (installed) Mixing Comb </a></li>
+  <li><a style="position:relative;left:10px;">Print Tray, Storage Garage, Catch Tray (installed) and Mixing Comb </a></li>
 </ul>
 
 
@@ -778,14 +779,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             </div>
 
-                
+
             </div>
 
             <div class="col-md-5 mt-3">
             <img src="assets/images/figure4/Group 11600.webp" class="img-fluid" style="padding: 35px;"  alt="dlp-figure-4-3d-printer">
 
 
-            </div> 
+            </div>
             <div class="col-md-1"></div>
 
             <div class="col-md-1"></div>
@@ -812,7 +813,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <li>Optional 3D Systems </li>
   <li>Rolling Unit for stiring material
  </li>
-  
+
 
 </ul>
 
@@ -831,7 +832,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5 " >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img7.webp" width=200px height="150px" alt="urethane-3d-printing" class="img-fluid">
 
@@ -848,7 +849,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5 " >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                     <img src="assets/images/figure4/Applications/img5.webp"  width=200px height="150px" alt="" class="img-fluid">
 
@@ -865,7 +866,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5 " >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img1.webp" width=200px height="150px" alt="Jewelry-figure-4-3d-printer" class="img-fluid">
 
@@ -883,7 +884,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5" >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img3.webp" width=200px height="150px" alt="plastic-figure-4-3d-printer" class="img-fluid">
 
@@ -900,7 +901,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5" >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img9.webp" width=200px height="150px" alt="Low-batch-production-figure-4-3d-printer" class="img-fluid">
 
@@ -917,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5" >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img6.webp" width=200px height="150px" alt="" class="img-fluid">
 
@@ -937,7 +938,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5" >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img8.webp" width=200px height="150px" alt="rubber-dlp-3d-printer" class="img-fluid">
 
@@ -954,7 +955,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5" >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img2.webp" width=200px height="150px" alt="figure4-Medical-3d-printer" class="img-fluid">
 
@@ -971,7 +972,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-3 mt-5 " >
                     <div class="row">
                     <div class="col-md-10 keyappone mt-5" >
-                    
+
                     <div class="appnewone  d-flex justify-content-center" >
                         <img src="assets/images/figure4/Applications/img3.webp" width=200px height="150px" alt="structure-light-3d-scanner-in-india" class="img-fluid">
 
@@ -996,114 +997,114 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  <div class="row mt-3">
                      <div class="col-md-1"></div>
                      <div class="col-md-2   ind-icon  ">
-                            <img src="assets/images/figure4/industryicons/img1.webp"   class="img-fluid " > 
+                            <img src="assets/images/figure4/industryicons/img1.webp"   class="img-fluid " >
                                <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Aerospace & Defense</p>
                       </div>
                       <div class="col-md-2   ind-icon  ">
-                     
-                      <img src="assets/images/figure4/industryicons/img2.webp"   class="img-fluid " >                      
+
+                      <img src="assets/images/figure4/industryicons/img2.webp"   class="img-fluid " >
                      <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Academic & Research</p>
 
                   </div>
 
 
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img3.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img3.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Transportation & Motorsports</p>
 
                       </div>
 
                       <div class="col-md-2   ind-icon  ">
-                     
-                      <img src="assets/images/figure4/industryicons/img4.webp"   class="img-fluid " >                      
+
+                      <img src="assets/images/figure4/industryicons/img4.webp"   class="img-fluid " >
                      <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Healthcare</p>
 
                   </div>
 
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img5.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img5.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Manufacturing & Prototyping</p>
 
                       </div>
 
 
                  </div>
-                
+
 
                 <!--section icon 1 end-->
 
                 <div class="row mt-3">
                      <div class="col-md-1"></div>
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img6.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img6.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">3D Printing Service Bureaus</p>
 
                       </div>
                       <div class="col-md-2   ind-icon  ">
-                     
-                      <img src="assets/images/figure4/industryicons/img3.webp"   class="img-fluid " >                      
+
+                      <img src="assets/images/figure4/industryicons/img3.webp"   class="img-fluid " >
                      <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Automotive</p>
 
                   </div>
 
 
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img7.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img7.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">High Tech</p>
 
                       </div>
 
                       <div class="col-md-2   ind-icon  ">
-                     
-                      <img src="assets/images/figure4/industryicons/img8.webp"   class="img-fluid " >                      
+
+                      <img src="assets/images/figure4/industryicons/img8.webp"   class="img-fluid " >
                      <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Hospital or Medical Clinic</p>
 
                   </div>
 
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img9.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img9.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Consumer & Durable Goods</p>
 
                       </div>
 
 
                  </div>
-                
+
                  <!--section icon 2 end-->
 
                  <div class="row mt-3">
                      <div class="col-md-1"></div>
-                     
+
                       <div class="col-md-2   ind-icon  ">
-                     
-                      <img src="assets/images/figure4/industryicons/img10.webp"   class="img-fluid " >                      
+
+                      <img src="assets/images/figure4/industryicons/img10.webp"   class="img-fluid " >
                      <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Jewelry</p>
 
                   </div>
 
 
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img11.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img11.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Medical Contract Manufacturers</p>
 
                       </div>
 
                       <div class="col-md-2   ind-icon  ">
-                     
-                      <img src="assets/images/figure4/industryicons/img12.webp"   class="img-fluid " >                      
+
+                      <img src="assets/images/figure4/industryicons/img12.webp"   class="img-fluid " >
                      <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Medical Device Manufacturers</p>
 
                   </div>
 
                      <div class="col-md-2   ind-icon  ">
-                     
-                     <img src="assets/images/figure4/industryicons/img14.webp"   class="img-fluid " >                          
+
+                     <img src="assets/images/figure4/industryicons/img14.webp"   class="img-fluid " >
                          <p class=" text-white mt-3" style="text-align:center;margin-left:-10px;">Medical Schools</p>
 
                       </div>
@@ -1127,7 +1128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <iframe width="100%" height="200px" src="https://www.youtube.com/embed/C-HiX2o5cEA" allow="autoplay" >
             </iframe>
 
-            
+
 
         </div>
         <style>
@@ -1150,20 +1151,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  }
              </style>
              <div class="col-md-12 mt-5  down"></div>
-             
+
                 <div class="col-md-1"></div>
                 <div class="col-md-11 pt-100px" id="blog">
                 <h3 class=" " style="color: #FE8D1D;">BLOG</h3>
-                   
-   
-   
+
+
+
                 </div>
                 <div class="col-md-2"></div>
-                
-                
+
+
                 <div class="col-md-8 mt-5">
                 <div class="owl-carousel owl-theme" id="owlblog" >
-                 
+
                     <div class="item">
                         <img src="assets/images/blog28/img1.jpg" style="filter: grayscale(20%);" width="350px" height="250px"alt="3d printing service in india-ear buds" class="printing">
                         <h5 style="color:#FE8700; margin-top:5px;font-size:18px;">What is Geomagic For Solidworks 2023 and Top 7 key features?</h5>
@@ -1248,14 +1249,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <div class="col-md-2"></div>
-        
+
         <div class="col-md-12 d-flex justify-content-center mt-5 ">
                     <a style=" font-weight:bold;color: #FE8D1D; font-size: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "> Download Brochure</a>
-                
-                
-                   
-   
-   
+
+
+
+
+
                </div>
         <div class="col-md-12  d-flex justify-content-center mt-3">
         <a class="btn pre-btn my-2" href="assets/images/figure4/figure4-brochure.pdf" target="_blank">DOWNLOAD</a>
@@ -1277,8 +1278,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <section id="backfs" class="backfs ">
 
 
-                    
-                    
+
+
                   <h5 class="pre-colorfs " style="color: #ff931e;">How much do 3dsystesm Figures four 3D Printers cost in India? </h5>
                   <div class="left-border">
                     <p class="text-white " >Please contact PRECISE3DM sales representative or fill up the get quote option from our website to know the latest offer for Figure 4 3D printers. </p>
@@ -1287,7 +1288,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="left-border">
                         <p class="text-white " >Figure standalone is a next-generation 3D printer used for plastic parts production applications. Unlike other printers, it can be used for making End parts without core cavity and molds.</p>
                     </div>
-                    
+
                     <h5 class="pre-colorfs " style="color: #ff931e;">How does 3D Systems Figure 4 Work? </h5>
                     <div class="left-border">
                         <p class="text-white " >Figure 4 uses the DLP (Digital Light Projection)3D printing technology.</p>
@@ -1308,19 +1309,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-                    
+
 
 
            </section>
 
                 </div>
             </div>
-                     
+
 <!--  <aside>
 	 <h6>MATERIALS FOR THIS PRINTER</h6>
 	 <br>
     <div>
-	  <div><input type="checkbox" name="nbaTeam" value="bos1" id="bos1">	
+	  <div><input type="checkbox" name="nbaTeam" value="bos1" id="bos1">
       <label for="bos1">Plastic</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;16</div>
       <div><input type="checkbox" name="nbaTeam" value="bos" id="bos"><label for="bos">Biocompatible Capable</label>&emsp;&emsp;&emsp;&emsp;06</div>
       <div><input type="checkbox" name="nbaTeam" value="cle" id="cle"><label for="cle">General Purpose</label>&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&emsp;04</div>
@@ -1338,18 +1339,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </aside>-->
 
-            
-
-
-
-
-
-
-
-
-
-
-        
 
 
 
@@ -1368,11 +1357,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-             
-
-         
-
-             
 
 
 
@@ -1391,24 +1375,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-             
-             
-
-    
-                
-
-                
-    
-               
-                
-
-               
-
-             
-             
 
 
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1423,13 +1424,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        <hr class="separator ">
 
               <!-- footer start -->
-      <?php include('includes/footer.php');?>
+      <?php include "includes/footer.php"; ?>
       <!-- footer end -->
 
-       
-       
-    
-               
+
+
+
+
     <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.10.4.js"></script>
     <!-- Initialize the viewer -->
     <script type="text/javascript">
@@ -1458,7 +1459,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
     } );
     </script>
-   
+
     <script src="assets/js/counter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
@@ -1471,7 +1472,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	function disablebutton()
 	{
 		$('#loader').show();
-		
+
 		//$('#submit').attr('disabled',true);
 	}
 </script>
@@ -1484,7 +1485,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         else {
             bt.disabled = true;
         }
-    }    
+    }
 </script>
 <script>
 var fileInput = document.querySelector('input[type=file]');
@@ -1571,7 +1572,7 @@ function validateForm(form) {
             }
         }
     });
-    
+
   }else if(form == 'technical')
   {
     console.log("in-technical");
@@ -1604,7 +1605,7 @@ function validateForm(form) {
         }
       }
   }
-  
+
   return valid; // return the valid status
 }
 
@@ -1646,13 +1647,13 @@ window.onload = function() {
         }
 
         if (currentActive != currentSlide) {
-            testimContent[currentActive].classList.add("inactive");            
+            testimContent[currentActive].classList.add("inactive");
         }
         testimContent[slide].classList.add("active");
         testimDots[slide].classList.add("active");
 
         currentActive = currentSlide;
-    
+
         clearTimeout(testimTimer);
         testimTimer = setTimeout(function() {
             playSlide(currentSlide += 1);
@@ -1665,7 +1666,7 @@ window.onload = function() {
 
     testimRightArrow.addEventListener("click", function() {
         playSlide(currentSlide += 1);
-    })    
+    })
 
     for (var l = 0; l < testimDots.length; l++) {
         testimDots[l].addEventListener("click", function() {
@@ -1681,7 +1682,7 @@ window.onload = function() {
             case 37:
                 testimLeftArrow.click();
                 break;
-                
+
             case 39:
                 testimRightArrow.click();
                 break;
@@ -1694,21 +1695,21 @@ window.onload = function() {
                 break;
         }
     })
-		
+
 		testim.addEventListener("touchstart", function(e) {
 				touchStartPos = e.changedTouches[0].clientX;
 		})
-	
+
 		testim.addEventListener("touchend", function(e) {
 				touchEndPos = e.changedTouches[0].clientX;
-			
-				touchPosDiff = touchStartPos - touchEndPos;
-			
-				console.log(touchPosDiff);
-				console.log(touchStartPos);	
-				console.log(touchEndPos);	
 
-			
+				touchPosDiff = touchStartPos - touchEndPos;
+
+				console.log(touchPosDiff);
+				console.log(touchStartPos);
+				console.log(touchEndPos);
+
+
 				if (touchPosDiff > 0 + ignoreTouch) {
 						testimLeftArrow.click();
 				} else if (touchPosDiff < 0 - ignoreTouch) {
@@ -1716,59 +1717,59 @@ window.onload = function() {
 				} else {
 					return;
 				}
-			
+
 		})
 }
 </script>
  <script>
 	function validate() {
-		
+
 		var valid = true;
 		valid = checkEmpty($("#name"));
 		valid = valid && checkEmail($("#email"));
-		
+
 		$("#btn-submit").attr("disabled",true);
 		if(valid) {
 			$("#btn-submit").attr("disabled",false);
-		}	
+		}
 	}
 	function checkEmpty(obj) {
 		var name = $(obj).attr("name");
-		$("."+name+"-validation").html("");	
+		$("."+name+"-validation").html("");
 		$(obj).css("border","");
 		if($(obj).val() == "") {
 			$(obj).css("border","#FF0000 1px solid");
 			$("."+name+"-validation").html("Required");
 			return false;
 		}
-		
-		return true;	
+
+		return true;
 	}
 	function checkEmail(obj) {
 		var result = true;
-		
+
 		var name = $(obj).attr("name");
-		$("."+name+"-validation").html("");	
+		$("."+name+"-validation").html("");
 		$(obj).css("border","");
-		
+
 		result = checkEmpty(obj);
-		
+
 		if(!result) {
 			$(obj).css("border","#FF0000 1px solid");
 			$("."+name+"-validation").html("Required");
 			return false;
 		}
-		
+
 		var email_regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,3})+$/;
 		result = email_regex.test($(obj).val());
-		
+
 		if(!result) {
 			$(obj).css("border","#FF0000 1px solid");
 			$("."+name+"-validation").html("Invalid");
 			return false;
 		}
-		
-		return result;	
+
+		return result;
 	}
 </script>
 

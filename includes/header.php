@@ -1486,8 +1486,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="dropdown">
             <a class="navbar-brand dropdown-toggle buy" data-toggle="dropdown" href="#">Buy</a>
             <div class="dropdown-content">
-              <a href="/3d-scanners-in-india.php">3D Scanner</a>
-              <a href="/3d-printing-service-in-india.php">3D Printer</a>
+              <a href="3d-scanners-in-india.php">3D Scanner</a>
+              <a href="3d-printing-service-in-india.php">3D Printer</a>
             </div>
           </div>
 
@@ -1514,15 +1514,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-lg-7 all1">
           <ul class="cad">
             <li>
-              <a href="/scanning-solution-form.php"><button
+              <a href="scanning-solution-form.php"><button
                   class="upload book-online">Get Quote</button></a>
             </li>
             <li>
-              <a href="/Book-demo-get-quote-for-3D-scanner.php"><button
+              <a href="Book-demo-get-quote-for-3D-scanner.php"><button
                   class="upload book-online">Book Demo</button></a>
             </li>
             <li>
-              <a href="/Get-3d-scan-service-quote.php"><button class="upload book-online1">Get 3D Scan Service quote</button></a>
+              <a href="Get-3d-scan-service-quote.php"><button class="upload book-online1">Get 3D Scan Service quote</button></a>
             </li>
             <li>
               <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09"><button
@@ -1572,7 +1572,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container-fluid paddo">
 
           <div class="col-6 col-sm-6 col-md-2 col-lg-2">
-            <a href="/"><img src="assets/images/Precise Logos-08.png" class="img-fluid"
+            <a href="index.php"><img src="assets/images/Precise Logos-08.png" class="img-fluid"
                 width='250px' alt="logo"></a>
           </div>
           
@@ -1582,330 +1582,330 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav ol-list" style="margin-left: 40px;">
                 <li class="nav-item ">
-                  <a class="nav-link home-link" href="/">Home</a>
+                  <a class="nav-link home-link" href="index.php">Home</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/3d-products.php">3D products</a>
+                  <a class="nav-link dropdown-toggle" href="3d-products.php">3D products</a>
 
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="/3d-scanners-in-india.php">3D Scanners</a>
+                        href="3d-scanners-in-india.php">3D Scanners</a>
                       <ul class="dropdown-menu">
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/metrology-grade-3d-scanners.php">Metrology Grade 3D Scanners</a>
+                            href="metrology-grade-3d-scanners.php">Metrology Grade 3D Scanners</a>
                           <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/handheld-3d-scanner-in-india.php">Handheld 3D Scanners</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="handheld-3d-scanner-in-india.php">Handheld 3D Scanners</a>
                               <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/freescan-omni.php">Freescan Omni</a>
+                              <a class="dropdown-item text-left py-2" href="freescan-omni.php">Freescan Omni</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/FreeScan-Combo.php">FreeScan Combo</a>                              
+                              <a class="dropdown-item text-left py-2" href="FreeScan-Combo.php">FreeScan Combo</a>                              
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/freescan-combo-plus.php">Freescan Combo+</a>                              
+                              <a class="dropdown-item text-left py-2" href="freescan-combo-plus.php">Freescan Combo+</a>                              
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/freescan-ue-pro2.php">FreeScan UE Pro 2</a>
+                              <a class="dropdown-item text-left py-2" href="freescan-ue-pro2.php">FreeScan UE Pro 2</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/freescan-ue-nova.php">FreeScan UE Nova</a>
+                              <a class="dropdown-item text-left py-2" href="freescan-ue-nova.php">FreeScan UE Nova</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/freescan-trio-triple-camera-handheld-laser-3D-scanner.php">FreeScan Trio</a>
+                              <a class="dropdown-item text-left py-2" href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php">FreeScan Trio</a>
                             </li>
                           </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/laser-tracker-3d-scanner.php">Optical Tracking Systems</a>                              
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="laser-tracker-3d-scanner.php">Optical Tracking Systems</a>                              
                               <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-left py-2" href="/freescan-track-nova.php">FreeScan Trak Nova</a></li>
-                                <li><a class="dropdown-item text-left py-2" href="/freescan-trak-pro-w.php">FreeScan Trak Pro W</a></li>
-                                <li><a class="dropdown-item text-left py-2" href="/upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="freescan-track-nova.php">FreeScan Trak Nova</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="freescan-trak-pro-w.php">FreeScan Trak Pro W</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a></li>
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/structured-light-3d-scanner-in-india.php">structured Light 3d Scanner</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="structured-light-3d-scanner-in-india.php">structured Light 3d Scanner</a>
                               <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-left py-2" href="/optimscan-q12.php">Optimscan Q12</a></li>
-                                <li><a class="dropdown-item text-left py-2" href="/OptimScan5M-Plus.php">Optimscan5M Plus</a></li>
-                                <li><a class="dropdown-item text-left py-2" href="/automatic-desktop-3d-scanner.php">AutoScan Inspec 2</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="optimscan-q12.php">Optimscan Q12</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="OptimScan5M-Plus.php">Optimscan5M Plus</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="automatic-desktop-3d-scanner.php">AutoScan Inspec 2</a></li>
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/professional-3d-scanners.php">Professional 3D Scanners</a>
+                            href="professional-3d-scanners.php">Professional 3D Scanners</a>
                           <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/einscan-rigil.php">EinScan Rigil</a>
+                              <a class="dropdown-item text-left py-2" href="einscan-rigil.php">EinScan Rigil</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
+                              <a class="dropdown-item text-left py-2" href="tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/einscan-trak-3d-scanner-in-india.php">Einscan Trak</a>
+                              <a class="dropdown-item text-left py-2" href="einscan-trak-3d-scanner-in-india.php">Einscan Trak</a>
                             </li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/entry-level-3d-scanners.php">Entry Level 3D Scanners</a>
+                            href="entry-level-3d-scanners.php">Entry Level 3D Scanners</a>
                           <ul class="dropdown-menu">
                             
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/einstar-2.php">Einstar 2</a>
+                              <a class="dropdown-item text-left py-2" href="einstar-2.php">Einstar 2</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/einstar-vega.php">Einstar Vega</a>
+                              <a class="dropdown-item text-left py-2" href="einstar-vega.php">Einstar Vega</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/einstar-rockit-product.php">Einstar Rockit</a>
+                              <a class="dropdown-item text-left py-2" href="einstar-rockit-product.php">Einstar Rockit</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/einscan-rigil.php">Einscan Rigil</a>
+                              <a class="dropdown-item text-left py-2" href="einscan-rigil.php">Einscan Rigil</a>
                             </li>
                           </ul>
                         </li>
                         
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/3d-scanners-by-technology.php">3D Scanner by Technology</a>
+                            href="3d-scanners-by-technology.php">3D Scanner by Technology</a>
                             <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/structured-light-3d-scanner-in-india.php">Structured Light 3D Scanners</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="structured-light-3d-scanner-in-india.php">Structured Light 3D Scanners</a>
                               <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-left py-2" href="/optimscan-q12.php">OptimScan Q12</a></li>
-                                <li><a class="dropdown-item text-left py-2" href="/OptimScan5M-Plus.php">OptimScan5M Plus</a></li>
-                                    <li><a class="dropdown-item text-left py-2" href="/automatic-desktop-3d-scanner.php">AutoScan Inspec2</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="optimscan-q12.php">OptimScan Q12</a></li>
+                                <li><a class="dropdown-item text-left py-2" href="OptimScan5M-Plus.php">OptimScan5M Plus</a></li>
+                                    <li><a class="dropdown-item text-left py-2" href="automatic-desktop-3d-scanner.php">AutoScan Inspec2</a></li>
                                 <!-- <li><a class="dropdown-item text-left py-2"
-                                    href="/transcan-c.php">Transcan C</a></li> -->
+                                    href="transcan-c.php">Transcan C</a></li> -->
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/3d-laser-scanners.php">3D Laser Scanners</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="3d-laser-scanners.php">3D Laser Scanners</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/FreeScan-Combo.php">Freescan Combo</a></li>
+                                    href="FreeScan-Combo.php">Freescan Combo</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/freescan-ue-pro2.php">Freescan UE Pro 2</a></li>
+                                    href="freescan-ue-pro2.php">Freescan UE Pro 2</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio</a></li>
+                                    href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/freescan-ue-nova.php">Freescan UE Nova</a></li>
+                                    href="freescan-ue-nova.php">Freescan UE Nova</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/einscan-rigil.php">EinScan Rigil</a></li>
+                                    href="einscan-rigil.php">EinScan Rigil</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/einstar-2.php">Einstar 2</a></li>
+                                    href="einstar-2.php">Einstar 2</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/freescan-omni.php">Freescan Omni</a></li>
+                                    href="freescan-omni.php">Freescan Omni</a></li>
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/infrared-3d-scanner.php">Infrared Light 3D Scanners</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="infrared-3d-scanner.php">Infrared Light 3D Scanners</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/FreeScan-Combo.php">Freescan Combo</a></li>
+                                    href="FreeScan-Combo.php">Freescan Combo</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/einscan-rigil.php">EinScan Rigil</a></li>
+                                    href="einscan-rigil.php">EinScan Rigil</a></li>
                                 <!--  -->
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/Einstar.php">Einstar</a></li>
+                                    href="Einstar.php">Einstar</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/einstar-vega.php">Einstar Vega</a></li>
+                                    href="einstar-vega.php">Einstar Vega</a></li>
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/laser-tracker-3d-scanner.php">Optical Dynamic Tracker 3D Scanners</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="laser-tracker-3d-scanner.php">Optical Dynamic Tracker 3D Scanners</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/freescan-track-pro2.php">Freescan Trak Pro</a></li>
+                                    href="freescan-track-pro2.php">Freescan Trak Pro</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/freescan-track-nova.php">Freescan Trak Nova</a></li>
+                                    href="freescan-track-nova.php">Freescan Trak Nova</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a></li>
+                                    href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a></li>
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/hybird-technology-3d-scanners.php">Hybrid Technology 3D Scanners</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="hybird-technology-3d-scanners.php">Hybrid Technology 3D Scanners</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/FreeScan-Combo.php">Freescan Combo</a></li>
+                                    href="FreeScan-Combo.php">Freescan Combo</a></li>
                                 
                                 
                               </ul>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item dropdown-toggle text-left py-2" href="/lidar-scanners.php">Lidar scanner</a>
+                              <a class="dropdown-item dropdown-toggle text-left py-2" href="lidar-scanners.php">Lidar scanner</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/leica-rtc360.php">Lecia RTC360</a></li>
+                                    href="leica-rtc360.php">Lecia RTC360</a></li>
                                 <li><a class="dropdown-item text-left py-2"
-                                    href="/leica-blk360.php">Lecia BLK360</a></li>
+                                    href="leica-blk360.php">Lecia BLK360</a></li>
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/3d-scanners-based-on-component-size.php">3D Scanner by Component Size</a>
+                            href="3d-scanners-based-on-component-size.php">3D Scanner by Component Size</a>
                           <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-one">1 mm to 100 mm</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-one">1 mm to 100 mm</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-home">1 mm to 400 mm</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-home">1 mm to 400 mm</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-profile">30 mm to 2 Meters</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-profile">30 mm to 2 Meters</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-messages">20 mm to 5 Meters</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-messages">20 mm to 5 Meters</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-settings">10 mm to 10 Meters</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-settings">10 mm to 10 Meters</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-5">200 mm to 15 Meters</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-5">200 mm to 15 Meters</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-6">50 mm to 50 Meters</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-6">50 mm to 50 Meters</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/3d-scanners-based-on-component-size.php#v-pills-7">Above 50 Meters</a>
+                              <a class="dropdown-item text-left py-2" href="3d-scanners-based-on-component-size.php#v-pills-7">Above 50 Meters</a>
                             </li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/buy-3d-scanners-by-price-in-india.php">3D Scanner by Cost</a>
+                            href="buy-3d-scanners-by-price-in-india.php">3D Scanner by Cost</a>
                           <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-home">₹1 Lakh to ₹5 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-home">₹1 Lakh to ₹5 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-profile">₹5 Lakhs – ₹10 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-profile">₹5 Lakhs – ₹10 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-messages">₹10 Lakhs – ₹20 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-messages">₹10 Lakhs – ₹20 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-settings">₹20 Lakhs – ₹30 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-settings">₹20 Lakhs – ₹30 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-5">₹30 Lakhs – ₹40 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-5">₹30 Lakhs – ₹40 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-6">₹40 Lakhs – ₹50 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-6">₹40 Lakhs – ₹50 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-7">₹50 Lakhs – ₹65 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-7">₹50 Lakhs – ₹65 Lakhs</a>
                             </li>
                             <li class="dropdown-submenu">
-                              <a class="dropdown-item text-left py-2" href="/buy-3d-scanners-by-price-in-india.php#v-pills-8">₹70 Lakhs – ₹80 Lakhs</a>
+                              <a class="dropdown-item text-left py-2" href="buy-3d-scanners-by-price-in-india.php#v-pills-8">₹70 Lakhs – ₹80 Lakhs</a>
                             </li>
                           </ul>
                         </li>
 
-                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2" href="/3d-scanners-by-application.php">3D Scanner by Application</a>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2" href="3d-scanners-by-application.php">3D Scanner by Application</a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-home">Reverse Engineering</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-home">Reverse Engineering</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-profile">Quality Control</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-profile">Quality Control</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-messages">3D Printing</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-messages">3D Printing</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-settings">3D Printed Parts Inspection</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-settings">3D Printed Parts Inspection</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-5">Healthcare application</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-5">Healthcare application</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-6">Art and Heritage Preservation</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-6">Art and Heritage Preservation</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-7">Aerospace</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-7">Aerospace</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-8">Education</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-8">Education</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-9">Jewellery</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-9">Jewellery</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-10">Hobbyists and Designers</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-10">Hobbyists and Designers</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-11">Human Figurine</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-11">Human Figurine</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-12">Art & Cultural Heritage</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-12">Art & Cultural Heritage</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-13">Turbine Parts</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-13">Turbine Parts</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-14">Animation & Game Design</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-14">Animation & Game Design</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-15">Consumer Electronics</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-15">Consumer Electronics</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-16">Screws and Fasteners</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-16">Screws and Fasteners</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-17">Orthotics & Prosthetics</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-17">Orthotics & Prosthetics</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-18">Multifunctional 3D Scanners</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-18">Multifunctional 3D Scanners</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-19">Desktop 3D Scanners</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-19">Desktop 3D Scanners</a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                  <a class="dropdown-item text-left py-2" href="/3d-scanners-by-application.php#v-pills-20">AICTE IDEA Lab</a>
+                                  <a class="dropdown-item text-left py-2" href="3d-scanners-by-application.php#v-pills-20">AICTE IDEA Lab</a>
                                 </li>
                             </ul>
                         <li>
                         <!--<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"-->
-                        <!--    href="/structured-light-3d-scanner-in-india.php">Structured Light 3D Scanner</a>-->
+                        <!--    href="structured-light-3d-scanner-in-india.php">Structured Light 3D Scanner</a>-->
                         <!--  <ul class="dropdown-menu">-->
                         <!--    <li><a class="dropdown-item text-left py-2"-->
-                        <!--        href="/OptimScan5M-Plus.php">OptimScan5M Plus</a></li>-->
+                        <!--        href="OptimScan5M-Plus.php">OptimScan5M Plus</a></li>-->
                         <!--    <li><a class="dropdown-item text-left py-2"-->
-                        <!--        href="/transcan-c.php">Transcan C</a></li>-->
+                        <!--        href="transcan-c.php">Transcan C</a></li>-->
                         <!--  </ul>-->
                         <!--</li>-->
                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/multifunctional-white-light-3d-scanner-in-india.php">Multifunctional 3D Scanners</a>
+                            href="multifunctional-white-light-3d-scanner-in-india.php">Multifunctional 3D Scanners</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2"
-                                href="/einscan-pro-hd-3d-scanner-in-india.php">Einscan Pro HD</a></li>
+                                href="einscan-pro-hd-3d-scanner-in-india.php">Einscan Pro HD</a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/einscan-pro2xv2.php">Einscan Pro2XV2</a></li>
+                                href="einscan-pro2xv2.php">Einscan Pro2XV2</a></li>
                             
                             
                           </ul>
                         </li> -->
                         <!-- <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                            href="/handled-laser-3d-scanner.php">Handheld Laser 3D Scanner</a>
+                            href="handled-laser-3d-scanner.php">Handheld Laser 3D Scanner</a>
                         </li> -->
                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/handheld-3d-scanner-in-india.php">Handheld Metrology 3D Scanners</a>
+                            href="handheld-3d-scanner-in-india.php">Handheld Metrology 3D Scanners</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="/FreeScan-Combo.php">Freescan Combo</a></li>
+                            <li><a class="dropdown-item text-left py-2" href="FreeScan-Combo.php">Freescan Combo</a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio </a></li>
+                                href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio </a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/freescan-ue-pro-3d-scanner-in-india.php">Freescan UE pro </a></li>
+                                href="freescan-ue-pro-3d-scanner-in-india.php">Freescan UE pro </a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/freescan-ue-pro2.php">Freescan UE pro2 </a></li>
+                                href="freescan-ue-pro2.php">Freescan UE pro2 </a></li>
                           </ul>
                         </li> -->
                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/handheld-color-3dscanning-service.php">Handheld Colour 3D scanning</a>
+                            href="handheld-color-3dscanning-service.php">Handheld Colour 3D scanning</a>
                           <ul class="dropdown-menu">
                             
                           </ul>
@@ -1913,106 +1913,106 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/desktop-3d-scanner-in-india.php">DESKTOP
+                            href="desktop-3d-scanner-in-india.php">DESKTOP
                             Scanners</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2"
-                                href="/automatic-desktop-3d-scanner.php">AutoScan Inspec2</a></li>
+                                href="automatic-desktop-3d-scanner.php">AutoScan Inspec2</a></li>
                          
                           </ul>
                         </li> -->
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/affordable-and-lowcost-3d-scanner-in-india.php">Low Cost 3D Scanner </a>
+                            href="affordable-and-lowcost-3d-scanner-in-india.php">Low Cost 3D Scanner </a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2"
-                                href="/Einstar.php">Einstar </a></li>
+                                href="Einstar.php">Einstar </a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/einstar-vega.php">Einstar Vega</a></li>
+                                href="einstar-vega.php">Einstar Vega</a></li>
                           </ul>
                         </li>
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/lidar-scanners.php">Long Range 3D Scanners </a>
+                            href="lidar-scanners.php">Long Range 3D Scanners </a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2"
-                                href="/leica-blk360.php">Leica BLK360</a></li>
+                                href="leica-blk360.php">Leica BLK360</a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/leica-rtc360.php">Leica RTC360</a></li>
+                                href="leica-rtc360.php">Leica RTC360</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item text-left py-2"
-                            href="/used-3d-scanners-in-india.php">Used 3D scanners</a>
+                            href="used-3d-scanners-in-india.php">Used 3D scanners</a>
                           <!--<ul class="dropdown-menu">-->
                           <!--  <li><a class="dropdown-item text-left py-2"-->
-                          <!--      href="/laser-handheld-3d-scanner-india-freescan-x7.php">Freescan-->
+                          <!--      href="laser-handheld-3d-scanner-india-freescan-x7.php">Freescan-->
                           <!--      X7</a></li>-->
                           <!--  <li><a class="dropdown-item text-left py-2"-->
-                          <!--      href="/freescan-ue-series-3d-scanner-in-india.php">Freescan-->
+                          <!--      href="freescan-ue-series-3d-scanner-in-india.php">Freescan-->
                           <!--      UE7</a></li>-->
                           <!--  <li><a class="dropdown-item text-left py-2"-->
-                          <!--      href="/freescan-ue-series-3d-scanner-in-india.php">Freescan-->
+                          <!--      href="freescan-ue-series-3d-scanner-in-india.php">Freescan-->
                           <!--      UE11 </a></li>-->
                           <!--</ul>-->
                         </li>
 
                         <!-- <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                            href="/industrial-3dscanner-india-2025.php">Industrial 3D Scanners
+                            href="industrial-3dscanner-india-2025.php">Industrial 3D Scanners
                             india</a>
 
                         </li> -->
                       </ul>
                     </li>
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="/3d-scanning-software.php">3D
+                        href="3d-scanning-software.php">3D
                         Software</a>
                       <ul class="dropdown-menu">
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/3d-scanning-and-reverse-engineering-software.php">3D Reverse Engineering Software</a>
+                            href="3d-scanning-and-reverse-engineering-software.php">3D Reverse Engineering Software</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2"
-                                href="/exactflat.php">Exactflat</a></li>
-                            <li><a class="dropdown-item text-left py-2" href="/reverse-engineering-geomagic-design-x.php">Geomagic Design X</a></li>
+                                href="exactflat.php">Exactflat</a></li>
+                            <li><a class="dropdown-item text-left py-2" href="reverse-engineering-geomagic-design-x.php">Geomagic Design X</a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/geomagic-wrap-3d-scanning-software.php">Geomagic Wrap</a></li>
+                                href="geomagic-wrap-3d-scanning-software.php">Geomagic Wrap</a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/geomagic-for-solidworks-reverse-engineering-software.php">Geomagic for Solidworks</a></li>
+                                href="geomagic-for-solidworks-reverse-engineering-software.php">Geomagic for Solidworks</a></li>
 
                           </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/3d-inspection-software-in-india.php">3D Inspection Software</a>
+                            href="3d-inspection-software-in-india.php">3D Inspection Software</a>
                           <ul class="dropdown-menu">
                             
                             <li><a class="dropdown-item text-left py-2"
-                                href="/geomagic-control-x-3d-inspection-software.php">Geomagic Control X</a></li>                            
+                                href="geomagic-control-x-3d-inspection-software.php">Geomagic Control X</a></li>                            
                             <li><a class="dropdown-item text-left py-2"
-                                    href="/trueprop-software.php">Trueprop Inspection Software</a></li>
+                                    href="trueprop-software.php">Trueprop Inspection Software</a></li>
                             <li><a class="dropdown-item text-left py-2"
-                                href="/shining-3d-inspect-software.php">SHINING3D Inspect Software</a></li>
+                                href="shining-3d-inspect-software.php">SHINING3D Inspect Software</a></li>
                           </ul>
                         </li>
-                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2" href="/3d-sculpting-software.php">3D Sculpting Software</a>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2" href="3d-sculpting-software.php">3D Sculpting Software</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2"
-                                href="/geomagic-freeform-3d-modelling-design-software.php">Geomagic Freeform</a></li>
+                                href="geomagic-freeform-3d-modelling-design-software.php">Geomagic Freeform</a></li>
 
                           </ul>
                         </li>
                       </ul>
                     </li>
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="/industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
+                        href="industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
                       <ul class="dropdown-menu">
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/peek-3d-printers-in-india.php">PEEK 3D Printers</a>
+                            href="peek-3d-printers-in-india.php">PEEK 3D Printers</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="/funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a></li>
-                            <li><a class="dropdown-item text-left py-2" href="/funmat-pro.php">Funmat Pro 410</a></li>
+                            <li><a class="dropdown-item text-left py-2" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a></li>
+                            <li><a class="dropdown-item text-left py-2" href="funmat-pro.php">Funmat Pro 410</a></li>
                           </ul>
                         </li>
-                        <li><a class="dropdown-item text-left py-2" href="/industrial-fdm-3d-printers.php">Industrial FDM Printers</a></li>
-                        <li><a class="dropdown-item text-left py-2" href="/figure-4-standalone-3d-printer.php">DLP 3D Printers</a></li>
+                        <li><a class="dropdown-item text-left py-2" href="industrial-fdm-3d-printers.php">Industrial FDM Printers</a></li>
+                        <li><a class="dropdown-item text-left py-2" href="figure-4-standalone-3d-printer.php">DLP 3D Printers</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -2022,7 +2022,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="dropdown">
                     <a class="nav-link dropdown-toggle" href="#">3D Solutions</a>
                     <div class="dropdown-content">
-                      <a href="/3d-applications.php">Applications
+                      <a href="3d-applications.php">Applications
                       </a>
 
                     </div>
@@ -2030,88 +2030,88 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <!--<a class="nav-link dropdown-toggle" href="/3d-services-in-india.php" id="navbarDropdownMenuLink"
+                  <!--<a class="nav-link dropdown-toggle" href="3d-services-in-india.php" id="navbarDropdownMenuLink"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 3D products
                                     </a>-->
-                  <a class="nav-link dropdown-toggle" href="/3d-services.php">3D Services</a>
+                  <a class="nav-link dropdown-toggle" href="3d-services.php">3D Services</a>
 
                   <ul class="dropdown-menu">
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="/automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
+                        href="automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-left py-2" href="/vehicle-teardown-analysis-service-in-india.php">Full Vehicle Teardown</a>
+                        <li><a class="dropdown-item text-left py-2" href="vehicle-teardown-analysis-service-in-india.php">Full Vehicle Teardown</a>
                         </li>
-                        <li><a class="dropdown-item text-left py-2" href="/vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant</a>
+                        <li><a class="dropdown-item text-left py-2" href="vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant</a>
                         </li>
-                        <li><a class="dropdown-item text-left py-2" href="/scan-to-cad-service.php">Vechile SCAN-to-CAD</a>
+                        <li><a class="dropdown-item text-left py-2" href="scan-to-cad-service.php">Vechile SCAN-to-CAD</a>
                         </li>
-                        <li><a class="dropdown-item text-left py-2" href="/material-testing.php">Material Testing</a>
+                        <li><a class="dropdown-item text-left py-2" href="material-testing.php">Material Testing</a>
                         </li>
                       </ul>
                     </li>
 
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle  text-left py-2"
-                        href="/3d-scanning-services-in-india.php">3D Scanning Service</a>
+                        href="3d-scanning-services-in-india.php">3D Scanning Service</a>
                       <ul class="dropdown-menu">
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
-                            href="/handheld-industrial-3d-scanning-service-india.php">Industrial Handheld 3D Scanning Services</a>
+                            href="handheld-industrial-3d-scanning-service-india.php">Industrial Handheld 3D Scanning Services</a>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
-                            href="/handheld-color-3dscanning-service.php">Handheld Full-colour 3D Scanning Service</a>
+                            href="handheld-color-3dscanning-service.php">Handheld Full-colour 3D Scanning Service</a>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
-                            href="/structured-light-3dscanning-services.php">Structured Light 3D Scanning Service</a>
+                            href="structured-light-3dscanning-services.php">Structured Light 3D Scanning Service</a>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
-                            href="/long-range-3dscanning-service.php">3D Laser Scanning (LiDAR) Service</a>
+                            href="long-range-3dscanning-service.php">3D Laser Scanning (LiDAR) Service</a>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
-                            href="/portable-cmm-3d-scanning-service.php">Portabale CMM 3D Scanning</a>
+                            href="portable-cmm-3d-scanning-service.php">Portabale CMM 3D Scanning</a>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item  text-left py-2"
-                            href="/dynamic-tracking-3d-scanning-services.php">Laser Tracker 3D scanning</a>
+                            href="dynamic-tracking-3d-scanning-services.php">Laser Tracker 3D scanning</a>
                         </li>
                       </ul>
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/3d-Reverse-Engineering-Services-in-india.php">3D reverse Engineering Service</a>
+                        href="3d-Reverse-Engineering-Services-in-india.php">3D reverse Engineering Service</a>
 
                     </li>
-                    <li class="dropdown"><a class="dropdown-item  text-left py-2" href="/3d-inspection-service.php">3D Inpection Service</a>
-
-                    </li>
-                    <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/3d-printing-service-in-india.php">3D Printing Service</a>
+                    <li class="dropdown"><a class="dropdown-item  text-left py-2" href="3d-inspection-service.php">3D Inpection Service</a>
 
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/portable-cmm-inspection-service-in-india.php">Portable CMM Inspection Service</a>
+                        href="3d-printing-service-in-india.php">3D Printing Service</a>
+
+                    </li>
+                    <li class="dropdown"><a class="dropdown-item  text-left py-2"
+                        href="portable-cmm-inspection-service-in-india.php">Portable CMM Inspection Service</a>
                     </li>
                   </ul>
                 </li>
 
 
                 <li class="nav-item dropdown">
-                  <!--<a class="nav-link dropdown-toggle" href="/3d-services-in-india.php" id="navbarDropdownMenuLink"
+                  <!--<a class="nav-link dropdown-toggle" href="3d-services-in-india.php" id="navbarDropdownMenuLink"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 3D products
                                     </a>-->
                   <a class="nav-link dropdown-toggle" href="#">resources</a>
 
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/About_us.php">
+                        href="About_us.php">
                         About us</a>
 
                     </li>
                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                        href="/Globalvision.php">
+                        href="Globalvision.php">
                         Global</a>
                       <ul class="dropdown-menu">
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/uk/">UK</a>
+                            href="uk/">UK</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="/3d-usa-onsite-scan-upload.php"> 3D
+                            <li><a class="dropdown-item text-left py-2" href="3d-usa-onsite-scan-upload.php"> 3D
                                 Scanning
                               </a></li>
                             <li><a class="dropdown-item text-left py-2" href="#"> Automotive Benchmarking
@@ -2126,9 +2126,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/3d-scanning-service-in-the-USA.php">USA</a>
+                            href="3d-scanning-service-in-the-USA.php">USA</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-left py-2" href="/3d-usa-onsite-scan-upload.php">3D Scanning</a></li>
+                            <li><a class="dropdown-item text-left py-2" href="3d-usa-onsite-scan-upload.php">3D Scanning</a></li>
                             <li><a class="dropdown-item text-left py-2" href="#">Automotive Benchmarking</a></li>
                             <li><a class="dropdown-item text-left py-2" href="#">Factory scanning and Digitization</a></li>
                             <li><a class="dropdown-item text-left py-2" href="#">Laser scanning and BIM modelling</a></li>
@@ -2137,7 +2137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/structured-light-3d-scanner-in-india.php">Europe</a>
+                            href="structured-light-3d-scanner-in-india.php">Europe</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2" href="#"> 3D Scanning
                               </a></li>
@@ -2153,7 +2153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/structured-light-3d-scanner-in-india.php">UAE</a>
+                            href="structured-light-3d-scanner-in-india.php">UAE</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2" href="#"> 3D Scanning
                               </a></li>
@@ -2169,7 +2169,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-left py-2"
-                            href="/structured-light-3d-scanner-in-india.php">Brazil</a>
+                            href="structured-light-3d-scanner-in-india.php">Brazil</a>
                           <ul class="dropdown-menu">
                             <li><a class="dropdown-item text-left py-2" href="#"> 3D Scanning
                               </a></li>
@@ -2186,46 +2186,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </ul>
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/business-opportunity-in-india.php">
+                        href="business-opportunity-in-india.php">
                         Business Partner</a>
 
                     </li>
-                    <li class="dropdown"><a class="dropdown-item  text-left py-2" href="/technology-partner.php">
+                    <li class="dropdown"><a class="dropdown-item  text-left py-2" href="technology-partner.php">
                         Technology Partner</a>
 
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/geomagic-software.php">
+                        href="geomagic-software.php">
                         Geomagic Software</a>
 
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/geomagic-software-in-sri-lanka.php">
+                        href="geomagic-software-in-sri-lanka.php">
                         Geomagic Software in Sri Lanka</a>
 
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/3D_scanning_and_Printing_events_in_india_2021.php">
+                        href="3D_scanning_and_Printing_events_in_india_2021.php">
                         Geomagic Software Events</a>
 
                     </li>
                     <li class="dropdown"><a class="dropdown-item  text-left py-2"
-                        href="/blog-page.php">
+                        href="blog-page.php">
                         Blogs</a>
                     </li>
-                    <li class=""><a class="dropdown-item   text-left py-2" href="/certificates-and-licenses.php">
+                    <li class=""><a class="dropdown-item   text-left py-2" href="certificates-and-licenses.php">
                         certificates</a>
 
                     </li>
                     <li class="dropdow"><a class="dropdown-item  text-left py-2"
-                        href="/blogs/blog_page/jobs/">
+                        href="blogs/blog_page/jobs/">
                         Career</a>
                     </li>
                   </ul>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact-us.php">Contact Us</a>
+                  <a class="nav-link" href="contact-us.php">Contact Us</a>
                 </li>
                 <!-- <li class="nav-item">-->
                 <!--<a href="tel:1800 202 0036"style="text-transform: Capitalize;">Toll Free Number :<br> 1800 202 0036</a>-->
@@ -2244,7 +2244,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Nabar in mobile view -->
 
 <nav class="navbar mob-nav">
-  <a class="navbar-brand" href="/"><img src="assets/images/Precise Logos-08.png" class="img-fluid"
+  <a class="navbar-brand" href="index.php"><img src="assets/images/Precise Logos-08.png" class="img-fluid"
   width='250px' alt="logo"></a>
   <button class="mob-menu-btn">
     <i class="fa-solid fa-bars"></i>
@@ -2255,13 +2255,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="index.php">Home</a>
       </li>
 
       <!-- 3d products -->
       <li class="nav-item">
         <div class="mob-down-list">
-          <a class="nav-link" href="/3d-products.php">3D Products</a>
+          <a class="nav-link" href="3d-products.php">3D Products</a>
           <div class="down-icon">
             <i class="fa-solid fa-sort-down"></i>
           </div>
@@ -2269,7 +2269,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-menu">
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-scanners-in-india.php">3D Scanners</a>
+              <a class="nav-link" href="3d-scanners-in-india.php">3D Scanners</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -2277,7 +2277,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/metrology-grade-3d-scanners.php">Metrology Grade 3D Scanners</a>
+                  <a class="nav-link" href="metrology-grade-3d-scanners.php">Metrology Grade 3D Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2285,7 +2285,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/handheld-3d-scanner-in-india.php">Handheld 3D Scanners</a>
+                      <a class="nav-link" href="handheld-3d-scanner-in-india.php">Handheld 3D Scanners</a>
                         <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>  
                       </div>
@@ -2293,39 +2293,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/freescan-omni.php">Freescan Omni</a>
+                          <a class="nav-link" href="freescan-omni.php">Freescan Omni</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/FreeScan-Combo.php">FreeScan Combo</a>
+                          <a class="nav-link" href="FreeScan-Combo.php">FreeScan Combo</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/freescan-combo-plus.php">Freescan Combo+</a>
+                          <a class="nav-link" href="freescan-combo-plus.php">Freescan Combo+</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link"  href="/freescan-ue-pro2.php">FreeScan UE Pro 2</a>
+                          <a class="nav-link"  href="freescan-ue-pro2.php">FreeScan UE Pro 2</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link"  href="/freescan-ue-nova.php">FreeScan UE Nova</a>
+                          <a class="nav-link"  href="freescan-ue-nova.php">FreeScan UE Nova</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link"  href="/freescan-trio-triple-camera-handheld-laser-3D-scanner.php">FreeScan Trio</a>
+                          <a class="nav-link"  href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php">FreeScan Trio</a>
                         </div>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/laser-tracker-3d-scanner.php">Optical Tracking Systems</a>
+                      <a class="nav-link" href="laser-tracker-3d-scanner.php">Optical Tracking Systems</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>
@@ -2333,24 +2333,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/freescan-track-nova.php">FreeScan Trak Nova</a>
+                          <a class="nav-link" href="freescan-track-nova.php">FreeScan Trak Nova</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/freescan-trak-pro-w.php">FreeScan Trak Pro W</a>
+                          <a class="nav-link" href="freescan-trak-pro-w.php">FreeScan Trak Pro W</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a>
+                          <a class="nav-link" href="upgrade-from-portable-cmm-arms-to-dynamic-racking-wireless-probing.php">Freeprobe 2 pro</a>
                         </div>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link"  href="/structured-light-3d-scanner-in-india.php">structured Light 3d Scanners</a>
+                      <a class="nav-link"  href="structured-light-3d-scanner-in-india.php">structured Light 3d Scanners</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>
@@ -2358,17 +2358,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/optimscan-q12.php">OptimScan Q12</a>
+                          <a class="nav-link" href="optimscan-q12.php">OptimScan Q12</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/OptimScan5M-Plus.php">OptimScan5M Plus</a>
+                          <a class="nav-link" href="OptimScan5M-Plus.php">OptimScan5M Plus</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/automatic-desktop-3d-scanner.php">AutoScan Inspec2</a>
+                          <a class="nav-link" href="automatic-desktop-3d-scanner.php">AutoScan Inspec2</a>
                         </div>
                       </li>
                     </ul>
@@ -2377,7 +2377,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/professional-3d-scanners.php">Professional 3D Scanners</a>
+                  <a class="nav-link" href="professional-3d-scanners.php">Professional 3D Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2385,24 +2385,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einscan-rigil.php">EinScan Rigil</a>
+                      <a class="nav-link" href="einscan-rigil.php">EinScan Rigil</a>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
+                      <a class="nav-link" href="tri-mode-wireless-laser-3d-scanner.php">EinScan Rigil & Rigil Lite</a>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einscan-trak-3d-scanner-in-india.php">Einscan Trak</a>
+                      <a class="nav-link" href="einscan-trak-3d-scanner-in-india.php">Einscan Trak</a>
                     </div>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/entry-level-3d-scanners.php">Entry Level 3D Scanners</a>
+                  <a class="nav-link" href="entry-level-3d-scanners.php">Entry Level 3D Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2410,29 +2410,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einstar-2.php">Einstar 2</a>
+                      <a class="nav-link" href="einstar-2.php">Einstar 2</a>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einstar-vega.php">Einstar Vega</a>
+                      <a class="nav-link" href="einstar-vega.php">Einstar Vega</a>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einstar-rockit-product.php">Einstar Rockit</a>
+                      <a class="nav-link" href="einstar-rockit-product.php">Einstar Rockit</a>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einscan-rigil.php">Einscan Rigil</a>
+                      <a class="nav-link" href="einscan-rigil.php">Einscan Rigil</a>
                     </div>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-scanners-by-technology.php">3D Scanner by Technology</a>
+                  <a class="nav-link" href="3d-scanners-by-technology.php">3D Scanner by Technology</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2440,7 +2440,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/structured-light-3d-scanner-in-india.php">Structured Light 3D Scanners</a>
+                      <a class="nav-link" href="structured-light-3d-scanner-in-india.php">Structured Light 3D Scanners</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>                     
@@ -2448,24 +2448,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <ul class="sub-menu">
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/optimscan-q12.php">OptimScan Q12</a>
+                              <a class="nav-link" href="optimscan-q12.php">OptimScan Q12</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/OptimScan5M-Plus.php">OptimScan5M Plus</a>
+                              <a class="nav-link" href="OptimScan5M-Plus.php">OptimScan5M Plus</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link"  href="/automatic-desktop-3d-scanner.php">AutoScan Inspec2</a>
+                              <a class="nav-link"  href="automatic-desktop-3d-scanner.php">AutoScan Inspec2</a>
                             </div>
                           </li>
                         </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/structured-light-3d-scanner-in-india.php">3D Laser Scanners</a>
+                      <a class="nav-link" href="structured-light-3d-scanner-in-india.php">3D Laser Scanners</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>                     
@@ -2473,44 +2473,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <ul class="sub-menu">
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/FreeScan-Combo.php">Freescan Combo</a>
+                              <a class="nav-link" href="FreeScan-Combo.php">Freescan Combo</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/freescan-ue-pro2.php">Freescan UE Pro 2</a>
+                              <a class="nav-link" href="freescan-ue-pro2.php">Freescan UE Pro 2</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio</a>
+                              <a class="nav-link" href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/freescan-ue-nova.php">Freescan UE Nova</a>
+                              <a class="nav-link" href="freescan-ue-nova.php">Freescan UE Nova</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/einscan-rigil.php">EinScan Rigil</a>
+                              <a class="nav-link" href="einscan-rigil.php">EinScan Rigil</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/einstar-2.php">Einstar 2</a>
+                              <a class="nav-link" href="einstar-2.php">Einstar 2</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/freescan-omni.php">Freescan Omni</a>
+                              <a class="nav-link" href="freescan-omni.php">Freescan Omni</a>
                             </div>
                           </li>
                         </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/infrared-3d-scanner.php">Infrared Light 3D Scanners</a>
+                      <a class="nav-link" href="infrared-3d-scanner.php">Infrared Light 3D Scanners</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>
@@ -2518,30 +2518,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/FreeScan-Combo.php">Freescan Combo</a>
+                              <a class="nav-link" href="FreeScan-Combo.php">Freescan Combo</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/einscan-rigil.php">EinScan Rigil</a>
+                              <a class="nav-link" href="einscan-rigil.php">EinScan Rigil</a>
                             </div>
                           </li>
                           <!--  -->
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/Einstar.php">Einstar</a>
+                              <a class="nav-link" href="Einstar.php">Einstar</a>
                             </div>
                           </li>
                           <li class="nav-item">
                             <div class="mob-down-list sub-down-list">
-                              <a class="nav-link" href="/einstar-vega.php">Einstar Vega</a>
+                              <a class="nav-link" href="einstar-vega.php">Einstar Vega</a>
                             </div>
                           </li>
                         </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/laser-tracker-3d-scanner.php">Optical Dynamic Tracker 3D Scanners</a>
+                      <a class="nav-link" href="laser-tracker-3d-scanner.php">Optical Dynamic Tracker 3D Scanners</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>
@@ -2549,19 +2549,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/freescan-track-pro2.php">Freescan Trak Pro</a>
+                          <a class="nav-link" href="freescan-track-pro2.php">Freescan Trak Pro</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/freescan-track-nova.php">Freescan Trak Nova</a>
+                          <a class="nav-link" href="freescan-track-nova.php">Freescan Trak Nova</a>
                         </div>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/hybird-technology-3d-scanners.php">Hybrid Technology 3D Scanners</a>
+                      <a class="nav-link" href="hybird-technology-3d-scanners.php">Hybrid Technology 3D Scanners</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>
@@ -2569,7 +2569,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/FreeScan-Combo.php">Freescan Combo</a>
+                          <a class="nav-link" href="FreeScan-Combo.php">Freescan Combo</a>
                         </div>
                       </li>
                       
@@ -2578,7 +2578,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/lidar-scanners.php">Lidar scanner</a>
+                      <a class="nav-link" href="lidar-scanners.php">Lidar scanner</a>
                       <div class="down-icon">
                         <i class="fa-solid fa-sort-down"></i>
                       </div>
@@ -2586,12 +2586,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="sub-menu">
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/leica-rtc360.php">Lecia RTC360</a>
+                          <a class="nav-link" href="leica-rtc360.php">Lecia RTC360</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="mob-down-list sub-down-list">
-                          <a class="nav-link" href="/leica-blk360.php">Lecia BLK360</a>
+                          <a class="nav-link" href="leica-blk360.php">Lecia BLK360</a>
                         </div>
                       </li>
                     </ul>
@@ -2601,7 +2601,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-scanners-based-on-component-size.php">3D Scanner by Component Size</a>
+                  <a class="nav-link" href="3d-scanners-based-on-component-size.php">3D Scanner by Component Size</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2609,56 +2609,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                    <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-one">1 mm to 100 mm</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-one">1 mm to 100 mm</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-home">1 mm to 400 mm</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-home">1 mm to 400 mm</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-profile">30 mm to 2 Meters</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-profile">30 mm to 2 Meters</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-messages">20 mm to 5 Meters</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-messages">20 mm to 5 Meters</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-settings">10 mm to 10 Meters</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-settings">10 mm to 10 Meters</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link"href="/3d-scanners-based-on-component-size.php#v-pills-5">200 mm to 15 Meters</a>
+                      <a class="nav-link"href="3d-scanners-based-on-component-size.php#v-pills-5">200 mm to 15 Meters</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-6">50 mm to 50 Meters</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-6">50 mm to 50 Meters</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-scanners-based-on-component-size.php#v-pills-7">Above 50 Meters</a>
+                      <a class="nav-link" href="3d-scanners-based-on-component-size.php#v-pills-7">Above 50 Meters</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -2667,7 +2667,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-light-scanner.php">3D Scanner by Cost</a>
+                  <a class="nav-link" href="3d-light-scanner.php">3D Scanner by Cost</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2675,56 +2675,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-home">₹1 Lakh to ₹5 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-home">₹1 Lakh to ₹5 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-profile">₹5 Lakhs – ₹10 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-profile">₹5 Lakhs – ₹10 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-messages">₹10 Lakhs – ₹20 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-messages">₹10 Lakhs – ₹20 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-settings">₹20 Lakhs – ₹30 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-settings">₹20 Lakhs – ₹30 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link"href="/buy-3d-scanners-by-price-in-india.php#v-pills-5">₹30 Lakhs – ₹40 Lakhs</a>
+                      <a class="nav-link"href="buy-3d-scanners-by-price-in-india.php#v-pills-5">₹30 Lakhs – ₹40 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-6">₹40 Lakhs – ₹50 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-6">₹40 Lakhs – ₹50 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-7">₹50 Lakhs – ₹65 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-7">₹50 Lakhs – ₹65 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/buy-3d-scanners-by-price-in-india.php#v-pills-8">₹70 Lakhs – ₹80 Lakhs</a>
+                      <a class="nav-link" href="buy-3d-scanners-by-price-in-india.php#v-pills-8">₹70 Lakhs – ₹80 Lakhs</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -2734,7 +2734,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-scanners-by-application.php">3D Scanner by Application</a>
+                  <a class="nav-link" href="3d-scanners-by-application.php">3D Scanner by Application</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2742,140 +2742,140 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-home">Reverse Engineering</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-home">Reverse Engineering</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-profile">Quality Control</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-profile">Quality Control</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-messages">3D Printing</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-messages">3D Printing</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-settings">3D Printed Parts Inspection</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-settings">3D Printed Parts Inspection</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-5">Healthcare application</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-5">Healthcare application</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-6">Art and Heritage Preservation</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-6">Art and Heritage Preservation</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-7">Aerospace</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-7">Aerospace</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-8">Education</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-8">Education</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-9">Jewellery</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-9">Jewellery</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-10">Hobbyists and Designers</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-10">Hobbyists and Designers</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link"href="/3d-scanners-by-application.php#v-pills-11">Human Figurine</a>
+                        <a class="nav-link"href="3d-scanners-by-application.php#v-pills-11">Human Figurine</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-12">Art & Cultural Heritage</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-12">Art & Cultural Heritage</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-13">Turbine Parts</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-13">Turbine Parts</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-14">Animation & Game Design</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-14">Animation & Game Design</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-15">Consumer Electronics</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-15">Consumer Electronics</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-16">Screws and Fasteners</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-16">Screws and Fasteners</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-17">Orthotics & Prosthetics</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-17">Orthotics & Prosthetics</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-18">Multifunctional 3D Scanners</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-18">Multifunctional 3D Scanners</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-19">Desktop 3D Scanners</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-19">Desktop 3D Scanners</a>
                         <div class="down-icon">
                         </div>
                       </div>
                     </li>
                     <li class="nav-item">
                       <div class="mob-down-list sub-down-list">
-                        <a class="nav-link" href="/3d-scanners-by-application.php#v-pills-20">AICTE IDEA Lab</a>
+                        <a class="nav-link" href="3d-scanners-by-application.php#v-pills-20">AICTE IDEA Lab</a>
                         <div class="down-icon">
                         </div>
                       </div>
@@ -2884,7 +2884,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <!--<li class="nav-item">-->
               <!--  <div class="mob-down-list sub-down-list">-->
-              <!--    <a class="nav-link" href="/structured-light-3d-scanner-in-india.php">Structured light 3D scanner</a>-->
+              <!--    <a class="nav-link" href="structured-light-3d-scanner-in-india.php">Structured light 3D scanner</a>-->
               <!--    <div class="down-icon">-->
               <!--      <i class="fa-solid fa-sort-down"></i>-->
               <!--    </div>-->
@@ -2892,14 +2892,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <!--  <ul class="sub-menu">-->
               <!--    <li class="nav-item">-->
               <!--      <div class="mob-down-list sub-down-list">-->
-              <!--        <a class="nav-link" href="/OptimScan5M-Plus.php">OptimScan5M Plus</a>-->
+              <!--        <a class="nav-link" href="OptimScan5M-Plus.php">OptimScan5M Plus</a>-->
               <!--        <div class="down-icon">-->
               <!--        </div>-->
               <!--      </div>-->
               <!--    </li>-->
               <!--    <li class="nav-item">-->
               <!--      <div class="mob-down-list sub-down-list">-->
-              <!--        <a class="nav-link" href="/transcan-c.php">Transcan C</a>-->
+              <!--        <a class="nav-link" href="transcan-c.php">Transcan C</a>-->
               <!--        <div class="down-icon">-->
               <!--        </div>-->
               <!--      </div>-->
@@ -2908,7 +2908,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <!--</li>-->
               <!-- <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/multifunctional-white-light-3d-scanner-in-india.php">Multifunctional 3D Scanners</a>
+                  <a class="nav-link" href="multifunctional-white-light-3d-scanner-in-india.php">Multifunctional 3D Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2916,14 +2916,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einscan-pro-hd-3d-scanner-in-india.php">Einscan Pro HD</a>
+                      <a class="nav-link" href="einscan-pro-hd-3d-scanner-in-india.php">Einscan Pro HD</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einscan-pro2xv2.php">Einscan Pro2XV2</a>
+                      <a class="nav-link" href="einscan-pro2xv2.php">Einscan Pro2XV2</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -2934,14 +2934,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li> -->
               <!-- <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/handled-laser-3d-scanner.php">Handheld Laser 3D Scanner</a>
+                  <a class="nav-link" href="handled-laser-3d-scanner.php">Handheld Laser 3D Scanner</a>
                   <div class="down-icon">
                   </div>
                 </div>          
               </li> -->
               <!-- <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/handheld-3d-scanner-in-india.php">Handheld Metrology 3D Scanners</a>
+                  <a class="nav-link" href="handheld-3d-scanner-in-india.php">Handheld Metrology 3D Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2949,28 +2949,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/FreeScan-Combo.php">Freescan Combo</a>
+                      <a class="nav-link" href="FreeScan-Combo.php">Freescan Combo</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio</a>
+                      <a class="nav-link" href="freescan-trio-triple-camera-handheld-laser-3D-scanner.php">Freescan Trio</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/freescan-ue-pro-3d-scanner-in-india.php">Freescan UE pro</a>
+                      <a class="nav-link" href="freescan-ue-pro-3d-scanner-in-india.php">Freescan UE pro</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/freescan-ue-pro2.php">Freescan UE pro2</a>
+                      <a class="nav-link" href="freescan-ue-pro2.php">Freescan UE pro2</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -2979,7 +2979,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li> -->
               <!-- <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/handheld-color-3dscanning-service.php">Handheld Colour 3D scanning</a>
+                  <a class="nav-link" href="handheld-color-3dscanning-service.php">Handheld Colour 3D scanning</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2990,7 +2990,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li> -->
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/desktop-3d-scanner-in-india.php">DESKTOP Scanners</a>
+                  <a class="nav-link" href="desktop-3d-scanner-in-india.php">DESKTOP Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -2998,7 +2998,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/Jewellery-3D-Scanner-IN500.php">Jewellery-IN500</a>
+                      <a class="nav-link" href="Jewellery-3D-Scanner-IN500.php">Jewellery-IN500</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3008,7 +3008,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/affordable-and-lowcost-3d-scanner-in-india.php">Low Cost 3D Scanner</a>
+                  <a class="nav-link" href="affordable-and-lowcost-3d-scanner-in-india.php">Low Cost 3D Scanner</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3016,12 +3016,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/Einstar.php">Einstar</a>
+                      <a class="nav-link" href="Einstar.php">Einstar</a>
                       <div class="down-icon">
                       </div>
                     </div>
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/einstar-vega.php">Einstar Vega</a>
+                      <a class="nav-link" href="einstar-vega.php">Einstar Vega</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3030,7 +3030,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/laser-tracker-3d-scanner.php">Long Range 3D Scanners</a>
+                  <a class="nav-link" href="laser-tracker-3d-scanner.php">Long Range 3D Scanners</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3038,14 +3038,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/leica-rtc360.php">Leica RTC360</a>
+                      <a class="nav-link" href="leica-rtc360.php">Leica RTC360</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/leica-blk360.php">Leica BLK360</a>
+                      <a class="nav-link" href="leica-blk360.php">Leica BLK360</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3054,7 +3054,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/used-3d-scanners-in-india.php">Used 3D scanners</a>
+                  <a class="nav-link" href="used-3d-scanners-in-india.php">Used 3D scanners</a>
                   <!--<div class="down-icon">-->
                   <!--  <i class="fa-solid fa-sort-down"></i>-->
                   <!--</div>-->
@@ -3062,28 +3062,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <!--<ul class="sub-menu">-->
                 <!--  <li class="nav-item">-->
                 <!--    <div class="mob-down-list sub-down-list">-->
-                <!--      <a class="nav-link" href="/laser-handheld-3d-scanner-india-freescan-x7.php">Freescan X7</a>-->
+                <!--      <a class="nav-link" href="laser-handheld-3d-scanner-india-freescan-x7.php">Freescan X7</a>-->
                 <!--      <div class="down-icon">-->
                 <!--      </div>-->
                 <!--    </div>-->
                 <!--  </li>-->
                 <!--  <li class="nav-item">-->
                 <!--    <div class="mob-down-list sub-down-list">-->
-                <!--      <a class="nav-link" href="/freescan-ue-series-3d-scanner-in-india.php">Freescan UE7</a>-->
+                <!--      <a class="nav-link" href="freescan-ue-series-3d-scanner-in-india.php">Freescan UE7</a>-->
                 <!--      <div class="down-icon">-->
                 <!--      </div>-->
                 <!--    </div>-->
                 <!--  </li>-->
                 <!--  <li class="nav-item">-->
                 <!--    <div class="mob-down-list sub-down-list">-->
-                <!--      <a class="nav-link" href="/freescan-ue-series-3d-scanner-in-india.php">Freescan UE11</a>-->
+                <!--      <a class="nav-link" href="freescan-ue-series-3d-scanner-in-india.php">Freescan UE11</a>-->
                 <!--      <div class="down-icon">-->
                 <!--      </div>-->
                 <!--    </div>-->
                 <!--  </li>-->
                 <!--  <li class="nav-item">-->
                 <!--    <div class="mob-down-list sub-down-list">-->
-                <!--      <a class="nav-link" href="/industrial-3dscanner-india-2025.php">Faro M70</a>-->
+                <!--      <a class="nav-link" href="industrial-3dscanner-india-2025.php">Faro M70</a>-->
                 <!--      <div class="down-icon">-->
                 <!--      </div>-->
                 <!--    </div>-->
@@ -3092,7 +3092,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <!-- <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/industrial-3dscanner-india-2025.php">Industrial 3D Scanners</a>
+                  <a class="nav-link" href="industrial-3dscanner-india-2025.php">Industrial 3D Scanners</a>
                   <div class="down-icon">
                   </div>
                 </div>          
@@ -3101,7 +3101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-scanning-software.php">3D Software</a>
+              <a class="nav-link" href="3d-scanning-software.php">3D Software</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -3109,7 +3109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-scanning-and-reverse-engineering-software.php">3D Reverse Engineering Software</a>
+                  <a class="nav-link" href="3d-scanning-and-reverse-engineering-software.php">3D Reverse Engineering Software</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3117,21 +3117,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/reverse-engineering-geomagic-design-x.php">Geomagic Design X</a>
+                      <a class="nav-link" href="reverse-engineering-geomagic-design-x.php">Geomagic Design X</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/geomagic-wrap-3d-scanning-software.php">Geomagic Wrap</a>
+                      <a class="nav-link" href="geomagic-wrap-3d-scanning-software.php">Geomagic Wrap</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/geomagic-for-solidworks-reverse-engineering-software.php">Geomagic for Solidworks</a>
+                      <a class="nav-link" href="geomagic-for-solidworks-reverse-engineering-software.php">Geomagic for Solidworks</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3140,7 +3140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-inspection-software-in-india.php">3D Inspection Software</a>
+                  <a class="nav-link" href="3d-inspection-software-in-india.php">3D Inspection Software</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3148,21 +3148,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/geomagic-control-x-3d-inspection-software.php">Geomagic Control X</a>
+                      <a class="nav-link" href="geomagic-control-x-3d-inspection-software.php">Geomagic Control X</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/trueprop-software.php">Trueprop Inspection Software</a>
+                      <a class="nav-link" href="trueprop-software.php">Trueprop Inspection Software</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/shining-3d-inspect-software.php">SHINING3D Inspect Software</a>
+                      <a class="nav-link" href="shining-3d-inspect-software.php">SHINING3D Inspect Software</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3171,7 +3171,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-sculpting-software.php">3D Sculpting Software</a>
+                  <a class="nav-link" href="3d-sculpting-software.php">3D Sculpting Software</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3179,7 +3179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/geomagic-freeform-3d-modelling-design-software.php">Geomagic Freeform</a>
+                      <a class="nav-link" href="geomagic-freeform-3d-modelling-design-software.php">Geomagic Freeform</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3190,7 +3190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
+              <a class="nav-link" href="industrial-3d-printers-for-real-world-manufacturing.php">3D Printer</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -3198,7 +3198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/peek-3d-printers-in-india.php">PEEK 3D Printers</a>
+                  <a class="nav-link" href="peek-3d-printers-in-india.php">PEEK 3D Printers</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3206,14 +3206,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a>
+                      <a class="nav-link" href="funmat-pro-310-apollo.php">Funmat Pro 310 Apollo</a>
                       <div class="down-icon">
                       </div>
                     </div>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/funmat-pro.php">Funmat Pro 410</a>
+                      <a class="nav-link" href="funmat-pro.php">Funmat Pro 410</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3222,14 +3222,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/industrial-fdm-3d-printers.php">Industrial FDM Printers</a>
+                  <a class="nav-link" href="industrial-fdm-3d-printers.php">Industrial FDM Printers</a>
                   <div class="down-icon">
                   </div>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/figure-4-standalone-3d-printer.php">DLP 3D Printers</a>
+                  <a class="nav-link" href="figure-4-standalone-3d-printer.php">DLP 3D Printers</a>
                   <div class="down-icon">
                   </div>
                 </div>
@@ -3250,7 +3250,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-menu">
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-applications.php">Applications</a>
+              <a class="nav-link" href="3d-applications.php">Applications</a>
             </div>
           </li>
         </ul>
@@ -3259,7 +3259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- 3d Services -->
       <li class="nav-item">
         <div class="mob-down-list">
-          <a class="nav-link" href="/3d-services.php">3D Services</a>
+          <a class="nav-link" href="3d-services.php">3D Services</a>
           <div class="down-icon">
             <i class="fa-solid fa-sort-down"></i>
           </div>
@@ -3267,7 +3267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-menu">
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
+              <a class="nav-link" href="automotive-benchmarking-services-in-india.php">Automotive Benchmarking</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -3275,29 +3275,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/vehicle-teardown-analysis-service-in-india.php">Full Vehicle Teardown</a>
+                  <a class="nav-link" href="vehicle-teardown-analysis-service-in-india.php">Full Vehicle Teardown</a>
                 </div>
               </li>              
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant</a>
+                  <a class="nav-link" href="vehicle-occupant-architecture-analysis-service.php">Vehicle Occupant</a>
                 </div>
               </li>              
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/scan-to-cad-service.php">Vehicle Scan-to-CAD</a>
+                  <a class="nav-link" href="scan-to-cad-service.php">Vehicle Scan-to-CAD</a>
                 </div>
               </li>              
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/material-testing.php">Material Testing</a>
+                  <a class="nav-link" href="material-testing.php">Material Testing</a>
                 </div>
               </li>
             </ul>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-scanning-services-in-india.php">3D Scanning Service</a>
+              <a class="nav-link" href="3d-scanning-services-in-india.php">3D Scanning Service</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -3305,54 +3305,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/handheld-industrial-3d-scanning-service-india.php">Industrial Handheld 3D Scanning Services</a>
+                  <a class="nav-link" href="handheld-industrial-3d-scanning-service-india.php">Industrial Handheld 3D Scanning Services</a>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/handheld-color-3dscanning-service.php">Handheld Full-colour 3D Scanning Service</a>
+                  <a class="nav-link" href="handheld-color-3dscanning-service.php">Handheld Full-colour 3D Scanning Service</a>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/structured-light-3dscanning-services.php">Structured Light 3D Scanning Service</a>
+                  <a class="nav-link" href="structured-light-3dscanning-services.php">Structured Light 3D Scanning Service</a>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/long-range-3dscanning-service.php">3D Laser Scanning (LiDAR) Service</a>
+                  <a class="nav-link" href="long-range-3dscanning-service.php">3D Laser Scanning (LiDAR) Service</a>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/portable-cmm-3d-scanning-service.php">Portabale CMM 3D Scanning</a>
+                  <a class="nav-link" href="portable-cmm-3d-scanning-service.php">Portabale CMM 3D Scanning</a>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/dynamic-tracking-3d-scanning-services.php">Laser Tracker 3D scanning</a>
+                  <a class="nav-link" href="dynamic-tracking-3d-scanning-services.php">Laser Tracker 3D scanning</a>
                 </div>
               </li>
             </ul>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-Reverse-Engineering-Services-in-india.php">3D reverse Engineering Service</a>
+              <a class="nav-link" href="3d-Reverse-Engineering-Services-in-india.php">3D reverse Engineering Service</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-inspection-service.php">3D Inpection Service</a>
+              <a class="nav-link" href="3d-inspection-service.php">3D Inpection Service</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3d-printing-service-in-india.php">3D Printing Service</a>
+              <a class="nav-link" href="3d-printing-service-in-india.php">3D Printing Service</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/portable-cmm-inspection-service-in-india.php">Portable CMM Inspection Service</a>
+              <a class="nav-link" href="portable-cmm-inspection-service-in-india.php">Portable CMM Inspection Service</a>
             </div>
           </li>
         </ul>
@@ -3369,12 +3369,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-menu">
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/About_us.php">About us</a>
+              <a class="nav-link" href="About_us.php">About us</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/Globalvision.php">Global</a>
+              <a class="nav-link" href="Globalvision.php">Global</a>
               <div class="down-icon">
                 <i class="fa-solid fa-sort-down"></i>
               </div>
@@ -3382,7 +3382,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="sub-menu">
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/uk/">UK</a>
+                  <a class="nav-link" href="uk/">UK</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3390,7 +3390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="sub-menu">
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="/3d-usa-onsite-scan-upload.php">3D Scanning</a>
+                      <a class="nav-link" href="3d-usa-onsite-scan-upload.php">3D Scanning</a>
                       <div class="down-icon">
                       </div>
                     </div>
@@ -3420,45 +3420,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/3d-usa-onsite-scan-upload.php">USA</a>
-                  <div class="down-icon">
-                    <i class="fa-solid fa-sort-down"></i>
-                  </div>
-                </div>
-                <ul class="sub-menu">
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="#">3D Scanning</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="#">Automotive Benchmarking</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="#">Factory scanning and Digitization</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="#">Laser scanning and BIM modelling</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/structured-light-3d-scanner-in-india.php">Europe</a>
+                  <a class="nav-link" href="3d-usa-onsite-scan-upload.php">USA</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3473,13 +3435,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </li>
                   <li class="nav-item">
                     <div class="mob-down-list sub-down-list">
-                      <a class="nav-link" href="#">3D Reverse Engineering</a>
-                      <div class="down-icon">
-                      </div>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <div class="mob-down-list sub-down-list">
                       <a class="nav-link" href="#">Automotive Benchmarking</a>
                       <div class="down-icon">
                       </div>
@@ -3503,7 +3458,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/structured-light-3d-scanner-in-india.php">UAE</a>
+                  <a class="nav-link" href="structured-light-3d-scanner-in-india.php">Europe</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3548,7 +3503,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
               <li class="nav-item">
                 <div class="mob-down-list sub-down-list">
-                  <a class="nav-link" href="/structured-light-3d-scanner-in-india.php">Brazil</a>
+                  <a class="nav-link" href="structured-light-3d-scanner-in-india.php">UAE</a>
+                  <div class="down-icon">
+                    <i class="fa-solid fa-sort-down"></i>
+                  </div>
+                </div>
+                <ul class="sub-menu">
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="#">3D Scanning</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="#">3D Reverse Engineering</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="#">Automotive Benchmarking</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="#">Factory scanning and Digitization</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mob-down-list sub-down-list">
+                      <a class="nav-link" href="#">Laser scanning and BIM modelling</a>
+                      <div class="down-icon">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <div class="mob-down-list sub-down-list">
+                  <a class="nav-link" href="structured-light-3d-scanner-in-india.php">Brazil</a>
                   <div class="down-icon">
                     <i class="fa-solid fa-sort-down"></i>
                   </div>
@@ -3595,42 +3595,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/business-opportunity-in-india.php">Business Partner</a>
+              <a class="nav-link" href="business-opportunity-in-india.php">Business Partner</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/technology-partner.php">Technology Partner</a>
+              <a class="nav-link" href="technology-partner.php">Technology Partner</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/geomagic-software.php">Geomagic Software</a>
+              <a class="nav-link" href="geomagic-software.php">Geomagic Software</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/geomagic-software-in-sri-lanka.php">Geomagic Software in Sri Lanka</a>
+              <a class="nav-link" href="geomagic-software-in-sri-lanka.php">Geomagic Software in Sri Lanka</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/3D_scanning_and_Printing_events_in_india_2021.php">Geomagic Software Events</a>
+              <a class="nav-link" href="3D_scanning_and_Printing_events_in_india_2021.php">Geomagic Software Events</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/blog-page.php">Blogs</a>
+              <a class="nav-link" href="blog-page.php">Blogs</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/certificates-and-licenses.php">certificates</a>
+              <a class="nav-link" href="certificates-and-licenses.php">certificates</a>
             </div>
           </li>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
-              <a class="nav-link" href="/blogs/blog_page/jobs/">Career</a>
+              <a class="nav-link" href="blogs/blog_page/jobs/">Career</a>
             </div>
           </li>
         </ul>
@@ -3638,12 +3638,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <!-- Contact -->
       <li class="nav-item">
-        <a class="nav-link" href="/contact-us.php">Contact Us</a>
+        <a class="nav-link" href="contact-us.php">Contact Us</a>
       </li>
       <div class="mob-nav-btns">
-        <a href="/scanning-solution-form.php" class="btn">Get Quote</a>
-        <a href="/Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Demo</a>
-        <a href="/Get-3d-scan-service-quote.php" class="btn">Get 3D Scan Service quote</a>        
+        <a href="scanning-solution-form.php" class="btn">Get Quote</a>
+        <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn">Book Demo</a>
+        <a href="Get-3d-scan-service-quote.php" class="btn">Get 3D Scan Service quote</a>        
         <a href="https://us02web.zoom.us/j/5903189768?pwd=T3VucDArMUY1NGxNRU1NMnJMYnVuQT09" class="btn"><i class="fa-solid fa-video"></i>  Meet Us live Online</a>
       </div>
     </ul>    

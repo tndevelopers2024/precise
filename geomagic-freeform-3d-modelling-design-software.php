@@ -550,11 +550,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample3" aria-expanded="true" aria-controls="collapseExample">Where can I buy Geomagic Freeform software in India ?</h5>
                     <div class="left-border">
-                        <p class="text-white collapse" id="collapseExample3"> Precise3DM is an authorized reseller for 3DSystems Geomagic Freeform software in India located in various parts of the country to support PAN Indian customers.
+                        <p class="text-white collapse" id="collapseExample3"> Through Precise3DM, an authorised reseller of Hexagon Geomagic Freeform Software, offering software solutions. Purchasing this software through Precise3DM ensures seamless compatibility, along with dedicated pre-sales and post-sales support from a single trusted partner.
                         </p>
                     </div>
 
-                    <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample4" aria-expanded="true" aria-controls="collapseExample">is Geomagic Freeform a history based software?</h5>
+                    <h5 class="pre-color collapsed" data-toggle="collapse" href="#collapseExample4" aria-expanded="true" aria-controls="collapseExample">Is Geomagic Freeform a history based software?</h5>
                     <div class="left-border">
                         <p class="text-white collapse" id="collapseExample4">Yes, Geomagic Freeform has modelling history, however it does not require access to edit the shape, you can directly access 3d voxels and do sculpting to change or enhance the shape.</p>
                     </div>

@@ -619,7 +619,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="row mb-5">
                 <div class="col-12 text-center">
                     <h2 class="controlx-bundle-title">
-                        Bundle Geomagic Control X with<br>shining <span class="text-orange">3D Metrology grade Scanners</span>
+                        Bundle Geomagic Control X with<br>Shining <span class="text-orange">3D Metrology grade Scanners</span>
                     </h2>
                     <p class="controlx-bundle-subtitle">
                         Complete inspection solution for your manufacturing needs.
@@ -1136,10 +1136,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="col-lg-6 col-md-12 mb-4">
                     <div class="controlx-why-item">
                         <div class="controlx-why-icon-wrap">
-                            <img src="assets/images/geomagic_control_x/why2.png" alt="50+ Software Licenses Successfully Implemented">
+                            <img src="assets/images/geomagic_control_x/why2.png" alt="250+ Software Licenses Successfully Implemented">
                         </div>
                         <div class="controlx-why-content-wrap">
-                            <h3 class="controlx-why-item-title">50+ Software Licenses Successfully Implemented</h3>
+                            <h3 class="controlx-why-item-title">250+ Software Licenses Successfully Implemented</h3>
                             <p class="controlx-why-item-desc">
                                 From automotive and aerospace to foundry and precision manufacturing, we have helped companies successfully adopt inspection workflows.
                             </p>

@@ -114,7 +114,7 @@ $img = "assets/images/3d-scan-based-digital-sculpting";
                     <!-- Action Buttons -->
                     <div class="dsbss-hero-buttons">
                         <a href="3d-inspection-software-in-india.php" class="btn-dsbss-solid">3D Inspection Software</a>
-                        <a href="Get-3d-scan-service-quote.php" class="btn-dsbss-solid">Request a Quote</a>
+                        <a href="scanning-solution-form.php" class="btn-dsbss-solid">Request a Quote</a>
                         <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-dsbss-outline">Book a Live Demo</a>
                     </div>
 
@@ -716,13 +716,13 @@ $img = "assets/images/3d-scan-based-digital-sculpting";
                             <a href="einscan-rigil.php" class="btn-ts-know-more">Know More</a>
                         </div>
 
-                        <!-- Scanner 3: Epic 150 -->
+                        <!-- Scanner 3: Epic T150 -->
                         <div class="ts-subcard">
                             <div class="ts-subcard-img-box">
-                                <img src="<?= $img ?>/ts-scanner3.png" alt="Epic 150" class="img-fluid">
+                                <img src="<?= $img ?>/ts-scanner3.png" alt="Epic T150" class="img-fluid">
                             </div>
-                            <h4 class="ts-subcard-title">Epic 150</h4>
-                            <a href="Book-demo-get-quote-for-3D-scanner.php" class="btn-ts-know-more">Know More</a>
+                            <h4 class="ts-subcard-title">Epic T150</h4>
+                            <a href="https://wildplantts.com/high-precision-terrestrial-laser-scanner.html" class="btn-ts-know-more">Know More</a>
                         </div>
 
                     </div>
@@ -777,7 +777,7 @@ $img = "assets/images/3d-scan-based-digital-sculpting";
                             <img src="<?= $img ?>/capex-img.png" alt="Build Your Own Digital Sculpting Facility" class="img-fluid">
                         </div>
                     </div>
-                    <a href="3d-scanner-for-capex-investment.php" class="btn-co-orange">Explore Scanning & Software Solutions</a>
+                    <a href="3d-services.php" class="btn-co-orange">Explore Scanning & Software Solutions</a>
                 </div>
 
                 <!-- OPEX Card -->
@@ -799,7 +799,7 @@ $img = "assets/images/3d-scan-based-digital-sculpting";
                             <img src="<?= $img ?>/opex-img.png" alt="Outsource Your Organic Design Projects" class="img-fluid">
                         </div>
                     </div>
-                    <a href="Get-3d-scan-service-quote.php" class="btn-co-orange">Discuss Your Design Requirements</a>
+                    <a href="3d-products.php" class="btn-co-orange">Discuss Your Design Requirements</a>
                 </div>
 
             </div>

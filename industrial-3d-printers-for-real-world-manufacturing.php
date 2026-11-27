@@ -972,7 +972,7 @@
                             <div class="cms-card-content">
                                 <span class="cms-card-num">02</span>
                                 <h4 class="cms-card-title">3D Inspection</h4>
-                                <p class="cms-card-desc">Dimensional validation to ensue accuracy and quality.</p>
+                                <p class="cms-card-desc">Dimensional validation to ensure accuracy and quality.</p>
                             </div>
                             <div class="cms-card-img">
                                 <img src="assets/images/industrial-3d-printers-for-real-world-manufacturing/mi-img2.png" alt="3D Inspection" width="135" height="105" loading="lazy">

@@ -161,7 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          </div>
 
          <div class="back-home pb-3 pt-3">
-            <a class="back-to-home" href="">Back to Home <img src="assets/images/thanking-img/back.png" alt=""></a>
+            <a class="back-to-home" href="index.php">Back to Home <img src="assets/images/thanking-img/back.png" alt=""></a>
          </div>
       </div>
 

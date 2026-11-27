@@ -268,13 +268,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         ["title" => "Airfoil Twist Study", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card5-img.png", "link" => "airfoil-2d-and-3d-twist-study-analysis.php"],
                         ["title" => "Digital Volume Calculation", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card6-img.png", "link" => "3d-scan-based-digital-volume-calculation.php"],
                         ["title" => "Trend Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card7-img.png", "link" => "trend-analysis.php"],
-                        ["title" => "Wear & Tear Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card8-img.png", "link" => "#"],
+                        ["title" => "Wear & Tear Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card8-img.png", "link" => "3d-scan-based-wear-and-tear-inspection.php"],
                         ["title" => "Wall Thickness Analysis", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card9-img.png", "link" => "wall-thickness-analysis.php"],
                         ["title" => "2D Drawing-Based 3D<br>Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card10-img.png", "link" => "2d-drawing-based-inspection-using-3d-scan.php"],
                         ["title" => "PMI Inspection (Product<br>Manufacturing Information)", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card11-img.png", "link" => "scan-based-pmi-inspection.php"],
                         ["title" => "Gap and Flush<br>Measurement", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card12-img.png", "link" => "automotive-gap-flush-measurement.php"],
                         ["title" => "Small Batch Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card13-img.png" , "link" => "#"],
-                        ["title" => "First Article Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card14-img.png", "link" => "#"],
+                        ["title" => "First Article Inspection", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card14-img.png", "link" => "first-article-inspection.php"],
                         ["title" => "Surface Damage", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card15-img.png", "link" => "3d-scan-based-surface-damage-inspection.php"],
                         ["title" => "Class A Application", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/iqes-card16-img.png", "link" => "class-a-surfaces-application.php"],
                     ];
@@ -309,7 +309,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <?php
                     $redpd_cards = [
                         ["title" => "3D Scan to Mesh", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card1-img.png" , "link" => "3d-scan-to-mesh-model.php"],
-                        ["title" => "3D Scan to Parametric CAD", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3d  redpd-card2-img.png", "link" => "3d-scan-to-parametric-cad-modeling.php"],
+                        ["title" => "3D Scan to Parametric CAD", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card2-img.png", "link" => "3d-scan-to-parametric-cad-modeling.php"],
                         ["title" => "3D Scan to NURBS", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card3-img.png", "link" => "scan-to-nurbs-modelling.php"],
                         ["title" => "New Product Development<br>from Scan Data", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card4-img.png", "link" => "product-development-from-existing-scan.php"],
                         ["title" => "3D Scan to Hybrid<br>Modelling", "img" => "assets/images/3d-application-transform-hysical-reality-into-engineering-lntelligence/3dredpd-card5-img.png", "link" => "3d-scan-to-hybrid-modelling.php"],

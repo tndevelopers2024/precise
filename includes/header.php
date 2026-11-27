@@ -2024,6 +2024,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="dropdown-content">
                       <a href="3d-applications.php">Applications
                       </a>
+                      <a href="digital-manufacturing.php">Industries</a>
 
                     </div>
                   </div>
@@ -3251,6 +3252,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li class="nav-item">
             <div class="mob-down-list sub-down-list">
               <a class="nav-link" href="3d-applications.php">Applications</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="mob-down-list sub-down-list">
+              <a class="nav-link" href="digital-manufacturing.php">Industries</a>
             </div>
           </li>
         </ul>

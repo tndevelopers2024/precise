@@ -748,7 +748,7 @@ $img = "assets/images/3d-scan-based-wear-and-tear-inspection";
             </div>
           </div>
 
-          <a href="3d-services.php" class="wti-btn-orange wti-co-cta-btn">Discuss an In-House Solution</a>
+          <a href="3d-products.php" class="wti-btn-orange wti-co-cta-btn">Discuss an In-House Solution</a>
         </div>
 
         <!-- OPEX CARD -->
@@ -790,7 +790,7 @@ $img = "assets/images/3d-scan-based-wear-and-tear-inspection";
             </div>
           </div>
 
-          <a href="3d-products.php" class="wti-btn-orange wti-co-cta-btn">Request a Wear Inspection Quote</a>
+          <a href="3d-services.php" class="wti-btn-orange wti-co-cta-btn">Request a Wear Inspection Quote</a>
         </div>
       </div>
     </div>

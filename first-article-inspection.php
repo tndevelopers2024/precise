@@ -768,7 +768,7 @@ $img = "assets/images/first-article-inspection-using-3d-scanning";
               <li><span class="fai-green-dot"><i class="fa-solid fa-check"></i></span><span>Technical Support</span></li>
             </ul>
           </div>
-          <a href="3d-services.php" class="fai-btn-solid fai-co-btn">Discuss an In-House Solution <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          <a href="3d-products.php" class="fai-btn-solid fai-co-btn">Discuss an In-House Solution <i class="fa-solid fa-arrow-right ms-2"></i></a>
         </div>
 
         <!-- Option 2: OPEX -->
@@ -785,7 +785,7 @@ $img = "assets/images/first-article-inspection-using-3d-scanning";
               <li><span class="fai-green-dot"><i class="fa-solid fa-check"></i></span><span>No Software Investment</span></li>
             </ul>
           </div>
-          <a href="3d-products.php" class="fai-btn-solid fai-co-btn">Request an FAI Inspection Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          <a href="3d-services.php" class="fai-btn-solid fai-co-btn">Request an FAI Inspection Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
         </div>
       </div>
     </div>

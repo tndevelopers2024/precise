@@ -243,17 +243,17 @@
         </div>
     </section>
 
-    <!-- PAEK Material Capability section -->
+    <!-- PEEK Material Capability section -->
     <section class="fpmc-section pb-5">
         <div class="apollo-container">
             <div class="row fpmc-row">
                 
                 <!-- Left Intro Info -->
                 <div class="col-xl-3 col-lg-4 col-md-12 mb-4 fpmc-left-col">
-                    <h2 class="fpmc-title">Full PAEK<br>Material<br>Capability</h2>
+                    <h2 class="fpmc-title">Full PEEK<br>Material<br>Capability</h2>
                     <p class="fpmc-subtitle">Engineered for the most<br>demanding applications.</p>
                     <div class="fpmc-img-wrapper mt-4">
-                        <img src="assets/images/funmat-pro-310-apollo/fpmc-img1.png" alt="PAEK Materials" class="img-fluid rounded">
+                        <img src="assets/images/funmat-pro-310-apollo/fpmc-img1.png" alt="PEEK Materials" class="img-fluid rounded">
                     </div>
                 </div>
 

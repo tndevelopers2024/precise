@@ -777,7 +777,7 @@ $img = "assets/images/3d-scan-based-digital-sculpting";
                             <img src="<?= $img ?>/capex-img.png" alt="Build Your Own Digital Sculpting Facility" class="img-fluid">
                         </div>
                     </div>
-                    <a href="3d-services.php" class="btn-co-orange">Explore Scanning & Software Solutions</a>
+                    <a href="3d-products.php" class="btn-co-orange">Explore Scanning & Software Solutions</a>
                 </div>
 
                 <!-- OPEX Card -->
@@ -799,7 +799,7 @@ $img = "assets/images/3d-scan-based-digital-sculpting";
                             <img src="<?= $img ?>/opex-img.png" alt="Outsource Your Organic Design Projects" class="img-fluid">
                         </div>
                     </div>
-                    <a href="3d-products.php" class="btn-co-orange">Discuss Your Design Requirements</a>
+                    <a href="3d-services.php" class="btn-co-orange">Discuss Your Design Requirements</a>
                 </div>
 
             </div>
